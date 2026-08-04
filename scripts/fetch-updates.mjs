@@ -115,7 +115,7 @@ function parseAllEntries(xml) {
       const link = stripHtml(extractTag(block, "link"));
       const pubDate = extractTag(block, "pubDate") || extractTag(block, "dc:date");
       const description = stripHtml(extractTag(block, "description") || extractTag(block, "content:encoded"));
-      results.push({ title, link, date: toIsoDate(pubDate), summary: truncateWords(description, 55) });
+      results.push({ title, link, date: toIsoDate(pubDate), summary: truncateWords(description, 80) });
     }
     return results;
   }
@@ -128,7 +128,7 @@ function parseAllEntries(xml) {
       const link = extractAtomLink(block);
       const updated = extractTag(block, "updated") || extractTag(block, "published");
       const summary = stripHtml(extractTag(block, "summary") || extractTag(block, "content"));
-      results.push({ title, link, date: toIsoDate(updated), summary: truncateWords(summary, 55) });
+      results.push({ title, link, date: toIsoDate(updated), summary: truncateWords(summary, 80) });
     }
   }
 
@@ -157,7 +157,7 @@ async function fetchVendorFeed(vendor, url) {
 
   return {
     vendor,
-    title: truncateWords(latest.title, 16),
+    title: truncateWords(latest.title, 20),
     date: latest.date,
     summary: latest.summary,
     category: classify(latest.title + " " + latest.summary),
@@ -247,6 +247,7 @@ async function fetchNvdCvesForVendor(vendor) {
   }
   const data = await res.json();
   const vulns = data.vulnerabilities || [];
+  const totalCount = typeof data.totalResults === "number" ? data.totalResults : vulns.length;
 
   const items = vulns.map(v => {
     const cve = v.cve;
@@ -262,8 +263,10 @@ async function fetchNvdCvesForVendor(vendor) {
     };
   });
 
-  // Most severe and most recent first; cap so the ticker doesn't get
-  // overwhelmed by a single vendor in a bad week.
+  // Most severe and most recent first; cap the ticker's item list so it
+  // doesn't get overwhelmed by a single vendor in a bad week — but the
+  // *count* shown in the summary strip reflects the true 7-day total, not
+  // just this capped sample.
   const severityRank = { CRITICAL: 0, HIGH: 1, MEDIUM: 2, LOW: 3, UNKNOWN: 4 };
   items.sort((a, b) => {
     const rankDiff = (severityRank[a.severity] ?? 4) - (severityRank[b.severity] ?? 4);
@@ -271,7 +274,7 @@ async function fetchNvdCvesForVendor(vendor) {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
 
-  return items.slice(0, 5);
+  return { count: totalCount, items: items.slice(0, 5) };
 }
 
 async function fetchAllNvdData(existingNvd) {
