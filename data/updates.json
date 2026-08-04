@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-08-04T11:22:19.224Z",
+  "generatedAt": "2026-08-04T13:16:11.216Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
       "title": "Windows quality: an update on the commitment we made in March",
       "date": "2026-07-31",
-      "summary": "In March I wrote to you about our commitment to Windows quality . Four months in, the team and I…",
+      "summary": "In March I wrote to you about our commitment to Windows quality . Four months in, the team and I have been reflecting on our progress and wanted to s The post Windows quality: an update on the commitment we made in March appeared first on Windows Blog .",
       "category": "feature",
       "url": "https://blogs.windows.com/windows-insider/2026/07/31/windows-quality-an-update-on-the-commitment-we-made-in-march/",
       "count7d": 2
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Digital Transformation Isn’t About Technology, It’s About a Strong Foundation",
+      "title": "How Salling Group Uses SAP and AI to Improve Everyday Retail",
       "date": "2026-08-04",
-      "summary": "Ipiranga’s journey offers a powerful reminder that digital transformation is about assertive fundamentals.",
+      "summary": "The European retailer is positioned to apply AI at scale with its SAP Cloud ERP backbone.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/ipiranga-digital-transformation-strong-foundation/",
-      "count7d": 6
+      "url": "https://news.sap.com/2026/08/salling-group-ai-improve-everyday-retail/",
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "From Sovereign Cloud to New Hypervisors: What Service Providers Gain in Veeam…",
-      "date": "2026-08-03",
-      "summary": "Whether customers are evaluating new infrastructure platforms, looking to meet data sovereignty requirements, or strengthening their recovery strategy, service providers…",
+      "title": "Veeam Joins the Open Secure AI Alliance to Drive Agentic AI with a foundation of Trusted…",
+      "date": "2026-08-04",
+      "summary": "Veeam is proud to join the Open Secure AI Alliance alongside NVIDIA and other industry leaders to advance secure, open innovation in agentic Al. As the Data and Al Trust company, Veeam is helping organizations confidently protect, recover, and govern the data to accelerate safe AI at scale. As enterprises adopt agentic AI, the control…",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/veeam-service-provider-hypervisors-sovereign-cloud.html",
+      "url": "https://www.veeam.com/blog/veeam-open-secure-ai-alliance.html",
       "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "The Future of Connectivity: Cisco Testifies Before Senate Commerce Subcommittee on AI-Native…",
+      "title": "The AI invoice nobody planned for — and how Cisco is solving it from the inside",
       "date": "2026-08-04",
-      "summary": "Cisco’s Bob Everson, Chief Architect for Service Provider Mobility, testified before the Senate Commerce Telecom Subcommittee about AI's impact on…",
+      "summary": "Struggling with runaway AI costs? Explore how Cisco uses observability to track, attribute, and optimize token spend across our enterprise AI operations.",
       "category": "feature",
-      "url": "https://blogs.cisco.com/gov/the-future-of-connectivity-cisco-testifies-before-senate-commerce-subcommittee-on-ai-native-networking",
+      "url": "https://blogs.cisco.com/cisco-on-cisco/the-ai-invoice-nobody-planned-for-and-how-cisco-is-solving-it",
       "count7d": 9
     },
     "VMware": {
       "vendor": "VMware",
       "title": "VCF Breakroom Chats Episode 92: Simplifying VCF 9.1 Install and Brownfield Import",
       "date": "2026-08-03",
-      "summary": "In Episode 92 of VCF Breakroom Chats, Puneet Chawla (Product Management, Broadcom) joins Sehjung Hah (Product Marketing Engineer, Broadcom) to…",
+      "summary": "In Episode 92 of VCF Breakroom Chats, Puneet Chawla (Product Management, Broadcom) joins Sehjung Hah (Product Marketing Engineer, Broadcom) to discuss the install and import enhancements in VMware Cloud Foundation (VCF) 9.1. Learn how VCF 9.1 streamlines the path to a private cloud, whether you are building a new environment or bringing existing infrastructure into…",
       "category": "feature",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/08/03/vcf-breakroom-chats-episode-92-simplifying-vcf-9-1-install-and-brownfield-import/",
       "count7d": 10
@@ -50,19 +50,19 @@
       "vendor": "AWS",
       "title": "AWS Transform continuous modernization is now generally available",
       "date": "2026-08-03",
-      "summary": "AWS Transform continuous modernization is now generally available in all AWS Regions where AWS Transform is supported . This capability…",
+      "summary": "AWS Transform continuous modernization is now generally available in all AWS Regions where AWS Transform is supported . This capability helps engineering teams analyze and remediate technical debt across source code repositories at scale. Teams can connect GitHub organizations, GitLab groups, and Bitbucket workspaces, run analyses on demand or on a recurring schedule, and prioritize…",
       "category": "feature",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
       "count7d": 42
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "NEBS Level 3 Validates PowerEdge R7715 for Demanding Telecom Sites",
-      "date": "2026-07-31",
-      "summary": "PowerEdge R7715 earns NEBS Level 3, delivering reliable telecom performance from core to far edge with dense single‑socket design.",
+      "title": "No Cloud Required",
+      "date": "2026-08-04",
+      "summary": "Pole to pole, mountain to desert, run your own 70B AI model in the field. No cloud or internet required.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/nebs-level-3-validates-poweredge-r7715-for-demanding-telecom-sites/",
-      "count7d": 9
+      "url": "https://www.dell.com/en-us/blog/no-cloud-required/",
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
