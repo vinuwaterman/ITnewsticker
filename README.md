@@ -12,10 +12,18 @@ background by a scheduled GitHub Action — **no API key and no cost.**
 
 ## How it works
 
-- **`scripts/fetch-updates.mjs`** — a small Node script that reads each
-  vendor's security-advisory / PSIRT feed, pulls out the latest entry,
-  classifies it as Critical / Patch / End-of-life, and counts how many
-  advisories fall in the last 7 days. No account, key, or paid API involved.
+- **`scripts/fetch-updates.mjs`** — a small Node script that does two things:
+  1. Reads each vendor's security-advisory / PSIRT feed, pulls out the
+     latest entry, classifies it as Critical / Patch / End-of-life, and
+     counts how many advisories fall in the last 7 days (drives the
+     featured card, vendor summary, and critical alerts panel).
+  2. Queries the **National Vulnerability Database (NVD)** — a free, public
+     US government CVE database — for each vendor's actual CVE records from
+     the last 7 days, with severity ratings. These feed the ticker
+     specifically, since NVD covers every vendor consistently (unlike
+     individual vendor feeds, which vary in reliability).
+
+  No account, key, or paid API required for either part.
 - **`.github/workflows/update-data.yml`** — a GitHub Actions workflow that
   runs that script every 30 minutes and commits the updated
   `data/updates.json` back to the repo.
@@ -23,6 +31,34 @@ background by a scheduled GitHub Action — **no API key and no cost.**
   `data/updates.json` over plain HTTP; refresh happens automatically in the
   background (the page re-checks the data file every 5 minutes) — there's
   no button to click, since nobody's expected to be at the TV to click one.
+
+## About the NVD integration
+
+The ticker now scrolls through, per vendor: its latest advisory/update from
+its own feed, followed by up to 5 actual CVE records from NVD published in
+the last 7 days (most severe and most recent first), each tagged with an
+official severity rating — Critical, High, Medium, or Low.
+
+This uses NVD's public API (`https://services.nvd.nist.gov/rest/json/cves/2.0`),
+searching by vendor name against CVE descriptions. A few notes:
+
+- **No API key needed** at this request volume — NVD allows 5 requests per
+  rolling 30 seconds without one, and the script deliberately waits ~6.5
+  seconds between each of the 9 vendor requests to stay under that limit.
+  This adds roughly a minute to each workflow run.
+- **Optional**: if you get a free API key from
+  [nvd.nist.gov/developers/request-an-api-key](https://nvd.nist.gov/developers/request-an-api-key)
+  (raises the rate limit, useful if you add more vendors later), add it as
+  a repo secret named `NVD_API_KEY` and the workflow will pick it up
+  automatically — nothing else to change.
+- **Keyword matching, not exact CPE matching**: NVD is searched by vendor
+  name as a keyword against CVE descriptions, which is simple and requires
+  no per-product configuration, but can occasionally surface a CVE that
+  mentions the vendor without being one of their own products. For a TV
+  awareness screen this tradeoff is reasonable; it would need more precise
+  (and more complex) CPE-based matching to fully eliminate.
+- If NVD has no CVEs for a vendor in a given week, that vendor simply
+  contributes no CVE items to the ticker that cycle — nothing breaks.
 
 ## Setup
 
