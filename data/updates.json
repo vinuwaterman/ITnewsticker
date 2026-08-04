@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-04T19:37:47.698Z",
+  "generatedAt": "2026-08-04T20:19:38.055Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Bring your security stack into Edge for Business — with support for more partners",
-      "date": "2026-08-04",
-      "summary": "At a glance Edge for Business security connectors extend your security tools into the browser, so you gain visibility and enforcement where work happens. This update adds new partner integrations, including Cisco Secure Access, The post Bring your security stack into Edge for Business — with support for more partners appeared first on Windows Blog…",
-      "category": "critical",
-      "url": "https://blogs.windows.com/msedgedev/2026/08/04/bring-your-security-stack-into-edge-for-business-with-support-for-more-partners/",
-      "count7d": 3
+      "title": "CVE-2026-50416 Win32k Information Disclosure Vulnerability",
+      "date": "2026-08-03",
+      "summary": "Acknowledgement Updated",
+      "category": "patch",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50416",
+      "count7d": 9
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Operationalizing Voice Security with Splunk: From AI Detection to Real-Time Action",
-      "date": "2026-08-04",
-      "summary": "Cisco IT modernized our voice security posture by shifting from reactive, manual processes to a proactive, AI-driven defense. Dive deeper into the technical architecture that made the transformation possible.",
-      "category": "critical",
-      "url": "https://blogs.cisco.com/cisco-on-cisco/operationalizing-voice-security-with-splunk-from-ai-detection-to-real-time-action",
-      "count7d": 9
+      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
+      "date": "2026-08-03",
+      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.&nbsp; This vulnerability is due to an improper system process that is created at boot time.…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+      "count7d": 3
     },
     "VMware": {
       "vendor": "VMware",
@@ -48,12 +48,12 @@
     },
     "AWS": {
       "vendor": "AWS",
-      "title": "Amazon EC2 I8g instances now available in AWS Europe (Paris), Asia Pacific (Jakarta) regions",
+      "title": "AWS Security Hub Extended adds supply chain security as its 10th category",
       "date": "2026-08-04",
-      "summary": "AWS announces the general availability of Amazon EC2 Storage Optimized I8g instances in AWS Europe (Paris) and Asia Pacific (Jakarta) regions.&nbsp;I8g instances are powered by AWS Graviton4 processors and offer the best compute performance in Amazon EC2 for storage-intensive workloads. I8g instances use the third generation AWS Nitro SSDs, local NVMe storage that deliver up…",
-      "category": "feature",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
-      "count7d": 44
+      "summary": "The AWS Security Hub Extended plan now includes Supply Chain Security as its 10th security category, with Chainguard and Socket as the curated partners. As developers adopt open-source libraries at scale, security teams need confidence that the packages entering their environments are trustworthy and free from malicious code. With this addition, you can detect and…",
+      "category": "patch",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
+      "count7d": 47
     },
     "Dell": {
       "vendor": "Dell",
@@ -71,6 +71,15 @@
       "summary": "How Lenovo is helping customers make more informed technology decisions as an EPEAT 2.0 Launch Partner.",
       "category": "feature",
       "url": "https://news.lenovo.com/making-sustainable-technology-epeat/",
+      "count7d": 1
+    },
+    "Fortinet": {
+      "vendor": "Fortinet",
+      "title": "Buffer overread in authd and wad daemon",
+      "date": "2026-07-14",
+      "summary": "CVSSv3 Score: 4.1 A buffer over-read vulnerability [CWE-126] in FortiOS, FortiProxy, and FortiSASE may allow an authenticated remote attacker to return a portion of device memory in the redirect response via submitting a specially crafted request. Revised on 2026-07-14 00:00:00",
+      "category": "patch",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-154",
       "count7d": 1
     }
   }
