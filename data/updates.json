@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T21:13:49.142Z",
+  "generatedAt": "2026-08-04T21:28:27.043Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,9 +21,9 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Joins the Open Secure AI Alliance to Drive Agentic AI with a foundation of Trusted…",
+      "title": "Veeam Joins the Open Secure AI Alliance to Drive Agentic AI with a foundation of Trusted Data",
       "date": "2026-08-04",
-      "summary": "Veeam is proud to join the Open Secure AI Alliance alongside NVIDIA and other industry leaders to advance secure, open innovation in agentic Al. As the Data and Al Trust company, Veeam is helping organizations confidently protect, recover, and govern the data to accelerate safe AI at scale. As enterprises adopt agentic AI, the control…",
+      "summary": "Veeam is proud to join the Open Secure AI Alliance alongside NVIDIA and other industry leaders to advance secure, open innovation in agentic Al. As the Data and Al Trust company, Veeam is helping organizations confidently protect, recover, and govern the data to accelerate safe AI at scale. As enterprises adopt agentic AI, the control point has moved from the perimeter to the data itself. AI must be grounded in data that is secure, governed, and protected in order to…",
       "category": "feature",
       "url": "https://www.veeam.com/blog/veeam-open-secure-ai-alliance.html",
       "count7d": 5
@@ -32,7 +32,7 @@
       "vendor": "Cisco",
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
       "date": "2026-08-03",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.&nbsp; This vulnerability is due to an improper system process that is created at boot time.…",
+      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.&nbsp; This vulnerability is due to an improper system process that is created at boot time. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute a…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "count7d": 3
@@ -41,7 +41,7 @@
       "vendor": "VMware",
       "title": "Simplify Kubernetes Security with the VMware vSphere Kubernetes Service Policy Bundle",
       "date": "2026-08-04",
-      "summary": "As Kubernetes adoption continues to grow across enterprise environments, platform teams are increasingly responsible for more than just delivering clusters. They are expected to provide secure, standardized platforms that enable application teams to deploy quickly while meeting organizational security and compliance requirements. Kubernetes admission policies have become an important part of that strategy. This means…",
+      "summary": "As Kubernetes adoption continues to grow across enterprise environments, platform teams are increasingly responsible for more than just delivering clusters. They are expected to provide secure, standardized platforms that enable application teams to deploy quickly while meeting organizational security and compliance requirements. Kubernetes admission policies have become an important part of that strategy. This means &#8230; Continued The post Simplify Kubernetes Security with the VMware vSphere Kubernetes Service Policy Bundle appeared first on VMware Blogs .",
       "category": "patch",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/08/04/simplify-kubernetes-security-with-the-vmware-vsphere-kubernetes-service-policy-bundle/",
       "count7d": 10
@@ -50,7 +50,7 @@
       "vendor": "AWS",
       "title": "Amazon Bedrock launches Web Search for OpenAI GPT models",
       "date": "2026-08-04",
-      "summary": "Today, we are announcing the general availability of Web Search on Amazon Bedrock, a built-in server side tool that performs web search entirely within AWS, enabling OpenAI models (GPT-5.4, GPT-5.5, and GPT-5.6 Sol/Terra/Luna) to ground responses with current web knowledge while maintaining data residency within your secured AWS environment with zero data egress. Previously, adding…",
+      "summary": "Today, we are announcing the general availability of Web Search on Amazon Bedrock, a built-in server side tool that performs web search entirely within AWS, enabling OpenAI models (GPT-5.4, GPT-5.5, and GPT-5.6 Sol/Terra/Luna) to ground responses with current web knowledge while maintaining data residency within your secured AWS environment with zero data egress. Previously, adding web grounding required onboarding a third-party search provider, managing separate API keys and billing, building custom orchestration, and conducting additional compliance reviews for each external…",
       "category": "feature",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/",
       "count7d": 50
@@ -84,174 +84,201 @@
     }
   },
   "nvd": {
-    "Microsoft": [
-      {
-        "id": "CVE-2026-62870",
-        "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
-        "date": "2026-08-04",
-        "severity": "HIGH",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62870"
-      },
-      {
-        "id": "CVE-2026-65802",
-        "title": "External control of file name or path in Microsoft Edge for Android allows an unauthorized attacker to disclose information over a network.",
-        "date": "2026-08-04",
-        "severity": "HIGH",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65802"
-      },
-      {
-        "id": "CVE-2026-66310",
-        "title": "External control of file name or path in Microsoft Edge for Android allows an unauthorized attacker to disclose information locally.",
-        "date": "2026-08-04",
-        "severity": "HIGH",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66310"
-      },
-      {
-        "id": "CVE-2026-66315",
-        "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-        "date": "2026-08-04",
-        "severity": "HIGH",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66315"
-      },
-      {
-        "id": "CVE-2026-66318",
-        "title": "Origin validation error in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network.",
-        "date": "2026-08-04",
-        "severity": "HIGH",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66318"
-      }
-    ],
-    "SAP": [],
-    "Veeam": [
-      {
-        "id": "CVE-2026-64635",
-        "title": "Improper handling of the returnUrl parameter in the Forgot Password function of Veeam Service Provider Console allows an unauthenticated attacker to control the domain of the generated password reset link. When the targeted user clicks…",
-        "date": "2026-07-30",
-        "severity": "MEDIUM",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64635"
-      },
-      {
-        "id": "CVE-2026-58067",
-        "title": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to exhaust host memory and cause adenial of service.",
-        "date": "2026-08-04",
-        "severity": "UNKNOWN",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58067"
-      },
-      {
-        "id": "CVE-2026-58071",
-        "title": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to access the proxied appliance API asPortal Administrator during a short window after an administrator session begins.",
-        "date": "2026-08-04",
-        "severity": "UNKNOWN",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58071"
-      },
-      {
-        "id": "CVE-2026-58072",
-        "title": "A vulnerability in Veeam Service Provider Console allowing arbitrary file write on the management server, which can lead to remotecode execution.",
-        "date": "2026-08-04",
-        "severity": "UNKNOWN",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58072"
-      },
-      {
-        "id": "CVE-2026-58073",
-        "title": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to impersonate a managed agent andobtain that agent's credentials.",
-        "date": "2026-08-04",
-        "severity": "UNKNOWN",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58073"
-      }
-    ],
-    "Cisco": [
-      {
-        "id": "CVE-2026-20316",
-        "title": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data…",
-        "date": "2026-07-29",
-        "severity": "MEDIUM",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316"
-      }
-    ],
-    "VMware": [
-      {
-        "id": "CVE-2026-47876",
-        "title": "VMware ESX contains an out-of-bounds write vulnerability in the VMXNET3 virtual network adapter. A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute…",
-        "date": "2026-07-30",
-        "severity": "CRITICAL",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47876"
-      },
-      {
-        "id": "CVE-2026-59309",
-        "title": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. A malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system.",
-        "date": "2026-07-30",
-        "severity": "CRITICAL",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59309"
-      },
-      {
-        "id": "CVE-2026-59310",
-        "title": "VMware vCenter contains a directory traversal vulnerability in the Syslog server. A malicious actor with network access to vCenter may exploit this issue to execute arbitrary code.",
-        "date": "2026-07-30",
-        "severity": "CRITICAL",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310"
-      },
-      {
-        "id": "CVE-2026-41703",
-        "title": "VMware ESX, Workstation, and Fusion contain an out-of-bounds read vulnerability. A malicious actor with VM deployment privileges could trigger an out-of-bounds read, potentially leading to information disclosure or more likely a Denial-of-Service (DoS) condition of…",
-        "date": "2026-07-30",
-        "severity": "HIGH",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41703"
-      },
-      {
-        "id": "CVE-2026-41709",
-        "title": "VMware ESX contains an insufficient logging vulnerability. A malicious administrator could exploit this issue to perform certain operations without them being logged.",
-        "date": "2026-07-30",
-        "severity": "LOW",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
-      }
-    ],
-    "AWS": [],
-    "Dell": [
-      {
-        "id": "CVE-2026-59912",
-        "title": "Dell Display and Peripheral Manager (DDPM Mac), versions prior to 2.3.0.1005, contain an Improper Access Control vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges and…",
-        "date": "2026-08-03",
-        "severity": "HIGH",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59912"
-      },
-      {
-        "id": "CVE-2026-59913",
-        "title": "Dell Display and Peripheral Manager (DDPM Mac), versions prior to 2.3.0.1005, contain a Missing Authentication for Critical Function vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of…",
-        "date": "2026-08-03",
-        "severity": "HIGH",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59913"
-      },
-      {
-        "id": "CVE-2026-40717",
-        "title": "Dell Monitor driver, version 1.0.0.0, contains an Improper Link Resolution Before File Access ('Link Following') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
-        "date": "2026-08-03",
-        "severity": "MEDIUM",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40717"
-      }
-    ],
-    "Fortinet": [],
-    "Lenovo": [
-      {
-        "id": "CVE-2026-16793",
-        "title": "An improper neutralization of special elements used in an operating system command vulnerability was reported in Lenovo XClarity Orchestrator (LXCO) 2.2.0 that could allow an authenticated attacker to execute arbitrary operating system commands as a…",
-        "date": "2026-08-04",
-        "severity": "HIGH",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16793"
-      },
-      {
-        "id": "CVE-2026-16792",
-        "title": "An improper certificate validation vulnerability was reported in multiple Lenovo XClarity Orchestrator (LXCO) 2.2.0 microservices that could allow an adjacent network attacker to intercept sensitive communications by performing a machine-in-the-middle attack against HTTPS connections during…",
-        "date": "2026-08-04",
-        "severity": "MEDIUM",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16792"
-      },
-      {
-        "id": "CVE-2026-16791",
-        "title": "A temporary file creation vulnerability in the Linux version of Lenovo XClarity Essentials OneCLI 5.5.0 and below could allow a local low-privileged attacker to overwrite or truncate arbitrary local files with program-generated data when OneCLI…",
-        "date": "2026-08-04",
-        "severity": "LOW",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16791"
-      }
-    ]
+    "Microsoft": {
+      "count": 18,
+      "items": [
+        {
+          "id": "CVE-2026-62870",
+          "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-08-04",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62870"
+        },
+        {
+          "id": "CVE-2026-65802",
+          "title": "External control of file name or path in Microsoft Edge for Android allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-08-04",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65802"
+        },
+        {
+          "id": "CVE-2026-66310",
+          "title": "External control of file name or path in Microsoft Edge for Android allows an unauthorized attacker to disclose information locally.",
+          "date": "2026-08-04",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66310"
+        },
+        {
+          "id": "CVE-2026-66315",
+          "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-08-04",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66315"
+        },
+        {
+          "id": "CVE-2026-66318",
+          "title": "Origin validation error in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-08-04",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66318"
+        }
+      ]
+    },
+    "SAP": {
+      "count": 0,
+      "items": []
+    },
+    "Veeam": {
+      "count": 5,
+      "items": [
+        {
+          "id": "CVE-2026-64635",
+          "title": "Improper handling of the returnUrl parameter in the Forgot Password function of Veeam Service Provider Console allows an unauthenticated attacker to control the domain of the generated password reset link. When the targeted user clicks…",
+          "date": "2026-07-30",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64635"
+        },
+        {
+          "id": "CVE-2026-58067",
+          "title": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to exhaust host memory and cause adenial of service.",
+          "date": "2026-08-04",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58067"
+        },
+        {
+          "id": "CVE-2026-58071",
+          "title": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to access the proxied appliance API asPortal Administrator during a short window after an administrator session begins.",
+          "date": "2026-08-04",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58071"
+        },
+        {
+          "id": "CVE-2026-58072",
+          "title": "A vulnerability in Veeam Service Provider Console allowing arbitrary file write on the management server, which can lead to remotecode execution.",
+          "date": "2026-08-04",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58072"
+        },
+        {
+          "id": "CVE-2026-58073",
+          "title": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to impersonate a managed agent andobtain that agent's credentials.",
+          "date": "2026-08-04",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58073"
+        }
+      ]
+    },
+    "Cisco": {
+      "count": 1,
+      "items": [
+        {
+          "id": "CVE-2026-20316",
+          "title": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data…",
+          "date": "2026-07-29",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316"
+        }
+      ]
+    },
+    "VMware": {
+      "count": 5,
+      "items": [
+        {
+          "id": "CVE-2026-47876",
+          "title": "VMware ESX contains an out-of-bounds write vulnerability in the VMXNET3 virtual network adapter. A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute…",
+          "date": "2026-07-30",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47876"
+        },
+        {
+          "id": "CVE-2026-59309",
+          "title": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. A malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system.",
+          "date": "2026-07-30",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59309"
+        },
+        {
+          "id": "CVE-2026-59310",
+          "title": "VMware vCenter contains a directory traversal vulnerability in the Syslog server. A malicious actor with network access to vCenter may exploit this issue to execute arbitrary code.",
+          "date": "2026-07-30",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310"
+        },
+        {
+          "id": "CVE-2026-41703",
+          "title": "VMware ESX, Workstation, and Fusion contain an out-of-bounds read vulnerability. A malicious actor with VM deployment privileges could trigger an out-of-bounds read, potentially leading to information disclosure or more likely a Denial-of-Service (DoS) condition of…",
+          "date": "2026-07-30",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41703"
+        },
+        {
+          "id": "CVE-2026-41709",
+          "title": "VMware ESX contains an insufficient logging vulnerability. A malicious administrator could exploit this issue to perform certain operations without them being logged.",
+          "date": "2026-07-30",
+          "severity": "LOW",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
+        }
+      ]
+    },
+    "AWS": {
+      "count": 0,
+      "items": []
+    },
+    "Dell": {
+      "count": 3,
+      "items": [
+        {
+          "id": "CVE-2026-59912",
+          "title": "Dell Display and Peripheral Manager (DDPM Mac), versions prior to 2.3.0.1005, contain an Improper Access Control vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges and…",
+          "date": "2026-08-03",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59912"
+        },
+        {
+          "id": "CVE-2026-59913",
+          "title": "Dell Display and Peripheral Manager (DDPM Mac), versions prior to 2.3.0.1005, contain a Missing Authentication for Critical Function vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of…",
+          "date": "2026-08-03",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59913"
+        },
+        {
+          "id": "CVE-2026-40717",
+          "title": "Dell Monitor driver, version 1.0.0.0, contains an Improper Link Resolution Before File Access ('Link Following') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
+          "date": "2026-08-03",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40717"
+        }
+      ]
+    },
+    "Fortinet": {
+      "count": 0,
+      "items": []
+    },
+    "Lenovo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "CVE-2026-16793",
+          "title": "An improper neutralization of special elements used in an operating system command vulnerability was reported in Lenovo XClarity Orchestrator (LXCO) 2.2.0 that could allow an authenticated attacker to execute arbitrary operating system commands as a…",
+          "date": "2026-08-04",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16793"
+        },
+        {
+          "id": "CVE-2026-16792",
+          "title": "An improper certificate validation vulnerability was reported in multiple Lenovo XClarity Orchestrator (LXCO) 2.2.0 microservices that could allow an adjacent network attacker to intercept sensitive communications by performing a machine-in-the-middle attack against HTTPS connections during…",
+          "date": "2026-08-04",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16792"
+        },
+        {
+          "id": "CVE-2026-16791",
+          "title": "A temporary file creation vulnerability in the Linux version of Lenovo XClarity Essentials OneCLI 5.5.0 and below could allow a local low-privileged attacker to overwrite or truncate arbitrary local files with program-generated data when OneCLI…",
+          "date": "2026-08-04",
+          "severity": "LOW",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16791"
+        }
+      ]
+    }
   }
 }
