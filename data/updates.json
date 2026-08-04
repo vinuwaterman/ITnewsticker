@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-04T15:55:31.652Z",
+  "generatedAt": "2026-08-04T17:49:40.040Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Windows quality: an update on the commitment we made in March",
-      "date": "2026-07-31",
-      "summary": "In March I wrote to you about our commitment to Windows quality . Four months in, the team and I have been reflecting on our progress and wanted to s The post Windows quality: an update on the commitment we made in March appeared first on Windows Blog .",
-      "category": "feature",
-      "url": "https://blogs.windows.com/windows-insider/2026/07/31/windows-quality-an-update-on-the-commitment-we-made-in-march/",
-      "count7d": 2
+      "title": "Bring your security stack into Edge for Business — with support for more partners",
+      "date": "2026-08-04",
+      "summary": "At a glance Edge for Business security connectors extend your security tools into the browser, so you gain visibility and enforcement where work happens. This update adds new partner integrations, including Cisco Secure Access, The post Bring your security stack into Edge for Business — with support for more partners appeared first on Windows Blog…",
+      "category": "critical",
+      "url": "https://blogs.windows.com/msedgedev/2026/08/04/bring-your-security-stack-into-edge-for-business-with-support-for-more-partners/",
+      "count7d": 3
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,29 +39,29 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF Breakroom Chats Episode 92: Simplifying VCF 9.1 Install and Brownfield Import",
-      "date": "2026-08-03",
-      "summary": "In Episode 92 of VCF Breakroom Chats, Puneet Chawla (Product Management, Broadcom) joins Sehjung Hah (Product Marketing Engineer, Broadcom) to discuss the install and import enhancements in VMware Cloud Foundation (VCF) 9.1. Learn how VCF 9.1 streamlines the path to a private cloud, whether you are building a new environment or bringing existing infrastructure into…",
+      "title": "Using AI for Product Management – The Tanzu Platform product management experience",
+      "date": "2026-08-04",
+      "summary": "“Six weeks ago, I was like, this is a disaster,” Chris McClanahan told me in our recent conversation about how the Tanzu product teams have been using AI. It got better though. Now the team is able to get feedback on feature ideas in a day or two and speed up the development process. As…",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/03/vcf-breakroom-chats-episode-92-simplifying-vcf-9-1-install-and-brownfield-import/",
+      "url": "https://blogs.vmware.com/tanzu/using-ai-for-product-management-the-tanzu-platform-product-management-experience/",
       "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
-      "title": "AWS Transform continuous modernization is now generally available",
-      "date": "2026-08-03",
-      "summary": "AWS Transform continuous modernization is now generally available in all AWS Regions where AWS Transform is supported . This capability helps engineering teams analyze and remediate technical debt across source code repositories at scale. Teams can connect GitHub organizations, GitLab groups, and Bitbucket workspaces, run analyses on demand or on a recurring schedule, and prioritize…",
+      "title": "Amazon EC2 I8g instances now available in AWS Europe (Paris), Asia Pacific (Jakarta) regions",
+      "date": "2026-08-04",
+      "summary": "AWS announces the general availability of Amazon EC2 Storage Optimized I8g instances in AWS Europe (Paris) and Asia Pacific (Jakarta) regions.&nbsp;I8g instances are powered by AWS Graviton4 processors and offer the best compute performance in Amazon EC2 for storage-intensive workloads. I8g instances use the third generation AWS Nitro SSDs, local NVMe storage that deliver up…",
       "category": "feature",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
-      "count7d": 42
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
+      "count7d": 43
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Calibrate Your Monitor for Accurate Color",
+      "title": "Why Cyber Recovery Must Prioritize Business-Critical Workloads",
       "date": "2026-08-04",
-      "summary": "Calibrate your monitor for accurate color, better HDR, and crisp text with step-by-step settings and tools.",
+      "summary": "Recovery that restores systems isn’t the same as recovery that restores the business. Here’s the difference.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/how-to-calibrate-your-monitor-for-accurate-color/",
+      "url": "https://www.dell.com/en-us/blog/why-cyber-recovery-must-prioritize-business-critical-workloads/",
       "count7d": 10
     },
     "Lenovo": {
