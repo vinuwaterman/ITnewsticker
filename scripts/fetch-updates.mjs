@@ -1,35 +1,32 @@
-// Fetches the latest post from each vendor's official RSS/Atom feed and
-// writes the result to data/updates.json. No API key, no cost — just public
-// XML feeds published by each vendor.
+// Fetches the latest post from each vendor's security-advisory / vulnerability
+// feed and writes the result to data/updates.json. No API key, no cost — just
+// public XML feeds published by each vendor.
 //
 // Requires: Node.js 18+ (built-in fetch).
 //
-// NOTE ON FEED URLS: vendors occasionally change their blog platforms, which
-// changes feed URLs. If a vendor below starts failing, find its new feed URL
-// (look for a small RSS icon on their blog, view page source for
-// <link rel="alternate" type="application/rss+xml" href="...">, or try
-// appending /feed or /rss to the blog's root URL) and update FEEDS below.
-
-import fs from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUTPUT_PATH = path.join(__dirname, "..", "data", "updates.json");
-
-// Update this list to change which vendors are tracked, or swap in a more
-// specific feed (e.g. a security-advisories-only feed instead of the general
-// blog) if that's more useful for your TV screen.
+// NOTE ON FEED URLS AND CONFIDENCE: security-advisory feeds are far less
+// standardized than general company blogs, and several vendors have moved
+// away from plain RSS toward API/portal-based disclosure systems. The list
+// below is best-effort; each entry is commented with a rough confidence
+// level. Check the Actions log after your first run — any vendor whose feed
+// URL is wrong will fail loudly there and just keep showing its last known
+// data instead of breaking the page. To find/replace a broken URL: look for
+// an RSS icon on the vendor's security-advisories or PSIRT page, view page
+// source for <link rel="alternate" type="application/rss+xml" href="...">,
+// or check the vendor's developer/security documentation for a feed URL.
 const FEEDS = [
-  { name: "Microsoft", url: "https://blogs.windows.com/feed/" },
-  { name: "SAP",       url: "https://news.sap.com/feed/" },
-  { name: "Veeam",     url: "https://www.veeam.com/blog/feed" },
-  { name: "Cisco",     url: "https://blogs.cisco.com/feed" },
-  { name: "VMware",    url: "https://blogs.vmware.com/feed" },
-  { name: "AWS",       url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/" },
-  { name: "Dell",      url: "https://www.dell.com/en-us/blog/feed/" },
-  { name: "Fortinet",  url: "https://www.fortinet.com/blog/rss" },
-  { name: "Lenovo",    url: "https://news.lenovo.com/feed/" }
+  // Higher confidence — long-standing, documented advisory feeds.
+  { name: "Cisco",     url: "https://tools.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml" },
+  { name: "Fortinet",  url: "https://filestore.fortinet.com/fortiguard/rss/ir.xml" },
+
+  // Lower confidence — best-effort guess, verify once live.
+  { name: "Microsoft", url: "https://api.msrc.microsoft.com/update-guide/rss" },
+  { name: "SAP",       url: "https://news.sap.com/tag/security/feed/" },
+  { name: "Veeam",     url: "https://www.veeam.com/security-advisories.rss" },
+  { name: "VMware",    url: "https://www.vmware.com/security/advisories.xml" },
+  { name: "AWS",       url: "https://aws.amazon.com/security/security-bulletins/rss/" },
+  { name: "Dell",      url: "https://www.dell.com/support/security/en-us/rss" },
+  { name: "Lenovo",    url: "https://support.lenovo.com/us/en/product_security/rss" }
 ];
 
 function decodeEntities(str) {
@@ -74,9 +71,22 @@ function toIsoDate(dateStr) {
 
 function classify(text) {
   const t = text.toLowerCase();
-  if (t.includes("security") || t.includes("vulnerab") || t.includes("cve") || t.includes("advisory")) return "critical";
-  if (t.includes("patch") || t.includes("hotfix") || t.includes("fix") || t.includes("update kb")) return "patch";
+
   if (t.includes("end of life") || t.includes("end-of-life") || t.includes("deprecat") || t.includes("retire")) return "eol";
+
+  const mentionsSecurity = t.includes("security") || t.includes("vulnerab") || t.includes("cve") || t.includes("advisory") || t.includes("exploit");
+
+  if (mentionsSecurity) {
+    // Distinguish true critical/high-severity vulnerabilities from routine,
+    // lower-severity advisories — otherwise every item from a security feed
+    // would land in "Critical" and the label loses meaning.
+    const highSeverity = t.includes("critical") || t.includes("high severity") || t.includes("high-severity")
+      || t.includes("cvss:3") && (t.includes(" 9.") || t.includes(" 10.")) // rough CVSS 9.x/10.x mention
+      || t.includes("actively exploited") || t.includes("zero-day") || t.includes("zero day");
+    return highSeverity ? "critical" : "patch";
+  }
+
+  if (t.includes("patch") || t.includes("hotfix") || t.includes("fix") || t.includes("update kb")) return "patch";
   return "feature";
 }
 
