@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:55:21.099Z",
+  "generatedAt": "2026-08-04T21:13:49.142Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,21 +39,21 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Meet the VMware Data Services Team at VMware Explore 2026",
+      "title": "Simplify Kubernetes Security with the VMware vSphere Kubernetes Service Policy Bundle",
       "date": "2026-08-04",
-      "summary": "Real conversations. A hands-on lab. Let&#8217;s make the most of our time together in Las Vegas! VMware Explore 2026 is almost here, and the VMware Data Services Manager team has two sessions worth putting on your calendar right now. Whether you&#8217;re a platform engineer trying to get your arms around database sprawl, a DBA who…",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/04/meet-the-vmware-data-services-team-at-vmware-explore-2026/",
+      "summary": "As Kubernetes adoption continues to grow across enterprise environments, platform teams are increasingly responsible for more than just delivering clusters. They are expected to provide secure, standardized platforms that enable application teams to deploy quickly while meeting organizational security and compliance requirements. Kubernetes admission policies have become an important part of that strategy. This means…",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/04/simplify-kubernetes-security-with-the-vmware-vsphere-kubernetes-service-policy-bundle/",
       "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
-      "title": "AWS Security Hub Extended adds supply chain security as its 10th category",
+      "title": "Amazon Bedrock launches Web Search for OpenAI GPT models",
       "date": "2026-08-04",
-      "summary": "The AWS Security Hub Extended plan now includes Supply Chain Security as its 10th security category, with Chainguard and Socket as the curated partners. As developers adopt open-source libraries at scale, security teams need confidence that the packages entering their environments are trustworthy and free from malicious code. With this addition, you can detect and…",
-      "category": "patch",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
-      "count7d": 47
+      "summary": "Today, we are announcing the general availability of Web Search on Amazon Bedrock, a built-in server side tool that performs web search entirely within AWS, enabling OpenAI models (GPT-5.4, GPT-5.5, and GPT-5.6 Sol/Terra/Luna) to ground responses with current web knowledge while maintaining data residency within your secured AWS environment with zero data egress. Previously, adding…",
+      "category": "feature",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/",
+      "count7d": 50
     },
     "Dell": {
       "vendor": "Dell",
