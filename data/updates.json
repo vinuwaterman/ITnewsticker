@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T13:16:11.216Z",
+  "generatedAt": "2026-08-04T15:55:31.652Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "The AI invoice nobody planned for — and how Cisco is solving it from the inside",
+      "title": "Operationalizing Voice Security with Splunk: From AI Detection to Real-Time Action",
       "date": "2026-08-04",
-      "summary": "Struggling with runaway AI costs? Explore how Cisco uses observability to track, attribute, and optimize token spend across our enterprise AI operations.",
-      "category": "feature",
-      "url": "https://blogs.cisco.com/cisco-on-cisco/the-ai-invoice-nobody-planned-for-and-how-cisco-is-solving-it",
+      "summary": "Cisco IT modernized our voice security posture by shifting from reactive, manual processes to a proactive, AI-driven defense. Dive deeper into the technical architecture that made the transformation possible.",
+      "category": "critical",
+      "url": "https://blogs.cisco.com/cisco-on-cisco/operationalizing-voice-security-with-splunk-from-ai-detection-to-real-time-action",
       "count7d": 9
     },
     "VMware": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "No Cloud Required",
+      "title": "How to Calibrate Your Monitor for Accurate Color",
       "date": "2026-08-04",
-      "summary": "Pole to pole, mountain to desert, run your own 70B AI model in the field. No cloud or internet required.",
+      "summary": "Calibrate your monitor for accurate color, better HDR, and crisp text with step-by-step settings and tools.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/no-cloud-required/",
+      "url": "https://www.dell.com/en-us/blog/how-to-calibrate-your-monitor-for-accurate-color/",
       "count7d": 10
     },
     "Lenovo": {
