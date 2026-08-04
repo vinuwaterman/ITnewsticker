@@ -1,20 +1,21 @@
 # Enterprise Technology Updates — TV dashboard
 
-A TV-facing dashboard showing the latest technical updates from Microsoft,
-SAP, Veeam, Cisco, VMware, AWS, Dell, Fortinet, and Lenovo. A sliding
-featured card rotates through each vendor's update, a vendor summary grid
-shows 7-day activity counts, a critical alerts panel surfaces anything
-security-related, and a scrolling ticker along the bottom carries full
-detail on everything at once. Runs as a static site on GitHub Pages, with
-data refreshed in the background by a scheduled GitHub Action —
-**no API key and no cost.**
+A TV-facing dashboard showing the latest vulnerabilities, patches, and
+security advisories from Microsoft, SAP, Veeam, Cisco, VMware, AWS, Dell,
+Fortinet, and Lenovo — built for an IT organization's patch-management
+awareness, not general product marketing. A sliding featured card rotates
+through each vendor's latest advisory, a vendor summary grid shows 7-day
+advisory counts, a critical alerts panel surfaces anything high-severity,
+and a scrolling ticker along the bottom carries full detail on everything at
+once. Runs as a static site on GitHub Pages, with data refreshed in the
+background by a scheduled GitHub Action — **no API key and no cost.**
 
 ## How it works
 
 - **`scripts/fetch-updates.mjs`** — a small Node script that reads each
-  vendor's official public RSS/Atom feed (their blog or release-notes feed),
-  pulls out the latest post, and counts how many entries fall in the last 7
-  days. No account, key, or paid API involved.
+  vendor's security-advisory / PSIRT feed, pulls out the latest entry,
+  classifies it as Critical / Patch / End-of-life, and counts how many
+  advisories fall in the last 7 days. No account, key, or paid API involved.
 - **`.github/workflows/update-data.yml`** — a GitHub Actions workflow that
   runs that script every 30 minutes and commits the updated
   `data/updates.json` back to the repo.
@@ -43,22 +44,36 @@ data refreshed in the background by a scheduled GitHub Action —
 
 That's it — no secrets, no billing setup.
 
-## A note on the feed URLs
+## Important: check the feed URLs after your first run
 
-Vendors occasionally restructure their blogs, which can change or break a
-feed URL. The feeds in `scripts/fetch-updates.mjs` were current as of this
-writing, but check the **Actions** tab after each run — if a vendor's feed
-fails, the log will say so and the dashboard just keeps showing that
-vendor's last known update instead of breaking.
+Security-advisory feeds are far less standardized than general company
+blogs, and some vendors (Microsoft in particular) have moved away from
+plain RSS toward API/portal-based disclosure systems. The `FEEDS` array in
+`scripts/fetch-updates.mjs` has a confidence note on each entry:
 
-To find a fresh feed URL for a vendor:
-- Look for a small RSS icon on their blog/newsroom page.
+- **Higher confidence** (Cisco PSIRT, Fortinet) — long-standing, documented
+  advisory feeds, more likely to work as-is.
+- **Lower confidence** (Microsoft, SAP, Veeam, VMware, AWS, Dell, Lenovo) —
+  best-effort URLs that need verification once live.
+
+After your first workflow run, check the **Actions** log — any vendor whose
+feed URL is wrong will fail loudly there (and that vendor's card will just
+show "Waiting for latest update…" until fixed, without affecting the rest
+of the board).
+
+To find the correct URL for a vendor:
+- Search "\<vendor name\> security advisories RSS" or "\<vendor name\> PSIRT feed".
+- Look for a small RSS icon on their security-advisories/PSIRT page.
 - View the page source and search for
   `<link rel="alternate" type="application/rss+xml" ...>` — the `href` is
   the feed URL.
-- Try appending `/feed` or `/rss` to the blog's root URL.
+- Some vendors (Microsoft's MSRC being the main example) publish advisories
+  through a REST API or web portal rather than plain RSS/Atom — for those,
+  this script's simple XML parser won't work, and pulling their data would
+  need a small custom integration against that vendor's specific API instead.
 
 Then update the `FEEDS` array at the top of `scripts/fetch-updates.mjs`.
+
 
 ## Customizing
 
@@ -66,10 +81,9 @@ Then update the `FEEDS` array at the top of `scripts/fetch-updates.mjs`.
   `scripts/fetch-updates.mjs`, and the `VENDORS` array in `index.html`
   (keep the vendor names in sync between the two — same order isn't
   required, just the same names).
-- **Security-only feeds**: several vendors publish a dedicated security
-  advisories feed separate from their general blog (e.g. Cisco PSIRT, Fortinet
-  PSIRT) — swap those in if that's more relevant for your screen than general
-  product news.
+- **General product news instead**: if you'd rather show general blog/product
+  news instead of security advisories, swap the `FEEDS` URLs back to each
+  vendor's main blog feed and loosen the severity logic in `classify()`.
 - **Refresh cadence**: change the cron schedule in
   `.github/workflows/update-data.yml` (GitHub won't run scheduled workflows
   more often than every 5 minutes, and may delay runs further under load).
