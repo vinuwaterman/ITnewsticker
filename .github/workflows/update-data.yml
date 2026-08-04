@@ -24,6 +24,8 @@ jobs:
           node-version: "20"
 
       - name: Fetch latest vendor updates
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
         run: node scripts/fetch-updates.mjs
 
       - name: Commit updated data
