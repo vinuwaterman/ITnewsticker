@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Updates — Julphar Pharmaceutical</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg: #F2F4F7;
+    --panel: #FFFFFF;
+    --hairline: #DEE2E8;
+    --primary: #21466C;
+    --secondary: #1A85C6;
+    --text-body: #333B45;
+    --muted: #6B7280;
+    --ok: #2F7A4F;
+    --warn: #B4680A;
+    --tag-critical-bg: #FBEAEA;
+    --tag-critical-fg: #A23B3B;
+    --tag-feature-bg: #E9F0FA;
+    --tag-feature-fg: #1A5A8C;
+    --tag-patch-bg: #EAF3EC;
+    --tag-patch-fg: #2F7A4F;
+    --tag-eol-bg: #F3EFE8;
+    --tag-eol-fg: #7A6A4F;
+  }
+
+  *{ box-sizing: border-box; }
+
+  html, body{
+    margin:0; padding:0;
+    background: var(--bg);
+    color: var(--text-body);
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .board{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    width:100vw;
+  }
+
+  /* ---- Header bar ---- */
+  .header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background: var(--primary);
+    padding: 18px 30px;
+    flex-shrink:0;
+  }
+
+  .header-left{
+    display:flex;
+    align-items:center;
+    gap: 20px;
+  }
+
+  .title-block{
+    display:flex;
+    flex-direction:column;
+    gap: 3px;
+  }
+
+  .title{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:700;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin:0;
+    line-height:1.1;
+  }
+
+  .subtitle{
+    font-size: 12px;
+    color: #AFC6DC;
+    font-family:'IBM Plex Mono', monospace;
+    letter-spacing: 0.06em;
+  }
+
+  .header-right{
+    display:flex;
+    align-items:center;
+    gap: 24px;
+  }
+
+  .status-dots{
+    display:flex;
+    gap: 6px;
+    align-items:center;
+  }
+
+  .dot{
+    width:7px; height:7px; border-radius:50%;
+    background: var(--ok);
+  }
+  .dot.stale{ background: #7F93A8; }
+  .dot.error{ background: var(--warn); }
+
+  .clock{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 19px;
+    font-weight:500;
+    color: #FFFFFF;
+    min-width: 92px;
+    text-align:right;
+  }
+
+  .error-banner{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: #F0C48C;
+  }
+
+  /* ---- Main split: dashboard 80% / ticker 20% ---- */
+  .main-content{
+    flex: 1;
+    display:flex;
+    flex-direction:column;
+    min-height:0;
+    padding: 16px 20px;
+    gap: 16px;
+  }
+
+  /* ---- Dashboard: featured card + vendor summary + critical alerts (80%) ---- */
+  .dashboard{
+    flex: 4;
+    display:flex;
+    flex-direction:column;
+    gap: 14px;
+    min-height: 0;
+  }
+
+  .featured-card{
+    flex: 3;
+    background: var(--panel);
+    border: 1.5px solid rgba(33, 70, 108, 0.35);
+    border-radius: 6px;
+    padding: 22px 32px;
+    display:flex;
+    align-items:flex-start;
+    min-height: 0;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .section-eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .featured-slide{
+    width:100%;
+    max-width: 100%;
+    display:flex;
+    flex-direction:column;
+    min-height:0;
+    overflow:hidden;
+  }
+
+  .featured-slide.slide-in{
+    animation: slideIn 0.45s ease-out both;
+  }
+  @keyframes slideIn{
+    0%{ transform: translateX(36px); opacity:0; }
+    100%{ transform: translateX(0); opacity:1; }
+  }
+
+  .featured-label-row{
+    display:flex;
+    align-items:center;
+    gap: 10px;
+    margin: 8px 0 12px;
+    flex-shrink:0;
+  }
+
+  .featured-vendor-label{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size: 12px;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 5px 12px;
+    background: rgba(33, 70, 108, 0.08);
+    border-radius: 4px;
+    white-space:nowrap;
+  }
+
+  .featured-title{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:700;
+    font-size: 23px;
+    line-height:1.28;
+    color: var(--primary);
+    margin: 0;
+    max-width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .featured-summary{
+    font-size: 14px;
+    line-height:1.55;
+    color: var(--text-body);
+    max-width: 92%;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .featured-date{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 12px;
+    flex-shrink:0;
+  }
+
+  .featured-dots{
+    position:absolute;
+    right: 30px;
+    bottom: 22px;
+    display:flex;
+    gap: 6px;
+  }
+
+  .featured-dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--hairline);
+  }
+  .featured-dot.active{
+    background: var(--secondary);
+  }
+
+  .tag{
+    display:inline-block;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px;
+    text-transform:uppercase;
+    letter-spacing: 0.05em;
+    padding: 5px 11px;
+    border-radius: 4px;
+    font-weight:500;
+    flex-shrink:0;
+  }
+  .tag.critical{ background:var(--tag-critical-bg); color:var(--tag-critical-fg); }
+  .tag.feature{ background:var(--tag-feature-bg); color:var(--tag-feature-fg); }
+  .tag.patch{ background:var(--tag-patch-bg); color:var(--tag-patch-fg); }
+  .tag.eol{ background:var(--tag-eol-bg); color:var(--tag-eol-fg); }
+
+  .split-row{
+    flex: 2;
+    display:flex;
+    gap: 14px;
+    min-height: 0;
+  }
+
+  .mini-panel{
+    flex: 1;
+    background: var(--panel);
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    padding: 16px 20px;
+    display:flex;
+    flex-direction:column;
+    min-height: 0;
+    overflow:hidden;
+  }
+
+  .mini-panel-header{
+    margin-bottom: 10px;
+    flex-shrink:0;
+  }
+
+  /* Vendor summary: compact count grid */
+  .vendor-count-grid{
+    flex:1;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+    min-height:0;
+  }
+
+  .vendor-count-chip{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap: 6px;
+    background: var(--bg);
+    border-radius: 4px;
+    padding: 0 10px;
+    min-width: 0;
+    overflow:hidden;
+  }
+
+  .vendor-count-name{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size: 12px;
+    color: var(--primary);
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    min-width:0;
+  }
+
+  .vendor-count-value{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size: 14px;
+    color: var(--primary);
+    flex-shrink:0;
+  }
+
+  /* Critical alerts list */
+  .alert-list{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap: 8px;
+    overflow:hidden;
+    min-height:0;
+  }
+
+  .alert-row{
+    display:flex;
+    align-items:center;
+    gap: 12px;
+    padding: 8px 10px;
+    background: var(--tag-critical-bg);
+    border-radius: 4px;
+    flex: 1;
+    min-height:0;
+    min-width:0;
+    overflow:hidden;
+  }
+
+  .alert-vendor{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:700;
+    font-size: 12px;
+    color: var(--tag-critical-fg);
+    flex-shrink:0;
+    text-transform: uppercase;
+  }
+
+  .alert-title{
+    font-size: 12px;
+    color: var(--text-body);
+    flex:1;
+    min-width:0;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+
+  .alert-empty{
+    color: var(--muted);
+    font-size: 14px;
+    font-style: italic;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex:1;
+  }
+
+  .placeholder-dash{
+    color: var(--muted);
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  /* ---- Ticker (20%) ---- */
+  .ticker-wrap{
+    flex: 1;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
+    background: var(--primary);
+    border-radius: 6px;
+    min-height:0;
+  }
+
+  .ticker-wrap::before,
+  .ticker-wrap::after{
+    content:"";
+    position:absolute;
+    top:0; bottom:0;
+    width: 90px;
+    z-index:2;
+    pointer-events:none;
+  }
+  .ticker-wrap::before{
+    left:0;
+    background: linear-gradient(to right, var(--primary), rgba(33,70,108,0));
+  }
+  .ticker-wrap::after{
+    right:0;
+    background: linear-gradient(to left, var(--primary), rgba(33,70,108,0));
+  }
+
+  .ticker-track{
+    display:flex;
+    align-items:center;
+    white-space:nowrap;
+    will-change: transform;
+  }
+
+  .ticker-item{
+    display:inline-flex;
+    align-items:center;
+    gap: 14px;
+    padding: 0 40px;
+    flex-shrink:0;
+  }
+
+  .ticker-vendor{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:700;
+    font-size: 18px;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: #8FC6E8;
+  }
+
+  .ticker-title{
+    font-size: 18px;
+    font-weight:600;
+    color: #FFFFFF;
+  }
+
+  .ticker-summary{
+    font-size: 15px;
+    color: #B7C6D6;
+    font-weight:400;
+  }
+
+  .ticker-date{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: #8398AC;
+  }
+
+  .ticker-sep{
+    color: #3D5A78;
+    font-size: 12px;
+    margin-left: 24px;
+  }
+
+  .placeholder{
+    color: #93A5B8;
+    font-size: 18px;
+    font-style: italic;
+    padding: 0 40px;
+  }
+
+  .footer-note{
+    padding: 8px 22px 12px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    display:flex;
+    justify-content:space-between;
+    flex-shrink:0;
+  }
+
+  ::selection{ background: #DCEEFA; }
+</style>
+</head>
+<body>
+
+<div class="board">
+  <div class="header">
+    <div class="header-left">
+      <div class="title-block">
+        <h1 class="title">ENTERPRISE TECHNOLOGY UPDATES</h1>
+        <div class="subtitle" id="syncLine">LOADING…</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="error-banner" id="errorBanner"></div>
+      <div class="status-dots" id="statusDots"></div>
+      <div class="clock" id="clock">--:--:--</div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="dashboard" id="dashboard"></div>
+
+    <div class="ticker-wrap">
+      <div class="ticker-track" id="tickerTrack"></div>
+    </div>
+  </div>
+
+  <div class="footer-note">
+    <span id="footerLeft">Data refreshes automatically in the background</span>
+    <span id="footerRight"></span>
+  </div>
+</div>
+
+<script>
+  const VENDORS = [
+    { name: "Microsoft", mono: "MS"  },
+    { name: "SAP",       mono: "SAP" },
+    { name: "Veeam",     mono: "VM"  },
+    { name: "Cisco",     mono: "CS"  },
+    { name: "VMware",    mono: "VW"  },
+    { name: "AWS",       mono: "AWS" },
+    { name: "Dell",      mono: "DL"  },
+    { name: "Fortinet",  mono: "FT"  },
+    { name: "Lenovo",    mono: "LN"  }
+  ];
+
+  // How often the browser re-checks the data file for new content.
+  // This is independent of how often the GitHub Action refreshes it (see workflow file).
+  const POLL_MS = 5 * 60 * 1000; // 5 minutes
+  const DATA_URL = "data/updates.json";
+
+  // How often the featured card advances to the next update.
+  const SLIDE_MS = 7000;
+
+  let lastGoodData = null;
+  let lastGeneratedAt = null;
+  let slideTimer = null;
+  let slideIndex = 0;
+
+  function tagClassFor(item){
+    if (item.category && ["critical","patch","feature","eol"].includes(item.category)) return item.category;
+    const t = ((item.title || "") + " " + (item.summary || "")).toLowerCase();
+    if (t.includes("critical") || t.includes("security") || t.includes("vulnerab") || t.includes("cve")) return "critical";
+    if (t.includes("patch") || t.includes("hotfix") || t.includes("update kb") || t.includes("fix")) return "patch";
+    if (t.includes("end of life") || t.includes("end-of-life") || t.includes("deprecat") || t.includes("retire")) return "eol";
+    return "feature";
+  }
+  function tagLabelFor(cls){
+    return { critical: "Critical", patch: "Patch", eol: "End of life", feature: "Update" }[cls];
+  }
+
+  function renderClock(){
+    const now = new Date();
+    document.getElementById('clock').textContent = now.toLocaleTimeString([], { hour12:false });
+  }
+  setInterval(renderClock, 1000);
+  renderClock();
+
+  function escapeHtml(str){
+    const d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
+  }
+
+  function setSyncLine(status){
+    document.getElementById('syncLine').textContent = status;
+  }
+
+  function setStatusDots(state){
+    const el = document.getElementById('statusDots');
+    el.innerHTML = "";
+    const dot = document.createElement('span');
+    dot.className = 'dot' + (state === 'ok' ? '' : state === 'stale' ? ' stale' : ' error');
+    el.appendChild(dot);
+  }
+
+  function updateFooter(){
+    const right = document.getElementById('footerRight');
+    right.textContent = lastGeneratedAt
+      ? `Last data update ${new Date(lastGeneratedAt).toLocaleString([], { hour12:false })}`
+      : '';
+  }
+
+  // ---- Featured card: sliding carousel through all vendor updates ----
+  function buildSlideList(dataByVendor){
+    const entries = VENDORS
+      .map(v => dataByVendor && dataByVendor[v.name] ? { vendor: v, item: dataByVendor[v.name] } : null)
+      .filter(Boolean);
+
+    entries.sort((a, b) => {
+      const aCritical = tagClassFor(a.item) === 'critical' ? 0 : 1;
+      const bCritical = tagClassFor(b.item) === 'critical' ? 0 : 1;
+      if (aCritical !== bCritical) return aCritical - bCritical;
+      const aDate = a.item.date ? new Date(a.item.date).getTime() : 0;
+      const bDate = b.item.date ? new Date(b.item.date).getTime() : 0;
+      return bDate - aDate;
+    });
+
+    return entries;
+  }
+
+  function renderFeaturedSlide(slides){
+    const card = document.getElementById('featuredCard');
+    if (!card) return;
+
+    if (slides.length === 0) {
+      card.innerHTML = `<span class="placeholder-dash">Waiting for the first vendor update…</span>`;
+      return;
+    }
+
+    if (slideIndex >= slides.length) slideIndex = 0;
+    const { vendor: v, item } = slides[slideIndex];
+    const cls = tagClassFor(item);
+
+    const dotsHtml = slides.map((_, i) => `<span class="featured-dot${i === slideIndex ? ' active' : ''}"></span>`).join('');
+
+    card.innerHTML = `
+      <div class="featured-slide slide-in">
+        <span class="section-eyebrow">Featured update</span>
+        <div class="featured-label-row">
+          <span class="featured-vendor-label">${v.name}</span>
+          <span class="tag ${cls}">${tagLabelFor(cls)}</span>
+        </div>
+        <h2 class="featured-title">${escapeHtml(item.title || 'Untitled update')}</h2>
+        <p class="featured-summary">${escapeHtml(item.summary || '')}</p>
+        <div class="featured-date">${item.date || '—'}</div>
+      </div>
+      <div class="featured-dots">${dotsHtml}</div>
+    `;
+  }
+
+  function startSlideTimer(slides){
+    if (slideTimer) clearInterval(slideTimer);
+    if (slides.length <= 1) return;
+    slideTimer = setInterval(() => {
+      slideIndex = (slideIndex + 1) % slides.length;
+      renderFeaturedSlide(slides);
+    }, SLIDE_MS);
+  }
+
+  function renderVendorSummary(dataByVendor){
+    const panel = document.createElement('div');
+    panel.className = 'mini-panel';
+    panel.innerHTML = `<div class="mini-panel-header"><span class="section-eyebrow">Vendor summary (7 days)</span></div>`;
+
+    const grid = document.createElement('div');
+    grid.className = 'vendor-count-grid';
+
+    VENDORS.forEach(v => {
+      const item = dataByVendor && dataByVendor[v.name];
+      const count = item && typeof item.count7d === 'number' ? item.count7d : null;
+      const chip = document.createElement('div');
+      chip.className = 'vendor-count-chip';
+      chip.innerHTML = `
+        <span class="vendor-count-name">${v.name}</span>
+        <span class="vendor-count-value">${count === null ? '—' : count}</span>
+      `;
+      grid.appendChild(chip);
+    });
+
+    panel.appendChild(grid);
+    return panel;
+  }
+
+  function renderCriticalAlerts(dataByVendor){
+    const panel = document.createElement('div');
+    panel.className = 'mini-panel';
+    panel.innerHTML = `<div class="mini-panel-header"><span class="section-eyebrow">Critical alerts</span></div>`;
+
+    const list = document.createElement('div');
+    list.className = 'alert-list';
+
+    const alerts = VENDORS
+      .map(v => dataByVendor && dataByVendor[v.name] ? { vendor: v, item: dataByVendor[v.name] } : null)
+      .filter(entry => entry && tagClassFor(entry.item) === 'critical')
+      .sort((a, b) => {
+        const aDate = a.item.date ? new Date(a.item.date).getTime() : 0;
+        const bDate = b.item.date ? new Date(b.item.date).getTime() : 0;
+        return bDate - aDate;
+      })
+      .slice(0, 4);
+
+    if (alerts.length === 0) {
+      list.innerHTML = `<div class="alert-empty">No active critical alerts</div>`;
+    } else {
+      alerts.forEach(({ vendor: v, item }) => {
+        const row = document.createElement('div');
+        row.className = 'alert-row';
+        row.innerHTML = `
+          <span class="alert-vendor">${v.name}</span>
+          <span class="alert-title">${escapeHtml(item.title || '')}</span>
+        `;
+        list.appendChild(row);
+      });
+    }
+
+    panel.appendChild(list);
+    return panel;
+  }
+
+  function renderDashboard(dataByVendor){
+    const dashboard = document.getElementById('dashboard');
+    dashboard.innerHTML = "";
+
+    const featuredCard = document.createElement('div');
+    featuredCard.className = 'featured-card';
+    featuredCard.id = 'featuredCard';
+    dashboard.appendChild(featuredCard);
+
+    const slides = buildSlideList(dataByVendor);
+    slideIndex = 0;
+    renderFeaturedSlide(slides);
+    startSlideTimer(slides);
+
+    const splitRow = document.createElement('div');
+    splitRow.className = 'split-row';
+    splitRow.appendChild(renderVendorSummary(dataByVendor));
+    splitRow.appendChild(renderCriticalAlerts(dataByVendor));
+    dashboard.appendChild(splitRow);
+  }
+
+  // ---- Ticker: full detail (vendor, tag, headline, summary, date) ----
+  const TICKER_SPEED = 85; // pixels per second
+  let tickerPos = 0;
+  let tickerHalfWidth = 0;
+  let tickerLastFrame = null;
+
+  function tickerLoop(ts){
+    if (tickerLastFrame == null) tickerLastFrame = ts;
+    const dt = (ts - tickerLastFrame) / 1000;
+    tickerLastFrame = ts;
+
+    if (tickerHalfWidth > 0) {
+      tickerPos -= TICKER_SPEED * dt;
+      if (tickerPos <= -tickerHalfWidth) {
+        tickerPos += tickerHalfWidth;
+      }
+      const track = document.getElementById('tickerTrack');
+      if (track) track.style.transform = `translateX(${tickerPos}px)`;
+    }
+    requestAnimationFrame(tickerLoop);
+  }
+  requestAnimationFrame(tickerLoop);
+
+  function buildTickerItemHtml(v, item){
+    const cls = tagClassFor(item);
+    return `
+      <div class="ticker-item">
+        <span class="ticker-vendor">${v.name}</span>
+        <span class="tag ${cls}">${tagLabelFor(cls)}</span>
+        <span class="ticker-title">${escapeHtml(item.title || 'Untitled update')}</span>
+        <span class="ticker-summary">${escapeHtml(item.summary || '')}</span>
+        <span class="ticker-date">${item.date || ''}</span>
+        <span class="ticker-sep">●</span>
+      </div>
+    `;
+  }
+
+  function renderTicker(dataByVendor){
+    const track = document.getElementById('tickerTrack');
+    const itemsHtml = VENDORS
+      .map(v => dataByVendor && dataByVendor[v.name] ? buildTickerItemHtml(v, dataByVendor[v.name]) : null)
+      .filter(Boolean);
+
+    if (itemsHtml.length === 0) {
+      track.style.transform = 'translateX(0px)';
+      tickerPos = 0;
+      tickerHalfWidth = 0;
+      track.innerHTML = `<div class="ticker-item"><span class="placeholder">Waiting for the latest vendor updates…</span></div>`;
+      return;
+    }
+
+    const singleSet = itemsHtml.join('');
+    track.innerHTML = singleSet + singleSet;
+    tickerHalfWidth = track.scrollWidth / 2;
+  }
+
+  function renderAll(dataByVendor){
+    renderDashboard(dataByVendor);
+    renderTicker(dataByVendor);
+  }
+
+  async function loadData(){
+    document.getElementById('errorBanner').textContent = "";
+
+    try {
+      const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = await res.json();
+      const dataByVendor = json.vendors || {};
+
+      if (Object.keys(dataByVendor).length === 0 && !lastGoodData) {
+        setSyncLine("WAITING FOR FIRST SYNC");
+        setStatusDots('stale');
+        renderAll(null);
+        updateFooter();
+        return;
+      }
+
+      lastGoodData = Object.keys(dataByVendor).length ? dataByVendor : lastGoodData;
+      lastGeneratedAt = json.generatedAt || lastGeneratedAt;
+      renderAll(lastGoodData);
+      setSyncLine("LIVE");
+      setStatusDots('ok');
+      updateFooter();
+    } catch (err) {
+      console.error("data load failed", err);
+      document.getElementById('errorBanner').textContent = "Couldn't load data/updates.json — showing last known data";
+      if (lastGoodData) {
+        renderAll(lastGoodData);
+        setSyncLine("STALE");
+        setStatusDots('stale');
+      } else {
+        renderAll(null);
+        setSyncLine("OFFLINE");
+        setStatusDots('error');
+      }
+      updateFooter();
+    }
+  }
+
+  renderAll(null);
+  loadData();
+  setInterval(loadData, POLL_MS);
+</script>
+
+</body>
+</html>
