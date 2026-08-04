@@ -3,25 +3,24 @@
 A TV-facing dashboard showing the latest vulnerabilities, patches, and
 security advisories from Microsoft, SAP, Veeam, Cisco, VMware, AWS, Dell,
 Fortinet, and Lenovo — built for an IT organization's patch-management
-awareness, not general product marketing. A sliding featured card rotates
-through each vendor's latest advisory, a vendor summary grid shows 7-day
-advisory counts, a critical alerts panel surfaces anything high-severity,
-and a scrolling ticker along the bottom carries full detail on everything at
-once. Runs as a static site on GitHub Pages, with data refreshed in the
-background by a scheduled GitHub Action — **no API key and no cost.**
+awareness, not general product marketing. A full-width sliding card (the
+bulk of the screen) rotates slowly through every vendor's latest advisory
+(AWS excluded from this rotation), a slim one-line summary strip shows each
+vendor's actual 7-day vulnerability count from NVD, and a scrolling ticker
+along the bottom carries real CVE records with severity ratings. Runs as a
+static site on GitHub Pages, with data refreshed in the background by a
+scheduled GitHub Action — **no API key and no cost.**
 
 ## How it works
 
 - **`scripts/fetch-updates.mjs`** — a small Node script that does two things:
   1. Reads each vendor's security-advisory / PSIRT feed, pulls out the
-     latest entry, classifies it as Critical / Patch / End-of-life, and
-     counts how many advisories fall in the last 7 days (drives the
-     featured card, vendor summary, and critical alerts panel).
+     latest entry, and classifies it as Critical / Patch / End-of-life
+     (drives the sliding featured card).
   2. Queries the **National Vulnerability Database (NVD)** — a free, public
      US government CVE database — for each vendor's actual CVE records from
-     the last 7 days, with severity ratings. These feed the ticker
-     specifically, since NVD covers every vendor consistently (unlike
-     individual vendor feeds, which vary in reliability).
+     the last 7 days, with severity ratings and a true 7-day count. The
+     count feeds the summary strip; the CVE records feed the ticker.
 
   No account, key, or paid API required for either part.
 - **`.github/workflows/update-data.yml`** — a GitHub Actions workflow that
@@ -34,10 +33,11 @@ background by a scheduled GitHub Action — **no API key and no cost.**
 
 ## About the NVD integration
 
-The ticker now scrolls through, per vendor: its latest advisory/update from
-its own feed, followed by up to 5 actual CVE records from NVD published in
-the last 7 days (most severe and most recent first), each tagged with an
-official severity rating — Critical, High, Medium, or Low.
+The ticker scrolls exclusively through NVD CVE records — up to 5 per vendor
+published in the last 7 days (most severe and most recent first), each
+tagged with an official severity rating — Critical, High, Medium, or Low.
+The one-line summary strip above it shows each vendor's true 7-day count
+(not capped at 5 — that's the real number NVD reports).
 
 This uses NVD's public API (`https://services.nvd.nist.gov/rest/json/cves/2.0`),
 searching by vendor name against CVE descriptions. A few notes:

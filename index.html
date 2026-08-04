@@ -131,7 +131,7 @@
   /* ---- Main split: dashboard 80% / ticker 20% ---- */
   /* ---- Featured slider: full-bleed white section, flush with header ---- */
   .featured-section{
-    flex: 12;
+    flex: 1;
     display:flex;
     background: var(--panel);
     min-height: 0;
@@ -151,21 +151,68 @@
   }
 
   .main-content{
-    flex: 13;
+    flex-shrink: 0;
     display:flex;
     flex-direction:column;
-    min-height:0;
     padding: 16px 20px;
-    gap: 16px;
+    gap: 12px;
   }
 
-  /* ---- Dashboard: vendor summary + critical alerts ---- */
-  .dashboard{
-    flex: 8;
+  /* ---- Summary strip: one line, vendor + 7-day vulnerability count ---- */
+  .summary-strip{
+    flex-shrink: 0;
+    height: 60px;
+    background: var(--panel);
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
     display:flex;
-    flex-direction:column;
-    gap: 14px;
-    min-height: 0;
+    align-items:center;
+    padding: 0 22px;
+    gap: 0;
+    overflow:hidden;
+  }
+
+  .summary-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    flex-shrink:0;
+    margin-right: 22px;
+    padding-right: 22px;
+    border-right: 1px solid var(--hairline);
+  }
+
+  .summary-chips{
+    flex:1;
+    display:flex;
+    align-items:center;
+    gap: 26px;
+    overflow:hidden;
+    min-width:0;
+  }
+
+  .summary-chip{
+    display:flex;
+    align-items:baseline;
+    gap: 8px;
+    flex-shrink:0;
+  }
+
+  .summary-chip-name{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size: 14px;
+    color: var(--primary);
+    white-space:nowrap;
+  }
+
+  .summary-chip-count{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size: 17px;
+    color: var(--secondary);
   }
 
   .section-eyebrow{
@@ -196,19 +243,19 @@
   .featured-label-row{
     display:flex;
     align-items:center;
-    gap: 10px;
-    margin: 8px 0 12px;
+    gap: 12px;
+    margin: 0 0 18px;
     flex-shrink:0;
   }
 
   .featured-vendor-label{
     font-family:'IBM Plex Sans', sans-serif;
     font-weight:600;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--primary);
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    padding: 6px 14px;
+    padding: 7px 16px;
     background: rgba(33, 70, 108, 0.08);
     border-radius: 4px;
     white-space:nowrap;
@@ -217,7 +264,7 @@
   .featured-title{
     font-family:'IBM Plex Sans', sans-serif;
     font-weight:700;
-    font-size: 28px;
+    font-size: 36px;
     line-height:1.3;
     color: var(--primary);
     margin: 0;
@@ -229,22 +276,22 @@
   }
 
   .featured-summary{
-    font-size: 19px;
+    font-size: 23px;
     line-height:1.6;
     color: var(--text-body);
-    max-width: 94%;
-    margin-top: 14px;
+    max-width: 92%;
+    margin-top: 20px;
     display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 9;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
   .featured-date{
     font-family:'IBM Plex Mono', monospace;
-    font-size: 14px;
+    font-size: 15px;
     color: var(--muted);
-    margin-top: 16px;
+    margin-top: 22px;
     flex-shrink:0;
   }
 
@@ -286,123 +333,6 @@
   .tag.sev-medium{ background:var(--sev-medium-bg); color:var(--sev-medium-fg); }
   .tag.sev-low{ background:var(--sev-low-bg); color:var(--sev-low-fg); }
 
-  .split-row{
-    flex: 2;
-    display:flex;
-    gap: 14px;
-    min-height: 0;
-  }
-
-  .mini-panel{
-    flex: 1;
-    background: var(--panel);
-    border: 1px solid var(--hairline);
-    border-radius: 6px;
-    padding: 16px 20px;
-    display:flex;
-    flex-direction:column;
-    min-height: 0;
-    overflow:hidden;
-  }
-
-  .mini-panel-header{
-    margin-bottom: 10px;
-    flex-shrink:0;
-  }
-
-  /* Vendor summary: compact count grid */
-  .vendor-count-grid{
-    flex:1;
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 8px;
-    min-height:0;
-  }
-
-  .vendor-count-chip{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap: 6px;
-    background: var(--bg);
-    border-radius: 4px;
-    padding: 0 10px;
-    min-width: 0;
-    overflow:hidden;
-  }
-
-  .vendor-count-name{
-    font-family:'IBM Plex Sans', sans-serif;
-    font-weight:600;
-    font-size: 12px;
-    color: var(--primary);
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    min-width:0;
-  }
-
-  .vendor-count-value{
-    font-family:'IBM Plex Mono', monospace;
-    font-weight:600;
-    font-size: 14px;
-    color: var(--primary);
-    flex-shrink:0;
-  }
-
-  /* Critical alerts list */
-  .alert-list{
-    flex:1;
-    display:flex;
-    flex-direction:column;
-    gap: 8px;
-    overflow:hidden;
-    min-height:0;
-  }
-
-  .alert-row{
-    display:flex;
-    align-items:center;
-    gap: 12px;
-    padding: 8px 10px;
-    background: var(--tag-critical-bg);
-    border-radius: 4px;
-    flex: 1;
-    min-height:0;
-    min-width:0;
-    overflow:hidden;
-  }
-
-  .alert-vendor{
-    font-family:'IBM Plex Sans', sans-serif;
-    font-weight:700;
-    font-size: 12px;
-    color: var(--tag-critical-fg);
-    flex-shrink:0;
-    text-transform: uppercase;
-  }
-
-  .alert-title{
-    font-size: 12px;
-    color: var(--text-body);
-    flex:1;
-    min-width:0;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-  }
-
-  .alert-empty{
-    color: var(--muted);
-    font-size: 14px;
-    font-style: italic;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex:1;
-  }
-
   .placeholder-dash{
     color: var(--muted);
     font-size: 14px;
@@ -411,7 +341,8 @@
 
   /* ---- Ticker (20%) ---- */
   .ticker-wrap{
-    flex: 5;
+    flex-shrink: 0;
+    height: 130px;
     display:flex;
     align-items:stretch;
     overflow:hidden;
@@ -584,7 +515,7 @@
   </div>
 
   <div class="main-content">
-    <div class="dashboard" id="dashboard"></div>
+    <div class="summary-strip" id="summaryStrip"></div>
 
     <div class="ticker-wrap">
       <div class="ticker-label">Reported<br>Vulnerabilities</div>
@@ -618,8 +549,9 @@
   const POLL_MS = 5 * 60 * 1000; // 5 minutes
   const DATA_URL = "data/updates.json";
 
-  // How often the featured card advances to the next update.
-  const SLIDE_MS = 7000;
+  // How often the featured card advances to the next update. Longer than
+  // before since slides now carry more text — gives people time to read.
+  const SLIDE_MS = 16000;
 
   let lastGoodData = null;
   let lastGoodNvd = null;
@@ -671,16 +603,18 @@
       : '';
   }
 
-  // ---- Featured card: sliding carousel through all vendor updates ----
+  // ---- Featured card: sliding carousel through every vendor's update ----
+  // AWS is intentionally excluded here (dashboard slider only — it still
+  // appears in the summary strip and ticker). Sorted by date only, no
+  // severity-based reordering, so every vendor gets equal treatment in
+  // the rotation rather than "featuring" one over another.
   function buildSlideList(dataByVendor){
     const entries = VENDORS
+      .filter(v => v.name !== 'AWS')
       .map(v => dataByVendor && dataByVendor[v.name] ? { vendor: v, item: dataByVendor[v.name] } : null)
       .filter(Boolean);
 
     entries.sort((a, b) => {
-      const aCritical = tagClassFor(a.item) === 'critical' ? 0 : 1;
-      const bCritical = tagClassFor(b.item) === 'critical' ? 0 : 1;
-      if (aCritical !== bCritical) return aCritical - bCritical;
       const aDate = a.item.date ? new Date(a.item.date).getTime() : 0;
       const bDate = b.item.date ? new Date(b.item.date).getTime() : 0;
       return bDate - aDate;
@@ -706,7 +640,6 @@
 
     card.innerHTML = `
       <div class="featured-slide slide-in">
-        <span class="section-eyebrow">Featured update</span>
         <div class="featured-label-row">
           <span class="featured-vendor-label">${v.name}</span>
           <span class="tag ${cls}">${tagLabelFor(cls)}</span>
@@ -728,64 +661,27 @@
     }, SLIDE_MS);
   }
 
-  function renderVendorSummary(dataByVendor){
-    const panel = document.createElement('div');
-    panel.className = 'mini-panel';
-    panel.innerHTML = `<div class="mini-panel-header"><span class="section-eyebrow">Vendor summary (7 days)</span></div>`;
-
-    const grid = document.createElement('div');
-    grid.className = 'vendor-count-grid';
-
-    VENDORS.forEach(v => {
-      const item = dataByVendor && dataByVendor[v.name];
-      const count = item && typeof item.count7d === 'number' ? item.count7d : null;
-      const chip = document.createElement('div');
-      chip.className = 'vendor-count-chip';
-      chip.innerHTML = `
-        <span class="vendor-count-name">${v.name}</span>
-        <span class="vendor-count-value">${count === null ? '—' : count}</span>
+  // ---- Summary strip: one line, vendor name + 7-day vulnerability count ----
+  // Counts come from NVD (actual reported vulnerabilities), not the vendor
+  // feed's post count.
+  function renderSummaryStrip(nvdByVendor){
+    const strip = document.getElementById('summaryStrip');
+    const chipsHtml = VENDORS.map(v => {
+      const count = nvdByVendor && nvdByVendor[v.name] && typeof nvdByVendor[v.name].count === 'number'
+        ? nvdByVendor[v.name].count
+        : 0;
+      return `
+        <div class="summary-chip">
+          <span class="summary-chip-name">${v.name}</span>
+          <span class="summary-chip-count">${count}</span>
+        </div>
       `;
-      grid.appendChild(chip);
-    });
+    }).join('');
 
-    panel.appendChild(grid);
-    return panel;
-  }
-
-  function renderCriticalAlerts(dataByVendor){
-    const panel = document.createElement('div');
-    panel.className = 'mini-panel';
-    panel.innerHTML = `<div class="mini-panel-header"><span class="section-eyebrow">Critical alerts</span></div>`;
-
-    const list = document.createElement('div');
-    list.className = 'alert-list';
-
-    const alerts = VENDORS
-      .map(v => dataByVendor && dataByVendor[v.name] ? { vendor: v, item: dataByVendor[v.name] } : null)
-      .filter(entry => entry && tagClassFor(entry.item) === 'critical')
-      .sort((a, b) => {
-        const aDate = a.item.date ? new Date(a.item.date).getTime() : 0;
-        const bDate = b.item.date ? new Date(b.item.date).getTime() : 0;
-        return bDate - aDate;
-      })
-      .slice(0, 4);
-
-    if (alerts.length === 0) {
-      list.innerHTML = `<div class="alert-empty">No active critical alerts</div>`;
-    } else {
-      alerts.forEach(({ vendor: v, item }) => {
-        const row = document.createElement('div');
-        row.className = 'alert-row';
-        row.innerHTML = `
-          <span class="alert-vendor">${v.name}</span>
-          <span class="alert-title">${escapeHtml(item.title || '')}</span>
-        `;
-        list.appendChild(row);
-      });
-    }
-
-    panel.appendChild(list);
-    return panel;
+    strip.innerHTML = `
+      <span class="summary-label">Summary</span>
+      <div class="summary-chips">${chipsHtml}</div>
+    `;
   }
 
   function renderDashboard(dataByVendor){
@@ -793,14 +689,6 @@
     slideIndex = 0;
     renderFeaturedSlide(slides);
     startSlideTimer(slides);
-
-    const dashboard = document.getElementById('dashboard');
-    dashboard.innerHTML = "";
-    const splitRow = document.createElement('div');
-    splitRow.className = 'split-row';
-    splitRow.appendChild(renderVendorSummary(dataByVendor));
-    splitRow.appendChild(renderCriticalAlerts(dataByVendor));
-    dashboard.appendChild(splitRow);
   }
 
   // ---- Ticker: full detail (vendor, tag, headline, summary, date) ----
@@ -865,7 +753,7 @@
     const itemsHtml = [];
 
     VENDORS.forEach(v => {
-      const cves = (nvdByVendor && nvdByVendor[v.name]) || [];
+      const cves = (nvdByVendor && nvdByVendor[v.name] && nvdByVendor[v.name].items) || [];
       cves.forEach(cve => itemsHtml.push(buildNvdTickerItemHtml(v, cve)));
     });
 
@@ -884,6 +772,7 @@
 
   function renderAll(dataByVendor, nvdByVendor){
     renderDashboard(dataByVendor);
+    renderSummaryStrip(nvdByVendor);
     renderTicker(nvdByVendor);
   }
 
