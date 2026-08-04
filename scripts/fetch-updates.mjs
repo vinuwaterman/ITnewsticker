@@ -170,17 +170,135 @@ async function loadExisting() {
   try {
     const raw = await fs.readFile(OUTPUT_PATH, "utf-8");
     const parsed = JSON.parse(raw);
-    return parsed.vendors || {};
+    return { vendors: parsed.vendors || {}, nvd: parsed.nvd || {} };
   } catch {
-    return {};
+    return { vendors: {}, nvd: {} };
   }
+}
+
+// ---- NVD (National Vulnerability Database) integration ----
+// Public API, no key required at this request volume. Used to supplement
+// the ticker with actual CVE records for each vendor over the last 7 days —
+// this is a much more consistent and authoritative source than individual
+// vendor blogs/feeds, since NVD covers every vendor the same way.
+// Docs: https://nvd.nist.gov/developers/vulnerabilities
+const NVD_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0";
+
+// NVD's keywordSearch does a text match against CVE descriptions. Some
+// vendor names are too short/ambiguous on their own (e.g. "AWS" can appear
+// as a substring in unrelated contexts), so a few vendors get a fuller
+// search term here instead of their display name.
+const NVD_SEARCH_TERMS = {
+  "Microsoft": "Microsoft",
+  "SAP": "SAP",
+  "Veeam": "Veeam",
+  "Cisco": "Cisco",
+  "VMware": "VMware",
+  "AWS": "Amazon Web Services",
+  "Dell": "Dell",
+  "Fortinet": "Fortinet",
+  "Lenovo": "Lenovo"
+};
+
+// NVD allows 5 requests per rolling 30 seconds without an API key. With 9
+// vendors fetched one at a time, spacing requests out comfortably avoids
+// tripping that limit. If you get a free API key from
+// https://nvd.nist.gov/developers/request-an-api-key, you can raise this
+// limit and pass the key via the NVD_API_KEY environment variable/secret.
+const NVD_REQUEST_DELAY_MS = 6500;
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function severityFromCve(cve) {
+  const metrics = cve.metrics || {};
+  const v31 = metrics.cvssMetricV31?.[0]?.cvssData;
+  const v30 = metrics.cvssMetricV30?.[0]?.cvssData;
+  const v2 = metrics.cvssMetricV2?.[0];
+  if (v31?.baseSeverity) return { severity: v31.baseSeverity, score: v31.baseScore };
+  if (v30?.baseSeverity) return { severity: v30.baseSeverity, score: v30.baseScore };
+  if (v2?.baseSeverity) return { severity: v2.baseSeverity, score: v2.cvssData?.baseScore };
+  return { severity: null, score: null };
+}
+
+async function fetchNvdCvesForVendor(vendor) {
+  const searchTerm = NVD_SEARCH_TERMS[vendor] || vendor;
+  const pubEndDate = new Date();
+  const pubStartDate = new Date(pubEndDate.getTime() - 7 * 24 * 60 * 60 * 1000);
+
+  const params = new URLSearchParams({
+    keywordSearch: searchTerm,
+    pubStartDate: pubStartDate.toISOString(),
+    pubEndDate: pubEndDate.toISOString(),
+    resultsPerPage: "20"
+  });
+
+  const headers = {
+    "User-Agent": "Mozilla/5.0 (compatible; JulpharITUpdatesBot/1.0; +https://github.com/)"
+  };
+  if (process.env.NVD_API_KEY) {
+    headers["apiKey"] = process.env.NVD_API_KEY;
+  }
+
+  const res = await fetch(`${NVD_API_URL}?${params.toString()}`, { headers });
+  if (!res.ok) {
+    throw new Error(`NVD HTTP ${res.status} for ${vendor}`);
+  }
+  const data = await res.json();
+  const vulns = data.vulnerabilities || [];
+
+  const items = vulns.map(v => {
+    const cve = v.cve;
+    const descriptions = cve.descriptions || [];
+    const enDesc = descriptions.find(d => d.lang === "en")?.value || "";
+    const { severity } = severityFromCve(cve);
+    return {
+      id: cve.id,
+      title: truncateWords(stripHtml(enDesc), 35),
+      date: toIsoDate(cve.published),
+      severity: severity || "UNKNOWN",
+      url: `https://nvd.nist.gov/vuln/detail/${cve.id}`
+    };
+  });
+
+  // Most severe and most recent first; cap so the ticker doesn't get
+  // overwhelmed by a single vendor in a bad week.
+  const severityRank = { CRITICAL: 0, HIGH: 1, MEDIUM: 2, LOW: 3, UNKNOWN: 4 };
+  items.sort((a, b) => {
+    const rankDiff = (severityRank[a.severity] ?? 4) - (severityRank[b.severity] ?? 4);
+    if (rankDiff !== 0) return rankDiff;
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
+
+  return items.slice(0, 5);
+}
+
+async function fetchAllNvdData(existingNvd) {
+  const nvd = { ...existingNvd };
+  const vendorNames = Object.keys(NVD_SEARCH_TERMS);
+
+  for (let i = 0; i < vendorNames.length; i++) {
+    const vendor = vendorNames[i];
+    try {
+      nvd[vendor] = await fetchNvdCvesForVendor(vendor);
+    } catch (err) {
+      console.error(`Failed to fetch NVD data for ${vendor}:`, err.message || err);
+      // keep whatever was there before (already the default via spread above)
+    }
+    if (i < vendorNames.length - 1) {
+      await sleep(NVD_REQUEST_DELAY_MS);
+    }
+  }
+
+  return nvd;
 }
 
 async function main() {
   const existing = await loadExisting();
   const results = await Promise.allSettled(FEEDS.map(f => fetchVendorFeed(f.name, f.url)));
 
-  const vendors = { ...existing };
+  const vendors = { ...existing.vendors };
   let failures = 0;
 
   results.forEach((r, i) => {
@@ -193,9 +311,13 @@ async function main() {
     }
   });
 
+  console.log("Fetching NVD vulnerability data (rate-limited, this takes about a minute)...");
+  const nvd = await fetchAllNvdData(existing.nvd);
+
   const output = {
     generatedAt: new Date().toISOString(),
-    vendors
+    vendors,
+    nvd
   };
 
   await fs.mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
