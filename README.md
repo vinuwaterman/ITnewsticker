@@ -44,35 +44,41 @@ background by a scheduled GitHub Action — **no API key and no cost.**
 
 That's it — no secrets, no billing setup.
 
-## Important: check the feed URLs after your first run
+## Feed status (as of the first real run)
 
 Security-advisory feeds are far less standardized than general company
 blogs, and some vendors (Microsoft in particular) have moved away from
-plain RSS toward API/portal-based disclosure systems. The `FEEDS` array in
-`scripts/fetch-updates.mjs` has a confidence note on each entry:
+plain RSS toward API/portal-based disclosure systems. Here's what the first
+live run actually confirmed:
 
-- **Higher confidence** (Cisco PSIRT, Fortinet) — long-standing, documented
-  advisory feeds, more likely to work as-is.
-- **Lower confidence** (Microsoft, SAP, Veeam, VMware, AWS, Dell, Lenovo) —
-  best-effort URLs that need verification once live.
+- **Confirmed working, vulnerability/advisory-specific**: Cisco (PSIRT),
+  Fortinet (FortiGuard IR advisories), Microsoft (MSRC update guide).
+- **Confirmed working, but general blog/news — not vulnerability-specific**:
+  SAP, Veeam, VMware, AWS, Dell, Lenovo. The guessed security-advisory URLs
+  for these six 404'd or returned unparseable pages on the first run, so
+  they're currently pointed back at each vendor's general blog feed
+  (the same URLs from before this vulnerability-focused pass) so each vendor
+  at least shows real content rather than nothing. If a proper public
+  advisory feed exists for one of these vendors, swapping it in is a direct
+  `FEEDS` array edit — see below.
 
-After your first workflow run, check the **Actions** log — any vendor whose
-feed URL is wrong will fail loudly there (and that vendor's card will just
-show "Waiting for latest update…" until fixed, without affecting the rest
-of the board).
+After every workflow run, check the **Actions** log — any vendor whose feed
+URL is wrong will fail loudly there (and that vendor's card will just show
+its last known data instead of breaking anything else).
 
-To find the correct URL for a vendor:
+To find a dedicated security-advisory feed for one of the six above:
 - Search "\<vendor name\> security advisories RSS" or "\<vendor name\> PSIRT feed".
 - Look for a small RSS icon on their security-advisories/PSIRT page.
 - View the page source and search for
   `<link rel="alternate" type="application/rss+xml" ...>` — the `href` is
   the feed URL.
-- Some vendors (Microsoft's MSRC being the main example) publish advisories
-  through a REST API or web portal rather than plain RSS/Atom — for those,
-  this script's simple XML parser won't work, and pulling their data would
-  need a small custom integration against that vendor's specific API instead.
+- Some vendors publish advisories through a REST API or web portal rather
+  than plain RSS/Atom — for those, this script's simple XML parser won't
+  work, and pulling their data would need a small custom integration against
+  that vendor's specific API instead.
 
 Then update the `FEEDS` array at the top of `scripts/fetch-updates.mjs`.
+
 
 
 ## Customizing
