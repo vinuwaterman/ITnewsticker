@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T17:49:40.040Z",
+  "generatedAt": "2026-08-04T19:37:47.698Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Using AI for Product Management – The Tanzu Platform product management experience",
+      "title": "Meet the VMware Data Services Team at VMware Explore 2026",
       "date": "2026-08-04",
-      "summary": "“Six weeks ago, I was like, this is a disaster,” Chris McClanahan told me in our recent conversation about how the Tanzu product teams have been using AI. It got better though. Now the team is able to get feedback on feature ideas in a day or two and speed up the development process. As…",
+      "summary": "Real conversations. A hands-on lab. Let&#8217;s make the most of our time together in Las Vegas! VMware Explore 2026 is almost here, and the VMware Data Services Manager team has two sessions worth putting on your calendar right now. Whether you&#8217;re a platform engineer trying to get your arms around database sprawl, a DBA who…",
       "category": "feature",
-      "url": "https://blogs.vmware.com/tanzu/using-ai-for-product-management-the-tanzu-platform-product-management-experience/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/04/meet-the-vmware-data-services-team-at-vmware-explore-2026/",
       "count7d": 10
     },
     "AWS": {
@@ -53,7 +53,7 @@
       "summary": "AWS announces the general availability of Amazon EC2 Storage Optimized I8g instances in AWS Europe (Paris) and Asia Pacific (Jakarta) regions.&nbsp;I8g instances are powered by AWS Graviton4 processors and offer the best compute performance in Amazon EC2 for storage-intensive workloads. I8g instances use the third generation AWS Nitro SSDs, local NVMe storage that deliver up…",
       "category": "feature",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
-      "count7d": 43
+      "count7d": 44
     },
     "Dell": {
       "vendor": "Dell",
