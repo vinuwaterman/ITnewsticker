@@ -14,19 +14,33 @@
 // an RSS icon on the vendor's security-advisories or PSIRT page, view page
 // source for <link rel="alternate" type="application/rss+xml" href="...">,
 // or check the vendor's developer/security documentation for a feed URL.
+import fs from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const OUTPUT_PATH = path.join(__dirname, "..", "data", "updates.json");
+
 const FEEDS = [
   // Higher confidence — long-standing, documented advisory feeds.
   { name: "Cisco",     url: "https://tools.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml" },
   { name: "Fortinet",  url: "https://filestore.fortinet.com/fortiguard/rss/ir.xml" },
 
-  // Lower confidence — best-effort guess, verify once live.
+  // Lower confidence — best-effort guess, verify once live. These four
+  // returned 404 on the first real run and need a human to find the correct
+  // URL (see the section below on how). Left pointing at the vendor's
+  // general blog feed for now so the vendor at least shows *something*
+  // rather than nothing, but this is not vulnerability-specific content.
+  { name: "SAP",       url: "https://news.sap.com/feed/" },
+  { name: "Veeam",     url: "https://www.veeam.com/blog/feed" },
+  { name: "VMware",    url: "https://blogs.vmware.com/feed" },
+  { name: "Dell",      url: "https://www.dell.com/en-us/blog/feed/" },
+
+  // Also unverified, but the general-purpose feed (not security-specific)
+  // is confirmed working from an earlier version of this script.
   { name: "Microsoft", url: "https://api.msrc.microsoft.com/update-guide/rss" },
-  { name: "SAP",       url: "https://news.sap.com/tag/security/feed/" },
-  { name: "Veeam",     url: "https://www.veeam.com/security-advisories.rss" },
-  { name: "VMware",    url: "https://www.vmware.com/security/advisories.xml" },
-  { name: "AWS",       url: "https://aws.amazon.com/security/security-bulletins/rss/" },
-  { name: "Dell",      url: "https://www.dell.com/support/security/en-us/rss" },
-  { name: "Lenovo",    url: "https://support.lenovo.com/us/en/product_security/rss" }
+  { name: "AWS",       url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/" },
+  { name: "Lenovo",    url: "https://news.lenovo.com/feed/" }
 ];
 
 function decodeEntities(str) {
