@@ -129,8 +129,29 @@
   }
 
   /* ---- Main split: dashboard 80% / ticker 20% ---- */
-  .main-content{
+  /* ---- Featured slider: full-bleed white section, flush with header ---- */
+  .featured-section{
+    flex: 12;
+    display:flex;
+    background: var(--panel);
+    min-height: 0;
+    width: 100%;
+  }
+
+  .featured-card{
     flex: 1;
+    background: var(--panel);
+    padding: 28px 40px;
+    display:flex;
+    align-items:flex-start;
+    min-height: 0;
+    width: 100%;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .main-content{
+    flex: 13;
     display:flex;
     flex-direction:column;
     min-height:0;
@@ -138,26 +159,13 @@
     gap: 16px;
   }
 
-  /* ---- Dashboard: featured card + vendor summary + critical alerts (80%) ---- */
+  /* ---- Dashboard: vendor summary + critical alerts ---- */
   .dashboard{
-    flex: 4;
+    flex: 8;
     display:flex;
     flex-direction:column;
     gap: 14px;
     min-height: 0;
-  }
-
-  .featured-card{
-    flex: 3;
-    background: var(--panel);
-    border: 1.5px solid rgba(33, 70, 108, 0.35);
-    border-radius: 6px;
-    padding: 22px 32px;
-    display:flex;
-    align-items:flex-start;
-    min-height: 0;
-    position:relative;
-    overflow:hidden;
   }
 
   .section-eyebrow{
@@ -403,7 +411,7 @@
 
   /* ---- Ticker (20%) ---- */
   .ticker-wrap{
-    flex: 1;
+    flex: 5;
     display:flex;
     align-items:stretch;
     overflow:hidden;
@@ -569,6 +577,10 @@
       <div class="status-dots" id="statusDots"></div>
       <div class="clock" id="clock">--:--:--</div>
     </div>
+  </div>
+
+  <div class="featured-section">
+    <div class="featured-card" id="featuredCard"></div>
   </div>
 
   <div class="main-content">
@@ -777,19 +789,13 @@
   }
 
   function renderDashboard(dataByVendor){
-    const dashboard = document.getElementById('dashboard');
-    dashboard.innerHTML = "";
-
-    const featuredCard = document.createElement('div');
-    featuredCard.className = 'featured-card';
-    featuredCard.id = 'featuredCard';
-    dashboard.appendChild(featuredCard);
-
     const slides = buildSlideList(dataByVendor);
     slideIndex = 0;
     renderFeaturedSlide(slides);
     startSlideTimer(slides);
 
+    const dashboard = document.getElementById('dashboard');
+    dashboard.innerHTML = "";
     const splitRow = document.createElement('div');
     splitRow.className = 'split-row';
     splitRow.appendChild(renderVendorSummary(dataByVendor));
@@ -797,7 +803,7 @@
     dashboard.appendChild(splitRow);
   }
 
-  // ---- Ticker: vendor updates + NVD CVE records ----
+  // ---- Ticker: full detail (vendor, tag, headline, summary, date) ----
   const TICKER_SPEED = 85; // pixels per second
   let tickerPos = 0;
   let tickerHalfWidth = 0;
@@ -819,20 +825,6 @@
     requestAnimationFrame(tickerLoop);
   }
   requestAnimationFrame(tickerLoop);
-
-  function buildTickerItemHtml(v, item){
-    const cls = tagClassFor(item);
-    return `
-      <div class="ticker-item">
-        <span class="ticker-vendor">${v.name}</span>
-        <span class="tag ${cls}">${tagLabelFor(cls)}</span>
-        <span class="ticker-title">${escapeHtml(item.title || 'Untitled update')}</span>
-        <span class="ticker-summary">${escapeHtml(item.summary || '')}</span>
-        <span class="ticker-date">${item.date || ''}</span>
-        <span class="ticker-sep">●</span>
-      </div>
-    `;
-  }
 
   function severityTagClass(severity){
     const s = (severity || '').toUpperCase();
@@ -865,14 +857,14 @@
     `;
   }
 
-  function renderTicker(dataByVendor, nvdByVendor){
+  // Ticker is sourced exclusively from NVD CVE data — vendor feed items
+  // (the ones driving the featured card / dashboard) are intentionally not
+  // shown here.
+  function renderTicker(nvdByVendor){
     const track = document.getElementById('tickerTrack');
     const itemsHtml = [];
 
     VENDORS.forEach(v => {
-      if (dataByVendor && dataByVendor[v.name]) {
-        itemsHtml.push(buildTickerItemHtml(v, dataByVendor[v.name]));
-      }
       const cves = (nvdByVendor && nvdByVendor[v.name]) || [];
       cves.forEach(cve => itemsHtml.push(buildNvdTickerItemHtml(v, cve)));
     });
@@ -881,7 +873,7 @@
       track.style.transform = 'translateX(0px)';
       tickerPos = 0;
       tickerHalfWidth = 0;
-      track.innerHTML = `<div class="ticker-item"><span class="placeholder">Waiting for the latest vendor updates…</span></div>`;
+      track.innerHTML = `<div class="ticker-item"><span class="placeholder">Waiting for NVD vulnerability data…</span></div>`;
       return;
     }
 
@@ -892,7 +884,7 @@
 
   function renderAll(dataByVendor, nvdByVendor){
     renderDashboard(dataByVendor);
-    renderTicker(dataByVendor, nvdByVendor);
+    renderTicker(nvdByVendor);
   }
 
   async function loadData(){
