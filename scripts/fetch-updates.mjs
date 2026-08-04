@@ -91,7 +91,7 @@ function parseAllEntries(xml) {
       const link = stripHtml(extractTag(block, "link"));
       const pubDate = extractTag(block, "pubDate") || extractTag(block, "dc:date");
       const description = stripHtml(extractTag(block, "description") || extractTag(block, "content:encoded"));
-      results.push({ title, link, date: toIsoDate(pubDate), summary: truncateWords(description, 20) });
+      results.push({ title, link, date: toIsoDate(pubDate), summary: truncateWords(description, 55) });
     }
     return results;
   }
@@ -104,7 +104,7 @@ function parseAllEntries(xml) {
       const link = extractAtomLink(block);
       const updated = extractTag(block, "updated") || extractTag(block, "published");
       const summary = stripHtml(extractTag(block, "summary") || extractTag(block, "content"));
-      results.push({ title, link, date: toIsoDate(updated), summary: truncateWords(summary, 20) });
+      results.push({ title, link, date: toIsoDate(updated), summary: truncateWords(summary, 55) });
     }
   }
 
@@ -133,7 +133,7 @@ async function fetchVendorFeed(vendor, url) {
 
   return {
     vendor,
-    title: truncateWords(latest.title, 12),
+    title: truncateWords(latest.title, 16),
     date: latest.date,
     summary: latest.summary,
     category: classify(latest.title + " " + latest.summary),
