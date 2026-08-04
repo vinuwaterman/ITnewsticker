@@ -27,6 +27,14 @@
     --tag-patch-fg: #2F7A4F;
     --tag-eol-bg: #F3EFE8;
     --tag-eol-fg: #7A6A4F;
+    --sev-critical-bg: #FBEAEA;
+    --sev-critical-fg: #A23B3B;
+    --sev-high-bg: #FDEEDD;
+    --sev-high-fg: #B85C00;
+    --sev-medium-bg: #FBF3D9;
+    --sev-medium-fg: #8A6D00;
+    --sev-low-bg: #EAF0F5;
+    --sev-low-fg: #4C6579;
   }
 
   *{ box-sizing: border-box; }
@@ -265,6 +273,10 @@
   .tag.feature{ background:var(--tag-feature-bg); color:var(--tag-feature-fg); }
   .tag.patch{ background:var(--tag-patch-bg); color:var(--tag-patch-fg); }
   .tag.eol{ background:var(--tag-eol-bg); color:var(--tag-eol-fg); }
+  .tag.sev-critical{ background:var(--sev-critical-bg); color:var(--sev-critical-fg); }
+  .tag.sev-high{ background:var(--sev-high-bg); color:var(--sev-high-fg); }
+  .tag.sev-medium{ background:var(--sev-medium-bg); color:var(--sev-medium-fg); }
+  .tag.sev-low{ background:var(--sev-low-bg); color:var(--sev-low-fg); }
 
   .split-row{
     flex: 2;
@@ -393,16 +405,56 @@
   .ticker-wrap{
     flex: 1;
     display:flex;
-    align-items:center;
+    align-items:stretch;
     overflow:hidden;
-    position:relative;
     background: var(--primary);
     border-radius: 6px;
     min-height:0;
   }
 
-  .ticker-wrap::before,
-  .ticker-wrap::after{
+  .ticker-label{
+    flex-shrink:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding: 0 22px;
+    background: var(--secondary);
+    color: #FFFFFF;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:700;
+    font-size: 18px;
+    line-height:1.25;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space:nowrap;
+    position:relative;
+    z-index:3;
+  }
+
+  .ticker-label::after{
+    content:"";
+    position:absolute;
+    right:-18px;
+    top:50%;
+    transform:translateY(-50%);
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width: 27px 0 27px 18px;
+    border-color: transparent transparent transparent var(--secondary);
+  }
+
+  .ticker-scroll-area{
+    flex:1;
+    position:relative;
+    overflow:hidden;
+    min-width:0;
+  }
+
+  .ticker-scroll-area::before,
+  .ticker-scroll-area::after{
     content:"";
     position:absolute;
     top:0; bottom:0;
@@ -410,11 +462,11 @@
     z-index:2;
     pointer-events:none;
   }
-  .ticker-wrap::before{
+  .ticker-scroll-area::before{
     left:0;
     background: linear-gradient(to right, var(--primary), rgba(33,70,108,0));
   }
-  .ticker-wrap::after{
+  .ticker-scroll-area::after{
     right:0;
     background: linear-gradient(to left, var(--primary), rgba(33,70,108,0));
   }
@@ -424,6 +476,7 @@
     align-items:center;
     white-space:nowrap;
     will-change: transform;
+    height:100%;
   }
 
   .ticker-item{
@@ -450,6 +503,17 @@
     background: rgba(26, 133, 198, 0.32);
     padding: 3px 10px;
     border-radius: 3px;
+  }
+
+  .ticker-cve-id{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 24px;
+    font-weight:600;
+    color: #FFFFFF;
+    background: rgba(26, 133, 198, 0.32);
+    padding: 3px 10px;
+    border-radius: 3px;
+    letter-spacing: 0.02em;
   }
 
   .ticker-summary{
@@ -511,7 +575,10 @@
     <div class="dashboard" id="dashboard"></div>
 
     <div class="ticker-wrap">
-      <div class="ticker-track" id="tickerTrack"></div>
+      <div class="ticker-label">Reported<br>Vulnerabilities</div>
+      <div class="ticker-scroll-area">
+        <div class="ticker-track" id="tickerTrack"></div>
+      </div>
     </div>
   </div>
 
@@ -543,6 +610,7 @@
   const SLIDE_MS = 7000;
 
   let lastGoodData = null;
+  let lastGoodNvd = null;
   let lastGeneratedAt = null;
   let slideTimer = null;
   let slideIndex = 0;
@@ -729,7 +797,7 @@
     dashboard.appendChild(splitRow);
   }
 
-  // ---- Ticker: full detail (vendor, tag, headline, summary, date) ----
+  // ---- Ticker: vendor updates + NVD CVE records ----
   const TICKER_SPEED = 85; // pixels per second
   let tickerPos = 0;
   let tickerHalfWidth = 0;
@@ -766,11 +834,48 @@
     `;
   }
 
-  function renderTicker(dataByVendor){
+  function severityTagClass(severity){
+    const s = (severity || '').toUpperCase();
+    if (s === 'CRITICAL') return 'sev-critical';
+    if (s === 'HIGH') return 'sev-high';
+    if (s === 'MEDIUM') return 'sev-medium';
+    if (s === 'LOW') return 'sev-low';
+    return 'sev-low';
+  }
+
+  function severityLabel(severity){
+    const s = (severity || '').toUpperCase();
+    if (['CRITICAL','HIGH','MEDIUM','LOW'].includes(s)) {
+      return s.charAt(0) + s.slice(1).toLowerCase();
+    }
+    return 'Unrated';
+  }
+
+  function buildNvdTickerItemHtml(v, cve){
+    const sevCls = severityTagClass(cve.severity);
+    return `
+      <div class="ticker-item">
+        <span class="ticker-vendor">${v.name}</span>
+        <span class="tag ${sevCls}">${severityLabel(cve.severity)}</span>
+        <span class="ticker-cve-id">${escapeHtml(cve.id)}</span>
+        <span class="ticker-summary">${escapeHtml(cve.title || '')}</span>
+        <span class="ticker-date">${cve.date || ''}</span>
+        <span class="ticker-sep">●</span>
+      </div>
+    `;
+  }
+
+  function renderTicker(dataByVendor, nvdByVendor){
     const track = document.getElementById('tickerTrack');
-    const itemsHtml = VENDORS
-      .map(v => dataByVendor && dataByVendor[v.name] ? buildTickerItemHtml(v, dataByVendor[v.name]) : null)
-      .filter(Boolean);
+    const itemsHtml = [];
+
+    VENDORS.forEach(v => {
+      if (dataByVendor && dataByVendor[v.name]) {
+        itemsHtml.push(buildTickerItemHtml(v, dataByVendor[v.name]));
+      }
+      const cves = (nvdByVendor && nvdByVendor[v.name]) || [];
+      cves.forEach(cve => itemsHtml.push(buildNvdTickerItemHtml(v, cve)));
+    });
 
     if (itemsHtml.length === 0) {
       track.style.transform = 'translateX(0px)';
@@ -785,9 +890,9 @@
     tickerHalfWidth = track.scrollWidth / 2;
   }
 
-  function renderAll(dataByVendor){
+  function renderAll(dataByVendor, nvdByVendor){
     renderDashboard(dataByVendor);
-    renderTicker(dataByVendor);
+    renderTicker(dataByVendor, nvdByVendor);
   }
 
   async function loadData(){
@@ -798,18 +903,20 @@
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
       const dataByVendor = json.vendors || {};
+      const nvdByVendor = json.nvd || {};
 
       if (Object.keys(dataByVendor).length === 0 && !lastGoodData) {
         setSyncLine("WAITING FOR FIRST SYNC");
         setStatusDots('stale');
-        renderAll(null);
+        renderAll(null, null);
         updateFooter();
         return;
       }
 
       lastGoodData = Object.keys(dataByVendor).length ? dataByVendor : lastGoodData;
+      lastGoodNvd = Object.keys(nvdByVendor).length ? nvdByVendor : lastGoodNvd;
       lastGeneratedAt = json.generatedAt || lastGeneratedAt;
-      renderAll(lastGoodData);
+      renderAll(lastGoodData, lastGoodNvd);
       setSyncLine("LIVE");
       setStatusDots('ok');
       updateFooter();
@@ -817,11 +924,11 @@
       console.error("data load failed", err);
       document.getElementById('errorBanner').textContent = "Couldn't load data/updates.json — showing last known data";
       if (lastGoodData) {
-        renderAll(lastGoodData);
+        renderAll(lastGoodData, lastGoodNvd);
         setSyncLine("STALE");
         setStatusDots('stale');
       } else {
-        renderAll(null);
+        renderAll(null, null);
         setSyncLine("OFFLINE");
         setStatusDots('error');
       }
@@ -829,7 +936,7 @@
     }
   }
 
-  renderAll(null);
+  renderAll(null, null);
   loadData();
   setInterval(loadData, POLL_MS);
 </script>
