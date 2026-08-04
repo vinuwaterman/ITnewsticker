@@ -1,4 +1,77 @@
 {
-  "generatedAt": null,
-  "vendors": {}
+  "generatedAt": "2026-08-04T11:22:19.224Z",
+  "vendors": {
+    "Microsoft": {
+      "vendor": "Microsoft",
+      "title": "Windows quality: an update on the commitment we made in March",
+      "date": "2026-07-31",
+      "summary": "In March I wrote to you about our commitment to Windows quality . Four months in, the team and I…",
+      "category": "feature",
+      "url": "https://blogs.windows.com/windows-insider/2026/07/31/windows-quality-an-update-on-the-commitment-we-made-in-march/",
+      "count7d": 2
+    },
+    "SAP": {
+      "vendor": "SAP",
+      "title": "Digital Transformation Isn’t About Technology, It’s About a Strong Foundation",
+      "date": "2026-08-04",
+      "summary": "Ipiranga’s journey offers a powerful reminder that digital transformation is about assertive fundamentals.",
+      "category": "feature",
+      "url": "https://news.sap.com/2026/08/ipiranga-digital-transformation-strong-foundation/",
+      "count7d": 6
+    },
+    "Veeam": {
+      "vendor": "Veeam",
+      "title": "From Sovereign Cloud to New Hypervisors: What Service Providers Gain in Veeam…",
+      "date": "2026-08-03",
+      "summary": "Whether customers are evaluating new infrastructure platforms, looking to meet data sovereignty requirements, or strengthening their recovery strategy, service providers…",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/veeam-service-provider-hypervisors-sovereign-cloud.html",
+      "count7d": 5
+    },
+    "Cisco": {
+      "vendor": "Cisco",
+      "title": "The Future of Connectivity: Cisco Testifies Before Senate Commerce Subcommittee on AI-Native…",
+      "date": "2026-08-04",
+      "summary": "Cisco’s Bob Everson, Chief Architect for Service Provider Mobility, testified before the Senate Commerce Telecom Subcommittee about AI's impact on…",
+      "category": "feature",
+      "url": "https://blogs.cisco.com/gov/the-future-of-connectivity-cisco-testifies-before-senate-commerce-subcommittee-on-ai-native-networking",
+      "count7d": 9
+    },
+    "VMware": {
+      "vendor": "VMware",
+      "title": "VCF Breakroom Chats Episode 92: Simplifying VCF 9.1 Install and Brownfield Import",
+      "date": "2026-08-03",
+      "summary": "In Episode 92 of VCF Breakroom Chats, Puneet Chawla (Product Management, Broadcom) joins Sehjung Hah (Product Marketing Engineer, Broadcom) to…",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/03/vcf-breakroom-chats-episode-92-simplifying-vcf-9-1-install-and-brownfield-import/",
+      "count7d": 10
+    },
+    "AWS": {
+      "vendor": "AWS",
+      "title": "AWS Transform continuous modernization is now generally available",
+      "date": "2026-08-03",
+      "summary": "AWS Transform continuous modernization is now generally available in all AWS Regions where AWS Transform is supported . This capability…",
+      "category": "feature",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
+      "count7d": 42
+    },
+    "Dell": {
+      "vendor": "Dell",
+      "title": "NEBS Level 3 Validates PowerEdge R7715 for Demanding Telecom Sites",
+      "date": "2026-07-31",
+      "summary": "PowerEdge R7715 earns NEBS Level 3, delivering reliable telecom performance from core to far edge with dense single‑socket design.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/nebs-level-3-validates-poweredge-r7715-for-demanding-telecom-sites/",
+      "count7d": 9
+    },
+    "Lenovo": {
+      "vendor": "Lenovo",
+      "title": "Making sustainable technology easier to understand",
+      "date": "2026-07-30",
+      "summary": "How Lenovo is helping customers make more informed technology decisions as an EPEAT 2.0 Launch Partner.",
+      "category": "feature",
+      "url": "https://news.lenovo.com/making-sustainable-technology-epeat/",
+      "count7d": 1
+    }
+  }
 }
