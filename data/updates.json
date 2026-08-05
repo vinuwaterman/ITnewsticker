@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T18:06:25.660Z",
+  "generatedAt": "2026-08-05T20:09:50.796Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,18 +93,26 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Prisma AIRS - Unified Data Protection for Claude",
-      "date": "2026-08-05",
-      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
+      "date": "2026-07-16",
+      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
-      "count7d": 3
+      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 18,
+      "count": 19,
       "items": [
+        {
+          "id": "CVE-2026-18485",
+          "title": "There is a local privilege escalation vulnerability recently discovered in the NI-PAL kernel driver. This may allow a local, authenticated user to escalate privileges and execute arbitrary code. This vulnerability affects NI-PAL 26.3.1 and prior…",
+          "date": "2026-08-05",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18485",
+          "kev": false
+        },
         {
           "id": "CVE-2026-62870",
           "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
@@ -140,15 +148,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66315",
           "kev": false,
           "epss": 0.621
-        },
-        {
-          "id": "CVE-2026-66318",
-          "title": "Origin validation error in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network.",
-          "date": "2026-08-04",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66318",
-          "kev": false,
-          "epss": 0.368
         }
       ]
     },
