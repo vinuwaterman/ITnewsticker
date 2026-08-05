@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:09:50.796Z",
+  "generatedAt": "2026-08-05T21:48:27.720Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Six Data Security Missteps Leadership Teams Don&#8217;t See Coming",
+      "title": "The Threat Surface Isn&#8217;t Your Network. It&#8217;s Agents Acting on Your Data",
       "date": "2026-08-05",
-      "summary": "Every executive team believes its data security program is solid, until an audit, a breach, or a regulator proves otherwise. The failures that cause the most damage are rarely about missing technology. They're about how that technology gets deployed, governed, and trusted across the business. The post Six Data Security Missteps Leadership Teams Don&#8217;t See Coming appeared first on Veeam Software Official Blog .",
-      "category": "patch",
-      "url": "https://www.veeam.com/blog/data-security-missteps.html",
+      "summary": "AI has flipped the economics of intrusion in the attacker's favor. Dwell time, the gap between a breach and the moment someone notices it, has dropped from weeks to minutes. Cyber threats now move at machine speed. They don’t wait for human intervention. The post The Threat Surface Isn&#8217;t Your Network. It&#8217;s Agents Acting on Your Data appeared first on Veeam Software Official Blog .",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/ai-agents-attack-surface.html",
       "count7d": 5
     },
     "Cisco": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "AI on Your Terms: The Full-Stack Future Is Here",
+      "title": "Dell AI Data Platform Wins CRN Tech Innovators Award",
       "date": "2026-08-05",
-      "summary": "Dell AI Factory with NVIDIA helps enterprises use full AI stacks, open models, control token spend and scale AI with their own data.",
+      "summary": "Award-winning again: the Dell AI Data Platform earns CRN's Tech Innovators Award, now supercharged by the Data Orchestration Engine for AI at scale.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/ai-on-your-terms-the-full-stack-future-is-here/",
+      "url": "https://www.dell.com/en-us/blog/dell-ai-data-platform-wins-crn-tech-innovators-award/",
       "count7d": 10
     },
     "Lenovo": {
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
-      "date": "2026-07-16",
-      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "count7d": 3
     }
   },
   "nvd": {
