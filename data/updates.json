@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T11:38:12.759Z",
+  "generatedAt": "2026-08-05T14:10:50.571Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Joins the Open Secure AI Alliance to Drive Agentic AI with a foundation of Trusted Data",
-      "date": "2026-08-04",
-      "summary": "Veeam is proud to join the Open Secure AI Alliance alongside NVIDIA and other industry leaders to advance secure, open innovation in agentic Al. As the Data and Al Trust company, Veeam is helping organizations confidently protect, recover, and govern the data to accelerate safe AI at scale. As enterprises adopt agentic AI, the control point has moved from the perimeter to the data itself. AI must be grounded in data that is secure, governed, and protected in order to…",
-      "category": "feature",
-      "url": "https://www.veeam.com/blog/veeam-open-secure-ai-alliance.html",
+      "title": "Six Data Security Missteps Leadership Teams Don&#8217;t See Coming",
+      "date": "2026-08-05",
+      "summary": "Every executive team believes its data security program is solid, until an audit, a breach, or a regulator proves otherwise. The failures that cause the most damage are rarely about missing technology. They're about how that technology gets deployed, governed, and trusted across the business. The post Six Data Security Missteps Leadership Teams Don&#8217;t See Coming appeared first on Veeam Software Official Blog .",
+      "category": "patch",
+      "url": "https://www.veeam.com/blog/data-security-missteps.html",
       "count7d": 5
     },
     "Cisco": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Why Cyber Recovery Must Prioritize Business-Critical Workloads",
-      "date": "2026-08-04",
-      "summary": "Recovery that restores systems isn’t the same as recovery that restores the business. Here’s the difference.",
+      "title": "Faster Deployments, Smarter Operations: Speed Meets Control",
+      "date": "2026-08-05",
+      "summary": "Ensure faster, consistent and secure deployments across private cloud, AI and edge with TOSCA-based, validated blueprints in Dell Automation Platform.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/why-cyber-recovery-must-prioritize-business-critical-workloads/",
-      "count7d": 9
+      "url": "https://www.dell.com/en-us/blog/faster-deployments-smarter-operations-speed-meets-control/",
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
-      "date": "2026-07-16",
-      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
-      "count7d": 1
+      "title": "Redefining Network Security for the Frontier AI Era",
+      "date": "2026-08-04",
+      "summary": "Modern enterprise security is at a pivotal moment where CIOs and CISOs have a clear opportunity to build a cybersecurity architecture for both today’s environment, and for the future. Doing so requires &#8230; The post Redefining Network Security for the Frontier AI Era appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/redefining-network-security-for-the-frontier-ai-era/",
+      "count7d": 2
     }
   },
   "nvd": {
