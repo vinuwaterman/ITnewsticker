@@ -38,6 +38,10 @@ const FEEDS = [
 
   // Also unverified, but the general-purpose feed (not security-specific)
   // is confirmed working from an earlier version of this script.
+  // NOTE: this Microsoft URL is MSRC's own official vulnerability feed —
+  // it and Cisco's PSIRT feed above are also surfaced directly in the
+  // ticker (tagged "Advisory") alongside NVD data, since both are
+  // genuinely vulnerability-specific, not general product news.
   { name: "Microsoft", url: "https://api.msrc.microsoft.com/update-guide/rss" },
   { name: "AWS",       url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/" },
   { name: "Lenovo",    url: "https://news.lenovo.com/feed/" }
