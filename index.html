@@ -203,16 +203,31 @@
     overflow:hidden;
   }
 
+  .summary-label-block{
+    display:flex;
+    flex-direction:column;
+    gap: 2px;
+    flex-shrink:0;
+    margin-right: 22px;
+    padding-right: 22px;
+    border-right: 1px solid var(--hairline);
+  }
+
   .summary-label{
     font-family:'IBM Plex Mono', monospace;
     font-size: 11px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--muted);
-    flex-shrink:0;
-    margin-right: 22px;
-    padding-right: 22px;
-    border-right: 1px solid var(--hairline);
+  }
+
+  .summary-sublabel{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    opacity: 0.75;
   }
 
   .summary-chips{
@@ -488,7 +503,7 @@
   }
 
   .ticker-summary{
-    font-size: 24px;
+    font-size: 19px;
     color: #C7D5E2;
     font-weight:400;
   }
@@ -728,7 +743,10 @@
     }).join('');
 
     strip.innerHTML = `
-      <span class="summary-label">Vulnerability Summary</span>
+      <div class="summary-label-block">
+        <span class="summary-label">Vulnerability Summary</span>
+        <span class="summary-sublabel">Past 7 days</span>
+      </div>
       <div class="summary-chips">${chipsHtml}</div>
     `;
   }
@@ -892,7 +910,13 @@
 
   renderAll(null, null);
   loadData();
-  setInterval(loadData, POLL_MS);
+
+  // A full reload every 30 minutes (instead of just re-fetching in place) is
+  // deliberate: this page is expected to stay open on a TV for days or weeks
+  // at a stretch, and a hard reload guarantees a genuinely fresh fetch and
+  // resets any long-running JS/DOM state, rather than depending on a single
+  // setInterval callback surviving unattended for that long.
+  setTimeout(() => location.reload(), POLL_MS);
 </script>
 
 </body>
