@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T09:47:24.642Z",
+  "generatedAt": "2026-08-05T11:38:12.759Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "How Salling Group Uses SAP and AI to Improve Everyday Retail",
-      "date": "2026-08-04",
-      "summary": "The European retailer is positioned to apply AI at scale with its SAP Cloud ERP backbone.",
+      "title": "Support Accreditation: SAP’s Enablement Course to Unlock Faster, Smarter, AI-Powered Customer Support",
+      "date": "2026-08-05",
+      "summary": "What if you could resolve issues faster, work more independently, and stay ahead of AI-driven innovation all in just over 60 minutes of learning?",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/salling-group-ai-improve-everyday-retail/",
-      "count7d": 6
+      "url": "https://news.sap.com/2026/08/support-accreditation-course-unlock-customer-support/",
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Redefining Network Security for the Frontier AI Era",
-      "date": "2026-08-04",
-      "summary": "Modern enterprise security is at a pivotal moment where CIOs and CISOs have a clear opportunity to build a cybersecurity architecture for both today’s environment, and for the future. Doing so requires &#8230; The post Redefining Network Security for the Frontier AI Era appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/redefining-network-security-for-the-frontier-ai-era/",
-      "count7d": 2
+      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
+      "date": "2026-07-16",
+      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
+      "count7d": 1
     }
   },
   "nvd": {
