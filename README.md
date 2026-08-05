@@ -31,13 +31,29 @@ scheduled GitHub Action — **no API key and no cost.**
   background (the page re-checks the data file every 5 minutes) — there's
   no button to click, since nobody's expected to be at the TV to click one.
 
-## About the NVD integration
+## About the vulnerability ticker's sources
 
-The ticker scrolls exclusively through NVD CVE records — up to 5 per vendor
-published in the last 7 days (most severe and most recent first), each
-tagged with an official severity rating — Critical, High, Medium, or Low.
-The one-line summary strip above it shows each vendor's true 7-day count
-(not capped at 5 — that's the real number NVD reports).
+The ticker draws from two kinds of sources:
+
+1. **NVD** (all 9 vendors) — up to 5 CVE records per vendor published in the
+   last 7 days (most severe and most recent first), each tagged with an
+   official severity rating — Critical, High, Medium, or Low.
+2. **Official vendor advisory feeds** (Microsoft and Cisco only, tagged
+   "Advisory") — MSRC's own vulnerability feed and Cisco's PSIRT feed. These
+   are the same URLs used as those two vendors' entries in the `FEEDS` array
+   (see `scripts/fetch-updates.mjs`), since both happen to already be
+   genuinely vulnerability-specific, not general product news.
+
+The one-line summary strip above the ticker shows each vendor's true 7-day
+NVD count (not capped at 5 — that's the real number NVD reports).
+
+**On Broadcom/VMware specifically**: Broadcom's security-advisory portal
+(`support.broadcom.com`) most likely requires a customer login to view
+advisories, which would make it unusable for an unattended, key-free
+workflow like this one. Since NVD already covers VMware's actual CVE data,
+this gap is fairly small in practice. If you have a Broadcom support
+account and can find a public feed/API endpoint for their advisories,
+share it and it can be wired in the same way as Microsoft/Cisco above.
 
 This uses NVD's public API (`https://services.nvd.nist.gov/rest/json/cves/2.0`),
 searching by vendor name against CVE descriptions. A few notes:

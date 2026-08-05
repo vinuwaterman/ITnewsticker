@@ -127,6 +127,13 @@
   .dot.stale{ background: #7F93A8; }
   .dot.error{ background: var(--warn); }
 
+  .clock-block{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap: 2px;
+  }
+
   .clock{
     font-family:'IBM Plex Mono', monospace;
     font-size: 19px;
@@ -134,6 +141,16 @@
     color: #FFFFFF;
     min-width: 92px;
     text-align:right;
+  }
+
+  .clock-date{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight:500;
+    color: #AFC6DC;
+    letter-spacing: 0.05em;
+    text-align:right;
+    white-space:nowrap;
   }
 
   .error-banner{
@@ -346,6 +363,7 @@
   .tag.sev-high{ background:var(--sev-high-bg); color:var(--sev-high-fg); }
   .tag.sev-medium{ background:var(--sev-medium-bg); color:var(--sev-medium-fg); }
   .tag.sev-low{ background:var(--sev-low-bg); color:var(--sev-low-fg); }
+  .tag.advisory{ background: rgba(26, 133, 198, 0.14); color: var(--secondary); }
 
   .placeholder-dash{
     color: var(--muted);
@@ -372,15 +390,15 @@
     align-items:center;
     justify-content:center;
     text-align:center;
-    padding: 0 22px;
+    padding: 0 20px;
     background: var(--secondary);
     color: #FFFFFF;
     font-family:'IBM Plex Sans', sans-serif;
     font-weight:700;
-    font-size: 18px;
-    line-height:1.25;
+    font-size: 15px;
+    line-height:1.3;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     white-space:nowrap;
     position:relative;
     z-index:3;
@@ -470,7 +488,7 @@
   }
 
   .ticker-summary{
-    font-size: 26px;
+    font-size: 19px;
     color: #C7D5E2;
     font-weight:400;
   }
@@ -515,14 +533,17 @@
       <img src="assets/julphar-logo.png" alt="Julphar" class="header-logo">
       <div class="header-divider"></div>
       <div class="title-block">
-        <h1 class="title">GLOBAL TECHNOLOGY UPDATES</h1>
+        <h1 class="title">ENTERPRISE TECHNOLOGY UPDATES</h1>
         <div class="subtitle" id="syncLine">LOADING…</div>
       </div>
     </div>
     <div class="header-right">
       <div class="error-banner" id="errorBanner"></div>
       <div class="status-dots" id="statusDots"></div>
-      <div class="clock" id="clock">--:--:--</div>
+      <div class="clock-block">
+        <div class="clock" id="clock">--:--:--</div>
+        <div class="clock-date" id="clockDate">---, -- --- ----</div>
+      </div>
     </div>
   </div>
 
@@ -534,7 +555,7 @@
     <div class="summary-strip" id="summaryStrip"></div>
 
     <div class="ticker-wrap">
-      <div class="ticker-label">Reported<br>Vulnerabilities</div>
+      <div class="ticker-label">Globally<br>Reported<br>Vulnerabilities</div>
       <div class="ticker-scroll-area">
         <div class="ticker-track" id="tickerTrack"></div>
       </div>
@@ -561,8 +582,8 @@
   ];
 
   // How often the browser re-checks the data file for new content.
-  // This is independent of how often the GitHub Action refreshes it (see workflow file).
-  const POLL_MS = 5 * 60 * 1000; // 5 minutes
+  // Matches the GitHub Action's own 30-minute refresh cadence (see workflow file).
+  const POLL_MS = 30 * 60 * 1000; // 30 minutes
   const DATA_URL = "data/updates.json";
 
   // How often the featured card advances to the next update. Longer than
@@ -587,9 +608,21 @@
     return { critical: "Critical", patch: "Patch", eol: "End of life", feature: "Update" }[cls];
   }
 
+  const WEEKDAYS = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
+  const MONTHS_SHORT = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+
   function renderClock(){
     const now = new Date();
     document.getElementById('clock').textContent = now.toLocaleTimeString([], { hour12:false });
+
+    const dateEl = document.getElementById('clockDate');
+    if (dateEl) {
+      const wd = WEEKDAYS[now.getDay()];
+      const day = String(now.getDate()).padStart(2, "0");
+      const mon = MONTHS_SHORT[now.getMonth()];
+      const year = now.getFullYear();
+      dateEl.textContent = `${wd}, ${day} ${mon} ${year}`;
+    }
   }
   setInterval(renderClock, 1000);
   renderClock();
@@ -695,7 +728,7 @@
     }).join('');
 
     strip.innerHTML = `
-      <span class="summary-label">Summary</span>
+      <span class="summary-label">Vulnerability Summary</span>
       <div class="summary-chips">${chipsHtml}</div>
     `;
   }
@@ -761,14 +794,38 @@
     `;
   }
 
-  // Ticker is sourced exclusively from NVD CVE data — vendor feed items
-  // (the ones driving the featured card / dashboard) are intentionally not
-  // shown here.
-  function renderTicker(nvdByVendor){
+  // Official vendor advisory feeds that are genuinely vulnerability-specific
+  // (not general product blogs) — currently Microsoft's MSRC update guide
+  // and Cisco's PSIRT feed. Shown in the ticker alongside NVD, tagged
+  // distinctly as "Advisory" since they're not CVSS-scored the way NVD
+  // records are.
+  const ADVISORY_SOURCE_VENDORS = ["Microsoft", "Cisco"];
+
+  function buildAdvisoryTickerItemHtml(v, item){
+    return `
+      <div class="ticker-item">
+        <span class="ticker-vendor">${v.name}</span>
+        <span class="tag advisory">Advisory</span>
+        <span class="ticker-title">${escapeHtml(item.title || 'Untitled advisory')}</span>
+        <span class="ticker-summary">${escapeHtml(item.summary || '')}</span>
+        <span class="ticker-date">${item.date || ''}</span>
+        <span class="ticker-sep">●</span>
+      </div>
+    `;
+  }
+
+  // Ticker draws from NVD (all vendors) plus each vendor's own official
+  // vulnerability-advisory feed where one exists (currently Microsoft/Cisco).
+  // General product blogs are intentionally excluded — this stays a
+  // vulnerability-focused ticker, not a news ticker.
+  function renderTicker(dataByVendor, nvdByVendor){
     const track = document.getElementById('tickerTrack');
     const itemsHtml = [];
 
     VENDORS.forEach(v => {
+      if (ADVISORY_SOURCE_VENDORS.includes(v.name) && dataByVendor && dataByVendor[v.name]) {
+        itemsHtml.push(buildAdvisoryTickerItemHtml(v, dataByVendor[v.name]));
+      }
       const cves = (nvdByVendor && nvdByVendor[v.name] && nvdByVendor[v.name].items) || [];
       cves.forEach(cve => itemsHtml.push(buildNvdTickerItemHtml(v, cve)));
     });
@@ -777,7 +834,7 @@
       track.style.transform = 'translateX(0px)';
       tickerPos = 0;
       tickerHalfWidth = 0;
-      track.innerHTML = `<div class="ticker-item"><span class="placeholder">Waiting for NVD vulnerability data…</span></div>`;
+      track.innerHTML = `<div class="ticker-item"><span class="placeholder">Waiting for vulnerability data…</span></div>`;
       return;
     }
 
@@ -789,7 +846,7 @@
   function renderAll(dataByVendor, nvdByVendor){
     renderDashboard(dataByVendor);
     renderSummaryStrip(nvdByVendor);
-    renderTicker(nvdByVendor);
+    renderTicker(dataByVendor, nvdByVendor);
   }
 
   async function loadData(){
