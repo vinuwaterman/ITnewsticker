@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T16:16:27.910Z",
+  "generatedAt": "2026-08-05T18:06:25.660Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Redefining Network Security for the Frontier AI Era",
-      "date": "2026-08-04",
-      "summary": "Modern enterprise security is at a pivotal moment where CIOs and CISOs have a clear opportunity to build a cybersecurity architecture for both today’s environment, and for the future. Doing so requires &#8230; The post Redefining Network Security for the Frontier AI Era appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/redefining-network-security-for-the-frontier-ai-era/",
-      "count7d": 2
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "count7d": 3
     }
   },
   "nvd": {
@@ -207,16 +207,47 @@
       ]
     },
     "Cisco": {
-      "count": 1,
+      "count": 23,
       "items": [
         {
-          "id": "CVE-2026-20316",
-          "title": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data…",
-          "date": "2026-07-29",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
-          "kev": true,
-          "epss": 0.788
+          "id": "CVE-2026-20267",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XE Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address…",
+          "date": "2026-08-05",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20267",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20272",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XE Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address…",
+          "date": "2026-08-05",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20272",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20303",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Catalyst SD-WAN engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple…",
+          "date": "2026-08-05",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20303",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20304",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Catalyst SD-WAN engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that address…",
+          "date": "2026-08-05",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20304",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20310",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Catalyst SD-WAN engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple…",
+          "date": "2026-08-05",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20310",
+          "kev": false
         }
       ]
     },
