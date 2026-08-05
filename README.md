@@ -1,15 +1,15 @@
-# Enterprise Technology Updates — TV dashboard
+# Global Technology Updates — TV dashboard
 
 A TV-facing dashboard showing the latest vulnerabilities, patches, and
-security advisories from Microsoft, SAP, Veeam, Cisco, VMware, AWS, Dell,
-Fortinet, and Lenovo — built for an IT organization's patch-management
-awareness, not general product marketing. A full-width sliding card (the
-bulk of the screen) rotates slowly through every vendor's latest advisory
-(AWS excluded from this rotation), a slim one-line summary strip shows each
-vendor's actual 7-day vulnerability count from NVD, and a scrolling ticker
-along the bottom carries real CVE records with severity ratings. Runs as a
-static site on GitHub Pages, with data refreshed in the background by a
-scheduled GitHub Action — **no API key and no cost.**
+security advisories from Microsoft, SAP, Veeam, Cisco, VMware, Dell,
+Fortinet, Lenovo, Mimecast, CrowdStrike, and Palo Alto Networks — built for
+an IT organization's patch-management awareness, not general product
+marketing. A full-width sliding card (the bulk of the screen) rotates
+slowly through every vendor's latest advisory, a slim one-line summary
+strip shows each vendor's actual 7-day vulnerability count from NVD, and a
+scrolling ticker along the bottom carries real CVE records with severity
+ratings. Runs as a static site on GitHub Pages, with data refreshed in the
+background by a scheduled GitHub Action — **no API key and no cost.**
 
 ## How it works
 
@@ -35,7 +35,7 @@ scheduled GitHub Action — **no API key and no cost.**
 
 The ticker draws from two kinds of sources:
 
-1. **NVD** (all 9 vendors) — up to 5 CVE records per vendor published in the
+1. **NVD** (all 11 vendors) — up to 5 CVE records per vendor published in the
    last 7 days (most severe and most recent first), each tagged with an
    official severity rating — Critical, High, Medium, or Low.
 2. **Official vendor advisory feeds** (Microsoft and Cisco only, tagged
@@ -43,6 +43,28 @@ The ticker draws from two kinds of sources:
    are the same URLs used as those two vendors' entries in the `FEEDS` array
    (see `scripts/fetch-updates.mjs`), since both happen to already be
    genuinely vulnerability-specific, not general product news.
+
+Every NVD CVE record is then enriched with two more free, public, no-key
+sources:
+
+- **CISA KEV** (Known Exploited Vulnerabilities catalog) — a single fetch
+  per run against CISA's public JSON catalog of vulnerabilities *confirmed*
+  to be actively exploited in the wild. Any CVE on this list gets a bold
+  red **"⚠ Actively Exploited"** badge in the ticker, in addition to its
+  normal severity tag — this is often more actionable than severity alone,
+  since a "Medium" CVE under active exploitation matters more urgently than
+  an unexploited "Critical."
+- **EPSS** (Exploit Prediction Scoring System, from FIRST.org) — a
+  probability score (0-100%) estimating the likelihood a given CVE will be
+  exploited in the next 30 days. Shown next to each ticker item's date.
+  Fetched in a single batched request covering every CVE from that run.
+
+Both enrichments are best-effort: if either source fails to respond, the
+affected CVEs simply appear without a KEV badge / EPSS score rather than
+breaking the run — check the Actions log if you want to confirm they ran.
+
+Ticker items also show a relative date ("3 days ago") instead of a raw
+date, for faster scanning at a glance.
 
 The one-line summary strip above the ticker shows each vendor's true 7-day
 NVD count (not capped at 5 — that's the real number NVD reports).
@@ -60,7 +82,7 @@ searching by vendor name against CVE descriptions. A few notes:
 
 - **No API key needed** at this request volume — NVD allows 5 requests per
   rolling 30 seconds without one, and the script deliberately waits ~6.5
-  seconds between each of the 9 vendor requests to stay under that limit.
+  seconds between each of the 11 vendor requests to stay under that limit.
   This adds roughly a minute to each workflow run.
 - **Optional**: if you get a free API key from
   [nvd.nist.gov/developers/request-an-api-key](https://nvd.nist.gov/developers/request-an-api-key)
@@ -106,13 +128,16 @@ live run actually confirmed:
 - **Confirmed working, vulnerability/advisory-specific**: Cisco (PSIRT),
   Fortinet (FortiGuard IR advisories), Microsoft (MSRC update guide).
 - **Confirmed working, but general blog/news — not vulnerability-specific**:
-  SAP, Veeam, VMware, AWS, Dell, Lenovo. The guessed security-advisory URLs
-  for these six 404'd or returned unparseable pages on the first run, so
+  SAP, Veeam, VMware, Dell, Lenovo. The guessed security-advisory URLs
+  for these five 404'd or returned unparseable pages on the first run, so
   they're currently pointed back at each vendor's general blog feed
   (the same URLs from before this vulnerability-focused pass) so each vendor
   at least shows real content rather than nothing. If a proper public
   advisory feed exists for one of these vendors, swapping it in is a direct
   `FEEDS` array edit — see below.
+- **Not yet verified**: Mimecast, CrowdStrike, and Palo Alto Networks were
+  added later with best-effort general-blog feed guesses — check the
+  Actions log after your next run to see whether these three resolved.
 
 After every workflow run, check the **Actions** log — any vendor whose feed
 URL is wrong will fail loudly there (and that vendor's card will just show

@@ -234,7 +234,7 @@
     flex:1;
     display:flex;
     align-items:center;
-    gap: 26px;
+    gap: 20px;
     overflow:hidden;
     min-width:0;
   }
@@ -242,14 +242,14 @@
   .summary-chip{
     display:flex;
     align-items:baseline;
-    gap: 8px;
+    gap: 6px;
     flex-shrink:0;
   }
 
   .summary-chip-name{
     font-family:'IBM Plex Sans', sans-serif;
     font-weight:600;
-    font-size: 14px;
+    font-size: 13px;
     color: var(--primary);
     white-space:nowrap;
   }
@@ -257,7 +257,7 @@
   .summary-chip-count{
     font-family:'IBM Plex Mono', monospace;
     font-weight:600;
-    font-size: 17px;
+    font-size: 16px;
     color: var(--secondary);
   }
 
@@ -378,6 +378,27 @@
   .tag.sev-high{ background:var(--sev-high-bg); color:var(--sev-high-fg); }
   .tag.sev-medium{ background:var(--sev-medium-bg); color:var(--sev-medium-fg); }
   .tag.sev-low{ background:var(--sev-low-bg); color:var(--sev-low-fg); }
+
+  .tag.kev{
+    background: #B91C1C;
+    color: #FFFFFF;
+    font-weight: 700;
+  }
+
+  .ticker-epss{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #93A6BB;
+    white-space: nowrap;
+  }
+
+  .featured-relative-date{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--secondary);
+    font-weight: 600;
+    margin-left: 10px;
+  }
   .tag.advisory{ background: rgba(26, 133, 198, 0.14); color: var(--secondary); }
 
   .placeholder-dash{
@@ -503,7 +524,7 @@
   }
 
   .ticker-summary{
-    font-size: 25px;
+    font-size: 19px;
     color: #C7D5E2;
     font-weight:400;
   }
@@ -585,15 +606,17 @@
 
 <script>
   const VENDORS = [
-    { name: "Microsoft", mono: "MS"  },
-    { name: "SAP",       mono: "SAP" },
-    { name: "Veeam",     mono: "VM"  },
-    { name: "Cisco",     mono: "CS"  },
-    { name: "VMware",    mono: "VW"  },
-    { name: "AWS",       mono: "AWS" },
-    { name: "Dell",      mono: "DL"  },
-    { name: "Fortinet",  mono: "FT"  },
-    { name: "Lenovo",    mono: "LN"  }
+    { name: "Microsoft",  mono: "MS"   },
+    { name: "SAP",        mono: "SAP"  },
+    { name: "Veeam",      mono: "VM"   },
+    { name: "Cisco",      mono: "CS"   },
+    { name: "VMware",     mono: "VW"   },
+    { name: "Dell",       mono: "DL"   },
+    { name: "Fortinet",   mono: "FT"   },
+    { name: "Lenovo",     mono: "LN"   },
+    { name: "Mimecast",   mono: "MC"   },
+    { name: "CrowdStrike",mono: "CRWD" },
+    { name: "Palo Alto Networks", mono: "PANW", short: "Palo Alto" }
   ];
 
   // How often the browser re-checks the data file for new content.
@@ -648,6 +671,19 @@
     return d.innerHTML;
   }
 
+  function relativeDate(isoDate){
+    if (!isoDate) return '';
+    const then = new Date(isoDate).getTime();
+    if (isNaN(then)) return '';
+    const days = Math.floor((Date.now() - then) / (24 * 60 * 60 * 1000));
+    if (days <= 0) return 'Today';
+    if (days === 1) return '1 day ago';
+    if (days < 7) return `${days} days ago`;
+    const weeks = Math.floor(days / 7);
+    if (weeks === 1) return '1 week ago';
+    return `${weeks} weeks ago`;
+  }
+
   function setSyncLine(status){
     document.getElementById('syncLine').textContent = status;
   }
@@ -668,13 +704,10 @@
   }
 
   // ---- Featured card: sliding carousel through every vendor's update ----
-  // AWS is intentionally excluded here (dashboard slider only — it still
-  // appears in the summary strip and ticker). Sorted by date only, no
-  // severity-based reordering, so every vendor gets equal treatment in
-  // the rotation rather than "featuring" one over another.
+  // Sorted by date only, no severity-based reordering, so every vendor gets
+  // equal treatment in the rotation rather than "featuring" one over another.
   function buildSlideList(dataByVendor){
     const entries = VENDORS
-      .filter(v => v.name !== 'AWS')
       .map(v => dataByVendor && dataByVendor[v.name] ? { vendor: v, item: dataByVendor[v.name] } : null)
       .filter(Boolean);
 
@@ -710,7 +743,7 @@
         </div>
         <h2 class="featured-title">${escapeHtml(item.title || 'Untitled update')}</h2>
         <p class="featured-summary">${escapeHtml(item.summary || '')}</p>
-        <div class="featured-date">${item.date || '—'}</div>
+        <div class="featured-date">${item.date || '—'}<span class="featured-relative-date">${relativeDate(item.date)}</span></div>
       </div>
       <div class="featured-dots">${dotsHtml}</div>
     `;
@@ -736,7 +769,7 @@
         : 0;
       return `
         <div class="summary-chip">
-          <span class="summary-chip-name">${v.name}</span>
+          <span class="summary-chip-name">${v.short || v.name}</span>
           <span class="summary-chip-count">${count}</span>
         </div>
       `;
@@ -800,13 +833,17 @@
 
   function buildNvdTickerItemHtml(v, cve){
     const sevCls = severityTagClass(cve.severity);
+    const kevBadge = cve.kev ? `<span class="tag kev">⚠ Actively Exploited</span>` : '';
+    const epssBadge = typeof cve.epss === 'number' ? `<span class="ticker-epss">EPSS ${cve.epss.toFixed(1)}%</span>` : '';
     return `
       <div class="ticker-item">
         <span class="ticker-vendor">${v.name}</span>
         <span class="tag ${sevCls}">${severityLabel(cve.severity)}</span>
+        ${kevBadge}
         <span class="ticker-cve-id">${escapeHtml(cve.id)}</span>
         <span class="ticker-summary">${escapeHtml(cve.title || '')}</span>
-        <span class="ticker-date">${cve.date || ''}</span>
+        <span class="ticker-date">${relativeDate(cve.date)}</span>
+        ${epssBadge}
         <span class="ticker-sep">●</span>
       </div>
     `;
