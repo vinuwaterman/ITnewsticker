@@ -43,8 +43,13 @@ const FEEDS = [
   // ticker (tagged "Advisory") alongside NVD data, since both are
   // genuinely vulnerability-specific, not general product news.
   { name: "Microsoft", url: "https://api.msrc.microsoft.com/update-guide/rss" },
-  { name: "AWS",       url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/" },
-  { name: "Lenovo",    url: "https://news.lenovo.com/feed/" }
+  { name: "Lenovo",    url: "https://news.lenovo.com/feed/" },
+
+  // Newly added, unverified — best-effort general blog guesses, same
+  // pattern as above. Check the Actions log after your first run.
+  { name: "Mimecast",              url: "https://www.mimecast.com/blog/feed/" },
+  { name: "CrowdStrike",           url: "https://www.crowdstrike.com/blog/feed/" },
+  { name: "Palo Alto Networks",    url: "https://www.paloaltonetworks.com/blog/feed" }
 ];
 
 function decodeEntities(str) {
@@ -189,22 +194,23 @@ async function loadExisting() {
 const NVD_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0";
 
 // NVD's keywordSearch does a text match against CVE descriptions. Some
-// vendor names are too short/ambiguous on their own (e.g. "AWS" can appear
-// as a substring in unrelated contexts), so a few vendors get a fuller
-// search term here instead of their display name.
+// vendor names are too short/ambiguous on their own, so a few vendors get a
+// fuller search term here instead of their display name.
 const NVD_SEARCH_TERMS = {
   "Microsoft": "Microsoft",
   "SAP": "SAP",
   "Veeam": "Veeam",
   "Cisco": "Cisco",
   "VMware": "VMware",
-  "AWS": "Amazon Web Services",
   "Dell": "Dell",
   "Fortinet": "Fortinet",
-  "Lenovo": "Lenovo"
+  "Lenovo": "Lenovo",
+  "Mimecast": "Mimecast",
+  "CrowdStrike": "CrowdStrike",
+  "Palo Alto Networks": "Palo Alto Networks"
 };
 
-// NVD allows 5 requests per rolling 30 seconds without an API key. With 9
+// NVD allows 5 requests per rolling 30 seconds without an API key. With 11
 // vendors fetched one at a time, spacing requests out comfortably avoids
 // tripping that limit. If you get a free API key from
 // https://nvd.nist.gov/developers/request-an-api-key, you can raise this
@@ -301,6 +307,92 @@ async function fetchAllNvdData(existingNvd) {
   return nvd;
 }
 
+// ---- CISA Known Exploited Vulnerabilities (KEV) catalog ----
+// Free, public, no key required. One CVE ID list covering everything, so
+// this is a single fetch rather than a per-vendor one.
+// Docs: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+const CISA_KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json";
+
+async function fetchKevCatalog() {
+  const res = await fetch(CISA_KEV_URL, {
+    headers: { "User-Agent": "Mozilla/5.0 (compatible; JulpharITUpdatesBot/1.0; +https://github.com/)" }
+  });
+  if (!res.ok) {
+    throw new Error(`CISA KEV HTTP ${res.status}`);
+  }
+  const data = await res.json();
+  const list = data.vulnerabilities || [];
+  return new Set(list.map(v => v.cveID));
+}
+
+// ---- FIRST.org EPSS (Exploit Prediction Scoring System) ----
+// Free, public, no key required. Scores the probability (0-100%) that a
+// given CVE will be exploited in the wild in the next 30 days. Queried in
+// one batched request per run rather than per-CVE.
+// Docs: https://www.first.org/epss/api
+const EPSS_API_URL = "https://api.first.org/data/v1/epss";
+const EPSS_BATCH_SIZE = 100; // stay well under any practical URL-length limit
+
+async function fetchEpssScores(cveIds) {
+  const scores = {};
+  if (cveIds.length === 0) return scores;
+
+  for (let i = 0; i < cveIds.length; i += EPSS_BATCH_SIZE) {
+    const batch = cveIds.slice(i, i + EPSS_BATCH_SIZE);
+    const res = await fetch(`${EPSS_API_URL}?cve=${batch.join(",")}`, {
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; JulpharITUpdatesBot/1.0; +https://github.com/)" }
+    });
+    if (!res.ok) {
+      throw new Error(`EPSS HTTP ${res.status}`);
+    }
+    const data = await res.json();
+    (data.data || []).forEach(entry => {
+      const score = parseFloat(entry.epss);
+      if (!isNaN(score)) {
+        scores[entry.cve] = score * 100; // convert 0-1 probability to a percentage
+      }
+    });
+  }
+
+  return scores;
+}
+
+// Annotates every CVE item across all vendors with kev (boolean) and epss
+// (0-100 number, when available). Best-effort: if either source fails, the
+// affected fields are simply left off rather than blocking the whole run.
+async function enrichWithKevAndEpss(nvd) {
+  const allCveIds = Object.values(nvd)
+    .flatMap(entry => (entry && entry.items) || [])
+    .map(item => item.id)
+    .filter(Boolean);
+
+  let kevSet = new Set();
+  try {
+    kevSet = await fetchKevCatalog();
+  } catch (err) {
+    console.error("Failed to fetch CISA KEV catalog:", err.message || err);
+  }
+
+  let epssScores = {};
+  try {
+    epssScores = await fetchEpssScores([...new Set(allCveIds)]);
+  } catch (err) {
+    console.error("Failed to fetch EPSS scores:", err.message || err);
+  }
+
+  Object.values(nvd).forEach(entry => {
+    if (!entry || !entry.items) return;
+    entry.items.forEach(item => {
+      item.kev = kevSet.has(item.id);
+      if (typeof epssScores[item.id] === "number") {
+        item.epss = epssScores[item.id];
+      }
+    });
+  });
+
+  return nvd;
+}
+
 async function main() {
   const existing = await loadExisting();
   const results = await Promise.allSettled(FEEDS.map(f => fetchVendorFeed(f.name, f.url)));
@@ -319,7 +411,10 @@ async function main() {
   });
 
   console.log("Fetching NVD vulnerability data (rate-limited, this takes about a minute)...");
-  const nvd = await fetchAllNvdData(existing.nvd);
+  let nvd = await fetchAllNvdData(existing.nvd);
+
+  console.log("Cross-referencing CISA KEV and fetching EPSS scores...");
+  nvd = await enrichWithKevAndEpss(nvd);
 
   const output = {
     generatedAt: new Date().toISOString(),
