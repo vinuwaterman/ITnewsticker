@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T14:10:50.571Z",
+  "generatedAt": "2026-08-05T16:16:27.910Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
-      "date": "2026-08-03",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.&nbsp; This vulnerability is due to an improper system process that is created at boot time. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute a…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "count7d": 2
+      "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
+      "date": "2026-08-05",
+      "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco Catalyst SD-WAN Software Security Hardening Release: August 2026 CVE-2026-20303 CVE-2026-20304 CVE-2026-20310 CVE-2026-20312 CVE-2026-20313 Critical 9.9 Cisco IOS XE Software Security Hardening Release: August 2026 CVE-2026-20267 CVE-2026-20268 CVE-2026-20269 CVE-2026-20270 CVE-2026-20271 CVE-2026-20272 CVE-2026-20273 Critical 9.8 Cisco Integrated Management Controller Argument Injection Vulnerabilities CVE-2026-20200 CVE-2026-20288 High 8.8 Cisco IOS Software and IOS XE Software Extensible…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
+      "count7d": 15
     },
     "VMware": {
       "vendor": "VMware",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Faster Deployments, Smarter Operations: Speed Meets Control",
+      "title": "AI on Your Terms: The Full-Stack Future Is Here",
       "date": "2026-08-05",
-      "summary": "Ensure faster, consistent and secure deployments across private cloud, AI and edge with TOSCA-based, validated blueprints in Dell Automation Platform.",
+      "summary": "Dell AI Factory with NVIDIA helps enterprises use full AI stacks, open models, control token spend and scale AI with their own data.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/faster-deployments-smarter-operations-speed-meets-control/",
+      "url": "https://www.dell.com/en-us/blog/ai-on-your-terms-the-full-stack-future-is-here/",
       "count7d": 10
     },
     "Lenovo": {
@@ -174,7 +174,8 @@
           "date": "2026-08-04",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58067",
-          "kev": false
+          "kev": false,
+          "epss": 0.3
         },
         {
           "id": "CVE-2026-58071",
@@ -182,7 +183,8 @@
           "date": "2026-08-04",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58071",
-          "kev": false
+          "kev": false,
+          "epss": 0.281
         },
         {
           "id": "CVE-2026-58072",
@@ -190,7 +192,8 @@
           "date": "2026-08-04",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58072",
-          "kev": false
+          "kev": false,
+          "epss": 0.376
         },
         {
           "id": "CVE-2026-58073",
@@ -198,7 +201,8 @@
           "date": "2026-08-04",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58073",
-          "kev": false
+          "kev": false,
+          "epss": 0.22399999999999998
         }
       ]
     },
@@ -315,7 +319,8 @@
           "date": "2026-08-04",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16793",
-          "kev": false
+          "kev": false,
+          "epss": 0.35500000000000004
         },
         {
           "id": "CVE-2026-16792",
@@ -323,7 +328,8 @@
           "date": "2026-08-04",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16792",
-          "kev": false
+          "kev": false,
+          "epss": 0.074
         },
         {
           "id": "CVE-2026-16791",
@@ -331,7 +337,8 @@
           "date": "2026-08-04",
           "severity": "LOW",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16791",
-          "kev": false
+          "kev": false,
+          "epss": 0.08800000000000001
         }
       ]
     },
