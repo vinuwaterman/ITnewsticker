@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-06T14:55:07.741Z",
+  "generatedAt": "2026-08-06T23:36:21.066Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-50416 Win32k Information Disclosure Vulnerability",
-      "date": "2026-08-03",
-      "summary": "Acknowledgement Updated",
+      "title": "CVE-2026-62836 Azure SQL Managed Instance Elevation of Privilege Vulnerability",
+      "date": "2026-08-06",
+      "summary": "Improper restriction of communication channel to intended endpoints in Azure SQL Managed Instance allows an unauthorized attacker to elevate privileges over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50416",
-      "count7d": 3
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62836",
+      "count7d": 24
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Service Providers: Simplify hybrid and multi-cloud backup",
+      "title": "Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone",
       "date": "2026-08-06",
-      "summary": "As a service provider that delivers managed backup services, many of the customers you serve are rapidly adopting hyper-scale public cloud platforms such as AWS, Microsoft Azure and Google Cloud as part of a hybrid or multi-cloud strategy — and relying on you to help them protect this data along the way. In fact, over 50% of respondents surveyed said their organization is considering a hybrid-cloud strategy by 2024. Although competing against these large public cloud providers to deliver Infrastructure…",
+      "summary": "Executives don't lose sleep over antivirus updates. Instead, they’re kept awake over the next headline: A breach that erases a quarter's earnings, a regulator's inquiry, or a board asking why nobody saw it coming. The post Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/managed-hybrid-multi-cloud-backup.html",
+      "url": "https://www.veeam.com/blog/data-loss-prevention-strategy.html",
       "count7d": 5
     },
     "Cisco": {
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Avi Strengthens Web Application Security, Boosts Performance and Improves Operational Efficiency",
+      "title": "Securing your VMware Cloud Foundation 9.1 Environment",
       "date": "2026-08-06",
-      "summary": "Announcing Avi’s software-defined Web Application and API Protection (WAAP), significant performance improvement and AI-powered Assistant to enhance operator productivity Earlier in May, VMware Avi Load Balancer delivered plug-and-play integration in VMware Cloud Foundation (VCF) 9.1, featuring support for self-service multi-tenant Virtual Private Clouds (VPC) and complete automation via the VMware vSphere Kubernetes Service (VKS). We &#8230; Continued The post Avi Strengthens Web Application Security, Boosts Performance and Improves Operational Efficiency appeared first on VMware Blogs .",
+      "summary": "Congratulations, you have just upgraded your infrastructure to VMware Cloud Foundation (VCF) 9.1, taking advantage of its latest capabilities and source code hardening. But your security journey does not stop there; this is just the beginning. With VCF 9.1, Broadcom leverages frontier AI models to uncover vulnerabilities and conduct rigorous source code review, delivering its &#8230; Continued The post Securing your VMware Cloud Foundation 9.1 Environment appeared first on VMware Blogs .",
       "category": "patch",
-      "url": "https://blogs.vmware.com/load-balancing/2026/08/06/avi-waap-and-ai-assistant/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/06/securing-your-vmware-cloud-foundation-9-1-environment/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Infrastructure Behind the Next Era of Scientific Discovery",
+      "title": "The Safest Move Isn&#8217;t the One You Think",
       "date": "2026-08-06",
-      "summary": "From genomics and environmental science to fusion energy and sovereign AI, this blog examines how Dell Technologies is building and powering the HPC and AI environments where the world's most ambitious scientific programs run.",
+      "summary": "Prevention alone won’t save you from AI-era threats. Resilience starts by knowing your minimum viable business and pressure-testing it.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-infrastructure-behind-the-next-era-of-scientific-discovery/",
+      "url": "https://www.dell.com/en-us/blog/the-safest-move-isn-t-the-one-you-think/",
       "count7d": 10
     },
     "Lenovo": {
@@ -111,7 +111,8 @@
           "date": "2026-08-05",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18485",
-          "kev": false
+          "kev": false,
+          "epss": 0.11399999999999999
         },
         {
           "id": "CVE-2026-62870",
@@ -205,7 +206,8 @@
           "date": "2026-08-05",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20267",
-          "kev": false
+          "kev": false,
+          "epss": 0.22799999999999998
         },
         {
           "id": "CVE-2026-20272",
@@ -213,7 +215,8 @@
           "date": "2026-08-05",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20272",
-          "kev": false
+          "kev": false,
+          "epss": 0.34299999999999997
         },
         {
           "id": "CVE-2026-20303",
@@ -221,7 +224,8 @@
           "date": "2026-08-05",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20303",
-          "kev": false
+          "kev": false,
+          "epss": 0.291
         },
         {
           "id": "CVE-2026-20304",
@@ -229,7 +233,8 @@
           "date": "2026-08-05",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20304",
-          "kev": false
+          "kev": false,
+          "epss": 0.254
         },
         {
           "id": "CVE-2026-20310",
@@ -237,21 +242,55 @@
           "date": "2026-08-05",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20310",
-          "kev": false
+          "kev": false,
+          "epss": 0.369
         }
       ]
     },
     "VMware": {
-      "count": 0,
-      "items": []
+      "count": 2,
+      "items": [
+        {
+          "id": "CVE-2026-54489",
+          "title": "Dell Virtual Storage Integrator for VMware vSphere Client, versions prior to 10.11.1.0, contain(s) a Sensitive Information Disclosure vulnerability. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to information disclosure and session hijacking. This…",
+          "date": "2026-08-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54489",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-67261",
+          "title": "Dell Virtual Storage Integrator for VMware vSphere Client, versions prior to 10.11.1.0, contain(s) an OS Command Injection vulnerability in the IAPI component. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to the execution…",
+          "date": "2026-08-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67261",
+          "kev": false
+        }
+      ]
     },
     "AWS": {
       "count": 0,
       "items": []
     },
     "Dell": {
-      "count": 4,
+      "count": 6,
       "items": [
+        {
+          "id": "CVE-2026-54489",
+          "title": "Dell Virtual Storage Integrator for VMware vSphere Client, versions prior to 10.11.1.0, contain(s) a Sensitive Information Disclosure vulnerability. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to information disclosure and session hijacking. This…",
+          "date": "2026-08-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54489",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-67261",
+          "title": "Dell Virtual Storage Integrator for VMware vSphere Client, versions prior to 10.11.1.0, contain(s) an OS Command Injection vulnerability in the IAPI component. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to the execution…",
+          "date": "2026-08-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67261",
+          "kev": false
+        },
         {
           "id": "CVE-2026-59912",
           "title": "Dell Display and Peripheral Manager (DDPM Mac), versions prior to 2.3.0.1005, contain an Improper Access Control vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges and…",
@@ -277,15 +316,6 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64993",
           "kev": false
-        },
-        {
-          "id": "CVE-2026-40717",
-          "title": "Dell Monitor driver, version 1.0.0.0, contains an Improper Link Resolution Before File Access ('Link Following') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
-          "date": "2026-08-03",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40717",
-          "kev": false,
-          "epss": 0.11299999999999999
         }
       ]
     },
