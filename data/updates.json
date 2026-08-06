@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T09:41:17.947Z",
+  "generatedAt": "2026-08-06T12:04:15.051Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,20 +12,20 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Support Accreditation: SAP’s Enablement Course to Unlock Faster, Smarter, AI-Powered Customer Support",
-      "date": "2026-08-05",
-      "summary": "What if you could resolve issues faster, work more independently, and stay ahead of AI-driven innovation all in just over 60 minutes of learning?",
+      "title": "AI Adoption and SAP Transformation: What Customers Report from Practice",
+      "date": "2026-08-06",
+      "summary": "How do new technologies actually work in day-to-day operations?",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/support-accreditation-course-unlock-customer-support/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/08/ai-adoption-transformation-what-customers-report/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "The Threat Surface Isn&#8217;t Your Network. It&#8217;s Agents Acting on Your Data",
-      "date": "2026-08-05",
-      "summary": "AI has flipped the economics of intrusion in the attacker's favor. Dwell time, the gap between a breach and the moment someone notices it, has dropped from weeks to minutes. Cyber threats now move at machine speed. They don’t wait for human intervention. The post The Threat Surface Isn&#8217;t Your Network. It&#8217;s Agents Acting on Your Data appeared first on Veeam Software Official Blog .",
+      "title": "Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone",
+      "date": "2026-08-06",
+      "summary": "Executives don't lose sleep over antivirus updates. Instead, they’re kept awake over the next headline: A breach that erases a quarter's earnings, a regulator's inquiry, or a board asking why nobody saw it coming. The post Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/ai-agents-attack-surface.html",
+      "url": "https://www.veeam.com/blog/data-loss-prevention-strategy.html",
       "count7d": 5
     },
     "Cisco": {
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Simplify Kubernetes Security with the VMware vSphere Kubernetes Service Policy Bundle",
-      "date": "2026-08-04",
-      "summary": "As Kubernetes adoption continues to grow across enterprise environments, platform teams are increasingly responsible for more than just delivering clusters. They are expected to provide secure, standardized platforms that enable application teams to deploy quickly while meeting organizational security and compliance requirements. Kubernetes admission policies have become an important part of that strategy. This means &#8230; Continued The post Simplify Kubernetes Security with the VMware vSphere Kubernetes Service Policy Bundle appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/04/simplify-kubernetes-security-with-the-vmware-vsphere-kubernetes-service-policy-bundle/",
+      "title": "導入事例 : TKC様",
+      "date": "2026-08-06",
+      "summary": "全国約1,150の地方公共団体や会計事務所、大手企業に向けたIT・クラウドサービスを提供する株式会社TKC様。本日はVMware Cloud Founation®を活用事例をご紹介いたします。 同社のデータセンター「TISC」では3,000〜4,000台規模の仮想マシン（VM）が稼働し、日本の社会基盤を陰で支えています。しかし、急速なシステム拡大に対してインフラSEチームは十分な人数がいない環境。さらに、ISO認証に基づく「開発と運用の完全分離」という厳格なIT統制があるため、開発部門が自社のリソース状況を確認できず、運用チームへの問合せ集中や運用の属人化が課題となっていました。この「部門間の壁」と「少人数運用の限界」を打破したのが、VMware Cloud Foundation（VCF）を活用した運用プロセスの刷新です。 1. アカウント不要の「URL共有ダッシュボード」で情報共有を円滑化 TKC様はVCF Operationsの機能を活用し、開発部門がブラウザ上で自部門のVMリソース（CPU・メモリ等）を閲覧できる社内ポータルを構築しました。個別のログイン権限を与えずに情報共有できるため、厳格なIT統制を守ったままセルフサービス監視を実現。開発者が自発的にボトルネックに気づく文化が生まれました。 2. 勘に頼らない「標準化」とプロアクティブな障害予防 VM展開時やプログラムの一斉適用時には専用ダッシュボードで健全性を一目で比較・確認できるように標準化。これにより、展開時のトラブルを「ゼロ」に抑え込むことに成功しました。 3. セキュリティ強化とネットワーク異常の早期発見 VCF Operations for Networksの「外れ値検知」機能により、目視では気付きにくい不審な通信を自動検知。さらに「VMware vDefend」によるマイクロセグメンテーションを適用し、ゼロトラスト型の強固なセキュリティ基盤を確立しています。 TKC様の事例詳細については以下のPDFをダウンロードの上、ご参照ください。 TKC様導入事例をダウンロード The post 導入事例 : TKC様 appeared first on VMware Japan Blog. The post 導入事例 : TKC様 appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/08/%E5%B0%8E%E5%85%A5%E4%BA%8B%E4%BE%8B-tkc%E6%A7%98.html",
       "count7d": 10
     },
     "AWS": {
@@ -66,11 +66,11 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Making sustainable technology easier to understand",
-      "date": "2026-07-30",
-      "summary": "How Lenovo is helping customers make more informed technology decisions as an EPEAT 2.0 Launch Partner.",
+      "title": "Telecom Leader Securelink Expands Services with Lenovo TruScale DaaS to Support Growth and Customer Success",
+      "date": "2026-08-06",
+      "summary": "Securelink chose Lenovo TruScale Device as a Service to power its services-led transformation, supported by the Lenovo 360 for TruScale go-to-market framework.",
       "category": "feature",
-      "url": "https://news.lenovo.com/making-sustainable-technology-epeat/",
+      "url": "https://news.lenovo.com/telecom-leader-securelink-expands-services-with-lenovo-truscale-daas-to-support-growth-and-customer-success/",
       "count7d": 1
     },
     "Fortinet": {
