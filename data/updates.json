@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T12:04:15.051Z",
+  "generatedAt": "2026-08-06T14:55:07.741Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone",
+      "title": "Service Providers: Simplify hybrid and multi-cloud backup",
       "date": "2026-08-06",
-      "summary": "Executives don't lose sleep over antivirus updates. Instead, they’re kept awake over the next headline: A breach that erases a quarter's earnings, a regulator's inquiry, or a board asking why nobody saw it coming. The post Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone appeared first on Veeam Software Official Blog .",
+      "summary": "As a service provider that delivers managed backup services, many of the customers you serve are rapidly adopting hyper-scale public cloud platforms such as AWS, Microsoft Azure and Google Cloud as part of a hybrid or multi-cloud strategy — and relying on you to help them protect this data along the way. In fact, over 50% of respondents surveyed said their organization is considering a hybrid-cloud strategy by 2024. Although competing against these large public cloud providers to deliver Infrastructure…",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/data-loss-prevention-strategy.html",
+      "url": "https://www.veeam.com/blog/managed-hybrid-multi-cloud-backup.html",
       "count7d": 5
     },
     "Cisco": {
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "導入事例 : TKC様",
+      "title": "Avi Strengthens Web Application Security, Boosts Performance and Improves Operational Efficiency",
       "date": "2026-08-06",
-      "summary": "全国約1,150の地方公共団体や会計事務所、大手企業に向けたIT・クラウドサービスを提供する株式会社TKC様。本日はVMware Cloud Founation®を活用事例をご紹介いたします。 同社のデータセンター「TISC」では3,000〜4,000台規模の仮想マシン（VM）が稼働し、日本の社会基盤を陰で支えています。しかし、急速なシステム拡大に対してインフラSEチームは十分な人数がいない環境。さらに、ISO認証に基づく「開発と運用の完全分離」という厳格なIT統制があるため、開発部門が自社のリソース状況を確認できず、運用チームへの問合せ集中や運用の属人化が課題となっていました。この「部門間の壁」と「少人数運用の限界」を打破したのが、VMware Cloud Foundation（VCF）を活用した運用プロセスの刷新です。 1. アカウント不要の「URL共有ダッシュボード」で情報共有を円滑化 TKC様はVCF Operationsの機能を活用し、開発部門がブラウザ上で自部門のVMリソース（CPU・メモリ等）を閲覧できる社内ポータルを構築しました。個別のログイン権限を与えずに情報共有できるため、厳格なIT統制を守ったままセルフサービス監視を実現。開発者が自発的にボトルネックに気づく文化が生まれました。 2. 勘に頼らない「標準化」とプロアクティブな障害予防 VM展開時やプログラムの一斉適用時には専用ダッシュボードで健全性を一目で比較・確認できるように標準化。これにより、展開時のトラブルを「ゼロ」に抑え込むことに成功しました。 3. セキュリティ強化とネットワーク異常の早期発見 VCF Operations for Networksの「外れ値検知」機能により、目視では気付きにくい不審な通信を自動検知。さらに「VMware vDefend」によるマイクロセグメンテーションを適用し、ゼロトラスト型の強固なセキュリティ基盤を確立しています。 TKC様の事例詳細については以下のPDFをダウンロードの上、ご参照ください。 TKC様導入事例をダウンロード The post 導入事例 : TKC様 appeared first on VMware Japan Blog. The post 導入事例 : TKC様 appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/08/%E5%B0%8E%E5%85%A5%E4%BA%8B%E4%BE%8B-tkc%E6%A7%98.html",
+      "summary": "Announcing Avi’s software-defined Web Application and API Protection (WAAP), significant performance improvement and AI-powered Assistant to enhance operator productivity Earlier in May, VMware Avi Load Balancer delivered plug-and-play integration in VMware Cloud Foundation (VCF) 9.1, featuring support for self-service multi-tenant Virtual Private Clouds (VPC) and complete automation via the VMware vSphere Kubernetes Service (VKS). We &#8230; Continued The post Avi Strengthens Web Application Security, Boosts Performance and Improves Operational Efficiency appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/load-balancing/2026/08/06/avi-waap-and-ai-assistant/",
       "count7d": 10
     },
     "AWS": {
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell AI Data Platform Wins CRN Tech Innovators Award",
-      "date": "2026-08-05",
-      "summary": "Award-winning again: the Dell AI Data Platform earns CRN's Tech Innovators Award, now supercharged by the Data Orchestration Engine for AI at scale.",
+      "title": "The Infrastructure Behind the Next Era of Scientific Discovery",
+      "date": "2026-08-06",
+      "summary": "From genomics and environmental science to fusion energy and sovereign AI, this blog examines how Dell Technologies is building and powering the HPC and AI environments where the world's most ambitious scientific programs run.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/dell-ai-data-platform-wins-crn-tech-innovators-award/",
+      "url": "https://www.dell.com/en-us/blog/the-infrastructure-behind-the-next-era-of-scientific-discovery/",
       "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Telecom Leader Securelink Expands Services with Lenovo TruScale DaaS to Support Growth and Customer Success",
+      "title": "Lenovo Signs Industry Letter Supporting Open-Weight AI",
       "date": "2026-08-06",
-      "summary": "Securelink chose Lenovo TruScale Device as a Service to power its services-led transformation, supported by the Lenovo 360 for TruScale go-to-market framework.",
+      "summary": "Lenovo is a signatory to an industry-led coalition letter supporting the continued development and availability of open-weight AI models.",
       "category": "feature",
-      "url": "https://news.lenovo.com/telecom-leader-securelink-expands-services-with-lenovo-truscale-daas-to-support-growth-and-customer-success/",
-      "count7d": 1
+      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-signs-industry-letter-supporting-open-weight-ai/",
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -242,61 +242,15 @@
       ]
     },
     "VMware": {
-      "count": 5,
-      "items": [
-        {
-          "id": "CVE-2026-47876",
-          "title": "VMware ESX contains an out-of-bounds write vulnerability in the VMXNET3 virtual network adapter. A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute…",
-          "date": "2026-07-30",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47876",
-          "kev": false,
-          "epss": 0.281
-        },
-        {
-          "id": "CVE-2026-59309",
-          "title": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. A malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system.",
-          "date": "2026-07-30",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59309",
-          "kev": false,
-          "epss": 0.744
-        },
-        {
-          "id": "CVE-2026-59310",
-          "title": "VMware vCenter contains a directory traversal vulnerability in the Syslog server. A malicious actor with network access to vCenter may exploit this issue to execute arbitrary code.",
-          "date": "2026-07-30",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
-          "kev": false,
-          "epss": 1.1400000000000001
-        },
-        {
-          "id": "CVE-2026-41703",
-          "title": "VMware ESX, Workstation, and Fusion contain an out-of-bounds read vulnerability. A malicious actor with VM deployment privileges could trigger an out-of-bounds read, potentially leading to information disclosure or more likely a Denial-of-Service (DoS) condition of…",
-          "date": "2026-07-30",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41703",
-          "kev": false,
-          "epss": 0.5559999999999999
-        },
-        {
-          "id": "CVE-2026-41709",
-          "title": "VMware ESX contains an insufficient logging vulnerability. A malicious administrator could exploit this issue to perform certain operations without them being logged.",
-          "date": "2026-07-30",
-          "severity": "LOW",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
-          "kev": false,
-          "epss": 0.382
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "AWS": {
       "count": 0,
       "items": []
     },
     "Dell": {
-      "count": 3,
+      "count": 4,
       "items": [
         {
           "id": "CVE-2026-59912",
@@ -315,6 +269,14 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59913",
           "kev": false,
           "epss": 0.11199999999999999
+        },
+        {
+          "id": "CVE-2026-64993",
+          "title": "Dell RVTools versions prior to 4.8.1, contains an improper certificate validation vulnerability in the collector. A remote unauthenticated attacker could potentially exploit this vulnerability leading to loss of confidentiality and integrity.",
+          "date": "2026-08-06",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64993",
+          "kev": false
         },
         {
           "id": "CVE-2026-40717",
