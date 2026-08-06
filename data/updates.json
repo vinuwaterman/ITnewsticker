@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T23:00:33.721Z",
+  "generatedAt": "2026-08-06T00:07:42.258Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Acknowledgement Updated",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50416",
-      "count7d": 9
+      "count7d": 3
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "What if you could resolve issues faster, work more independently, and stay ahead of AI-driven innovation all in just over 60 minutes of learning?",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/support-accreditation-course-unlock-customer-support/",
-      "count7d": 7
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/",
-      "count7d": 3
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
