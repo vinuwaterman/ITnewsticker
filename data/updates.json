@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T23:36:21.066Z",
+  "generatedAt": "2026-08-07T00:25:28.952Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -17,7 +17,7 @@
       "summary": "How do new technologies actually work in day-to-day operations?",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/ai-adoption-transformation-what-customers-report/",
-      "count7d": 6
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -103,8 +103,24 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 18,
+      "count": 27,
       "items": [
+        {
+          "id": "CVE-2026-59115",
+          "title": "'.../...//' in Microsoft Entra Provisioning Service (SyncFabric) allows an authorized attacker to elevate privileges over a network.",
+          "date": "2026-08-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59115",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-59118",
+          "title": "Improper authorization in Microsoft Power Apps allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-08-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59118",
+          "kev": false
+        },
         {
           "id": "CVE-2026-18485",
           "title": "There is a local privilege escalation vulnerability recently discovered in the NI-PAL kernel driver. This may allow a local, authenticated user to escalate privileges and execute arbitrary code. This vulnerability affects NI-PAL 26.3.1 and prior…",
@@ -131,24 +147,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65802",
           "kev": false,
           "epss": 0.942
-        },
-        {
-          "id": "CVE-2026-66310",
-          "title": "External control of file name or path in Microsoft Edge for Android allows an unauthorized attacker to disclose information locally.",
-          "date": "2026-08-04",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66310",
-          "kev": false,
-          "epss": 0.402
-        },
-        {
-          "id": "CVE-2026-66315",
-          "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-08-04",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66315",
-          "kev": false,
-          "epss": 0.621
         }
       ]
     },
