@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T11:46:35.306Z",
+  "generatedAt": "2026-08-07T13:05:19.245Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Safest Move Isn&#8217;t the One You Think",
-      "date": "2026-08-06",
-      "summary": "Prevention alone won’t save you from AI-era threats. Resilience starts by knowing your minimum viable business and pressure-testing it.",
+      "title": "Part 3 &#8212; Supply Chain: Verifying the Box Before You Open It",
+      "date": "2026-08-07",
+      "summary": "Dell SCV offers a fully offline option and native Intune telemetry. See where HP's Platform Certificate falls short.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-safest-move-isn-t-the-one-you-think/",
+      "url": "https://www.dell.com/en-us/blog/part-3-supply-chain-verifying-the-box-before-you-open-it/",
       "count7d": 10
     },
     "Lenovo": {
