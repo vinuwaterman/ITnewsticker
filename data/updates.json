@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T18:58:42.397Z",
+  "generatedAt": "2026-08-07T19:55:37.287Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Securing your VMware Cloud Foundation 9.1 Environment",
-      "date": "2026-08-06",
-      "summary": "Congratulations, you have just upgraded your infrastructure to VMware Cloud Foundation (VCF) 9.1, taking advantage of its latest capabilities and source code hardening. But your security journey does not stop there; this is just the beginning. With VCF 9.1, Broadcom leverages frontier AI models to uncover vulnerabilities and conduct rigorous source code review, delivering its &#8230; Continued The post Securing your VMware Cloud Foundation 9.1 Environment appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/06/securing-your-vmware-cloud-foundation-9-1-environment/",
+      "title": "Find Your People: The VMware Explore 2026 Community Guide",
+      "date": "2026-08-07",
+      "summary": "Join us at Explore Las Vegas, Nevada &#124; The Venetian Aug. 31 – Sep. 3, 2026 REGISTER NOW Mastering private cloud infrastructure takes a lot of technical skill, but it also takes a solid support system. You can read all the documentation in the world, but nothing beats asking a peer, &#8220;How did you actually &#8230; Continued The post Find Your People: The VMware Explore 2026 Community Guide appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/explore/communities-at-explore/",
       "count7d": 10
     },
     "AWS": {
