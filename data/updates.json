@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T10:53:58.270Z",
+  "generatedAt": "2026-08-07T11:46:35.306Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "AI Adoption and SAP Transformation: What Customers Report from Practice",
-      "date": "2026-08-06",
-      "summary": "How do new technologies actually work in day-to-day operations?",
+      "title": "Innovating with AI Because Reinvention Is in Cirque du Soleil’s DNA",
+      "date": "2026-08-07",
+      "summary": "Cirque du Soleil knows firsthand how to leverage SAP technology not only to run its operations, but also to reinvent them.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/ai-adoption-transformation-what-customers-report/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/08/innovating-with-ai-cirque-du-soleil/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
