@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T13:05:19.245Z",
+  "generatedAt": "2026-08-07T14:33:33.824Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -111,7 +111,8 @@
           "date": "2026-08-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59115",
-          "kev": false
+          "kev": false,
+          "epss": 0.634
         },
         {
           "id": "CVE-2026-59118",
@@ -119,7 +120,8 @@
           "date": "2026-08-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59118",
-          "kev": false
+          "kev": false,
+          "epss": 0.39899999999999997
         },
         {
           "id": "CVE-2026-62873",
@@ -127,7 +129,8 @@
           "date": "2026-08-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62873",
-          "kev": false
+          "kev": false,
+          "epss": 0.35000000000000003
         },
         {
           "id": "CVE-2026-18485",
@@ -253,7 +256,8 @@
           "date": "2026-08-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54489",
-          "kev": false
+          "kev": false,
+          "epss": 0.392
         },
         {
           "id": "CVE-2026-67261",
@@ -261,7 +265,8 @@
           "date": "2026-08-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67261",
-          "kev": false
+          "kev": false,
+          "epss": 1.603
         }
       ]
     },
@@ -270,7 +275,7 @@
       "items": []
     },
     "Dell": {
-      "count": 6,
+      "count": 8,
       "items": [
         {
           "id": "CVE-2026-54489",
@@ -278,7 +283,8 @@
           "date": "2026-08-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54489",
-          "kev": false
+          "kev": false,
+          "epss": 0.392
         },
         {
           "id": "CVE-2026-67261",
@@ -286,6 +292,15 @@
           "date": "2026-08-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67261",
+          "kev": false,
+          "epss": 1.603
+        },
+        {
+          "id": "CVE-2026-56793",
+          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.2, contains an Improper Authentication vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
+          "date": "2026-08-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56793",
           "kev": false
         },
         {
@@ -305,14 +320,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59913",
           "kev": false,
           "epss": 0.11199999999999999
-        },
-        {
-          "id": "CVE-2026-64993",
-          "title": "Dell RVTools versions prior to 4.8.1, contains an improper certificate validation vulnerability in the collector. A remote unauthenticated attacker could potentially exploit this vulnerability leading to loss of confidentiality and integrity.",
-          "date": "2026-08-06",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64993",
-          "kev": false
         }
       ]
     },
