@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T08:15:33.660Z",
+  "generatedAt": "2026-08-07T09:33:15.180Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 27,
+      "count": 26,
       "items": [
         {
           "id": "CVE-2026-59115",
@@ -119,6 +119,14 @@
           "date": "2026-08-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59118",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-62873",
+          "title": "Improper verification of cryptographic signature in Microsoft 365 Admin Center allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-08-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62873",
           "kev": false
         },
         {
@@ -138,15 +146,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62870",
           "kev": false,
           "epss": 0.8370000000000001
-        },
-        {
-          "id": "CVE-2026-65802",
-          "title": "External control of file name or path in Microsoft Edge for Android allows an unauthorized attacker to disclose information over a network.",
-          "date": "2026-08-04",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65802",
-          "kev": false,
-          "epss": 0.942
         }
       ]
     },
