@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-07T22:36:49.282Z",
+  "generatedAt": "2026-08-07T23:35:03.235Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2019-6706 Lua 5.3.5 has a use-after-free in lua_upvaluejoin in lapi.c. For example a crash outcome might be achieved by an…",
+      "title": "CVE-2019-9924 rbash in Bash before 4.4-beta2 did not prevent the shell user from modifying BASH_CMDS, thus allowing the user to…",
       "date": "2026-08-07",
       "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-6706",
-      "count7d": 34
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-9924",
+      "count7d": 36
     },
     "SAP": {
       "vendor": "SAP",
