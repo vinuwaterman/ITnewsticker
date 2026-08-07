@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-07T21:40:10.883Z",
+  "generatedAt": "2026-08-07T22:36:49.282Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
+      "title": "CVE-2019-6706 Lua 5.3.5 has a use-after-free in lua_upvaluejoin in lapi.c. For example a crash outcome might be achieved by an…",
       "date": "2026-08-07",
-      "summary": "Acknowledgement Updated",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
-      "count7d": 27
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-6706",
+      "count7d": 34
     },
     "SAP": {
       "vendor": "SAP",
