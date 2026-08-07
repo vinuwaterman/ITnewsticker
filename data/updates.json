@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T15:57:22.792Z",
+  "generatedAt": "2026-08-07T16:57:54.477Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
-      "date": "2026-08-05",
-      "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco Catalyst SD-WAN Software Security Hardening Release: August 2026 CVE-2026-20303 CVE-2026-20304 CVE-2026-20310 CVE-2026-20312 CVE-2026-20313 Critical 9.9 Cisco IOS XE Software Security Hardening Release: August 2026 CVE-2026-20267 CVE-2026-20268 CVE-2026-20269 CVE-2026-20270 CVE-2026-20271 CVE-2026-20272 CVE-2026-20273 Critical 9.8 Cisco Integrated Management Controller Argument Injection Vulnerabilities CVE-2026-20200 CVE-2026-20288 High 8.8 Cisco IOS Software and IOS XE Software Extensible…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
-      "count7d": 15
+      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
+      "date": "2026-08-07",
+      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. For additional information on these vulnerabilities in ClamAV, see the ClamAV blog . Cisco plans to release software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these vulnerabilities is High for…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
+      "count7d": 16
     },
     "VMware": {
       "vendor": "VMware",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery",
-      "date": "2026-08-06",
+      "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
+      "date": "2026-08-07",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/",
-      "count7d": 3
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
