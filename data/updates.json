@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T00:25:28.952Z",
+  "generatedAt": "2026-08-07T03:30:03.096Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Secure Agent Harness Execution: Preventing Escape",
-      "date": "2026-08-04",
+      "title": "Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery",
+      "date": "2026-08-06",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/",
-      "count7d": 2
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/",
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
