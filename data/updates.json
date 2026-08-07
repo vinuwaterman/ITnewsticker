@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-07T17:52:34.317Z",
+  "generatedAt": "2026-08-07T18:58:42.397Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62836 Azure SQL Managed Instance Elevation of Privilege Vulnerability",
-      "date": "2026-08-06",
-      "summary": "Improper restriction of communication channel to intended endpoints in Azure SQL Managed Instance allows an unauthorized attacker to elevate privileges over a network.",
+      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
+      "date": "2026-08-07",
+      "summary": "Acknowledgement Updated",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62836",
-      "count7d": 24
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
+      "count7d": 27
     },
     "SAP": {
       "vendor": "SAP",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
-      "date": "2026-08-07",
+      "title": "Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery",
+      "date": "2026-08-06",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
-      "count7d": 4
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/",
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
