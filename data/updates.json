@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T20:42:04.116Z",
+  "generatedAt": "2026-08-07T21:40:10.883Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
+      "title": "Cisco Catalyst SD-WAN Manager Information Disclosure Vulnerability",
       "date": "2026-08-07",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. For additional information on these vulnerabilities in ClamAV, see the ClamAV blog . Cisco plans to release software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these vulnerabilities is High for…",
+      "summary": "A vulnerability in the web-based management interface of Cisco Catalyst SD-WAN Manager could allow an authenticated, remote attacker to view sensitive information in clear text on an affected system. This vulnerability is due to insufficient access control enforcement for specific template types that are not included in the encryption allowlist. A low-privileged attacker could exploit this vulnerability by viewing logs on the local system or on a remote logging server. A successful exploit could allow the attacker to view sensitive…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-SPuJBDCe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Information%20Disclosure%20Vulnerability%26vs_k=1",
       "count7d": 16
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Find Your People: The VMware Explore 2026 Community Guide",
+      "title": "Running Solo.io Enterprise agentgateway and Kagent on VMware Cloud Foundation",
       "date": "2026-08-07",
-      "summary": "Join us at Explore Las Vegas, Nevada &#124; The Venetian Aug. 31 – Sep. 3, 2026 REGISTER NOW Mastering private cloud infrastructure takes a lot of technical skill, but it also takes a solid support system. You can read all the documentation in the world, but nothing beats asking a peer, &#8220;How did you actually &#8230; Continued The post Find Your People: The VMware Explore 2026 Community Guide appeared first on VMware Blogs .",
+      "summary": "Running AI Agents as Governed Enterprise Infrastructure The Challenge: Agentic AI Governance AI agents have moved past answering questions. They call tools, query databases, run code, and hand work to other agents without a person in the loop. The controls that enterprises built for traditional software do not extend to this behavior. An API gateway &#8230; Continued The post Running Solo.io Enterprise agentgateway and Kagent on VMware Cloud Foundation appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/explore/communities-at-explore/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/07/running-solo-io-enterprise-agentgateway-and-kagent-on-vmware-cloud-foundation/",
       "count7d": 10
     },
     "AWS": {
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery",
-      "date": "2026-08-06",
+      "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
+      "date": "2026-08-07",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/",
-      "count7d": 3
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
