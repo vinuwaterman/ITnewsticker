@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-08T03:27:14.151Z",
+  "generatedAt": "2026-08-08T04:36:50.739Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2019-9924 rbash in Bash before 4.4-beta2 did not prevent the shell user from modifying BASH_CMDS, thus allowing the user to…",
-      "date": "2026-08-07",
+      "title": "CVE-2026-68480 x86/bugs: Make Safe-RET robust against interrupt injection",
+      "date": "2026-08-08",
       "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-9924",
-      "count7d": 36
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68480",
+      "count7d": 46
     },
     "SAP": {
       "vendor": "SAP",
