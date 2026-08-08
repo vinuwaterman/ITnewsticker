@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T01:41:15.172Z",
+  "generatedAt": "2026-08-08T03:27:14.151Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery",
-      "date": "2026-08-06",
+      "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
+      "date": "2026-08-07",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/",
-      "count7d": 3
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
