@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:51:55.773Z",
+  "generatedAt": "2026-08-08T14:32:55.738Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -112,7 +112,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59115",
           "kev": false,
-          "epss": 0.634
+          "epss": 0.635
         },
         {
           "id": "CVE-2026-59118",
@@ -121,7 +121,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59118",
           "kev": false,
-          "epss": 0.39899999999999997
+          "epss": 0.38999999999999996
         },
         {
           "id": "CVE-2026-62873",
@@ -130,7 +130,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62873",
           "kev": false,
-          "epss": 0.35000000000000003
+          "epss": 0.34299999999999997
         },
         {
           "id": "CVE-2026-18485",
@@ -257,7 +257,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54489",
           "kev": false,
-          "epss": 0.392
+          "epss": 0.424
         },
         {
           "id": "CVE-2026-67261",
@@ -284,7 +284,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54489",
           "kev": false,
-          "epss": 0.392
+          "epss": 0.424
         },
         {
           "id": "CVE-2026-67261",
@@ -301,7 +301,8 @@
           "date": "2026-08-07",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56793",
-          "kev": false
+          "kev": false,
+          "epss": 0.313
         },
         {
           "id": "CVE-2026-59912",
