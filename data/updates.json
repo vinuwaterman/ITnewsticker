@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-09T06:09:30.938Z",
+  "generatedAt": "2026-08-09T07:33:44.143Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2025-62725 Docker Compose Vulnerable to Path Traversal via OCI Artifact Layer Annotations",
-      "date": "2026-08-08",
+      "title": "CVE-2026-64572 ipv4: fib: free fib_alias with kfree_rcu() on insert error path",
+      "date": "2026-08-09",
       "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-62725",
-      "count7d": 48
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64572",
+      "count7d": 94
     },
     "SAP": {
       "vendor": "SAP",
