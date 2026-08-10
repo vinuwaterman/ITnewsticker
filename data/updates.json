@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T13:09:44.189Z",
+  "generatedAt": "2026-08-10T14:37:39.744Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -148,7 +148,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62870",
           "kev": false,
-          "epss": 0.8370000000000001
+          "epss": 0.819
         }
       ]
     },
