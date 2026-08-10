@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T20:43:37.260Z",
+  "generatedAt": "2026-08-10T21:42:47.439Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "米国 DISA STIG を活用した VMware のセキュリティ監査と自動化",
+      "title": "VMware Explore 2026: Learn to Build, Govern, Protect and Optimize AI Workloads",
       "date": "2026-08-10",
-      "summary": "官公庁や金融機関など、高度なセキュリティが求められる環境において、VMware vSphere® などのセキュリティ設定を評価し、担保することはインフラ運用の重要な課題です。本記事では、米国防総省（DoD）の基準であるDISA STIG（Security Technical Implementation Guide）を活用した、VMware プロダクトのセキュリティ監査、自動化、結果の可視化手法について解説します。 1. DISA STIG とは？ VMware との共同開発 STIGとは、米国防総省の情報システム局（DISA）が発行する、システムを安全に構成するための技術ガイドラインです。セキュリティ技術実装ガイド（STIG）は、国防情報システム局（DISA）が発行する構成標準であり、特定のソフトウェア製品が国防総省のセキュリティ要件を満たすためにどのように構成する必要があるかを規定しています。STIG は、構成すべき内容だけでなく、構成方法も定義しており、国防総省環境での使用が認められるためにシステムが満たすべき具体的な設定、値、検証手順などが含まれます。 STIG は、NIST SP 800-53 およびより広範な国防総省のセキュリティフレームワークから派生した一連のセキュリティ管理策を中心に構成されています。STIG 内の個々の要件は管理策（またはルール）と呼ばれ、各管理策には重大度評価（カテゴリI、II、III。それぞれ高、中、低の影響に対応）、セキュリティ設定の説明、準拠を確認する手順、および発見事項を是正する手順があります。 &#160; 複数ベンダーが並ぶ DISA の STIG 管理サイト DISAの公式サイト（DoD Cyber Exchange）には、OS、データベース、ネットワーク機器からクラウドインフラに至るまで、多数のベンダー製品向けの STIG がラインナップされています。Microsoft®、Red Hat、Cisco®、VMware など、各ベンダー製品のセキュリティ基準がここで一元管理されています。 VMware と DISA の共同開発と最終承認 vSphere や VMware Cloud Foundation® 9 (VCF 9) 向けの STIG は、VMware と DISA が連携して共同開発しています。VMware が製品のアーキテクチャや最新機能（VCF の新機能など）に基づいたベストプラクティスを提案し、DISA &#8230; Continued The post 米国 DISA STIG を活用した VMware のセキュリティ監査と自動化 appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/08/disa-stig-vmware.html",
+      "summary": "If you’ve been following the enterprise tech landscape this year, you already know what the most urgent conversation at VMware Explore 2026 in Las Vegas is going to be: AI. Over the past couple of years, AI has quickly evolved from pilot projects into an engine running daily business operations. Enterprise leaders everywhere are integrating &#8230; Continued The post VMware Explore 2026: Learn to Build, Govern, Protect and Optimize AI Workloads appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/10/vmware-explore-2026-learn-to-build-govern-protect-and-optimize-ai-workloads/",
       "count7d": 10
     },
     "AWS": {
