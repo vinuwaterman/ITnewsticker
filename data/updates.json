@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-10T17:04:07.147Z",
+  "generatedAt": "2026-08-10T18:15:02.876Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-40417 Microsoft Dynamics 365 Business Central Elevation of Privilege Vulnerability",
+      "title": "CVE-2024-21380 Microsoft Dynamics Business Central/NAV Information Disclosure Vulnerability",
       "date": "2026-08-10",
       "summary": "Updated the build numbers. This is an informational update only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40417",
-      "count7d": 117
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21380",
+      "count7d": 118
     },
     "SAP": {
       "vendor": "SAP",
