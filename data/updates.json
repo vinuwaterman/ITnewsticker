@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T10:44:39.254Z",
+  "generatedAt": "2026-08-10T11:48:27.808Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Innovating with AI Because Reinvention Is in Cirque du Soleil’s DNA",
-      "date": "2026-08-07",
-      "summary": "Cirque du Soleil knows firsthand how to leverage SAP technology not only to run its operations, but also to reinvent them.",
+      "title": "AI’s Dual Role in Procurement Transformation",
+      "date": "2026-08-10",
+      "summary": "The gap between AI’s promise and procurement’s reality is widening. Here’s what needs to change.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/innovating-with-ai-cirque-du-soleil/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/08/ai-dual-role-procurement-transformation/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
