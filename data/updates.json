@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T23:32:38.422Z",
+  "generatedAt": "2026-08-10T01:50:34.723Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Information published.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64572",
-      "count7d": 94
+      "count7d": 91
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Cirque du Soleil knows firsthand how to leverage SAP technology not only to run its operations, but also to reinvent them.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/innovating-with-ai-cirque-du-soleil/",
-      "count7d": 6
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Executives don't lose sleep over antivirus updates. Instead, they’re kept awake over the next headline: A breach that erases a quarter's earnings, a regulator's inquiry, or a board asking why nobody saw it coming. The post Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/data-loss-prevention-strategy.html",
-      "count7d": 5
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
-      "count7d": 4
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -98,7 +98,7 @@
       "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
-      "count7d": 3
+      "count7d": 2
     }
   },
   "nvd": {
