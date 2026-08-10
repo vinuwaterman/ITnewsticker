@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T16:01:41.893Z",
+  "generatedAt": "2026-08-10T17:04:07.147Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Catalyst SD-WAN Manager Information Disclosure Vulnerability",
-      "date": "2026-08-07",
-      "summary": "A vulnerability in the web-based management interface of Cisco Catalyst SD-WAN Manager could allow an authenticated, remote attacker to view sensitive information in clear text on an affected system. This vulnerability is due to insufficient access control enforcement for specific template types that are not included in the encryption allowlist. A low-privileged attacker could exploit this vulnerability by viewing logs on the local system or on a remote logging server. A successful exploit could allow the attacker to view sensitive…",
+      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
+      "date": "2026-08-10",
+      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. For additional information on these vulnerabilities in ClamAV, see the ClamAV blog . Cisco plans to release software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these vulnerabilities is High for…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-SPuJBDCe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Information%20Disclosure%20Vulnerability%26vs_k=1",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
       "count7d": 16
     },
     "VMware": {
