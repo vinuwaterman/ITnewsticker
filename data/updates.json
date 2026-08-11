@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-11T08:57:52.817Z",
+  "generatedAt": "2026-08-11T10:04:23.684Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-64581 xfrm: fix sk_dst_cache double-free in xfrm_user_policy()",
+      "title": "CVE-2025-2308 HDF5 Scale-Offset Filter H5Z__scaleoffset_decompress_one_byte heap-based overflow",
       "date": "2026-08-11",
       "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64581",
-      "count7d": 430
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2308",
+      "count7d": 432
     },
     "SAP": {
       "vendor": "SAP",
