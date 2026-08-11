@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T10:04:23.684Z",
+  "generatedAt": "2026-08-11T11:21:01.507Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "AI’s Dual Role in Procurement Transformation",
-      "date": "2026-08-10",
-      "summary": "The gap between AI’s promise and procurement’s reality is widening. Here’s what needs to change.",
+      "title": "How a Small AI Use Case Is Automating Document Processing in the Supply Chain of Lemvigh-Müller",
+      "date": "2026-08-11",
+      "summary": "For the 180-year-old Danish wholesaler, an efficient supply chain isn't a nice-to-have. It's the business model.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/ai-dual-role-procurement-transformation/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/08/ai-automating-document-processing-lemvigh-muller/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -153,7 +153,7 @@
       ]
     },
     "SAP": {
-      "count": 32,
+      "count": 33,
       "items": [
         {
           "id": "CVE-2026-34265",
