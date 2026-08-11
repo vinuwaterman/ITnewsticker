@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T12:10:37.341Z",
+  "generatedAt": "2026-08-11T13:55:34.107Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VMware Explore 2026: Learn to Build, Govern, Protect and Optimize AI Workloads",
-      "date": "2026-08-10",
-      "summary": "If you’ve been following the enterprise tech landscape this year, you already know what the most urgent conversation at VMware Explore 2026 in Las Vegas is going to be: AI. Over the past couple of years, AI has quickly evolved from pilot projects into an engine running daily business operations. Enterprise leaders everywhere are integrating &#8230; Continued The post VMware Explore 2026: Learn to Build, Govern, Protect and Optimize AI Workloads appeared first on VMware Blogs .",
+      "title": "Introducing the VMware Bootstrap Registry Appliance: Air-Gapped Harbor Service in VMware Cloud Foundation 9.0",
+      "date": "2026-08-11",
+      "summary": "Deploying containerized workloads in air-gapped environments has always required careful orchestration, especially when the platform registry you want to use cannot install itself without images it does not yet have. Consequently, streamlining the deployment of Harbor as a Supervisor Service in air-gapped VMware Cloud Foundation (VCF) environments has been a key area of focus for &#8230; Continued The post Introducing the VMware Bootstrap Registry Appliance: Air-Gapped Harbor Service in VMware Cloud Foundation 9.0 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/10/vmware-explore-2026-learn-to-build-govern-protect-and-optimize-ai-workloads/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/11/vmware-bootstrap-registry-appliance-air-gapped-harbor-deployment/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Deploying Muse Glimmer on Dell Pro Precision",
-      "date": "2026-08-10",
-      "summary": "Muse Glimmer is built to reason, plan and act. Here's how to run it locally on Dell Pro Precision — no cloud required.",
+      "title": "PowerScale OneFS 9.15 strengthens Dell AI Data Platform foundations",
+      "date": "2026-08-11",
+      "summary": "Feed AI pipelines faster, move data across clouds securely and simplify operations with a stronger data foundation.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/deploying-muse-glimmer-on-dell-pro-precision/",
+      "url": "https://www.dell.com/en-us/blog/powerscale-onefs-9-15-strengthens-dell-ai-data-platform-foundations/",
       "count7d": 10
     },
     "Lenovo": {
