@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T23:36:22.876Z",
+  "generatedAt": "2026-08-11T01:47:04.855Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -17,7 +17,7 @@
       "summary": "The gap between AI’s promise and procurement’s reality is widening. Here’s what needs to change.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/ai-dual-role-procurement-transformation/",
-      "count7d": 6
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Executives don't lose sleep over antivirus updates. Instead, they’re kept awake over the next headline: A breach that erases a quarter's earnings, a regulator's inquiry, or a board asking why nobody saw it coming. The post Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/data-loss-prevention-strategy.html",
-      "count7d": 4
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
-      "count7d": 3
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -98,12 +98,12 @@
       "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
-      "count7d": 2
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 27,
+      "count": 11,
       "items": [
         {
           "id": "CVE-2026-59115",
@@ -133,28 +133,69 @@
           "epss": 0.34299999999999997
         },
         {
-          "id": "CVE-2026-18485",
-          "title": "There is a local privilege escalation vulnerability recently discovered in the NI-PAL kernel driver. This may allow a local, authenticated user to escalate privileges and execute arbitrary code. This vulnerability affects NI-PAL 26.3.1 and prior…",
-          "date": "2026-08-05",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18485",
+          "id": "CVE-2026-62896",
+          "title": "Improper authentication in Microsoft Teams allows an authorized attacker to elevate privileges over a network.",
+          "date": "2026-08-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62896",
           "kev": false,
-          "epss": 0.11399999999999999
+          "epss": 0.381
         },
         {
-          "id": "CVE-2026-62870",
-          "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-08-04",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62870",
+          "id": "CVE-2026-63508",
+          "title": "Missing authentication for critical function in Microsoft Planetary Computer Pro allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-08-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63508",
           "kev": false,
-          "epss": 0.819
+          "epss": 0.44200000000000006
         }
       ]
     },
     "SAP": {
-      "count": 0,
-      "items": []
+      "count": 32,
+      "items": [
+        {
+          "id": "CVE-2026-34265",
+          "title": "SAP NetWeaver Application Server ABAP allows an unauthenticated attacker to exploit logical errors in DIAG protocol parsing, resulting in memory corruption. This vulnerability could potentially disclose sensitive system information or crash the system, leading to…",
+          "date": "2026-08-11",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34265",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-44758",
+          "title": "SAP Manufacturing Integration and Intelligence (MII) allows an attacker with high privileges to submit specially crafted input to certain affected functionality, which is processed without sufficient validation. Successful exploitation could allow the attacker to execute…",
+          "date": "2026-08-11",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44758",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-44763",
+          "title": "SAP Manufacturing Integration and Intelligence allows a privileged attacker to exploit insufficient file path validation in certain functions using specially crafted input. Exploitation also requires a legitimate user to subsequently access the attacker-influenced content and…",
+          "date": "2026-08-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44763",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-44764",
+          "title": "Due to a Missing Authorization Check vulnerability in SAP Manufacturing Integration and Intelligence, an unauthenticated attacker could send crafted requests to the Cost Servlet using specific parameter values. If processed by the application, these requests…",
+          "date": "2026-08-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44764",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-44765",
+          "title": "Due to a Missing Authorization Check vulnerability in SAP Manufacturing Integration and Intelligence, an unauthenticated remote attacker could access scheduling-related application functions without proper authorization validation. Successful exploitation could allow the attacker to retrieve, create,…",
+          "date": "2026-08-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44765",
+          "kev": false
+        }
+      ]
     },
     "Veeam": {
       "count": 4,
