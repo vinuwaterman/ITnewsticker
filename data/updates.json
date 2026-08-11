@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T14:58:48.245Z",
+  "generatedAt": "2026-08-11T16:06:21.665Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Introducing the VMware Bootstrap Registry Appliance: Air-Gapped Harbor Service in VMware Cloud Foundation 9.0",
+      "title": "VMware Explore 2026: Top VCF Edge Sessions in Las Vegas",
       "date": "2026-08-11",
-      "summary": "Deploying containerized workloads in air-gapped environments has always required careful orchestration, especially when the platform registry you want to use cannot install itself without images it does not yet have. Consequently, streamlining the deployment of Harbor as a Supervisor Service in air-gapped VMware Cloud Foundation (VCF) environments has been a key area of focus for &#8230; Continued The post Introducing the VMware Bootstrap Registry Appliance: Air-Gapped Harbor Service in VMware Cloud Foundation 9.0 appeared first on VMware Blogs .",
+      "summary": "Get ready for VMware Explore Las Vegas, August 31 – September 3, 2026.&#160;We&#8217;ve put together an exceptional lineup of VCF Edge sessions at VMware Explore Las Vegas designed to deliver immediate, real-world value. Today, edge computing and artificial intelligence (AI) are no longer afterthoughts; they are the critical twin pillars of modern enterprise IT. As &#8230; Continued The post VMware Explore 2026: Top VCF Edge Sessions in Las Vegas appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/11/vmware-bootstrap-registry-appliance-air-gapped-harbor-deployment/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/11/vmware-explore-2026-top-vcf-edge-sessions-in-las-vegas/",
       "count7d": 10
     },
     "AWS": {
