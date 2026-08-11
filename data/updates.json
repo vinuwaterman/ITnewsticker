@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T13:55:34.107Z",
+  "generatedAt": "2026-08-11T14:58:48.245Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "PowerScale OneFS 9.15 strengthens Dell AI Data Platform foundations",
+      "title": "How to Set Up and Configure Your Router",
       "date": "2026-08-11",
-      "summary": "Feed AI pipelines faster, move data across clouds securely and simplify operations with a stronger data foundation.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/powerscale-onefs-9-15-strengthens-dell-ai-data-platform-foundations/",
+      "summary": "Get your home network up and running fast. This guide walks you through router setup, placement, security, and quick fixes so you can enjoy reliable, fast Wi-Fi wherever life takes you.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-set-up-and-configure-your-router/",
       "count7d": 10
     },
     "Lenovo": {
@@ -161,7 +161,8 @@
           "date": "2026-08-11",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34265",
-          "kev": false
+          "kev": false,
+          "epss": 0.44
         },
         {
           "id": "CVE-2026-44758",
@@ -169,7 +170,8 @@
           "date": "2026-08-11",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44758",
-          "kev": false
+          "kev": false,
+          "epss": 0.507
         },
         {
           "id": "CVE-2026-44763",
@@ -177,7 +179,8 @@
           "date": "2026-08-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44763",
-          "kev": false
+          "kev": false,
+          "epss": 0.28200000000000003
         },
         {
           "id": "CVE-2026-44764",
@@ -185,7 +188,8 @@
           "date": "2026-08-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44764",
-          "kev": false
+          "kev": false,
+          "epss": 0.23500000000000001
         },
         {
           "id": "CVE-2026-44765",
@@ -193,7 +197,8 @@
           "date": "2026-08-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44765",
-          "kev": false
+          "kev": false,
+          "epss": 0.27799999999999997
         }
       ]
     },
@@ -361,7 +366,7 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64993",
           "kev": false,
-          "epss": 0.13799999999999998
+          "epss": 0.13899999999999998
         }
       ]
     },
