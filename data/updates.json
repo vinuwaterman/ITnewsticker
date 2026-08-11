@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:28:36.608Z",
+  "generatedAt": "2026-08-11T18:28:24.303Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Heap-based buffer overflow in Windows LUAFV allows an authorized attacker to elevate privileges locally.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50472",
-      "count7d": 832
+      "count7d": 833
     },
     "SAP": {
       "vendor": "SAP",
@@ -103,8 +103,24 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 11,
+      "count": 162,
       "items": [
+        {
+          "id": "CVE-2026-50516",
+          "title": "Missing authentication for critical function in Microsoft Azure Kubernetes Service allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-08-11",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50516",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-59124",
+          "title": "Deserialization of untrusted data in Microsoft High Performance Computing (HPC) Pack allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-08-11",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59124",
+          "kev": false
+        },
         {
           "id": "CVE-2026-59115",
           "title": "'.../...//' in Microsoft Entra Provisioning Service (SyncFabric) allows an authorized attacker to elevate privileges over a network.",
@@ -113,15 +129,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59115",
           "kev": false,
           "epss": 0.635
-        },
-        {
-          "id": "CVE-2026-59118",
-          "title": "Improper authorization in Microsoft Power Apps allows an unauthorized attacker to elevate privileges over a network.",
-          "date": "2026-08-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59118",
-          "kev": false,
-          "epss": 0.38999999999999996
         },
         {
           "id": "CVE-2026-62873",
@@ -140,15 +147,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62896",
           "kev": false,
           "epss": 0.381
-        },
-        {
-          "id": "CVE-2026-63508",
-          "title": "Missing authentication for critical function in Microsoft Planetary Computer Pro allows an unauthorized attacker to elevate privileges over a network.",
-          "date": "2026-08-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63508",
-          "kev": false,
-          "epss": 0.44200000000000006
         }
       ]
     },
@@ -207,7 +205,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 23,
+      "count": 24,
       "items": [
         {
           "id": "CVE-2026-20267",
