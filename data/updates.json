@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-11T16:06:21.665Z",
+  "generatedAt": "2026-08-11T17:28:36.608Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2025-2308 HDF5 Scale-Offset Filter H5Z__scaleoffset_decompress_one_byte heap-based overflow",
+      "title": "CVE-2026-50472 Windows LUA File Virtualization Filter Driver Elevation of Privilege Vulnerability",
       "date": "2026-08-11",
-      "summary": "Information published.",
+      "summary": "Heap-based buffer overflow in Windows LUAFV allows an authorized attacker to elevate privileges locally.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2308",
-      "count7d": 432
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50472",
+      "count7d": 832
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
-      "date": "2026-08-10",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. For additional information on these vulnerabilities in ClamAV, see the ClamAV blog . Cisco plans to release software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these vulnerabilities is High for…",
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
+      "date": "2026-08-11",
+      "summary": "A vulnerability in the Remote Access SSL VPN service for Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.&nbsp; This vulnerability is due to insufficient error checking when processing HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to the Remote Access SSL VPN service on an…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
-      "count7d": 16
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "count7d": 17
     },
     "VMware": {
       "vendor": "VMware",
@@ -203,45 +203,8 @@
       ]
     },
     "Veeam": {
-      "count": 4,
-      "items": [
-        {
-          "id": "CVE-2026-58067",
-          "title": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to exhaust host memory and cause adenial of service.",
-          "date": "2026-08-04",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58067",
-          "kev": false,
-          "epss": 0.3
-        },
-        {
-          "id": "CVE-2026-58071",
-          "title": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to access the proxied appliance API asPortal Administrator during a short window after an administrator session begins.",
-          "date": "2026-08-04",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58071",
-          "kev": false,
-          "epss": 0.281
-        },
-        {
-          "id": "CVE-2026-58072",
-          "title": "A vulnerability in Veeam Service Provider Console allowing arbitrary file write on the management server, which can lead to remotecode execution.",
-          "date": "2026-08-04",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58072",
-          "kev": false,
-          "epss": 0.376
-        },
-        {
-          "id": "CVE-2026-58073",
-          "title": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to impersonate a managed agent andobtain that agent's credentials.",
-          "date": "2026-08-04",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58073",
-          "kev": false,
-          "epss": 0.22399999999999998
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Cisco": {
       "count": 23,
