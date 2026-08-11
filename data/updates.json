@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-11T06:28:54.939Z",
+  "generatedAt": "2026-08-11T07:48:12.584Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2024-21380 Microsoft Dynamics Business Central/NAV Information Disclosure Vulnerability",
-      "date": "2026-08-10",
-      "summary": "Updated the build numbers. This is an informational update only.",
+      "title": "CVE-2025-37853 drm/amdkfd: debugfs hang_hws skip GPU with MES",
+      "date": "2026-08-11",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21380",
-      "count7d": 118
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-37853",
+      "count7d": 137
     },
     "SAP": {
       "vendor": "SAP",
