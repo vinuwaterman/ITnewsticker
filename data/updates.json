@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T19:42:36.171Z",
+  "generatedAt": "2026-08-12T20:45:26.859Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -248,7 +248,7 @@
       "items": []
     },
     "Dell": {
-      "count": 5,
+      "count": 9,
       "items": [
         {
           "id": "CVE-2026-54489",
@@ -269,31 +269,28 @@
           "epss": 1.603
         },
         {
-          "id": "CVE-2026-56793",
-          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.2, contains an Improper Authentication vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
-          "date": "2026-08-07",
+          "id": "CVE-2026-46731",
+          "title": "Dell Display and Peripheral Manager (DDPM Windows), versions prior to 2.3.0.17, contain an Authentication Bypass by Spoofing vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges…",
+          "date": "2026-08-12",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56793",
-          "kev": false,
-          "epss": 0.313
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46731",
+          "kev": false
         },
         {
-          "id": "CVE-2026-56794",
-          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.2, contains a Relative Path Traversal vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Filesystem access for attacker.",
-          "date": "2026-08-07",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56794",
-          "kev": false,
-          "epss": 0.302
+          "id": "CVE-2026-59914",
+          "title": "Dell Display and Peripheral Manager (DDPM Windows), versions prior to 2.3.0.17, contain an Authentication Bypass by Spoofing vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges…",
+          "date": "2026-08-12",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59914",
+          "kev": false
         },
         {
-          "id": "CVE-2026-64993",
-          "title": "Dell RVTools versions prior to 4.8.1, contains an improper certificate validation vulnerability in the collector. A remote unauthenticated attacker could potentially exploit this vulnerability leading to loss of confidentiality and integrity.",
-          "date": "2026-08-06",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64993",
-          "kev": false,
-          "epss": 0.13899999999999998
+          "id": "CVE-2026-59916",
+          "title": "Dell Display and Peripheral Manager (DDPM Windows), versions prior to 2.3.0.17, contain Improper Access Control vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges and arbitrary…",
+          "date": "2026-08-12",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59916",
+          "kev": false
         }
       ]
     },
