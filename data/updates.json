@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T11:23:51.945Z",
+  "generatedAt": "2026-08-12T12:11:34.803Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -75,11 +75,11 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Buffer overread in authd and wad daemon",
-      "date": "2026-07-14",
-      "summary": "CVSSv3 Score: 4.1 A buffer over-read vulnerability [CWE-126] in FortiOS, FortiProxy, and FortiSASE may allow an authenticated remote attacker to return a portion of device memory in the redirect response via submitting a specially crafted request. Revised on 2026-07-14 00:00:00",
+      "title": "Heap overflow in kernel driver due to missing size validation",
+      "date": "2026-08-12",
+      "summary": "CVSSv3 Score: 7.3 A buffer copy without checking size of input vulnerability [CWE-120] in FortiClient Windows may allow an unauthenticated attacker in a position to alter or craft DNS responses to the targeted host to execute arbitrary code via malicious packets. Revised on 2026-08-12 00:00:00",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-154",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-156",
       "count7d": 1
     },
     "CrowdStrike": {
