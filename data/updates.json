@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T16:27:10.201Z",
+  "generatedAt": "2026-08-12T17:31:09.147Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Headlamp as a VMware vSphere Kubernetes Service Add-on",
+      "title": "Level Up: Learning and Certification Highlights at VMware Explore 2026",
       "date": "2026-08-12",
-      "summary": "For years, the Kubernetes Dashboard project provided a web UI to manage and monitor a Kubernetes cluster and applications. This made it easy for platform engineers to troubleshoot issues. However, the Kubernetes project officially deprecated and archived the Kubernetes Dashboard in early 2026. Since then, the focus has shifted to Headlamp as the recommended alternative. &#8230; Continued The post Headlamp as a VMware vSphere Kubernetes Service Add-on appeared first on VMware Blogs .",
-      "category": "eol",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/12/headlamp-as-a-vmware-vsphere-kubernetes-service-add-on/",
+      "summary": "VMware Explore is the perfect career stepping stone. Take advantage of every moment onsite to gain hands-on experience and validate your expertise.&#160; Here are the top learning and certification opportunities you can’t afford to miss in Las Vegas. Must-See Session: Distributed Security Traditional perimeter security creates blind spots in East-West traffic that dynamic workloads can&#8217;t &#8230; Continued The post Level Up: Learning and Certification Highlights at VMware Explore 2026 appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/12/level-up-learning-and-certification-highlights-at-vmware-explore-2026/",
       "count7d": 10
     },
     "AWS": {
@@ -207,52 +207,16 @@
       "items": []
     },
     "Cisco": {
-      "count": 24,
+      "count": 1,
       "items": [
         {
-          "id": "CVE-2026-20267",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XE Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address…",
-          "date": "2026-08-05",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20267",
-          "kev": false,
-          "epss": 0.22799999999999998
-        },
-        {
-          "id": "CVE-2026-20272",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XE Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address…",
-          "date": "2026-08-05",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20272",
-          "kev": false,
-          "epss": 0.34299999999999997
-        },
-        {
-          "id": "CVE-2026-20303",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Catalyst SD-WAN engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple…",
-          "date": "2026-08-05",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20303",
-          "kev": false,
-          "epss": 0.291
-        },
-        {
-          "id": "CVE-2026-20304",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Catalyst SD-WAN engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that address…",
-          "date": "2026-08-05",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20304",
-          "kev": false,
-          "epss": 0.254
-        },
-        {
-          "id": "CVE-2026-20310",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Catalyst SD-WAN engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple…",
-          "date": "2026-08-05",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20310",
-          "kev": false,
-          "epss": 0.369
+          "id": "CVE-2026-20349",
+          "title": "A vulnerability in the Remote Access SSL VPN service for Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the…",
+          "date": "2026-08-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
+          "kev": true,
+          "epss": 0.9690000000000001
         }
       ]
     },
