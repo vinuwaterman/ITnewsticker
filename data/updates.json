@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:31:05.269Z",
+  "generatedAt": "2026-08-12T19:42:36.171Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Level Up: Learning and Certification Highlights at VMware Explore 2026",
+      "title": "Hands-on Labs at Explore: The Admin’s Ultimate Playbook",
       "date": "2026-08-12",
-      "summary": "VMware Explore is the perfect career stepping stone. Take advantage of every moment onsite to gain hands-on experience and validate your expertise.&#160; Here are the top learning and certification opportunities you can’t afford to miss in Las Vegas. Must-See Session: Distributed Security Traditional perimeter security creates blind spots in East-West traffic that dynamic workloads can&#8217;t &#8230; Continued The post Level Up: Learning and Certification Highlights at VMware Explore 2026 appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/12/level-up-learning-and-certification-highlights-at-vmware-explore-2026/",
+      "summary": "Whether you want to explore new feature sets, dissect the architecture of our event infrastructure, or challenge your skills, here is your playbook for the Hands-on Labs at Explore this year. REGISTER NOW Written By: Kelly Smith, Product Marketing Engineer, VMware Hands-on Labs As a virtual infrastructure or cloud administrator, you spend your days managing &#8230; Continued The post Hands-on Labs at Explore: The Admin’s Ultimate Playbook appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/explore/hands-on-labs-overview/",
       "count7d": 10
     },
     "AWS": {
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Signs Industry Letter Supporting Open-Weight AI",
-      "date": "2026-08-06",
-      "summary": "Lenovo is a signatory to an industry-led coalition letter supporting the continued development and availability of open-weight AI models.",
+      "title": "The case for Hybrid AI: personalized, active intelligence to understand you and the moment",
+      "date": "2026-08-12",
+      "summary": "Hybrid AI combines on-device and cloud intelligence to create AI that’s faster, more private, and increasingly aware of the user, context, and moment – across PCs, smartphones, wearables, and edge devices.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-signs-industry-letter-supporting-open-weight-ai/",
-      "count7d": 3
+      "url": "https://news.lenovo.com/hybrid-ai-personalized-active-intelligence-understand-you-moment/",
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 168,
+      "count": 167,
       "items": [
         {
           "id": "CVE-2026-50516",
