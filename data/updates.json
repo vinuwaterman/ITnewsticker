@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-12T12:11:34.803Z",
+  "generatedAt": "2026-08-12T13:58:27.773Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-50472 Windows LUA File Virtualization Filter Driver Elevation of Privilege Vulnerability",
-      "date": "2026-08-11",
-      "summary": "Heap-based buffer overflow in Windows LUAFV allows an authorized attacker to elevate privileges locally.",
+      "title": "CVE-2022-41127 Microsoft Dynamics NAV and Microsoft Dynamics 365 Business Central (On Premises) Remote Code Execution Vulnerability",
+      "date": "2026-08-12",
+      "summary": "Updated the build numbers. This is an informational update only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50472",
-      "count7d": 872
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41127",
+      "count7d": 881
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Set Up and Configure Your Router",
-      "date": "2026-08-11",
-      "summary": "Get your home network up and running fast. This guide walks you through router setup, placement, security, and quick fixes so you can enjoy reliable, fast Wi-Fi wherever life takes you.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-set-up-and-configure-your-router/",
+      "title": "Dell AI Data Platform Delivers Breakthrough Storage Density",
+      "date": "2026-08-12",
+      "summary": "245.76TB SSD support helps redefine what high-density object storage looks like for AI-era data environments.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/dell-ai-data-platform-delivers-breakthrough-storage-density/",
       "count7d": 10
     },
     "Lenovo": {
@@ -75,12 +75,12 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Heap overflow in kernel driver due to missing size validation",
+      "title": "Broken access control in the RADIUS type admin group",
       "date": "2026-08-12",
-      "summary": "CVSSv3 Score: 7.3 A buffer copy without checking size of input vulnerability [CWE-120] in FortiClient Windows may allow an unauthenticated attacker in a position to alter or craft DNS responses to the targeted host to execute arbitrary code via malicious packets. Revised on 2026-08-12 00:00:00",
+      "summary": "CVSSv3 Score: 8.8 An Improper Authentication vulnerability [CWE-287] in the FortiWeb Remote Radius Type Admin Authentication configured with specific, non-default settings may allow a remote unauthenticated attacker to login into the Fortiweb GUI/CLI with a random username and password Revised on 2026-08-12 00:00:00",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-156",
-      "count7d": 1
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
+      "count7d": 8
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
@@ -332,8 +332,49 @@
       ]
     },
     "Fortinet": {
-      "count": 0,
-      "items": []
+      "count": 7,
+      "items": [
+        {
+          "id": "CVE-2026-26035",
+          "title": "An Improper Authentication vulnerability [CWE-287] vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.2, FortiWeb 7.6.0 through 7.6.6, FortiWeb 7.4.0 through 7.4.11, FortiWeb 7.2.0 through 7.2.12, FortiWeb 7.0.0 through 7.0.12 may allow a remote unauthenticated attacker to…",
+          "date": "2026-08-12",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26035",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-70465",
+          "title": "A buffer copy without checking size of input ('classic buffer overflow') vulnerability in Fortinet FortiClientWindows 7.4.0 through 7.4.3, FortiClientWindows 7.2.0 through 7.2.11 may allow an unauthenticated attacker in a position to alter or craft DNS…",
+          "date": "2026-08-12",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70465",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-70468",
+          "title": "A authentication bypass using an alternate path or channel vulnerability in Fortinet FortiManager 7.6.1, FortiManager 7.4.3 through 7.4.5, FortiManager 7.2.5 through 7.2.9, FortiManager Cloud 7.6.1, FortiManager Cloud 7.4.3 through 7.4.5, FortiManager Cloud 7.2.5 through 7.2.9…",
+          "date": "2026-08-12",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70468",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-70466",
+          "title": "A incomplete list of disallowed inputs vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.2, FortiWeb 7.6.0 through 7.6.5, FortiWeb 7.4 all versions, FortiWeb 7.2 all versions, FortiWeb 7.0 all versions may allow attacker to improper access…",
+          "date": "2026-08-12",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70466",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-71407",
+          "title": "A Stack-based Buffer Overflow vulnerability [CWE-121] vulnerability in Fortinet FortiOS 7.6.1 through 7.6.6 may allow an unauthenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands in the context of…",
+          "date": "2026-08-12",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71407",
+          "kev": false
+        }
+      ]
     },
     "Lenovo": {
       "count": 0,
