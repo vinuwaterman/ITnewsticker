@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T17:31:09.147Z",
+  "generatedAt": "2026-08-12T18:31:05.269Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62696",
-      "count7d": 884
+      "count7d": 885
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Real AI Challenge Starts with Your Data Architecture",
+      "title": "AI Resilience: Why Recovery Discipline Now Defines AI Confidence",
       "date": "2026-08-12",
-      "summary": "The AI race won’t be won on models alone. See why rivals focused on detection are already behind.",
+      "summary": "When AI runs your business, resilience becomes a board-level imperative — not just an IT checklist.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-real-ai-challenge-starts-with-your-data-architecture/",
+      "url": "https://www.dell.com/en-us/blog/ai-resilience-why-recovery-discipline-now-defines-ai-confidence/",
       "count7d": 10
     },
     "Lenovo": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 165,
+      "count": 168,
       "items": [
         {
           "id": "CVE-2026-50516",
