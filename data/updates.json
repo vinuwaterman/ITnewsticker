@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T10:06:25.430Z",
+  "generatedAt": "2026-08-12T11:23:51.945Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "How a Small AI Use Case Is Automating Document Processing in the Supply Chain of Lemvigh-Müller",
-      "date": "2026-08-11",
-      "summary": "For the 180-year-old Danish wholesaler, an efficient supply chain isn't a nice-to-have. It's the business model.",
+      "title": "Service-Led Growth Starts with the Business Model",
+      "date": "2026-08-12",
+      "summary": "Technology can help scale a service business, but it does not define how value is created, delivered, or monetized.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/ai-automating-document-processing-lemvigh-muller/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/08/service-led-growth-starts-with-business-model/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VMware Explore 2026: Top VCF Edge Sessions in Las Vegas",
-      "date": "2026-08-11",
-      "summary": "Get ready for VMware Explore Las Vegas, August 31 – September 3, 2026.&#160;We&#8217;ve put together an exceptional lineup of VCF Edge sessions at VMware Explore Las Vegas designed to deliver immediate, real-world value. Today, edge computing and artificial intelligence (AI) are no longer afterthoughts; they are the critical twin pillars of modern enterprise IT. As &#8230; Continued The post VMware Explore 2026: Top VCF Edge Sessions in Las Vegas appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/11/vmware-explore-2026-top-vcf-edge-sessions-in-las-vegas/",
+      "title": "Headlamp as a VMware vSphere Kubernetes Service Add-on",
+      "date": "2026-08-12",
+      "summary": "For years, the Kubernetes Dashboard project provided a web UI to manage and monitor a Kubernetes cluster and applications. This made it easy for platform engineers to troubleshoot issues. However, the Kubernetes project officially deprecated and archived the Kubernetes Dashboard in early 2026. Since then, the focus has shifted to Headlamp as the recommended alternative. &#8230; Continued The post Headlamp as a VMware vSphere Kubernetes Service Add-on appeared first on VMware Blogs .",
+      "category": "eol",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/12/headlamp-as-a-vmware-vsphere-kubernetes-service-add-on/",
       "count7d": 10
     },
     "AWS": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 163,
+      "count": 164,
       "items": [
         {
           "id": "CVE-2026-50516",
