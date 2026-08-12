@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T01:59:08.929Z",
+  "generatedAt": "2026-08-12T04:15:24.458Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
-      "date": "2026-08-07",
+      "title": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
+      "date": "2026-08-11",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
-      "count7d": 2
+      "category": "critical",
+      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
