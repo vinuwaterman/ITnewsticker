@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-13T13:12:22.374Z",
+  "generatedAt": "2026-08-13T16:00:23.703Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62696 Windows Program Compatibility Assistant Service Elevation of Privilege Vulnerability",
-      "date": "2026-08-12",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-61346 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+      "date": "2026-08-13",
+      "summary": "Acknowledgement Updated",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62696",
-      "count7d": 864
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61346",
+      "count7d": 884
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Order Management Services Named a Leader in IDC MarketScape: Worldwide AI-Enabled Order Orchestration and Fulfillment Applications for Retail and…",
+      "title": "SAP Positioned as a Leader in the Inaugural Gartner® Magic Quadrant&#x2122; for Supply Chain Management Suites",
       "date": "2026-08-13",
-      "summary": "SAP is committed to innovation in order management.",
+      "summary": "For more than 50 years, SAP has helped organizations navigate supply chain volatility by connecting planning, execution, and business processes across the enterprise.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/sap-order-management-services-a-leader-idc-marketscape-worldwide-ai-enabled-order-orchestration-fulfillment-applications-retail-b2c-2026-vendor-assessment/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/08/sap-a-leader-inaugural-gartner-magic-quadrant-scm-suites/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF Breakroom Chats Episode 93: From Day-One Deployment to Day-Two Confidence, VMware vSphere Kubernetes Service 3.7 Packs the Punch",
+      "title": "Operationalizing VMware Cloud Foundation Control Plane for Kubernetes Workloads",
       "date": "2026-08-13",
-      "summary": "Deploying a secure Kubernetes cluster on day one is hard enough. Keeping it secure, compliant, and resilient through every upgrade, scaling event, and lifecycle change is where most platform teams struggle. That gap between day-one deployment and day-two confidence is exactly what VMware vSphere Kubernetes Service (VKS) 3.7 was built to close. Welcome to the &#8230; Continued The post VCF Breakroom Chats Episode 93: From Day-One Deployment to Day-Two Confidence, VMware vSphere Kubernetes Service 3.7 Packs the Punch appeared first…",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/13/vcf-breakroom-chats-episode-93-from-day-one-deployment-to-day-two-confidence-vmware-vsphere-kubernetes-service-3-7-packs-the-punch/",
+      "summary": "In today’s fast-evolving IT landscape, enterprise IT organizations face a fundamental operational dilemma. On one side, VMware vSphere and infrastructure administrators require strict control, compliance, security, and multi-tenant resource governance. On the other side, developers and DevOps engineers need agility, rapid self-service provisioning, and native API-driven infrastructure to accelerate application delivery.&#160; When these two priorities &#8230; Continued The post Operationalizing VMware Cloud Foundation Control Plane for Kubernetes Workloads appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/13/operationalizing-vmware-cloud-foundation-control-plane-for-kubernetes-workloads/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How Cineshare Scaled Industrial AI and Debuted GTC&#8217;s Keynote",
+      "title": "Protect your AI Workloads to Drive What&#8217;s Next",
       "date": "2026-08-13",
-      "summary": "With one month to turn Persona AI’s vision into NVIDIA GTC’s viral keynote, Cineshare and a Dell Pro Max Tower T2 made the deadline possible.",
+      "summary": "Cybercriminals don't take the season off. Give your AI the modern protection leaders trust to bounce back fast. Discover how.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/how-cineshare-scaled-industrial-ai-and-debuted-gtc-s-keynote/",
+      "url": "https://www.dell.com/en-us/blog/protect-your-ai-workloads-to-drive-what-s-next/",
       "count7d": 10
     },
     "Lenovo": {
@@ -112,7 +112,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50516",
           "kev": false,
-          "epss": 0.791
+          "epss": 0.774
         },
         {
           "id": "CVE-2026-59124",
@@ -216,65 +216,29 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
           "kev": true,
-          "epss": 0.9690000000000001
+          "epss": 0.874
         }
       ]
     },
     "VMware": {
-      "count": 2,
-      "items": [
-        {
-          "id": "CVE-2026-54489",
-          "title": "Dell Virtual Storage Integrator for VMware vSphere Client, versions prior to 10.11.1.0, contain(s) a Sensitive Information Disclosure vulnerability. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to information disclosure and session hijacking. This…",
-          "date": "2026-08-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54489",
-          "kev": false,
-          "epss": 0.424
-        },
-        {
-          "id": "CVE-2026-67261",
-          "title": "Dell Virtual Storage Integrator for VMware vSphere Client, versions prior to 10.11.1.0, contain(s) an OS Command Injection vulnerability in the IAPI component. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to the execution…",
-          "date": "2026-08-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67261",
-          "kev": false,
-          "epss": 1.603
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "AWS": {
       "count": 0,
       "items": []
     },
     "Dell": {
-      "count": 9,
+      "count": 6,
       "items": [
-        {
-          "id": "CVE-2026-54489",
-          "title": "Dell Virtual Storage Integrator for VMware vSphere Client, versions prior to 10.11.1.0, contain(s) a Sensitive Information Disclosure vulnerability. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to information disclosure and session hijacking. This…",
-          "date": "2026-08-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54489",
-          "kev": false,
-          "epss": 0.424
-        },
-        {
-          "id": "CVE-2026-67261",
-          "title": "Dell Virtual Storage Integrator for VMware vSphere Client, versions prior to 10.11.1.0, contain(s) an OS Command Injection vulnerability in the IAPI component. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to the execution…",
-          "date": "2026-08-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67261",
-          "kev": false,
-          "epss": 1.603
-        },
         {
           "id": "CVE-2026-46731",
           "title": "Dell Display and Peripheral Manager (DDPM Windows), versions prior to 2.3.0.17, contain an Authentication Bypass by Spoofing vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges…",
           "date": "2026-08-12",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46731",
-          "kev": false
+          "kev": false,
+          "epss": 0.129
         },
         {
           "id": "CVE-2026-59914",
@@ -282,7 +246,8 @@
           "date": "2026-08-12",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59914",
-          "kev": false
+          "kev": false,
+          "epss": 0.129
         },
         {
           "id": "CVE-2026-59916",
@@ -290,7 +255,26 @@
           "date": "2026-08-12",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59916",
-          "kev": false
+          "kev": false,
+          "epss": 0.109
+        },
+        {
+          "id": "CVE-2026-59917",
+          "title": "Dell Display and Peripheral Manager (DDPM Windows), versions prior to 2.3.0.17, contain Improper Access Control vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges and arbitrary…",
+          "date": "2026-08-12",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59917",
+          "kev": false,
+          "epss": 0.109
+        },
+        {
+          "id": "CVE-2026-56793",
+          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.2, contains an Improper Authentication vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
+          "date": "2026-08-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56793",
+          "kev": false,
+          "epss": 0.313
         }
       ]
     },
@@ -303,7 +287,8 @@
           "date": "2026-08-12",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26035",
-          "kev": false
+          "kev": false,
+          "epss": 0.51
         },
         {
           "id": "CVE-2026-70465",
@@ -311,7 +296,8 @@
           "date": "2026-08-12",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70465",
-          "kev": false
+          "kev": false,
+          "epss": 0.5479999999999999
         },
         {
           "id": "CVE-2026-70468",
@@ -319,7 +305,8 @@
           "date": "2026-08-12",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70468",
-          "kev": false
+          "kev": false,
+          "epss": 0.587
         },
         {
           "id": "CVE-2026-70466",
@@ -327,7 +314,8 @@
           "date": "2026-08-12",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70466",
-          "kev": false
+          "kev": false,
+          "epss": 0.309
         },
         {
           "id": "CVE-2026-71407",
@@ -335,13 +323,55 @@
           "date": "2026-08-12",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71407",
-          "kev": false
+          "kev": false,
+          "epss": 0.494
         }
       ]
     },
     "Lenovo": {
-      "count": 0,
-      "items": []
+      "count": 7,
+      "items": [
+        {
+          "id": "CVE-2026-12036",
+          "title": "An improper link following vulnerability was reported in the VantageCoreAddin for Lenovo Vantage and Lenovo Commercial Vantage that could allow a local authenticated user to perform an arbitrary file deletion with elevated privileges.",
+          "date": "2026-08-13",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12036",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-15994",
+          "title": "During an internal security assessment, an improper link following vulnerability was identified in Lenovo Vantage and Lenovo Commercial Vantage that could allow a local authenticated user to execute code with elevated privileges.",
+          "date": "2026-08-13",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15994",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-63423",
+          "title": "During an internal security assessment, a potential vulnerability was discovered in Lenovo Accessories and Display Manager for Enterprise for Windows that could allow a local authenticated user to execute arbitrary code with elevated privileges.",
+          "date": "2026-08-13",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63423",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-63424",
+          "title": "During an internal security assessment, an improperly protected key was discovered in Lenovo Dock Manager that could allow a local authenticated user to escalate privileges.",
+          "date": "2026-08-13",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63424",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-63425",
+          "title": "During an internal security assessment, a potential improper permissions vulnerability was discovered in Lenovo Dock Manager that could allow a local authenticated user to execute arbitrary code with elevated privileges.",
+          "date": "2026-08-13",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63425",
+          "kev": false
+        }
+      ]
     },
     "Mimecast": {
       "count": 0,
@@ -360,7 +390,8 @@
           "date": "2026-08-13",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0289",
-          "kev": false
+          "kev": false,
+          "epss": 0.158
         },
         {
           "id": "CVE-2026-0290",
@@ -368,7 +399,8 @@
           "date": "2026-08-13",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0290",
-          "kev": false
+          "kev": false,
+          "epss": 0.14100000000000001
         },
         {
           "id": "CVE-2026-0291",
@@ -376,7 +408,8 @@
           "date": "2026-08-13",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0291",
-          "kev": false
+          "kev": false,
+          "epss": 0.12
         },
         {
           "id": "CVE-2026-0292",
@@ -384,7 +417,8 @@
           "date": "2026-08-13",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0292",
-          "kev": false
+          "kev": false,
+          "epss": 0.14400000000000002
         },
         {
           "id": "CVE-2026-0293",
@@ -392,7 +426,8 @@
           "date": "2026-08-13",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0293",
-          "kev": false
+          "kev": false,
+          "epss": 0.11299999999999999
         }
       ]
     }
