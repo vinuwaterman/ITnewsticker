@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T17:06:44.359Z",
+  "generatedAt": "2026-08-13T18:28:30.493Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Acknowledgement Updated",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61346",
-      "count7d": 891
+      "count7d": 892
     },
     "SAP": {
       "vendor": "SAP",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 167,
+      "count": 168,
       "items": [
         {
           "id": "CVE-2026-50516",
