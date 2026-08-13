@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T23:42:23.280Z",
+  "generatedAt": "2026-08-13T02:01:48.964Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62696",
-      "count7d": 885
+      "count7d": 864
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Technology can help scale a service business, but it does not define how value is created, delivered, or monetized.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/service-led-growth-starts-with-business-model/",
-      "count7d": 5
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -71,7 +71,7 @@
       "summary": "Hybrid AI combines on-device and cloud intelligence to create AI that’s faster, more private, and increasingly aware of the user, context, and moment – across PCs, smartphones, wearables, and edge devices.",
       "category": "feature",
       "url": "https://news.lenovo.com/hybrid-ai-personalized-active-intelligence-understand-you-moment/",
-      "count7d": 4
+      "count7d": 1
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "critical",
       "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
-      "count7d": 3
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
