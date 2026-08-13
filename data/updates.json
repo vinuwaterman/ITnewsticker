@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-13T20:43:33.912Z",
+  "generatedAt": "2026-08-13T21:45:48.037Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-61346 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-45592 Windows Internet (wininet.dll) Elevation of Privilege Vulnerability",
       "date": "2026-08-13",
-      "summary": "Acknowledgement Updated",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61346",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45592",
       "count7d": 892
     },
     "SAP": {
