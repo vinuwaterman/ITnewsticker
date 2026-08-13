@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:37:03.698Z",
+  "generatedAt": "2026-08-13T20:43:33.912Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
-      "date": "2026-08-12",
-      "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: BroadWorks Industrial Ethernet 1000 Series Switches Packaged Contact Center Enterprise and&nbsp;Unified Contact Center Enterprise RoomOS Secure Firewall Adaptive Security Appliance Secure Firewall Management Center Secure Firewall Threat Defense Center Secure Workload Unified Intelligence Center To fully remediate vulnerabilities to be disclosed on August 19, 2026, Cisco strongly recommends that customers…",
+      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
+      "date": "2026-08-13",
+      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. For additional information on these vulnerabilities in ClamAV, see the ClamAV blog . Cisco has released software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these vulnerabilities is High for Windows-based…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
       "count7d": 5
     },
     "VMware": {
@@ -59,7 +59,7 @@
       "vendor": "Dell",
       "title": "Protect your AI Workloads to Drive What&#8217;s Next",
       "date": "2026-08-13",
-      "summary": "Cybercriminals don't take the season off. Give your AI the modern protection leaders trust to bounce back fast. Discover how.",
+      "summary": "Cybercriminals don't take days off. Give your AI the modern protection leaders trust to bounce back fast. Discover how.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/protect-your-ai-workloads-to-drive-what-s-next/",
       "count7d": 10
