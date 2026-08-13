@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T16:00:23.703Z",
+  "generatedAt": "2026-08-13T17:06:44.359Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Acknowledgement Updated",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61346",
-      "count7d": 884
+      "count7d": 891
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone",
-      "date": "2026-08-06",
-      "summary": "Executives don't lose sleep over antivirus updates. Instead, they’re kept awake over the next headline: A breach that erases a quarter's earnings, a regulator's inquiry, or a board asking why nobody saw it coming. The post Your Data Loss Prevention Strategy Was Built for a World That&#8217;s Already Gone appeared first on Veeam Software Official Blog .",
-      "category": "feature",
-      "url": "https://www.veeam.com/blog/data-loss-prevention-strategy.html",
+      "title": "Uncover the Threat Intelligence Already in Your Backups",
+      "date": "2026-08-13",
+      "summary": "Security just confirmed the intrusion, and now every question lands on you: What was hit? When did it start? Which backup can you trust? You’re digging through one console while Security digs through another, and every minute of downtime makes those answers more expensive. If this sounds familiar, you’re in good company. In most organizations, Security operations and IT backup teams operate in parallel rather than together, and attackers know it. It is no secret that ransomware attacks target backups…",
+      "category": "patch",
+      "url": "https://www.veeam.com/blog/veeam-data-platform-threat-detection.html",
       "count7d": 1
     },
     "Cisco": {
