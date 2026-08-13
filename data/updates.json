@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T02:01:48.964Z",
+  "generatedAt": "2026-08-13T04:20:40.145Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "The case for Hybrid AI: personalized, active intelligence to understand you and the moment",
-      "date": "2026-08-12",
-      "summary": "Hybrid AI combines on-device and cloud intelligence to create AI that’s faster, more private, and increasingly aware of the user, context, and moment – across PCs, smartphones, wearables, and edge devices.",
+      "title": "Q1 2026/27 Key Achievements and Milestones (Infographic)",
+      "date": "2026-08-13",
+      "summary": "Lenovo reported first quarter results for fiscal year 2026/27, marking the highest quarterly revenue growth in the past five years and the strongest quarter in the Group’s history.",
       "category": "feature",
-      "url": "https://news.lenovo.com/hybrid-ai-personalized-active-intelligence-understand-you-moment/",
-      "count7d": 1
+      "url": "https://news.lenovo.com/q1-2026-27-key-achievements-and-milestones-infographic/",
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Prisma AIRS - Unified Data Protection for Claude",
-      "date": "2026-08-05",
-      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 3
     }
   },
   "nvd": {
@@ -352,8 +352,49 @@
       "items": []
     },
     "Palo Alto Networks": {
-      "count": 0,
-      "items": []
+      "count": 12,
+      "items": [
+        {
+          "id": "CVE-2026-0289",
+          "title": "A security bypass vulnerability in the Account Protection feature of Palo Alto Networks Prisma® Browser enables a user to bypass intended security controls.",
+          "date": "2026-08-13",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0289",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0290",
+          "title": "An information disclosure vulnerability in the Account Protection feature of Palo Alto Networks Prisma® Browser enables a local attacker to view sensitive data.",
+          "date": "2026-08-13",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0290",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0291",
+          "title": "An improper link resolution before file access vulnerability exists in the Palo Alto Networks Prisma® Access Agent on Linux platforms that enables a local low privileged user to delete system files in a limited scope…",
+          "date": "2026-08-13",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0291",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0292",
+          "title": "An authentication bypass vulnerability in the network driver of Palo Alto Networks Prisma® Access Agent on Windows enables a local administrator to bypass security inspection, subsequently allowing them to inject and intercept arbitrary network traffic.…",
+          "date": "2026-08-13",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0292",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0293",
+          "title": "A vulnerability in Palo Alto Networks Prisma® Access Agent on Windows enables a local attacker with administrator privileges to bypass the anti-tamper protection, enabling unauthorized access to protected processes and files. The Prisma Access Agent…",
+          "date": "2026-08-13",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0293",
+          "kev": false
+        }
+      ]
     }
   }
 }
