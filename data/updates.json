@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T23:42:17.929Z",
+  "generatedAt": "2026-08-14T01:59:11.810Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -17,7 +17,7 @@
       "summary": "For more than 50 years, SAP has helped organizations navigate supply chain volatility by connecting planning, execution, and business processes across the enterprise.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/sap-a-leader-inaugural-gartner-magic-quadrant-scm-suites/",
-      "count7d": 6
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -35,7 +35,7 @@
       "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. For additional information on these vulnerabilities in ClamAV, see the ClamAV blog . Cisco has released software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these vulnerabilities is High for Windows-based…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
-      "count7d": 5
+      "count7d": 4
     },
     "VMware": {
       "vendor": "VMware",
@@ -89,21 +89,21 @@
       "summary": "",
       "category": "critical",
       "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
-      "count7d": 2
+      "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Prisma AIRS - Unified Data Protection for Claude",
-      "date": "2026-08-05",
-      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 2
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 168,
+      "count": 160,
       "items": [
         {
           "id": "CVE-2026-50516",
@@ -124,31 +124,31 @@
           "epss": 1.7209999999999999
         },
         {
-          "id": "CVE-2026-59115",
-          "title": "'.../...//' in Microsoft Entra Provisioning Service (SyncFabric) allows an authorized attacker to elevate privileges over a network.",
-          "date": "2026-08-07",
+          "id": "CVE-2026-62815",
+          "title": "Use after free in Microsoft QUIC allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-08-11",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59115",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62815",
           "kev": false,
-          "epss": 0.635
+          "epss": 0.936
         },
         {
-          "id": "CVE-2026-62873",
-          "title": "Improper verification of cryptographic signature in Microsoft 365 Admin Center allows an unauthorized attacker to elevate privileges over a network.",
-          "date": "2026-08-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62873",
+          "id": "CVE-2026-57105",
+          "title": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.",
+          "date": "2026-08-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57105",
           "kev": false,
-          "epss": 0.34299999999999997
+          "epss": 0.58
         },
         {
-          "id": "CVE-2026-62896",
-          "title": "Improper authentication in Microsoft Teams allows an authorized attacker to elevate privileges over a network.",
-          "date": "2026-08-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62896",
+          "id": "CVE-2026-58612",
+          "title": "Server-side request forgery (ssrf) in Microsoft PowerShell Core allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-08-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58612",
           "kev": false,
-          "epss": 0.381
+          "epss": 0.803
         }
       ]
     },
