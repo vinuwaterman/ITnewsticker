@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T01:59:11.810Z",
+  "generatedAt": "2026-08-14T04:16:28.395Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Added acknowledgements. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49162",
-      "count7d": 892
+      "count7d": 880
     },
     "SAP": {
       "vendor": "SAP",
