@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T21:26:12.061Z",
+  "generatedAt": "2026-08-14T21:51:01.219Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72970",
-      "count7d": 904
+      "count7d": 905
     },
     "SAP": {
       "vendor": "SAP",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 161,
+      "count": 162,
       "items": [
         {
           "id": "CVE-2026-50516",
