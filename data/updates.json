@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-14T17:54:13.964Z",
+  "generatedAt": "2026-08-14T18:55:38.289Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
+      "title": "CVE-2026-72970 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "date": "2026-08-14",
-      "summary": "Acknowledgement Updated",
+      "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
-      "count7d": 893
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72970",
+      "count7d": 902
     },
     "SAP": {
       "vendor": "SAP",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 160,
+      "count": 161,
       "items": [
         {
           "id": "CVE-2026-50516",
