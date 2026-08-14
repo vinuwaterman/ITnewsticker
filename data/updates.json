@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T13:54:56.231Z",
+  "generatedAt": "2026-08-14T14:53:19.762Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Protect your AI Workloads to Drive What&#8217;s Next",
-      "date": "2026-08-13",
-      "summary": "Cybercriminals don't take days off. Give your AI the modern protection leaders trust to bounce back fast. Discover how.",
+      "title": "NEBS Level 3 Compliance Comes to Intel-Based PowerEdge Servers",
+      "date": "2026-08-14",
+      "summary": "When networks can't go down, the hardware has to hold up. Three new PowerEdge servers just proved they can.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/protect-your-ai-workloads-to-drive-what-s-next/",
+      "url": "https://www.dell.com/en-us/blog/nebs-level-3-compliance-comes-to-intel-based-poweredge-servers/",
       "count7d": 10
     },
     "Lenovo": {
@@ -328,7 +328,8 @@
           "date": "2026-08-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12036",
-          "kev": false
+          "kev": false,
+          "epss": 0.16
         },
         {
           "id": "CVE-2026-15994",
@@ -336,7 +337,8 @@
           "date": "2026-08-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15994",
-          "kev": false
+          "kev": false,
+          "epss": 0.156
         },
         {
           "id": "CVE-2026-63423",
@@ -344,7 +346,8 @@
           "date": "2026-08-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63423",
-          "kev": false
+          "kev": false,
+          "epss": 0.15
         },
         {
           "id": "CVE-2026-63424",
@@ -352,7 +355,8 @@
           "date": "2026-08-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63424",
-          "kev": false
+          "kev": false,
+          "epss": 0.097
         },
         {
           "id": "CVE-2026-63425",
@@ -360,7 +364,8 @@
           "date": "2026-08-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63425",
-          "kev": false
+          "kev": false,
+          "epss": 0.109
         }
       ]
     },
