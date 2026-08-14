@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-14T16:54:02.717Z",
+  "generatedAt": "2026-08-14T17:54:13.964Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62777 Windows License Manager Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
       "date": "2026-08-14",
       "summary": "Acknowledgement Updated",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62777",
-      "count7d": 890
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
+      "count7d": 893
     },
     "SAP": {
       "vendor": "SAP",
