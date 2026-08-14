@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T18:55:38.289Z",
+  "generatedAt": "2026-08-14T19:49:44.655Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
-      "date": "2026-08-13",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. For additional information on these vulnerabilities in ClamAV, see the ClamAV blog . Cisco has released software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these vulnerabilities is High for Windows-based…",
+      "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
+      "date": "2026-08-14",
+      "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: BroadWorks Crosswork Industrial Ethernet 1000 Series Switches Packaged Contact Center Enterprise and&nbsp;Unified Contact Center Enterprise RoomOS Secure Workload Unified Intelligence Center To fully remediate vulnerabilities to be disclosed on August 19, 2026, Cisco strongly recommends that customers upgrade to the fixed software indicated in the advisories. For more information about…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "count7d": 4
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Your Certification Awaits at VMware Explore",
+      "title": "Survive the 2026 Hardware Squeeze: Cost Optimization Sessions at VMware Explore",
       "date": "2026-08-14",
-      "summary": "Your Guide to Certification Exams at Explore 2026 Join us at VMware Explore Las Vegas, Nevada &#124; The Venetian Aug. 31 – Sep. 3, 2026 REGISTER NOW Explore offers attendees a prime opportunity to credential their skills with onsite testing during the event in the Certification Exam Center.&#160; Full Event Pass registrations include one VMware &#8230; Continued The post Your Certification Awaits at VMware Explore appeared first on VMware Blogs .",
+      "summary": "Enterprise infrastructure teams face a brutal cost environment in 2026. Server prices are skyrocketing. Hardware supply chains remain constrained. Teams are running denser, more demanding workloads like AI inference, GPU pipelines, and large in-memory databases. Memory costs, specifically DRAM, have become one of the single largest line items in infrastructure procurement. Storage capacity is also &#8230; Continued The post Survive the 2026 Hardware Squeeze: Cost Optimization Sessions at VMware Explore appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/explore/certification-exams/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/14/survive-the-2026-hardware-squeeze-cost-optimization-sessions-at-vmware-explore/",
       "count7d": 10
     },
     "AWS": {
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Prisma AIRS - Unified Data Protection for Claude",
-      "date": "2026-08-05",
-      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 2
     }
   },
   "nvd": {
