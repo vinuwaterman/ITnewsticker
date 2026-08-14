@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T20:32:37.688Z",
+  "generatedAt": "2026-08-14T21:26:12.061Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72970",
-      "count7d": 903
+      "count7d": 904
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Survive the 2026 Hardware Squeeze: Cost Optimization Sessions at VMware Explore",
+      "title": "Kubernetes, Container, and VM Services: 50+ Sessions at VMware Explore Tailored for You",
       "date": "2026-08-14",
-      "summary": "Enterprise infrastructure teams face a brutal cost environment in 2026. Server prices are skyrocketing. Hardware supply chains remain constrained. Teams are running denser, more demanding workloads like AI inference, GPU pipelines, and large in-memory databases. Memory costs, specifically DRAM, have become one of the single largest line items in infrastructure procurement. Storage capacity is also &#8230; Continued The post Survive the 2026 Hardware Squeeze: Cost Optimization Sessions at VMware Explore appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/14/survive-the-2026-hardware-squeeze-cost-optimization-sessions-at-vmware-explore/",
+      "summary": "Kubernetes doesn’t have to require a separate team, a separate security policy, a separate management plane, and a separate budget. The status quo for most enterprises is that Kubernetes infrastructure exists in a silo alongside the VM-based infrastructure that still runs the majority of production workloads. That duplication is expensive and operationally complex. It’s also &#8230; Continued The post Kubernetes, Container, and VM Services: 50+ Sessions at VMware Explore Tailored for You appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/14/kubernetes-container-and-vm-services-50-sessions-at-vmware-explore-tailored-for-you/",
       "count7d": 10
     },
     "AWS": {
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Prisma AIRS - Unified Data Protection for Claude",
-      "date": "2026-08-05",
-      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 2
     }
   },
   "nvd": {
