@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T12:09:53.781Z",
+  "generatedAt": "2026-08-14T13:54:56.231Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Operationalizing VMware Cloud Foundation Control Plane for Kubernetes Workloads",
-      "date": "2026-08-13",
-      "summary": "In today’s fast-evolving IT landscape, enterprise IT organizations face a fundamental operational dilemma. On one side, VMware vSphere and infrastructure administrators require strict control, compliance, security, and multi-tenant resource governance. On the other side, developers and DevOps engineers need agility, rapid self-service provisioning, and native API-driven infrastructure to accelerate application delivery.&#160; When these two priorities &#8230; Continued The post Operationalizing VMware Cloud Foundation Control Plane for Kubernetes Workloads appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/13/operationalizing-vmware-cloud-foundation-control-plane-for-kubernetes-workloads/",
+      "title": "Your Certification Awaits at VMware Explore",
+      "date": "2026-08-14",
+      "summary": "Your Guide to Certification Exams at Explore 2026 Join us at VMware Explore Las Vegas, Nevada &#124; The Venetian Aug. 31 – Sep. 3, 2026 REGISTER NOW Explore offers attendees a prime opportunity to credential their skills with onsite testing during the event in the Certification Exam Center.&#160; Full Event Pass registrations include one VMware &#8230; Continued The post Your Certification Awaits at VMware Explore appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/explore/certification-exams/",
       "count7d": 10
     },
     "AWS": {
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "count7d": 1
     }
   },
   "nvd": {
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 6,
+      "count": 4,
       "items": [
         {
           "id": "CVE-2026-46731",
@@ -266,15 +266,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59917",
           "kev": false,
           "epss": 0.109
-        },
-        {
-          "id": "CVE-2026-56793",
-          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.2, contains an Improper Authentication vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
-          "date": "2026-08-07",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56793",
-          "kev": false,
-          "epss": 0.313
         }
       ]
     },
