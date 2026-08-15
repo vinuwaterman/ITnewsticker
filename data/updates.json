@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T10:23:34.284Z",
+  "generatedAt": "2026-08-15T10:50:13.536Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "count7d": 1
     }
   },
   "nvd": {
