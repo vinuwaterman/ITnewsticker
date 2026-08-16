@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T16:58:03.292Z",
+  "generatedAt": "2026-08-16T17:20:49.209Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Corrected build number for the security update. This in an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65769",
-      "count7d": 848
+      "count7d": 850
     },
     "SAP": {
       "vendor": "SAP",
