@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-16T17:46:29.482Z",
+  "generatedAt": "2026-08-16T18:29:49.507Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-65769 Microsoft Teams iOS Information Disclosure Vulnerability",
+      "title": "CVE-2026-65768 Microsoft Teams Remote Code Execution Vulnerability",
       "date": "2026-08-16",
       "summary": "Corrected build number for the security update. This in an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65769",
-      "count7d": 850
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65768",
+      "count7d": 851
     },
     "SAP": {
       "vendor": "SAP",
