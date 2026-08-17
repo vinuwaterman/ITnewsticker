@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T17:32:30.744Z",
+  "generatedAt": "2026-08-17T18:40:17.753Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Corrected the CVE description and title. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62722",
-      "count7d": 826
+      "count7d": 834
     },
     "SAP": {
       "vendor": "SAP",
