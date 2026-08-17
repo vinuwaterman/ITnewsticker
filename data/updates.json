@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:40:17.753Z",
+  "generatedAt": "2026-08-17T19:29:50.271Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Your Tactical Guide to Giveaways in Las Vegas",
+      "title": "Exploring API-Driven Day 2 Operations in VCF 9.1 with Rachel Stephens from RedMonk",
       "date": "2026-08-17",
-      "summary": "Navigating the complexities of your private cloud infrastructure takes strategy, and so does securing the best giveaways&#8230; Join us at VMware Explore Las Vegas, Nevada &#124; The Venetian Aug. 31 – Sep. 3, 2026 REGISTER NOW Whether you are seeking functional apparel or everyday tech essentials, this guide provides the tactical intel you need to &#8230; Continued The post Your Tactical Guide to Giveaways in Las Vegas appeared first on VMware Blogs .",
+      "summary": "If you have ever watched an infrastructure engineer tab between a dozen dashboards at 2 AM trying to track down a latency issue causing application problems, then you already understand the problem. Infrastructure management has long operated in a mouse-click-driven world. That is changing fast. In a new MonkCast video podcast, analyst Rachel Stephens of &#8230; Continued The post Exploring API-Driven Day 2 Operations in VCF 9.1 with Rachel Stephens from RedMonk appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/explore/event-giveaways/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/17/exploring-api-driven-day-2-operations-in-vcf-9-1-with-rachel-stephens-from-redmonk/",
       "count7d": 10
     },
     "AWS": {
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
       "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 164,
+      "count": 163,
       "items": [
         {
           "id": "CVE-2026-50516",
