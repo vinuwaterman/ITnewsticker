@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-17T15:27:07.029Z",
+  "generatedAt": "2026-08-17T15:51:55.980Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-65768 Microsoft Teams Remote Code Execution Vulnerability",
-      "date": "2026-08-16",
-      "summary": "Corrected build number for the security update. This in an informational change only.",
+      "title": "CVE-2026-62722 Microsoft Brokering File System Elevation of Privilege Vulnerability",
+      "date": "2026-08-17",
+      "summary": "Corrected the CVE description and title. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65768",
-      "count7d": 825
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62722",
+      "count7d": 826
     },
     "SAP": {
       "vendor": "SAP",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Teaching AI to Reason Through Detection Triage",
-      "date": "2026-08-17",
+      "title": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
+      "date": "2026-08-11",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/",
-      "count7d": 2
+      "category": "critical",
+      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
+      "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
