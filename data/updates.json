@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T12:44:31.541Z",
+  "generatedAt": "2026-08-17T13:40:26.504Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Kubernetes, Container, and VM Services: 50+ Sessions at VMware Explore Tailored for You",
-      "date": "2026-08-14",
-      "summary": "Kubernetes doesn’t have to require a separate team, a separate security policy, a separate management plane, and a separate budget. The status quo for most enterprises is that Kubernetes infrastructure exists in a silo alongside the VM-based infrastructure that still runs the majority of production workloads. That duplication is expensive and operationally complex. It’s also &#8230; Continued The post Kubernetes, Container, and VM Services: 50+ Sessions at VMware Explore Tailored for You appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/14/kubernetes-container-and-vm-services-50-sessions-at-vmware-explore-tailored-for-you/",
+      "title": "Your Tactical Guide to Giveaways in Las Vegas",
+      "date": "2026-08-17",
+      "summary": "Navigating the complexities of your private cloud infrastructure takes strategy, and so does securing the best giveaways&#8230; Join us at VMware Explore Las Vegas, Nevada &#124; The Venetian Aug. 31 – Sep. 3, 2026 REGISTER NOW Whether you are seeking functional apparel or everyday tech essentials, this guide provides the tactical intel you need to &#8230; Continued The post Your Tactical Guide to Giveaways in Las Vegas appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/explore/event-giveaways/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "NEBS Level 3 Compliance Comes to Intel-Based PowerEdge Servers",
-      "date": "2026-08-14",
-      "summary": "When networks can't go down, the hardware has to hold up. Three new PowerEdge servers just proved they can.",
+      "title": "Lake&#124;Flato&#8217;s Small Form Adoption Led to Big Performance",
+      "date": "2026-08-17",
+      "summary": "How one of America's top architecture firms shrank its workstations by two-thirds and altered its office culture because of one constraint.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/nebs-level-3-compliance-comes-to-intel-based-poweredge-servers/",
+      "url": "https://www.dell.com/en-us/blog/lake-flato-s-small-form-adoption-led-to-big-performance/",
       "count7d": 10
     },
     "Lenovo": {
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 11,
+      "count": 12,
       "items": [
         {
           "id": "CVE-2026-72144",
