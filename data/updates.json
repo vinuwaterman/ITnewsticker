@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T15:51:55.980Z",
+  "generatedAt": "2026-08-17T16:29:00.880Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Why Kubernetes for AI?",
+      "title": "Why Dell Leads IDC&#8217;s Q1 2026 AI Infrastructure Tracker",
       "date": "2026-08-17",
-      "summary": "Kubernetes helps runs AI. Dell makes it enterprise-ready with secure multi-tenancy, efficient GPU utilization, and operational scale for production.",
+      "summary": "Dell leads IDC's Q1 2026 AI Infrastructure Tracker — 422% server growth, #1 in AI storage. See what that means for your AI infrastructure strategy.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/why-kubernetes-for-ai/",
+      "url": "https://www.dell.com/en-us/blog/why-dell-leads-idc-s-q1-2026-ai-infrastructure-tracker/",
       "count7d": 10
     },
     "Lenovo": {
