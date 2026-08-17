@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:40:26.504Z",
+  "generatedAt": "2026-08-17T14:29:05.745Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
       "count7d": 1
     }
   },
@@ -229,52 +229,47 @@
       "items": []
     },
     "Dell": {
-      "count": 12,
+      "count": 19,
       "items": [
         {
-          "id": "CVE-2026-72144",
-          "title": "In the Linux kernel, the following vulnerability has been resolved: platform/x86: dell-laptop: fix missing cleanups in init error path dell_init() initializes several resources after dell_setup_rfkill(), including the optional touchpad LED, keyboard backlight LED, battery hook,…",
-          "date": "2026-08-15",
+          "id": "CVE-2026-56090",
+          "title": "Dell ObjectScale, versions prior to 4.3.0.1, contain(s) an Uncontrolled Search Path Element vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges.",
+          "date": "2026-08-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72144",
-          "kev": false,
-          "epss": 0.2
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56090",
+          "kev": false
         },
         {
-          "id": "CVE-2026-63700",
-          "title": "Dell Wyse Management Suite (WMS), versions prior to 2605.0.2, contain an Incorrect Default Permission vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Privilege Escalation.",
-          "date": "2026-08-14",
+          "id": "CVE-2026-56685",
+          "title": "Dell ObjectScale, versions prior to 4.3.0.1, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading…",
+          "date": "2026-08-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63700",
-          "kev": false,
-          "epss": 0.086
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56685",
+          "kev": false
         },
         {
-          "id": "CVE-2026-66270",
-          "title": "Dell Wyse Management Suite (WMS), versions prior to 2605.0.2, contain an Unrestricted Upload of File with Dangerous Type vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Remote Code…",
-          "date": "2026-08-14",
+          "id": "CVE-2026-56686",
+          "title": "Dell ObjectScale, versions prior to 4.3.0.1, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading…",
+          "date": "2026-08-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66270",
-          "kev": false,
-          "epss": 0.42300000000000004
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56686",
+          "kev": false
         },
         {
-          "id": "CVE-2026-66271",
-          "title": "Dell Wyse Management Suite (WMS), versions prior to 2605.0.2, contain an Unrestricted Upload of File with Dangerous Type vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Remote Code…",
-          "date": "2026-08-14",
+          "id": "CVE-2026-59909",
+          "title": "Dell ObjectScale, versions prior to 4.3.0.1, contain(s) a Path Traversal vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Information tampering.",
+          "date": "2026-08-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66271",
-          "kev": false,
-          "epss": 0.521
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59909",
+          "kev": false
         },
         {
-          "id": "CVE-2026-46731",
-          "title": "Dell Display and Peripheral Manager (DDPM Windows), versions prior to 2.3.0.17, contain an Authentication Bypass by Spoofing vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges…",
-          "date": "2026-08-12",
+          "id": "CVE-2026-59910",
+          "title": "Dell ObjectScale, versions prior to 4.3.0.1, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading…",
+          "date": "2026-08-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46731",
-          "kev": false,
-          "epss": 0.129
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59910",
+          "kev": false
         }
       ]
     },
