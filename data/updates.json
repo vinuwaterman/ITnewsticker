@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T09:42:51.539Z",
+  "generatedAt": "2026-08-17T10:33:25.677Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Positioned as a Leader in the Inaugural Gartner® Magic Quadrant&#x2122; for Supply Chain Management Suites",
-      "date": "2026-08-13",
-      "summary": "For more than 50 years, SAP has helped organizations navigate supply chain volatility by connecting planning, execution, and business processes across the enterprise.",
+      "title": "SAP’s New Industry AI Portfolio Tackles the Hardest Challenges Faced by Enterprises",
+      "date": "2026-08-17",
+      "summary": "Moving beyond isolated use cases toward autonomous, end-to-end agentic execution.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/sap-a-leader-inaugural-gartner-magic-quadrant-scm-suites/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/08/new-industry-ai-portfolio-sap-tackles-challenges-enterprises-face/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
