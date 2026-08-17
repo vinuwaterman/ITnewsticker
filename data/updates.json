@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T14:56:37.839Z",
+  "generatedAt": "2026-08-17T15:27:07.029Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Lake&#124;Flato&#8217;s Small Form Adoption Led to Big Performance",
+      "title": "Why Kubernetes for AI?",
       "date": "2026-08-17",
-      "summary": "How one of America's top architecture firms shrank its workstations by two-thirds and altered its office culture because of one constraint.",
+      "summary": "Kubernetes helps runs AI. Dell makes it enterprise-ready with secure multi-tenancy, efficient GPU utilization, and operational scale for production.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/lake-flato-s-small-form-adoption-led-to-big-performance/",
+      "url": "https://www.dell.com/en-us/blog/why-kubernetes-for-ai/",
       "count7d": 10
     },
     "Lenovo": {
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Prisma AIRS - Unified Data Protection for Claude",
-      "date": "2026-08-05",
-      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
