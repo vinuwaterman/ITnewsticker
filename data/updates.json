@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T10:33:25.677Z",
+  "generatedAt": "2026-08-17T11:27:10.218Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo CFO Winston Cheng on Bloomberg: Business Strategy, AI Demand (August 14, 2026)",
-      "date": "2026-08-14",
-      "summary": "Winston Cheng, CFO at Lenovo, discusses the company's business strategy as it expects to grow revenue to $100 billion this fiscal year.",
+      "title": "Bringing AI Within Reach: How EdgeNet Is Expanding Affordable AI Access Across Mexico with Lenovo",
+      "date": "2026-08-17",
+      "summary": "EdgeNet is working with Lenovo to build a distributed network of localized AI factories.",
       "category": "feature",
-      "url": "https://news.lenovo.com/lenovo-cfo-winston-cheng-on-bloomberg-business-strategy-ai-demand-august-14-2026/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/bringing-ai-within-reach-how-edgenet-is-expanding-affordable-ai-access-across-mexico-with-lenovo/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
       "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 163,
+      "count": 164,
       "items": [
         {
           "id": "CVE-2026-50516",
