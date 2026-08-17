@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:58:06.543Z",
+  "generatedAt": "2026-08-17T17:32:30.744Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Bringing AI Within Reach: How EdgeNet Is Expanding Affordable AI Access Across Mexico with Lenovo",
+      "title": "Why Enterprise AI needs open models, trusted infrastructure, and local control",
       "date": "2026-08-17",
-      "summary": "EdgeNet is working with Lenovo to build a distributed network of localized AI factories.",
+      "summary": "Agentic AI moves from pilots to production, and Lenovo helps organizations deploy the right model architectures, scale, and governance.",
       "category": "feature",
-      "url": "https://news.lenovo.com/bringing-ai-within-reach-how-edgenet-is-expanding-affordable-ai-access-across-mexico-with-lenovo/",
-      "count7d": 5
+      "url": "https://news.lenovo.com/enterprise-ai-needs-open-models-trusted-infrastructure-local-control/",
+      "count7d": 6
     },
     "Fortinet": {
       "vendor": "Fortinet",
