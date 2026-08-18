@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-18T15:33:14.014Z",
+  "generatedAt": "2026-08-18T16:32:41.173Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-24301 Microsoft Copilot Information Disclosure Vulnerability",
+      "title": "CVE-2026-47632 Azure Connected Machine Agent Elevation of Privilege Vulnerability",
       "date": "2026-08-18",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
+      "summary": "Corrected the affected product from **Azure Monitor Agent Metrics Extension** to **Azure Connected Machine Agent** and updated the Security Updates table. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
-      "count7d": 120
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47632",
+      "count7d": 121
     },
     "SAP": {
       "vendor": "SAP",
