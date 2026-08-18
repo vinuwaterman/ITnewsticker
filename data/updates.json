@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T10:58:44.673Z",
+  "generatedAt": "2026-08-18T11:33:01.965Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -153,17 +153,8 @@
       ]
     },
     "SAP": {
-      "count": 2,
+      "count": 1,
       "items": [
-        {
-          "id": "CVE-2026-58231",
-          "title": "SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit specially crafted input to certain functions lacking sufficient validation. Successful exploitation could enable arbitrary code execution and compromise internal components,…",
-          "date": "2026-08-11",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58231",
-          "kev": false,
-          "epss": 0.726
-        },
         {
           "id": "CVE-2026-72022",
           "title": "In the Linux kernel, the following vulnerability has been resolved: llc: fix SAP refcount leak in llc_ui_autobind() llc_ui_autobind() opens a SAP after choosing a dynamic LSAP. llc_sap_open() returns a reference owned by the caller, and…",
