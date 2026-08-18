@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T20:51:25.474Z",
+  "generatedAt": "2026-08-18T21:25:56.130Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Corrected the affected product from **Azure Monitor Agent Metrics Extension** to **Azure Connected Machine Agent** and updated the Security Updates table. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47632",
-      "count7d": 123
+      "count7d": 124
     },
     "SAP": {
       "vendor": "SAP",
