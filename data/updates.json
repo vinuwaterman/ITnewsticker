@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:43:19.207Z",
+  "generatedAt": "2026-08-18T14:34:42.381Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Why Dell Leads IDC&#8217;s Q1 2026 AI Infrastructure Tracker",
-      "date": "2026-08-17",
-      "summary": "Dell leads IDC's Q1 2026 AI Infrastructure Tracker — 422% server growth, #1 in AI storage. See what that means for your AI infrastructure strategy.",
+      "title": "How to Build a Transformation Strategy That Holds",
+      "date": "2026-08-18",
+      "summary": "Fragmented AI and IT strategies are slowing progress. Here's how a connected approach changes that.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/why-dell-leads-idc-s-q1-2026-ai-infrastructure-tracker/",
+      "url": "https://www.dell.com/en-us/blog/how-to-build-a-transformation-strategy-that-holds/",
       "count7d": 10
     },
     "Lenovo": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 163,
+      "count": 164,
       "items": [
         {
           "id": "CVE-2026-50516",
@@ -148,7 +148,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58612",
           "kev": false,
-          "epss": 0.803
+          "epss": 0.786
         }
       ]
     },
@@ -201,7 +201,8 @@
           "date": "2026-08-17",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56090",
-          "kev": false
+          "kev": false,
+          "epss": 0.126
         },
         {
           "id": "CVE-2026-56685",
@@ -209,7 +210,8 @@
           "date": "2026-08-17",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56685",
-          "kev": false
+          "kev": false,
+          "epss": 0.51
         },
         {
           "id": "CVE-2026-56686",
@@ -217,7 +219,8 @@
           "date": "2026-08-17",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56686",
-          "kev": false
+          "kev": false,
+          "epss": 0.45399999999999996
         },
         {
           "id": "CVE-2026-59909",
@@ -225,7 +228,8 @@
           "date": "2026-08-17",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59909",
-          "kev": false
+          "kev": false,
+          "epss": 0.11900000000000001
         },
         {
           "id": "CVE-2026-59910",
@@ -233,7 +237,8 @@
           "date": "2026-08-17",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59910",
-          "kev": false
+          "kev": false,
+          "epss": 0.45399999999999996
         }
       ]
     },
