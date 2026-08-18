@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T01:14:57.073Z",
+  "generatedAt": "2026-08-18T02:37:36.924Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -84,11 +84,11 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Teaching AI to Reason Through Detection Triage",
-      "date": "2026-08-17",
+      "title": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
+      "date": "2026-08-11",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/",
+      "category": "critical",
+      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
       "count7d": 1
     },
     "Palo Alto Networks": {
@@ -153,52 +153,25 @@
       ]
     },
     "SAP": {
-      "count": 34,
+      "count": 2,
       "items": [
         {
-          "id": "CVE-2026-34265",
-          "title": "SAP NetWeaver Application Server ABAP allows an unauthenticated attacker to exploit logical errors in DIAG protocol parsing, resulting in memory corruption. This vulnerability could potentially disclose sensitive system information or crash the system, leading to…",
+          "id": "CVE-2026-58231",
+          "title": "SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit specially crafted input to certain functions lacking sufficient validation. Successful exploitation could enable arbitrary code execution and compromise internal components,…",
           "date": "2026-08-11",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34265",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58231",
           "kev": false,
-          "epss": 0.44
+          "epss": 0.726
         },
         {
-          "id": "CVE-2026-44758",
-          "title": "SAP Manufacturing Integration and Intelligence (MII) allows an attacker with high privileges to submit specially crafted input to certain affected functionality, which is processed without sufficient validation. Successful exploitation could allow the attacker to execute…",
-          "date": "2026-08-11",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44758",
+          "id": "CVE-2026-72022",
+          "title": "In the Linux kernel, the following vulnerability has been resolved: llc: fix SAP refcount leak in llc_ui_autobind() llc_ui_autobind() opens a SAP after choosing a dynamic LSAP. llc_sap_open() returns a reference owned by the caller, and…",
+          "date": "2026-08-15",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72022",
           "kev": false,
-          "epss": 0.507
-        },
-        {
-          "id": "CVE-2026-44763",
-          "title": "SAP Manufacturing Integration and Intelligence allows a privileged attacker to exploit insufficient file path validation in certain functions using specially crafted input. Exploitation also requires a legitimate user to subsequently access the attacker-influenced content and…",
-          "date": "2026-08-11",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44763",
-          "kev": false,
-          "epss": 0.28200000000000003
-        },
-        {
-          "id": "CVE-2026-44764",
-          "title": "Due to a Missing Authorization Check vulnerability in SAP Manufacturing Integration and Intelligence, an unauthenticated attacker could send crafted requests to the Cost Servlet using specific parameter values. If processed by the application, these requests…",
-          "date": "2026-08-11",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44764",
-          "kev": false,
-          "epss": 0.23500000000000001
-        },
-        {
-          "id": "CVE-2026-44765",
-          "title": "Due to a Missing Authorization Check vulnerability in SAP Manufacturing Integration and Intelligence, an unauthenticated remote attacker could access scheduling-related application functions without proper authorization validation. Successful exploitation could allow the attacker to retrieve, create,…",
-          "date": "2026-08-11",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44765",
-          "kev": false,
-          "epss": 0.27799999999999997
+          "epss": 0.21
         }
       ]
     },
