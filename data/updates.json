@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T11:33:01.965Z",
+  "generatedAt": "2026-08-18T12:46:46.962Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP’s New Industry AI Portfolio Tackles the Hardest Challenges Faced by Enterprises",
-      "date": "2026-08-17",
-      "summary": "Moving beyond isolated use cases toward autonomous, end-to-end agentic execution.",
+      "title": "With Agentic AI, ABAP Takes Evolution to the Next Level",
+      "date": "2026-08-18",
+      "summary": "ABAP has a long track record of successful reinvention. AI is just the next chapter.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/new-industry-ai-portfolio-sap-tackles-challenges-enterprises-face/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/08/with-agentic-ai-abap-takes-evolution-to-the-next-level/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
