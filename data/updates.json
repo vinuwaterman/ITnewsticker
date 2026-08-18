@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T22:24:49.910Z",
+  "generatedAt": "2026-08-18T22:52:26.874Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
-      "count7d": 125
+      "count7d": 126
     },
     "SAP": {
       "vendor": "SAP",
@@ -75,11 +75,11 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Broken access control in the RADIUS type admin group",
+      "title": "HTTP/2 Bomb CVE-2026-49975",
       "date": "2026-08-12",
-      "summary": "CVSSv3 Score: 8.8 An Improper Authentication vulnerability [CWE-287] in the FortiWeb Remote Radius Type Admin Authentication configured with specific, non-default settings may allow a remote unauthenticated attacker to login into the Fortiweb GUI/CLI with a random username and password Revised on 2026-08-12 00:00:00",
+      "summary": "CVSSv3 Score: 5.8 CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67. Revised on 2026-08-19 00:00:00",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163",
       "count7d": 8
     },
     "CrowdStrike": {
