@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-18T12:46:46.962Z",
+  "generatedAt": "2026-08-18T13:43:19.207Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
-      "date": "2026-08-17",
-      "summary": "Acknowledgement Updated",
+      "title": "CVE-2026-24301 Microsoft Copilot Information Disclosure Vulnerability",
+      "date": "2026-08-18",
+      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
-      "count7d": 119
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
+      "count7d": 120
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Community Meetups at Explore 2026 Vegas",
-      "date": "2026-08-17",
-      "summary": "If you will be at Explore 2026 in Vegas this year we have the Community Lounge and Community Theater next to each other. This year we have added back the community desk and staffed the lounge where you can engage and learn about multiple programs and meet your favorite community conference attendees. Community Lounge Meetups: &#8230; Continued The post Community Meetups at Explore 2026 Vegas appeared first on VMware Blogs .",
+      "title": "IDC White Paper: Self-Service Private Cloud as the Engine for In-House AI and Application Innovation",
+      "date": "2026-08-18",
+      "summary": "The AI Platform Imperative: Securing Executive Buy-In for Your Self-Service Private Cloud Every enterprise is racing to ship AI capabilities. In fact, 100% of organizations surveyed by IDC are currently building or planning generative AI and/or agentic AI applications1. But for platform engineers and cloud architects, a critical operational bottleneck stands in the way: ticket-driven &#8230; Continued The post IDC White Paper: Self-Service Private Cloud as the Engine for In-House AI and Application Innovation appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/vmtn/2026/08/community-meetups-at-explore-2026-vegas.html",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/18/idc-white-paper-self-service-private-cloud-as-the-engine-for-in-house-ai-and-application-innovation/",
       "count7d": 10
     },
     "AWS": {
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Why Enterprise AI needs open models, trusted infrastructure, and local control",
-      "date": "2026-08-17",
-      "summary": "Agentic AI moves from pilots to production, and Lenovo helps organizations deploy the right model architectures, scale, and governance.",
+      "title": "Repairable devices help spell the end for disposable IT",
+      "date": "2026-08-18",
+      "summary": "Lenovo’s repairable ThinkPad devices, powered by Intel® Core™ Ultra processors, help businesses extend device life, reduce waste, and uncover hidden value.",
       "category": "feature",
-      "url": "https://news.lenovo.com/enterprise-ai-needs-open-models-trusted-infrastructure-local-control/",
-      "count7d": 6
+      "url": "https://news.lenovo.com/repairable-devices-help-spell-the-end-for-disposable-it/",
+      "count7d": 7
     },
     "Fortinet": {
       "vendor": "Fortinet",
