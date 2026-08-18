@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T23:48:19.040Z",
+  "generatedAt": "2026-08-18T01:14:57.073Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Acknowledgement Updated",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
-      "count7d": 835
+      "count7d": 119
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Moving beyond isolated use cases toward autonomous, end-to-end agentic execution.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/new-industry-ai-portfolio-sap-tackles-challenges-enterprises-face/",
-      "count7d": 5
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -35,15 +35,15 @@
       "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: BroadWorks Crosswork Industrial Ethernet 1000 Series Switches Packaged Contact Center Enterprise and&nbsp;Unified Contact Center Enterprise RoomOS Secure Workload Unified Intelligence Center To fully remediate vulnerabilities to be disclosed on August 19, 2026, Cisco strongly recommends that customers upgrade to the fixed software indicated in the advisories. For more information about…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
-      "count7d": 4
+      "count7d": 2
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Exploring API-Driven Day 2 Operations in VCF 9.1 with Rachel Stephens from RedMonk",
+      "title": "Community Meetups at Explore 2026 Vegas",
       "date": "2026-08-17",
-      "summary": "If you have ever watched an infrastructure engineer tab between a dozen dashboards at 2 AM trying to track down a latency issue causing application problems, then you already understand the problem. Infrastructure management has long operated in a mouse-click-driven world. That is changing fast. In a new MonkCast video podcast, analyst Rachel Stephens of &#8230; Continued The post Exploring API-Driven Day 2 Operations in VCF 9.1 with Rachel Stephens from RedMonk appeared first on VMware Blogs .",
+      "summary": "If you will be at Explore 2026 in Vegas this year we have the Community Lounge and Community Theater next to each other. This year we have added back the community desk and staffed the lounge where you can engage and learn about multiple programs and meet your favorite community conference attendees. Community Lounge Meetups: &#8230; Continued The post Community Meetups at Explore 2026 Vegas appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/17/exploring-api-driven-day-2-operations-in-vcf-9-1-with-rachel-stephens-from-redmonk/",
+      "url": "https://blogs.vmware.com/vmtn/2026/08/community-meetups-at-explore-2026-vegas.html",
       "count7d": 10
     },
     "AWS": {
@@ -84,11 +84,11 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
-      "date": "2026-08-11",
+      "title": "Teaching AI to Reason Through Detection Triage",
+      "date": "2026-08-17",
       "summary": "",
-      "category": "critical",
-      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/",
       "count7d": 1
     },
     "Palo Alto Networks": {
