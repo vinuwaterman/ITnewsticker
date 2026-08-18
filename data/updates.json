@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T19:51:49.460Z",
+  "generatedAt": "2026-08-18T20:25:04.859Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 11,
+      "count": 10,
       "items": [
         {
           "id": "CVE-2026-73296",
@@ -152,8 +152,24 @@
       ]
     },
     "SAP": {
-      "count": 1,
+      "count": 3,
       "items": [
+        {
+          "id": "CVE-2026-52733",
+          "title": "ZEBRA is a Zcash node written entirely in Rust. Prior to 4.5.0, a natural or attacker-influenced chain fork can leave stale Sapling and Orchard note-commitment subtree roots in Zebra state. In zebra-state/src/service/non_finalized_state/chain.rs, Chain::pop_tip removed a…",
+          "date": "2026-08-18",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52733",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-52739",
+          "title": "ZEBRA is a Zcash node written entirely in Rust. Prior to 4.5.0, a malicious block producer can terminate zebrad by placing the same shielded transaction in a non-finalized parent block and its child. In zebra-state/src/service/non_finalized_state/chain.rs,…",
+          "date": "2026-08-18",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52739",
+          "kev": false
+        },
         {
           "id": "CVE-2026-72022",
           "title": "In the Linux kernel, the following vulnerability has been resolved: llc: fix SAP refcount leak in llc_ui_autobind() llc_ui_autobind() opens a SAP after choosing a dynamic LSAP. llc_sap_open() returns a reference owned by the caller, and…",
@@ -182,7 +198,7 @@
       "items": []
     },
     "Dell": {
-      "count": 24,
+      "count": 26,
       "items": [
         {
           "id": "CVE-2026-61407",
