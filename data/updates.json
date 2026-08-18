@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T09:34:49.242Z",
+  "generatedAt": "2026-08-18T10:29:51.287Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Uncover the Threat Intelligence Already in Your Backups",
-      "date": "2026-08-13",
-      "summary": "Security just confirmed the intrusion, and now every question lands on you: What was hit? When did it start? Which backup can you trust? You’re digging through one console while Security digs through another, and every minute of downtime makes those answers more expensive. If this sounds familiar, you’re in good company. In most organizations, Security operations and IT backup teams operate in parallel rather than together, and attackers know it. It is no secret that ransomware attacks target backups…",
-      "category": "patch",
-      "url": "https://www.veeam.com/blog/veeam-data-platform-threat-detection.html",
-      "count7d": 1
+      "title": "Veeam Data Platform 13.1: Veeam Data Cloud Vault on Veeam Backup for AWS",
+      "date": "2026-08-18",
+      "summary": "Veeam Data Platform 13.1 introduces a new integration for customers protecting AWS workloads. You can now connect Veeam Data Cloud Vault directly to the Veeam Backup for AWS appliance that manages it, closing a key protection gap. The post Veeam Data Platform 13.1: Veeam Data Cloud Vault on Veeam Backup for AWS appeared first on Veeam Software Official Blog .",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/veeam-vault-aws-backup.html",
+      "count7d": 2
     },
     "Cisco": {
       "vendor": "Cisco",
