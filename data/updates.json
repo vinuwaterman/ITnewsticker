@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-19T16:32:38.873Z",
+  "generatedAt": "2026-08-19T17:28:02.687Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2021-26859 Microsoft Power BI Information Disclosure Vulnerability",
+      "title": "CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability",
       "date": "2026-08-19",
-      "summary": "Corrected the Power BI Report Server version in the Security Updates table to use the public release version instead of the internal build number. This is an informational change only.",
+      "summary": "Acknowledgement Updated",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26859",
-      "count7d": 88
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338",
+      "count7d": 90
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "ESXCLI 9.1.0 GA: Simplified Installation, Modern Python Support, and Enhanced Security",
+      "title": "Don’t Miss These VMware Tanzu Sessions at VMware Explore 2026",
       "date": "2026-08-19",
-      "summary": "For vSphere administrators and automation engineers, ESXCLI is one of the most fundamental utilities in the VMware management toolkit. It enables you to execute host management commands remotely against an ESXi host or target any host managed by vCenter Server—all from your local workstation or administrative jumpbox without requiring an interactive SSH session to the &#8230; Continued The post ESXCLI 9.1.0 GA: Simplified Installation, Modern Python Support, and Enhanced Security appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/19/esxcli-9-1-0-ga-simplified-installation-modern-python-support-and-enhanced-security/",
+      "summary": "At VMware Explore Las Vegas 2026, the Tanzu Division of Broadcom will unveil its latest innovations in deploying AI agents in the enterprise. Join us for sessions covering agentic AI delivery, architecture, best practices for agents, apps, data, and enterprise-ready solutions that help organizations safely build and deploy AI agents and business-critical applications in the &#8230; Continued The post Don’t Miss These VMware Tanzu Sessions at VMware Explore 2026 appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/tanzu/dont-miss-these-vmware-tanzu-sessions-at-vmware-explore-2026/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Build Enterprise AI Without Vendor Lock-In",
+      "title": "KV Cache Offload to Object Storage: GPU-Direct and Upstream",
       "date": "2026-08-19",
-      "summary": "Key takeaways 10 min read Dell AIDP&#8217;s open partner ecosystem — spanning NVIDIA, Elastic, Starburst and more — lets enterprises&#160;&#8230;",
+      "summary": "Dell’s RDMA path for S3-compatible storage is now merged into the upstream open-source inference stack — so vLLM and LMCache can target Dell ObjectScale directly.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/how-to-build-enterprise-ai-without-vendor-lock-in/",
+      "url": "https://www.dell.com/en-us/blog/kv-cache-offload-to-object-storage-gpu-direct-and-upstream/",
       "count7d": 10
     },
     "Lenovo": {
@@ -103,17 +103,8 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 11,
+      "count": 9,
       "items": [
-        {
-          "id": "CVE-2026-73296",
-          "title": "Microsoft UFO open-source framework for intelligent automation across devices and platforms. Prior to 3.0.8, create_mobile_data_collection_server and create_mobile_action_server in ufo/client/mcp/http_servers/mobile_mcp_server.py exposed Streamable HTTP MCP services on TCP ports 8020 and 8021 without authentication, allowing an unauthenticated…",
-          "date": "2026-08-12",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73296",
-          "kev": false,
-          "epss": 2.609
-        },
         {
           "id": "CVE-2026-24301",
           "title": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
@@ -149,6 +140,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74801",
           "kev": false,
           "epss": 0.265
+        },
+        {
+          "id": "CVE-2026-72970",
+          "title": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-08-14",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72970",
+          "kev": false,
+          "epss": 0.501
         }
       ]
     },
@@ -189,8 +189,49 @@
       "items": []
     },
     "Cisco": {
-      "count": 0,
-      "items": []
+      "count": 15,
+      "items": [
+        {
+          "id": "CVE-2026-20030",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple…",
+          "date": "2026-08-19",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20030",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20231",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses…",
+          "date": "2026-08-19",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20231",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20315",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses…",
+          "date": "2026-08-19",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20315",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20317",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses…",
+          "date": "2026-08-19",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20317",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20318",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses…",
+          "date": "2026-08-19",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20318",
+          "kev": false
+        }
+      ]
     },
     "VMware": {
       "count": 0,
