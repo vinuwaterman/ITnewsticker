@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:54:04.625Z",
+  "generatedAt": "2026-08-19T22:25:56.964Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -189,7 +189,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 15,
+      "count": 19,
       "items": [
         {
           "id": "CVE-2026-20030",
@@ -350,8 +350,17 @@
       "items": []
     },
     "CrowdStrike": {
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "id": "CVE-2026-76380",
+          "title": "In versions below 5.1.3 of the CrowdStrike OAuth API app for Splunk SOAR, a user who holds a role with permission to run actions could expose a sensitive document password by invoking either the detonate…",
+          "date": "2026-08-19",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76380",
+          "kev": false
+        }
+      ]
     },
     "Palo Alto Networks": {
       "count": 12,
