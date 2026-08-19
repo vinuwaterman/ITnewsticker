@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:58:14.606Z",
+  "generatedAt": "2026-08-19T11:31:20.360Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "IDC White Paper: Self-Service Private Cloud as the Engine for In-House AI and Application Innovation",
-      "date": "2026-08-18",
-      "summary": "The AI Platform Imperative: Securing Executive Buy-In for Your Self-Service Private Cloud Every enterprise is racing to ship AI capabilities. In fact, 100% of organizations surveyed by IDC are currently building or planning generative AI and/or agentic AI applications1. But for platform engineers and cloud architects, a critical operational bottleneck stands in the way: ticket-driven &#8230; Continued The post IDC White Paper: Self-Service Private Cloud as the Engine for In-House AI and Application Innovation appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/18/idc-white-paper-self-service-private-cloud-as-the-engine-for-in-house-ai-and-application-innovation/",
+      "title": "Putting Numbers Behind Encrypted vMotion Offload to Intel QAT in VMware Cloud Foundation 9.1",
+      "date": "2026-08-19",
+      "summary": "Encrypted vMotion has been a cornerstone of workload security in VMware environments for years. It ensures that VM data is protected in transit every time it moves between hosts, and for most production environments it is simply table stakes. With VMware Cloud Foundation (VCF) 9.1, we are making that security even more efficient by offloading &#8230; Continued The post Putting Numbers Behind Encrypted vMotion Offload to Intel QAT in VMware Cloud Foundation 9.1 appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/19/putting-numbers-behind-encrypted-vmotion-offload-to-intel-qat-in-vmware-cloud-foundation-9-1/",
       "count7d": 10
     },
     "AWS": {
