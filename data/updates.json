@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T18:36:36.038Z",
+  "generatedAt": "2026-08-19T19:26:42.965Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Don’t Miss These VMware Tanzu Sessions at VMware Explore 2026",
+      "title": "Frontier AI and Security: Your Guide to Top Resources at VMware Explore 2026",
       "date": "2026-08-19",
-      "summary": "At VMware Explore Las Vegas 2026, the Tanzu Division of Broadcom will unveil its latest innovations in deploying AI agents in the enterprise. Join us for sessions covering agentic AI delivery, architecture, best practices for agents, apps, data, and enterprise-ready solutions that help organizations safely build and deploy AI agents and business-critical applications in the &#8230; Continued The post Don’t Miss These VMware Tanzu Sessions at VMware Explore 2026 appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/tanzu/dont-miss-these-vmware-tanzu-sessions-at-vmware-explore-2026/",
+      "summary": "VMware Explore provides a wonderful venue for security-minded VMware Cloud Foundation (VCF) users to get direct access to VCF security experts, test-drive security capabilities in Hands-on Labs (HOLs), and master the blueprints for safeguarding enterprise workloads against AI-powered threats. Supercharge your skills and learn about the latest capabilities at VMware Explore 2026 in Las Vegas, &#8230; Continued The post Frontier AI and Security: Your Guide to Top Resources at VMware Explore 2026 appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/19/frontier-ai-and-vmware-cloud-foundation-security-top-resources-at-vmware-explore-2026/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "KV Cache Offload to Object Storage: GPU-Direct and Upstream",
+      "title": "How the Dell AI Data Platform Extends Your MAM",
       "date": "2026-08-19",
-      "summary": "Dell’s RDMA path for S3-compatible storage is now merged into the upstream open-source inference stack — so vLLM and LMCache can target Dell ObjectScale directly.",
+      "summary": "Dell AI Data Platform extends MAM with continuous discovery, governed enrichment, and AI-ready workflows across every media asset.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/kv-cache-offload-to-object-storage-gpu-direct-and-upstream/",
+      "url": "https://www.dell.com/en-us/blog/how-the-dell-ai-data-platform-extends-your-mam/",
       "count7d": 10
     },
     "Lenovo": {
