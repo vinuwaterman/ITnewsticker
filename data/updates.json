@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T13:44:43.500Z",
+  "generatedAt": "2026-08-19T14:34:51.841Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Build a Transformation Strategy That Holds",
-      "date": "2026-08-18",
-      "summary": "Fragmented AI and IT strategies are slowing progress. Here's how a connected approach changes that.",
+      "title": "Introducing Dell Pro Max GB300 for Secure Federal AI",
+      "date": "2026-08-19",
+      "summary": "The Dell Pro Max GB300 brings production-scale AI to secure federal environments while maintaining control of sensitive data.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/how-to-build-a-transformation-strategy-that-holds/",
+      "url": "https://www.dell.com/en-us/blog/introducing-dell-pro-max-gb300-for-secure-federal-ai/",
       "count7d": 10
     },
     "Lenovo": {
@@ -120,7 +120,8 @@
           "date": "2026-08-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24301",
-          "kev": false
+          "kev": false,
+          "epss": 1.63
         },
         {
           "id": "CVE-2026-60998",
@@ -128,7 +129,8 @@
           "date": "2026-08-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60998",
-          "kev": false
+          "kev": false,
+          "epss": 0.281
         },
         {
           "id": "CVE-2026-50191",
@@ -136,7 +138,8 @@
           "date": "2026-08-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50191",
-          "kev": false
+          "kev": false,
+          "epss": 0.328
         },
         {
           "id": "CVE-2026-74801",
@@ -158,7 +161,8 @@
           "date": "2026-08-18",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52733",
-          "kev": false
+          "kev": false,
+          "epss": 0.335
         },
         {
           "id": "CVE-2026-52739",
@@ -166,7 +170,8 @@
           "date": "2026-08-18",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52739",
-          "kev": false
+          "kev": false,
+          "epss": 0.394
         },
         {
           "id": "CVE-2026-72022",
@@ -196,7 +201,7 @@
       "items": []
     },
     "Dell": {
-      "count": 26,
+      "count": 34,
       "items": [
         {
           "id": "CVE-2026-61407",
@@ -204,7 +209,8 @@
           "date": "2026-08-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61407",
-          "kev": false
+          "kev": false,
+          "epss": 0.104
         },
         {
           "id": "CVE-2026-56090",
@@ -222,7 +228,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56685",
           "kev": false,
-          "epss": 0.51
+          "epss": 0.47600000000000003
         },
         {
           "id": "CVE-2026-56686",
@@ -231,7 +237,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56686",
           "kev": false,
-          "epss": 0.45399999999999996
+          "epss": 0.424
         },
         {
           "id": "CVE-2026-59909",
@@ -240,7 +246,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59909",
           "kev": false,
-          "epss": 0.11900000000000001
+          "epss": 0.11800000000000001
         }
       ]
     },
