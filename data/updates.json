@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-19T15:32:25.370Z",
+  "generatedAt": "2026-08-19T16:32:38.873Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability",
+      "title": "CVE-2021-26859 Microsoft Power BI Information Disclosure Vulnerability",
       "date": "2026-08-19",
-      "summary": "Acknowledgement Updated",
+      "summary": "Corrected the Power BI Report Server version in the Security Updates table to use the public release version instead of the internal build number. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338",
-      "count7d": 81
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26859",
+      "count7d": 88
     },
     "SAP": {
       "vendor": "SAP",
@@ -31,11 +31,11 @@
     "Cisco": {
       "vendor": "Cisco",
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
-      "date": "2026-08-14",
-      "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: BroadWorks Crosswork Industrial Ethernet 1000 Series Switches Packaged Contact Center Enterprise and&nbsp;Unified Contact Center Enterprise RoomOS Secure Workload Unified Intelligence Center To fully remediate vulnerabilities to be disclosed on August 19, 2026, Cisco strongly recommends that customers upgrade to the fixed software indicated in the advisories. For more information about…",
-      "category": "patch",
+      "date": "2026-08-19",
+      "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco Crosswork Security Hardening Release: August 2026 CVE-2026-20030 CVE-2026-20357 CVE-2026-20358 CVE-2026-20359 Critical 10.0 Cisco Secure Workload Software Security Hardening Release: August 2026 CVE-2026-20231 CVE-2026-20315 CVE-2026-20317 CVE-2026-20318 CVE-2026-20319 Critical 10.0 Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability CVE-2026-20320 High 7.5 Cisco Unified Intelligence Center SQL Injection Vulnerability CVE-2026-20327 Medium 6.5 Cisco RoomOS…",
+      "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
-      "count7d": 2
+      "count7d": 10
     },
     "VMware": {
       "vendor": "VMware",
