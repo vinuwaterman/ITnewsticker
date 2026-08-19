@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T17:52:53.006Z",
+  "generatedAt": "2026-08-19T18:36:36.038Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Data Platform 13.1: Veeam Data Cloud Vault on Veeam Backup for AWS",
-      "date": "2026-08-18",
-      "summary": "Veeam Data Platform 13.1 introduces a new integration for customers protecting AWS workloads. You can now connect Veeam Data Cloud Vault directly to the Veeam Backup for AWS appliance that manages it, closing a key protection gap. The post Veeam Data Platform 13.1: Veeam Data Cloud Vault on Veeam Backup for AWS appeared first on Veeam Software Official Blog .",
+      "title": "Microsoft 365 Backup: Why Your Data Isn’t as Protected as You Think",
+      "date": "2026-08-19",
+      "summary": "Veeam Data Cloud backup offers an independent, customer-controlled copy of your Microsoft 365 data, across Exchange, SharePoint, OneDrive, Teams, and Entra ID, that you can restore from when other protections fall short. And native recycling bins fall short far more often than most admins realize. The post Microsoft 365 Backup: Why Your Data Isn’t as Protected as You Think appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/veeam-vault-aws-backup.html",
-      "count7d": 2
+      "url": "https://www.veeam.com/blog/microsoft-365-backup-gaps.html",
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 9,
+      "count": 8,
       "items": [
         {
           "id": "CVE-2026-24301",
