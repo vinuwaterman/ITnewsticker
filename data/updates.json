@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T11:55:30.572Z",
+  "generatedAt": "2026-08-19T12:48:03.157Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -245,7 +245,7 @@
       ]
     },
     "Fortinet": {
-      "count": 7,
+      "count": 6,
       "items": [
         {
           "id": "CVE-2026-26035",
@@ -255,15 +255,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26035",
           "kev": false,
           "epss": 0.51
-        },
-        {
-          "id": "CVE-2026-70465",
-          "title": "A buffer copy without checking size of input ('classic buffer overflow') vulnerability in Fortinet FortiClientWindows 7.4.0 through 7.4.3, FortiClientWindows 7.2.0 through 7.2.11 may allow an unauthenticated attacker in a position to alter or craft DNS…",
-          "date": "2026-08-12",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70465",
-          "kev": false,
-          "epss": 0.5479999999999999
         },
         {
           "id": "CVE-2026-70468",
@@ -291,6 +282,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71407",
           "kev": false,
           "epss": 0.494
+        },
+        {
+          "id": "CVE-2026-71408",
+          "title": "A allocation of resources without limits or throttling vulnerability in Fortinet FortiOS 7.6.0 through 7.6.6, FortiOS 7.4 all versions, FortiOS 7.2 all versions may allow attacker to denial of service via",
+          "date": "2026-08-12",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71408",
+          "kev": false,
+          "epss": 0.5559999999999999
         }
       ]
     },
