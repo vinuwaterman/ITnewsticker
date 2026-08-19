@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T09:35:13.351Z",
+  "generatedAt": "2026-08-19T10:30:00.594Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Brings SAP SuccessFactors and Joule to NTT DATA’s Global People and Culture Transformation",
+      "title": "What NASA’s Return to the Moon Can Teach Leaders About Transformation at Scale",
       "date": "2026-08-19",
-      "summary": "WALLDORF — SAP will help replace multiple legacy HR systems with one unified platform for people data and processes.",
+      "summary": "Managing complexity, sustaining momentum, and using emerging technology support mission outcomes.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/ntt-data-inc-accelerates-ai-driven-people-transformation/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/08/sap-now-nasa-return-to-moon-teach-about-transformation-at-scale/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
       "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 12,
+      "count": 11,
       "items": [
         {
           "id": "CVE-2026-73296",
