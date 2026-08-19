@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T12:48:03.157Z",
+  "generatedAt": "2026-08-19T13:44:43.500Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Putting Numbers Behind Encrypted vMotion Offload to Intel QAT in VMware Cloud Foundation 9.1",
+      "title": "From Infrastructure to Agents: A Hands-on Guide to Secure Private AI with Broadcom – Part 3",
       "date": "2026-08-19",
-      "summary": "Encrypted vMotion has been a cornerstone of workload security in VMware environments for years. It ensures that VM data is protected in transit every time it moves between hosts, and for most production environments it is simply table stakes. With VMware Cloud Foundation (VCF) 9.1, we are making that security even more efficient by offloading &#8230; Continued The post Putting Numbers Behind Encrypted vMotion Offload to Intel QAT in VMware Cloud Foundation 9.1 appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/19/putting-numbers-behind-encrypted-vmotion-offload-to-intel-qat-in-vmware-cloud-foundation-9-1/",
+      "summary": "Part 3 of 4: Shielding the AI Application Layer North-South L5–L7 Protection with Avi WAF and Istio Enterprises are rushing AI assistants into production faster than they are securing them. A chatbot wired to a private model is a new front door into the business, exposed to anyone who can reach it: prompt injection, data &#8230; Continued The post From Infrastructure to Agents: A Hands-on Guide to Secure Private AI with Broadcom – Part 3 appeared first on VMware Blogs…",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/19/from-infrastructure-to-agents-a-hands-on-guide-to-secure-private-ai-with-broadcom-part-3/",
       "count7d": 10
     },
     "AWS": {
@@ -245,54 +245,8 @@
       ]
     },
     "Fortinet": {
-      "count": 6,
-      "items": [
-        {
-          "id": "CVE-2026-26035",
-          "title": "An Improper Authentication vulnerability [CWE-287] vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.2, FortiWeb 7.6.0 through 7.6.6, FortiWeb 7.4.0 through 7.4.11, FortiWeb 7.2.0 through 7.2.12, FortiWeb 7.0.0 through 7.0.12 may allow a remote unauthenticated attacker to…",
-          "date": "2026-08-12",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26035",
-          "kev": false,
-          "epss": 0.51
-        },
-        {
-          "id": "CVE-2026-70468",
-          "title": "A authentication bypass using an alternate path or channel vulnerability in Fortinet FortiManager 7.6.1, FortiManager 7.4.3 through 7.4.5, FortiManager 7.2.5 through 7.2.9, FortiManager Cloud 7.6.1, FortiManager Cloud 7.4.3 through 7.4.5, FortiManager Cloud 7.2.5 through 7.2.9…",
-          "date": "2026-08-12",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70468",
-          "kev": false,
-          "epss": 0.587
-        },
-        {
-          "id": "CVE-2026-70466",
-          "title": "A incomplete list of disallowed inputs vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.2, FortiWeb 7.6.0 through 7.6.5, FortiWeb 7.4 all versions, FortiWeb 7.2 all versions, FortiWeb 7.0 all versions may allow attacker to improper access…",
-          "date": "2026-08-12",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70466",
-          "kev": false,
-          "epss": 0.309
-        },
-        {
-          "id": "CVE-2026-71407",
-          "title": "A Stack-based Buffer Overflow vulnerability [CWE-121] vulnerability in Fortinet FortiOS 7.6.1 through 7.6.6 may allow an unauthenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands in the context of…",
-          "date": "2026-08-12",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71407",
-          "kev": false,
-          "epss": 0.494
-        },
-        {
-          "id": "CVE-2026-71408",
-          "title": "A allocation of resources without limits or throttling vulnerability in Fortinet FortiOS 7.6.0 through 7.6.6, FortiOS 7.4 all versions, FortiOS 7.2 all versions may allow attacker to denial of service via",
-          "date": "2026-08-12",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71408",
-          "kev": false,
-          "epss": 0.5559999999999999
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Lenovo": {
       "count": 7,
