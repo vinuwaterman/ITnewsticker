@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T07:39:28.728Z",
+  "generatedAt": "2026-08-19T08:38:21.160Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "With Agentic AI, ABAP Takes Evolution to the Next Level",
-      "date": "2026-08-18",
-      "summary": "ABAP has a long track record of successful reinvention. AI is just the next chapter.",
+      "title": "SAP Brings SAP SuccessFactors and Joule to NTT DATA’s Global People and Culture Transformation",
+      "date": "2026-08-19",
+      "summary": "WALLDORF — SAP will help replace multiple legacy HR systems with one unified platform for people data and processes.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/with-agentic-ai-abap-takes-evolution-to-the-next-level/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/08/ntt-data-inc-accelerates-ai-driven-people-transformation/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
