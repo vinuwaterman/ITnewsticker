@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T19:51:26.388Z",
+  "generatedAt": "2026-08-19T20:29:18.270Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Microsoft 365 Backup: Why Your Data Isn’t as Protected as You Think",
+      "title": "Veeam Data Cloud Vault for Azure Backup: The Missing Piece in Your Cloud Resilience Strategy",
       "date": "2026-08-19",
-      "summary": "Veeam Data Cloud backup offers an independent, customer-controlled copy of your Microsoft 365 data, across Exchange, SharePoint, OneDrive, Teams, and Entra ID, that you can restore from when other protections fall short. And native recycling bins fall short far more often than most admins realize. The post Microsoft 365 Backup: Why Your Data Isn’t as Protected as You Think appeared first on Veeam Software Official Blog .",
+      "summary": "For most Azure architects, going offsite with backups isn’t the question. The real decision is where those backups land, and how much ongoing work it takes to keep that landing zone secure, immutable, and isolated from production. The post Veeam Data Cloud Vault for Azure Backup: The Missing Piece in Your Cloud Resilience Strategy appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/microsoft-365-backup-gaps.html",
-      "count7d": 3
+      "url": "https://www.veeam.com/blog/vault-storage-for-azure.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Teaching AI to Reason Through Detection Triage",
-      "date": "2026-08-17",
+      "title": "Benchmaxxing: When the Benchmark Becomes the Target",
+      "date": "2026-08-19",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/",
-      "count7d": 1
+      "url": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -242,8 +242,17 @@
       "items": []
     },
     "Dell": {
-      "count": 49,
+      "count": 45,
       "items": [
+        {
+          "id": "CVE-2026-67271",
+          "title": "Dell PowerStore SDNAS, contains an Out-of-bounds Write vulnerability in the SMB/CIFS. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Denial of service and Remote execution. This is a Critical vulnerability…",
+          "date": "2026-08-18",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67271",
+          "kev": false,
+          "epss": 0.462
+        },
         {
           "id": "CVE-2026-61407",
           "title": "Dell Watchdog Timer Driver versions prior to 2.0.0.1 contain an Exposed IOCTL with Insufficient Access Control vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Privilege Escalation.",
@@ -254,40 +263,31 @@
           "epss": 0.104
         },
         {
-          "id": "CVE-2026-56090",
-          "title": "Dell ObjectScale, versions prior to 4.3.0.1, contain(s) an Uncontrolled Search Path Element vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges.",
-          "date": "2026-08-17",
+          "id": "CVE-2026-70415",
+          "title": "Dell PowerStore SDNAS contains a Buffer Copy without Checking Size of Input vulnerability in the NFS/RPC. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Command execution and Denial of service.",
+          "date": "2026-08-18",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56090",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70415",
+          "kev": false,
+          "epss": 0.652
+        },
+        {
+          "id": "CVE-2026-32657",
+          "title": "Dell AppSync Version 4.6.0.0, Dell Metro Node Version 8.0.0, Dell UCC Edge Version 3.0.1, Dell VxRail Version 8.0.322, Dell PowerMax Version 10.3.0, Dell Unity Version 5.4, Dell PowerFlex Manager Version 4.5.4, Dell PowerFlex Intelligent Catalog…",
+          "date": "2026-08-18",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32657",
           "kev": false,
           "epss": 0.126
         },
         {
-          "id": "CVE-2026-56685",
-          "title": "Dell ObjectScale, versions prior to 4.3.0.1, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading…",
-          "date": "2026-08-17",
+          "id": "CVE-2026-67262",
+          "title": "Dell PowerStore contains a Missing Authorization vulnerability. An attacker with access to a mapped host could exploit this vulnerability to read from or write to LUNs that the host is not authorized to access, bypassing…",
+          "date": "2026-08-18",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56685",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67262",
           "kev": false,
-          "epss": 0.47600000000000003
-        },
-        {
-          "id": "CVE-2026-56686",
-          "title": "Dell ObjectScale, versions prior to 4.3.0.1, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading…",
-          "date": "2026-08-17",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56686",
-          "kev": false,
-          "epss": 0.424
-        },
-        {
-          "id": "CVE-2026-59909",
-          "title": "Dell ObjectScale, versions prior to 4.3.0.1, contain(s) a Path Traversal vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Information tampering.",
-          "date": "2026-08-17",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59909",
-          "kev": false,
-          "epss": 0.11800000000000001
+          "epss": 0.234
         }
       ]
     },
