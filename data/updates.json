@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-19T14:34:51.841Z",
+  "generatedAt": "2026-08-19T15:32:25.370Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-24301 Microsoft Copilot Information Disclosure Vulnerability",
-      "date": "2026-08-18",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
+      "title": "CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability",
+      "date": "2026-08-19",
+      "summary": "Acknowledgement Updated",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
-      "count7d": 75
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338",
+      "count7d": 81
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "From Infrastructure to Agents: A Hands-on Guide to Secure Private AI with Broadcom – Part 3",
+      "title": "ESXCLI 9.1.0 GA: Simplified Installation, Modern Python Support, and Enhanced Security",
       "date": "2026-08-19",
-      "summary": "Part 3 of 4: Shielding the AI Application Layer North-South L5–L7 Protection with Avi WAF and Istio Enterprises are rushing AI assistants into production faster than they are securing them. A chatbot wired to a private model is a new front door into the business, exposed to anyone who can reach it: prompt injection, data &#8230; Continued The post From Infrastructure to Agents: A Hands-on Guide to Secure Private AI with Broadcom – Part 3 appeared first on VMware Blogs…",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/19/from-infrastructure-to-agents-a-hands-on-guide-to-secure-private-ai-with-broadcom-part-3/",
+      "summary": "For vSphere administrators and automation engineers, ESXCLI is one of the most fundamental utilities in the VMware management toolkit. It enables you to execute host management commands remotely against an ESXi host or target any host managed by vCenter Server—all from your local workstation or administrative jumpbox without requiring an interactive SSH session to the &#8230; Continued The post ESXCLI 9.1.0 GA: Simplified Installation, Modern Python Support, and Enhanced Security appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/19/esxcli-9-1-0-ga-simplified-installation-modern-python-support-and-enhanced-security/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Introducing Dell Pro Max GB300 for Secure Federal AI",
+      "title": "How to Build Enterprise AI Without Vendor Lock-In",
       "date": "2026-08-19",
-      "summary": "The Dell Pro Max GB300 brings production-scale AI to secure federal environments while maintaining control of sensitive data.",
+      "summary": "Key takeaways 10 min read Dell AIDP&#8217;s open partner ecosystem — spanning NVIDIA, Elastic, Starburst and more — lets enterprises&#160;&#8230;",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/introducing-dell-pro-max-gb300-for-secure-federal-ai/",
+      "url": "https://www.dell.com/en-us/blog/how-to-build-enterprise-ai-without-vendor-lock-in/",
       "count7d": 10
     },
     "Lenovo": {
@@ -201,7 +201,7 @@
       "items": []
     },
     "Dell": {
-      "count": 34,
+      "count": 49,
       "items": [
         {
           "id": "CVE-2026-61407",
