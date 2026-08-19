@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T23:48:52.034Z",
+  "generatedAt": "2026-08-19T01:16:08.979Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
-      "count7d": 126
+      "count7d": 75
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "ABAP has a long track record of successful reinvention. AI is just the next chapter.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/with-agentic-ai-abap-takes-evolution-to-the-next-level/",
-      "count7d": 5
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -71,7 +71,7 @@
       "summary": "Lenovo donated 80 laptops to student-athletes at the fourth annual Let’s Go South Bay camp, which blends soccer, leadership, and career exploration.",
       "category": "feature",
       "url": "https://news.lenovo.com/next-generation-technology-mentorship-and-sport-alex-morgan-foundation/",
-      "count7d": 8
+      "count7d": 7
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -80,7 +80,7 @@
       "summary": "CVSSv3 Score: 5.8 CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67. Revised on 2026-08-19 00:00:00",
       "category": "patch",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163",
-      "count7d": 8
+      "count7d": 1
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
       "count7d": 1
     }
   },
