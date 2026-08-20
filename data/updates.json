@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T18:54:04.171Z",
+  "generatedAt": "2026-08-20T19:32:39.952Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Frontier AI and Security: Your Guide to Top Resources at VMware Explore 2026",
-      "date": "2026-08-19",
-      "summary": "VMware Explore provides a wonderful venue for security-minded VMware Cloud Foundation (VCF) users to get direct access to VCF security experts, test-drive security capabilities in Hands-on Labs (HOLs), and master the blueprints for safeguarding enterprise workloads against AI-powered threats. Supercharge your skills and learn about the latest capabilities at VMware Explore 2026 in Las Vegas, &#8230; Continued The post Frontier AI and Security: Your Guide to Top Resources at VMware Explore 2026 appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/19/frontier-ai-and-vmware-cloud-foundation-security-top-resources-at-vmware-explore-2026/",
+      "title": "Let’s Talk Tokenomics at VMware Explore 2026",
+      "date": "2026-08-20",
+      "summary": "A new session just landed in the VMware Explore 2026 Content Catalog, and it&#8217;s worth prioritizing. J.R. Storment, Executive Director of the FinOps Foundation and Tokenomics Foundation, will join Broadcom experts for a conversation about tokenomics and connecting AI investments to business and IT value.&#160; Organizations are spending tremendous amounts of money on infrastructure to &#8230; Continued The post Let’s Talk Tokenomics at VMware Explore 2026 appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/20/lets-talk-tokenomics-at-vmware-explore-2026/",
       "count7d": 10
     },
     "AWS": {
