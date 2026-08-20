@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-20T21:36:55.691Z",
+  "generatedAt": "2026-08-20T22:29:15.364Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-33824 Windows Internet Key Exchange (IKE) Service Extensions Remote Code Execution Vulnerability",
+      "title": "CVE-2026-62834 Azure Data Factory Elevation of Privilege Vulnerability",
       "date": "2026-08-20",
-      "summary": "Added clarifying information to the mitigation. This is an informational change only.",
+      "summary": "Improper verification of cryptographic signature in Azure Data Factory allows an unauthorized attacker to elevate privileges over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33824",
-      "count7d": 70
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62834",
+      "count7d": 98
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Resilience Without Blind Spots: Veeam&#8217;s Q3 Innovation Pulse",
+      "title": "Migrate VMware to Proxmox: A Technical Guide for Conversion, Cutover, and Continuity",
       "date": "2026-08-20",
-      "summary": "Right now, do you know what's actually at risk in your environment? Most leaders can't answer that fast enough. Not because the answer doesn't exist, but because the data they need to inform their answer is scattered. Every blind spot is a business risk waiting to surface at the worst possible moment: an audit, a ransomware event, a board question you can't answer on the spot. The answer is probably buried across dozens of consoles, alerts, and reports that nobody…",
+      "summary": "Neither networking nor storage carries over on its own. Both need a decision to be made before the first VM converts, because a VM that lands on Proxmox VE with the wrong bridge or an unplanned storage backend has to be reworked rather than adjusted. The post Migrate VMware to Proxmox: A Technical Guide for Conversion, Cutover, and Continuity appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/q3-2026-innovation-pulse-resilience-blind-spots.html",
+      "url": "https://www.veeam.com/blog/vmware-to-proxmox-migration.html",
       "count7d": 5
     },
     "Cisco": {
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
-      "date": "2026-08-20",
+      "title": "Benchmaxxing: When the Benchmark Becomes the Target",
+      "date": "2026-08-19",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
-      "count7d": 3
+      "url": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,52 +103,47 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 7,
+      "count": 13,
       "items": [
         {
-          "id": "CVE-2026-24301",
-          "title": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
-          "date": "2026-08-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24301",
-          "kev": false,
-          "epss": 1.63
+          "id": "CVE-2026-63509",
+          "title": "Relative path traversal in Microsoft Fabric allows an authorized attacker to elevate privileges over a network.",
+          "date": "2026-08-20",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63509",
+          "kev": false
         },
         {
-          "id": "CVE-2026-60998",
-          "title": "Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware (component: Microsoft Active Directory). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Difficult to exploit vulnerability allows high privileged attacker with network…",
-          "date": "2026-08-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60998",
-          "kev": false,
-          "epss": 0.281
+          "id": "CVE-2026-65801",
+          "title": "Server-side request forgery (ssrf) in Microsoft Exchange Online allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-08-20",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65801",
+          "kev": false
         },
         {
-          "id": "CVE-2026-50191",
-          "title": "4gaBoards is a boards system for realtime project management. Prior to 3.3.8, 4gaBoards is vulnerable to pre-account takeover when registrationEnabled, localRegistrationEnabled, and ssoRegistrationEnabled are enabled and Google, GitHub, Microsoft, or OIDC SSO is configured. The…",
-          "date": "2026-08-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50191",
-          "kev": false,
-          "epss": 0.328
+          "id": "CVE-2026-69836",
+          "title": "Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-08-20",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69836",
+          "kev": false
         },
         {
-          "id": "CVE-2026-74801",
-          "title": "SiYuan before 3.7.4 fails to properly escape workspace directory paths when constructing command-line arguments for the elevated elevator.exe helper process. Attackers can create a malicious workspace directory with command metacharacters in its path and trigger…",
-          "date": "2026-08-17",
+          "id": "CVE-2026-69558",
+          "title": "Authorization bypass through user-controlled key in Microsoft Partner Center allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-08-20",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74801",
-          "kev": false,
-          "epss": 0.265
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69558",
+          "kev": false
         },
         {
-          "id": "CVE-2026-72970",
-          "title": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-08-14",
+          "id": "CVE-2026-69855",
+          "title": "Server-side request forgery (ssrf) in Microsoft Copilot in Azure allows an authorized attacker to disclose information over a network.",
+          "date": "2026-08-20",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72970",
-          "kev": false,
-          "epss": 0.501
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69855",
+          "kev": false
         }
       ]
     },
