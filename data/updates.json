@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-20T13:48:17.072Z",
+  "generatedAt": "2026-08-20T14:37:42.762Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability",
-      "date": "2026-08-19",
-      "summary": "Acknowledgement Updated",
+      "title": "CVE-2026-66802 Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
+      "date": "2026-08-20",
+      "summary": "Corrected the Executive Summary to clarify that the vulnerability affects Windows Device Health Attestation (DHA), not Microsoft Azure Attestation. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338",
-      "count7d": 62
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66802",
+      "count7d": 64
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Data Cloud Vault for Azure Backup: The Missing Piece in Your Cloud Resilience Strategy",
-      "date": "2026-08-19",
-      "summary": "For most Azure architects, going offsite with backups isn’t the question. The real decision is where those backups land, and how much ongoing work it takes to keep that landing zone secure, immutable, and isolated from production. The post Veeam Data Cloud Vault for Azure Backup: The Missing Piece in Your Cloud Resilience Strategy appeared first on Veeam Software Official Blog .",
+      "title": "Veeam Data Cloud Vault for AWS Backup: Immutable Storage Outside Your AWS Account",
+      "date": "2026-08-20",
+      "summary": "For most AWS architects, going offsite with backups isn’t the question. The real decision is where those backups land, and how much ongoing work it takes to keep that landing zone secure, immutable, and isolated from production. The post Veeam Data Cloud Vault for AWS Backup: Immutable Storage Outside Your AWS Account appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/vault-storage-for-azure.html",
-      "count7d": 3
+      "url": "https://www.veeam.com/blog/vault-storage-for-aws.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Telecom Transformation Playbook: Mobile Operators Need a Blueprint",
+      "title": "How the Internet Works: From Servers to Your Screen",
       "date": "2026-08-20",
-      "summary": "The modern network is cloud-based, open, and automated end-to-end—built for 5G today and AI-native operations tomorrow.",
+      "summary": "A clear, human-friendly guide to how the internet works, from hardware and TCP/IP to DNS and CDNs, with tips to test connectivity.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/telecom-transformation-playbook-mobile-operators-need-a-blueprint/",
+      "url": "https://www.dell.com/en-us/blog/how-the-internet-works-from-servers-to-your-screen/",
       "count7d": 10
     },
     "Lenovo": {
@@ -197,7 +197,8 @@
           "date": "2026-08-19",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20030",
-          "kev": false
+          "kev": false,
+          "epss": 0.44999999999999996
         },
         {
           "id": "CVE-2026-20231",
@@ -205,7 +206,8 @@
           "date": "2026-08-19",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20231",
-          "kev": false
+          "kev": false,
+          "epss": 0.413
         },
         {
           "id": "CVE-2026-20315",
@@ -213,7 +215,8 @@
           "date": "2026-08-19",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20315",
-          "kev": false
+          "kev": false,
+          "epss": 0.32299999999999995
         },
         {
           "id": "CVE-2026-20317",
@@ -221,7 +224,8 @@
           "date": "2026-08-19",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20317",
-          "kev": false
+          "kev": false,
+          "epss": 0.34299999999999997
         },
         {
           "id": "CVE-2026-20318",
@@ -229,7 +233,8 @@
           "date": "2026-08-19",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20318",
-          "kev": false
+          "kev": false,
+          "epss": 0.263
         }
       ]
     },
@@ -358,7 +363,8 @@
           "date": "2026-08-19",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76380",
-          "kev": false
+          "kev": false,
+          "epss": 0.13899999999999998
         }
       ]
     },
