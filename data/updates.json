@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-20T16:36:31.029Z",
+  "generatedAt": "2026-08-20T17:30:14.586Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-66802 Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
+      "title": "CVE-2026-54118 Microsoft SQL Server Remote Code Execution Vulnerability",
       "date": "2026-08-20",
-      "summary": "Corrected the Executive Summary to clarify that the vulnerability affects Windows Device Health Attestation (DHA), not Microsoft Azure Attestation. This is an informational change only.",
+      "summary": "The CVSS vector string was update to reflect that an attacker does not require any privileges to successfully exploit this vulnerability (PR:N). This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66802",
-      "count7d": 67
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54118",
+      "count7d": 69
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Data Cloud Vault for AWS Backup: Immutable Storage Outside Your AWS Account",
+      "title": "Resilience Without Blind Spots: Veeam&#8217;s Q3 Innovation Pulse",
       "date": "2026-08-20",
-      "summary": "For most AWS architects, going offsite with backups isn’t the question. The real decision is where those backups land, and how much ongoing work it takes to keep that landing zone secure, immutable, and isolated from production. The post Veeam Data Cloud Vault for AWS Backup: Immutable Storage Outside Your AWS Account appeared first on Veeam Software Official Blog .",
+      "summary": "Right now, do you know what's actually at risk in your environment? Most leaders can't answer that fast enough. Not because the answer doesn't exist, but because the data they need to inform their answer is scattered. Every blind spot is a business risk waiting to surface at the worst possible moment: an audit, a ransomware event, a board question you can't answer on the spot. The answer is probably buried across dozens of consoles, alerts, and reports that nobody…",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/vault-storage-for-aws.html",
-      "count7d": 4
+      "url": "https://www.veeam.com/blog/q3-2026-innovation-pulse-resilience-blind-spots.html",
+      "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How the Internet Works: From Servers to Your Screen",
+      "title": "Cyber Resilience Testing: Why It Still Isn&#8217;t Happening",
       "date": "2026-08-20",
-      "summary": "A clear, human-friendly guide to how the internet works, from hardware and TCP/IP to DNS and CDNs, with tips to test connectivity.",
+      "summary": "Recovery testing keeps getting skipped. New independent research points to why — and it isn't a lack of budget or tools.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/how-the-internet-works-from-servers-to-your-screen/",
+      "url": "https://www.dell.com/en-us/blog/cyber-resilience-testing-why-it-still-isn-t-happening/",
       "count7d": 10
     },
     "Lenovo": {
