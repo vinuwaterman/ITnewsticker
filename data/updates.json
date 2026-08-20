@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T02:38:28.315Z",
+  "generatedAt": "2026-08-20T03:47:59.812Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -363,54 +363,8 @@
       ]
     },
     "Palo Alto Networks": {
-      "count": 12,
-      "items": [
-        {
-          "id": "CVE-2026-0289",
-          "title": "A security bypass vulnerability in the Account Protection feature of Palo Alto Networks Prisma® Browser enables a user to bypass intended security controls.",
-          "date": "2026-08-13",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0289",
-          "kev": false,
-          "epss": 0.158
-        },
-        {
-          "id": "CVE-2026-0290",
-          "title": "An information disclosure vulnerability in the Account Protection feature of Palo Alto Networks Prisma® Browser enables a local attacker to view sensitive data.",
-          "date": "2026-08-13",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0290",
-          "kev": false,
-          "epss": 0.14100000000000001
-        },
-        {
-          "id": "CVE-2026-0291",
-          "title": "An improper link resolution before file access vulnerability exists in the Palo Alto Networks Prisma® Access Agent on Linux platforms that enables a local low privileged user to delete system files in a limited scope…",
-          "date": "2026-08-13",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0291",
-          "kev": false,
-          "epss": 0.12
-        },
-        {
-          "id": "CVE-2026-0292",
-          "title": "An authentication bypass vulnerability in the network driver of Palo Alto Networks Prisma® Access Agent on Windows enables a local administrator to bypass security inspection, subsequently allowing them to inject and intercept arbitrary network traffic.…",
-          "date": "2026-08-13",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0292",
-          "kev": false,
-          "epss": 0.14400000000000002
-        },
-        {
-          "id": "CVE-2026-0293",
-          "title": "A vulnerability in Palo Alto Networks Prisma® Access Agent on Windows enables a local attacker with administrator privileges to bypass the anti-tamper protection, enabling unauthorized access to protected processes and files. The Prisma Access Agent…",
-          "date": "2026-08-13",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0293",
-          "kev": false,
-          "epss": 0.11299999999999999
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   }
 }
