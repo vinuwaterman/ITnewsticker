@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T12:51:17.554Z",
+  "generatedAt": "2026-08-20T13:48:17.072Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How the Dell AI Data Platform Extends Your MAM",
-      "date": "2026-08-19",
-      "summary": "Dell AI Data Platform extends MAM with continuous discovery, governed enrichment, and AI-ready workflows across every media asset.",
+      "title": "Telecom Transformation Playbook: Mobile Operators Need a Blueprint",
+      "date": "2026-08-20",
+      "summary": "The modern network is cloud-based, open, and automated end-to-end—built for 5G today and AI-native operations tomorrow.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/how-the-dell-ai-data-platform-extends-your-mam/",
+      "url": "https://www.dell.com/en-us/blog/telecom-transformation-playbook-mobile-operators-need-a-blueprint/",
       "count7d": 10
     },
     "Lenovo": {
