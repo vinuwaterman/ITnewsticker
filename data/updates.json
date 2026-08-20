@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T17:30:14.586Z",
+  "generatedAt": "2026-08-20T18:00:16.268Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Resilience Without Blind Spots: Veeam&#8217;s Q3 Innovation Pulse",
+      "title": "Veeam Data Cloud Vault for AWS Backup: Immutable Storage Outside Your AWS Account",
       "date": "2026-08-20",
-      "summary": "Right now, do you know what's actually at risk in your environment? Most leaders can't answer that fast enough. Not because the answer doesn't exist, but because the data they need to inform their answer is scattered. Every blind spot is a business risk waiting to surface at the worst possible moment: an audit, a ransomware event, a board question you can't answer on the spot. The answer is probably buried across dozens of consoles, alerts, and reports that nobody…",
+      "summary": "For most AWS architects, going offsite with backups isn’t the question. The real decision is where those backups land, and how much ongoing work it takes to keep that landing zone secure, immutable, and isolated from production. The post Veeam Data Cloud Vault for AWS Backup: Immutable Storage Outside Your AWS Account appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/q3-2026-innovation-pulse-resilience-blind-spots.html",
-      "count7d": 5
+      "url": "https://www.veeam.com/blog/vault-storage-for-aws.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
