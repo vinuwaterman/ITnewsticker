@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T23:48:41.179Z",
+  "generatedAt": "2026-08-20T01:15:31.392Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Acknowledgement Updated",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338",
-      "count7d": 90
+      "count7d": 62
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Managing complexity, sustaining momentum, and using emerging technology support mission outcomes.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/sap-now-nasa-return-to-moon-teach-about-transformation-at-scale/",
-      "count7d": 6
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "For most Azure architects, going offsite with backups isn’t the question. The real decision is where those backups land, and how much ongoing work it takes to keep that landing zone secure, immutable, and isolated from production. The post Veeam Data Cloud Vault for Azure Backup: The Missing Piece in Your Cloud Resilience Strategy appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/vault-storage-for-azure.html",
-      "count7d": 4
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco Crosswork Security Hardening Release: August 2026 CVE-2026-20030 CVE-2026-20357 CVE-2026-20358 CVE-2026-20359 Critical 10.0 Cisco Secure Workload Software Security Hardening Release: August 2026 CVE-2026-20231 CVE-2026-20315 CVE-2026-20317 CVE-2026-20318 CVE-2026-20319 Critical 10.0 Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability CVE-2026-20320 High 7.5 Cisco Unified Intelligence Center SQL Injection Vulnerability CVE-2026-20327 Medium 6.5 Cisco RoomOS…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
-      "count7d": 10
+      "count7d": 9
     },
     "VMware": {
       "vendor": "VMware",
@@ -71,7 +71,7 @@
       "summary": "Lenovo donated 80 laptops to student-athletes at the fourth annual Let’s Go South Bay camp, which blends soccer, leadership, and career exploration.",
       "category": "feature",
       "url": "https://news.lenovo.com/next-generation-technology-mentorship-and-sport-alex-morgan-foundation/",
-      "count7d": 7
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
