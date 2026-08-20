@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-20T18:00:16.268Z",
+  "generatedAt": "2026-08-20T18:54:04.171Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-54118 Microsoft SQL Server Remote Code Execution Vulnerability",
+      "title": "CVE-2026-33824 Windows Internet Key Exchange (IKE) Service Extensions Remote Code Execution Vulnerability",
       "date": "2026-08-20",
-      "summary": "The CVSS vector string was update to reflect that an attacker does not require any privileges to successfully exploit this vulnerability (PR:N). This is an informational change only.",
+      "summary": "Added clarifying information to the mitigation. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54118",
-      "count7d": 69
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33824",
+      "count7d": 70
     },
     "SAP": {
       "vendor": "SAP",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 8,
+      "count": 7,
       "items": [
         {
           "id": "CVE-2026-24301",
