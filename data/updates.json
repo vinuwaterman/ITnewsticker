@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T15:34:43.266Z",
+  "generatedAt": "2026-08-20T16:36:31.029Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Corrected the Executive Summary to clarify that the vulnerability affects Windows Device Health Attestation (DHA), not Microsoft Azure Attestation. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66802",
-      "count7d": 66
+      "count7d": 67
     },
     "SAP": {
       "vendor": "SAP",
