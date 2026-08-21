@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-21T11:54:45.247Z",
+  "generatedAt": "2026-08-21T12:48:44.637Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62834 Azure Data Factory Elevation of Privilege Vulnerability",
-      "date": "2026-08-20",
-      "summary": "Improper verification of cryptographic signature in Azure Data Factory allows an unauthorized attacker to elevate privileges over a network.",
+      "title": "CVE-2026-58547 Windows Universal Plug and Play (UPnP) Device Host Elevation of Privilege Vulnerability",
+      "date": "2026-08-21",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62834",
-      "count7d": 73
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58547",
+      "count7d": 75
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "The AI-Powered Go-to-Market Organization Isn&#8217;t Just a Vision Anymore",
-      "date": "2026-08-20",
-      "summary": "Explore five moments in the customer journey where the shift to AI is already showing up in results.",
+      "title": "Agentic AI Could Rewrite the Economics of SAP Transformation",
+      "date": "2026-08-21",
+      "summary": "Agentic transformation is not something waiting over the horizon—that world is here now.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/ai-powered-gtm-organization-not-just-a-vision/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/08/agentic-ai-could-rewrite-economics-of-sap-transformation/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
