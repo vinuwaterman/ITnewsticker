@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T22:52:27.373Z",
+  "generatedAt": "2026-08-21T23:25:01.089Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68801",
-      "count7d": 83
+      "count7d": 84
     },
     "SAP": {
       "vendor": "SAP",
