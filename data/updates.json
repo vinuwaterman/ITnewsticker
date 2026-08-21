@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:59:51.765Z",
+  "generatedAt": "2026-08-21T18:50:21.413Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 13,
+      "count": 12,
       "items": [
         {
           "id": "CVE-2026-63509",
@@ -129,7 +129,7 @@
           "date": "2026-08-20",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69836",
-          "kev": true,
+          "kev": false,
           "epss": 1.3679999999999999
         },
         {
