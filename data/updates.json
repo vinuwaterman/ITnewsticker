@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T20:27:00.647Z",
+  "generatedAt": "2026-08-21T20:52:10.749Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Migrate VMware to Proxmox: A Technical Guide for Conversion, Cutover, and Continuity",
-      "date": "2026-08-20",
-      "summary": "Neither networking nor storage carries over on its own. Both need a decision to be made before the first VM converts, because a VM that lands on Proxmox VE with the wrong bridge or an unplanned storage backend has to be reworked rather than adjusted. The post Migrate VMware to Proxmox: A Technical Guide for Conversion, Cutover, and Continuity appeared first on Veeam Software Official Blog .",
-      "category": "feature",
-      "url": "https://www.veeam.com/blog/vmware-to-proxmox-migration.html",
+      "title": "Veeam Data Cloud for Microsoft 365: A Closer Look at Protection, Architecture, and Security",
+      "date": "2026-08-21",
+      "summary": "Businesses have adopted Microsoft 365 at global scale. Across Exchange Online, SharePoint, OneDrive, and Microsoft Teams, organizations create and manage critical business data that enables daily operations. As Microsoft 365 becomes foundational to how organizations communicate, collaborate, and operate, selecting the right vendor to safeguard that data becomes a strategic decision. The post Veeam Data Cloud for Microsoft 365: A Closer Look at Protection, Architecture, and Security appeared first on Veeam Software Official Blog .",
+      "category": "critical",
+      "url": "https://www.veeam.com/blog/veeam-data-cloud-microsoft-365-architecture.html",
       "count7d": 5
     },
     "Cisco": {
