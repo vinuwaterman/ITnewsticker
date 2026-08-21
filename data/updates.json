@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-21T12:48:44.637Z",
+  "generatedAt": "2026-08-21T13:46:27.021Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-58547 Windows Universal Plug and Play (UPnP) Device Host Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-68801 Microsoft Excel Remote Code Execution Vulnerability",
       "date": "2026-08-21",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58547",
-      "count7d": 75
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68801",
+      "count7d": 81
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Let’s Talk Tokenomics at VMware Explore 2026",
-      "date": "2026-08-20",
-      "summary": "A new session just landed in the VMware Explore 2026 Content Catalog, and it&#8217;s worth prioritizing. J.R. Storment, Executive Director of the FinOps Foundation and Tokenomics Foundation, will join Broadcom experts for a conversation about tokenomics and connecting AI investments to business and IT value.&#160; Organizations are spending tremendous amounts of money on infrastructure to &#8230; Continued The post Let’s Talk Tokenomics at VMware Explore 2026 appeared first on VMware Blogs .",
+      "title": "See You at The Party!",
+      "date": "2026-08-21",
+      "summary": "Join us at The Party Wednesday, September 2, 2026 7:00 – 10:00 PM &#124; TAO Beach and Nightclub Las Vegas, Nevada REGISTER NOW Every great IT deployment requires a successful launch party. After spending the week modernizing workloads and shaping your AI-ready cloud strategy, it is time to celebrate your hard work&#8230; If you read &#8230; Continued The post See You at The Party! appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/20/lets-talk-tokenomics-at-vmware-explore-2026/",
+      "url": "https://blogs.vmware.com/explore/see-you-at-the-party/",
       "count7d": 10
     },
     "AWS": {
