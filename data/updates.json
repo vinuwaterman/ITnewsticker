@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T23:54:38.080Z",
+  "generatedAt": "2026-08-21T01:19:13.506Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Improper verification of cryptographic signature in Azure Data Factory allows an unauthorized attacker to elevate privileges over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62834",
-      "count7d": 98
+      "count7d": 73
     },
     "SAP": {
       "vendor": "SAP",
@@ -71,7 +71,7 @@
       "summary": "Lenovo donated 80 laptops to student-athletes at the fourth annual Let’s Go South Bay camp, which blends soccer, leadership, and career exploration.",
       "category": "feature",
       "url": "https://news.lenovo.com/next-generation-technology-mentorship-and-sport-alex-morgan-foundation/",
-      "count7d": 5
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
