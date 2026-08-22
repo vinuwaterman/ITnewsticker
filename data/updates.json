@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T05:56:17.666Z",
+  "generatedAt": "2026-08-22T06:41:12.600Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -152,7 +152,7 @@
       ]
     },
     "SAP": {
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "id": "CVE-2026-52733",
@@ -171,15 +171,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52739",
           "kev": false,
           "epss": 0.394
-        },
-        {
-          "id": "CVE-2026-72022",
-          "title": "In the Linux kernel, the following vulnerability has been resolved: llc: fix SAP refcount leak in llc_ui_autobind() llc_ui_autobind() opens a SAP after choosing a dynamic LSAP. llc_sap_open() returns a reference owned by the caller, and…",
-          "date": "2026-08-15",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72022",
-          "kev": false,
-          "epss": 0.21
         }
       ]
     },
@@ -246,7 +237,7 @@
       "items": []
     },
     "Dell": {
-      "count": 39,
+      "count": 38,
       "items": [
         {
           "id": "CVE-2026-67271",
