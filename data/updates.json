@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:51:48.218Z",
+  "generatedAt": "2026-08-24T13:53:08.267Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Operationalizing GenAI Beyond Pilots",
-      "date": "2026-08-21",
-      "summary": "Learn how Dell AI Data Platform acts as the enterprise Data Factory — engineering trusted context that keeps AI Factory agents accurate, current, ready.",
+      "title": "In the Age of AI, Resilience Starts in Firmware",
+      "date": "2026-08-24",
+      "summary": "The expanding attack surface demands a new approach to endpoint resilience — one that starts in the firmware and never stops working.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/operationalizing-genai-beyond-pilots/",
+      "url": "https://www.dell.com/en-us/blog/in-the-age-of-ai-resilience-starts-in-firmware/",
       "count7d": 10
     },
     "Lenovo": {
@@ -238,7 +238,7 @@
       "items": []
     },
     "Dell": {
-      "count": 38,
+      "count": 37,
       "items": [
         {
           "id": "CVE-2026-67271",
