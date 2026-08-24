@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-24T15:40:02.441Z",
+  "generatedAt": "2026-08-24T16:38:32.324Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-47292 Visual Studio Code MSSQL Extension Remote Code Execution Vulnerability",
+      "title": "CVE-2026-65787 Desktop Window Manager Elevation of Privilege Vulnerability",
       "date": "2026-08-24",
-      "summary": "Affected software updated with new package information.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47292",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65787",
       "count7d": 71
     },
     "SAP": {
