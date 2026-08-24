@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T10:12:12.506Z",
+  "generatedAt": "2026-08-24T11:03:24.225Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Agentic AI Could Rewrite the Economics of SAP Transformation",
-      "date": "2026-08-21",
-      "summary": "Agentic transformation is not something waiting over the horizon—that world is here now.",
+      "title": "Customer Industry Solutions Shape the Future of Autonomous Enterprises",
+      "date": "2026-08-24",
+      "summary": "Every customer engagement is an opportunity to learn, refine, and build solutions that can benefit entire industries.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/agentic-ai-could-rewrite-economics-of-sap-transformation/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/08/customer-industry-solutions-shape-future-autonomous-enterprises/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
