@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T14:43:00.789Z",
+  "generatedAt": "2026-08-24T15:40:02.441Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-68801 Microsoft Excel Remote Code Execution Vulnerability",
-      "date": "2026-08-21",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-47292 Visual Studio Code MSSQL Extension Remote Code Execution Vulnerability",
+      "date": "2026-08-24",
+      "summary": "Affected software updated with new package information.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68801",
-      "count7d": 69
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47292",
+      "count7d": 71
     },
     "SAP": {
       "vendor": "SAP",
