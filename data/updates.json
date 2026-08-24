@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:56:36.714Z",
+  "generatedAt": "2026-08-24T23:24:08.262Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Bridging the IT Chasm: A Strategic Blueprint for Platform Engineering 2.0",
+      "title": "At VMware Explore 2026: Future-Proofing Enterprise AI with a Flexible Model Strategy",
       "date": "2026-08-24",
-      "summary": "Executive Series • Modern Private Cloud Blueprint The cloud-native revolution is no longer a distant projection—it is the reality of modern enterprise technology. Across the globe, massive financial institutions, global retailers, and national-scale enterprises are reaching a critical crossroads: how to aggressively scale modern applications while maintaining the stability and compliance of mission-critical legacy systems. &#8230; Continued The post Bridging the IT Chasm: A Strategic Blueprint for Platform Engineering 2.0 appeared first on VMware Blogs .",
+      "summary": "Choices in commercial, open-weight, and open source models have dramatically expanded over the past month. As a result, I’m continuing to see traction in organizations shaping their AI strategies around a hybrid approach, where they make use of our AI Gateway to connect users, agents, and application services to both cloud and on-premises models. Reasons &#8230; Continued The post At VMware Explore 2026: Future-Proofing Enterprise AI with a Flexible Model Strategy appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/24/bridging-the-it-chasm-a-strategic-blueprint-for-platform-engineering-2-0/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/24/at-vmware-explore-2026-future-proofing-enterprise-ai-with-a-flexible-model-strategy/",
       "count7d": 10
     },
     "AWS": {
