@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T20:39:03.613Z",
+  "generatedAt": "2026-08-24T21:30:11.763Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-65787 Desktop Window Manager Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-50661 Windows BitLocker Security Feature Bypass Vulnerability",
       "date": "2026-08-24",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "summary": "Acknowledgement Updated",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65787",
-      "count7d": 71
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50661",
+      "count7d": 72
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "See You at The Party!",
-      "date": "2026-08-21",
-      "summary": "Join us at The Party Wednesday, September 2, 2026 7:00 – 10:00 PM &#124; TAO Beach and Nightclub Las Vegas, Nevada REGISTER NOW Every great IT deployment requires a successful launch party. After spending the week modernizing workloads and shaping your AI-ready cloud strategy, it is time to celebrate your hard work&#8230; If you read &#8230; Continued The post See You at The Party! appeared first on VMware Blogs .",
+      "title": "Bridging the IT Chasm: A Strategic Blueprint for Platform Engineering 2.0",
+      "date": "2026-08-24",
+      "summary": "Executive Series • Modern Private Cloud Blueprint The cloud-native revolution is no longer a distant projection—it is the reality of modern enterprise technology. Across the globe, massive financial institutions, global retailers, and national-scale enterprises are reaching a critical crossroads: how to aggressively scale modern applications while maintaining the stability and compliance of mission-critical legacy systems. &#8230; Continued The post Bridging the IT Chasm: A Strategic Blueprint for Platform Engineering 2.0 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/explore/see-you-at-the-party/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/24/bridging-the-it-chasm-a-strategic-blueprint-for-platform-engineering-2-0/",
       "count7d": 10
     },
     "AWS": {
