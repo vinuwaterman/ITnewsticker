@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T23:47:19.995Z",
+  "generatedAt": "2026-08-24T01:19:14.006Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68801",
-      "count7d": 79
+      "count7d": 69
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Agentic transformation is not something waiting over the horizon—that world is here now.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/agentic-ai-could-rewrite-economics-of-sap-transformation/",
-      "count7d": 6
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -71,7 +71,7 @@
       "summary": "Lenovo donated 80 laptops to student-athletes at the fourth annual Let’s Go South Bay camp, which blends soccer, leadership, and career exploration.",
       "category": "feature",
       "url": "https://news.lenovo.com/next-generation-technology-mentorship-and-sport-alex-morgan-foundation/",
-      "count7d": 4
+      "count7d": 2
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
-      "count7d": 3
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
