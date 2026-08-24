@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:53:08.267Z",
+  "generatedAt": "2026-08-24T14:43:00.789Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -130,7 +130,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69836",
           "kev": false,
-          "epss": 1.3679999999999999
+          "epss": 1.5890000000000002
         },
         {
           "id": "CVE-2026-62316",
@@ -189,7 +189,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20030",
           "kev": false,
-          "epss": 0.44999999999999996
+          "epss": 0.5459999999999999
         },
         {
           "id": "CVE-2026-20231",
@@ -198,7 +198,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20231",
           "kev": false,
-          "epss": 0.413
+          "epss": 0.502
         },
         {
           "id": "CVE-2026-20315",
@@ -207,7 +207,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20315",
           "kev": false,
-          "epss": 0.32299999999999995
+          "epss": 0.415
         },
         {
           "id": "CVE-2026-20317",
@@ -216,7 +216,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20317",
           "kev": false,
-          "epss": 0.34299999999999997
+          "epss": 0.441
         },
         {
           "id": "CVE-2026-20318",
@@ -225,7 +225,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20318",
           "kev": false,
-          "epss": 0.263
+          "epss": 0.346
         }
       ]
     },
@@ -238,7 +238,7 @@
       "items": []
     },
     "Dell": {
-      "count": 37,
+      "count": 30,
       "items": [
         {
           "id": "CVE-2026-67271",
