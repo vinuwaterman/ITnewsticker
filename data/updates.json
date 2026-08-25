@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:32:53.843Z",
+  "generatedAt": "2026-08-25T18:40:23.579Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -247,7 +247,7 @@
       "items": []
     },
     "Dell": {
-      "count": 29,
+      "count": 27,
       "items": [
         {
           "id": "CVE-2026-54794",
