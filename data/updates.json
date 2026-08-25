@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:48:15.186Z",
+  "generatedAt": "2026-08-25T01:16:55.178Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Acknowledgement Updated",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50661",
-      "count7d": 72
+      "count7d": 65
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Every customer engagement is an opportunity to learn, refine, and build solutions that can benefit entire industries.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/customer-industry-solutions-shape-future-autonomous-enterprises/",
-      "count7d": 6
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -71,7 +71,7 @@
       "summary": "Lenovo donated 80 laptops to student-athletes at the fourth annual Let’s Go South Bay camp, which blends soccer, leadership, and career exploration.",
       "category": "feature",
       "url": "https://news.lenovo.com/next-generation-technology-mentorship-and-sport-alex-morgan-foundation/",
-      "count7d": 2
+      "count7d": 1
     },
     "Fortinet": {
       "vendor": "Fortinet",
