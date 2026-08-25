@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T11:57:50.614Z",
+  "generatedAt": "2026-08-25T12:55:37.223Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Customer Industry Solutions Shape the Future of Autonomous Enterprises",
-      "date": "2026-08-24",
-      "summary": "Every customer engagement is an opportunity to learn, refine, and build solutions that can benefit entire industries.",
+      "title": "AI-Powered Memory Games Bring Personal Stories into Dementia Care",
+      "date": "2026-08-25",
+      "summary": "Memory Lane Games collaborated with SAP and EY to develop an AI prototype that can generate memory games tailored to an individual’s life experiences.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/customer-industry-solutions-shape-future-autonomous-enterprises/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/08/memory-lane-games-ai-personalization-dementia-care/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -66,11 +66,11 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo empowers the next generation through technology, mentorship, and sport with the Alex Morgan Foundation",
-      "date": "2026-08-18",
-      "summary": "Lenovo donated 80 laptops to student-athletes at the fourth annual Let’s Go South Bay camp, which blends soccer, leadership, and career exploration.",
+      "title": "Lenovo Expands Its Gaming Lineup with New LOQ Essential PCs and Legion Monitors",
+      "date": "2026-08-24",
+      "summary": "Introducing the newest additions to the Lenovo LOQ lineup and the newest Legion monitors for gamers on their way to Reach Their Impossible.",
       "category": "feature",
-      "url": "https://news.lenovo.com/next-generation-technology-mentorship-and-sport-alex-morgan-foundation/",
+      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-expands-its-gaming-lineup-with-new-loq-essential-pcs-and-legion-monitors/",
       "count7d": 1
     },
     "Fortinet": {
