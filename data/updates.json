@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T16:38:19.863Z",
+  "generatedAt": "2026-08-25T17:32:53.843Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62747",
-      "count7d": 73
+      "count7d": 74
     },
     "SAP": {
       "vendor": "SAP",
@@ -247,17 +247,8 @@
       "items": []
     },
     "Dell": {
-      "count": 31,
+      "count": 29,
       "items": [
-        {
-          "id": "CVE-2026-67271",
-          "title": "Dell PowerStore SDNAS, contains an Out-of-bounds Write vulnerability in the SMB/CIFS. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Denial of service and Remote execution. This is a Critical vulnerability…",
-          "date": "2026-08-18",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67271",
-          "kev": false,
-          "epss": 0.462
-        },
         {
           "id": "CVE-2026-54794",
           "title": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains a Server-Side Request Forgery (SSRF) vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information exposure.",
@@ -293,6 +284,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56088",
           "kev": false,
           "epss": 0.301
+        },
+        {
+          "id": "CVE-2026-70421",
+          "title": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains an Improper Privilege Management vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Elevation of privileges.",
+          "date": "2026-08-19",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70421",
+          "kev": false,
+          "epss": 0.316
         }
       ]
     },
