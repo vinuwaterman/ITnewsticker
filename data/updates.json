@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T13:51:53.245Z",
+  "generatedAt": "2026-08-25T14:46:09.111Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-50661 Windows BitLocker Security Feature Bypass Vulnerability",
-      "date": "2026-08-24",
-      "summary": "Acknowledgement Updated",
+      "title": "CVE-2026-62747 Windows Device Association Service Elevation of Privilege Vulnerability",
+      "date": "2026-08-25",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50661",
-      "count7d": 65
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62747",
+      "count7d": 71
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "In the Age of AI, Resilience Starts in Firmware",
-      "date": "2026-08-24",
-      "summary": "The expanding attack surface demands a new approach to endpoint resilience — one that starts in the firmware and never stops working.",
+      "title": "Fewer Partners, Bigger Results: The AI Scale Imperative",
+      "date": "2026-08-25",
+      "summary": "Enterprises are ditching fragmented vendors. Here's what strategic partnership looks like at AI scale.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/in-the-age-of-ai-resilience-starts-in-firmware/",
+      "url": "https://www.dell.com/en-us/blog/fewer-partners-bigger-results-the-ai-scale-imperative/",
       "count7d": 10
     },
     "Lenovo": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 12,
+      "count": 11,
       "items": [
         {
           "id": "CVE-2026-63509",
@@ -121,7 +121,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65801",
           "kev": false,
-          "epss": 0.522
+          "epss": 0.511
         },
         {
           "id": "CVE-2026-69836",
@@ -161,7 +161,8 @@
           "date": "2026-08-25",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66766",
-          "kev": false
+          "kev": false,
+          "epss": 0.291
         },
         {
           "id": "CVE-2026-52733",
