@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T14:46:09.111Z",
+  "generatedAt": "2026-08-25T15:43:08.449Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62747",
-      "count7d": 71
+      "count7d": 72
     },
     "SAP": {
       "vendor": "SAP",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Expands Its Gaming Lineup with New LOQ Essential PCs and Legion Monitors",
+      "title": "From everyday shopping to the world&#8217;s biggest stage: How My Lenovo Rewards delivered unforgettable FIFA World Cup™ experiences",
       "date": "2026-08-25",
-      "summary": "Introducing the newest additions to the Lenovo LOQ lineup and the newest Legion monitors for gamers on their way to Reach Their Impossible.",
+      "summary": "Shopping on Lenovo.com turned into an opportunity to attend the FIFA World Cup 2026™ Final.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-expands-its-gaming-lineup-with-new-loq-essential-pcs-and-legion-monitors/",
-      "count7d": 1
+      "url": "https://news.lenovo.com/my-lenovo-rewards-delivered-unforgettable-fifa-world-cup-experiences/",
+      "count7d": 2
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -247,7 +247,7 @@
       "items": []
     },
     "Dell": {
-      "count": 32,
+      "count": 31,
       "items": [
         {
           "id": "CVE-2026-67271",
