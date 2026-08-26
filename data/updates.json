@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T12:53:16.123Z",
+  "generatedAt": "2026-08-26T13:55:51.831Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "At VMware Explore 2026: Future-Proofing Enterprise AI with a Flexible Model Strategy",
-      "date": "2026-08-24",
-      "summary": "Choices in commercial, open-weight, and open source models have dramatically expanded over the past month. As a result, I’m continuing to see traction in organizations shaping their AI strategies around a hybrid approach, where they make use of our AI Gateway to connect users, agents, and application services to both cloud and on-premises models. Reasons &#8230; Continued The post At VMware Explore 2026: Future-Proofing Enterprise AI with a Flexible Model Strategy appeared first on VMware Blogs .",
+      "title": "Know Before You Go ~ Watch the Welcome Session ~",
+      "date": "2026-08-26",
+      "summary": "Join the VMware Explore Events Team for an online orientation designed to help you prepare for Explore 2026 in Las Vegas. Learn how to optimize your schedule and move through the event with ease. REGISTER NOW Gain valuable perspectives and counsel from our staff experts, designed to optimize your VMware Explore journey. This session offers &#8230; Continued The post Know Before You Go ~ Watch the Welcome Session ~ appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/24/at-vmware-explore-2026-future-proofing-enterprise-ai-with-a-flexible-model-strategy/",
-      "count7d": 5
+      "url": "https://blogs.vmware.com/explore/watch-the-online-welcome-session/",
+      "count7d": 6
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Fewer Partners, Bigger Results: The AI Scale Imperative",
-      "date": "2026-08-25",
-      "summary": "Enterprises are ditching fragmented vendors. Here's what strategic partnership looks like at AI scale.",
+      "title": "The Storage Efficiency Question: Why Purpose-Built Still Matters",
+      "date": "2026-08-26",
+      "summary": "Efficiency isn't just a ratio—it's an architecture. Here's why purpose-built beats HCI.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/fewer-partners-bigger-results-the-ai-scale-imperative/",
-      "count7d": 7
+      "url": "https://www.dell.com/en-us/blog/the-storage-efficiency-question-why-purpose-built-still-matters/",
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Recognized as a World&#8217;s Top Disability Inclusive Business Reflecting the Global Impact of its Disability Advantage Strategy",
+      "title": "Inside Raleigh’s new Teen Tech Center, young creators are already building what’s next",
       "date": "2026-08-26",
-      "summary": "This year, Lenovo expanded participation from a limited number of markets to include Argentina, Brazil, India, Japan, Mexico, Slovakia, the United Kingdom and the United States",
+      "summary": "Lenovo and the Best Buy Foundation partnered with Fox Road Boys &#038; Girls Club to equip young people with the technology skills to shape the future.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/recognized-worlds-top-disability-inclusive-business/",
-      "count7d": 3
+      "url": "https://news.lenovo.com/raleighs-new-teen-tech-center/",
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
+      "date": "2026-08-21",
+      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
       "count7d": 1
     }
   },
