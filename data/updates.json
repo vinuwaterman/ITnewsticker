@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-26T16:18:46.189Z",
+  "generatedAt": "2026-08-26T18:16:57.074Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62747 Windows Device Association Service Elevation of Privilege Vulnerability",
-      "date": "2026-08-25",
+      "title": "CVE-2026-62890 Windows GDI+ Elevation of Privilege Vulnerability",
+      "date": "2026-08-26",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62747",
-      "count7d": 63
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62890",
+      "count7d": 64
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Data Cloud for Microsoft 365: A Closer Look at Protection, Architecture, and Security",
-      "date": "2026-08-21",
-      "summary": "Businesses have adopted Microsoft 365 at global scale. Across Exchange Online, SharePoint, OneDrive, and Microsoft Teams, organizations create and manage critical business data that enables daily operations. As Microsoft 365 becomes foundational to how organizations communicate, collaborate, and operate, selecting the right vendor to safeguard that data becomes a strategic decision. The post Veeam Data Cloud for Microsoft 365: A Closer Look at Protection, Architecture, and Security appeared first on Veeam Software Official Blog .",
-      "category": "critical",
-      "url": "https://www.veeam.com/blog/veeam-data-cloud-microsoft-365-architecture.html",
-      "count7d": 4
+      "title": "Veeam Named a Finalist in CRN&#8217;s Best of the Channel Awards",
+      "date": "2026-08-26",
+      "summary": "Veeam has been named a finalist in the 2026 CRN Best of the Channel Awards, recognized in the Channel Marketing Team category. It's one of the channel's most competitive honors, and a direct nod to the team behind Veeam's partner-first strategy. CRN, a brand of The Channel Company, spotlights the vendors, distributors, and solution providers setting the standard for channel excellence. Winners will be announced at the Best of the Channel Awards Gala in Atlanta on Oct. 13. The post…",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/veeam-crn-best-of-channel-finalist.html",
+      "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards",
-      "date": "2026-08-26",
-      "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
@@ -171,52 +171,43 @@
       "items": []
     },
     "Cisco": {
-      "count": 19,
+      "count": 4,
       "items": [
         {
-          "id": "CVE-2026-20030",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple…",
+          "id": "CVE-2026-76389",
+          "title": "In Cisco Talos Intelligence for Enterprise Security Cloud versions below 1.0.3, a user that holds a role with the get_talos_enrichment capability could send a crafted request to the Talos intelligence enrichment Representational State Transfer (REST)…",
           "date": "2026-08-19",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20030",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76389",
           "kev": false,
-          "epss": 0.5459999999999999
+          "epss": 0.337
         },
         {
-          "id": "CVE-2026-20231",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses…",
+          "id": "CVE-2026-76378",
+          "title": "In versions below 2.4.5 of the Cisco Secure Malware Analytics app for Splunk SOAR, a user who holds a role with permission to run actions could expose a sensitive sample password by invoking the detonate…",
           "date": "2026-08-19",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20231",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76378",
           "kev": false,
-          "epss": 0.502
+          "epss": 0.145
         },
         {
-          "id": "CVE-2026-20315",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses…",
+          "id": "CVE-2026-76379",
+          "title": "In versions below 2.2.1 of the Cisco Webex app for Splunk SOAR, a user who holds a role with permission to run actions could expose a sensitive meeting password by invoking the schedule meeting action,…",
           "date": "2026-08-19",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20315",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76379",
           "kev": false,
-          "epss": 0.415
+          "epss": 0.145
         },
         {
-          "id": "CVE-2026-20317",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses…",
+          "id": "CVE-2026-76390",
+          "title": "In Cisco Talos Intelligence for Enterprise Security Cloud versions below 1.0.3, an unauthenticated user could access the add-on OpenAPI specification through Splunk Web static file paths. The exposed specification could allow for reconnaissance of the…",
           "date": "2026-08-19",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20317",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76390",
           "kev": false,
-          "epss": 0.441
-        },
-        {
-          "id": "CVE-2026-20318",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses…",
-          "date": "2026-08-19",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20318",
-          "kev": false,
-          "epss": 0.346
+          "epss": 0.291
         }
       ]
     },
