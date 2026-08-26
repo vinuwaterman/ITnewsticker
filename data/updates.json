@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T14:45:17.474Z",
+  "generatedAt": "2026-08-26T16:18:46.189Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Crosswork Security Hardening Release: August 2026",
-      "date": "2026-08-21",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities.&nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and to streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE) &mdash;…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
-      "count7d": 1
+      "title": "Cisco Advance Notification for Publication of September 2, 2026, Security Advisories",
+      "date": "2026-08-26",
+      "summary": "On September 2, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Desk Phone 9800, 7800 and 8800, and 8875 Series Software IOS XR Software (security hardening release) Nexus 9000 Series Switches Silicon One Secure Email&nbsp; To fully remediate vulnerabilities to be disclosed on September 2, 2026, Cisco strongly recommends that customers upgrade to the fixed software indicated in the advisories. For…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-f2SiMFxl?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%202,%202026,%20Security%20Advisories%26vs_k=1",
+      "count7d": 2
     },
     "VMware": {
       "vendor": "VMware",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards",
+      "date": "2026-08-26",
+      "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
+      "count7d": 2
     }
   },
   "nvd": {
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 17,
+      "count": 2,
       "items": [
         {
           "id": "CVE-2026-61419",
@@ -241,40 +241,13 @@
           "epss": 0.094
         },
         {
-          "id": "CVE-2026-23501",
-          "title": "Dell RecoverPoint for VMs, versions 6.0.3 and 6.0.3.1, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this…",
-          "date": "2026-08-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23501",
+          "id": "CVE-2026-63693",
+          "title": "Dell Client BIOS contains an Improper Link Resolution Before File Access ('Link Following') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Arbitrary Write",
+          "date": "2026-08-24",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63693",
           "kev": false,
-          "epss": 1.2850000000000001
-        },
-        {
-          "id": "CVE-2026-49816",
-          "title": "Dell Command Update (DCU), versions prior to 5.7.1, contain a Deserialization of Untrusted Data vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
-          "date": "2026-08-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49816",
-          "kev": false,
-          "epss": 0.11199999999999999
-        },
-        {
-          "id": "CVE-2026-49817",
-          "title": "Dell Command Update (DCU), versions prior to 5.7.1, contain a Deserialization of Untrusted Data vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
-          "date": "2026-08-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49817",
-          "kev": false,
-          "epss": 0.12
-        },
-        {
-          "id": "CVE-2026-53477",
-          "title": "Dell Command Update (DCU), versions prior to 5.7.1, contain a Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
-          "date": "2026-08-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53477",
-          "kev": false,
-          "epss": 0.084
+          "epss": 0.10200000000000001
         }
       ]
     },
