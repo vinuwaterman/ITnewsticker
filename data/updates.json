@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T09:42:32.883Z",
+  "generatedAt": "2026-08-26T10:36:26.538Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "From everyday shopping to the world&#8217;s biggest stage: How My Lenovo Rewards delivered unforgettable FIFA World Cup™ experiences",
-      "date": "2026-08-25",
-      "summary": "Shopping on Lenovo.com turned into an opportunity to attend the FIFA World Cup 2026™ Final.",
+      "title": "Lenovo Recognized as a World&#8217;s Top Disability Inclusive Business Reflecting the Global Impact of its Disability Advantage Strategy",
+      "date": "2026-08-26",
+      "summary": "This year, Lenovo expanded participation from a limited number of markets to include Argentina, Brazil, India, Japan, Mexico, Slovakia, the United Kingdom and the United States",
       "category": "feature",
-      "url": "https://news.lenovo.com/my-lenovo-rewards-delivered-unforgettable-fifa-world-cup-experiences/",
-      "count7d": 2
+      "url": "https://news.lenovo.com/pressroom/press-releases/recognized-worlds-top-disability-inclusive-business/",
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
