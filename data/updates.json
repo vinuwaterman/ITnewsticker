@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:55:51.831Z",
+  "generatedAt": "2026-08-26T14:45:17.474Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Storage Efficiency Question: Why Purpose-Built Still Matters",
+      "title": "OTel 2.0: Dell Technologies, AT&#038;T and AMD Bring Open Telco AI to Scale",
       "date": "2026-08-26",
-      "summary": "Efficiency isn't just a ratio—it's an architecture. Here's why purpose-built beats HCI.",
+      "summary": "See how Dell, AT&#038;T and AMD help bring OTel 2.0 from open model release to production-ready deployment.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-storage-efficiency-question-why-purpose-built-still-matters/",
+      "url": "https://www.dell.com/en-us/blog/otel-2-0-dell-technologies-at-t-and-amd-bring-open-telco-ai-to-scale/",
       "count7d": 10
     },
     "Lenovo": {
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
@@ -130,7 +130,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69836",
           "kev": false,
-          "epss": 1.5890000000000002
+          "epss": 1.555
         },
         {
           "id": "CVE-2026-62316",
@@ -148,7 +148,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69558",
           "kev": false,
-          "epss": 0.5519999999999999
+          "epss": 0.54
         }
       ]
     },
@@ -229,52 +229,52 @@
       "items": []
     },
     "Dell": {
-      "count": 25,
+      "count": 17,
       "items": [
         {
-          "id": "CVE-2026-54794",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains a Server-Side Request Forgery (SSRF) vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information exposure.",
-          "date": "2026-08-19",
+          "id": "CVE-2026-61419",
+          "title": "Dell ThinOS 10, versions prior to 2605_10.2518, contain an Improper Access Control vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Unauthorized access.",
+          "date": "2026-08-24",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54794",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61419",
           "kev": false,
-          "epss": 0.2
+          "epss": 0.094
         },
         {
-          "id": "CVE-2026-54795",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability,…",
+          "id": "CVE-2026-23501",
+          "title": "Dell RecoverPoint for VMs, versions 6.0.3 and 6.0.3.1, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this…",
           "date": "2026-08-19",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54795",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23501",
           "kev": false,
-          "epss": 2.391
+          "epss": 1.2850000000000001
         },
         {
-          "id": "CVE-2026-54796",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability,…",
+          "id": "CVE-2026-49816",
+          "title": "Dell Command Update (DCU), versions prior to 5.7.1, contain a Deserialization of Untrusted Data vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
           "date": "2026-08-19",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54796",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49816",
           "kev": false,
-          "epss": 2.358
+          "epss": 0.11199999999999999
         },
         {
-          "id": "CVE-2026-56088",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading…",
+          "id": "CVE-2026-49817",
+          "title": "Dell Command Update (DCU), versions prior to 5.7.1, contain a Deserialization of Untrusted Data vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
           "date": "2026-08-19",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56088",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49817",
           "kev": false,
-          "epss": 0.301
+          "epss": 0.12
         },
         {
-          "id": "CVE-2026-70421",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains an Improper Privilege Management vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Elevation of privileges.",
+          "id": "CVE-2026-53477",
+          "title": "Dell Command Update (DCU), versions prior to 5.7.1, contain a Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
           "date": "2026-08-19",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70421",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53477",
           "kev": false,
-          "epss": 0.316
+          "epss": 0.084
         }
       ]
     },
