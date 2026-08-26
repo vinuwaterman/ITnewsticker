@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T23:52:58.085Z",
+  "generatedAt": "2026-08-26T01:19:36.721Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62747",
-      "count7d": 78
+      "count7d": 63
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Memory Lane Games collaborated with SAP and EY to develop an AI prototype that can generate memory games tailored to an individual’s life experiences.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/memory-lane-games-ai-personalization-dementia-care/",
-      "count7d": 6
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Businesses have adopted Microsoft 365 at global scale. Across Exchange Online, SharePoint, OneDrive, and Microsoft Teams, organizations create and manage critical business data that enables daily operations. As Microsoft 365 becomes foundational to how organizations communicate, collaborate, and operate, selecting the right vendor to safeguard that data becomes a strategic decision. The post Veeam Data Cloud for Microsoft 365: A Closer Look at Protection, Architecture, and Security appeared first on Veeam Software Official Blog .",
       "category": "critical",
       "url": "https://www.veeam.com/blog/veeam-data-cloud-microsoft-365-architecture.html",
-      "count7d": 5
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities.&nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and to streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE) &mdash;…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
-      "count7d": 9
+      "count7d": 1
     },
     "VMware": {
       "vendor": "VMware",
@@ -44,7 +44,7 @@
       "summary": "Choices in commercial, open-weight, and open source models have dramatically expanded over the past month. As a result, I’m continuing to see traction in organizations shaping their AI strategies around a hybrid approach, where they make use of our AI Gateway to connect users, agents, and application services to both cloud and on-premises models. Reasons &#8230; Continued The post At VMware Explore 2026: Future-Proofing Enterprise AI with a Flexible Model Strategy appeared first on VMware Blogs .",
       "category": "feature",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/08/24/at-vmware-explore-2026-future-proofing-enterprise-ai-with-a-flexible-model-strategy/",
-      "count7d": 10
+      "count7d": 5
     },
     "AWS": {
       "vendor": "AWS",
@@ -62,7 +62,7 @@
       "summary": "Enterprises are ditching fragmented vendors. Here's what strategic partnership looks like at AI scale.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/fewer-partners-bigger-results-the-ai-scale-imperative/",
-      "count7d": 10
+      "count7d": 7
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
-      "count7d": 2
+      "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
