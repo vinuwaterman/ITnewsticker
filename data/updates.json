@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T18:16:57.074Z",
+  "generatedAt": "2026-08-26T20:36:05.502Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Know Before You Go ~ Watch the Welcome Session ~",
+      "title": "Automate DBaaS Operations on VCF with Agentic AI",
       "date": "2026-08-26",
-      "summary": "Join the VMware Explore Events Team for an online orientation designed to help you prepare for Explore 2026 in Las Vegas. Learn how to optimize your schedule and move through the event with ease. REGISTER NOW Gain valuable perspectives and counsel from our staff experts, designed to optimize your VMware Explore journey. This session offers &#8230; Continued The post Know Before You Go ~ Watch the Welcome Session ~ appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/explore/watch-the-online-welcome-session/",
-      "count7d": 6
+      "summary": "Database teams spend their days on a familiar set of tasks: provisioning, checking backups, staggering schedules so everything doesn&#8217;t hit the same S3 bucket at midnight on Saturday, patching aging instances, setting up replication for disaster recovery. None of these tasks is difficult in isolation. The problem is volume, and the way these tasks multiply &#8230; Continued The post Automate DBaaS Operations on VCF with Agentic AI appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/26/automate-dbaas-operations-on-vcf-with-agentic-ai/",
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards",
+      "date": "2026-08-26",
+      "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
+      "count7d": 2
     }
   },
   "nvd": {
@@ -220,25 +220,47 @@
       "items": []
     },
     "Dell": {
-      "count": 2,
+      "count": 15,
       "items": [
         {
-          "id": "CVE-2026-61419",
-          "title": "Dell ThinOS 10, versions prior to 2605_10.2518, contain an Improper Access Control vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Unauthorized access.",
-          "date": "2026-08-24",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61419",
-          "kev": false,
-          "epss": 0.094
+          "id": "CVE-2026-70419",
+          "title": "Dell Cloud Disaster Recovery, versions 20.2 and prior, contain an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this…",
+          "date": "2026-08-26",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70419",
+          "kev": false
         },
         {
-          "id": "CVE-2026-63693",
-          "title": "Dell Client BIOS contains an Improper Link Resolution Before File Access ('Link Following') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Arbitrary Write",
-          "date": "2026-08-24",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63693",
-          "kev": false,
-          "epss": 0.10200000000000001
+          "id": "CVE-2026-71171",
+          "title": "Dell Cloud Disaster Recovery, versions 20.2 and prior, contain an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in the REST API. A high privileged attacker with remote access…",
+          "date": "2026-08-26",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71171",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-68861",
+          "title": "Dell PowerProtect One, versions 20.1.0.0 and below, contain an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability,…",
+          "date": "2026-08-26",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68861",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-68863",
+          "title": "Dell PowerProtect One, versions 20.1.0.0 and below, contain a Stack-based Buffer Overflow vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Denial of service.",
+          "date": "2026-08-26",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68863",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-74770",
+          "title": "Dell PowerProtect One, versions 20.1.0.0 and below, contain an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability,…",
+          "date": "2026-08-26",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74770",
+          "kev": false
         }
       ]
     },
