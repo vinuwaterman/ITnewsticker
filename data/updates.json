@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T20:36:05.502Z",
+  "generatedAt": "2026-08-27T00:30:53.449Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62890",
-      "count7d": 64
+      "count7d": 29
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Complexity is not always the problem. Unmanaged, and often self-created, complexity is.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/digital-transformation-complexity-harder-than-it-needs-to-be/",
-      "count7d": 5
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Veeam has been named a finalist in the 2026 CRN Best of the Channel Awards, recognized in the Channel Marketing Team category. It's one of the channel's most competitive honors, and a direct nod to the team behind Veeam's partner-first strategy. CRN, a brand of The Channel Company, spotlights the vendors, distributors, and solution providers setting the standard for channel excellence. Winners will be announced at the Best of the Channel Awards Gala in Atlanta on Oct. 13. The post…",
       "category": "feature",
       "url": "https://www.veeam.com/blog/veeam-crn-best-of-channel-finalist.html",
-      "count7d": 5
+      "count7d": 2
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Automate DBaaS Operations on VCF with Agentic AI",
+      "title": "Planning to use Epic’s AI Tools? Here’s Some Good News for VCF Customers",
       "date": "2026-08-26",
-      "summary": "Database teams spend their days on a familiar set of tasks: provisioning, checking backups, staggering schedules so everything doesn&#8217;t hit the same S3 bucket at midnight on Saturday, patching aging instances, setting up replication for disaster recovery. None of these tasks is difficult in isolation. The problem is volume, and the way these tasks multiply &#8230; Continued The post Automate DBaaS Operations on VCF with Agentic AI appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/26/automate-dbaas-operations-on-vcf-with-agentic-ai/",
-      "count7d": 8
+      "summary": "The 2026 Epic Users Group Meeting (UGM) just wrapped up, and we’ve seen two main sentiments pervading nearly every article, blog post, and opinion piece about the event: 1) excitement over Epic’s rapid AI automation capabilities, and 2) anxiety over how to afford and integrate those rapid changes. One notable tool is AI Charting, which &#8230; Continued The post Planning to use Epic’s AI Tools? Here’s Some Good News for VCF Customers appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/26/planning-to-use-epics-ai-tools-heres-some-good-news-for-vcf-customers/",
+      "count7d": 7
     },
     "AWS": {
       "vendor": "AWS",
@@ -75,11 +75,11 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "HTTP/2 Bomb CVE-2026-49975",
-      "date": "2026-08-12",
-      "summary": "CVSSv3 Score: 5.8 CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67. Revised on 2026-08-19 00:00:00",
+      "title": "Vulnerability in OpenSSL library",
+      "date": "2022-04-01",
+      "summary": "CVSSv3 Score: 7.5 A security advisory was released affecting the version of OpenSSL library used in some Fortinet products:CVE-2022-0778:The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting…",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-059",
       "count7d": 1
     },
     "CrowdStrike": {
@@ -171,45 +171,8 @@
       "items": []
     },
     "Cisco": {
-      "count": 4,
-      "items": [
-        {
-          "id": "CVE-2026-76389",
-          "title": "In Cisco Talos Intelligence for Enterprise Security Cloud versions below 1.0.3, a user that holds a role with the get_talos_enrichment capability could send a crafted request to the Talos intelligence enrichment Representational State Transfer (REST)…",
-          "date": "2026-08-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76389",
-          "kev": false,
-          "epss": 0.337
-        },
-        {
-          "id": "CVE-2026-76378",
-          "title": "In versions below 2.4.5 of the Cisco Secure Malware Analytics app for Splunk SOAR, a user who holds a role with permission to run actions could expose a sensitive sample password by invoking the detonate…",
-          "date": "2026-08-19",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76378",
-          "kev": false,
-          "epss": 0.145
-        },
-        {
-          "id": "CVE-2026-76379",
-          "title": "In versions below 2.2.1 of the Cisco Webex app for Splunk SOAR, a user who holds a role with permission to run actions could expose a sensitive meeting password by invoking the schedule meeting action,…",
-          "date": "2026-08-19",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76379",
-          "kev": false,
-          "epss": 0.145
-        },
-        {
-          "id": "CVE-2026-76390",
-          "title": "In Cisco Talos Intelligence for Enterprise Security Cloud versions below 1.0.3, an unauthenticated user could access the add-on OpenAPI specification through Splunk Web static file paths. The exposed specification could allow for reconnaissance of the…",
-          "date": "2026-08-19",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76390",
-          "kev": false,
-          "epss": 0.291
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "VMware": {
       "count": 0,
@@ -277,18 +240,8 @@
       "items": []
     },
     "CrowdStrike": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-76380",
-          "title": "In versions below 5.1.3 of the CrowdStrike OAuth API app for Splunk SOAR, a user who holds a role with permission to run actions could expose a sensitive document password by invoking either the detonate…",
-          "date": "2026-08-19",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76380",
-          "kev": false,
-          "epss": 0.13899999999999998
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Palo Alto Networks": {
       "count": 0,
