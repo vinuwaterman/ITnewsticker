@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T00:30:53.449Z",
+  "generatedAt": "2026-08-27T10:27:24.376Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Planning to use Epic’s AI Tools? Here’s Some Good News for VCF Customers",
-      "date": "2026-08-26",
-      "summary": "The 2026 Epic Users Group Meeting (UGM) just wrapped up, and we’ve seen two main sentiments pervading nearly every article, blog post, and opinion piece about the event: 1) excitement over Epic’s rapid AI automation capabilities, and 2) anxiety over how to afford and integrate those rapid changes. One notable tool is AI Charting, which &#8230; Continued The post Planning to use Epic’s AI Tools? Here’s Some Good News for VCF Customers appeared first on VMware Blogs .",
+      "title": "Unlocking Developer Velocity: The Code-to-URL Revolution",
+      "date": "2026-08-27",
+      "summary": "In the modern software development lifecycle, the transition from code commitment to meaningful feedback is often where momentum stalls. Developers, tasked with shipping features at high velocity, frequently hit a wall when it comes to environment provisioning, manual deployment coordination, and the tedious administrative overhead of managing infrastructure access. These bottlenecks don&#8217;t just delay releases; &#8230; Continued The post Unlocking Developer Velocity: The Code-to-URL Revolution appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/26/planning-to-use-epics-ai-tools-heres-some-good-news-for-vcf-customers/",
-      "count7d": 7
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/26/unlocking-developer-velocity-the-code-to-url-revolution/",
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
