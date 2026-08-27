@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-27T10:27:24.376Z",
+  "generatedAt": "2026-08-27T20:42:37.855Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62890 Windows GDI+ Elevation of Privilege Vulnerability",
-      "date": "2026-08-26",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-69550 Windows App for Mac Information Disclosure Vulnerability",
+      "date": "2026-08-27",
+      "summary": "Updated CWE value. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62890",
-      "count7d": 29
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69550",
+      "count7d": 38
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Digital Transformation Is Complex, But We Often Make It Harder Than It Needs to Be",
-      "date": "2026-08-26",
-      "summary": "Complexity is not always the problem. Unmanaged, and often self-created, complexity is.",
+      "title": "SAP CX Wins TrustRadius Top Rated 2026: Earning Trust, Powering the Future of Agentic AI",
+      "date": "2026-08-27",
+      "summary": "Across sales, service, and commerce, customers consistently highlighted the depth of integration, reliability at enterprise scale, and the tangible business impact of AI-powered workflows.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/digital-transformation-complexity-harder-than-it-needs-to-be/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/08/sap-cx-wins-trustradius-top-rated-2026/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Unlocking Developer Velocity: The Code-to-URL Revolution",
+      "title": "Securing the Memory Layer: How Broadcom and AMD Are Bringing Confidential Computing to the Enterprise",
       "date": "2026-08-27",
-      "summary": "In the modern software development lifecycle, the transition from code commitment to meaningful feedback is often where momentum stalls. Developers, tasked with shipping features at high velocity, frequently hit a wall when it comes to environment provisioning, manual deployment coordination, and the tedious administrative overhead of managing infrastructure access. These bottlenecks don&#8217;t just delay releases; &#8230; Continued The post Unlocking Developer Velocity: The Code-to-URL Revolution appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/26/unlocking-developer-velocity-the-code-to-url-revolution/",
-      "count7d": 8
+      "summary": "Security teams have spent years building strong protections around their data. Encryption on disk, encryption over the network, strict access controls, and continuous monitoring are all standard practices. But the moment a workload starts processing data, all of that protection fades away. For organizations handling regulated data, running AI models on sensitive inputs, or operating &#8230; Continued The post Securing the Memory Layer: How Broadcom and AMD Are Bringing Confidential Computing to the Enterprise appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/27/securing-the-memory-layer-how-broadcom-and-amd-are-bringing-confidential-computing-to-the-enterprise/",
+      "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "OTel 2.0: Dell Technologies, AT&#038;T and AMD Bring Open Telco AI to Scale",
-      "date": "2026-08-26",
-      "summary": "See how Dell, AT&#038;T and AMD help bring OTel 2.0 from open model release to production-ready deployment.",
+      "title": "The Most Efficient Token Is One You Don&#8217;t Spend",
+      "date": "2026-08-27",
+      "summary": "Why better enterprise data is the foundation of a more affordable AI future.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/otel-2-0-dell-technologies-at-t-and-amd-bring-open-telco-ai-to-scale/",
+      "url": "https://www.dell.com/en-us/blog/the-most-efficient-token-is-one-you-don-t-spend/",
       "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Inside Raleigh’s new Teen Tech Center, young creators are already building what’s next",
-      "date": "2026-08-26",
-      "summary": "Lenovo and the Best Buy Foundation partnered with Fox Road Boys &#038; Girls Club to equip young people with the technology skills to shape the future.",
+      "title": "Lenovo cuts time spent searching for information by 30% with Knowledge Super Agent",
+      "date": "2026-08-27",
+      "summary": "Lenovo Knowledge Super Agent gives 3,000 Lenovo employees conversational access to trusted enterprise information, potentially returning 120 hours to each employee annually.",
       "category": "feature",
-      "url": "https://news.lenovo.com/raleighs-new-teen-tech-center/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/cuts-time-spent-searching-30-knowledge-super-agent/",
+      "count7d": 6
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -191,7 +191,8 @@
           "date": "2026-08-26",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70419",
-          "kev": false
+          "kev": false,
+          "epss": 2.186
         },
         {
           "id": "CVE-2026-71171",
@@ -199,7 +200,8 @@
           "date": "2026-08-26",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71171",
-          "kev": false
+          "kev": false,
+          "epss": 1.009
         },
         {
           "id": "CVE-2026-68861",
@@ -207,7 +209,8 @@
           "date": "2026-08-26",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68861",
-          "kev": false
+          "kev": false,
+          "epss": 0.9820000000000001
         },
         {
           "id": "CVE-2026-68863",
@@ -215,7 +218,8 @@
           "date": "2026-08-26",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68863",
-          "kev": false
+          "kev": false,
+          "epss": 0.27899999999999997
         },
         {
           "id": "CVE-2026-74770",
@@ -223,7 +227,8 @@
           "date": "2026-08-26",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74770",
-          "kev": false
+          "kev": false,
+          "epss": 1.065
         }
       ]
     },
