@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T20:42:37.855Z",
+  "generatedAt": "2026-08-28T05:08:50.277Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated CWE value. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69550",
-      "count7d": 38
+      "count7d": 27
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Across sales, service, and commerce, customers consistently highlighted the depth of integration, reliability at enterprise scale, and the tangible business impact of AI-powered workflows.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/sap-cx-wins-trustradius-top-rated-2026/",
-      "count7d": 5
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Veeam has been named a finalist in the 2026 CRN Best of the Channel Awards, recognized in the Channel Marketing Team category. It's one of the channel's most competitive honors, and a direct nod to the team behind Veeam's partner-first strategy. CRN, a brand of The Channel Company, spotlights the vendors, distributors, and solution providers setting the standard for channel excellence. Winners will be announced at the Best of the Channel Awards Gala in Atlanta on Oct. 13. The post…",
       "category": "feature",
       "url": "https://www.veeam.com/blog/veeam-crn-best-of-channel-finalist.html",
-      "count7d": 2
+      "count7d": 1
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "On September 2, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Desk Phone 9800, 7800 and 8800, and 8875 Series Software IOS XR Software (security hardening release) Nexus 9000 Series Switches Silicon One Secure Email&nbsp; To fully remediate vulnerabilities to be disclosed on September 2, 2026, Cisco strongly recommends that customers upgrade to the fixed software indicated in the advisories. For…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-f2SiMFxl?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%202,%202026,%20Security%20Advisories%26vs_k=1",
-      "count7d": 2
+      "count7d": 1
     },
     "VMware": {
       "vendor": "VMware",
@@ -44,7 +44,7 @@
       "summary": "Security teams have spent years building strong protections around their data. Encryption on disk, encryption over the network, strict access controls, and continuous monitoring are all standard practices. But the moment a workload starts processing data, all of that protection fades away. For organizations handling regulated data, running AI models on sensitive inputs, or operating &#8230; Continued The post Securing the Memory Layer: How Broadcom and AMD Are Bringing Confidential Computing to the Enterprise appeared first on VMware Blogs .",
       "category": "patch",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/08/27/securing-the-memory-layer-how-broadcom-and-amd-are-bringing-confidential-computing-to-the-enterprise/",
-      "count7d": 10
+      "count7d": 9
     },
     "AWS": {
       "vendor": "AWS",
@@ -98,40 +98,13 @@
       "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
-      "count7d": 2
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 9,
+      "count": 3,
       "items": [
-        {
-          "id": "CVE-2026-63509",
-          "title": "Relative path traversal in Microsoft Fabric allows an authorized attacker to elevate privileges over a network.",
-          "date": "2026-08-20",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63509",
-          "kev": false,
-          "epss": 0.621
-        },
-        {
-          "id": "CVE-2026-65801",
-          "title": "Server-side request forgery (ssrf) in Microsoft Exchange Online allows an unauthorized attacker to elevate privileges over a network.",
-          "date": "2026-08-20",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65801",
-          "kev": false,
-          "epss": 0.511
-        },
-        {
-          "id": "CVE-2026-69836",
-          "title": "Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-08-20",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69836",
-          "kev": false,
-          "epss": 1.555
-        },
         {
           "id": "CVE-2026-62316",
           "title": "Microsoft UFO open-source framework for intelligent automation across devices and platforms. Prior to 3.0.8, ufo/client/mcp/http_servers/linux_mcp_server.py binds a FastMCP streamable HTTP server to localhost:8010 but does not validate the Host, Origin, or Sec-Fetch-Site headers. An attacker-controlled…",
@@ -142,13 +115,22 @@
           "epss": 0.316
         },
         {
-          "id": "CVE-2026-69558",
-          "title": "Authorization bypass through user-controlled key in Microsoft Partner Center allows an unauthorized attacker to disclose information over a network.",
-          "date": "2026-08-20",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69558",
+          "id": "CVE-2026-63004",
+          "title": "Unleash is an open-source feature management platform. Prior to 7.5.2, 7.6.5, and 8.0.2, the addon and integration subsystem passes the operator-controlled parameters.url value from src/lib/addons/webhook.ts and the Slack, Microsoft Teams, Datadog, and New Relic integrations…",
+          "date": "2026-08-21",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63004",
           "kev": false,
-          "epss": 0.54
+          "epss": 0.27499999999999997
+        },
+        {
+          "id": "CVE-2026-63466",
+          "title": "Unleash is an open-source feature management platform. Prior to 8.0.3, FeatureEventFormatterMd.format in src/lib/addons/feature-event-formatter-md.ts assigns Mustache.escape to an identity function before rendering action and path templates. Because Mustache.escape is process-wide, the assignment disables escaping for subsequent…",
+          "date": "2026-08-21",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63466",
+          "kev": false,
+          "epss": 0.183
         }
       ]
     },
