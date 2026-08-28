@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T05:08:50.277Z",
+  "generatedAt": "2026-08-28T17:38:15.762Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,21 +12,21 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP CX Wins TrustRadius Top Rated 2026: Earning Trust, Powering the Future of Agentic AI",
-      "date": "2026-08-27",
-      "summary": "Across sales, service, and commerce, customers consistently highlighted the depth of integration, reliability at enterprise scale, and the tangible business impact of AI-powered workflows.",
+      "title": "How People Analytics Is Powering the Future of Workforce Decision-Making",
+      "date": "2026-08-28",
+      "summary": "People analytics is evolving from a reporting function into a strategic capability.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/sap-cx-wins-trustradius-top-rated-2026/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/08/people-analytics-powering-workforce-decision-making/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Named a Finalist in CRN&#8217;s Best of the Channel Awards",
-      "date": "2026-08-26",
-      "summary": "Veeam has been named a finalist in the 2026 CRN Best of the Channel Awards, recognized in the Channel Marketing Team category. It's one of the channel's most competitive honors, and a direct nod to the team behind Veeam's partner-first strategy. CRN, a brand of The Channel Company, spotlights the vendors, distributors, and solution providers setting the standard for channel excellence. Winners will be announced at the Best of the Channel Awards Gala in Atlanta on Oct. 13. The post…",
+      "title": "Protection That Moves With Your Workloads",
+      "date": "2026-08-28",
+      "summary": "Your workloads are always in motion, scaling up and down, spinning up in new places, and, over time, landing on infrastructure you weren't running a year ago. The hypervisor world, specifically, is changing fast, with costs climbing and licensing models that keep moving. The post Protection That Moves With Your Workloads appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/veeam-crn-best-of-channel-finalist.html",
-      "count7d": 1
+      "url": "https://www.veeam.com/blog/portable-data-protection.html",
+      "count7d": 2
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo cuts time spent searching for information by 30% with Knowledge Super Agent",
-      "date": "2026-08-27",
-      "summary": "Lenovo Knowledge Super Agent gives 3,000 Lenovo employees conversational access to trusted enterprise information, potentially returning 120 hours to each employee annually.",
+      "title": "Lenovo, Becky G, and Treviso Football Club Unveil Limited-Edition 12th Player Kit Through Lenovo’s Your Club Your Canvas Initiative",
+      "date": "2026-08-28",
+      "summary": "The kit was created as part of its Work For Humankind platform, and brought to life by Creative Director Marco Oggian.",
       "category": "feature",
-      "url": "https://news.lenovo.com/cuts-time-spent-searching-30-knowledge-super-agent/",
-      "count7d": 6
+      "url": "https://news.lenovo.com/pressroom/press-releases/becky-g-treviso-football-club-12th-player-kit/",
+      "count7d": 7
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards",
-      "date": "2026-08-26",
-      "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
