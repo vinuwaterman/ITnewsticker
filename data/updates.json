@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-28T17:38:15.762Z",
+  "generatedAt": "2026-08-29T01:30:47.468Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69550 Windows App for Mac Information Disclosure Vulnerability",
-      "date": "2026-08-27",
-      "summary": "Updated CWE value. This is an informational change only.",
+      "title": "CVE-2026-70331 Microsoft Edge for iOS Spoofing Vulnerability",
+      "date": "2026-08-28",
+      "summary": "Improper neutralization of input used for llm prompting in Microsoft Edge for iOS allows an unauthorized attacker to perform spoofing over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69550",
-      "count7d": 27
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70331",
+      "count7d": 333
     },
     "SAP": {
       "vendor": "SAP",
@@ -93,44 +93,57 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards",
+      "date": "2026-08-26",
+      "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
       "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 3,
+      "count": 7,
       "items": [
         {
-          "id": "CVE-2026-62316",
-          "title": "Microsoft UFO open-source framework for intelligent automation across devices and platforms. Prior to 3.0.8, ufo/client/mcp/http_servers/linux_mcp_server.py binds a FastMCP streamable HTTP server to localhost:8010 but does not validate the Host, Origin, or Sec-Fetch-Site headers. An attacker-controlled…",
-          "date": "2026-08-21",
+          "id": "CVE-2026-72984",
+          "title": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-08-28",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62316",
-          "kev": false,
-          "epss": 0.316
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72984",
+          "kev": false
         },
         {
-          "id": "CVE-2026-63004",
-          "title": "Unleash is an open-source feature management platform. Prior to 7.5.2, 7.6.5, and 8.0.2, the addon and integration subsystem passes the operator-controlled parameters.url value from src/lib/addons/webhook.ts and the Slack, Microsoft Teams, Datadog, and New Relic integrations…",
-          "date": "2026-08-21",
+          "id": "CVE-2026-62904",
+          "title": "Incorrect authorization in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-08-28",
           "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63004",
-          "kev": false,
-          "epss": 0.27499999999999997
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62904",
+          "kev": false
         },
         {
-          "id": "CVE-2026-63466",
-          "title": "Unleash is an open-source feature management platform. Prior to 8.0.3, FeatureEventFormatterMd.format in src/lib/addons/feature-event-formatter-md.ts assigns Mustache.escape to an identity function before rendering action and path templates. Because Mustache.escape is process-wide, the assignment disables escaping for subsequent…",
-          "date": "2026-08-21",
+          "id": "CVE-2026-66323",
+          "title": "Improper neutralization of parameter/argument delimiters in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-08-28",
           "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63466",
-          "kev": false,
-          "epss": 0.183
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66323",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-66324",
+          "title": "External control of file name or path in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.",
+          "date": "2026-08-28",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66324",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-66798",
+          "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-08-28",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66798",
+          "kev": false
         }
       ]
     },
