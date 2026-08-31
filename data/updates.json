@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-31T15:54:39.828Z",
+  "generatedAt": "2026-08-31T21:20:44.216Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-49177 Windows TCP/IP Information Disclosure Vulnerability",
+      "title": "CVE-2026-64899 Microsoft Office Information Disclosure Vulnerability",
       "date": "2026-08-31",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49177",
-      "count7d": 342
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64899",
+      "count7d": 343
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Introducing the Frontier AI Security Readiness Program",
+      "title": "Elevate Your Enterprise Value with New VCAP and VCDX Certifications",
       "date": "2026-08-31",
-      "summary": "Frontier AI is fundamentally altering the cybersecurity landscape by increasing the speed, scale, and sophistication of attacks while simultaneously compressing defensive response windows. These accelerated attack vectors necessitate a proactive defensive posture. We are helping customers navigate this new threat landscape with strategic guidance, as outlined in this blog. While hardening the private cloud is &#8230; Continued The post Introducing the Frontier AI Security Readiness Program appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/31/frontier-ai-security-readiness-program/",
+      "summary": "Technology shifts quickly. Earning your VMware Certified Professional (VCP) status proves your core technical foundation, positioning you to lead as enterprise IT evolves.&#160; Organizations are pivoting from managing isolated hypervisors to deploying fully unified private cloud platforms. Industry data from the Private Cloud Outlook 2026 report shows that 56% of enterprises plan to run production &#8230; Continued The post Elevate Your Enterprise Value with New VCAP and VCDX Certifications appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/31/elevate-your-enterprise-value-with-new-vcap-and-vcdx-certifications/",
       "count7d": 10
     },
     "AWS": {
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards",
-      "date": "2026-08-26",
-      "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
+      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
+      "date": "2026-08-21",
+      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
       "count7d": 1
     }
   },
@@ -183,7 +183,7 @@
       "items": []
     },
     "Dell": {
-      "count": 16,
+      "count": 14,
       "items": [
         {
           "id": "CVE-2026-58574",
