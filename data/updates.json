@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-31T07:33:07.941Z",
+  "generatedAt": "2026-08-31T15:54:39.828Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-68821 Windows Package Manager Elevation of Privilege Vulnerability",
-      "date": "2026-08-29",
-      "summary": "Changes made to the security updates links and information. This is an informational change only.",
+      "title": "CVE-2026-49177 Windows TCP/IP Information Disclosure Vulnerability",
+      "date": "2026-08-31",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68821",
-      "count7d": 331
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49177",
+      "count7d": 342
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "How People Analytics Is Powering the Future of Workforce Decision-Making",
-      "date": "2026-08-28",
-      "summary": "People analytics is evolving from a reporting function into a strategic capability.",
+      "title": "New IDC Business Value White Paper: SAP Integration Suite Customers Achieve 368% ROI and Eight-Month Payback",
+      "date": "2026-08-31",
+      "summary": "There is measurable impact across the full breadth of what integration touches in a modern enterprise.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/people-analytics-powering-workforce-decision-making/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/08/idc-sap-integration-suite-roi-and-8-month-payback/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Securing the Memory Layer: How Broadcom and AMD Are Bringing Confidential Computing to the Enterprise",
-      "date": "2026-08-27",
-      "summary": "Security teams have spent years building strong protections around their data. Encryption on disk, encryption over the network, strict access controls, and continuous monitoring are all standard practices. But the moment a workload starts processing data, all of that protection fades away. For organizations handling regulated data, running AI models on sensitive inputs, or operating &#8230; Continued The post Securing the Memory Layer: How Broadcom and AMD Are Bringing Confidential Computing to the Enterprise appeared first on VMware Blogs .",
+      "title": "Introducing the Frontier AI Security Readiness Program",
+      "date": "2026-08-31",
+      "summary": "Frontier AI is fundamentally altering the cybersecurity landscape by increasing the speed, scale, and sophistication of attacks while simultaneously compressing defensive response windows. These accelerated attack vectors necessitate a proactive defensive posture. We are helping customers navigate this new threat landscape with strategic guidance, as outlined in this blog. While hardening the private cloud is &#8230; Continued The post Introducing the Frontier AI Security Readiness Program appeared first on VMware Blogs .",
       "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/27/securing-the-memory-layer-how-broadcom-and-amd-are-bringing-confidential-computing-to-the-enterprise/",
-      "count7d": 7
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/31/frontier-ai-security-readiness-program/",
+      "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Most Efficient Token Is One You Don&#8217;t Spend",
-      "date": "2026-08-27",
-      "summary": "Why better enterprise data is the foundation of a more affordable AI future.",
+      "title": "Dell Named a Leader in the 2026 Gartner&#174; Magic Quadrant&#x2122; for Enterprise Storage Platforms",
+      "date": "2026-08-31",
+      "summary": "Dell Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Enterprise Storage Platforms.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-most-efficient-token-is-one-you-don-t-spend/",
+      "url": "https://www.dell.com/en-us/blog/dell-named-a-leader-in-the-2026-gartner-magic-quadrant-x2122-for-enterprise-storage-platforms/",
       "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo, Becky G, and Treviso Football Club Unveil Limited-Edition 12th Player Kit Through Lenovo’s Your Club Your Canvas Initiative",
-      "date": "2026-08-28",
-      "summary": "The kit was created as part of its Work For Humankind platform, and brought to life by Creative Director Marco Oggian.",
+      "title": "Lenovo Unveils First Laptop Manufactured in Saudi Arabia, Supporting the Kingdom&#8217;s Vision for Advanced Manufacturing",
+      "date": "2026-08-31",
+      "summary": "First laptop produced in Riyadh demonstrates progress since the Lenovo &#038; ALAT strategic collaboration was announced - marking the next phase of local technology production, with mass production expected to begin in late 2026",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/becky-g-treviso-football-club-12th-player-kit/",
-      "count7d": 7
+      "url": "https://news.lenovo.com/pressroom/press-releases/unveils-first-laptop-manufactured-saudi-arabia-supporting-the-kingdoms-vision-for-advanced-manufacturing/",
+      "count7d": 10
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "title": "Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards",
+      "date": "2026-08-26",
+      "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
       "count7d": 1
     }
   },
@@ -191,7 +191,8 @@
           "date": "2026-08-31",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58574",
-          "kev": false
+          "kev": false,
+          "epss": 0.336
         },
         {
           "id": "CVE-2026-70419",
