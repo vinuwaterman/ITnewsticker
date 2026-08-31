@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T23:17:30.830Z",
+  "generatedAt": "2026-08-31T01:29:50.045Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Changes made to the security updates links and information. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68821",
-      "count7d": 334
+      "count7d": 331
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "People analytics is evolving from a reporting function into a strategic capability.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/people-analytics-powering-workforce-decision-making/",
-      "count7d": 5
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -44,7 +44,7 @@
       "summary": "Security teams have spent years building strong protections around their data. Encryption on disk, encryption over the network, strict access controls, and continuous monitoring are all standard practices. But the moment a workload starts processing data, all of that protection fades away. For organizations handling regulated data, running AI models on sensitive inputs, or operating &#8230; Continued The post Securing the Memory Layer: How Broadcom and AMD Are Bringing Confidential Computing to the Enterprise appeared first on VMware Blogs .",
       "category": "patch",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/08/27/securing-the-memory-layer-how-broadcom-and-amd-are-bringing-confidential-computing-to-the-enterprise/",
-      "count7d": 9
+      "count7d": 7
     },
     "AWS": {
       "vendor": "AWS",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards",
-      "date": "2026-08-26",
-      "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
