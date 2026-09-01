@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T16:11:13.617Z",
+  "generatedAt": "2026-09-01T19:29:25.242Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "博通推出 VMware Private AI Cloud，賦能企業以高成本效益擴展 AI 規模、提升營運安全並加速創新",
+      "title": "Announcing the latest Tanzu Greenplum Updates: Cloud-Like Elasticity, Federal Security, and Enhanced Enterprise Analytics",
       "date": "2026-09-01",
-      "summary": "博通先進的雲端基礎架構、應用程式與安全軟體產品組合，為企業提供生產就緒的途徑，並於資料所在之處建置、運行並治理 AI 【台灣，2026年9月1日】專注於設計、開發並提供多樣化半導體及基礎架構軟體解決方案的全球科技領導廠商博通（Broadcom Inc.，NASDAQ：AVGO）今日宣布推出更安全、可擴展且靈活的 AI 解決方案 VMware Private AI Cloud，可將模型部署到資料上，而不是將資料部署到模型上。基於博通先進軟體功能建置的 VMware Private AI Cloud，為組織企業提供了一條生產就緒（production-ready）的路徑，使其能夠在單一私有雲平台上安全地建置、運行和治理工作負載、代理型應用程式以及傳統企業工作負載。透過提供多元的硬體、模型與加速器選擇，VMware Private AI Cloud 讓企業能夠以具成本效益的方式擴展 AI 規模、提升營運安全並加速創新。 博通基礎架構軟體事業部總裁 Ram Velaga 表示：「VMware Private AI Cloud的推出是一個轉折點，代表企業私有雲和私有 AI 基礎架構不再各自獨立運行，而是合而為一，使生產級推論工作負載與代理式 AI（agentic AI），能在符合企業業務所需的資料主權（data sovereignty）、合規態勢（compliance posture）及成本可預測性之下順利運行。」 以高成本效益擴展 AI 規模 VMware Private AI Cloud解決了 AI 成本的三大核心驅動因素：硬體資本支出（CapEx）、營運複雜性以及 Token 經濟（tokenomics）。VMware Cloud Foundation（VCF）9 透過 NVMe 記憶體分層（memory tiering）以及全叢集儲存重複資料刪除技術，來降低硬體成本。VCF 支援來自領導廠商的 GPU、CPU 和加速器，以及其他來自各大 OEM 與 &#8230; Continued The post 博通推出 VMware Private AI Cloud，賦能企業以高成本效益擴展 AI 規模、提升營運安全並加速創新 appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-taiwan/2026/09/01/%E5%8D%9A%E9%80%9A%E6%8E%A8%E5%87%BA-vmware-private-ai-cloud%EF%BC%8C%E8%B3%A6%E8%83%BD%E4%BC%81%E6%A5%AD%E4%BB%A5%E9%AB%98%E6%88%90%E6%9C%AC%E6%95%88%E7%9B%8A%E6%93%B4%E5%B1%95-ai-%E8%A6%8F%E6%A8%A1/",
+      "summary": "Today, we are thrilled to announce a set of new capabilities in Tanzu Greenplum that bring major architectural improvements in open table formats, advanced multi-tenancy, and real-time ingestion, alongside crucial enhancements to query optimization and day-two operations. The post Announcing the latest Tanzu Greenplum Updates: Cloud-Like Elasticity, Federal Security, and Enhanced Enterprise Analytics appeared first &#8230; Continued The post Announcing the latest Tanzu Greenplum Updates: Cloud-Like Elasticity, Federal Security, and Enhanced Enterprise Analytics appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/tanzu/announcing-the-latest-tanzu-greenplum-updates-cloud-like-elasticity-federal-security-and-enhanced-enterprise-analytics/",
       "count7d": 10
     },
     "AWS": {
@@ -84,20 +84,20 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Agents of Chaos: A New $100K Agentic Security Challenge",
-      "date": "2026-08-31",
+      "title": "CrowdStrike Falcon Guardian Defines the Next Generation of AI Security",
+      "date": "2026-09-01",
       "summary": "",
       "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/",
-      "count7d": 1
+      "url": "https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/",
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Prisma AIRS - Unified Data Protection for Claude",
-      "date": "2026-08-05",
-      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
+      "date": "2026-08-21",
+      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
       "count7d": 1
     }
   },
@@ -173,7 +173,7 @@
       "items": []
     },
     "Dell": {
-      "count": 23,
+      "count": 27,
       "items": [
         {
           "id": "CVE-2026-58574",
