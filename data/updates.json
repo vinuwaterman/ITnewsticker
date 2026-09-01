@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T00:44:43.091Z",
+  "generatedAt": "2026-09-01T06:04:43.055Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Elevate Your Enterprise Value with New VCAP and VCDX Certifications",
-      "date": "2026-08-31",
-      "summary": "Technology shifts quickly. Earning your VMware Certified Professional (VCP) status proves your core technical foundation, positioning you to lead as enterprise IT evolves.&#160; Organizations are pivoting from managing isolated hypervisors to deploying fully unified private cloud platforms. Industry data from the Private Cloud Outlook 2026 report shows that 56% of enterprises plan to run production &#8230; Continued The post Elevate Your Enterprise Value with New VCAP and VCDX Certifications appeared first on VMware Blogs .",
+      "title": "VMware Explore 2026 in Las Vegas &#124; Day 1 Recap",
+      "date": "2026-09-01",
+      "summary": "VMware Explore 2026 in Las Vegas Day 1 Recap &#124; August 31, 2026 The energy across the Venetian Convention and Expo Center today proved that Day 1 of VMware Explore 2026 in Las Vegas is officially in full swing. Attendees maximized their time by navigating 118 sessions across our four content tracks, engaging in deep &#8230; Continued The post VMware Explore 2026 in Las Vegas | Day 1 Recap appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/08/31/elevate-your-enterprise-value-with-new-vcap-and-vcdx-certifications/",
+      "url": "https://blogs.vmware.com/explore/vmware-explore-2026-las-vegas-recap/",
       "count7d": 10
     },
     "AWS": {
@@ -153,18 +153,8 @@
       ]
     },
     "SAP": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-66766",
-          "title": "SAP S/4HANA (Private Cloud) uses a third-party component that contains a Regular Expression Denial of Service (ReDoS) vulnerability. An unauthenticated attacker could supply specially crafted input that triggers excessive processing within the affected functionality. Successful…",
-          "date": "2026-08-25",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66766",
-          "kev": false,
-          "epss": 0.291
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Veeam": {
       "count": 0,
