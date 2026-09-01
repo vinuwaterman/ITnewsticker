@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T21:20:44.216Z",
+  "generatedAt": "2026-09-01T00:44:43.091Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64899",
-      "count7d": 343
+      "count7d": 330
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "There is measurable impact across the full breadth of what integration touches in a modern enterprise.",
       "category": "feature",
       "url": "https://news.sap.com/2026/08/idc-sap-integration-suite-roi-and-8-month-payback/",
-      "count7d": 5
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -71,7 +71,7 @@
       "summary": "First laptop produced in Riyadh demonstrates progress since the Lenovo &#038; ALAT strategic collaboration was announced - marking the next phase of local technology production, with mass production expected to begin in late 2026",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/unveils-first-laptop-manufactured-saudi-arabia-supporting-the-kingdoms-vision-for-advanced-manufacturing/",
-      "count7d": 10
+      "count7d": 8
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -84,20 +84,20 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
-      "date": "2026-08-20",
+      "title": "Agents of Chaos: A New $100K Agentic Security Challenge",
+      "date": "2026-08-31",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/",
       "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
