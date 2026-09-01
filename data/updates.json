@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T11:55:33.287Z",
+  "generatedAt": "2026-09-01T16:11:13.617Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "New IDC Business Value White Paper: SAP Integration Suite Customers Achieve 368% ROI and Eight-Month Payback",
-      "date": "2026-08-31",
-      "summary": "There is measurable impact across the full breadth of what integration touches in a modern enterprise.",
+      "title": "From Cloud to Court: Wilson Runs Smarter and Faster with SAP",
+      "date": "2026-09-01",
+      "summary": "With SAP, Wilson can perform at its best.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/08/idc-sap-integration-suite-roi-and-8-month-payback/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/09/cloud-to-court-wilson-runs-smarter-faster-sap/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell Named a Leader in the 2026 Gartner&#174; Magic Quadrant&#x2122; for Enterprise Storage Platforms",
-      "date": "2026-08-31",
-      "summary": "Dell Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Enterprise Storage Platforms.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/dell-named-a-leader-in-the-2026-gartner-magic-quadrant-x2122-for-enterprise-storage-platforms/",
+      "title": "How to Fix Screen Tearing on PC: Settings, Sync and Hardware Tips",
+      "date": "2026-09-01",
+      "summary": "Fix screen tearing on your PC by setting the right refresh rate, enabling VRR, and capping frames. Pair your settings with a fast Dell monitor for smooth, tear-free gameplay.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-fix-screen-tearing-on-pc-settings-sync-and-hardware-tips/",
       "count7d": 10
     },
     "Lenovo": {
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards",
-      "date": "2026-08-26",
-      "summary": "At the 2026 Executive Partner Summit, Palo Alto Networks President BJ Jenkins made one thing clear: the AI era is the platform era — and above all, the AI era is the &#8230; The post Celebrating excellence: Palo Alto Networks announces the 2026 North America Partner of the Year Awards appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/celebrating-excellence-palo-alto-networks-announces-the-2026-north-america-partner-of-the-year-awards/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
       "count7d": 1
     }
   },
@@ -121,7 +121,7 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62904",
           "kev": false,
-          "epss": 0.28300000000000003
+          "epss": 0.27699999999999997
         },
         {
           "id": "CVE-2026-66323",
@@ -130,7 +130,7 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66323",
           "kev": false,
-          "epss": 0.299
+          "epss": 0.292
         },
         {
           "id": "CVE-2026-66324",
@@ -139,7 +139,7 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66324",
           "kev": false,
-          "epss": 0.666
+          "epss": 0.652
         },
         {
           "id": "CVE-2026-66798",
@@ -148,7 +148,7 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66798",
           "kev": false,
-          "epss": 0.5680000000000001
+          "epss": 0.5559999999999999
         }
       ]
     },
@@ -173,7 +173,7 @@
       "items": []
     },
     "Dell": {
-      "count": 14,
+      "count": 23,
       "items": [
         {
           "id": "CVE-2026-58574",
@@ -194,31 +194,28 @@
           "epss": 2.186
         },
         {
-          "id": "CVE-2026-71171",
-          "title": "Dell Cloud Disaster Recovery, versions 20.2 and prior, contain an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in the REST API. A high privileged attacker with remote access…",
-          "date": "2026-08-26",
+          "id": "CVE-2026-76111",
+          "title": "Dell PowerStore contains an Incorrect Authorization vulnerability. An authenticated attacker with low privileges could potentially exploit this vulnerability to invoke administrator-only operations, leading to privilege escalation.",
+          "date": "2026-09-01",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71171",
-          "kev": false,
-          "epss": 1.009
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76111",
+          "kev": false
         },
         {
-          "id": "CVE-2026-68861",
-          "title": "Dell PowerProtect One, versions 20.1.0.0 and below, contain an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability,…",
-          "date": "2026-08-26",
+          "id": "CVE-2026-58575",
+          "title": "Dell PowerStore contains an Authentication Bypass by Spoofing vulnerability. An authenticated attacker could potentially exploit this vulnerability to escalate privileges to Administrator.",
+          "date": "2026-09-01",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68861",
-          "kev": false,
-          "epss": 1.004
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58575",
+          "kev": false
         },
         {
-          "id": "CVE-2026-68863",
-          "title": "Dell PowerProtect One, versions 20.1.0.0 and below, contain a Stack-based Buffer Overflow vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Denial of service.",
-          "date": "2026-08-26",
+          "id": "CVE-2026-79683",
+          "title": "Dell PowerStore contains a Protection Mechanism Failure vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability to write attacker-controlled content to arbitrary filesystem paths.",
+          "date": "2026-09-01",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68863",
-          "kev": false,
-          "epss": 0.27899999999999997
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79683",
+          "kev": false
         }
       ]
     },
