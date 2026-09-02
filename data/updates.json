@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-02T12:54:40.395Z",
+  "generatedAt": "2026-09-02T17:02:54.542Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-64899 Microsoft Office Information Disclosure Vulnerability",
-      "date": "2026-08-31",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-70335 GitHub Copilot and Visual Studio Code Elevation of Privilege Vulnerability",
+      "date": "2026-09-02",
+      "summary": "Affected software updated with new package information.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64899",
-      "count7d": 328
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70335",
+      "count7d": 332
     },
     "SAP": {
       "vendor": "SAP",
@@ -31,19 +31,19 @@
     "Cisco": {
       "vendor": "Cisco",
       "title": "Cisco Advance Notification for Publication of September 2, 2026, Security Advisories",
-      "date": "2026-08-26",
-      "summary": "On September 2, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Desk Phone 9800, 7800 and 8800, and 8875 Series Software IOS XR Software (security hardening release) Nexus 9000 Series Switches Silicon One Secure Email&nbsp; To fully remediate vulnerabilities to be disclosed on September 2, 2026, Cisco strongly recommends that customers upgrade to the fixed software indicated in the advisories. For…",
-      "category": "patch",
+      "date": "2026-09-02",
+      "summary": "On September 2, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco IOS XR Software Security Hardening Release: September 2026 CVE-2026-20277 CVE-2026-20278 CVE-2026-20280 CVE-2026-20279 CVE-2026-20276 CVE-2026-20275 CVE-2026-20274 Critical 9.8 Cisco Nexus 9000 Series Switches Silicon One Remote Code Execution Vulnerability CVE-2026-20212 Critical&nbsp; 9.8 Cisco Desk Phone 9800 Series, IP Phone 7800 and 8800 Series, and Video Phone 8875 with SIP Software Denial of Service…",
+      "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-f2SiMFxl?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%202,%202026,%20Security%20Advisories%26vs_k=1",
-      "count7d": 1
+      "count7d": 5
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VMware Explore 2026 in Las Vegas &#124; Day 2 Recap",
+      "title": "Unlocking Agile Innovation: Delivering on VMware’s Open Networking Approach with Cisco",
       "date": "2026-09-02",
-      "summary": "VMware Explore 2026 in Las Vegas Day 2 Recap &#124; September 1, 2026 Welcome to VMware Explore 2026, where thousands of explorers have gathered at the Venetian Convention and Expo Center to harness the power of private cloud. Reporting live from Nevada, here’s your recap of Day 2. Catch All the News of the Day &#8230; Continued The post VMware Explore 2026 in Las Vegas | Day 2 Recap appeared first on VMware Blogs .",
+      "summary": "The rapid proliferation of applications is reshaping cloud infrastructure. Enterprises are increasingly seeking open standards-based solutions that provide a consistent and cohesive experience for operating network infrastructure and services. In a push for greater interoperability between application environments and the network, VMware announced an open, extensible networking ecosystem for VMware Cloud Foundation (VCF). This open &#8230; Continued The post Unlocking Agile Innovation: Delivering on VMware’s Open Networking Approach with Cisco appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/explore/vmware-explore-2026-las-vegas-recap-day2/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/02/unlocking-agile-innovation-delivering-on-vmwares-open-networking-approach-with-cisco/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Style, Battery Life and Value: What Makes the Best Affordable College Laptop",
+      "title": "BIOS Configuration, Scaled Across Your Entire Fleet",
       "date": "2026-09-02",
-      "summary": "The new Dell 14S delivers premium design, all-day battery life and four expressive color options.",
+      "summary": "Secure BIOS settings across your entire Dell PC fleet, from the cloud, with Dell Command &#124; Secure BIOS Configuration and Microsoft Intune.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/style-battery-life-and-value-what-makes-the-best-affordable-college-laptop/",
-      "count7d": 8
+      "url": "https://www.dell.com/en-us/blog/bios-configuration-scaled-across-your-entire-fleet/",
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -84,26 +84,26 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Falcon Guardian Defines the Next Generation of AI Security",
-      "date": "2026-09-01",
+      "title": "CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks",
+      "date": "2026-09-02",
       "summary": "",
       "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/",
-      "count7d": 3
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
+      "count7d": 6
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
-      "date": "2026-07-16",
-      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
+      "date": "2026-09-02",
+      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
+      "count7d": 2
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 7,
+      "count": 9,
       "items": [
         {
           "id": "CVE-2026-72984",
@@ -112,7 +112,15 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72984",
           "kev": false,
-          "epss": 0.44200000000000006
+          "epss": 0.43299999999999994
+        },
+        {
+          "id": "CVE-2026-19475",
+          "title": "An authenticated user with permission to query a SQL data source can bypass the fix for CVE-2026-33375 by injecting the timeGroup macro through a WHERE clause, which Grafana's regex-based macro parsing does not reject. Evaluating…",
+          "date": "2026-09-02",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19475",
+          "kev": false
         },
         {
           "id": "CVE-2026-62904",
@@ -140,15 +148,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66324",
           "kev": false,
           "epss": 0.652
-        },
-        {
-          "id": "CVE-2026-66798",
-          "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-08-28",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66798",
-          "kev": false,
-          "epss": 0.5559999999999999
         }
       ]
     },
@@ -199,7 +198,8 @@
           "date": "2026-09-01",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76111",
-          "kev": false
+          "kev": false,
+          "epss": 0.28600000000000003
         },
         {
           "id": "CVE-2026-58575",
@@ -207,7 +207,8 @@
           "date": "2026-09-01",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58575",
-          "kev": false
+          "kev": false,
+          "epss": 0.299
         },
         {
           "id": "CVE-2026-79683",
@@ -215,7 +216,8 @@
           "date": "2026-09-01",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79683",
-          "kev": false
+          "kev": false,
+          "epss": 0.328
         }
       ]
     },
