@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T20:01:28.229Z",
+  "generatedAt": "2026-09-02T22:47:14.558Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,20 +21,20 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Protection That Moves With Your Workloads",
-      "date": "2026-08-28",
-      "summary": "Your workloads are always in motion, scaling up and down, spinning up in new places, and, over time, landing on infrastructure you weren't running a year ago. The hypervisor world, specifically, is changing fast, with costs climbing and licensing models that keep moving. The post Protection That Moves With Your Workloads appeared first on Veeam Software Official Blog .",
+      "title": "Backup vs Sync: What Small Businesses Keep Getting Wrong",
+      "date": "2026-09-02",
+      "summary": "The difference between sync and backup is straightforward: Sync keeps the same files current across every device and person connected to it, while backup keeps a separate copy set aside so you can restore it if the original is lost, damaged, or encrypted. Sync is about keeping work accessible. Backup is about getting work back. The post Backup vs Sync: What Small Businesses Keep Getting Wrong appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/portable-data-protection.html",
-      "count7d": 1
+      "url": "https://www.veeam.com/blog/differences-between-sync-vs-backup.html",
+      "count7d": 2
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Advance Notification for Publication of September 2, 2026, Security Advisories",
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
       "date": "2026-09-02",
-      "summary": "On September 2, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco IOS XR Software Security Hardening Release: September 2026 CVE-2026-20277 CVE-2026-20278 CVE-2026-20280 CVE-2026-20279 CVE-2026-20276 CVE-2026-20275 CVE-2026-20274 Critical 9.8 Cisco Nexus 9000 Series Switches Silicon One Remote Code Execution Vulnerability CVE-2026-20212 Critical&nbsp; 9.8 Cisco Desk Phone 9800 Series, IP Phone 7800 and 8800 Series, and Video Phone 8875 with SIP Software Denial of Service…",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
       "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-f2SiMFxl?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%202,%202026,%20Security%20Advisories%26vs_k=1",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
       "count7d": 5
     },
     "VMware": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "BIOS Configuration, Scaled Across Your Entire Fleet",
+      "title": "Record Results Reflect Compounding Advantages",
       "date": "2026-09-02",
-      "summary": "Secure BIOS settings across your entire Dell PC fleet, from the cloud, with Dell Command &#124; Secure BIOS Configuration and Microsoft Intune.",
+      "summary": "We didn't just grow — we grew profitably, with earnings outpacing revenue.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/bios-configuration-scaled-across-your-entire-fleet/",
+      "url": "https://www.dell.com/en-us/blog/record-results-reflect-compounding-advantages/",
       "count7d": 10
     },
     "Lenovo": {
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
-      "date": "2026-09-02",
-      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
@@ -212,8 +212,17 @@
       "items": []
     },
     "Dell": {
-      "count": 24,
+      "count": 14,
       "items": [
+        {
+          "id": "CVE-2026-79687",
+          "title": "Dell PowerStore SDNAS contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Filesystem access.",
+          "date": "2026-09-01",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79687",
+          "kev": false,
+          "epss": 0.27499999999999997
+        },
         {
           "id": "CVE-2026-58574",
           "title": "Dell PowerStore contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with network access to the restricted management interface could potentially exploit this vulnerability to read internal system information from the appliance filesystem.…",
@@ -249,15 +258,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79683",
           "kev": false,
           "epss": 0.328
-        },
-        {
-          "id": "CVE-2026-58571",
-          "title": "Dell PowerStore contains an OS Command Injection vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability to execute arbitrary commands with root privileges.",
-          "date": "2026-09-01",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58571",
-          "kev": false,
-          "epss": 0.942
         }
       ]
     },
