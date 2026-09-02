@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T23:54:02.282Z",
+  "generatedAt": "2026-09-02T03:16:01.645Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64899",
-      "count7d": 330
+      "count7d": 328
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "With SAP, Wilson can perform at its best.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/cloud-to-court-wilson-runs-smarter-faster-sap/",
-      "count7d": 5
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Your workloads are always in motion, scaling up and down, spinning up in new places, and, over time, landing on infrastructure you weren't running a year ago. The hypervisor world, specifically, is changing fast, with costs climbing and licensing models that keep moving. The post Protection That Moves With Your Workloads appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/portable-data-protection.html",
-      "count7d": 2
+      "count7d": 1
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Announcing the latest Tanzu Greenplum Updates: Cloud-Like Elasticity, Federal Security, and Enhanced Enterprise Analytics",
-      "date": "2026-09-01",
-      "summary": "Today, we are thrilled to announce a set of new capabilities in Tanzu Greenplum that bring major architectural improvements in open table formats, advanced multi-tenancy, and real-time ingestion, alongside crucial enhancements to query optimization and day-two operations. The post Announcing the latest Tanzu Greenplum Updates: Cloud-Like Elasticity, Federal Security, and Enhanced Enterprise Analytics appeared first &#8230; Continued The post Announcing the latest Tanzu Greenplum Updates: Cloud-Like Elasticity, Federal Security, and Enhanced Enterprise Analytics appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/tanzu/announcing-the-latest-tanzu-greenplum-updates-cloud-like-elasticity-federal-security-and-enhanced-enterprise-analytics/",
+      "title": "VMware Explore 2026 in Las Vegas &#124; Day 2 Recap",
+      "date": "2026-09-02",
+      "summary": "VMware Explore 2026 in Las Vegas Day 2 Recap &#124; September 1, 2026 Welcome to VMware Explore 2026, where thousands of explorers have gathered at the Venetian Convention and Expo Center to harness the power of private cloud. Reporting live from Nevada, here’s your recap of Day 2. Catch All the News of the Day &#8230; Continued The post VMware Explore 2026 in Las Vegas | Day 2 Recap appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/explore/vmware-explore-2026-las-vegas-recap-day2/",
       "count7d": 10
     },
     "AWS": {
@@ -71,7 +71,7 @@
       "summary": "First laptop produced in Riyadh demonstrates progress since the Lenovo &#038; ALAT strategic collaboration was announced - marking the next phase of local technology production, with mass production expected to begin in late 2026",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/unveils-first-laptop-manufactured-saudi-arabia-supporting-the-kingdoms-vision-for-advanced-manufacturing/",
-      "count7d": 8
+      "count7d": 6
     },
     "Fortinet": {
       "vendor": "Fortinet",
