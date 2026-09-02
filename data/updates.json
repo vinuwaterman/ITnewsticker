@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-02T17:02:54.542Z",
+  "generatedAt": "2026-09-02T20:01:28.229Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-70335 GitHub Copilot and Visual Studio Code Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-58650 Visual Studio Code Security Feature Bypass Vulnerability",
       "date": "2026-09-02",
       "summary": "Affected software updated with new package information.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70335",
-      "count7d": 332
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58650",
+      "count7d": 340
     },
     "SAP": {
       "vendor": "SAP",
@@ -106,6 +106,14 @@
       "count": 9,
       "items": [
         {
+          "id": "CVE-2026-84672",
+          "title": "Jenkins Microsoft Entra ID (previously Azure AD) Plugin 710.v0b_ff8e9cc2d2 and earlier grants Entra group permissions using both the group's unique object ID and its display name, allowing attackers who can create an Entra group with…",
+          "date": "2026-09-02",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84672",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-72984",
           "title": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
           "date": "2026-08-28",
@@ -139,15 +147,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66323",
           "kev": false,
           "epss": 0.292
-        },
-        {
-          "id": "CVE-2026-66324",
-          "title": "External control of file name or path in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.",
-          "date": "2026-08-28",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66324",
-          "kev": false,
-          "epss": 0.652
         }
       ]
     },
@@ -160,8 +159,49 @@
       "items": []
     },
     "Cisco": {
-      "count": 0,
-      "items": []
+      "count": 11,
+      "items": [
+        {
+          "id": "CVE-2026-20212",
+          "title": "A vulnerability in the Silicon One integration for Cisco Nexus 9000 Series Switches could allow an unauthenticated, remote attacker to execute code with&nbsp;root privileges. This vulnerability exists because TCP ports 43210 and 43211 are accessible…",
+          "date": "2026-09-02",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20212",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20274",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening releases that…",
+          "date": "2026-09-02",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20274",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20279",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening releases that…",
+          "date": "2026-09-02",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20279",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20275",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening releases that…",
+          "date": "2026-09-02",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20275",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20276",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening releases that…",
+          "date": "2026-09-02",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20276",
+          "kev": false
+        }
+      ]
     },
     "VMware": {
       "count": 0,
@@ -172,7 +212,7 @@
       "items": []
     },
     "Dell": {
-      "count": 27,
+      "count": 24,
       "items": [
         {
           "id": "CVE-2026-58574",
@@ -182,15 +222,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58574",
           "kev": false,
           "epss": 0.336
-        },
-        {
-          "id": "CVE-2026-70419",
-          "title": "Dell Cloud Disaster Recovery, versions 20.2 and prior, contain an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this…",
-          "date": "2026-08-26",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70419",
-          "kev": false,
-          "epss": 2.186
         },
         {
           "id": "CVE-2026-76111",
@@ -218,6 +249,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79683",
           "kev": false,
           "epss": 0.328
+        },
+        {
+          "id": "CVE-2026-58571",
+          "title": "Dell PowerStore contains an OS Command Injection vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability to execute arbitrary commands with root privileges.",
+          "date": "2026-09-01",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58571",
+          "kev": false,
+          "epss": 0.942
         }
       ]
     },
