@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T08:04:48.376Z",
+  "generatedAt": "2026-09-02T12:54:40.395Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "HARTING Accelerates Cloud Transformation with RISE with SAP",
+      "title": "How to Optimize AI for the Entire Enterprise, Not Just the Individual",
       "date": "2026-09-02",
-      "summary": "WALLDORF — The industrial connectivity provider is marking a decisive milestone in its global IT and digital strategy.",
+      "summary": "AI should bridge the individual-to-institutional value gap.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/harting-accelerates-cloud-transformation-with-rise-with-sap/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/09/how-to-optimize-ai-entire-enterprise-not-just-individual/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Making the Most of the Cloud Marketplace Opportunity",
-      "date": "2026-09-01",
-      "summary": "How Partners Can Turn Marketplace Momentum into Customer Value. Cloud marketplaces have become an increasingly important way for customers to buy technology. They can offer a familiar route to procurement, help organizations &#8230; The post Making the Most of the Cloud Marketplace Opportunity appeared first on Palo Alto Networks Blog .",
+      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
+      "date": "2026-07-16",
+      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/making-the-most-of-the-cloud-marketplace-opportunity/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
       "count7d": 1
     }
   },
