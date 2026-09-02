@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T03:16:01.645Z",
+  "generatedAt": "2026-09-02T08:04:48.376Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "From Cloud to Court: Wilson Runs Smarter and Faster with SAP",
-      "date": "2026-09-01",
-      "summary": "With SAP, Wilson can perform at its best.",
+      "title": "HARTING Accelerates Cloud Transformation with RISE with SAP",
+      "date": "2026-09-02",
+      "summary": "WALLDORF — The industrial connectivity provider is marking a decisive milestone in its global IT and digital strategy.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/cloud-to-court-wilson-runs-smarter-faster-sap/",
-      "count7d": 4
+      "url": "https://news.sap.com/2026/09/harting-accelerates-cloud-transformation-with-rise-with-sap/",
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Fix Screen Tearing on PC: Settings, Sync and Hardware Tips",
-      "date": "2026-09-01",
-      "summary": "Fix screen tearing on your PC by setting the right refresh rate, enabling VRR, and capping frames. Pair your settings with a fast Dell monitor for smooth, tear-free gameplay.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-fix-screen-tearing-on-pc-settings-sync-and-hardware-tips/",
-      "count7d": 10
+      "title": "Style, Battery Life and Value: What Makes the Best Affordable College Laptop",
+      "date": "2026-09-02",
+      "summary": "The new Dell 14S delivers premium design, all-day battery life and four expressive color options.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/style-battery-life-and-value-what-makes-the-best-affordable-college-laptop/",
+      "count7d": 8
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -89,15 +89,15 @@
       "summary": "",
       "category": "patch",
       "url": "https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/",
-      "count7d": 2
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
-      "date": "2026-07-16",
-      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "title": "Making the Most of the Cloud Marketplace Opportunity",
+      "date": "2026-09-01",
+      "summary": "How Partners Can Turn Marketplace Momentum into Customer Value. Cloud marketplaces have become an increasingly important way for customers to buy technology. They can offer a familiar route to procurement, help organizations &#8230; The post Making the Most of the Cloud Marketplace Opportunity appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/making-the-most-of-the-cloud-marketplace-opportunity/",
       "count7d": 1
     }
   },
