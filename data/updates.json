@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T18:23:14.511Z",
+  "generatedAt": "2026-09-03T21:14:15.980Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,17 +21,17 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Your OpenShift Environment Grew. Did Your Backup Strategy?",
+      "title": "What to Back Up First: SMB Data Priorities",
       "date": "2026-09-03",
-      "summary": "Getting VMs and containers running on Red Hat OpenShift is a milestone. But for platform engineering and operations teams, the real work starts after the migration is complete. Workloads grow. New applications land. VMs multiply. And somewhere in that growth, the data protection strategy that once felt manageable starts showing cracks across a mixed environment. The post Your OpenShift Environment Grew. Did Your Backup Strategy? appeared first on Veeam Software Official Blog .",
+      "summary": "Most small businesses don't lose everything at once. More often, they lose something nobody thought to protect. The post What to Back Up First: SMB Data Priorities appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/openshift-backup-at-scale.html",
-      "count7d": 3
+      "url": "https://www.veeam.com/blog/smb-backup-priorities.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "From Bottleneck to Breakthrough: Centralizing GitOps at Enterprise Scale with VCF 9.1.1",
+      "title": "Get to VMware Cloud Foundation Faster with VMware Pro Cloud Services",
       "date": "2026-09-03",
-      "summary": "In today’s fast-paced digital economy, where AI-driven innovation demands unprecedented agility, IT leaders are tasked with more than just provisioning infrastructure; they are expected to deliver a frictionless, self-service platform that accelerates software delivery. For platform engineers, cloud architects, and IT executives, the goal is to bridge the gap between robust infrastructure and modern application &#8230; Continued The post From Bottleneck to Breakthrough: Centralizing GitOps at Enterprise Scale with VCF 9.1.1 appeared first on VMware Blogs .",
+      "summary": "Public clouds have upped the ante when it comes to what we expect from private cloud solutions. Our smartphones and fast access to public cloud resources have conditioned us to expect instant access to what we need when we need it. Anything less feels antiquated and cumbersome, leaving your business users frustrated and disenchanted. To &#8230; Continued The post Get to VMware Cloud Foundation Faster with VMware Pro Cloud Services appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/03/from-bottleneck-to-breakthrough-centralizing-gitops-at-enterprise-scale-with-vcf-9-1-1/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/03/get-to-vmware-cloud-foundation-faster-with-vmware-pro-cloud-services/",
       "count7d": 10
     },
     "AWS": {
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
-      "date": "2026-09-02",
-      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
