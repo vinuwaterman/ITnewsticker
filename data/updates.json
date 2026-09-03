@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T22:47:14.558Z",
+  "generatedAt": "2026-09-03T00:59:38.799Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Affected software updated with new package information.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58650",
-      "count7d": 340
+      "count7d": 331
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "AI should bridge the individual-to-institutional value gap.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/how-to-optimize-ai-entire-enterprise-not-just-individual/",
-      "count7d": 6
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -62,7 +62,7 @@
       "summary": "We didn't just grow — we grew profitably, with earnings outpacing revenue.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/record-results-reflect-compounding-advantages/",
-      "count7d": 10
+      "count7d": 9
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "First laptop produced in Riyadh demonstrates progress since the Lenovo &#038; ALAT strategic collaboration was announced - marking the next phase of local technology production, with mass production expected to begin in late 2026",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/unveils-first-laptop-manufactured-saudi-arabia-supporting-the-kingdoms-vision-for-advanced-manufacturing/",
-      "count7d": 6
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
+      "date": "2026-09-02",
+      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
+      "count7d": 2
     }
   },
   "nvd": {
