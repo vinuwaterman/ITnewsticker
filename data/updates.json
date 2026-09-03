@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-03T14:54:22.337Z",
+  "generatedAt": "2026-09-03T18:23:14.511Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-58650 Visual Studio Code Security Feature Bypass Vulnerability",
-      "date": "2026-09-02",
-      "summary": "Affected software updated with new package information.",
+      "title": "CVE-2026-58641 .NET Elevation of Privilege Vulnerability",
+      "date": "2026-09-03",
+      "summary": "Added SkiaSharp 4.151.2 to the affected software table.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58650",
-      "count7d": 331
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58641",
+      "count7d": 334
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Backup vs Sync: What Small Businesses Keep Getting Wrong",
-      "date": "2026-09-02",
-      "summary": "The difference between sync and backup is straightforward: Sync keeps the same files current across every device and person connected to it, while backup keeps a separate copy set aside so you can restore it if the original is lost, damaged, or encrypted. Sync is about keeping work accessible. Backup is about getting work back. The post Backup vs Sync: What Small Businesses Keep Getting Wrong appeared first on Veeam Software Official Blog .",
+      "title": "Your OpenShift Environment Grew. Did Your Backup Strategy?",
+      "date": "2026-09-03",
+      "summary": "Getting VMs and containers running on Red Hat OpenShift is a milestone. But for platform engineering and operations teams, the real work starts after the migration is complete. Workloads grow. New applications land. VMs multiply. And somewhere in that growth, the data protection strategy that once felt manageable starts showing cracks across a mixed environment. The post Your OpenShift Environment Grew. Did Your Backup Strategy? appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/differences-between-sync-vs-backup.html",
-      "count7d": 2
+      "url": "https://www.veeam.com/blog/openshift-backup-at-scale.html",
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Explore 2026: VMware AI Factory and other new AI innovations in VCF",
+      "title": "From Bottleneck to Breakthrough: Centralizing GitOps at Enterprise Scale with VCF 9.1.1",
       "date": "2026-09-03",
-      "summary": "Introduction While artificial intelligence offers transformative potential, enterprise deployment remains constrained. Privacy, IP protection, and compliance present severe existential threats. Organizations must enforce granular access boundaries and guard proprietary data. The rapid shift toward Agentic AI dramatically amplifies these foundational friction points, introducing critical operational, cost, and governance challenges. Unlike traditional single-call inference models, autonomous &#8230; Continued The post Explore 2026: VMware AI Factory and other new AI innovations in VCF appeared first on VMware Blogs .",
+      "summary": "In today’s fast-paced digital economy, where AI-driven innovation demands unprecedented agility, IT leaders are tasked with more than just provisioning infrastructure; they are expected to deliver a frictionless, self-service platform that accelerates software delivery. For platform engineers, cloud architects, and IT executives, the goal is to bridge the gap between robust infrastructure and modern application &#8230; Continued The post From Bottleneck to Breakthrough: Centralizing GitOps at Enterprise Scale with VCF 9.1.1 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/03/explore-2026-vmware-ai-factory-and-other-new-ai-innovations-in-vcf/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/03/from-bottleneck-to-breakthrough-centralizing-gitops-at-enterprise-scale-with-vcf-9-1-1/",
       "count7d": 10
     },
     "AWS": {
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Unveils First Laptop Manufactured in Saudi Arabia, Supporting the Kingdom&#8217;s Vision for Advanced Manufacturing",
-      "date": "2026-08-31",
-      "summary": "First laptop produced in Riyadh demonstrates progress since the Lenovo &#038; ALAT strategic collaboration was announced - marking the next phase of local technology production, with mass production expected to begin in late 2026",
+      "title": "Lenovo Expands Personal AI with Colorful New IdeaPad Vibe Series and IdeaCentre All-in-One AI PCs",
+      "date": "2026-09-03",
+      "summary": "These latest AI PCs combine thoughtful design with more intelligent, connected experiences across devices.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/unveils-first-laptop-manufactured-saudi-arabia-supporting-the-kingdoms-vision-for-advanced-manufacturing/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/pressroom/press-releases/colorful-ideapad-vibe-series-all-in-one-ai-pcs/",
+      "count7d": 12
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -219,7 +219,7 @@
       "items": []
     },
     "Dell": {
-      "count": 18,
+      "count": 20,
       "items": [
         {
           "id": "CVE-2026-79687",
