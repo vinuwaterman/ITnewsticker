@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-03T21:14:15.980Z",
+  "generatedAt": "2026-09-03T23:27:01.651Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-58641 .NET Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-62906 Microsoft Discovery Studio Information Disclosure Vulnerability",
       "date": "2026-09-03",
-      "summary": "Added SkiaSharp 4.151.2 to the affected software table.",
+      "summary": "Improper neutralization of special elements in data query logic in Microsoft Discovery Studio allows an unauthorized attacker to disclose information over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58641",
-      "count7d": 334
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62906",
+      "count7d": 366
     },
     "SAP": {
       "vendor": "SAP",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
+      "date": "2026-09-02",
+      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
+      "count7d": 2
     }
   },
   "nvd": {
