@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T05:39:47.100Z",
+  "generatedAt": "2026-09-03T10:48:07.311Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Unlocking Agile Innovation: Delivering on VMware’s Open Networking Approach with Cisco",
-      "date": "2026-09-02",
-      "summary": "The rapid proliferation of applications is reshaping cloud infrastructure. Enterprises are increasingly seeking open standards-based solutions that provide a consistent and cohesive experience for operating network infrastructure and services. In a push for greater interoperability between application environments and the network, VMware announced an open, extensible networking ecosystem for VMware Cloud Foundation (VCF). This open &#8230; Continued The post Unlocking Agile Innovation: Delivering on VMware’s Open Networking Approach with Cisco appeared first on VMware Blogs .",
+      "title": "Explore 2026: VMware AI Factory and other new AI innovations in VCF",
+      "date": "2026-09-03",
+      "summary": "Introduction While artificial intelligence offers transformative potential, enterprise deployment remains constrained. Privacy, IP protection, and compliance present severe existential threats. Organizations must enforce granular access boundaries and guard proprietary data. The rapid shift toward Agentic AI dramatically amplifies these foundational friction points, introducing critical operational, cost, and governance challenges. Unlike traditional single-call inference models, autonomous &#8230; Continued The post Explore 2026: VMware AI Factory and other new AI innovations in VCF appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/02/unlocking-agile-innovation-delivering-on-vmwares-open-networking-approach-with-cisco/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/03/explore-2026-vmware-ai-factory-and-other-new-ai-innovations-in-vcf/",
       "count7d": 10
     },
     "AWS": {
