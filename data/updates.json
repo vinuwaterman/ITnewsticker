@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T11:35:25.484Z",
+  "generatedAt": "2026-09-04T15:53:29.972Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP’s First Embodied AI Jam Brings Customers, Robots, and AI Together to Develop Viable Use Cases in Days, Not Weeks",
+      "title": "SAP Recognized as a Leader in the Gartner® Magic Quadrant&#x2122; for HCM Suites for 1,000+ Employees for the 11th Consecutive…",
       "date": "2026-09-04",
-      "summary": "Robots and SAP software can work together to solve real business challenges.",
+      "summary": "We are committed to helping organizations navigate an increasingly complex world of work through innovation, global scale, and AI.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/embodied-ai-jam-customers-robots-ai-viable-use-cases/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/09/sap-leader-gartner-magic-quadrant-hcm-suites-1000-employees/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
+      "date": "2026-07-16",
+      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
       "count7d": 1
     }
   },
@@ -111,7 +111,8 @@
           "date": "2026-09-03",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62916",
-          "kev": false
+          "kev": false,
+          "epss": 0.582
         },
         {
           "id": "CVE-2026-83711",
@@ -119,7 +120,8 @@
           "date": "2026-09-03",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83711",
-          "kev": false
+          "kev": false,
+          "epss": 0.582
         },
         {
           "id": "CVE-2026-62906",
@@ -127,7 +129,8 @@
           "date": "2026-09-03",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62906",
-          "kev": false
+          "kev": false,
+          "epss": 0.666
         },
         {
           "id": "CVE-2026-70178",
@@ -135,7 +138,8 @@
           "date": "2026-09-03",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70178",
-          "kev": false
+          "kev": false,
+          "epss": 0.414
         },
         {
           "id": "CVE-2026-84672",
@@ -149,8 +153,17 @@
       ]
     },
     "SAP": {
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "id": "CVE-2026-81832",
+          "title": "IBM App Connect Enterprise 13.0.1.0 through 13.0.8.1, and 12.0.1.0 through 12.0.12.28 and IBM Integration Bus for z/OS 10.1.0.0 through 10.1.0.7 SAP Adapter is vulnerable to an XML external entity (XXE) attack.",
+          "date": "2026-09-04",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81832",
+          "kev": false
+        }
+      ]
     },
     "Veeam": {
       "count": 0,
