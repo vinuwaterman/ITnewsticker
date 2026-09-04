@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T18:52:15.700Z",
+  "generatedAt": "2026-09-04T21:18:10.360Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -31,7 +31,7 @@
     "Cisco": {
       "vendor": "Cisco",
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
-      "date": "2026-09-02",
-      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 13,
+      "count": 6,
       "items": [
         {
           "id": "CVE-2026-62916",
