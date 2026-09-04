@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T23:27:01.651Z",
+  "generatedAt": "2026-09-04T01:12:34.752Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Improper neutralization of special elements in data query logic in Microsoft Discovery Studio allows an unauthorized attacker to disclose information over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62906",
-      "count7d": 366
+      "count7d": 60
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Together, SAP Commerce Cloud and Vercel give teams a more flexible way forward.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-commerce-cloud-vercel-faster-path-better-customer-outcomes/",
-      "count7d": 7
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Most small businesses don't lose everything at once. More often, they lose something nobody thought to protect. The post What to Back Up First: SMB Data Priorities appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/smb-backup-priorities.html",
-      "count7d": 4
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -71,7 +71,7 @@
       "summary": "These latest AI PCs combine thoughtful design with more intelligent, connected experiences across devices.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/colorful-ideapad-vibe-series-all-in-one-ai-pcs/",
-      "count7d": 12
+      "count7d": 11
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,18 +93,50 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
-      "date": "2026-09-02",
-      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 9,
+      "count": 13,
       "items": [
+        {
+          "id": "CVE-2026-62916",
+          "title": "Authentication bypass using an alternate path or channel in Microsoft Entra ID allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-09-03",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62916",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-83711",
+          "title": "Authorization bypass through user-controlled key in Microsoft Azure Active Directory B2C allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-09-03",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83711",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-62906",
+          "title": "Improper neutralization of special elements in data query logic in Microsoft Discovery Studio allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-09-03",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62906",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-70178",
+          "title": "Missing authorization in Microsoft Fabric allows an authorized attacker to elevate privileges over a network.",
+          "date": "2026-09-03",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70178",
+          "kev": false
+        },
         {
           "id": "CVE-2026-84672",
           "title": "Jenkins Microsoft Entra ID (previously Azure AD) Plugin 710.v0b_ff8e9cc2d2 and earlier grants Entra group permissions using both the group's unique object ID and its display name, allowing attackers who can create an Entra group with…",
@@ -113,42 +145,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84672",
           "kev": false,
           "epss": 0.23500000000000001
-        },
-        {
-          "id": "CVE-2026-72984",
-          "title": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-08-28",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72984",
-          "kev": false,
-          "epss": 0.43299999999999994
-        },
-        {
-          "id": "CVE-2026-19475",
-          "title": "An authenticated user with permission to query a SQL data source can bypass the fix for CVE-2026-33375 by injecting the timeGroup macro through a WHERE clause, which Grafana's regex-based macro parsing does not reject. Evaluating…",
-          "date": "2026-09-02",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19475",
-          "kev": false,
-          "epss": 0.40099999999999997
-        },
-        {
-          "id": "CVE-2026-62904",
-          "title": "Incorrect authorization in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network.",
-          "date": "2026-08-28",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62904",
-          "kev": false,
-          "epss": 0.27699999999999997
-        },
-        {
-          "id": "CVE-2026-66323",
-          "title": "Improper neutralization of parameter/argument delimiters in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-08-28",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66323",
-          "kev": false,
-          "epss": 0.292
         }
       ]
     },
