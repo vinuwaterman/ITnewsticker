@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T21:18:10.360Z",
+  "generatedAt": "2026-09-04T23:11:32.008Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62906 Microsoft Discovery Studio Information Disclosure Vulnerability",
-      "date": "2026-09-03",
-      "summary": "Improper neutralization of special elements in data query logic in Microsoft Discovery Studio allows an unauthorized attacker to disclose information over a network.",
+      "title": "CVE-2026-50376 Windows Remote Desktop Client Information Disclosure Vulnerability",
+      "date": "2026-09-04",
+      "summary": "Acknowledgment updated",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62906",
-      "count7d": 60
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50376",
+      "count7d": 61
     },
     "SAP": {
       "vendor": "SAP",
