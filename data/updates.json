@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T06:19:43.884Z",
+  "generatedAt": "2026-09-04T11:35:25.484Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Commerce Cloud and Vercel: A Faster Path to Better Customer Outcomes",
-      "date": "2026-09-03",
-      "summary": "Together, SAP Commerce Cloud and Vercel give teams a more flexible way forward.",
+      "title": "SAP’s First Embodied AI Jam Brings Customers, Robots, and AI Together to Develop Viable Use Cases in Days, Not Weeks",
+      "date": "2026-09-04",
+      "summary": "Robots and SAP software can work together to solve real business challenges.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sap-commerce-cloud-vercel-faster-path-better-customer-outcomes/",
-      "count7d": 6
+      "url": "https://news.sap.com/2026/09/embodied-ai-jam-customers-robots-ai-viable-use-cases/",
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
-      "date": "2026-09-02",
-      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
