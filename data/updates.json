@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T16:35:23.880Z",
+  "generatedAt": "2026-09-05T18:49:46.409Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
-      "date": "2026-07-16",
-      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
+      "date": "2026-09-02",
+      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
+      "count7d": 2
     }
   },
   "nvd": {
