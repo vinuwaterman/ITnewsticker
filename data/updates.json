@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T17:24:23.824Z",
+  "generatedAt": "2026-09-07T20:44:14.961Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Record Results Reflect Compounding Advantages",
-      "date": "2026-09-02",
-      "summary": "We didn't just grow — we grew profitably, with earnings outpacing revenue.",
+      "title": "Dell AI Factory vs. HPE: Built for Day 2?",
+      "date": "2026-09-07",
+      "summary": "The platform choice you make today defines the AI operating model you'll live with tomorrow.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/record-results-reflect-compounding-advantages/",
+      "url": "https://www.dell.com/en-us/blog/dell-ai-factory-vs-hpe-built-for-day-2/",
       "count7d": 10
     },
     "Lenovo": {
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 50,
+      "count": 58,
       "items": [
         {
           "id": "CVE-2026-85506",
