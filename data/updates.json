@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T11:46:25.196Z",
+  "generatedAt": "2026-09-07T17:24:23.824Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Recognized as a Leader in the Gartner® Magic Quadrant&#x2122; for HCM Suites for 1,000+ Employees for the 11th Consecutive…",
-      "date": "2026-09-04",
-      "summary": "We are committed to helping organizations navigate an increasingly complex world of work through innovation, global scale, and AI.",
+      "title": "Built for the Long Haul: Commerce Innovation at Daimler Truck North America",
+      "date": "2026-09-07",
+      "summary": "Long-term, strategic commitment has improved how dealers and customers interact with the business.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sap-leader-gartner-magic-quadrant-hcm-suites-1000-employees/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/09/long-haul-commerce-innovation-daimler-truck-north-america/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -62,7 +62,7 @@
       "summary": "We didn't just grow — we grew profitably, with earnings outpacing revenue.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/record-results-reflect-compounding-advantages/",
-      "count7d": 9
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 22,
+      "count": 50,
       "items": [
         {
           "id": "CVE-2026-85506",
