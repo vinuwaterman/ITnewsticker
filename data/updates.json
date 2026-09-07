@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T22:59:44.292Z",
+  "generatedAt": "2026-09-07T00:52:04.564Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Acknowledgment updated",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50376",
-      "count7d": 60
+      "count7d": 48
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "We are committed to helping organizations navigate an increasingly complex world of work through innovation, global scale, and AI.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-leader-gartner-magic-quadrant-hcm-suites-1000-employees/",
-      "count7d": 8
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -62,7 +62,7 @@
       "summary": "We didn't just grow — we grew profitably, with earnings outpacing revenue.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/record-results-reflect-compounding-advantages/",
-      "count7d": 10
+      "count7d": 9
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "These latest AI PCs combine thoughtful design with more intelligent, connected experiences across devices.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/colorful-ideapad-vibe-series-all-in-one-ai-pcs/",
-      "count7d": 11
+      "count7d": 8
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "patch",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
-      "count7d": 6
+      "count7d": 5
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
