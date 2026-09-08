@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T01:19:30.574Z",
+  "generatedAt": "2026-09-08T06:19:20.912Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -153,16 +153,47 @@
       ]
     },
     "SAP": {
-      "count": 1,
+      "count": 16,
       "items": [
         {
-          "id": "CVE-2026-81832",
-          "title": "IBM App Connect Enterprise 13.0.1.0 through 13.0.8.1, and 12.0.1.0 through 12.0.12.28 and IBM Integration Bus for z/OS 10.1.0.0 through 10.1.0.7 SAP Adapter is vulnerable to an XML external entity (XXE) attack.",
-          "date": "2026-09-04",
+          "id": "CVE-2026-58240",
+          "title": "SAP NetWeaver Message Server does not sufficiently validate the authenticity of internal application server components during registration. An unauthenticated attacker with network access to the affected service could exploit this weakness to register an unauthorized…",
+          "date": "2026-09-08",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58240",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-66768",
+          "title": "SAP GUI for Java does not correctly enforce the trust level policy for certain functions invoked from a connected backend system. A low-privileged attacker could exploit this weakness by manipulating a connected backend system to…",
+          "date": "2026-09-08",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66768",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-66767",
+          "title": "SAP NetWeaver Application Server for ABAP and ABAP Platform allows an unauthenticated user to send a specially crafted packet that triggers reprocessing of a previously buffered user request, potentially hijacking another user's session under narrow…",
+          "date": "2026-09-08",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81832",
-          "kev": false,
-          "epss": 0.27699999999999997
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66767",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-76958",
+          "title": "SAP Integration Suite does not sufficiently validate XML documents accepted from untrusted sources in certain internal components. An attacker with low privileges could submit specially crafted XML payloads containing malicious external entity declarations. Successful exploitation…",
+          "date": "2026-09-08",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76958",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-76967",
+          "title": "SAP NetWeaver Business Client does not perform sufficient validation when processing certain locally stored data during application startup. An attacker with low privileges on the local system could replace this data with specially crafted content.…",
+          "date": "2026-09-08",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76967",
+          "kev": false
         }
       ]
     },
