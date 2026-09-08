@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-08T19:31:26.116Z",
+  "generatedAt": "2026-09-08T22:01:05.383Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62706 Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
+      "title": "CVE-2026-50696 Internet Key Exchange (IKE) Protocol Denial of Service Vulnerability",
       "date": "2026-09-08",
-      "summary": "Out-of-bounds read in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
+      "summary": "Acknowledgement Updated",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62706",
-      "count7d": 1036
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50696",
+      "count7d": 1043
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "AI-Ready Private Cloud with Cisco and VMware",
+      "title": "VCF Breakroom Chats Episode 94: Supercharging VKS Networking with Tigera",
       "date": "2026-09-08",
-      "summary": "An AI-ready private cloud is not simply a private cloud with GPUs added to it. What determines whether a private cloud platform can actually serve AI workloads effectively is everything built around them: how the fabric carries traffic, how the tenancy model lets teams consume capacity, and how policy and telemetry stay coherent across the &#8230; Continued The post AI-Ready Private Cloud with Cisco and VMware appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/08/ai-ready-private-cloud-with-cisco-and-vmware/",
+      "summary": "In this episode of VCF Breakroom Chats, Anika Suri sits down with Abhishek Rao from Tigera, the company behind Project Calico, to discuss a critical aspect of running Kubernetes in production: networking and security. Want to learn more about this partnership? Check out the Kubernetes Ecosystem Partners page for more resources. Read this blog post. About &#8230; Continued The post VCF Breakroom Chats Episode 94: Supercharging VKS Networking with Tigera appeared first on VMware Blogs .",
+      "category": "critical",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/08/vcf-breakroom-chats-episode-94-supercharging-vks-networking-with-tigera/",
       "count7d": 10
     },
     "AWS": {
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
-      "date": "2026-09-02",
-      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
+      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
+      "date": "2026-08-21",
+      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
       "count7d": 1
     }
   },
