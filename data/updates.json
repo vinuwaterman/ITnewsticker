@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T23:19:57.391Z",
+  "generatedAt": "2026-09-08T01:19:30.574Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -17,7 +17,7 @@
       "summary": "Long-term, strategic commitment has improved how dealers and customers interact with the business.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/long-haul-commerce-innovation-daimler-truck-north-america/",
-      "count7d": 8
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -62,7 +62,7 @@
       "summary": "The platform choice you make today defines the AI operating model you'll live with tomorrow.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/dell-ai-factory-vs-hpe-built-for-day-2/",
-      "count7d": 10
+      "count7d": 7
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -89,15 +89,15 @@
       "summary": "",
       "category": "patch",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
-      "count7d": 5
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
-      "date": "2026-07-16",
-      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
+      "date": "2026-09-02",
+      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
       "count7d": 1
     }
   },
