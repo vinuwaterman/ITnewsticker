@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-08T16:08:46.274Z",
+  "generatedAt": "2026-09-08T19:31:26.116Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-50376 Windows Remote Desktop Client Information Disclosure Vulnerability",
-      "date": "2026-09-04",
-      "summary": "Acknowledgment updated",
+      "title": "CVE-2026-62706 Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
+      "date": "2026-09-08",
+      "summary": "Out-of-bounds read in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50376",
-      "count7d": 48
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62706",
+      "count7d": 1036
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
       "date": "2026-09-08",
-      "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user or admin &nbsp;or an unauthenticated attacker with physical access to an affected device to bypass UEFI Secure Boot validation checks and execute unauthorized software. This vulnerability is due to the availability of memory write commands in the UEFI Shell while UEFI Secure Boot is enabled…",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the&nbsp;Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening releases that address multiple internally discovered vulnerabilities. The vulnerabilities tracked by CVE-2026-20280 are related to improper checking or handling of exceptional condition issues that are grouped under the Common Weakness Enumeration (CWE) CWE-703. As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
       "count7d": 6
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "See How Organizations Achieved 137% ROI with VMware Cloud Foundation 9",
+      "title": "AI-Ready Private Cloud with Cisco and VMware",
       "date": "2026-09-08",
-      "summary": "Enterprises running private cloud face a common question: what does the investment actually deliver? To answer it, we commissioned Forrester Consulting to conduct an independent New Technology Total Economic Impact (TEI) study on VMware Cloud Foundation 9 (VCF 9). Forrester interviewed decision-makers at organizations running VCF 9 and surveyed additional customers to develop a composite &#8230; Continued The post See How Organizations Achieved 137% ROI with VMware Cloud Foundation 9 appeared first on VMware Blogs .",
+      "summary": "An AI-ready private cloud is not simply a private cloud with GPUs added to it. What determines whether a private cloud platform can actually serve AI workloads effectively is everything built around them: how the fabric carries traffic, how the tenancy model lets teams consume capacity, and how policy and telemetry stay coherent across the &#8230; Continued The post AI-Ready Private Cloud with Cisco and VMware appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/08/see-how-organizations-achieved-137-roi-with-vmware-cloud-foundation-9/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/08/ai-ready-private-cloud-with-cisco-and-vmware/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How Much RAM Do You Need",
+      "title": "Building an AI-Ready Foundation: The Arizona Cardinals Story",
       "date": "2026-09-08",
-      "summary": "Learn how RAM affects your computer's performance and what capacity works best for your needs. Explore general memory guidance for everyday use, gaming, and more, and find out when an upgrade can make a real difference.",
+      "summary": "Key takeaways 5 min read The Arizona Cardinals modernized their infrastructure with Dell Technologies and its partner Integrated Media Technologies,&#160;&#8230;",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/how-much-ram-do-you-need/",
+      "url": "https://www.dell.com/en-us/blog/building-an-ai-ready-foundation-the-arizona-cardinals-story/",
       "count7d": 10
     },
     "Lenovo": {
@@ -75,12 +75,12 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Vulnerability in OpenSSL library",
-      "date": "2022-04-01",
-      "summary": "CVSSv3 Score: 7.5 A security advisory was released affecting the version of OpenSSL library used in some Fortinet products:CVE-2022-0778:The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting…",
+      "title": "Arbitrary process termination from exposed minifilter communication port",
+      "date": "2026-09-08",
+      "summary": "CVSSv3 Score: 4.7 An Unverified Ownership Vulnerability [CWE-283] in FortiClient Windows fortimon3 driver may allow an authenticated attacker to terminate arbitrary processes via an exposed minifilter communication port. Revised on 2026-09-08 00:00:00",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-059",
-      "count7d": 1
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-165",
+      "count7d": 11
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
@@ -103,8 +103,16 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 6,
+      "count": 217,
       "items": [
+        {
+          "id": "CVE-2026-75156",
+          "title": "Apache Airflow FAB provider versions 3.7.3 through 3.8.0 do not validate the issuer or audience of Azure AD `id_token`s during OAuth login. Deployments are affected only when the FAB auth manager is configured with Azure…",
+          "date": "2026-09-08",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75156",
+          "kev": false
+        },
         {
           "id": "CVE-2026-62916",
           "title": "Authentication bypass using an alternate path or channel in Microsoft Entra ID allows an unauthorized attacker to elevate privileges over a network.",
@@ -124,31 +132,20 @@
           "epss": 0.582
         },
         {
-          "id": "CVE-2026-62906",
-          "title": "Improper neutralization of special elements in data query logic in Microsoft Discovery Studio allows an unauthorized attacker to disclose information over a network.",
-          "date": "2026-09-03",
+          "id": "CVE-2026-55007",
+          "title": "Double free in Microsoft Exchange Server allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-09-08",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62906",
-          "kev": false,
-          "epss": 0.666
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55007",
+          "kev": false
         },
         {
-          "id": "CVE-2026-70178",
-          "title": "Missing authorization in Microsoft Fabric allows an authorized attacker to elevate privileges over a network.",
-          "date": "2026-09-03",
+          "id": "CVE-2026-56198",
+          "title": "Out-of-bounds read in Microsoft Trace Data Helper allows an authorized attacker to elevate privileges locally.",
+          "date": "2026-09-08",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70178",
-          "kev": false,
-          "epss": 0.414
-        },
-        {
-          "id": "CVE-2026-84672",
-          "title": "Jenkins Microsoft Entra ID (previously Azure AD) Plugin 710.v0b_ff8e9cc2d2 and earlier grants Entra group permissions using both the group's unique object ID and its display name, allowing attackers who can create an Entra group with…",
-          "date": "2026-09-02",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84672",
-          "kev": false,
-          "epss": 0.23500000000000001
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56198",
+          "kev": false
         }
       ]
     },
@@ -207,7 +204,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 11,
+      "count": 12,
       "items": [
         {
           "id": "CVE-2026-20212",
@@ -237,6 +234,14 @@
           "epss": 0.28400000000000003
         },
         {
+          "id": "CVE-2026-20293",
+          "title": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user…",
+          "date": "2026-09-08",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20293",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-20275",
           "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening releases that…",
           "date": "2026-09-02",
@@ -244,15 +249,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20275",
           "kev": false,
           "epss": 0.184
-        },
-        {
-          "id": "CVE-2026-20276",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening releases that…",
-          "date": "2026-09-02",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20276",
-          "kev": false,
-          "epss": 0.252
         }
       ]
     },
@@ -265,7 +261,7 @@
       "items": []
     },
     "Dell": {
-      "count": 49,
+      "count": 45,
       "items": [
         {
           "id": "CVE-2026-61410",
@@ -275,6 +271,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61410",
           "kev": false,
           "epss": 1.316
+        },
+        {
+          "id": "CVE-2026-80238",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Execution with Unnecessary Privileges vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability,…",
+          "date": "2026-09-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80238",
+          "kev": false,
+          "epss": 0.149
         },
         {
           "id": "CVE-2026-85506",
@@ -302,21 +307,53 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85508",
           "kev": false,
           "epss": 0.388
-        },
-        {
-          "id": "CVE-2026-79687",
-          "title": "Dell PowerStore SDNAS contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Filesystem access.",
-          "date": "2026-09-01",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79687",
-          "kev": false,
-          "epss": 0.27499999999999997
         }
       ]
     },
     "Fortinet": {
-      "count": 0,
-      "items": []
+      "count": 9,
+      "items": [
+        {
+          "id": "CVE-2026-26084",
+          "title": "A improper access control vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox Cloud 5.0.4 through 5.0.5, FortiSandbox PaaS 5.0.4 through 5.0.5 may allow attacker to access sensitive information via crafted HTTP…",
+          "date": "2026-09-08",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26084",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-84387",
+          "title": "A improper neutralization of special elements used in a command ('command injection') vulnerability in Fortinet FortiSandbox 5.2.0, FortiSandbox 5.0.0 through 5.0.6, FortiSandbox 4.4.0 through 4.4.9 may allow attacker to execute unauthorized code or commands via",
+          "date": "2026-09-08",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84387",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-84393",
+          "title": "A improper validation of certificate with host mismatch vulnerability in Fortinet FortiOS 7.6.1 through 7.6.6, FortiProxy 7.6.2 through 7.6.6 may allow attacker to information disclosure via",
+          "date": "2026-09-08",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84393",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-22575",
+          "title": "An improper access control vulnerability in Fortinet FortiManager 7.6.0 through 7.6.4, FortiManager 7.4.0 through 7.4.10, FortiManager 7.2 all versions, FortiManager Cloud 7.6.2 through 7.6.4, FortiManager Cloud 7.4.1 through 7.4.10, FortiManager Cloud 7.2 all versions may…",
+          "date": "2026-09-08",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22575",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-84385",
+          "title": "A improper access control vulnerability in Fortinet FortiSOAR PaaS 7.6.0 through 7.6.6, FortiSOAR PaaS 7.5.0 through 7.5.3, FortiSOAR PaaS 7.4 all versions, FortiSOAR PaaS 7.3 all versions, FortiSOAR on-premise 7.6.0 through 7.6.6, FortiSOAR on-premise 7.5.0…",
+          "date": "2026-09-08",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84385",
+          "kev": false
+        }
+      ]
     },
     "Lenovo": {
       "count": 0,
