@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T11:36:38.426Z",
+  "generatedAt": "2026-09-08T16:08:46.274Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,38 +12,38 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "AI&#8217;s Finance Challenge: Managing Token Spend Without Slowing Innovation",
+      "title": "Lockheed Martin Advances Workforce Transformation with SAP SuccessFactors Solutions",
       "date": "2026-09-08",
-      "summary": "AI token spend is emerging as a new enterprise resource—one that finance must learn to forecast, allocate, and optimize against the value it delivers.",
+      "summary": "BETHESDA — The leader in aerospace, defense and advanced technology solutions is modernizing its HR landscape with SAP.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/finance-challenge-managing-ai-token-spend/",
-      "count7d": 8
+      "url": "https://news.sap.com/2026/09/lockheed-martin-advances-workforce-transformation-sap-successfactors/",
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "What to Back Up First: SMB Data Priorities",
-      "date": "2026-09-03",
-      "summary": "Most small businesses don't lose everything at once. More often, they lose something nobody thought to protect. The post What to Back Up First: SMB Data Priorities appeared first on Veeam Software Official Blog .",
+      "title": "No Backup Gap: Introducing Veeam Backup &#038; Replication-Native OpenShift Protection",
+      "date": "2026-09-08",
+      "summary": "Picture this: You just migrated your first virtual machine (VM) from VMware vSphere to your Red Hat OpenShift cluster. You check the OpenShift console. The VM is live and happily serving production workloads. Looks perfect. Nothing seems wrong. The post No Backup Gap: Introducing Veeam Backup & Replication-Native OpenShift Protection appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/smb-backup-priorities.html",
-      "count7d": 3
+      "url": "https://www.veeam.com/blog/openshift-vm-protection.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Secure Email Secure/Multipurpose Internet Mail Extensions Ciphertext Decryption Vulnerabilities",
+      "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
       "date": "2026-09-08",
-      "summary": "Multiple vulnerabilities in the Secure/Multipurpose Internet Mail Extensions (S/MIME) decryption functionality of Cisco Secure Email could allow an unauthenticated, remote attacker to recover plain text from encrypted email messages. These vulnerabilities are due to insufficient validation of message integrity. An attacker could exploit these vulnerabilities by using a machine-in-the-middle technique to intercept and modify traffic between email gateways. A successful exploit could allow the attacker to obtain plaintext content from the encrypted communication. There are no workarounds that address these…",
+      "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user or admin &nbsp;or an unauthenticated attacker with physical access to an affected device to bypass UEFI Secure Boot validation checks and execute unauthorized software. This vulnerability is due to the availability of memory write commands in the UEFI Shell while UEFI Secure Boot is enabled…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-smime-disc-dzw4rEdY?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Secure/Multipurpose%20Internet%20Mail%20Extensions%20Ciphertext%20Decryption%20Vulnerabilities%26vs_k=1",
-      "count7d": 5
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
+      "count7d": 6
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Client-Side SDK Generation with VMware Cloud Foundation OpenAPI Specs",
-      "date": "2026-09-07",
-      "summary": "Starting with VMware Cloud Foundation (VCF) 9.0, VMware officially publishes OpenAPI specifications for VCF APIs. This is a major milestone for developers, enabling you to consume VCF APIs using your programming language of choice. VMware provides first-class developer tooling such as VCF PowerCLI for PowerShell users and the VCF SDK offering Java and Python bindings. &#8230; Continued The post Client-Side SDK Generation with VMware Cloud Foundation OpenAPI Specs appeared first on VMware Blogs .",
+      "title": "See How Organizations Achieved 137% ROI with VMware Cloud Foundation 9",
+      "date": "2026-09-08",
+      "summary": "Enterprises running private cloud face a common question: what does the investment actually deliver? To answer it, we commissioned Forrester Consulting to conduct an independent New Technology Total Economic Impact (TEI) study on VMware Cloud Foundation 9 (VCF 9). Forrester interviewed decision-makers at organizations running VCF 9 and surveyed additional customers to develop a composite &#8230; Continued The post See How Organizations Achieved 137% ROI with VMware Cloud Foundation 9 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/07/client-side-sdk-generation-with-vmware-cloud-foundation-openapi-specs/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/08/see-how-organizations-achieved-137-roi-with-vmware-cloud-foundation-9/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell AI Factory vs. HPE: Built for Day 2?",
-      "date": "2026-09-07",
-      "summary": "The platform choice you make today defines the AI operating model you'll live with tomorrow.",
+      "title": "How Much RAM Do You Need",
+      "date": "2026-09-08",
+      "summary": "Learn how RAM affects your computer's performance and what capacity works best for your needs. Explore general memory guidance for everyday use, gaming, and more, and find out when an upgrade can make a real difference.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/dell-ai-factory-vs-hpe-built-for-day-2/",
-      "count7d": 7
+      "url": "https://www.dell.com/en-us/blog/how-much-ram-do-you-need/",
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -161,7 +161,8 @@
           "date": "2026-09-08",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58240",
-          "kev": false
+          "kev": false,
+          "epss": 0.34299999999999997
         },
         {
           "id": "CVE-2026-66768",
@@ -169,7 +170,8 @@
           "date": "2026-09-08",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66768",
-          "kev": false
+          "kev": false,
+          "epss": 0.318
         },
         {
           "id": "CVE-2026-66767",
@@ -177,7 +179,8 @@
           "date": "2026-09-08",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66767",
-          "kev": false
+          "kev": false,
+          "epss": 0.26
         },
         {
           "id": "CVE-2026-76958",
@@ -185,7 +188,8 @@
           "date": "2026-09-08",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76958",
-          "kev": false
+          "kev": false,
+          "epss": 0.22300000000000003
         },
         {
           "id": "CVE-2026-76967",
@@ -193,7 +197,8 @@
           "date": "2026-09-08",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76967",
-          "kev": false
+          "kev": false,
+          "epss": 0.218
         }
       ]
     },
@@ -260,14 +265,41 @@
       "items": []
     },
     "Dell": {
-      "count": 58,
+      "count": 49,
       "items": [
+        {
+          "id": "CVE-2026-61410",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Missing Authorization vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to…",
+          "date": "2026-09-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61410",
+          "kev": false,
+          "epss": 1.316
+        },
         {
           "id": "CVE-2026-85506",
           "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _get_dell_system_info_idrac_info in ipmi-oem/ipmi-oem-dell.c (idrac-info subcommand to dell get-system-info).",
           "date": "2026-09-04",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85506",
+          "kev": false,
+          "epss": 0.388
+        },
+        {
+          "id": "CVE-2026-85507",
+          "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_info in ipmi-oem/ipmi-oem-dell.c (cmc-info subcommand to dell get-system-info).",
+          "date": "2026-09-04",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85507",
+          "kev": false,
+          "epss": 0.388
+        },
+        {
+          "id": "CVE-2026-85508",
+          "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).",
+          "date": "2026-09-04",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85508",
           "kev": false,
           "epss": 0.388
         },
@@ -279,33 +311,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79687",
           "kev": false,
           "epss": 0.27499999999999997
-        },
-        {
-          "id": "CVE-2026-73600",
-          "title": "Dell PowerProtect Data Manager, versions 20.2.0.0 and below, contain a stack buffer overflow vulnerability in file-level restore agent. A high privileged remote attacker could potentially exploit this vulnerability, leading to Information disclosure.",
-          "date": "2026-09-03",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73600",
-          "kev": false,
-          "epss": 0.183
-        },
-        {
-          "id": "CVE-2026-76111",
-          "title": "Dell PowerStore contains an Incorrect Authorization vulnerability. An authenticated attacker with low privileges could potentially exploit this vulnerability to invoke administrator-only operations, leading to privilege escalation.",
-          "date": "2026-09-01",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76111",
-          "kev": false,
-          "epss": 0.28600000000000003
-        },
-        {
-          "id": "CVE-2026-58575",
-          "title": "Dell PowerStore contains an Authentication Bypass by Spoofing vulnerability. An authenticated attacker could potentially exploit this vulnerability to escalate privileges to Administrator.",
-          "date": "2026-09-01",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58575",
-          "kev": false,
-          "epss": 0.299
         }
       ]
     },
