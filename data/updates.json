@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T06:19:20.912Z",
+  "generatedAt": "2026-09-08T11:36:38.426Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Built for the Long Haul: Commerce Innovation at Daimler Truck North America",
-      "date": "2026-09-07",
-      "summary": "Long-term, strategic commitment has improved how dealers and customers interact with the business.",
+      "title": "AI&#8217;s Finance Challenge: Managing Token Spend Without Slowing Innovation",
+      "date": "2026-09-08",
+      "summary": "AI token spend is emerging as a new enterprise resource—one that finance must learn to forecast, allocate, and optimize against the value it delivers.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/long-haul-commerce-innovation-daimler-truck-north-america/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/09/finance-challenge-managing-ai-token-spend/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "date": "2026-09-04",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "title": "Cisco Secure Email Secure/Multipurpose Internet Mail Extensions Ciphertext Decryption Vulnerabilities",
+      "date": "2026-09-08",
+      "summary": "Multiple vulnerabilities in the Secure/Multipurpose Internet Mail Extensions (S/MIME) decryption functionality of Cisco Secure Email could allow an unauthenticated, remote attacker to recover plain text from encrypted email messages. These vulnerabilities are due to insufficient validation of message integrity. An attacker could exploit these vulnerabilities by using a machine-in-the-middle technique to intercept and modify traffic between email gateways. A successful exploit could allow the attacker to obtain plaintext content from the encrypted communication. There are no workarounds that address these…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-smime-disc-dzw4rEdY?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Secure/Multipurpose%20Internet%20Mail%20Extensions%20Ciphertext%20Decryption%20Vulnerabilities%26vs_k=1",
       "count7d": 5
     },
     "VMware": {
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Expands Personal AI with Colorful New IdeaPad Vibe Series and IdeaCentre All-in-One AI PCs",
-      "date": "2026-09-03",
-      "summary": "These latest AI PCs combine thoughtful design with more intelligent, connected experiences across devices.",
+      "title": "Every Entrepreneur Needs Someone to Call: Lenovo and Eva Longoria Open a New Line of Support for Entrepreneurs with “Call…",
+      "date": "2026-09-08",
+      "summary": "The latest Backing Every Business activation gives entrepreneurs a new way to seek advice, share challenges and bring their biggest",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/colorful-ideapad-vibe-series-all-in-one-ai-pcs/",
-      "count7d": 8
+      "url": "https://news.lenovo.com/pressroom/press-releases/every-entrepreneur-needs-someone-to-call-lenovo-and-eva-longoria-open-a-new-line-of-support-for-entrepreneurs-with-call-eva/",
+      "count7d": 9
     },
     "Fortinet": {
       "vendor": "Fortinet",
