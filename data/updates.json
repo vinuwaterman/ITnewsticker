@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-08T22:01:05.383Z",
+  "generatedAt": "2026-09-09T00:05:01.340Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-50696 Internet Key Exchange (IKE) Protocol Denial of Service Vulnerability",
+      "title": "CVE-2026-62706 Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
       "date": "2026-09-08",
-      "summary": "Acknowledgement Updated",
+      "summary": "Out-of-bounds read in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50696",
-      "count7d": 1043
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62706",
+      "count7d": 1031
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "BETHESDA — The leader in aerospace, defense and advanced technology solutions is modernizing its HR landscape with SAP.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/lockheed-martin-advances-workforce-transformation-sap-successfactors/",
-      "count7d": 10
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Picture this: You just migrated your first virtual machine (VM) from VMware vSphere to your Red Hat OpenShift cluster. You check the OpenShift console. The VM is live and happily serving production workloads. Looks perfect. Nothing seems wrong. The post No Backup Gap: Introducing Veeam Backup & Replication-Native OpenShift Protection appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/openshift-vm-protection.html",
-      "count7d": 4
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the&nbsp;Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening releases that address multiple internally discovered vulnerabilities. The vulnerabilities tracked by CVE-2026-20280 are related to improper checking or handling of exceptional condition issues that are grouped under the Common Weakness Enumeration (CWE) CWE-703. As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "count7d": 6
+      "count7d": 3
     },
     "VMware": {
       "vendor": "VMware",
@@ -62,7 +62,7 @@
       "summary": "Key takeaways 5 min read The Arizona Cardinals modernized their infrastructure with Dell Technologies and its partner Integrated Media Technologies,&#160;&#8230;",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/building-an-ai-ready-foundation-the-arizona-cardinals-story/",
-      "count7d": 10
+      "count7d": 7
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -89,15 +89,15 @@
       "summary": "",
       "category": "patch",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
-      "count7d": 3
+      "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
