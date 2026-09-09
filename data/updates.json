@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-09T17:56:57.359Z",
+  "generatedAt": "2026-09-09T20:39:00.389Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium: CVE-2026-85046 Type confusion in V8",
+      "title": "CVE-2026-45499 Azure OpenAI Elevation of Privilege Vulnerability",
       "date": "2026-09-09",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information. Google is aware that an exploit for CVE-2026-85046 exists in the wild.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85046",
-      "count7d": 1032
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45499",
+      "count7d": 1037
     },
     "SAP": {
       "vendor": "SAP",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
+      "date": "2026-09-02",
+      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
       "count7d": 1
     }
   },
