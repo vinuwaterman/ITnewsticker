@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T05:01:31.162Z",
+  "generatedAt": "2026-09-09T10:01:25.472Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Every Entrepreneur Needs Someone to Call: Lenovo and Eva Longoria Open a New Line of Support for Entrepreneurs with “Call…",
-      "date": "2026-09-08",
-      "summary": "The latest Backing Every Business activation gives entrepreneurs a new way to seek advice, share challenges and bring their biggest",
+      "title": "Lenovo Makes Fast Company’s Eighth Annual List of the Best Workplaces for Innovators in AI, Automation and Machine Learning Experience…",
+      "date": "2026-09-09",
+      "summary": "Fast Company today announced its eighth annual Best Workplaces for Innovators list, recognizing businesses that are creating cultures where innovation can thrive at every level.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/every-entrepreneur-needs-someone-to-call-lenovo-and-eva-longoria-open-a-new-line-of-support-for-entrepreneurs-with-call-eva/",
-      "count7d": 9
+      "url": "https://news.lenovo.com/pressroom/press-releases/fast-companys-best-workplaces-for-innovators-2026/",
+      "count7d": 12
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -84,20 +84,20 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks",
-      "date": "2026-09-02",
+      "title": "September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs",
+      "date": "2026-09-08",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
+      "category": "critical",
+      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/",
       "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
+      "date": "2026-09-02",
+      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
       "count7d": 1
     }
   },
@@ -261,7 +261,7 @@
       "items": []
     },
     "Dell": {
-      "count": 45,
+      "count": 58,
       "items": [
         {
           "id": "CVE-2026-61410",
