@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T18:10:47.936Z",
+  "generatedAt": "2026-09-10T21:06:01.442Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Secure AI Coding: Governing every agent, artifact, and identity",
-      "date": "2026-09-10",
-      "summary": "Enterprises are seeing an unprecedented surge in AI coding adoption with spend on AI coding tools projected to top $13 billion in this calendar year1, compounding at more than 60% annually. For &#8230; The post Secure AI Coding: Governing every agent, artifact, and identity appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/secure-ai-coding-governing-every-agent-artifact-and-identity/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
