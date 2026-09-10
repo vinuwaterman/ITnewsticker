@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T14:54:20.757Z",
+  "generatedAt": "2026-09-10T18:10:47.936Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Disaster Recovery You Can Prove, Not Just Plan",
+      "title": "Veeam Expands Palo Alto Networks Cortex Integrations for Deeper Investigation and Response",
       "date": "2026-09-10",
-      "summary": "Every organization has a DR plan. It’s probably documented somewhere, maybe even recently updated. But there’s a question that most backup admins know the answer to and would rather not be asked: when was the last time you actually proved it works? The post Disaster Recovery You Can Prove, Not Just Plan appeared first on Veeam Software Official Blog .",
-      "category": "feature",
-      "url": "https://www.veeam.com/blog/orchestrated-cloud-recovery.html",
-      "count7d": 3
+      "summary": "Security teams rely on signals from across the environment to understand and respond to cyber threats. But critical activity within the backup environment can remain disconnected from the tools and workflows used by the SOC. The post Veeam Expands Palo Alto Networks Cortex Integrations for Deeper Investigation and Response appeared first on Veeam Software Official Blog .",
+      "category": "critical",
+      "url": "https://www.veeam.com/blog/veeam-cortex-xsoar-investigation-response.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 113,
+      "count": 118,
       "items": [
         {
           "id": "CVE-2026-61410",
