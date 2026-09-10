@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T10:48:29.761Z",
+  "generatedAt": "2026-09-10T14:54:20.757Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,28 +12,28 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Lockheed Martin Advances Workforce Transformation with SAP SuccessFactors Solutions",
-      "date": "2026-09-08",
-      "summary": "BETHESDA — The leader in aerospace, defense and advanced technology solutions is modernizing its HR landscape with SAP.",
+      "title": "When a Store Starts Thinking",
+      "date": "2026-09-10",
+      "summary": "In the heart of SoHo, every storefront competes for attention. During New York Fashion Week (NYFW), SAP is helping bring a fashion retail store to...",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/lockheed-martin-advances-workforce-transformation-sap-successfactors/",
-      "count7d": 6
+      "url": "https://news.sap.com/2026/09/sap-nyfw-collections-store-starts-thinking/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "How to Upgrade to Veeam Data Platform v13.1 in Four Simple Steps",
+      "title": "Disaster Recovery You Can Prove, Not Just Plan",
       "date": "2026-09-10",
-      "summary": "You're here, so you already know V13.1 has landed and you want in. The only question left is how to get updated without giving up your evenings or weekends. Good news is, you can get things up and running in just four steps, and most of the work happens before you even run the installer. The post How to Upgrade to Veeam Data Platform v13.1 in Four Simple Steps appeared first on Veeam Software Official Blog .",
+      "summary": "Every organization has a DR plan. It’s probably documented somewhere, maybe even recently updated. But there’s a question that most backup admins know the answer to and would rather not be asked: when was the last time you actually proved it works? The post Disaster Recovery You Can Prove, Not Just Plan appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/upgrade-veeam-data-platform-v13-1.html",
-      "count7d": 2
+      "url": "https://www.veeam.com/blog/orchestrated-cloud-recovery.html",
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "date": "2026-09-09",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the&nbsp;Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening releases that address multiple internally discovered vulnerabilities. The vulnerabilities tracked by CVE-2026-20280 are related to improper checking or handling of exceptional condition issues that are grouped under the Common Weakness Enumeration (CWE) CWE-703. As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS…",
-      "category": "patch",
+      "date": "2026-09-10",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
+      "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
       "count7d": 5
     },
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Building an AI-Ready Foundation: The Arizona Cardinals Story",
-      "date": "2026-09-08",
-      "summary": "Key takeaways 5 min read The Arizona Cardinals modernized their infrastructure with Dell Technologies and its partner Integrated Media Technologies,&#160;&#8230;",
+      "title": "Sovereign AI for the Supply Chain, Built on Infrastructure You Control",
+      "date": "2026-09-10",
+      "summary": "Running Palantir Foundry and Ontology on the Dell AI Factory with NVIDIA delivers an on-premises, sovereign AI foundation, bringing together data, software and infrastructure to help organizations move from AI pilots to governed production decisions.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/building-an-ai-ready-foundation-the-arizona-cardinals-story/",
-      "count7d": 6
+      "url": "https://www.dell.com/en-us/blog/sovereign-ai-for-the-supply-chain-built-on-infrastructure-you-control/",
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program",
-      "date": "2026-09-02",
-      "summary": "A secure workspace for your team - so you can focus on building, not on what could go wrong. Every customer support agent starts their day the same way: opening a browser, &#8230; The post Building Securely From Day One: Palo Alto Networks Partners with the Zendesk Startup Program appeared first on Palo Alto Networks Blog .",
+      "title": "Secure AI Coding: Governing every agent, artifact, and identity",
+      "date": "2026-09-10",
+      "summary": "Enterprises are seeing an unprecedented surge in AI coding adoption with spend on AI coding tools projected to top $13 billion in this calendar year1, compounding at more than 60% annually. For &#8230; The post Secure AI Coding: Governing every agent, artifact, and identity appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/building-securely-from-day-one-palo-alto-networks-partners-with-the-zendesk-startup-program/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/secure-ai-coding-governing-every-agent-artifact-and-identity/",
       "count7d": 1
     }
   },
@@ -153,7 +153,7 @@
       ]
     },
     "SAP": {
-      "count": 16,
+      "count": 17,
       "items": [
         {
           "id": "CVE-2026-58240",
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 117,
+      "count": 113,
       "items": [
         {
           "id": "CVE-2026-61410",
@@ -349,7 +349,8 @@
           "date": "2026-09-10",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0305",
-          "kev": false
+          "kev": false,
+          "epss": 0.099
         },
         {
           "id": "CVE-2026-0306",
@@ -357,7 +358,8 @@
           "date": "2026-09-10",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0306",
-          "kev": false
+          "kev": false,
+          "epss": 0.105
         },
         {
           "id": "CVE-2026-0307",
@@ -365,7 +367,8 @@
           "date": "2026-09-10",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0307",
-          "kev": false
+          "kev": false,
+          "epss": 0.105
         },
         {
           "id": "CVE-2026-0308",
@@ -373,7 +376,8 @@
           "date": "2026-09-10",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0308",
-          "kev": false
+          "kev": false,
+          "epss": 0.265
         },
         {
           "id": "CVE-2026-0309",
@@ -381,7 +385,8 @@
           "date": "2026-09-10",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0309",
-          "kev": false
+          "kev": false,
+          "epss": 0.447
         }
       ]
     }
