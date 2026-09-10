@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T05:49:51.424Z",
+  "generatedAt": "2026-09-10T10:48:29.761Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "No Backup Gap: Introducing Veeam Backup &#038; Replication-Native OpenShift Protection",
-      "date": "2026-09-08",
-      "summary": "Picture this: You just migrated your first virtual machine (VM) from VMware vSphere to your Red Hat OpenShift cluster. You check the OpenShift console. The VM is live and happily serving production workloads. Looks perfect. Nothing seems wrong. The post No Backup Gap: Introducing Veeam Backup & Replication-Native OpenShift Protection appeared first on Veeam Software Official Blog .",
+      "title": "How to Upgrade to Veeam Data Platform v13.1 in Four Simple Steps",
+      "date": "2026-09-10",
+      "summary": "You're here, so you already know V13.1 has landed and you want in. The only question left is how to get updated without giving up your evenings or weekends. Good news is, you can get things up and running in just four steps, and most of the work happens before you even run the installer. The post How to Upgrade to Veeam Data Platform v13.1 in Four Simple Steps appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/openshift-vm-protection.html",
-      "count7d": 1
+      "url": "https://www.veeam.com/blog/upgrade-veeam-data-platform-v13-1.html",
+      "count7d": 2
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -341,8 +341,49 @@
       "items": []
     },
     "Palo Alto Networks": {
-      "count": 0,
-      "items": []
+      "count": 9,
+      "items": [
+        {
+          "id": "CVE-2026-0305",
+          "title": "An information disclosure vulnerability in the Palo Alto Networks Prisma® Access Agent on Linux enables a local user to access sensitive configuration data and credentials. The Prisma Access Agent on macOS, Windows, iOS, Android and…",
+          "date": "2026-09-10",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0305",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0306",
+          "title": "A vulnerability in the EndPoint Data Loss Prevention (DLP) enforcement of Palo Alto Networks Prisma® Access Agent enables a local user to bypass configured DLP policy enforcement controls and exfiltrate sensitive data. This Prisma Access…",
+          "date": "2026-09-10",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0306",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0307",
+          "title": "Multiple local privilege escalation vulnerabilities in the Palo Alto Networks GlobalProtect™ app allows a local user to escalate their privileges to NT AUTHORITY\\SYSTEM on Windows and root on macOS and Linux. This enables a non-administrative…",
+          "date": "2026-09-10",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0307",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0308",
+          "title": "A stored cross-site scripting (XSS) vulnerability in Palo Alto Networks PAN-OS® software enables a malicious authenticated administrator to store or execute a JavaScript payload using the web interface. This issue is applicable to PAN-OS software…",
+          "date": "2026-09-10",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0308",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0309",
+          "title": "A command injection vulnerability in Palo Alto Networks PAN-OS® software enables an authenticated administrator to bypass system restrictions and run arbitrary commands as a root user. To be able to exploit this issue, the user…",
+          "date": "2026-09-10",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0309",
+          "kev": false
+        }
+      ]
     }
   }
 }
