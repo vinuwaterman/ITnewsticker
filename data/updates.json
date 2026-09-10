@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:59:56.865Z",
+  "generatedAt": "2026-09-10T00:59:54.635Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information. Google is aware that an exploit for CVE-2026-85046 exists in the wild.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85046",
-      "count7d": 1040
+      "count7d": 1036
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "BETHESDA — The leader in aerospace, defense and advanced technology solutions is modernizing its HR landscape with SAP.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/lockheed-martin-advances-workforce-transformation-sap-successfactors/",
-      "count7d": 8
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Picture this: You just migrated your first virtual machine (VM) from VMware vSphere to your Red Hat OpenShift cluster. You check the OpenShift console. The VM is live and happily serving production workloads. Looks perfect. Nothing seems wrong. The post No Backup Gap: Introducing Veeam Backup & Replication-Native OpenShift Protection appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/openshift-vm-protection.html",
-      "count7d": 3
+      "count7d": 1
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -44,7 +44,7 @@
       "summary": "In this episode of VCF Breakroom Chats, Anika Suri sits down with Abhishek Rao from Tigera, the company behind Project Calico, to discuss a critical aspect of running Kubernetes in production: networking and security. Want to learn more about this partnership? Check out the Kubernetes Ecosystem Partners page for more resources. Read this blog post. About &#8230; Continued The post VCF Breakroom Chats Episode 94: Supercharging VKS Networking with Tigera appeared first on VMware Blogs .",
       "category": "critical",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/09/08/vcf-breakroom-chats-episode-94-supercharging-vks-networking-with-tigera/",
-      "count7d": 10
+      "count7d": 4
     },
     "AWS": {
       "vendor": "AWS",
@@ -62,7 +62,7 @@
       "summary": "Key takeaways 5 min read The Arizona Cardinals modernized their infrastructure with Dell Technologies and its partner Integrated Media Technologies,&#160;&#8230;",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/building-an-ai-ready-foundation-the-arizona-cardinals-story/",
-      "count7d": 8
+      "count7d": 6
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Fifty-four middle and high school students visited Lenovo’s Morrisville, North Carolina, campus to meet company leaders, explore tech, and imagine the future.",
       "category": "feature",
       "url": "https://news.lenovo.com/nate-mcmillan-foundation-campers-technology-career-paths/",
-      "count7d": 13
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
