@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T21:06:01.442Z",
+  "generatedAt": "2026-09-10T23:21:27.945Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall",
+      "date": "2026-09-10",
+      "summary": "Securing Every Environment at the Speed of Frontier AI Recognized as a Leader for the second consecutive time and positioned furthest for Completeness of Vision. Palo Alto Networks is advancing hybrid mesh &#8230; The post Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
+      "count7d": 2
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 215,
+      "count": 211,
       "items": [
         {
           "id": "CVE-2026-75156",
@@ -113,24 +113,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75156",
           "kev": false,
           "epss": 0.183
-        },
-        {
-          "id": "CVE-2026-62916",
-          "title": "Authentication bypass using an alternate path or channel in Microsoft Entra ID allows an unauthorized attacker to elevate privileges over a network.",
-          "date": "2026-09-03",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62916",
-          "kev": false,
-          "epss": 0.598
-        },
-        {
-          "id": "CVE-2026-83711",
-          "title": "Authorization bypass through user-controlled key in Microsoft Azure Active Directory B2C allows an unauthorized attacker to elevate privileges over a network.",
-          "date": "2026-09-03",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83711",
-          "kev": false,
-          "epss": 0.582
         },
         {
           "id": "CVE-2026-55007",
@@ -149,6 +131,24 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56198",
           "kev": false,
           "epss": 0.245
+        },
+        {
+          "id": "CVE-2026-58599",
+          "title": "Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to execute code locally.",
+          "date": "2026-09-08",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58599",
+          "kev": false,
+          "epss": 0.325
+        },
+        {
+          "id": "CVE-2026-58600",
+          "title": "Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to elevate privileges locally.",
+          "date": "2026-09-08",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58600",
+          "kev": false,
+          "epss": 0.33
         }
       ]
     },
@@ -329,8 +329,41 @@
       ]
     },
     "Lenovo": {
-      "count": 0,
-      "items": []
+      "count": 4,
+      "items": [
+        {
+          "id": "CVE-2026-75940",
+          "title": "A vulnerability was reported in Lenovo Health Android Application, distributed exclusively in the Chinese market, that could allow an attacker to access sensitive health-related information.",
+          "date": "2026-09-10",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75940",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-11813",
+          "title": "A potential improper permissions vulnerability was reported in the Lenovo Filez Client application that could allow a local authenticated user to escalate privileges.",
+          "date": "2026-09-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11813",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-18994",
+          "title": "A potential improper authorization vulnerability was reported in the Lenovo File Manager Android Application, distributed exclusively in the Chinese market, that could allow a local authenticated user to read or modify protected files within the…",
+          "date": "2026-09-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18994",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-63427",
+          "title": "An authentication bypass vulnerability was discovered in Lenovo Software Fix that could allow a local authenticated user to perform arbitrary code execution with elevated privileges.",
+          "date": "2026-09-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63427",
+          "kev": false
+        }
+      ]
     },
     "Mimecast": {
       "count": 0,
