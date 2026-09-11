@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T21:52:07.194Z",
+  "generatedAt": "2026-09-11T23:55:35.868Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77490",
-      "count7d": 1078
+      "count7d": 1080
     },
     "SAP": {
       "vendor": "SAP",
