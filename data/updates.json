@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-11T19:08:14.098Z",
+  "generatedAt": "2026-09-11T21:52:07.194Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69461 Windows NTFS Remote Code Execution Vulnerability",
+      "title": "CVE-2026-77490 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
       "date": "2026-09-11",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69461",
-      "count7d": 1058
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77490",
+      "count7d": 1078
     },
     "SAP": {
       "vendor": "SAP",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 212,
+      "count": 213,
       "items": [
         {
           "id": "CVE-2026-75156",
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 115,
+      "count": 116,
       "items": [
         {
           "id": "CVE-2026-61410",
