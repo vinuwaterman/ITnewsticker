@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-11T16:00:55.567Z",
+  "generatedAt": "2026-09-11T19:08:14.098Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium: CVE-2025-1920 Type Confusion in V8",
+      "title": "CVE-2026-69461 Windows NTFS Remote Code Execution Vulnerability",
       "date": "2026-09-11",
-      "summary": "Information published.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1920",
-      "count7d": 1037
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69461",
+      "count7d": 1058
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Sovereign AI for the Supply Chain, Built on Infrastructure You Control",
-      "date": "2026-09-10",
-      "summary": "Running Palantir Foundry and Ontology on the Dell AI Factory with NVIDIA delivers an on-premises, sovereign AI foundation, bringing together data, software and infrastructure to help organizations move from AI pilots to governed production decisions.",
+      "title": "The Hardest Part Of Private Cloud Isn&#8217;t The Hypervisor",
+      "date": "2026-09-11",
+      "summary": "The truth about private cloud: the hardest work happens below the hypervisor. Dell's been solving it for a decade.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/sovereign-ai-for-the-supply-chain-built-on-infrastructure-you-control/",
+      "url": "https://www.dell.com/en-us/blog/the-hardest-part-of-private-cloud-isn-t-the-hypervisor/",
       "count7d": 10
     },
     "Lenovo": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 211,
+      "count": 212,
       "items": [
         {
           "id": "CVE-2026-75156",
