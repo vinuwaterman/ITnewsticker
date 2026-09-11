@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-11T06:28:14.954Z",
+  "generatedAt": "2026-09-11T11:43:55.816Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium: CVE-2026-85046 Type confusion in V8",
-      "date": "2026-09-09",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information. Google is aware that an exploit for CVE-2026-85046 exists in the wild.",
+      "title": "Chromium: CVE-2025-1920 Type Confusion in V8",
+      "date": "2026-09-11",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85046",
-      "count7d": 1035
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1920",
+      "count7d": 1037
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "When a Store Starts Thinking",
-      "date": "2026-09-10",
-      "summary": "In the heart of SoHo, every storefront competes for attention. During New York Fashion Week (NYFW), SAP is helping bring a fashion retail store to...",
+      "title": "SAP Certification Marks 30 Years of Validating Skills for an Evolving World of Work",
+      "date": "2026-09-11",
+      "summary": "It's been three decades of helping professionals across the SAP ecosystem validate their expertise and demonstrate their skills.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sap-nyfw-collections-store-starts-thinking/",
-      "count7d": 6
+      "url": "https://news.sap.com/2026/09/sap-certification-30-years-validating-skills/",
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo improves threat detection accuracy 20x with its own AI-powered Security Operations Center",
+      "title": "Lenovo powers a first-of-its-kind data dashboard for Ducati’s next generation of racing talent",
       "date": "2026-09-11",
-      "summary": "Protecting 140,000 devices across 150 countries, Lenovo’s AI-powered Security Operations Center reduced mean time to detect attacks by 87.5% while enabling cybersecurity experts to focus on the threats that matter most.",
-      "category": "patch",
-      "url": "https://news.lenovo.com/threat-detection-accuracy-20x-ai-powered-security-operations-center/",
-      "count7d": 6
+      "summary": "‘Lenovo Race Performance Analysis’ gives young riders the same caliber of performance insight as professional racers, while giving fans unprecedented access to that data",
+      "category": "feature",
+      "url": "https://news.lenovo.com/powers-first-kind-data-dashboard-ducati-next-generation-racing-talent/",
+      "count7d": 7
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall",
-      "date": "2026-09-10",
-      "summary": "Securing Every Environment at the Speed of Frontier AI Recognized as a Leader for the second consecutive time and positioned furthest for Completeness of Vision. Palo Alto Networks is advancing hybrid mesh &#8230; The post Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall appeared first on Palo Alto Networks Blog .",
+      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
+      "date": "2026-08-21",
+      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "count7d": 1
     }
   },
   "nvd": {
