@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T23:21:27.945Z",
+  "generatedAt": "2026-09-11T01:22:31.429Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information. Google is aware that an exploit for CVE-2026-85046 exists in the wild.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85046",
-      "count7d": 1036
+      "count7d": 1035
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "In the heart of SoHo, every storefront competes for attention. During New York Fashion Week (NYFW), SAP is helping bring a fashion retail store to...",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-nyfw-collections-store-starts-thinking/",
-      "count7d": 8
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo hosts Nate McMillan Foundation Campers to explore technology and career paths",
-      "date": "2026-09-09",
-      "summary": "Fifty-four middle and high school students visited Lenovo’s Morrisville, North Carolina, campus to meet company leaders, explore tech, and imagine the future.",
-      "category": "feature",
-      "url": "https://news.lenovo.com/nate-mcmillan-foundation-campers-technology-career-paths/",
-      "count7d": 5
+      "title": "Lenovo improves threat detection accuracy 20x with its own AI-powered Security Operations Center",
+      "date": "2026-09-11",
+      "summary": "Protecting 140,000 devices across 150 countries, Lenovo’s AI-powered Security Operations Center reduced mean time to detect attacks by 87.5% while enabling cybersecurity experts to focus on the threats that matter most.",
+      "category": "patch",
+      "url": "https://news.lenovo.com/threat-detection-accuracy-20x-ai-powered-security-operations-center/",
+      "count7d": 6
     },
     "Fortinet": {
       "vendor": "Fortinet",
