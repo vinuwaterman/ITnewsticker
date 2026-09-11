@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T01:22:31.429Z",
+  "generatedAt": "2026-09-11T06:28:14.954Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 118,
+      "count": 115,
       "items": [
         {
           "id": "CVE-2026-61410",
@@ -250,31 +250,31 @@
           "epss": 0.149
         },
         {
-          "id": "CVE-2026-85506",
-          "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _get_dell_system_info_idrac_info in ipmi-oem/ipmi-oem-dell.c (idrac-info subcommand to dell get-system-info).",
-          "date": "2026-09-04",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85506",
+          "id": "CVE-2026-61409",
+          "title": "Dell Secure Connect Gateway (SCG) 5.0 Application, versions prior to 5.36.00.00, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. An unauthenticated attacker with remote access could potentially…",
+          "date": "2026-09-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61409",
           "kev": false,
-          "epss": 0.388
+          "epss": 1.354
         },
         {
-          "id": "CVE-2026-85507",
-          "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_info in ipmi-oem/ipmi-oem-dell.c (cmc-info subcommand to dell get-system-info).",
-          "date": "2026-09-04",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85507",
+          "id": "CVE-2026-80132",
+          "title": "ell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this…",
+          "date": "2026-09-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80132",
           "kev": false,
-          "epss": 0.388
+          "epss": 0.35200000000000004
         },
         {
-          "id": "CVE-2026-85508",
-          "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).",
-          "date": "2026-09-04",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85508",
+          "id": "CVE-2026-80133",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Relative Path Traversal vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading…",
+          "date": "2026-09-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80133",
           "kev": false,
-          "epss": 0.388
+          "epss": 0.5349999999999999
         }
       ]
     },
