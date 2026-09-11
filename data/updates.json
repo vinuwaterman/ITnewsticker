@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:43:55.816Z",
+  "generatedAt": "2026-09-11T16:00:55.567Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -31,7 +31,7 @@
     "Cisco": {
       "vendor": "Cisco",
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall",
+      "date": "2026-09-10",
+      "summary": "Securing Every Environment at the Speed of Frontier AI Recognized as a Leader for the second consecutive time and positioned furthest for Completeness of Vision. Palo Alto Networks is advancing hybrid mesh &#8230; The post Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
+      "count7d": 2
     }
   },
   "nvd": {
@@ -153,7 +153,7 @@
       ]
     },
     "SAP": {
-      "count": 17,
+      "count": 16,
       "items": [
         {
           "id": "CVE-2026-58240",
@@ -279,8 +279,16 @@
       ]
     },
     "Fortinet": {
-      "count": 9,
+      "count": 10,
       "items": [
+        {
+          "id": "CVE-2026-84390",
+          "title": "A inclusion of sensitive information in source code vulnerability in Fortinet FortiMonitorOnSight 7.2.4 through 7.2.7, FortiMonitorOnSight 7.2.0 through 7.2.2 may allow attacker to improper access control via",
+          "date": "2026-09-11",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84390",
+          "kev": false
+        },
         {
           "id": "CVE-2026-26084",
           "title": "A improper access control vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox Cloud 5.0.4 through 5.0.5, FortiSandbox PaaS 5.0.4 through 5.0.5 may allow attacker to access sensitive information via crafted HTTP…",
@@ -316,15 +324,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22575",
           "kev": false,
           "epss": 0.245
-        },
-        {
-          "id": "CVE-2026-84385",
-          "title": "A improper access control vulnerability in Fortinet FortiSOAR PaaS 7.6.0 through 7.6.6, FortiSOAR PaaS 7.5.0 through 7.5.3, FortiSOAR PaaS 7.4 all versions, FortiSOAR PaaS 7.3 all versions, FortiSOAR on-premise 7.6.0 through 7.6.6, FortiSOAR on-premise 7.5.0…",
-          "date": "2026-09-08",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84385",
-          "kev": false,
-          "epss": 0.13799999999999998
         }
       ]
     },
@@ -337,7 +336,8 @@
           "date": "2026-09-10",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75940",
-          "kev": false
+          "kev": false,
+          "epss": 0.28700000000000003
         },
         {
           "id": "CVE-2026-11813",
@@ -345,7 +345,8 @@
           "date": "2026-09-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11813",
-          "kev": false
+          "kev": false,
+          "epss": 0.1
         },
         {
           "id": "CVE-2026-18994",
@@ -353,7 +354,8 @@
           "date": "2026-09-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18994",
-          "kev": false
+          "kev": false,
+          "epss": 0.099
         },
         {
           "id": "CVE-2026-63427",
@@ -361,7 +363,8 @@
           "date": "2026-09-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63427",
-          "kev": false
+          "kev": false,
+          "epss": 0.13699999999999998
         }
       ]
     },
