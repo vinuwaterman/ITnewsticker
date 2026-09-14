@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T23:21:45.311Z",
+  "generatedAt": "2026-09-14T01:25:25.696Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -17,7 +17,7 @@
       "summary": "It's been three decades of helping professionals across the SAP ecosystem validate their expertise and demonstrate their skills.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-certification-30-years-validating-skills/",
-      "count7d": 7
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -44,7 +44,7 @@
       "summary": "In this episode of VCF Breakroom Chats, Anika Suri sits down with Abhishek Rao from Tigera, the company behind Project Calico, to discuss a critical aspect of running Kubernetes in production: networking and security. Want to learn more about this partnership? Check out the Kubernetes Ecosystem Partners page for more resources. Read this blog post. About &#8230; Continued The post VCF Breakroom Chats Episode 94: Supercharging VKS Networking with Tigera appeared first on VMware Blogs .",
       "category": "critical",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/09/08/vcf-breakroom-chats-episode-94-supercharging-vks-networking-with-tigera/",
-      "count7d": 4
+      "count7d": 3
     },
     "AWS": {
       "vendor": "AWS",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall",
-      "date": "2026-09-10",
-      "summary": "Securing Every Environment at the Speed of Frontier AI Recognized as a Leader for the second consecutive time and positioned furthest for Completeness of Vision. Palo Alto Networks is advancing hybrid mesh &#8230; The post Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
