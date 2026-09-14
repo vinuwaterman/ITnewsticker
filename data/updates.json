@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T06:48:15.815Z",
+  "generatedAt": "2026-09-14T13:43:20.704Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Hardest Part Of Private Cloud Isn&#8217;t The Hypervisor",
-      "date": "2026-09-11",
-      "summary": "The truth about private cloud: the hardest work happens below the hypervisor. Dell's been solving it for a decade.",
+      "title": "Portable Intelligence: Why AI Belongs Where Work Happens",
+      "date": "2026-09-14",
+      "summary": "Portable intelligence is reshaping enterprise AI. Open-weight models let organizations choose where AI runs, from the desk to the data center.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-hardest-part-of-private-cloud-isn-t-the-hypervisor/",
+      "url": "https://www.dell.com/en-us/blog/portable-intelligence-why-ai-belongs-where-work-happens/",
       "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo powers a first-of-its-kind data dashboard for Ducati’s next generation of racing talent",
-      "date": "2026-09-11",
-      "summary": "‘Lenovo Race Performance Analysis’ gives young riders the same caliber of performance insight as professional racers, while giving fans unprecedented access to that data",
+      "title": "Lenovo Recognized Among TIME’s World’s Best Companies 2026, Ranked No. 51 Globally",
+      "date": "2026-09-14",
+      "summary": "Lenovo achieved an overall score of 87.51, with its growth performance categorized as \"Very High.\"",
       "category": "feature",
-      "url": "https://news.lenovo.com/powers-first-kind-data-dashboard-ducati-next-generation-racing-talent/",
-      "count7d": 7
+      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-recognized-among-times-worlds-best-companies-2026-ranked-no-51-globally/",
+      "count7d": 8
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall",
+      "date": "2026-09-10",
+      "summary": "Securing Every Environment at the Speed of Frontier AI Recognized as a Leader for the second consecutive time and positioned furthest for Completeness of Vision. Palo Alto Networks is advancing hybrid mesh &#8230; The post Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Hybrid Mesh Firewall appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
+      "count7d": 2
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 213,
+      "count": 214,
       "items": [
         {
           "id": "CVE-2026-75156",
@@ -229,52 +229,52 @@
       "items": []
     },
     "Dell": {
-      "count": 116,
+      "count": 108,
       "items": [
         {
-          "id": "CVE-2026-61410",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Missing Authorization vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to…",
-          "date": "2026-09-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61410",
-          "kev": false,
-          "epss": 1.25
-        },
-        {
-          "id": "CVE-2026-80238",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Execution with Unnecessary Privileges vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability,…",
-          "date": "2026-09-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80238",
-          "kev": false,
-          "epss": 0.14200000000000002
-        },
-        {
-          "id": "CVE-2026-61409",
-          "title": "Dell Secure Connect Gateway (SCG) 5.0 Application, versions prior to 5.36.00.00, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. An unauthenticated attacker with remote access could potentially…",
+          "id": "CVE-2026-80130",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Relative Path Traversal vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability,…",
           "date": "2026-09-07",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61409",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80130",
           "kev": false,
-          "epss": 1.354
+          "epss": 0.39699999999999996
         },
         {
-          "id": "CVE-2026-80132",
-          "title": "ell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this…",
+          "id": "CVE-2026-80131",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability. An unauthenticated attacker with…",
           "date": "2026-09-07",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80132",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80131",
           "kev": false,
-          "epss": 0.35200000000000004
+          "epss": 0.49300000000000005
         },
         {
-          "id": "CVE-2026-80133",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Relative Path Traversal vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading…",
+          "id": "CVE-2026-80164",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Certificate Validation vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading…",
           "date": "2026-09-07",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80133",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80164",
           "kev": false,
-          "epss": 0.599
+          "epss": 0.151
+        },
+        {
+          "id": "CVE-2026-78480",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this…",
+          "date": "2026-09-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78480",
+          "kev": false,
+          "epss": 0.305
+        },
+        {
+          "id": "CVE-2026-79644",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Certificate Validation vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading…",
+          "date": "2026-09-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79644",
+          "kev": false,
+          "epss": 0.15
         }
       ]
     },
