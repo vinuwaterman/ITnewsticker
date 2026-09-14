@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:04:55.471Z",
+  "generatedAt": "2026-09-14T22:40:04.328Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Expands Palo Alto Networks Cortex Integrations for Deeper Investigation and Response",
-      "date": "2026-09-10",
-      "summary": "Security teams rely on signals from across the environment to understand and respond to cyber threats. But critical activity within the backup environment can remain disconnected from the tools and workflows used by the SOC. The post Veeam Expands Palo Alto Networks Cortex Integrations for Deeper Investigation and Response appeared first on Veeam Software Official Blog .",
-      "category": "critical",
-      "url": "https://www.veeam.com/blog/veeam-cortex-xsoar-investigation-response.html",
-      "count7d": 4
+      "title": "Silent Ransom Group: Zero-Encryption Cyber Extortion",
+      "date": "2026-09-14",
+      "summary": "An employee takes a call from a friendly voice claiming to be internal IT. The caller is following up on an issue and finishing it should only take a few minutes. The employee cannot recall opening a ticket, and with work waiting, they download the “help tool” as instructed, approve remote access to the computer, and get back to what they were doing. The whole thing is forgotten by lunch. The post Silent Ransom Group: Zero-Encryption Cyber Extortion appeared first…",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/silent-ransom-group-luna-moth.html",
+      "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
+      "date": "2026-09-14",
+      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
+      "count7d": 3
     }
   },
   "nvd": {
@@ -174,6 +174,15 @@
           "epss": 0.318
         },
         {
+          "id": "CVE-2026-88879",
+          "title": "Traefik is an HTTP reverse proxy and load balancer. In Traefik v1.x, v2.x through v2.11.55, and v3.0.0 through v3.7.11, header names are canonicalized only on dashes, so X-Auth-User, X_Auth_User and X.Auth.User are treated as three…",
+          "date": "2026-09-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88879",
+          "kev": false,
+          "epss": 0.265
+        },
+        {
           "id": "CVE-2026-66767",
           "title": "SAP NetWeaver Application Server for ABAP and ABAP Platform allows an unauthenticated user to send a specially crafted packet that triggers reprocessing of a previously buffered user request, potentially hijacking another user's session under narrow…",
           "date": "2026-09-08",
@@ -190,15 +199,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76958",
           "kev": false,
           "epss": 0.22300000000000003
-        },
-        {
-          "id": "CVE-2026-76967",
-          "title": "SAP NetWeaver Business Client does not perform sufficient validation when processing certain locally stored data during application startup. An attacker with low privileges on the local system could replace this data with specially crafted content.…",
-          "date": "2026-09-08",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76967",
-          "kev": false,
-          "epss": 0.218
         }
       ]
     },
@@ -247,7 +247,7 @@
           "date": "2026-09-14",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
-          "kev": false
+          "kev": true
         }
       ]
     },
