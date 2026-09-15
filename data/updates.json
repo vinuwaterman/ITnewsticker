@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-15T12:03:16.699Z",
+  "generatedAt": "2026-09-15T17:13:06.034Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-85921 Windows Secure Kernel Mode Elevation of Privilege Vulnerability",
-      "date": "2026-09-14",
-      "summary": "Double free in Windows Secure Kernel Mode allows an authorized attacker to elevate privileges locally.",
+      "title": "CVE-2026-68824 Connected User Experiences and Telemetry Elevation of Privilege Vulnerability",
+      "date": "2026-09-15",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85921",
-      "count7d": 262
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68824",
+      "count7d": 295
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Certification Marks 30 Years of Validating Skills for an Evolving World of Work",
-      "date": "2026-09-11",
-      "summary": "It's been three decades of helping professionals across the SAP ecosystem validate their expertise and demonstrate their skills.",
+      "title": "TabPFN-3.5 Plus Now Available in SAP AI Core for Instant Business Predictions",
+      "date": "2026-09-15",
+      "summary": "WALLDORF — Now available in SAP AI Core for SAP customers, the model marks the next leap in tabular AI.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sap-certification-30-years-validating-skills/",
-      "count7d": 3
+      "url": "https://news.sap.com/2026/09/tabpfn-35-plus-now-available-sap-ai-core-instant-business-predictions/",
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Secure Email Gateway and Secure Email and Web Manager Security Hardening Release: September 2026",
-      "date": "2026-09-14",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing. One of them is known to be actively exploited. For more information, see Cisco Secure Email Gateway SQL Injection Vulnerability . To assist customers in patching and…",
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
+      "date": "2026-09-15",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
       "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-esa-dfCrfXkm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20and%20Secure%20Email%20and%20Web%20Manager%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
       "count7d": 5
     },
     "VMware": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell Recognized as a Leader by IDC MarketScape: Worldwide Hardware Support Services",
-      "date": "2026-09-14",
-      "summary": "From AI-Driven Observability to Global Expert Reach: The Capabilities Behind the IDC MarketScape Recognition",
+      "title": "Built for Innovation: The Full Stack Behind Dell AI Leadership",
+      "date": "2026-09-15",
+      "summary": "IT pros voted. See why Dell earned more Market Leader wins than anyone else in AI infrastructure.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/dell-recognized-as-a-leader-by-idc-marketscape-worldwide-hardware-support-services/",
+      "url": "https://www.dell.com/en-us/blog/built-for-innovation-the-full-stack-behind-dell-ai-leadership/",
       "count7d": 10
     },
     "Lenovo": {
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
-      "count7d": 1
+      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
+      "date": "2026-09-14",
+      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
+      "count7d": 3
     }
   },
   "nvd": {
@@ -162,7 +162,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88879",
           "kev": false,
-          "epss": 0.265
+          "epss": 0.207
         }
       ]
     },
@@ -179,7 +179,8 @@
           "date": "2026-09-14",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20353",
-          "kev": false
+          "kev": false,
+          "epss": 0.373
         },
         {
           "id": "CVE-2026-76440",
@@ -187,7 +188,8 @@
           "date": "2026-09-14",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76440",
-          "kev": false
+          "kev": false,
+          "epss": 0.428
         },
         {
           "id": "CVE-2026-76441",
@@ -195,7 +197,8 @@
           "date": "2026-09-14",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76441",
-          "kev": false
+          "kev": false,
+          "epss": 0.46499999999999997
         },
         {
           "id": "CVE-2026-76443",
@@ -203,7 +206,8 @@
           "date": "2026-09-14",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76443",
-          "kev": false
+          "kev": false,
+          "epss": 0.366
         },
         {
           "id": "CVE-2026-76461",
@@ -211,7 +215,8 @@
           "date": "2026-09-14",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
-          "kev": true
+          "kev": true,
+          "epss": 2.162
         }
       ]
     },
@@ -224,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 80,
+      "count": 82,
       "items": [
         {
           "id": "CVE-2026-79636",
