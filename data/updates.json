@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T01:13:36.827Z",
+  "generatedAt": "2026-09-15T06:29:52.880Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
+      "date": "2026-09-14",
+      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
+      "count7d": 3
     }
   },
   "nvd": {
@@ -153,26 +153,8 @@
       ]
     },
     "SAP": {
-      "count": 16,
+      "count": 1,
       "items": [
-        {
-          "id": "CVE-2026-58240",
-          "title": "SAP NetWeaver Message Server does not sufficiently validate the authenticity of internal application server components during registration. An unauthenticated attacker with network access to the affected service could exploit this weakness to register an unauthorized…",
-          "date": "2026-09-08",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58240",
-          "kev": false,
-          "epss": 0.34299999999999997
-        },
-        {
-          "id": "CVE-2026-66768",
-          "title": "SAP GUI for Java does not correctly enforce the trust level policy for certain functions invoked from a connected backend system. A low-privileged attacker could exploit this weakness by manipulating a connected backend system to…",
-          "date": "2026-09-08",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66768",
-          "kev": false,
-          "epss": 0.318
-        },
         {
           "id": "CVE-2026-88879",
           "title": "Traefik is an HTTP reverse proxy and load balancer. In Traefik v1.x, v2.x through v2.11.55, and v3.0.0 through v3.7.11, header names are canonicalized only on dashes, so X-Auth-User, X_Auth_User and X.Auth.User are treated as three…",
@@ -181,24 +163,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88879",
           "kev": false,
           "epss": 0.265
-        },
-        {
-          "id": "CVE-2026-66767",
-          "title": "SAP NetWeaver Application Server for ABAP and ABAP Platform allows an unauthenticated user to send a specially crafted packet that triggers reprocessing of a previously buffered user request, potentially hijacking another user's session under narrow…",
-          "date": "2026-09-08",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66767",
-          "kev": false,
-          "epss": 0.26
-        },
-        {
-          "id": "CVE-2026-76958",
-          "title": "SAP Integration Suite does not sufficiently validate XML documents accepted from untrusted sources in certain internal components. An attacker with low privileges could submit specially crafted XML payloads containing malicious external entity declarations. Successful exploitation…",
-          "date": "2026-09-08",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76958",
-          "kev": false,
-          "epss": 0.22300000000000003
         }
       ]
     },
