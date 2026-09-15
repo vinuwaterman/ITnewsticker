@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:23:41.057Z",
+  "generatedAt": "2026-09-15T23:04:57.825Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68824",
-      "count7d": 298
+      "count7d": 300
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
+      "title": "Cisco Integrated Management Controller Argument Injection Vulnerabilities",
       "date": "2026-09-15",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "count7d": 5
+      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected system and elevate privileges to root .&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU &lt;br/&gt;Security Impact Rating:…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Argument%20Injection%20Vulnerabilities%26vs_k=1",
+      "count7d": 7
     },
     "VMware": {
       "vendor": "VMware",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
+      "date": "2026-09-14",
+      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
+      "count7d": 3
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 7,
+      "count": 8,
       "items": [
         {
           "id": "CVE-2024-58385",
