@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:13:06.034Z",
+  "generatedAt": "2026-09-15T20:23:41.057Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68824",
-      "count7d": 295
+      "count7d": 298
     },
     "SAP": {
       "vendor": "SAP",
@@ -93,62 +93,60 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
-      "date": "2026-09-14",
-      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
-      "count7d": 3
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 215,
+      "count": 7,
       "items": [
         {
-          "id": "CVE-2026-75156",
-          "title": "Apache Airflow FAB provider versions 3.7.3 through 3.8.0 do not validate the issuer or audience of Azure AD `id_token`s during OAuth login. Deployments are affected only when the FAB auth manager is configured with Azure…",
-          "date": "2026-09-08",
+          "id": "CVE-2024-58385",
+          "title": "Yonyou U8 CRM contains an unauthenticated SQL injection vulnerability in the fillbacksettingedit.php configuration endpoint where the DontCheckLogin=1 parameter bypasses authentication and the id parameter is incorporated into SQL queries without sanitization. Attackers can exploit this…",
+          "date": "2026-09-15",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75156",
-          "kev": false,
-          "epss": 0.183
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58385",
+          "kev": false
         },
         {
-          "id": "CVE-2026-55007",
-          "title": "Double free in Microsoft Exchange Server allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-09-08",
+          "id": "CVE-2026-40058",
+          "title": "CrowdStrike released a security update to address a vulnerability in the Falcon sensor for Windows. The vulnerability only exists when the Microsoft Office File Malicious Macro Removal Windows policy setting is enabled and customers remain…",
+          "date": "2026-09-15",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55007",
-          "kev": false,
-          "epss": 0.726
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40058",
+          "kev": false
         },
         {
-          "id": "CVE-2026-56198",
-          "title": "Out-of-bounds read in Microsoft Trace Data Helper allows an authorized attacker to elevate privileges locally.",
-          "date": "2026-09-08",
+          "id": "CVE-2026-85892",
+          "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.",
+          "date": "2026-09-14",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56198",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85892",
           "kev": false,
-          "epss": 0.245
+          "epss": 0.193
         },
         {
-          "id": "CVE-2026-58599",
-          "title": "Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to execute code locally.",
-          "date": "2026-09-08",
+          "id": "CVE-2026-70341",
+          "title": "Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a network.",
+          "date": "2026-09-11",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58599",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70341",
           "kev": false,
-          "epss": 0.325
+          "epss": 0.618
         },
         {
-          "id": "CVE-2026-58600",
-          "title": "Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to elevate privileges locally.",
-          "date": "2026-09-08",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58600",
+          "id": "CVE-2026-10556",
+          "title": "Mattermost versions 11.9.x <= 11.9.0, 11.8.x <= 11.8.4, 11.7.x <= 11.7.7, 10.11.x <= 10.11.22 fail to validate null entries in Microsoft Graph webhook notification payloads, which allows an unauthenticated attacker to crash the Microsoft Calendar…",
+          "date": "2026-09-14",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10556",
           "kev": false,
-          "epss": 0.33
+          "epss": 0.248
         }
       ]
     },
@@ -171,7 +169,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 7,
+      "count": 6,
       "items": [
         {
           "id": "CVE-2026-20353",
@@ -221,15 +219,24 @@
       ]
     },
     "VMware": {
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "id": "CVE-2026-90971",
+          "title": "Server-Side Request Forgery (SSRF) in the VMware synchronization feature in Devolutions Server 2026.2.16 and earlier allows a low-privileged authenticated user to obtain other users' credentials and reach internal or cloud-metadata network endpoints via a crafted…",
+          "date": "2026-09-15",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90971",
+          "kev": false
+        }
+      ]
     },
     "AWS": {
       "count": 0,
       "items": []
     },
     "Dell": {
-      "count": 82,
+      "count": 88,
       "items": [
         {
           "id": "CVE-2026-79636",
@@ -279,7 +286,7 @@
       ]
     },
     "Fortinet": {
-      "count": 10,
+      "count": 1,
       "items": [
         {
           "id": "CVE-2026-84390",
@@ -289,42 +296,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84390",
           "kev": false,
           "epss": 0.522
-        },
-        {
-          "id": "CVE-2026-26084",
-          "title": "A improper access control vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox Cloud 5.0.4 through 5.0.5, FortiSandbox PaaS 5.0.4 through 5.0.5 may allow attacker to access sensitive information via crafted HTTP…",
-          "date": "2026-09-08",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26084",
-          "kev": false,
-          "epss": 0.23800000000000002
-        },
-        {
-          "id": "CVE-2026-84387",
-          "title": "A improper neutralization of special elements used in a command ('command injection') vulnerability in Fortinet FortiSandbox 5.2.0, FortiSandbox 5.0.0 through 5.0.6, FortiSandbox 4.4.0 through 4.4.9 may allow attacker to execute unauthorized code or commands via",
-          "date": "2026-09-08",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84387",
-          "kev": false,
-          "epss": 0.877
-        },
-        {
-          "id": "CVE-2026-84393",
-          "title": "A improper validation of certificate with host mismatch vulnerability in Fortinet FortiOS 7.6.1 through 7.6.6, FortiProxy 7.6.2 through 7.6.6 may allow attacker to information disclosure via",
-          "date": "2026-09-08",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84393",
-          "kev": false,
-          "epss": 0.155
-        },
-        {
-          "id": "CVE-2026-22575",
-          "title": "An improper access control vulnerability in Fortinet FortiManager 7.6.0 through 7.6.4, FortiManager 7.4.0 through 7.4.10, FortiManager 7.2 all versions, FortiManager Cloud 7.6.2 through 7.6.4, FortiManager Cloud 7.4.1 through 7.4.10, FortiManager Cloud 7.2 all versions may…",
-          "date": "2026-09-08",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22575",
-          "kev": false,
-          "epss": 0.245
         }
       ]
     },
@@ -374,8 +345,17 @@
       "items": []
     },
     "CrowdStrike": {
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "id": "CVE-2026-40058",
+          "title": "CrowdStrike released a security update to address a vulnerability in the Falcon sensor for Windows. The vulnerability only exists when the Microsoft Office File Malicious Macro Removal Windows policy setting is enabled and customers remain…",
+          "date": "2026-09-15",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40058",
+          "kev": false
+        }
+      ]
     },
     "Palo Alto Networks": {
       "count": 9,
