@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T06:29:52.880Z",
+  "generatedAt": "2026-09-15T12:03:16.699Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Recognized Among TIME’s World’s Best Companies 2026, Ranked No. 51 Globally",
-      "date": "2026-09-14",
-      "summary": "Lenovo achieved an overall score of 87.51, with its growth performance categorized as \"Very High.\"",
+      "title": "Lenovo Receives Highest-Possible AAA Rating by Hang Seng Indexes Company – Achieves Highest ESG Scores in Industry",
+      "date": "2026-09-15",
+      "summary": "Among approximately 600 companies assessed this year, Lenovo achieved the highest overall score in its industry, repeating its industry-leading performance previously achieved in 2022 and 2025.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-recognized-among-times-worlds-best-companies-2026-ranked-no-51-globally/",
-      "count7d": 7
+      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-receives-highest-possible-aaa-rating-by-hang-seng-indexes-company-achieves-highest-esg-scores-in-industry/",
+      "count7d": 8
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
-      "date": "2026-09-14",
-      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
-      "count7d": 3
+      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
+      "date": "2026-08-21",
+      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "count7d": 1
     }
   },
   "nvd": {
