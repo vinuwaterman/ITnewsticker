@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T22:40:04.328Z",
+  "generatedAt": "2026-09-15T01:13:36.827Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Double free in Windows Secure Kernel Mode allows an authorized attacker to elevate privileges locally.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85921",
-      "count7d": 1082
+      "count7d": 262
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,16 +17,16 @@
       "summary": "It's been three decades of helping professionals across the SAP ecosystem validate their expertise and demonstrate their skills.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-certification-30-years-validating-skills/",
-      "count7d": 6
+      "count7d": 3
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Silent Ransom Group: Zero-Encryption Cyber Extortion",
-      "date": "2026-09-14",
-      "summary": "An employee takes a call from a friendly voice claiming to be internal IT. The caller is following up on an issue and finishing it should only take a few minutes. The employee cannot recall opening a ticket, and with work waiting, they download the “help tool” as instructed, approve remote access to the computer, and get back to what they were doing. The whole thing is forgotten by lunch. The post Silent Ransom Group: Zero-Encryption Cyber Extortion appeared first…",
-      "category": "feature",
-      "url": "https://www.veeam.com/blog/silent-ransom-group-luna-moth.html",
-      "count7d": 5
+      "title": "Veeam Expands Palo Alto Networks Cortex Integrations for Deeper Investigation and Response",
+      "date": "2026-09-10",
+      "summary": "Security teams rely on signals from across the environment to understand and respond to cyber threats. But critical activity within the backup environment can remain disconnected from the tools and workflows used by the SOC. The post Veeam Expands Palo Alto Networks Cortex Integrations for Deeper Investigation and Response appeared first on Veeam Software Official Blog .",
+      "category": "critical",
+      "url": "https://www.veeam.com/blog/veeam-cortex-xsoar-investigation-response.html",
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing. One of them is known to be actively exploited. For more information, see Cisco Secure Email Gateway SQL Injection Vulnerability . To assist customers in patching and…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-esa-dfCrfXkm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20and%20Secure%20Email%20and%20Web%20Manager%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "count7d": 7
+      "count7d": 5
     },
     "VMware": {
       "vendor": "VMware",
@@ -44,7 +44,7 @@
       "summary": "In this episode of VCF Breakroom Chats, Anika Suri sits down with Abhishek Rao from Tigera, the company behind Project Calico, to discuss a critical aspect of running Kubernetes in production: networking and security. Want to learn more about this partnership? Check out the Kubernetes Ecosystem Partners page for more resources. Read this blog post. About &#8230; Continued The post VCF Breakroom Chats Episode 94: Supercharging VKS Networking with Tigera appeared first on VMware Blogs .",
       "category": "critical",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/09/08/vcf-breakroom-chats-episode-94-supercharging-vks-networking-with-tigera/",
-      "count7d": 3
+      "count7d": 1
     },
     "AWS": {
       "vendor": "AWS",
@@ -71,7 +71,7 @@
       "summary": "Lenovo achieved an overall score of 87.51, with its growth performance categorized as \"Very High.\"",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-recognized-among-times-worlds-best-companies-2026-ranked-no-51-globally/",
-      "count7d": 8
+      "count7d": 7
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -80,7 +80,7 @@
       "summary": "CVSSv3 Score: 4.7 An Unverified Ownership Vulnerability [CWE-283] in FortiClient Windows fortimon3 driver may allow an authenticated attacker to terminate arbitrary processes via an exposed minifilter communication port. Revised on 2026-09-08 00:00:00",
       "category": "patch",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-165",
-      "count7d": 11
+      "count7d": 1
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
-      "date": "2026-09-14",
-      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
-      "count7d": 3
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
