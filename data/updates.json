@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:31:04.765Z",
+  "generatedAt": "2026-09-16T20:24:30.329Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF9で完遂するメインフレーム・モダナイゼーション",
+      "title": "First VMmark 4.1 Power-Performance and VMware Cloud Foundation 9.1 Results",
       "date": "2026-09-16",
-      "summary": "第一回：2026年、メインフレーム・モダナイゼーションの現在地 メインフレーム（汎用コンピュータ）は、日本の社会インフラや主要企業の基幹業務システムにおいて、長年にわたり高い堅牢性と信頼性を提供してきました。IBMのz/OS、富士通のXSP/OSIV、NECのACOSなど、各社が独自に発展させたプラットフォームは、現在も重要インフラを支えています。しかし2026年現在、主要メーカーによるメインフレーム事業の撤退・サポート終了方針の提示、および保守を担うベテラン技術者の定年退職によるスキル継承の限界から、事業継続上の実害を伴う課題が顕在化しています。 こうした状況下において企業に求められるのは、単なるシステムの延命ではなく、自社のデータに対する統制（データ主権）を維持し、将来的なデータ活用を見据えたシステムアーキテクチャの再設計です。 本稿では、メインフレームのモダナイゼーションにおける選択肢として、オンプレミス環境や各種クラウド基盤の特性およびリスクを比較・整理することで、失敗しない移行への第一歩を考えます。 &#160; 1. 確実性を高めるアプローチとインフラの選択肢 メインフレーム脱却において重要な検討事項は、移行後におけるシステム性能、可用性、セキュリティなどの非機能要件の維持です。 プログラム言語の変換のみでは、基幹システムとしての要求水準を満たすことはできません。この課題に対して、VMwareのTanzuアーキテクチャチームが公開している技術指針（An Architecture Path to Mainframe Modernization）では、一括刷新（ビッグバン移行）に伴う処理結果の不一致や障害リスクを回避するため、段階的な移行手法が推奨されています。具体的には、アプリケーション層において、現行システムを稼働させながら、重要な機能やデータを単位ごとに新環境へ段階的に移行する手法（Stranglerパターン）を適用します。そして、それを受け止めるインフラ層として、自社統制が可能なVMware環境上のLinux基盤を採用することにより、既存のビジネスロジックを活用しつつ、メインフレームと同等の応答性や可用性を維持することが可能となります。 一方で、パブリッククラウド各社が公開している情報をもとに直接パブリッククラウドのネイティブ環境へ移行するルートを検討する企業も少なくありません。パブリッククラウドは最新のAI機能や外部サービスと手軽に連携できるメリットがありますが、基幹システムをそのまま持ち込む際には把握しておくべき現実的な注意点があります。 &#160; 共有環境（マルチテナント）における非機能要件の課題 他社と物理リソースを共有する構成では、ミリ秒単位の低遅延処理や、他システムの負荷影響を排除したリソース隔離の再現が困難です。 専用（占有）環境におけるコストおよび為替リスク 上記の課題を回避するために占有環境を採用した場合、初期費用および運用費用が高騰しやすくなります。また、サービス特有のドル建て課金体系により、為替変動（ドル高・円安）や国際情勢の影響を受けて中長期的なインフラコストが不透明化するリスクがあります。 データ主権に関わるリスク 米国クラウド法（CLOUD Act）に基づく国外法執行機関からのデータアクセス要求の可能性や、暗号鍵の管理権限を事業者に依存することによるデータ閲覧リスクなど、データ統制上の課題が生じます。 &#160; 現在では、オンプレミスの堅牢性とクラウドの柔軟性を両立させるアプローチとして、国内事業者によるソブリンクラウドや、ハイパースケーラー上で展開される専有VMware基盤（VMC on AWS, AVS, OCVS等）も有力な選択肢となっています。コスト・性能・法制度リスクを多角的に評価した上で、適材適所の配置を行うことが不可欠です。 &#160; 2. 2026年における移行戦略と仕分け 規約や為替リスクを回避し、自社主導でデータを管理・運用するための移行パターンとして、代表的な3つのアプローチを整理します。 移行パターン 具体的なアプローチ 2026年現在の評価とリスク 1. リプレイス （全面手組み刷新） システムを解体し、パッケージ導入またはゼロから再構築します。 数千万行規模のビジネスロジックの再設計を伴うため、膨大なコストと期間を要します。現行システムとの処理結果の相違等により、長期化・頓挫リスクが高くなります。 2. リホスト （クラウド直接移行） 現行プログラムをパブリッククラウドの仮想マシンへそのまま移行します。 移行期間の短縮は見込めるものの、共有環境における処理遅延、占有環境採用時のコスト高騰・為替リスク、および国外法制度に伴うデータ統制上のリスクが存在します。 3. リファクター （自動リライト＋次世代インフラ） 変換ツールを用いてモダン言語（Java等）へ機能等価で一括変換し、自社統制が可能なインフラへ移行します。 アプリケーションの書き換えリスクを最小化しつつ非機能要件を確保できます。パブリッククラウド直行のリスクを回避し、データ主権を維持する現実的な選択肢となります。 &#160; 現在、移行を成功させている企業では、パターン3の採用が多くみられます。 実績のある自動変換ツールを用いてアプリケーション層の資産をJava等へ安全に移行し、受け皿となるインフラ層には、高い物理性能とセキュリティを維持できるソフトウェア定義プラットフォームを、オンプレミスや、ハイパースケーラー上で展開される専有VMware基盤上に構築します。アプリケーションのモダナイゼーションとインフラ基盤のモダナイゼーションを適切に役割分担することが、確実性の高い解決策となります。 &#160; &#8230; Continued The post VCF9で完遂するメインフレーム・モダナイゼーション appeared first on VMware Blogs .",
+      "summary": "We’re excited to announce two new VMmark results today from Dell Technologies: First VCF 9.1 Benchmarks: These are the first results using VMware Cloud Foundation (VCF) 9.1. VCF 9.1 maximizes hardware efficiency using a Next-Gen Topology-Aware CPU Scheduler that optimizes memory and cache locality for intensive enterprise workloads. A separate VCF 9.1 evaluation demonstrated a &#8230; Continued The post First VMmark 4.1 Power-Performance and VMware Cloud Foundation 9.1 Results appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/09/vcf9_mainframe_1.html",
-      "count7d": 1
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/16/first-vmmark-4-1-power-performance-and-vcf-9-1-results/",
+      "count7d": 2
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "A Validated Path to Enterprise AI Governance with JFrog and Dell",
+      "title": "Giving AI a Memory, a Job and Eventually a Body",
       "date": "2026-09-16",
-      "summary": "Build a governed AI software supply chain with JFrog, Dell AI Factory with NVIDIA, and Dell Automation Platform.",
+      "summary": "Beyond the chatbot: how persistent local AI agents with memory and tools run on Dell Pro Max with GB10, and the path to embodied AI.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/a-validated-path-to-enterprise-ai-governance-with-jfrog-and-dell/",
+      "url": "https://www.dell.com/en-us/blog/giving-ai-a-memory-a-job-and-eventually-a-body/",
       "count7d": 10
     },
     "Lenovo": {
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
+      "date": "2026-09-14",
+      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
+      "count7d": 3
     }
   },
   "nvd": {
@@ -171,7 +171,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 12,
+      "count": 28,
       "items": [
         {
           "id": "CVE-2026-20234",
