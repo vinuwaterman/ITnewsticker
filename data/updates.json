@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T23:04:57.825Z",
+  "generatedAt": "2026-09-16T01:33:49.562Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68824",
-      "count7d": 300
+      "count7d": 291
     },
     "SAP": {
       "vendor": "SAP",
@@ -35,15 +35,15 @@
       "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected system and elevate privileges to root .&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU &lt;br/&gt;Security Impact Rating:…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Argument%20Injection%20Vulnerabilities%26vs_k=1",
-      "count7d": 7
+      "count7d": 5
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF Breakroom Chats Episode 94: Supercharging VKS Networking with Tigera",
-      "date": "2026-09-08",
-      "summary": "In this episode of VCF Breakroom Chats, Anika Suri sits down with Abhishek Rao from Tigera, the company behind Project Calico, to discuss a critical aspect of running Kubernetes in production: networking and security. Want to learn more about this partnership? Check out the Kubernetes Ecosystem Partners page for more resources. Read this blog post. About &#8230; Continued The post VCF Breakroom Chats Episode 94: Supercharging VKS Networking with Tigera appeared first on VMware Blogs .",
-      "category": "critical",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/08/vcf-breakroom-chats-episode-94-supercharging-vks-networking-with-tigera/",
+      "title": "VCF9で完遂するメインフレーム・モダナイゼーション",
+      "date": "2026-09-16",
+      "summary": "第一回：2026年、メインフレーム・モダナイゼーションの現在地 メインフレーム（汎用コンピュータ）は、日本の社会インフラや主要企業の基幹業務システムにおいて、長年にわたり高い堅牢性と信頼性を提供してきました。IBMのz/OS、富士通のXSP/OSIV、NECのACOSなど、各社が独自に発展させたプラットフォームは、現在も重要インフラを支えています。しかし2026年現在、主要メーカーによるメインフレーム事業の撤退・サポート終了方針の提示、および保守を担うベテラン技術者の定年退職によるスキル継承の限界から、事業継続上の実害を伴う課題が顕在化しています。 こうした状況下において企業に求められるのは、単なるシステムの延命ではなく、自社のデータに対する統制（データ主権）を維持し、将来的なデータ活用を見据えたシステムアーキテクチャの再設計です。 本稿では、メインフレームのモダナイゼーションにおける選択肢として、オンプレミス環境や各種クラウド基盤の特性およびリスクを比較・整理することで、失敗しない移行への第一歩を考えます。 &#160; 1. 確実性を高めるアプローチとインフラの選択肢 メインフレーム脱却において重要な検討事項は、移行後におけるシステム性能、可用性、セキュリティなどの非機能要件の維持です。 プログラム言語の変換のみでは、基幹システムとしての要求水準を満たすことはできません。この課題に対して、VMwareのTanzuアーキテクチャチームが公開している技術指針（An Architecture Path to Mainframe Modernization）では、一括刷新（ビッグバン移行）に伴う処理結果の不一致や障害リスクを回避するため、段階的な移行手法が推奨されています。具体的には、アプリケーション層において、現行システムを稼働させながら、重要な機能やデータを単位ごとに新環境へ段階的に移行する手法（Stranglerパターン）を適用します。そして、それを受け止めるインフラ層として、自社統制が可能なVMware環境上のLinux基盤を採用することにより、既存のビジネスロジックを活用しつつ、メインフレームと同等の応答性や可用性を維持することが可能となります。 一方で、パブリッククラウド各社が公開している情報をもとに直接パブリッククラウドのネイティブ環境へ移行するルートを検討する企業も少なくありません。パブリッククラウドは最新のAI機能や外部サービスと手軽に連携できるメリットがありますが、基幹システムをそのまま持ち込む際には把握しておくべき現実的な注意点があります。 &#160; 共有環境（マルチテナント）における非機能要件の課題 他社と物理リソースを共有する構成では、ミリ秒単位の低遅延処理や、他システムの負荷影響を排除したリソース隔離の再現が困難です。 専用（占有）環境におけるコストおよび為替リスク 上記の課題を回避するために占有環境を採用した場合、初期費用および運用費用が高騰しやすくなります。また、サービス特有のドル建て課金体系により、為替変動（ドル高・円安）や国際情勢の影響を受けて中長期的なインフラコストが不透明化するリスクがあります。 データ主権に関わるリスク 米国クラウド法（CLOUD Act）に基づく国外法執行機関からのデータアクセス要求の可能性や、暗号鍵の管理権限を事業者に依存することによるデータ閲覧リスクなど、データ統制上の課題が生じます。 &#160; 現在では、オンプレミスの堅牢性とクラウドの柔軟性を両立させるアプローチとして、国内事業者によるソブリンクラウドや、ハイパースケーラー上で展開される専有VMware基盤（VMC on AWS, AVS, OCVS等）も有力な選択肢となっています。コスト・性能・法制度リスクを多角的に評価した上で、適材適所の配置を行うことが不可欠です。 &#160; 2. 2026年における移行戦略と仕分け 規約や為替リスクを回避し、自社主導でデータを管理・運用するための移行パターンとして、代表的な3つのアプローチを整理します。 移行パターン 具体的なアプローチ 2026年現在の評価とリスク 1. リプレイス （全面手組み刷新） システムを解体し、パッケージ導入またはゼロから再構築します。 数千万行規模のビジネスロジックの再設計を伴うため、膨大なコストと期間を要します。現行システムとの処理結果の相違等により、長期化・頓挫リスクが高くなります。 2. リホスト （クラウド直接移行） 現行プログラムをパブリッククラウドの仮想マシンへそのまま移行します。 移行期間の短縮は見込めるものの、共有環境における処理遅延、占有環境採用時のコスト高騰・為替リスク、および国外法制度に伴うデータ統制上のリスクが存在します。 3. リファクター （自動リライト＋次世代インフラ） 変換ツールを用いてモダン言語（Java等）へ機能等価で一括変換し、自社統制が可能なインフラへ移行します。 アプリケーションの書き換えリスクを最小化しつつ非機能要件を確保できます。パブリッククラウド直行のリスクを回避し、データ主権を維持する現実的な選択肢となります。 &#160; 現在、移行を成功させている企業では、パターン3の採用が多くみられます。 実績のある自動変換ツールを用いてアプリケーション層の資産をJava等へ安全に移行し、受け皿となるインフラ層には、高い物理性能とセキュリティを維持できるソフトウェア定義プラットフォームを、オンプレミスや、ハイパースケーラー上で展開される専有VMware基盤上に構築します。アプリケーションのモダナイゼーションとインフラ基盤のモダナイゼーションを適切に役割分担することが、確実性の高い解決策となります。 &#160; &#8230; Continued The post VCF9で完遂するメインフレーム・モダナイゼーション appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/09/vcf9_mainframe_1.html",
       "count7d": 1
     },
     "AWS": {
@@ -71,7 +71,7 @@
       "summary": "Among approximately 600 companies assessed this year, Lenovo achieved the highest overall score in its industry, repeating its industry-leading performance previously achieved in 2022 and 2025.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-receives-highest-possible-aaa-rating-by-hang-seng-indexes-company-achieves-highest-esg-scores-in-industry/",
-      "count7d": 8
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
-      "date": "2026-09-14",
-      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
-      "count7d": 3
+      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
+      "date": "2026-08-21",
+      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 8,
+      "count": 10,
       "items": [
         {
           "id": "CVE-2024-58385",
@@ -122,6 +122,22 @@
           "kev": false
         },
         {
+          "id": "CVE-2026-69486",
+          "title": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-09-15",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69486",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-85893",
+          "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-09-15",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85893",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-85892",
           "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.",
           "date": "2026-09-14",
@@ -129,24 +145,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85892",
           "kev": false,
           "epss": 0.193
-        },
-        {
-          "id": "CVE-2026-70341",
-          "title": "Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a network.",
-          "date": "2026-09-11",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70341",
-          "kev": false,
-          "epss": 0.618
-        },
-        {
-          "id": "CVE-2026-10556",
-          "title": "Mattermost versions 11.9.x <= 11.9.0, 11.8.x <= 11.8.4, 11.7.x <= 11.7.7, 10.11.x <= 10.11.22 fail to validate null entries in Microsoft Graph webhook notification payloads, which allows an unauthenticated attacker to crash the Microsoft Calendar…",
-          "date": "2026-09-14",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10556",
-          "kev": false,
-          "epss": 0.248
         }
       ]
     },
