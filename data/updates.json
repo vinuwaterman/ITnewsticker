@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T01:33:49.562Z",
+  "generatedAt": "2026-09-16T07:20:36.521Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -84,11 +84,11 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs",
-      "date": "2026-09-08",
+      "title": "PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting",
+      "date": "2026-09-15",
       "summary": "",
-      "category": "critical",
-      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/",
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/",
       "count7d": 1
     },
     "Palo Alto Networks": {
