@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T12:44:51.173Z",
+  "generatedAt": "2026-09-16T17:31:04.765Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,21 +21,21 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Expands Palo Alto Networks Cortex Integrations for Deeper Investigation and Response",
-      "date": "2026-09-10",
-      "summary": "Security teams rely on signals from across the environment to understand and respond to cyber threats. But critical activity within the backup environment can remain disconnected from the tools and workflows used by the SOC. The post Veeam Expands Palo Alto Networks Cortex Integrations for Deeper Investigation and Response appeared first on Veeam Software Official Blog .",
-      "category": "critical",
-      "url": "https://www.veeam.com/blog/veeam-cortex-xsoar-investigation-response.html",
-      "count7d": 3
+      "title": "AI Agent Error Recovery: How to Detect, Protect, and Undo AI Agent Actions",
+      "date": "2026-09-16",
+      "summary": "Traditional software fails by producing the wrong answer. An AI agent fails by taking the wrong action. And, by the time anyone notices, the records are deleted, the permissions are revoked, and the change is live in production. The post AI Agent Error Recovery: How to Detect, Protect, and Undo AI Agent Actions appeared first on Veeam Software Official Blog .",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/ai-agent-error-recovery.html",
+      "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Integrated Management Controller Argument Injection Vulnerabilities",
-      "date": "2026-09-15",
-      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected system and elevate privileges to root .&nbsp; For more information about these vulnerabilities, see the Details section of this advisory. Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU &lt;br/&gt;Security Impact Rating:…",
+      "title": "Cisco Advance Notification for Publication of September 16, 2026, Security Advisories",
+      "date": "2026-09-16",
+      "summary": "On September 16, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the advisories that are listed in the following tables.&nbsp; To remediate these vulnerabilities, Cisco strongly recommends that customers upgrade to the fixed software that is indicated in the advisories. For more information about changes in Cisco PSIRT vulnerability disclosure, see Strengthening the Foundation: A Predictable, Customer-Focused Response to AI-Accelerated Vulnerability Discovery . Cisco Identity Services Engine Title CVE ID SIR Base Score Cisco Identity Services Engine Hardening…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Argument%20Injection%20Vulnerabilities%26vs_k=1",
-      "count7d": 5
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-jfxK98ZP?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%2016,%202026,%20Security%20Advisories%26vs_k=1",
+      "count7d": 42
     },
     "VMware": {
       "vendor": "VMware",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Built for Innovation: The Full Stack Behind Dell AI Leadership",
-      "date": "2026-09-15",
-      "summary": "IT pros voted. See why Dell earned more Market Leader wins than anyone else in AI infrastructure.",
+      "title": "A Validated Path to Enterprise AI Governance with JFrog and Dell",
+      "date": "2026-09-16",
+      "summary": "Build a governed AI software supply chain with JFrog, Dell AI Factory with NVIDIA, and Dell Automation Platform.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/built-for-innovation-the-full-stack-behind-dell-ai-leadership/",
+      "url": "https://www.dell.com/en-us/blog/a-validated-path-to-enterprise-ai-governance-with-jfrog-and-dell/",
       "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Receives Highest-Possible AAA Rating by Hang Seng Indexes Company – Achieves Highest ESG Scores in Industry",
-      "date": "2026-09-15",
-      "summary": "Among approximately 600 companies assessed this year, Lenovo achieved the highest overall score in its industry, repeating its industry-leading performance previously achieved in 2022 and 2025.",
+      "title": "Lenovo Modernizes Virtualization Infrastructure for an AI-Ready Future",
+      "date": "2026-09-16",
+      "summary": "New ThinkAgile Infrastructure, Expanded Lenovo Express Solutions and Deployment Services Give Customers Greater Choice, Resilience and Control",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-receives-highest-possible-aaa-rating-by-hang-seng-indexes-company-achieves-highest-esg-scores-in-industry/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-modernizes-virtualized-environments-giving-customers-greater-choice-resilience-and-control/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -84,21 +84,21 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting",
-      "date": "2026-09-15",
+      "title": "CrowdStrike Accelerates Real-Time Data Classification with On-Device AI",
+      "date": "2026-09-16",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/",
-      "count7d": 1
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/",
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
-      "date": "2026-09-14",
-      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
-      "count7d": 3
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
@@ -111,7 +111,8 @@
           "date": "2026-09-15",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58385",
-          "kev": false
+          "kev": false,
+          "epss": 0.38
         },
         {
           "id": "CVE-2026-40058",
@@ -119,7 +120,8 @@
           "date": "2026-09-15",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40058",
-          "kev": false
+          "kev": false,
+          "epss": 0.083
         },
         {
           "id": "CVE-2026-69486",
@@ -127,7 +129,8 @@
           "date": "2026-09-15",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69486",
-          "kev": false
+          "kev": false,
+          "epss": 0.6649999999999999
         },
         {
           "id": "CVE-2026-85893",
@@ -135,7 +138,8 @@
           "date": "2026-09-15",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85893",
-          "kev": false
+          "kev": false,
+          "epss": 0.679
         },
         {
           "id": "CVE-2026-85892",
@@ -167,52 +171,47 @@
       "items": []
     },
     "Cisco": {
-      "count": 6,
+      "count": 12,
       "items": [
         {
-          "id": "CVE-2026-20353",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review. This review…",
-          "date": "2026-09-14",
+          "id": "CVE-2026-20234",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) engineering teams have conducted a comprehensive internal security review. This…",
+          "date": "2026-09-16",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20353",
-          "kev": false,
-          "epss": 0.373
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20234",
+          "kev": false
         },
         {
-          "id": "CVE-2026-76440",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review. This review…",
-          "date": "2026-09-14",
+          "id": "CVE-2026-20305",
+          "title": "A vulnerability in the diagnostic tools of Cisco ISE and ISE-PIC could allow an authenticated, remote attacker to perform command injection attacks on the underlying operating system and elevate privileges to&nbsp;root. To exploit this vulnerability,…",
+          "date": "2026-09-16",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76440",
-          "kev": false,
-          "epss": 0.428
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20305",
+          "kev": false
         },
         {
-          "id": "CVE-2026-76441",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review. This review…",
-          "date": "2026-09-14",
+          "id": "CVE-2026-20306",
+          "title": "A vulnerability in the REST API of Cisco ISE and ISE-PIC could allow an authenticated, remote attacker to perform command injection attacks on the underlying operating system and elevate privileges to root. To exploit this…",
+          "date": "2026-09-16",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76441",
-          "kev": false,
-          "epss": 0.46499999999999997
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20306",
+          "kev": false
         },
         {
-          "id": "CVE-2026-76443",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review. This review…",
-          "date": "2026-09-14",
+          "id": "CVE-2026-20307",
+          "title": "A vulnerability in the web-based management interface of Cisco ISE could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected device. To exploit this vulnerability, the attacker…",
+          "date": "2026-09-16",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76443",
-          "kev": false,
-          "epss": 0.366
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20307",
+          "kev": false
         },
         {
-          "id": "CVE-2026-76461",
-          "title": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system. This vulnerability…",
-          "date": "2026-09-14",
+          "id": "CVE-2026-20331",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Adaptive Security Appliance Software, Cisco Secure Firewall Threat Defense Software and Cisco Secure Firewall Management Center Software engineering team has…",
+          "date": "2026-09-16",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
-          "kev": true,
-          "epss": 2.162
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20331",
+          "kev": false
         }
       ]
     },
@@ -225,7 +224,8 @@
           "date": "2026-09-15",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90971",
-          "kev": false
+          "kev": false,
+          "epss": 0.13799999999999998
         }
       ]
     },
@@ -234,52 +234,51 @@
       "items": []
     },
     "Dell": {
-      "count": 56,
+      "count": 27,
       "items": [
         {
-          "id": "CVE-2026-79738",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Use of Hard-coded Credentials vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
-          "date": "2026-09-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79738",
-          "kev": false,
-          "epss": 0.296
+          "id": "CVE-2026-70416",
+          "title": "Dell ObjectScale, versions prior to 4.4.0.0, contains a Deserialization of Untrusted Data vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Remote execution.",
+          "date": "2026-09-16",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70416",
+          "kev": false
         },
         {
-          "id": "CVE-2026-79740",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Use of Hard-coded Credentials vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
-          "date": "2026-09-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79740",
+          "id": "CVE-2026-63695",
+          "title": "Dell SmartFabric OS10 Software, versions prior to 10.6.1.3, contains a Session Fixation vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Session theft.",
+          "date": "2026-09-15",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63695",
           "kev": false,
-          "epss": 0.296
+          "epss": 0.5349999999999999
         },
         {
-          "id": "CVE-2026-79950",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Use of Hard-coded Credentials vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
-          "date": "2026-09-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79950",
+          "id": "CVE-2026-63696",
+          "title": "Dell SmartFabric OS10 Software, versions prior to 10.6.1.3, contains a Download of Code Without Integrity Check vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Code execution.",
+          "date": "2026-09-15",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63696",
           "kev": false,
-          "epss": 0.24
+          "epss": 0.32299999999999995
         },
         {
-          "id": "CVE-2026-79638",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Neutralization of Alternate XSS Syntax vulnerability. An unauthenticated attacker with remote access could potentially exploit…",
-          "date": "2026-09-09",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79638",
+          "id": "CVE-2026-81046",
+          "title": "Dell ThinOS 10, versions prior to 2605_10.2616, contain a Protection Mechanism Failure vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Arbitrary Code Execution within the application context.",
+          "date": "2026-09-10",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81046",
           "kev": false,
-          "epss": 0.203
+          "epss": 0.367
         },
         {
-          "id": "CVE-2026-79694",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Insertion of Sensitive Information Into Debugging Code vulnerability. A low privileged attacker with local access could…",
-          "date": "2026-09-09",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79694",
+          "id": "CVE-2026-81048",
+          "title": "Dell ThinOS 10, versions prior to 2605_10.2616, contain an Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to…",
+          "date": "2026-09-10",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81048",
           "kev": false,
-          "epss": 0.1
+          "epss": 1.291
         }
       ]
     },
@@ -351,7 +350,8 @@
           "date": "2026-09-15",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40058",
-          "kev": false
+          "kev": false,
+          "epss": 0.083
         }
       ]
     },
