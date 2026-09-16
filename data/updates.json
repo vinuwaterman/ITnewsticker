@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T07:20:36.521Z",
+  "generatedAt": "2026-09-16T12:44:51.173Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "TabPFN-3.5 Plus Now Available in SAP AI Core for Instant Business Predictions",
-      "date": "2026-09-15",
-      "summary": "WALLDORF — Now available in SAP AI Core for SAP customers, the model marks the next leap in tabular AI.",
+      "title": "From Disconnected to Autonomous: Daikin’s People-Centric ERP Transformation",
+      "date": "2026-09-16",
+      "summary": "Daikin’s story is about more than just an overdue technology upgrade. The company&#8217;s end goal was anchored around the employees and end customers: How can...",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/tabpfn-35-plus-now-available-sap-ai-core-instant-business-predictions/",
-      "count7d": 6
+      "url": "https://news.sap.com/2026/09/daikin-people-centric-erp-transformation-disconnected-to-autonomous/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
-      "count7d": 1
+      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
+      "date": "2026-09-14",
+      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
+      "count7d": 3
     }
   },
   "nvd": {
@@ -234,52 +234,52 @@
       "items": []
     },
     "Dell": {
-      "count": 88,
+      "count": 56,
       "items": [
         {
-          "id": "CVE-2026-79636",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Validation of Certificate with Host Mismatch vulnerability. An unauthenticated attacker with remote access could potentially…",
+          "id": "CVE-2026-79738",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Use of Hard-coded Credentials vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
           "date": "2026-09-09",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79636",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79738",
           "kev": false,
-          "epss": 0.132
+          "epss": 0.296
         },
         {
-          "id": "CVE-2026-80123",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Server-Side Request Forgery (SSRF) vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
+          "id": "CVE-2026-79740",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Use of Hard-coded Credentials vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
           "date": "2026-09-09",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80123",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79740",
           "kev": false,
-          "epss": 0.19499999999999998
+          "epss": 0.296
         },
         {
-          "id": "CVE-2026-78491",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Certificate Validation vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading…",
+          "id": "CVE-2026-79950",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Use of Hard-coded Credentials vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
           "date": "2026-09-09",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78491",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79950",
           "kev": false,
-          "epss": 0.16199999999999998
+          "epss": 0.24
         },
         {
-          "id": "CVE-2026-78494",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Certificate Validation vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading…",
+          "id": "CVE-2026-79638",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Neutralization of Alternate XSS Syntax vulnerability. An unauthenticated attacker with remote access could potentially exploit…",
           "date": "2026-09-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78494",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79638",
           "kev": false,
-          "epss": 0.15
+          "epss": 0.203
         },
         {
-          "id": "CVE-2026-80122",
-          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Certificate Validation vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading…",
+          "id": "CVE-2026-79694",
+          "title": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Insertion of Sensitive Information Into Debugging Code vulnerability. A low privileged attacker with local access could…",
           "date": "2026-09-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80122",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79694",
           "kev": false,
-          "epss": 0.136
+          "epss": 0.1
         }
       ]
     },
