@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-16T20:24:30.329Z",
+  "generatedAt": "2026-09-16T23:11:17.729Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-68824 Connected User Experiences and Telemetry Elevation of Privilege Vulnerability",
-      "date": "2026-09-15",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-85880 Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability",
+      "date": "2026-09-16",
+      "summary": "CVSS vector modified to correct the temporal Exploit Code Maturity setting. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68824",
-      "count7d": 291
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85880",
+      "count7d": 292
     },
     "SAP": {
       "vendor": "SAP",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
-      "date": "2026-09-14",
-      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
-      "count7d": 3
+      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
+      "date": "2026-08-21",
+      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
+      "count7d": 1
     }
   },
   "nvd": {
@@ -171,7 +171,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 28,
+      "count": 85,
       "items": [
         {
           "id": "CVE-2026-20234",
