@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-17T20:32:31.761Z",
+  "generatedAt": "2026-09-17T23:25:49.450Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69671 Microsoft Office Word Remote Code Execution Vulnerability",
+      "title": "CVE-2026-55946 Microsoft Copilot Information Disclosure Vulnerability",
       "date": "2026-09-17",
-      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for more information and download links.",
+      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69671",
-      "count7d": 384
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55946",
+      "count7d": 404
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
       "date": "2026-09-17",
-      "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system. This vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20SQL%20Injection%20Vulnerability%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
       "count7d": 42
     },
     "VMware": {
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
-      "date": "2026-09-14",
-      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
+      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
+      "date": "2026-08-21",
+      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
       "count7d": 1
     }
   },
@@ -294,44 +294,8 @@
       ]
     },
     "Lenovo": {
-      "count": 5,
+      "count": 1,
       "items": [
-        {
-          "id": "CVE-2026-75940",
-          "title": "A vulnerability was reported in Lenovo Health Android Application, distributed exclusively in the Chinese market, that could allow an attacker to access sensitive health-related information.",
-          "date": "2026-09-10",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75940",
-          "kev": false,
-          "epss": 0.28700000000000003
-        },
-        {
-          "id": "CVE-2026-11813",
-          "title": "A potential improper permissions vulnerability was reported in the Lenovo Filez Client application that could allow a local authenticated user to escalate privileges.",
-          "date": "2026-09-10",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11813",
-          "kev": false,
-          "epss": 0.1
-        },
-        {
-          "id": "CVE-2026-18994",
-          "title": "A potential improper authorization vulnerability was reported in the Lenovo File Manager Android Application, distributed exclusively in the Chinese market, that could allow a local authenticated user to read or modify protected files within the…",
-          "date": "2026-09-10",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18994",
-          "kev": false,
-          "epss": 0.099
-        },
-        {
-          "id": "CVE-2026-63427",
-          "title": "An authentication bypass vulnerability was discovered in Lenovo Software Fix that could allow a local authenticated user to perform arbitrary code execution with elevated privileges.",
-          "date": "2026-09-10",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63427",
-          "kev": false,
-          "epss": 0.13699999999999998
-        },
         {
           "id": "CVE-2026-93113",
           "title": "In the Linux kernel, the following vulnerability has been resolved: clk: qcom: camcc-sc8280xp: unregister CAMCC_GDSC_CLK With the introduction of sync_state support in the clk and pmdomain subsystems, the following warning happens when the unused clocks…",
