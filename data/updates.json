@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T01:38:17.104Z",
+  "generatedAt": "2026-09-17T07:15:56.013Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
+      "date": "2026-09-14",
+      "summary": "Palo Alto Networks has achieved FedRAMP Moderate authorization for Quantum-Safe Security (QSS), a turnkey Automated Cryptography Discovery and Inventory (ACDI) solution. With this certification, federal agencies can deploy QSS immediately. The authorization &#8230; The post FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
       "count7d": 1
     }
   },
@@ -356,52 +356,34 @@
       ]
     },
     "Palo Alto Networks": {
-      "count": 9,
+      "count": 3,
       "items": [
         {
-          "id": "CVE-2026-0305",
-          "title": "An information disclosure vulnerability in the Palo Alto Networks Prisma® Access Agent on Linux enables a local user to access sensitive configuration data and credentials. The Prisma Access Agent on macOS, Windows, iOS, Android and…",
+          "id": "CVE-2026-0302",
+          "title": "An OS command injection vulnerability in Palo Alto Networks Checkov by Prisma® Cloud enables a local user to execute arbitrary commands in the processes running Checkov.",
           "date": "2026-09-10",
           "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0305",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0302",
           "kev": false,
-          "epss": 0.099
+          "epss": 0.8240000000000001
         },
         {
-          "id": "CVE-2026-0306",
-          "title": "A vulnerability in the EndPoint Data Loss Prevention (DLP) enforcement of Palo Alto Networks Prisma® Access Agent enables a local user to bypass configured DLP policy enforcement controls and exfiltrate sensitive data. This Prisma Access…",
+          "id": "CVE-2026-0303",
+          "title": "A code execution vulnerability in Palo Alto Networks Checkov by Prisma® Cloud can allow arbitrary code execution when Checkov scans a directory that contains an attacker-controlled configuration file.",
           "date": "2026-09-10",
           "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0306",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0303",
           "kev": false,
-          "epss": 0.105
+          "epss": 0.128
         },
         {
-          "id": "CVE-2026-0307",
-          "title": "Multiple local privilege escalation vulnerabilities in the Palo Alto Networks GlobalProtect™ app allows a local user to escalate their privileges to NT AUTHORITY\\SYSTEM on Windows and root on macOS and Linux. This enables a non-administrative…",
+          "id": "CVE-2026-0304",
+          "title": "A privilege escalation vulnerability in Palo Alto Networks Cortex XDR Broker VM enables an authenticated low privileged user with man-in-the-middle (MitM) access to execute code with root privileges on the Broker VM.",
           "date": "2026-09-10",
           "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0307",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0304",
           "kev": false,
-          "epss": 0.105
-        },
-        {
-          "id": "CVE-2026-0308",
-          "title": "A stored cross-site scripting (XSS) vulnerability in Palo Alto Networks PAN-OS® software enables a malicious authenticated administrator to store or execute a JavaScript payload using the web interface. This issue is applicable to PAN-OS software…",
-          "date": "2026-09-10",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0308",
-          "kev": false,
-          "epss": 0.265
-        },
-        {
-          "id": "CVE-2026-0309",
-          "title": "A command injection vulnerability in Palo Alto Networks PAN-OS® software enables an authenticated administrator to bypass system restrictions and run arbitrary commands as a root user. To be able to exploit this issue, the user…",
-          "date": "2026-09-10",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0309",
-          "kev": false,
-          "epss": 0.447
+          "epss": 0.218
         }
       ]
     }
