@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T07:15:56.013Z",
+  "generatedAt": "2026-09-17T12:43:55.249Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,21 +12,21 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "From Disconnected to Autonomous: Daikin’s People-Centric ERP Transformation",
-      "date": "2026-09-16",
-      "summary": "Daikin’s story is about more than just an overdue technology upgrade. The company&#8217;s end goal was anchored around the employees and end customers: How can...",
+      "title": "New sovanta AppHaus Newtown Square: Rolling Up Our Sleeves for Customers",
+      "date": "2026-09-17",
+      "summary": "The newest, factory-style SAP AppHaus location invites customers to hands-on co-innovation work.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/daikin-people-centric-erp-transformation-disconnected-to-autonomous/",
-      "count7d": 6
+      "url": "https://news.sap.com/2026/09/sovanta-apphaus-newtown-square/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "AI Agent Error Recovery: How to Detect, Protect, and Undo AI Agent Actions",
+      "title": "Silent Ransom Group: Zero-Encryption Cyber Extortion",
       "date": "2026-09-16",
-      "summary": "Traditional software fails by producing the wrong answer. An AI agent fails by taking the wrong action. And, by the time anyone notices, the records are deleted, the permissions are revoked, and the change is live in production. The post AI Agent Error Recovery: How to Detect, Protect, and Undo AI Agent Actions appeared first on Veeam Software Official Blog .",
+      "summary": "An employee takes a call from a friendly voice claiming to be internal IT. The caller is following up on an issue and finishing it should only take a few minutes. The employee cannot recall opening a ticket, and with work waiting, they download the “help tool” as instructed, approve remote access to the computer, and get back to what they were doing. The whole thing is forgotten by lunch. The post Silent Ransom Group: Zero-Encryption Cyber Extortion appeared first…",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/ai-agent-error-recovery.html",
-      "count7d": 2
+      "url": "https://www.veeam.com/blog/silent-ransom-group-luna-moth.html",
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -234,7 +234,7 @@
       "items": []
     },
     "Dell": {
-      "count": 27,
+      "count": 39,
       "items": [
         {
           "id": "CVE-2026-70416",
@@ -356,36 +356,8 @@
       ]
     },
     "Palo Alto Networks": {
-      "count": 3,
-      "items": [
-        {
-          "id": "CVE-2026-0302",
-          "title": "An OS command injection vulnerability in Palo Alto Networks Checkov by Prisma® Cloud enables a local user to execute arbitrary commands in the processes running Checkov.",
-          "date": "2026-09-10",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0302",
-          "kev": false,
-          "epss": 0.8240000000000001
-        },
-        {
-          "id": "CVE-2026-0303",
-          "title": "A code execution vulnerability in Palo Alto Networks Checkov by Prisma® Cloud can allow arbitrary code execution when Checkov scans a directory that contains an attacker-controlled configuration file.",
-          "date": "2026-09-10",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0303",
-          "kev": false,
-          "epss": 0.128
-        },
-        {
-          "id": "CVE-2026-0304",
-          "title": "A privilege escalation vulnerability in Palo Alto Networks Cortex XDR Broker VM enables an authenticated low privileged user with man-in-the-middle (MitM) access to execute code with root privileges on the Broker VM.",
-          "date": "2026-09-10",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0304",
-          "kev": false,
-          "epss": 0.218
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   }
 }
