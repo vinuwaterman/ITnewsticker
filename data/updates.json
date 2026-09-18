@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T23:25:49.450Z",
+  "generatedAt": "2026-09-18T01:24:54.386Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55946",
-      "count7d": 404
+      "count7d": 366
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "The newest, factory-style SAP AppHaus location invites customers to hands-on co-innovation work.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sovanta-apphaus-newtown-square/",
-      "count7d": 8
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -71,7 +71,7 @@
       "summary": "New ThinkAgile Infrastructure, Expanded Lenovo Express Solutions and Deployment Services Give Customers Greater Choice, Resilience and Control",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-modernizes-virtualized-environments-giving-customers-greater-choice-resilience-and-control/",
-      "count7d": 5
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,22 +89,46 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/",
-      "count7d": 3
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
-      "count7d": 1
+      "title": "Defining the Standard for AI Security",
+      "date": "2026-09-18",
+      "summary": "Palo Alto Networks Named a Market Shaper in 2026 September Gartner® Emerging Market Quadrant for AI Application Security — Established Vendors. When we set out to solve AI security, we knew it &#8230; The post Defining the Standard for AI Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/defining-the-standard-for-ai-security/",
+      "count7d": 2
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 10,
+      "count": 15,
       "items": [
+        {
+          "id": "CVE-2026-69843",
+          "title": "Authentication bypass by spoofing in Microsoft Fabric allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-09-18",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69843",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-69865",
+          "title": "Authorization bypass through user-controlled key in Microsoft Container Registry allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-09-17",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69865",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-77903",
+          "title": "Authentication bypass by spoofing in Microsoft Dataverse allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-09-17",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77903",
+          "kev": false
+        },
         {
           "id": "CVE-2024-58385",
           "title": "Yonyou U8 CRM contains an unauthenticated SQL injection vulnerability in the fillbacksettingedit.php configuration endpoint where the DontCheckLogin=1 parameter bypasses authentication and the id parameter is incorporated into SQL queries without sanitization. Attackers can exploit this…",
@@ -115,40 +139,12 @@
           "epss": 0.38
         },
         {
-          "id": "CVE-2026-40058",
-          "title": "CrowdStrike released a security update to address a vulnerability in the Falcon sensor for Windows. The vulnerability only exists when the Microsoft Office File Malicious Macro Removal Windows policy setting is enabled and customers remain…",
-          "date": "2026-09-15",
+          "id": "CVE-2026-78501",
+          "title": "Improper neutralization of special elements used in a command ('command injection') in Microsoft 365 Copilot's Business Chat allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-09-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40058",
-          "kev": false,
-          "epss": 0.083
-        },
-        {
-          "id": "CVE-2026-69486",
-          "title": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-09-15",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69486",
-          "kev": false,
-          "epss": 0.6649999999999999
-        },
-        {
-          "id": "CVE-2026-85893",
-          "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network.",
-          "date": "2026-09-15",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85893",
-          "kev": false,
-          "epss": 0.679
-        },
-        {
-          "id": "CVE-2026-85892",
-          "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.",
-          "date": "2026-09-14",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85892",
-          "kev": false,
-          "epss": 0.193
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78501",
+          "kev": false
         }
       ]
     },
