@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:39:27.555Z",
+  "generatedAt": "2026-09-18T15:58:26.630Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,21 +30,21 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "date": "2026-09-17",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Logging Denial of Service Vulnerability",
+      "date": "2026-09-18",
+      "summary": "A vulnerability in the system rate-limiting process for syslog message 419002 of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause high CPU utilization on an affected device, resulting in a denial of service (DoS) condition. This vulnerability is due to improper rate limiting for syslog message 419002. An attacker could exploit this vulnerability by sending a flood of TCP synchronization (SYN) packets to an…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-logging-dos-ZXXNesfN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Logging%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
       "count7d": 42
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "[TAM Blog] VMware Cloud Foundation® 9.1.1 で始める Agentic AI 運用 – AI Assistant for VCF",
+      "title": "NVMe Drive Selection for Memory Tiering Explained",
       "date": "2026-09-18",
-      "summary": "こんにちは。Broadcom® VCF TAM の中村です。 2026年9月3日、VMware Cloud Foundation® 9.1.1 がリリースされました。 VCF 9.1.1 ではさまざまな機能強化が行われていますが、特に注目いただきたいのが VMware Cloud Foundation® Operations に追加された AI アシスタント機能 AI Assistant for VCF です。 LLM Provider として Google Gemini™ または VMware Cloud Foundation® Private AI Services を指定し、VCF Operations の画面から自然言語で質問すると、必要な Tool を利用しながら実際の VCF 環境を調査し回答してくれます。 VMware vSphere® および VCF Management Services の Health 情報、Alert、Configuration、Log などを組み合わせた診断がユースケースとして挙げられます。 本記事では、実際に AI &#8230; Continued The post [TAM Blog] VMware Cloud Foundation® 9.1.1 で始める Agentic AI 運用 – AI Assistant for VCF appeared first on VMware Blogs .",
+      "summary": "A Feature You Can’t Ignore Memory Tiering is one of those capabilities that changes how you think about infrastructure. It lets you extend system memory using fast NVMe SSDs, so you can run larger workloads and consolidate more virtual machines without constantly buying more DRAM. The value is real. You get better resource utilization, lower &#8230; Continued The post NVMe Drive Selection for Memory Tiering Explained appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/09/ai-assistant-for-vcf.html",
-      "count7d": 3
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/18/nvme-drive-selection-for-memory-tiering-explained/",
+      "count7d": 5
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "From Digital Friction to Improved Employee Experience and Continuous Business Value",
-      "date": "2026-09-17",
-      "summary": "Why a Digital Employee Experience (DEX) Strategy Matters More than just a Tooling Investment.",
+      "title": "Enterprise AI Storage Starts with Metadata",
+      "date": "2026-09-18",
+      "summary": "How metadata helps teams find, govern and activate distributed data for RAG, knowledge graphs and AI.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/from-digital-friction-to-improved-employee-experience-and-continuous-business-value/",
+      "url": "https://www.dell.com/en-us/blog/enterprise-ai-storage-starts-with-metadata/",
       "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Modernizes Virtualization Infrastructure for an AI-Ready Future",
-      "date": "2026-09-16",
-      "summary": "New ThinkAgile Infrastructure, Expanded Lenovo Express Solutions and Deployment Services Give Customers Greater Choice, Resilience and Control",
+      "title": "Lenovo’s AI-enabled iChain helps improve delivery accuracy by 30%",
+      "date": "2026-09-18",
+      "summary": "Deployed across Lenovo’s own global supply chain, AI-enabled iChain helped teams make and execute fulfillment decisions 3x faster, assess risks with 85% accuracy, and respond to disruption 4x faster.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-modernizes-virtualized-environments-giving-customers-greater-choice-resilience-and-control/",
-      "count7d": 3
+      "url": "https://news.lenovo.com/ai-enabled-ichain-helps-improve-delivery-accuracy-by-30/",
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Defining the Standard for AI Security",
-      "date": "2026-09-18",
-      "summary": "Palo Alto Networks Named a Market Shaper in 2026 September Gartner® Emerging Market Quadrant for AI Application Security — Established Vendors. When we set out to solve AI security, we knew it &#8230; The post Defining the Standard for AI Security appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/defining-the-standard-for-ai-security/",
-      "count7d": 2
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
@@ -276,18 +276,8 @@
       ]
     },
     "Fortinet": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-84390",
-          "title": "A inclusion of sensitive information in source code vulnerability in Fortinet FortiMonitorOnSight 7.2.4 through 7.2.7, FortiMonitorOnSight 7.2.0 through 7.2.2 may allow attacker to improper access control via",
-          "date": "2026-09-11",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84390",
-          "kev": false,
-          "epss": 0.522
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Lenovo": {
       "count": 1,
