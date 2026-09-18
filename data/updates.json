@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-18T18:58:50.173Z",
+  "generatedAt": "2026-09-18T21:35:24.896Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium: CVE-2026-0899 Out of bounds memory access in V8",
+      "title": "CVE-2026-88097 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
       "date": "2026-09-18",
-      "summary": "Information published.",
+      "summary": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges locally.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0899",
-      "count7d": 367
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88097",
+      "count7d": 368
     },
     "SAP": {
       "vendor": "SAP",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "title": "Defining the Standard for AI Security",
+      "date": "2026-09-18",
+      "summary": "Palo Alto Networks Named a Market Shaper in 2026 September Gartner® Emerging Market Quadrant for AI Application Security — Established Vendors. When we set out to solve AI security, we knew it &#8230; The post Defining the Standard for AI Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/defining-the-standard-for-ai-security/",
+      "count7d": 2
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 14,
+      "count": 13,
       "items": [
         {
           "id": "CVE-2026-69843",
@@ -111,7 +111,8 @@
           "date": "2026-09-18",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69843",
-          "kev": false
+          "kev": false,
+          "epss": 0.623
         },
         {
           "id": "CVE-2026-69865",
@@ -119,7 +120,8 @@
           "date": "2026-09-17",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69865",
-          "kev": false
+          "kev": false,
+          "epss": 0.45199999999999996
         },
         {
           "id": "CVE-2026-77903",
@@ -127,7 +129,8 @@
           "date": "2026-09-17",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77903",
-          "kev": false
+          "kev": false,
+          "epss": 0.381
         },
         {
           "id": "CVE-2024-58385",
@@ -144,7 +147,8 @@
           "date": "2026-09-17",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78501",
-          "kev": false
+          "kev": false,
+          "epss": 0.48700000000000004
         }
       ]
     },
@@ -157,7 +161,8 @@
           "date": "2026-09-17",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93063",
-          "kev": false
+          "kev": false,
+          "epss": 0.19
         }
       ]
     },
@@ -174,7 +179,8 @@
           "date": "2026-09-16",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20234",
-          "kev": false
+          "kev": false,
+          "epss": 0.373
         },
         {
           "id": "CVE-2026-20305",
@@ -182,7 +188,8 @@
           "date": "2026-09-16",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20305",
-          "kev": false
+          "kev": false,
+          "epss": 1.367
         },
         {
           "id": "CVE-2026-20306",
@@ -190,7 +197,8 @@
           "date": "2026-09-16",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20306",
-          "kev": false
+          "kev": false,
+          "epss": 1.367
         },
         {
           "id": "CVE-2026-20307",
@@ -198,7 +206,8 @@
           "date": "2026-09-16",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20307",
-          "kev": false
+          "kev": false,
+          "epss": 0.954
         },
         {
           "id": "CVE-2026-20331",
@@ -206,7 +215,8 @@
           "date": "2026-09-16",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20331",
-          "kev": false
+          "kev": false,
+          "epss": 0.22899999999999998
         }
       ]
     },
@@ -229,7 +239,7 @@
       "items": []
     },
     "Dell": {
-      "count": 47,
+      "count": 46,
       "items": [
         {
           "id": "CVE-2026-70416",
@@ -237,7 +247,8 @@
           "date": "2026-09-16",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70416",
-          "kev": false
+          "kev": false,
+          "epss": 0.91
         },
         {
           "id": "CVE-2026-63695",
@@ -258,20 +269,22 @@
           "epss": 0.32299999999999995
         },
         {
+          "id": "CVE-2026-66269",
+          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains a Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to…",
+          "date": "2026-09-17",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66269",
+          "kev": false,
+          "epss": 0.373
+        },
+        {
           "id": "CVE-2025-43936",
           "title": "Dell ObjectScale, versions prior to ObjectScale 4.4.0.0, contains an Improper Authentication vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
           "date": "2026-09-16",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43936",
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-71179",
-          "title": "Dell Update Package Framework, versions prior to 26.07.03, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with local access could potentially exploit this…",
-          "date": "2026-09-16",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71179",
-          "kev": false
+          "kev": false,
+          "epss": 0.484
         }
       ]
     },
@@ -288,7 +301,8 @@
           "date": "2026-09-17",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93113",
-          "kev": false
+          "kev": false,
+          "epss": 0.168
         }
       ]
     },
