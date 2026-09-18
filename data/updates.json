@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:35:24.896Z",
+  "generatedAt": "2026-09-18T23:56:16.738Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 13,
+      "count": 14,
       "items": [
         {
           "id": "CVE-2026-69843",
@@ -142,13 +142,12 @@
           "epss": 0.38
         },
         {
-          "id": "CVE-2026-78501",
-          "title": "Improper neutralization of special elements used in a command ('command injection') in Microsoft 365 Copilot's Business Chat allows an unauthorized attacker to disclose information over a network.",
-          "date": "2026-09-17",
+          "id": "CVE-2026-88097",
+          "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges locally.",
+          "date": "2026-09-18",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78501",
-          "kev": false,
-          "epss": 0.48700000000000004
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88097",
+          "kev": false
         }
       ]
     },
