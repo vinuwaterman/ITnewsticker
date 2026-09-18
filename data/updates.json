@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-18T06:23:13.097Z",
+  "generatedAt": "2026-09-18T11:39:27.555Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-55946 Microsoft Copilot Information Disclosure Vulnerability",
-      "date": "2026-09-17",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
+      "title": "Chromium: CVE-2026-0899 Out of bounds memory access in V8",
+      "date": "2026-09-18",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55946",
-      "count7d": 366
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-0899",
+      "count7d": 367
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "New sovanta AppHaus Newtown Square: Rolling Up Our Sleeves for Customers",
-      "date": "2026-09-17",
-      "summary": "The newest, factory-style SAP AppHaus location invites customers to hands-on co-innovation work.",
+      "title": "SAP Named a Strategic Leader in the 2026 Fosway 9-Grid&#x2122; for Cloud HR",
+      "date": "2026-09-18",
+      "summary": "We have continued to invest in our portfolio to deliver the HCM platform that organizations need to succeed in the future.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sovanta-apphaus-newtown-square/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/09/sap-strategic-leader-2026-fosway-9-grid-cloud-hr/",
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "First VMmark 4.1 Power-Performance and VMware Cloud Foundation 9.1 Results",
-      "date": "2026-09-16",
-      "summary": "We’re excited to announce two new VMmark results today from Dell Technologies: First VCF 9.1 Benchmarks: These are the first results using VMware Cloud Foundation (VCF) 9.1. VCF 9.1 maximizes hardware efficiency using a Next-Gen Topology-Aware CPU Scheduler that optimizes memory and cache locality for intensive enterprise workloads. A separate VCF 9.1 evaluation demonstrated a &#8230; Continued The post First VMmark 4.1 Power-Performance and VMware Cloud Foundation 9.1 Results appeared first on VMware Blogs .",
+      "title": "[TAM Blog] VMware Cloud Foundation® 9.1.1 で始める Agentic AI 運用 – AI Assistant for VCF",
+      "date": "2026-09-18",
+      "summary": "こんにちは。Broadcom® VCF TAM の中村です。 2026年9月3日、VMware Cloud Foundation® 9.1.1 がリリースされました。 VCF 9.1.1 ではさまざまな機能強化が行われていますが、特に注目いただきたいのが VMware Cloud Foundation® Operations に追加された AI アシスタント機能 AI Assistant for VCF です。 LLM Provider として Google Gemini™ または VMware Cloud Foundation® Private AI Services を指定し、VCF Operations の画面から自然言語で質問すると、必要な Tool を利用しながら実際の VCF 環境を調査し回答してくれます。 VMware vSphere® および VCF Management Services の Health 情報、Alert、Configuration、Log などを組み合わせた診断がユースケースとして挙げられます。 本記事では、実際に AI &#8230; Continued The post [TAM Blog] VMware Cloud Foundation® 9.1.1 で始める Agentic AI 運用 – AI Assistant for VCF appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/16/first-vmmark-4-1-power-performance-and-vcf-9-1-results/",
-      "count7d": 2
+      "url": "https://blogs.vmware.com/vmware-japan/2026/09/ai-assistant-for-vcf.html",
+      "count7d": 3
     },
     "AWS": {
       "vendor": "AWS",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5",
-      "date": "2026-08-21",
-      "summary": "Frontier AI has compressed attack timelines from weeks to minutes. For defenders to gain the upper hand, they need to fight back at machine speed. That’s why Palo Alto Networks Unit 42 &#8230; The post Unit 42 Defends Organizations Against Next-Gen Frontier AI Risks with Anthropic’s Mythos 5 appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/unit-42-defends-organizations-against-next-gen-frontier-ai-risks-with-anthropics-mythos-5/",
-      "count7d": 1
+      "title": "Defining the Standard for AI Security",
+      "date": "2026-09-18",
+      "summary": "Palo Alto Networks Named a Market Shaper in 2026 September Gartner® Emerging Market Quadrant for AI Application Security — Established Vendors. When we set out to solve AI security, we knew it &#8230; The post Defining the Standard for AI Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/defining-the-standard-for-ai-security/",
+      "count7d": 2
     }
   },
   "nvd": {
