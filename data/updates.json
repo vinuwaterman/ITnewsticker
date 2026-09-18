@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T15:58:26.630Z",
+  "generatedAt": "2026-09-18T18:58:50.173Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 15,
+      "count": 14,
       "items": [
         {
           "id": "CVE-2026-69843",
@@ -155,7 +155,7 @@
           "id": "CVE-2026-93063",
           "title": "In the Linux kernel, the following vulnerability has been resolved: wifi: iwlwifi: mei: check SAP message length before reading it Verify the SAP message size is not larger than the local buffer before reading the…",
           "date": "2026-09-17",
-          "severity": "UNKNOWN",
+          "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93063",
           "kev": false
         }
