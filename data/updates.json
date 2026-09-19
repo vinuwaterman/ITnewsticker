@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T12:38:52.721Z",
+  "generatedAt": "2026-09-19T16:17:44.461Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -147,7 +147,8 @@
           "date": "2026-09-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88097",
-          "kev": false
+          "kev": false,
+          "epss": 0.22
         }
       ]
     },
@@ -161,7 +162,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93063",
           "kev": false,
-          "epss": 0.19
+          "epss": 0.158
         }
       ]
     },
