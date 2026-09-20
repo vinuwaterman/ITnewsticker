@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T12:04:23.384Z",
+  "generatedAt": "2026-09-20T16:23:58.872Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 14,
+      "count": 15,
       "items": [
         {
           "id": "CVE-2026-69843",
@@ -230,7 +230,7 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90971",
           "kev": false,
-          "epss": 0.13799999999999998
+          "epss": 0.21
         }
       ]
     },
