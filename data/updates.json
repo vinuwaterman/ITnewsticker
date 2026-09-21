@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T19:07:20.818Z",
+  "generatedAt": "2026-09-21T22:45:10.202Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "NVMe Drive Selection for Memory Tiering Explained",
-      "date": "2026-09-18",
-      "summary": "A Feature You Can’t Ignore Memory Tiering is one of those capabilities that changes how you think about infrastructure. It lets you extend system memory using fast NVMe SSDs, so you can run larger workloads and consolidate more virtual machines without constantly buying more DRAM. The value is real. You get better resource utilization, lower &#8230; Continued The post NVMe Drive Selection for Memory Tiering Explained appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/18/nvme-drive-selection-for-memory-tiering-explained/",
-      "count7d": 5
+      "title": "Shattering the Resilience Illusion: Cyber Resilience in the Era of AI-Driven Threats",
+      "date": "2026-09-21",
+      "summary": "In the modern enterprise, there is a quiet, dangerous self-deception taking place in boardrooms and security operations centers alike. We call it the Resilience Illusion. Recent industry data reveals a startling paradox: while 78% of organizations experienced a ransomware attack in 20251, nearly 40% of those executives believed their teams were &#8220;well prepared&#8221; to prevent &#8230; Continued The post Shattering the Resilience Illusion: Cyber Resilience in the Era of AI-Driven Threats appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/21/shattering-the-resilience-illusion-cyber-resilience-in-the-era-of-ai-driven-threats/",
+      "count7d": 6
     },
     "AWS": {
       "vendor": "AWS",
@@ -239,7 +239,7 @@
       "items": []
     },
     "Dell": {
-      "count": 46,
+      "count": 51,
       "items": [
         {
           "id": "CVE-2026-70416",
