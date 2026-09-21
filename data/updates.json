@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-21T13:42:13.691Z",
+  "generatedAt": "2026-09-21T19:07:20.818Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-88097 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
-      "date": "2026-09-18",
-      "summary": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges locally.",
+      "title": "CVE-2026-68825 Windows Bind Filter Driver Elevation of Privilege Vulnerability",
+      "date": "2026-09-21",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88097",
-      "count7d": 359
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68825",
+      "count7d": 373
     },
     "SAP": {
       "vendor": "SAP",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 14,
+      "count": 13,
       "items": [
         {
           "id": "CVE-2026-69843",
@@ -171,7 +171,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 85,
+      "count": 79,
       "items": [
         {
           "id": "CVE-2026-20234",
