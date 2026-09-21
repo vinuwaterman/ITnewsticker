@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T06:50:06.775Z",
+  "generatedAt": "2026-09-21T13:42:13.691Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Named a Strategic Leader in the 2026 Fosway 9-Grid&#x2122; for Cloud HR",
-      "date": "2026-09-18",
-      "summary": "We have continued to invest in our portfolio to deliver the HCM platform that organizations need to succeed in the future.",
+      "title": "100+ Leader Positions: SAP CX Dominates G2 Fall Grid Reports 2026",
+      "date": "2026-09-21",
+      "summary": "This reflects the trust thousands of businesses place in SAP CX to help power their most critical customer-facing operations.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sap-strategic-leader-2026-fosway-9-grid-cloud-hr/",
-      "count7d": 9
+      "url": "https://news.sap.com/2026/09/sap-cx-dominates-g2-fall-grid-reports-2026/",
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Enterprise AI Storage Starts with Metadata",
-      "date": "2026-09-18",
-      "summary": "How metadata helps teams find, govern and activate distributed data for RAG, knowledge graphs and AI.",
+      "title": "Everything You Need to Know About Dell&#8217;s XPS Googlebook",
+      "date": "2026-09-21",
+      "summary": "The XPS Googlebook is the first Dell laptop designed for Gemini Intelligence and designed to sync seamlessly with your Android phone.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/enterprise-ai-storage-starts-with-metadata/",
+      "url": "https://www.dell.com/en-us/blog/everything-you-need-to-know-about-dell-s-xps-googlebook/",
       "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Supports the 20th Asian Games and the 5th Asian Para Games as the Official Supplier of PC Equipment and…",
+      "title": "Lenovo and Schneider Electric Partner to Bring Decarbonization Tools and Expertise to IT Channel Partners",
       "date": "2026-09-21",
-      "summary": "Through this sponsorship, Lenovo will contribute to building a robust digital environment that supports event organizers, media representatives, and fans, while helping advance digital transformation in the sports industry.",
+      "summary": "Partnership gives a practical pathway to measure emissions, build decarbonization roadmaps, and demonstrate sustainability progress.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-supports-the-20th-asian-games-and-the-5th-asian-para-games-as-the-official-supplier-of-pc-equipment-and-related-services-and-solutions/",
-      "count7d": 5
+      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-schneider-electric-partner-bring-decarbonization-tools-expertise-it-channel-partners/",
+      "count7d": 6
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 15,
+      "count": 14,
       "items": [
         {
           "id": "CVE-2026-69843",
