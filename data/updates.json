@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-22T17:10:43.469Z",
+  "generatedAt": "2026-09-22T20:24:43.365Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-68825 Windows Bind Filter Driver Elevation of Privilege Vulnerability",
-      "date": "2026-09-21",
+      "title": "CVE-2026-57099 ASP.NET Core Denial of Service Vulnerability",
+      "date": "2026-09-22",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68825",
-      "count7d": 129
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57099",
+      "count7d": 137
     },
     "SAP": {
       "vendor": "SAP",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 14,
+      "count": 11,
       "items": [
         {
           "id": "CVE-2026-69843",
@@ -133,15 +133,6 @@
           "epss": 0.381
         },
         {
-          "id": "CVE-2024-58385",
-          "title": "Yonyou U8 CRM contains an unauthenticated SQL injection vulnerability in the fillbacksettingedit.php configuration endpoint where the DontCheckLogin=1 parameter bypasses authentication and the id parameter is incorporated into SQL queries without sanitization. Attackers can exploit this…",
-          "date": "2026-09-15",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58385",
-          "kev": false,
-          "epss": 0.38
-        },
-        {
           "id": "CVE-2026-88097",
           "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges locally.",
           "date": "2026-09-18",
@@ -149,6 +140,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88097",
           "kev": false,
           "epss": 0.22
+        },
+        {
+          "id": "CVE-2026-78501",
+          "title": "Improper neutralization of special elements used in a command ('command injection') in Microsoft 365 Copilot's Business Chat allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-09-17",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78501",
+          "kev": false,
+          "epss": 0.48700000000000004
         }
       ]
     },
@@ -230,25 +230,15 @@
       ]
     },
     "VMware": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-90971",
-          "title": "Server-Side Request Forgery (SSRF) in the VMware synchronization feature in Devolutions Server 2026.2.16 and earlier allows a low-privileged authenticated user to obtain other users' credentials and reach internal or cloud-metadata network endpoints via a crafted…",
-          "date": "2026-09-15",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90971",
-          "kev": false,
-          "epss": 0.21
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "AWS": {
       "count": 0,
       "items": []
     },
     "Dell": {
-      "count": 49,
+      "count": 43,
       "items": [
         {
           "id": "CVE-2026-70416",
@@ -269,31 +259,31 @@
           "epss": 0.373
         },
         {
-          "id": "CVE-2025-43936",
-          "title": "Dell ObjectScale, versions prior to ObjectScale 4.4.0.0, contains an Improper Authentication vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
-          "date": "2026-09-16",
+          "id": "CVE-2026-81474",
+          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains a Heap-based Buffer Overflow vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges.",
+          "date": "2026-09-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43936",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81474",
           "kev": false,
-          "epss": 0.505
+          "epss": 0.153
         },
         {
-          "id": "CVE-2026-71179",
-          "title": "Dell Update Package Framework, versions prior to 26.07.03, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with local access could potentially exploit this…",
-          "date": "2026-09-16",
+          "id": "CVE-2026-81440",
+          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains a Use of Hard-coded Credentials vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
+          "date": "2026-09-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71179",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81440",
           "kev": false,
-          "epss": 0.492
+          "epss": 0.311
         },
         {
-          "id": "CVE-2026-71180",
-          "title": "Dell Update Package Framework, versions prior to 26.07.03, contains an Unchecked Return Value vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges.",
-          "date": "2026-09-16",
+          "id": "CVE-2026-81475",
+          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Remote execution.",
+          "date": "2026-09-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71180",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81475",
           "kev": false,
-          "epss": 0.133
+          "epss": 0.705
         }
       ]
     },
@@ -329,18 +319,8 @@
       "items": []
     },
     "CrowdStrike": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-40058",
-          "title": "CrowdStrike released a security update to address a vulnerability in the Falcon sensor for Windows. The vulnerability only exists when the Microsoft Office File Malicious Macro Removal Windows policy setting is enabled and customers remain…",
-          "date": "2026-09-15",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40058",
-          "kev": false,
-          "epss": 0.083
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Palo Alto Networks": {
       "count": 0,
