@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:28:59.767Z",
+  "generatedAt": "2026-09-22T06:45:14.102Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Shattering the Resilience Illusion: Cyber Resilience in the Era of AI-Driven Threats",
-      "date": "2026-09-21",
-      "summary": "In the modern enterprise, there is a quiet, dangerous self-deception taking place in boardrooms and security operations centers alike. We call it the Resilience Illusion. Recent industry data reveals a startling paradox: while 78% of organizations experienced a ransomware attack in 20251, nearly 40% of those executives believed their teams were &#8220;well prepared&#8221; to prevent &#8230; Continued The post Shattering the Resilience Illusion: Cyber Resilience in the Era of AI-Driven Threats appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/21/shattering-the-resilience-illusion-cyber-resilience-in-the-era-of-ai-driven-threats/",
-      "count7d": 6
+      "title": "The Next Generation of Hands-on Labs",
+      "date": "2026-09-22",
+      "summary": "Following the incredible energy and announcements at VMware Explore Las Vegas, we are thrilled to announce that the VMware Hands-on Labs catalog has been updated to feature VMware Cloud Foundation (VCF) 9.1. The new labs provide a direct, hands-on way for administrators, architects, and platform engineers to experience the unified private cloud operating model, memory &#8230; Continued The post The Next Generation of Hands-on Labs appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/hol/2026/09/the-next-generation-of-hands-on-labs.html",
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
-      "date": "2026-07-16",
-      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
+      "title": "Defining the Standard for AI Security",
+      "date": "2026-09-18",
+      "summary": "Palo Alto Networks Named a Market Shaper in 2026 September Gartner® Emerging Market Quadrant for AI Application Security — Established Vendors. When we set out to solve AI security, we knew it &#8230; The post Defining the Standard for AI Security appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/defining-the-standard-for-ai-security/",
       "count7d": 1
     }
   },
