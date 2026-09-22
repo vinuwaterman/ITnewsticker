@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T06:45:14.102Z",
+  "generatedAt": "2026-09-22T12:25:20.091Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "100+ Leader Positions: SAP CX Dominates G2 Fall Grid Reports 2026",
-      "date": "2026-09-21",
-      "summary": "This reflects the trust thousands of businesses place in SAP CX to help power their most critical customer-facing operations.",
+      "title": "The Operational Backbone of the Autonomous Enterprise",
+      "date": "2026-09-22",
+      "summary": "Business Transformation Management solutions from SAP help make AI agents work at scale.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sap-cx-dominates-g2-fall-grid-reports-2026/",
-      "count7d": 8
+      "url": "https://news.sap.com/2026/09/autonomous-enterprise-business-transformation-management-solutions-sap-ai-agents-work-at-scale/",
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Defining the Standard for AI Security",
-      "date": "2026-09-18",
-      "summary": "Palo Alto Networks Named a Market Shaper in 2026 September Gartner® Emerging Market Quadrant for AI Application Security — Established Vendors. When we set out to solve AI security, we knew it &#8230; The post Defining the Standard for AI Security appeared first on Palo Alto Networks Blog .",
+      "title": "Introducing Unit 42 Continuous Frontier AI Defense",
+      "date": "2026-09-22",
+      "summary": "Cybersecurity is in the middle of a generational shift. AI has disrupted a 30-year balance of power between defenders and adversaries. Armed with agentic AI tools and open-weight models stripped of safety &#8230; The post Introducing Unit 42 Continuous Frontier AI Defense appeared first on Palo Alto Networks Blog .",
       "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/defining-the-standard-for-ai-security/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/",
+      "count7d": 2
     }
   },
   "nvd": {
