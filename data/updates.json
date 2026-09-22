@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T20:24:43.365Z",
+  "generatedAt": "2026-09-22T23:10:45.368Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Introducing Unit 42 Continuous Frontier AI Defense",
-      "date": "2026-09-22",
-      "summary": "Cybersecurity is in the middle of a generational shift. AI has disrupted a 30-year balance of power between defenders and adversaries. Armed with agentic AI tools and open-weight models stripped of safety &#8230; The post Introducing Unit 42 Continuous Frontier AI Defense appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/",
-      "count7d": 2
+      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
+      "date": "2026-07-16",
+      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 11,
+      "count": 10,
       "items": [
         {
           "id": "CVE-2026-69843",
