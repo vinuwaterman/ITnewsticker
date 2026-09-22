@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T22:45:10.202Z",
+  "generatedAt": "2026-09-22T01:28:59.767Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68825",
-      "count7d": 373
+      "count7d": 129
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "This reflects the trust thousands of businesses place in SAP CX to help power their most critical customer-facing operations.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-cx-dominates-g2-fall-grid-reports-2026/",
-      "count7d": 11
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -35,7 +35,7 @@
       "summary": "A vulnerability in the system rate-limiting process for syslog message 419002 of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause high CPU utilization on an affected device, resulting in a denial of service (DoS) condition. This vulnerability is due to improper rate limiting for syslog message 419002. An attacker could exploit this vulnerability by sending a flood of TCP synchronization (SYN) packets to an…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-logging-dos-ZXXNesfN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Logging%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "count7d": 41
+      "count7d": 39
     },
     "VMware": {
       "vendor": "VMware",
@@ -71,7 +71,7 @@
       "summary": "Partnership gives a practical pathway to measure emissions, build decarbonization roadmaps, and demonstrate sustainability progress.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-schneider-electric-partner-bring-decarbonization-tools-expertise-it-channel-partners/",
-      "count7d": 6
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,15 +89,15 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/",
-      "count7d": 4
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Defining the Standard for AI Security",
-      "date": "2026-09-18",
-      "summary": "Palo Alto Networks Named a Market Shaper in 2026 September Gartner® Emerging Market Quadrant for AI Application Security — Established Vendors. When we set out to solve AI security, we knew it &#8230; The post Defining the Standard for AI Security appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/defining-the-standard-for-ai-security/",
+      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
+      "date": "2026-07-16",
+      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
       "count7d": 1
     }
   },
@@ -153,7 +153,7 @@
       ]
     },
     "SAP": {
-      "count": 1,
+      "count": 2,
       "items": [
         {
           "id": "CVE-2026-93063",
@@ -163,6 +163,14 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93063",
           "kev": false,
           "epss": 0.158
+        },
+        {
+          "id": "CVE-2026-76974",
+          "title": "SAP Fiori Launchpad does not sufficiently validate certain user-controlled input. An unauthenticated attacker could craft a malicious link that, when clicked by an authenticated user, causes the browser to load attacker-controlled content from an external…",
+          "date": "2026-09-22",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76974",
+          "kev": false
         }
       ]
     },
