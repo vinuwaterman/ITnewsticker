@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-23T01:40:49.413Z",
+  "generatedAt": "2026-09-23T07:27:32.975Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-57099 ASP.NET Core Denial of Service Vulnerability",
-      "date": "2026-09-22",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "Chromium CVE-2026-87489: Memory corruption in V8",
+      "date": "2026-09-23",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57099",
-      "count7d": 136
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87489",
+      "count7d": 143
     },
     "SAP": {
       "vendor": "SAP",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "title": "Introducing Unit 42 Continuous Frontier AI Defense",
+      "date": "2026-09-22",
+      "summary": "Cybersecurity is in the middle of a generational shift. AI has disrupted a 30-year balance of power between defenders and adversaries. Armed with agentic AI tools and open-weight models stripped of safety &#8230; The post Introducing Unit 42 Continuous Frontier AI Defense appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/",
+      "count7d": 2
     }
   },
   "nvd": {
