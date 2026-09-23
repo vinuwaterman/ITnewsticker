@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T23:10:45.368Z",
+  "generatedAt": "2026-09-23T01:40:49.413Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57099",
-      "count7d": 137
+      "count7d": 136
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Business Transformation Management solutions from SAP help make AI agents work at scale.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/autonomous-enterprise-business-transformation-management-solutions-sap-ai-agents-work-at-scale/",
-      "count7d": 11
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Every backup vendor's feature list looks roughly the same. Immutable storage. Ransomware detection. Automated recovery. The phrases are nearly identical from one product page to the next, and none of them tell you which one would actually get your business running again after a bad week. The post Backup Features Small Businesses Should Demand appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/backup-features-small-businesses-should-demand.html",
-      "count7d": 4
+      "count7d": 1
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "A vulnerability in the system rate-limiting process for syslog message 419002 of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause high CPU utilization on an affected device, resulting in a denial of service (DoS) condition. This vulnerability is due to improper rate limiting for syslog message 419002. An attacker could exploit this vulnerability by sending a flood of TCP synchronization (SYN) packets to an…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-logging-dos-ZXXNesfN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Logging%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "count7d": 39
+      "count7d": 9
     },
     "VMware": {
       "vendor": "VMware",
@@ -44,7 +44,7 @@
       "summary": "Following the incredible energy and announcements at VMware Explore Las Vegas, we are thrilled to announce that the VMware Hands-on Labs catalog has been updated to feature VMware Cloud Foundation (VCF) 9.1. The new labs provide a direct, hands-on way for administrators, architects, and platform engineers to experience the unified private cloud operating model, memory &#8230; Continued The post The Next Generation of Hands-on Labs appeared first on VMware Blogs .",
       "category": "feature",
       "url": "https://blogs.vmware.com/hol/2026/09/the-next-generation-of-hands-on-labs.html",
-      "count7d": 8
+      "count7d": 6
     },
     "AWS": {
       "vendor": "AWS",
@@ -62,7 +62,7 @@
       "summary": "With 6,500+ AI Factories delivered, Dell has a front-row view into a key success factor: security and resilience strategy built in from day 1.",
       "category": "patch",
       "url": "https://www.dell.com/en-us/blog/security-and-resilience-are-the-make-or-break-for-scaling-ai/",
-      "count7d": 10
+      "count7d": 8
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Partnership gives a practical pathway to measure emissions, build decarbonization roadmaps, and demonstrate sustainability progress.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-schneider-electric-partner-bring-decarbonization-tools-expertise-it-channel-partners/",
-      "count7d": 5
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,21 +89,21 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/",
-      "count7d": 3
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
-      "date": "2026-07-16",
-      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 10,
+      "count": 8,
       "items": [
         {
           "id": "CVE-2026-69843",
