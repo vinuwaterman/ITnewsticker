@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T12:57:19.918Z",
+  "generatedAt": "2026-09-23T17:46:50.017Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Logging Denial of Service Vulnerability",
-      "date": "2026-09-18",
-      "summary": "A vulnerability in the system rate-limiting process for syslog message 419002 of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause high CPU utilization on an affected device, resulting in a denial of service (DoS) condition. This vulnerability is due to improper rate limiting for syslog message 419002. An attacker could exploit this vulnerability by sending a flood of TCP synchronization (SYN) packets to an…",
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software SSL VPN Denial of Service Vulnerability",
+      "date": "2026-09-23",
+      "summary": "Update for September 16, 2026: The original 1.0 version of this advisory was specific to the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisco Secure Firewall Threat Defense Virtual (FTDv) models. However, it was later found that this vulnerability affects all Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software platforms.&nbsp; A vulnerability in the VPN and management web servers of the Cisco Secure Firewall ASA Software and Cisco Secure FTD Software platforms…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-logging-dos-ZXXNesfN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Logging%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "count7d": 9
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "count7d": 10
     },
     "VMware": {
       "vendor": "VMware",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Security and Resilience Are the Make-or-Break for Scaling AI",
-      "date": "2026-09-22",
-      "summary": "With 6,500+ AI Factories delivered, Dell has a front-row view into a key success factor: security and resilience strategy built in from day 1.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/security-and-resilience-are-the-make-or-break-for-scaling-ai/",
-      "count7d": 8
+      "title": "Why Higher Education Needs Dell AI Data Platform",
+      "date": "2026-09-23",
+      "summary": "Your data is ready for AI. Storage engines, data engines, and data orchestration unite to power discovery. Meet us at EDUCAUSE, booth 1001.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/why-higher-education-needs-dell-ai-data-platform/",
+      "count7d": 9
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -180,52 +180,52 @@
       "items": []
     },
     "Cisco": {
-      "count": 79,
+      "count": 73,
       "items": [
         {
-          "id": "CVE-2026-20234",
+          "id": "CVE-2026-20130",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC), engineering teams have conducted a comprehensive internal security review. This…",
+          "date": "2026-09-16",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20130",
+          "kev": false,
+          "epss": 0.395
+        },
+        {
+          "id": "CVE-2026-20176",
+          "title": "A vulnerability in Cisco ISE could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected device. To exploit this vulnerability, the attacker must have valid high-privileged administrative…",
+          "date": "2026-09-16",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20176",
+          "kev": false,
+          "epss": 0.7799999999999999
+        },
+        {
+          "id": "CVE-2026-20192",
           "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) engineering teams have conducted a comprehensive internal security review. This…",
           "date": "2026-09-16",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20234",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20192",
           "kev": false,
-          "epss": 0.373
+          "epss": 0.43099999999999994
         },
         {
-          "id": "CVE-2026-20305",
-          "title": "A vulnerability in the diagnostic tools of Cisco ISE and ISE-PIC could allow an authenticated, remote attacker to perform command injection attacks on the underlying operating system and elevate privileges to&nbsp;root. To exploit this vulnerability,…",
+          "id": "CVE-2026-20194",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC), engineering teams have conducted a comprehensive internal security review. This…",
           "date": "2026-09-16",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20305",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20194",
           "kev": false,
-          "epss": 1.367
+          "epss": 0.44600000000000006
         },
         {
-          "id": "CVE-2026-20306",
-          "title": "A vulnerability in the REST API of Cisco ISE and ISE-PIC could allow an authenticated, remote attacker to perform command injection attacks on the underlying operating system and elevate privileges to root. To exploit this…",
+          "id": "CVE-2026-20211",
+          "title": "A vulnerability in Cisco ISE could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected device. To exploit this vulnerability, the attacker must have valid high-privileged administrative…",
           "date": "2026-09-16",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20306",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20211",
           "kev": false,
-          "epss": 1.367
-        },
-        {
-          "id": "CVE-2026-20307",
-          "title": "A vulnerability in the web-based management interface of Cisco ISE could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected device. To exploit this vulnerability, the attacker…",
-          "date": "2026-09-16",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20307",
-          "kev": false,
-          "epss": 0.954
-        },
-        {
-          "id": "CVE-2026-20331",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Adaptive Security Appliance Software, Cisco Secure Firewall Threat Defense Software and Cisco Secure Firewall Management Center Software engineering team has…",
-          "date": "2026-09-16",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20331",
-          "kev": false,
-          "epss": 0.22899999999999998
+          "epss": 0.5579999999999999
         }
       ]
     },
@@ -238,17 +238,8 @@
       "items": []
     },
     "Dell": {
-      "count": 43,
+      "count": 40,
       "items": [
-        {
-          "id": "CVE-2026-70416",
-          "title": "Dell ObjectScale, versions prior to 4.4.0.0, contains a Deserialization of Untrusted Data vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Remote execution.",
-          "date": "2026-09-16",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70416",
-          "kev": false,
-          "epss": 0.91
-        },
         {
           "id": "CVE-2026-66269",
           "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains a Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to…",
@@ -284,6 +275,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81475",
           "kev": false,
           "epss": 0.705
+        },
+        {
+          "id": "CVE-2026-81476",
+          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
+          "date": "2026-09-17",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81476",
+          "kev": false,
+          "epss": 1.23
         }
       ]
     },
@@ -296,7 +296,8 @@
           "date": "2026-09-22",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84388",
-          "kev": false
+          "kev": false,
+          "epss": 0.378
         }
       ]
     },
