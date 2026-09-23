@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T17:46:50.017Z",
+  "generatedAt": "2026-09-23T21:11:54.290Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Introducing Unit 42 Continuous Frontier AI Defense",
-      "date": "2026-09-22",
-      "summary": "Cybersecurity is in the middle of a generational shift. AI has disrupted a 30-year balance of power between defenders and adversaries. Armed with agentic AI tools and open-weight models stripped of safety &#8230; The post Introducing Unit 42 Continuous Frontier AI Defense appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/",
-      "count7d": 2
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "count7d": 1
     }
   },
   "nvd": {
@@ -180,52 +180,52 @@
       "items": []
     },
     "Cisco": {
-      "count": 73,
+      "count": 57,
       "items": [
         {
-          "id": "CVE-2026-20130",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC), engineering teams have conducted a comprehensive internal security review. This…",
+          "id": "CVE-2026-20284",
+          "title": "A vulnerability in the SXP REST API of Cisco ISE could allow an authenticated, remote attacker to conduct SQL injection attacks. This vulnerability is due to insufficient validation of user-supplied input in REST API calls.…",
           "date": "2026-09-16",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20130",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20284",
           "kev": false,
-          "epss": 0.395
+          "epss": 0.391
         },
         {
-          "id": "CVE-2026-20176",
-          "title": "A vulnerability in Cisco ISE could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected device. To exploit this vulnerability, the attacker must have valid high-privileged administrative…",
+          "id": "CVE-2026-20135",
+          "title": "A vulnerability in the TLS 1.3 implementation in Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service…",
           "date": "2026-09-16",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20176",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20135",
           "kev": false,
-          "epss": 0.7799999999999999
+          "epss": 0.457
         },
         {
-          "id": "CVE-2026-20192",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) engineering teams have conducted a comprehensive internal security review. This…",
+          "id": "CVE-2026-20154",
+          "title": "A vulnerability in the system rate-limiting process for syslog message 419002 of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to…",
           "date": "2026-09-16",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20192",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20154",
           "kev": false,
-          "epss": 0.43099999999999994
+          "epss": 0.404
         },
         {
-          "id": "CVE-2026-20194",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC), engineering teams have conducted a comprehensive internal security review. This…",
+          "id": "CVE-2026-20222",
+          "title": "A vulnerability in the EIGRP implementation in Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, adjacent attacker to cause the device to reload…",
           "date": "2026-09-16",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20194",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20222",
           "kev": false,
-          "epss": 0.44600000000000006
+          "epss": 0.167
         },
         {
-          "id": "CVE-2026-20211",
-          "title": "A vulnerability in Cisco ISE could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected device. To exploit this vulnerability, the attacker must have valid high-privileged administrative…",
+          "id": "CVE-2026-20247",
+          "title": "A vulnerability in Cisco ISE could allow an unauthenticated, remote attacker to conduct SQL injection attacks on an affected device. This vulnerability is due to improper validation of user-supplied input. An attacker could exploit this…",
           "date": "2026-09-16",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20211",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20247",
           "kev": false,
-          "epss": 0.5579999999999999
+          "epss": 0.322
         }
       ]
     },
