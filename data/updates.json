@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T07:27:32.975Z",
+  "generatedAt": "2026-09-23T12:57:19.918Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "The Operational Backbone of the Autonomous Enterprise",
-      "date": "2026-09-22",
-      "summary": "Business Transformation Management solutions from SAP help make AI agents work at scale.",
+      "title": "SAP Recognized as a Leader in the Inaugural Gartner® Magic Quadrant&#x2122; for Workforce Management Technology",
+      "date": "2026-09-23",
+      "summary": "As organizations prepare for the next era of work, leaders need more than scheduling tools and time systems. They need a connected understanding of their workforce.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/autonomous-enterprise-business-transformation-management-solutions-sap-ai-agents-work-at-scale/",
-      "count7d": 9
+      "url": "https://news.sap.com/2026/09/sap-recognized-gartner-magic-quadrant-workforce-management-technology/",
+      "count7d": 12
     },
     "Veeam": {
       "vendor": "Veeam",
