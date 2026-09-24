@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-24T08:44:18.981Z",
+  "generatedAt": "2026-09-24T14:05:12.287Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium CVE-2026-87489: Memory corruption in V8",
-      "date": "2026-09-23",
-      "summary": "Information published.",
+      "title": "CVE-2026-65675 CoPilot Chat Security Feature Bypass Vulnerability",
+      "date": "2026-09-24",
+      "summary": "Updated the fixed version information and download link. The fix was previously believed to be included in Dynamics 365 Server (on-premises) version 6.2; however, it has been confirmed that the fix is included in Dynamics 365 Server v9.1 (on-premises) Update 1.45 (version 9.1.0045.0011). The download link, release notes, and build number has been updated accordingly in the Security Updates table. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87489",
-      "count7d": 32
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65675",
+      "count7d": 35
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Recognized as a Leader in the Inaugural Gartner® Magic Quadrant&#x2122; for Workforce Management Technology",
-      "date": "2026-09-23",
-      "summary": "As organizations prepare for the next era of work, leaders need more than scheduling tools and time systems. They need a connected understanding of their workforce.",
+      "title": "SAP Named a Leader in the 2026 IDC MarketScape for AI-Enabled Direct Spend",
+      "date": "2026-09-24",
+      "summary": "SAP is invested in helping manufacturers connect sourcing, engineering, planning, and supplier collaboration on a single foundation.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sap-recognized-gartner-magic-quadrant-workforce-management-technology/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/09/sap-a-leader-2026-idc-marketscape-ai-enabled-direct-spend/",
+      "count7d": 14
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Why Higher Education Needs Dell AI Data Platform",
-      "date": "2026-09-23",
-      "summary": "Your data is ready for AI. Storage engines, data engines, and data orchestration unite to power discovery. Meet us at EDUCAUSE, booth 1001.",
+      "title": "From Prototype to Conference: Winbush&#8217;s Journey in Motion Graphics",
+      "date": "2026-09-24",
+      "summary": "Motion graphics veteran Jonathan Winbush can't stop creating. How he's reviving light gun arcade games, drawing crowds, and creating a new Tokyo con.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/why-higher-education-needs-dell-ai-data-platform/",
-      "count7d": 6
+      "url": "https://www.dell.com/en-us/blog/from-prototype-to-conference-winbush-s-journey-in-motion-graphics/",
+      "count7d": 7
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Prisma AIRS - Unified Data Protection for Claude",
-      "date": "2026-08-05",
-      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
@@ -191,52 +191,52 @@
       "items": []
     },
     "Dell": {
-      "count": 40,
+      "count": 27,
       "items": [
         {
-          "id": "CVE-2026-66269",
-          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains a Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to…",
-          "date": "2026-09-17",
+          "id": "CVE-2026-49810",
+          "title": "Dell Command Powershell Provider (DCPP), versions prior to 2.10.2 contain an Insertion of Sensitive Information into Log File vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Information Disclosure.",
+          "date": "2026-09-21",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66269",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49810",
           "kev": false,
-          "epss": 0.373
+          "epss": 0.107
         },
         {
-          "id": "CVE-2026-81474",
-          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains a Heap-based Buffer Overflow vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges.",
-          "date": "2026-09-17",
+          "id": "CVE-2026-49811",
+          "title": "Dell Command | Monitor (DCM), versions prior to 10.13.2, contain an Incorrect Permission Assignment for Critical Resource vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
+          "date": "2026-09-21",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81474",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49811",
           "kev": false,
-          "epss": 0.153
+          "epss": 0.092
         },
         {
-          "id": "CVE-2026-81440",
-          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains a Use of Hard-coded Credentials vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
-          "date": "2026-09-17",
+          "id": "CVE-2026-81469",
+          "title": "Dell Inventory Collector Client, versions prior to 15.0.0, contain an Unquoted Search Path or Element vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Code execution and Elevation of…",
+          "date": "2026-09-21",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81440",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81469",
           "kev": false,
-          "epss": 0.311
+          "epss": 0.13
         },
         {
-          "id": "CVE-2026-81475",
-          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Remote execution.",
+          "id": "CVE-2026-81442",
+          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains an Improper Privilege Management vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Information tampering and Unauthorized access.",
           "date": "2026-09-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81475",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81442",
           "kev": false,
-          "epss": 0.705
+          "epss": 0.378
         },
         {
-          "id": "CVE-2026-81476",
-          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
+          "id": "CVE-2026-26950",
+          "title": "Dell SmartFabric Manager, versions prior to 2.2.1, contains an Insufficient Verification of Data Authenticity vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Elevation of privileges.",
           "date": "2026-09-17",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81476",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26950",
           "kev": false,
-          "epss": 1.23
+          "epss": 0.201
         }
       ]
     },
