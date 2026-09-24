@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-24T14:05:12.287Z",
+  "generatedAt": "2026-09-24T18:35:11.881Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-65675 CoPilot Chat Security Feature Bypass Vulnerability",
+      "title": "CVE-2026-69681 Virtual Hard Disk (VHD) Miniport Driver Elevation of Privilege Vulernability",
       "date": "2026-09-24",
-      "summary": "Updated the fixed version information and download link. The fix was previously believed to be included in Dynamics 365 Server (on-premises) version 6.2; however, it has been confirmed that the fix is included in Dynamics 365 Server v9.1 (on-premises) Update 1.45 (version 9.1.0045.0011). The download link, release notes, and build number has been updated accordingly in the Security Updates table. This is an informational change only.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65675",
-      "count7d": 35
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69681",
+      "count7d": 46
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software SSL VPN Denial of Service Vulnerability",
-      "date": "2026-09-23",
-      "summary": "Update for September 16, 2026: The original 1.0 version of this advisory was specific to the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisco Secure Firewall Threat Defense Virtual (FTDv) models. However, it was later found that this vulnerability affects all Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software platforms.&nbsp; A vulnerability in the VPN and management web servers of the Cisco Secure Firewall ASA Software and Cisco Secure FTD Software platforms…",
+      "title": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
+      "date": "2026-09-24",
+      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to access or manipulate data, obtain sensitive information, or cause a reload of certificate and key material on an affected device. For more information about these vulnerabilities, see the Details section of this advisory. Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "count7d": 8
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authentication%20Bypass%20Vulnerabilities%26vs_k=1",
+      "count7d": 9
     },
     "VMware": {
       "vendor": "VMware",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "From Prototype to Conference: Winbush&#8217;s Journey in Motion Graphics",
+      "title": "Sovereign AI Is a Control Problem, not a Location Problem",
       "date": "2026-09-24",
-      "summary": "Motion graphics veteran Jonathan Winbush can't stop creating. How he's reviving light gun arcade games, drawing crowds, and creating a new Tokyo con.",
+      "summary": "Data sovereignty is an architectural constraint for 50% of firms, yet only 10% budget for it, a critical gap where enterprise risk quietly accumulates.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/from-prototype-to-conference-winbush-s-journey-in-motion-graphics/",
-      "count7d": 7
+      "url": "https://www.dell.com/en-us/blog/sovereign-ai-is-a-control-problem-not-a-location-problem/",
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -84,20 +84,20 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: External Threat Intelligence Service Providers, Q3 2026",
-      "date": "2026-09-17",
+      "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: Proactive Security Platforms, Q3 2026",
+      "date": "2026-09-24",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/",
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/",
       "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
       "count7d": 1
     }
   },
@@ -112,7 +112,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69843",
           "kev": false,
-          "epss": 0.623
+          "epss": 0.9209999999999999
         },
         {
           "id": "CVE-2026-69865",
@@ -121,7 +121,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69865",
           "kev": false,
-          "epss": 0.45199999999999996
+          "epss": 0.815
         },
         {
           "id": "CVE-2026-77903",
@@ -130,7 +130,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77903",
           "kev": false,
-          "epss": 0.381
+          "epss": 0.668
         },
         {
           "id": "CVE-2026-70125",
@@ -138,7 +138,8 @@
           "date": "2026-09-23",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70125",
-          "kev": false
+          "kev": false,
+          "epss": 0.44200000000000006
         },
         {
           "id": "CVE-2026-88097",
@@ -147,7 +148,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88097",
           "kev": false,
-          "epss": 0.22
+          "epss": 0.294
         }
       ]
     },
@@ -155,22 +156,21 @@
       "count": 2,
       "items": [
         {
-          "id": "CVE-2026-93063",
-          "title": "In the Linux kernel, the following vulnerability has been resolved: wifi: iwlwifi: mei: check SAP message length before reading it Verify the SAP message size is not larger than the local buffer before reading the…",
-          "date": "2026-09-17",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93063",
-          "kev": false,
-          "epss": 0.158
-        },
-        {
           "id": "CVE-2026-76974",
           "title": "SAP Fiori Launchpad does not sufficiently validate certain user-controlled input. An unauthenticated attacker could craft a malicious link that, when clicked by an authenticated user, causes the browser to load attacker-controlled content from an external…",
           "date": "2026-09-22",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76974",
           "kev": false,
-          "epss": 0.215
+          "epss": 0.349
+        },
+        {
+          "id": "CVE-2026-12559",
+          "title": "A Stored Cross-Site Scripting (XSS) vulnerability has been identified in OpenText Vendor Invoice Management for SAP Solutions Capture Validation application. Under certain conditions, this issue could allow execution of unauthorized script content in a user's…",
+          "date": "2026-09-24",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12559",
+          "kev": false
         }
       ]
     },
@@ -191,8 +191,26 @@
       "items": []
     },
     "Dell": {
-      "count": 27,
+      "count": 13,
       "items": [
+        {
+          "id": "CVE-2026-73588",
+          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
+          "date": "2026-09-23",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73588",
+          "kev": false,
+          "epss": 0.246
+        },
+        {
+          "id": "CVE-2026-73591",
+          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Inclusion of Sensitive Information in Source Code vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information…",
+          "date": "2026-09-23",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73591",
+          "kev": false,
+          "epss": 0.256
+        },
         {
           "id": "CVE-2026-49810",
           "title": "Dell Command Powershell Provider (DCPP), versions prior to 2.10.2 contain an Insertion of Sensitive Information into Log File vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Information Disclosure.",
@@ -200,7 +218,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49810",
           "kev": false,
-          "epss": 0.107
+          "epss": 0.156
         },
         {
           "id": "CVE-2026-49811",
@@ -209,7 +227,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49811",
           "kev": false,
-          "epss": 0.092
+          "epss": 0.135
         },
         {
           "id": "CVE-2026-81469",
@@ -218,25 +236,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81469",
           "kev": false,
-          "epss": 0.13
-        },
-        {
-          "id": "CVE-2026-81442",
-          "title": "Dell OpenManage Server Administrator, versions prior to 11.1.0.3, contains an Improper Privilege Management vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Information tampering and Unauthorized access.",
-          "date": "2026-09-17",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81442",
-          "kev": false,
-          "epss": 0.378
-        },
-        {
-          "id": "CVE-2026-26950",
-          "title": "Dell SmartFabric Manager, versions prior to 2.2.1, contains an Insufficient Verification of Data Authenticity vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Elevation of privileges.",
-          "date": "2026-09-17",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26950",
-          "kev": false,
-          "epss": 0.201
+          "epss": 0.191
         }
       ]
     },
@@ -250,7 +250,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84388",
           "kev": false,
-          "epss": 0.378
+          "epss": 0.377
         }
       ]
     },
@@ -258,13 +258,12 @@
       "count": 1,
       "items": [
         {
-          "id": "CVE-2026-93113",
-          "title": "In the Linux kernel, the following vulnerability has been resolved: clk: qcom: camcc-sc8280xp: unregister CAMCC_GDSC_CLK With the introduction of sync_state support in the clk and pmdomain subsystems, the following warning happens when the unused clocks…",
-          "date": "2026-09-17",
+          "id": "CVE-2026-97504",
+          "title": "In the Linux kernel, the following vulnerability has been resolved: watchdog: lenovo_se10_wdt: Fix use-after-free and resource leak risk Review by sashiko.dev highlighted potential use after free and resource leak instances. Set se10_pdev to null to…",
+          "date": "2026-09-24",
           "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93113",
-          "kev": false,
-          "epss": 0.168
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97504",
+          "kev": false
         }
       ]
     },
