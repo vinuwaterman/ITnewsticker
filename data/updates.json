@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T23:53:17.987Z",
+  "generatedAt": "2026-09-24T03:31:17.603Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Information published.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87489",
-      "count7d": 144
+      "count7d": 32
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "As organizations prepare for the next era of work, leaders need more than scheduling tools and time systems. They need a connected understanding of their workforce.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-recognized-gartner-magic-quadrant-workforce-management-technology/",
-      "count7d": 12
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -35,7 +35,7 @@
       "summary": "Update for September 16, 2026: The original 1.0 version of this advisory was specific to the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisco Secure Firewall Threat Defense Virtual (FTDv) models. However, it was later found that this vulnerability affects all Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software platforms.&nbsp; A vulnerability in the VPN and management web servers of the Cisco Secure Firewall ASA Software and Cisco Secure FTD Software platforms…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "count7d": 10
+      "count7d": 8
     },
     "VMware": {
       "vendor": "VMware",
@@ -62,7 +62,7 @@
       "summary": "Your data is ready for AI. Storage engines, data engines, and data orchestration unite to power discovery. Meet us at EDUCAUSE, booth 1001.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/why-higher-education-needs-dell-ai-data-platform/",
-      "count7d": 9
+      "count7d": 6
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -89,16 +89,16 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/",
-      "count7d": 2
+      "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Introducing Unit 42 Continuous Frontier AI Defense",
-      "date": "2026-09-22",
-      "summary": "Cybersecurity is in the middle of a generational shift. AI has disrupted a 30-year balance of power between defenders and adversaries. Armed with agentic AI tools and open-weight models stripped of safety &#8230; The post Introducing Unit 42 Continuous Frontier AI Defense appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/",
-      "count7d": 2
+      "title": "Announcing the General Availability of Prisma AIRS AI Gateway",
+      "date": "2026-07-16",
+      "summary": "Every modern enterprise is moving from an organization run by software to one orchestrated by AI, creating a tension between velocity and control. To resolve this tension, organizations require a unified architecture. &#8230; The post Announcing the General Availability of Prisma AIRS AI Gateway appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
+      "count7d": 1
     }
   },
   "nvd": {
