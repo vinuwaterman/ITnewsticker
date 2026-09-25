@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-25T05:55:23.605Z",
+  "generatedAt": "2026-09-25T11:20:09.485Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69681 Virtual Hard Disk (VHD) Miniport Driver Elevation of Privilege Vulernability",
-      "date": "2026-09-24",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "Chromium: CVE-2025-2135 Type Confusion in V8",
+      "date": "2026-09-25",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69681",
-      "count7d": 48
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2135",
+      "count7d": 55
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Broadcom (VMware) Recognized as a Leader in Two 2026 Gartner® Magic Quadrant™ Reports",
-      "date": "2026-09-24",
-      "summary": "We’re pleased to share that GartnerⓇ has named Broadcom (VMware) a Leader in both the 2026 Magic QuadrantTM for Distributed Hybrid Infrastructure, and the 2026 Magic Quadrant for Server Virtualization Platforms. We are also recognized in the 2026 Gartner Critical Capabilities for Server Virtualization Platforms. In the Critical Capabilities rankings for Server Virtualization Platforms, Broadcom &#8230; Continued The post Broadcom (VMware) Recognized as a Leader in Two 2026 Gartner® Magic Quadrant™ Reports appeared first on VMware Blogs .",
+      "title": "The Complete Guide to Workload Mobility with VMware Cloud Foundation Operations HCX 9.1 (Part 3: Extending Networks and Migrating Workloads)",
+      "date": "2026-09-25",
+      "summary": "Key Points Network Extension: Learn how to stretch Layer 2 networks from your legacy vSphere environment to VMware Cloud Foundation (VCF) 9.1, ensuring workloads retain their original IP and MAC addresses. Workload Migration: Understand the different HCX migration types available, with a step-by-step guide to perform your first migration. About This Series Part 1: Deploy &#8230; Continued The post The Complete Guide to Workload Mobility with VMware Cloud Foundation Operations HCX 9.1 (Part 3: Extending Networks and Migrating Workloads) appeared…",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/24/broadcom-vmware-recognized-as-a-leader-in-two-2026-gartner-magic-quadrant-reports/",
-      "count7d": 5
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/25/vcf-9-operations-hcx-network-extension-migration-part-3/",
+      "count7d": 6
     },
     "AWS": {
       "vendor": "AWS",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
+      "title": "Introducing Unit 42 Continuous Frontier AI Defense",
+      "date": "2026-09-22",
+      "summary": "Cybersecurity is in the middle of a generational shift. AI has disrupted a 30-year balance of power between defenders and adversaries. Armed with agentic AI tools and open-weight models stripped of safety &#8230; The post Introducing Unit 42 Continuous Frontier AI Defense appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/",
       "count7d": 1
     }
   },
@@ -113,20 +113,74 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70125",
           "kev": false,
           "epss": 0.44200000000000006
+        },
+        {
+          "id": "CVE-2026-88097",
+          "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges locally.",
+          "date": "2026-09-18",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88097",
+          "kev": false,
+          "epss": 0.294
+        },
+        {
+          "id": "CVE-2026-75511",
+          "title": "Novu provides an API for sending notifications through multiple channels. Prior to 3.18.0, Novu accepts chat webhook URLs from subscriber credentials.webhookUrl, channel endpoint endpoint.url, event payload.webhookUrl, and event overrides.webhookUrl, then passes the selected endpoint.url through…",
+          "date": "2026-09-22",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75511",
+          "kev": false,
+          "epss": 0.46499999999999997
+        },
+        {
+          "id": "CVE-2026-92254",
+          "title": "Missing Authorization in the IOCTL handlers of the wsdkd.sys kernel drivers in Watchdog WatchDog Antivirus 1.8.640 (driver versions 1.3.0.0 and earlier) on Microsoft Windows allows local, low-privileged attackers to delete arbitrary files with SYSTEM privileges,…",
+          "date": "2026-09-20",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92254",
+          "kev": false,
+          "epss": 0.14100000000000001
         }
       ]
     },
     "SAP": {
       "count": 2,
-      "items": []
+      "items": [
+        {
+          "id": "CVE-2026-76974",
+          "title": "SAP Fiori Launchpad does not sufficiently validate certain user-controlled input. An unauthenticated attacker could craft a malicious link that, when clicked by an authenticated user, causes the browser to load attacker-controlled content from an external…",
+          "date": "2026-09-22",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76974",
+          "kev": false,
+          "epss": 0.349
+        },
+        {
+          "id": "CVE-2026-12559",
+          "title": "A Stored Cross-Site Scripting (XSS) vulnerability has been identified in OpenText Vendor Invoice Management for SAP Solutions Capture Validation application. Under certain conditions, this issue could allow execution of unauthorized script content in a user's…",
+          "date": "2026-09-24",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12559",
+          "kev": false
+        }
+      ]
     },
     "Veeam": {
       "count": 0,
       "items": []
     },
     "Cisco": {
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "id": "CVE-2026-97863",
+          "title": "The cisco_firesight_manager_ACL_rule_export module in misp-modules generates a shell script (.sh) that authenticates to and calls the Cisco fireSIGHT Manager API. The module interpolates configuration values (IP address, login, password, domain ID, policy ID) and MISP…",
+          "date": "2026-09-25",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97863",
+          "kev": false
+        }
+      ]
     },
     "VMware": {
       "count": 0,
@@ -140,12 +194,45 @@
       "count": 18,
       "items": [
         {
+          "id": "CVE-2026-81455",
+          "title": "Dell ThinOS 10, versions prior to SecurityAddon_2605.10.2766_T10, contain a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
+          "date": "2026-09-24",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81455",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-81473",
+          "title": "Dell Rugged Control Center (RCC), versions prior to 5.2.206, contain an Improper Authorization vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privileges.",
+          "date": "2026-09-24",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81473",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-82157",
           "title": "Dell ThinOS 10, versions prior to SecurityAddon_2605.10.2766_T10, contains an Improper Certificate Validation vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Protection mechanism bypass and Unauthorized access.",
           "date": "2026-09-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82157",
           "kev": false
+        },
+        {
+          "id": "CVE-2026-82164",
+          "title": "Dell Trusted Device Client, versions prior to 8.1.359.0, contain an Incorrect Permission Assignment for Critical Resource vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Information tampering.",
+          "date": "2026-09-24",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82164",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-73588",
+          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
+          "date": "2026-09-23",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73588",
+          "kev": false,
+          "epss": 0.246
         }
       ]
     },
