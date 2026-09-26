@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T01:50:22.384Z",
+  "generatedAt": "2026-09-26T07:09:02.146Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 6,
+      "count": 7,
       "items": [
         {
           "id": "CVE-2026-100208",
@@ -123,6 +123,14 @@
           "epss": 0.44200000000000006
         },
         {
+          "id": "CVE-2026-100550",
+          "title": "OpenClaw (npm package 'openclaw') before 2026.8.1 contains an access-control bypass in the Microsoft Teams integration. When groupPolicy is set to allowlist, a missing or unsupported configured access group produces a denied group-resolution result that is…",
+          "date": "2026-09-26",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100550",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-63208",
           "title": "Zammad is a web based open source helpdesk/customer support system. Prior to 7.1.2, when a Microsoft Graph request fails, Zammad logs the error including the authentication token used to access the mailbox. The system attempts…",
           "date": "2026-09-25",
@@ -137,15 +145,6 @@
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84458",
           "kev": false
-        },
-        {
-          "id": "CVE-2026-75511",
-          "title": "Novu provides an API for sending notifications through multiple channels. Prior to 3.18.0, Novu accepts chat webhook URLs from subscriber credentials.webhookUrl, channel endpoint endpoint.url, event payload.webhookUrl, and event overrides.webhookUrl, then passes the selected endpoint.url through…",
-          "date": "2026-09-22",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75511",
-          "kev": false,
-          "epss": 0.46499999999999997
         }
       ]
     },
