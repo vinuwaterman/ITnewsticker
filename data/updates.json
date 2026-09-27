@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T17:10:47.367Z",
+  "generatedAt": "2026-09-27T20:20:13.984Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 7,
+      "count": 8,
       "items": [
         {
           "id": "CVE-2026-100208",
@@ -124,6 +124,14 @@
           "epss": 0.44200000000000006
         },
         {
+          "id": "CVE-2026-101042",
+          "title": "Parse Server is an open-source backend server. In versions >= 9.0.0 = 8.0.2 < 8.6.91, the code-based authentication adapters (GitHub, Google Play Games, Instagram, LINE, LinkedIn, Microsoft, QQ, Spotify, WeChat, Weibo) verify the client's authorization…",
+          "date": "2026-09-27",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101042",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-100550",
           "title": "OpenClaw (npm package 'openclaw') before 2026.8.1 contains an access-control bypass in the Microsoft Teams integration. When groupPolicy is set to allowlist, a missing or unsupported configured access group produces a denied group-resolution result that is…",
           "date": "2026-09-26",
@@ -140,15 +148,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100681",
           "kev": false,
           "epss": 0.249
-        },
-        {
-          "id": "CVE-2026-63208",
-          "title": "Zammad is a web based open source helpdesk/customer support system. Prior to 7.1.2, when a Microsoft Graph request fails, Zammad logs the error including the authentication token used to access the mailbox. The system attempts…",
-          "date": "2026-09-25",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63208",
-          "kev": false,
-          "epss": 0.306
         }
       ]
     },
