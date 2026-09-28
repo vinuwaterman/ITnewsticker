@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-28T08:20:01.321Z",
+  "generatedAt": "2026-09-28T16:55:39.622Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69522 .NET and Visual Studio Remote Code Execution Vulnerability",
-      "date": "2026-09-25",
-      "summary": "Security Updates table updated provide links to the KB articles and download center updates. Microsoft recommends installing the updates.",
+      "title": "CVE-2026-81355 Virtual Hard Disk (VHD) Miniport Driver Remote Code Execution Vulnerability",
+      "date": "2026-09-28",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69522",
-      "count7d": 160
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-81355",
+      "count7d": 161
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Named a Leader in the 2026 IDC MarketScape for AI-Enabled Direct Spend",
-      "date": "2026-09-24",
-      "summary": "SAP is invested in helping manufacturers connect sourcing, engineering, planning, and supplier collaboration on a single foundation.",
+      "title": "Coming Soon: A Smarter, More Transparent Feedback Experience",
+      "date": "2026-09-28",
+      "summary": "At SAP, customer feedback has always been part of how we build our software.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sap-a-leader-2026-idc-marketscape-ai-enabled-direct-spend/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/09/coming-soon-customer-influence-feedback-experience/",
+      "count7d": 13
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "One Namespace to Rule Them All: The New esxcli memtier Namespace",
-      "date": "2026-09-25",
-      "summary": "Memory Tiering is a great way to get more out of your ESX hosts, and managing it from the command line just got a whole lot easier. Let me explain why that matters. In VMware Cloud Foundation (VCF) 9.0, working with Memory Tiering from the CLI meant using two namespaces: esxcli system tierdevice for device &#8230; Continued The post One Namespace to Rule Them All: The New esxcli memtier Namespace appeared first on VMware Blogs .",
+      "title": "The Cost Case Is Clear: Infrastructure Economics with VMware vSphere Foundation 9.1",
+      "date": "2026-09-28",
+      "summary": "As infrastructure demands outgrow IT budgets and staffing, leaders face a brutal reality: the stakes for unplanned downtime and AI-powered cyber threats have never been higher. IT infrastructure teams are addressing this crisis by transforming traditional infrastructure into efficient, secure, and scalable platforms that drive efficiency at scale. In that environment, the economics of your &#8230; Continued The post The Cost Case Is Clear: Infrastructure Economics with VMware vSphere Foundation 9.1 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/25/one-namespace-to-rule-them-all-the-new-esxcli-memtier-namespace/",
-      "count7d": 6
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/28/the-cost-case-is-clear-infrastructure-economics-with-vmware-vsphere-foundation-9-1/",
+      "count7d": 7
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Sovereign AI Is a Control Problem, not a Location Problem",
-      "date": "2026-09-24",
-      "summary": "Data sovereignty is an architectural constraint for 50% of firms, yet only 10% budget for it, a critical gap where enterprise risk quietly accumulates.",
+      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
+      "date": "2026-09-28",
+      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/sovereign-ai-is-a-control-problem-not-a-location-problem/",
+      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
       "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo and Schneider Electric Partner to Bring Decarbonization Tools and Expertise to IT Channel Partners",
-      "date": "2026-09-21",
-      "summary": "Partnership gives a practical pathway to measure emissions, build decarbonization roadmaps, and demonstrate sustainability progress.",
-      "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-schneider-electric-partner-bring-decarbonization-tools-expertise-it-channel-partners/",
-      "count7d": 1
+      "title": "Lenovo and NVIDIA Strengthen Security for the Agentic AI Era",
+      "date": "2026-09-28",
+      "summary": "The collaboration builds on a broader commitment to advancing AI security through openness and industry-wide cooperation.",
+      "category": "patch",
+      "url": "https://news.lenovo.com/lenovo-nvidia-strengthen-security-agentic-ai-era/",
+      "count7d": 2
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "title": "Securing AI Agents at Scale with NVIDIA",
+      "date": "2026-09-28",
+      "summary": "AI agents are crossing an important threshold. They are moving from assistants that respond to us to autonomous systems that reason, plan, and act on our behalf. They can write and execute &#8230; The post Securing AI Agents at Scale with NVIDIA appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/securing-ai-agents-at-scale-with-nvidia/",
+      "count7d": 2
     }
   },
   "nvd": {
@@ -111,8 +111,7 @@
           "date": "2026-09-25",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100208",
-          "kev": false,
-          "epss": 0.348
+          "kev": false
         },
         {
           "id": "CVE-2026-70125",
@@ -120,8 +119,7 @@
           "date": "2026-09-23",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70125",
-          "kev": false,
-          "epss": 0.44200000000000006
+          "kev": false
         },
         {
           "id": "CVE-2026-101042",
@@ -137,8 +135,7 @@
           "date": "2026-09-26",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100550",
-          "kev": false,
-          "epss": 0.189
+          "kev": false
         },
         {
           "id": "CVE-2026-100681",
@@ -146,8 +143,7 @@
           "date": "2026-09-26",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100681",
-          "kev": false,
-          "epss": 0.249
+          "kev": false
         }
       ]
     },
@@ -160,8 +156,7 @@
           "date": "2026-09-22",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76974",
-          "kev": false,
-          "epss": 0.349
+          "kev": false
         },
         {
           "id": "CVE-2026-12559",
@@ -169,8 +164,7 @@
           "date": "2026-09-24",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12559",
-          "kev": false,
-          "epss": 0.386
+          "kev": false
         }
       ]
     },
@@ -187,8 +181,7 @@
           "date": "2026-09-25",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97863",
-          "kev": false,
-          "epss": 0.32
+          "kev": false
         }
       ]
     },
@@ -201,8 +194,7 @@
           "date": "2026-09-25",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51773",
-          "kev": false,
-          "epss": 0.319
+          "kev": false
         }
       ]
     },
@@ -211,16 +203,23 @@
       "items": []
     },
     "Dell": {
-      "count": 18,
+      "count": 22,
       "items": [
+        {
+          "id": "CVE-2026-80357",
+          "title": "Dell Boot Optimized Server Storage (BOSS), versions prior to 2.2.13.2038, contains an On-Chip Debug and Test Interface With Improper Access Control vulnerability in the SMCU on 17G BOSS-N1 controllers. An unauthenticated attacker with physical access…",
+          "date": "2026-09-28",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80357",
+          "kev": false
+        },
         {
           "id": "CVE-2026-81455",
           "title": "Dell ThinOS 10, versions prior to SecurityAddon_2605.10.2766_T10, contain a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
           "date": "2026-09-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81455",
-          "kev": false,
-          "epss": 0.262
+          "kev": false
         },
         {
           "id": "CVE-2026-81473",
@@ -228,8 +227,7 @@
           "date": "2026-09-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81473",
-          "kev": false,
-          "epss": 0.087
+          "kev": false
         },
         {
           "id": "CVE-2026-82157",
@@ -237,8 +235,7 @@
           "date": "2026-09-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82157",
-          "kev": false,
-          "epss": 0.121
+          "kev": false
         },
         {
           "id": "CVE-2026-82164",
@@ -246,17 +243,7 @@
           "date": "2026-09-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82164",
-          "kev": false,
-          "epss": 0.092
-        },
-        {
-          "id": "CVE-2026-73588",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access.",
-          "date": "2026-09-23",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73588",
-          "kev": false,
-          "epss": 0.246
+          "kev": false
         }
       ]
     },
@@ -269,8 +256,7 @@
           "date": "2026-09-22",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84388",
-          "kev": false,
-          "epss": 0.377
+          "kev": false
         }
       ]
     },
@@ -283,8 +269,7 @@
           "date": "2026-09-24",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97504",
-          "kev": false,
-          "epss": 0.155
+          "kev": false
         }
       ]
     },
