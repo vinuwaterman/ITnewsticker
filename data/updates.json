@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T16:55:39.622Z",
+  "generatedAt": "2026-09-28T22:26:45.222Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Backup Features Small Businesses Should Demand",
-      "date": "2026-09-17",
-      "summary": "Every backup vendor's feature list looks roughly the same. Immutable storage. Ransomware detection. Automated recovery. The phrases are nearly identical from one product page to the next, and none of them tell you which one would actually get your business running again after a bad week. The post Backup Features Small Businesses Should Demand appeared first on Veeam Software Official Blog .",
-      "category": "feature",
-      "url": "https://www.veeam.com/blog/backup-features-small-businesses-should-demand.html",
+      "title": "Beyond OADP: What Regulated OpenShift Environments Need to Prove Recovery",
+      "date": "2026-09-28",
+      "summary": "These days, it’s not enough to say an application is protected. Security, risk, and compliance teams want to know where a backup lives, who can access it, whether it can be changed or deleted, how consistently policy is applied, and when recovery was last tested. The post Beyond OADP: What Regulated OpenShift Environments Need to Prove Recovery appeared first on Veeam Software Official Blog .",
+      "category": "patch",
+      "url": "https://www.veeam.com/blog/oadp-openshift-compliance.html",
       "count7d": 1
     },
     "Cisco": {
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Securing AI Agents at Scale with NVIDIA",
-      "date": "2026-09-28",
-      "summary": "AI agents are crossing an important threshold. They are moving from assistants that respond to us to autonomous systems that reason, plan, and act on our behalf. They can write and execute &#8230; The post Securing AI Agents at Scale with NVIDIA appeared first on Palo Alto Networks Blog .",
+      "title": "Prisma AIRS - Unified Data Protection for Claude",
+      "date": "2026-08-05",
+      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/securing-ai-agents-at-scale-with-nvidia/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "count7d": 1
     }
   },
   "nvd": {
@@ -203,7 +203,7 @@
       "items": []
     },
     "Dell": {
-      "count": 22,
+      "count": 17,
       "items": [
         {
           "id": "CVE-2026-80357",
