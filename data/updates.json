@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T23:17:37.089Z",
+  "generatedAt": "2026-09-28T01:54:00.406Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Security Updates table updated provide links to the KB articles and download center updates. Microsoft recommends installing the updates.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69522",
-      "count7d": 174
+      "count7d": 160
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "SAP is invested in helping manufacturers connect sourcing, engineering, planning, and supplier collaboration on a single foundation.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-a-leader-2026-idc-marketscape-ai-enabled-direct-spend/",
-      "count7d": 12
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -44,7 +44,7 @@
       "summary": "Memory Tiering is a great way to get more out of your ESX hosts, and managing it from the command line just got a whole lot easier. Let me explain why that matters. In VMware Cloud Foundation (VCF) 9.0, working with Memory Tiering from the CLI meant using two namespaces: esxcli system tierdevice for device &#8230; Continued The post One Namespace to Rule Them All: The New esxcli memtier Namespace appeared first on VMware Blogs .",
       "category": "feature",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/09/25/one-namespace-to-rule-them-all-the-new-esxcli-memtier-namespace/",
-      "count7d": 7
+      "count7d": 6
     },
     "AWS": {
       "vendor": "AWS",
@@ -71,7 +71,7 @@
       "summary": "Partnership gives a practical pathway to measure emissions, build decarbonization roadmaps, and demonstrate sustainability progress.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-schneider-electric-partner-bring-decarbonization-tools-expertise-it-channel-partners/",
-      "count7d": 2
+      "count7d": 1
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,11 +93,11 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Introducing Unit 42 Continuous Frontier AI Defense",
-      "date": "2026-09-22",
-      "summary": "Cybersecurity is in the middle of a generational shift. AI has disrupted a 30-year balance of power between defenders and adversaries. Armed with agentic AI tools and open-weight models stripped of safety &#8230; The post Introducing Unit 42 Continuous Frontier AI Defense appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
