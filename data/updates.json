@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T22:26:45.222Z",
+  "generatedAt": "2026-09-29T02:12:40.904Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-81355",
-      "count7d": 161
+      "count7d": 153
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "At SAP, customer feedback has always been part of how we build our software.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/coming-soon-customer-influence-feedback-experience/",
-      "count7d": 13
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "The Cost Case Is Clear: Infrastructure Economics with VMware vSphere Foundation 9.1",
+      "title": "Optimizing AI Deployments with VMware Cloud Foundation (Part 2)",
       "date": "2026-09-28",
-      "summary": "As infrastructure demands outgrow IT budgets and staffing, leaders face a brutal reality: the stakes for unplanned downtime and AI-powered cyber threats have never been higher. IT infrastructure teams are addressing this crisis by transforming traditional infrastructure into efficient, secure, and scalable platforms that drive efficiency at scale. In that environment, the economics of your &#8230; Continued The post The Cost Case Is Clear: Infrastructure Economics with VMware vSphere Foundation 9.1 appeared first on VMware Blogs .",
+      "summary": "Maximizing GPU Utilization for Best Total Cost of Ownership Introduction VMware Cloud Foundation (VCF) can help enterprises maximize utilization and optimize AI infrastructure. To demonstrate VCF’s efficiency and flexibility for running AI workloads in various configurations, the Broadcom Performance team has completed extensive performance tests. We present these results in our white paper and are &#8230; Continued The post Optimizing AI Deployments with VMware Cloud Foundation (Part 2) appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/28/the-cost-case-is-clear-infrastructure-economics-with-vmware-vsphere-foundation-9-1/",
-      "count7d": 7
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/28/optimizing-ai-deployments-with-vmware-cloud-foundation-part-2/",
+      "count7d": 6
     },
     "AWS": {
       "vendor": "AWS",
@@ -84,20 +84,20 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: Proactive Security Platforms, Q3 2026",
-      "date": "2026-09-24",
+      "title": "A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack",
+      "date": "2026-09-28",
       "summary": "",
       "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/",
-      "count7d": 1
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/",
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Prisma AIRS - Unified Data Protection for Claude",
-      "date": "2026-08-05",
-      "summary": "As AI adoption shifts from experimental tools to the business core, enterprises are deploying AI agents and assistants across every department. Developers are accelerating software delivery with Claude Code and business functions &#8230; The post Prisma AIRS - Unified Data Protection for Claude appeared first on Palo Alto Networks Blog .",
+      "title": "Putting OpenAI Cyber Models to Work for Defenders",
+      "date": "2026-08-12",
+      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/prisma-airs-unified-data-protection-for-claude/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
       "count7d": 1
     }
   },
@@ -148,16 +148,8 @@
       ]
     },
     "SAP": {
-      "count": 2,
+      "count": 1,
       "items": [
-        {
-          "id": "CVE-2026-76974",
-          "title": "SAP Fiori Launchpad does not sufficiently validate certain user-controlled input. An unauthenticated attacker could craft a malicious link that, when clicked by an authenticated user, causes the browser to load attacker-controlled content from an external…",
-          "date": "2026-09-22",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76974",
-          "kev": false
-        },
         {
           "id": "CVE-2026-12559",
           "title": "A Stored Cross-Site Scripting (XSS) vulnerability has been identified in OpenText Vendor Invoice Management for SAP Solutions Capture Validation application. Under certain conditions, this issue could allow execution of unauthorized script content in a user's…",
