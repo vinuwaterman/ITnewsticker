@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:25:56.875Z",
+  "generatedAt": "2026-09-29T20:09:42.729Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -106,6 +106,14 @@
       "count": 9,
       "items": [
         {
+          "id": "CVE-2023-54400",
+          "title": "Fumasoft Fumeng Cloud contains a SQL injection vulnerability in the AjaxMethod.ashx endpoint that allows unauthenticated remote attackers to inject arbitrary SQL through the Name parameter of the getEmpByname action without any authentication. Attackers can exploit…",
+          "date": "2026-09-29",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54400",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-100208",
           "title": "Integer overflow or wraparound in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
           "date": "2026-09-25",
@@ -140,15 +148,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101042",
           "kev": false,
           "epss": 0.213
-        },
-        {
-          "id": "CVE-2026-100550",
-          "title": "OpenClaw (npm package 'openclaw') before 2026.8.1 contains an access-control bypass in the Microsoft Teams integration. When groupPolicy is set to allowlist, a missing or unsupported configured access group produces a denied group-resolution result that is…",
-          "date": "2026-09-26",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100550",
-          "kev": false,
-          "epss": 0.189
         }
       ]
     },
