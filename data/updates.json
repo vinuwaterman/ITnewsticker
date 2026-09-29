@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T20:09:42.729Z",
+  "generatedAt": "2026-09-29T23:54:28.722Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62694",
-      "count7d": 168
+      "count7d": 169
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Beyond OADP: What Regulated OpenShift Environments Need to Prove Recovery",
-      "date": "2026-09-28",
-      "summary": "These days, it’s not enough to say an application is protected. Security, risk, and compliance teams want to know where a backup lives, who can access it, whether it can be changed or deleted, how consistently policy is applied, and when recovery was last tested. The post Beyond OADP: What Regulated OpenShift Environments Need to Prove Recovery appeared first on Veeam Software Official Blog .",
+      "title": "Backup Features Small Business IT Admins Should Demand",
+      "date": "2026-09-29",
+      "summary": "If you run backups at a small company, you're probably the only person who does. No security team to escalate to, no second admin to catch what the console doesn't surface, and no budget for discovering mid-incident that a control you assumed you had sits two tiers up. The post Backup Features Small Business IT Admins Should Demand appeared first on Veeam Software Official Blog .",
       "category": "patch",
-      "url": "https://www.veeam.com/blog/oadp-openshift-compliance.html",
-      "count7d": 1
+      "url": "https://www.veeam.com/blog/backup-features-smb-it-teams.html",
+      "count7d": 2
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack",
-      "date": "2026-09-28",
+      "title": "Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them",
+      "date": "2026-09-29",
       "summary": "",
       "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/",
-      "count7d": 2
+      "url": "https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/",
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 9,
+      "count": 10,
       "items": [
         {
           "id": "CVE-2023-54400",
