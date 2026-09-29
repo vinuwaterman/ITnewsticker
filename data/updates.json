@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-29T02:12:40.904Z",
+  "generatedAt": "2026-09-29T08:54:19.249Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-81355 Virtual Hard Disk (VHD) Miniport Driver Remote Code Execution Vulnerability",
-      "date": "2026-09-28",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "Chromium CVE-2026-91728: Integer overflow",
+      "date": "2026-09-29",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-81355",
-      "count7d": 153
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-91728",
+      "count7d": 155
     },
     "SAP": {
       "vendor": "SAP",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Putting OpenAI Cyber Models to Work for Defenders",
-      "date": "2026-08-12",
-      "summary": "Unit 42 is putting the latest frontier cyber models to work across customer environments to find, validate and help remediate the attack paths that matter most. In May, we introduced Frontier AI &#8230; The post Putting OpenAI Cyber Models to Work for Defenders appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/",
-      "count7d": 1
+      "title": "Why OT Resilience Is Now a Boardroom Imperative",
+      "date": "2026-09-29",
+      "summary": "For decades, industrial cybersecurity rested on a comfortable assumption: operational technology (OT) was protected by physical isolation. The \"air gap\" guaranteed that power grids, manufacturing lines, and water systems remained safely disconnected &#8230; The post Why OT Resilience Is Now a Boardroom Imperative appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/09/why-ot-resilience-is-now-a-boardroom-imperative/",
+      "count7d": 2
     }
   },
   "nvd": {
