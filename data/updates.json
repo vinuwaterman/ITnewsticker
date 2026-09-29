@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-29T08:54:19.249Z",
+  "generatedAt": "2026-09-29T15:25:56.875Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium CVE-2026-91728: Integer overflow",
+      "title": "CVE-2026-62694 Windows Installer Elevation of Privilege Vulnerability",
       "date": "2026-09-29",
-      "summary": "Information published.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-91728",
-      "count7d": 155
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62694",
+      "count7d": 168
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Coming Soon: A Smarter, More Transparent Feedback Experience",
-      "date": "2026-09-28",
-      "summary": "At SAP, customer feedback has always been part of how we build our software.",
+      "title": "AI&#8217;s Future Runs Through Sustainability",
+      "date": "2026-09-29",
+      "summary": "Energy costs, physical risk, and AI's appetite for resources put sustainability at the center of business at New York Climate Week 2026.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/coming-soon-customer-influence-feedback-experience/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/09/new-york-climate-week-ai-sustainability/",
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "title": "How to Overclock Your CPU Safely: A Practical Guide",
+      "date": "2026-09-29",
+      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
       "count7d": 10
     },
     "Lenovo": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 8,
+      "count": 9,
       "items": [
         {
           "id": "CVE-2026-100208",
@@ -111,7 +111,8 @@
           "date": "2026-09-25",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100208",
-          "kev": false
+          "kev": false,
+          "epss": 0.348
         },
         {
           "id": "CVE-2026-70125",
@@ -119,7 +120,17 @@
           "date": "2026-09-23",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70125",
-          "kev": false
+          "kev": false,
+          "epss": 0.44200000000000006
+        },
+        {
+          "id": "CVE-2026-95394",
+          "title": "Microsoft Network Monitor file parser large loop in 4.6.0 to 4.6.8 and 4.4.0 to 4.4.18 allows denial of service",
+          "date": "2026-09-29",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95394",
+          "kev": false,
+          "epss": 0.136
         },
         {
           "id": "CVE-2026-101042",
@@ -127,7 +138,8 @@
           "date": "2026-09-27",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101042",
-          "kev": false
+          "kev": false,
+          "epss": 0.213
         },
         {
           "id": "CVE-2026-100550",
@@ -135,15 +147,8 @@
           "date": "2026-09-26",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100550",
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-100681",
-          "title": "Budibase before 3.45.0 contains an unauthenticated server-side request forgery and credential exfiltration vulnerability in the Microsoft Teams webhook endpoint that accepts forged Bot Framework activities with arbitrary serviceUrl values. Attackers can submit a crafted POST…",
-          "date": "2026-09-26",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100681",
-          "kev": false
+          "kev": false,
+          "epss": 0.189
         }
       ]
     },
@@ -156,7 +161,8 @@
           "date": "2026-09-24",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12559",
-          "kev": false
+          "kev": false,
+          "epss": 0.386
         }
       ]
     },
@@ -173,7 +179,8 @@
           "date": "2026-09-25",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97863",
-          "kev": false
+          "kev": false,
+          "epss": 0.32
         }
       ]
     },
@@ -186,7 +193,8 @@
           "date": "2026-09-25",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51773",
-          "kev": false
+          "kev": false,
+          "epss": 0.319
         }
       ]
     },
@@ -195,7 +203,7 @@
       "items": []
     },
     "Dell": {
-      "count": 17,
+      "count": 25,
       "items": [
         {
           "id": "CVE-2026-80357",
@@ -203,7 +211,8 @@
           "date": "2026-09-28",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80357",
-          "kev": false
+          "kev": false,
+          "epss": 0.11399999999999999
         },
         {
           "id": "CVE-2026-81455",
@@ -211,7 +220,8 @@
           "date": "2026-09-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81455",
-          "kev": false
+          "kev": false,
+          "epss": 0.262
         },
         {
           "id": "CVE-2026-81473",
@@ -219,7 +229,8 @@
           "date": "2026-09-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81473",
-          "kev": false
+          "kev": false,
+          "epss": 0.087
         },
         {
           "id": "CVE-2026-82157",
@@ -227,7 +238,8 @@
           "date": "2026-09-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82157",
-          "kev": false
+          "kev": false,
+          "epss": 0.121
         },
         {
           "id": "CVE-2026-82164",
@@ -235,22 +247,14 @@
           "date": "2026-09-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82164",
-          "kev": false
+          "kev": false,
+          "epss": 0.092
         }
       ]
     },
     "Fortinet": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-84388",
-          "title": "A improper restriction of rendered ui layers or frames vulnerability in Fortinet FortiPAM Chrome Extension 8.0 all versions, FortiPAM Chrome Extension 7.4 all versions may allow attacker to information disclosure via remote unauthenticated attack",
-          "date": "2026-09-22",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84388",
-          "kev": false
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Lenovo": {
       "count": 1,
@@ -261,7 +265,8 @@
           "date": "2026-09-24",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97504",
-          "kev": false
+          "kev": false,
+          "epss": 0.155
         }
       ]
     },
