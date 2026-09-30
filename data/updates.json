@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T04:22:10.362Z",
+  "generatedAt": "2026-09-30T10:40:33.471Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Optimizing AI Deployments with VMware Cloud Foundation (Part 2)",
-      "date": "2026-09-28",
-      "summary": "Maximizing GPU Utilization for Best Total Cost of Ownership Introduction VMware Cloud Foundation (VCF) can help enterprises maximize utilization and optimize AI infrastructure. To demonstrate VCF’s efficiency and flexibility for running AI workloads in various configurations, the Broadcom Performance team has completed extensive performance tests. We present these results in our white paper and are &#8230; Continued The post Optimizing AI Deployments with VMware Cloud Foundation (Part 2) appeared first on VMware Blogs .",
+      "title": "Managing VKS Clusters at Scale: Improvements in VCF 9.1",
+      "date": "2026-09-30",
+      "summary": "Introduction With VCF 9.0.1 we introduced VKS cluster management &#8211; a native, VCF-first capability for provisioning, governing, and operating VKS clusters without needing a separate management plane. We&#8217;ve heard a lot of great feedback since then, and in VCF 9.1 we&#8217;ve acted on it. The VKS cluster management feature in VCF 9.1 focuses on a &#8230; Continued The post Managing VKS Clusters at Scale: Improvements in VCF 9.1 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/28/optimizing-ai-deployments-with-vmware-cloud-foundation-part-2/",
-      "count7d": 6
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/30/managing-vks-clusters-at-scale-improvements-in-vcf-9-1/",
+      "count7d": 7
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "title": "How to Overclock Your CPU Safely: A Practical Guide",
+      "date": "2026-09-29",
+      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
       "count7d": 10
     },
     "Lenovo": {
