@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-30T10:40:33.471Z",
+  "generatedAt": "2026-09-30T16:42:24.475Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62694 Windows Installer Elevation of Privilege Vulnerability",
-      "date": "2026-09-29",
+      "title": "CVE-2026-69504 Windows NTFS Information Disclosure Vulnerability",
+      "date": "2026-09-30",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62694",
-      "count7d": 161
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69504",
+      "count7d": 171
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "AI&#8217;s Future Runs Through Sustainability",
-      "date": "2026-09-29",
-      "summary": "Energy costs, physical risk, and AI's appetite for resources put sustainability at the center of business at New York Climate Week 2026.",
+      "title": "SAP Named a Leader in the IDC MarketScape: Worldwide Agentic Marketing for B2C Enterprises 2026 Vendor Assessment",
+      "date": "2026-09-30",
+      "summary": "SAP is committed to helping enterprises deliver intelligent, personalized customer experiences.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/new-york-climate-week-ai-sustainability/",
-      "count7d": 8
+      "url": "https://news.sap.com/2026/09/sap-a-leader-idc-marketscape-worldwide-agentic-marketing-b2c-enterprises/",
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,21 +30,21 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
-      "date": "2026-09-24",
-      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to access or manipulate data, obtain sensitive information, or cause a reload of certificate and key material on an affected device. For more information about these vulnerabilities, see the Details section of this advisory. Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4…",
+      "title": "Cisco Advance Notification for Publication of October 7, 2026, Security Advisories",
+      "date": "2026-09-30",
+      "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Application Policy Infrastructure Controller (security hardening release) Finesse License On-Prem, formerly Cisco Smart Software Manager On-Prem (security hardening release) Meraki (security hardening release) NX-OS Software for MDS 9000, Nexus 3000, 7000, and 9000 Series Switches, Nexus 9000 in ACI mode, and UCS Fabric Interconnects (security hardening release) To remediate vulnerabilities…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authentication%20Bypass%20Vulnerabilities%26vs_k=1",
-      "count7d": 1
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
+      "count7d": 3
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Managing VKS Clusters at Scale: Improvements in VCF 9.1",
+      "title": "Streamlining CI/CD on VMware vSphere Kubernetes Service with Harness, Wiz, Artifactory, Dynatrace and the VCF Secret Store",
       "date": "2026-09-30",
-      "summary": "Introduction With VCF 9.0.1 we introduced VKS cluster management &#8211; a native, VCF-first capability for provisioning, governing, and operating VKS clusters without needing a separate management plane. We&#8217;ve heard a lot of great feedback since then, and in VCF 9.1 we&#8217;ve acted on it. The VKS cluster management feature in VCF 9.1 focuses on a &#8230; Continued The post Managing VKS Clusters at Scale: Improvements in VCF 9.1 appeared first on VMware Blogs .",
+      "summary": "A Production-Ready Blueprint for Enterprise Ecosystem Integration on VMware Cloud Foundation Broadcom VCF Technical Product Solutions ArchitectureSession Resources: VMware Explore Video #APPB1147LV &#124; GitHub vks-consumption-models As enterprise organizations adopt VMware Cloud Foundation (VCF), the VMware vSphere Kubernetes Service (VKS) becomes the bridge to modern scale, enabling platform engineering teams to deliver standardized Kubernetes environments on &#8230; Continued The post Streamlining CI/CD on VMware vSphere Kubernetes Service with Harness, Wiz, Artifactory, Dynatrace and the VCF Secret Store appeared first on VMware…",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/30/managing-vks-clusters-at-scale-improvements-in-vcf-9-1/",
-      "count7d": 7
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/09/30/streamlining-ci-cd-on-vmware-vsphere-kubernetes-service-with-harness-wiz-artifactory-dynatrace-and-the-vcf-secret-store/",
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo and NVIDIA Strengthen Security for the Agentic AI Era",
-      "date": "2026-09-28",
-      "summary": "The collaboration builds on a broader commitment to advancing AI security through openness and industry-wide cooperation.",
-      "category": "patch",
-      "url": "https://news.lenovo.com/lenovo-nvidia-strengthen-security-agentic-ai-era/",
-      "count7d": 2
+      "title": "Lenovo’s expanded services portfolio helps organizations realize value from Hybrid AI Factories in as little as 90 days",
+      "date": "2026-09-30",
+      "summary": "With the launch of Lenovo AI Express, organizations have a faster path to validated, right-sized AI infrastructure.",
+      "category": "feature",
+      "url": "https://news.lenovo.com/expanded-services-portfolio-value-from-hybrid-ai-factories-90-days/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -170,8 +170,16 @@
       "items": []
     },
     "Cisco": {
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "id": "CVE-2026-76504",
+          "title": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user. This vulnerability is due to…",
+          "date": "2026-09-30",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
+          "kev": false
+        },
         {
           "id": "CVE-2026-97863",
           "title": "The cisco_firesight_manager_ACL_rule_export module in misp-modules generates a shell script (.sh) that authenticates to and calls the Cisco fireSIGHT Manager API. The module interpolates configuration values (IP address, login, password, domain ID, policy ID) and MISP…",
@@ -202,8 +210,16 @@
       "items": []
     },
     "Dell": {
-      "count": 25,
+      "count": 17,
       "items": [
+        {
+          "id": "CVE-2026-73598",
+          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Incorrect Permission Assignment for Critical Resource vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation…",
+          "date": "2026-09-29",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73598",
+          "kev": false
+        },
         {
           "id": "CVE-2026-80357",
           "title": "Dell Boot Optimized Server Storage (BOSS), versions prior to 2.2.13.2038, contains an On-Chip Debug and Test Interface With Improper Access Control vulnerability in the SMCU on 17G BOSS-N1 controllers. An unauthenticated attacker with physical access…",
@@ -239,15 +255,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82157",
           "kev": false,
           "epss": 0.121
-        },
-        {
-          "id": "CVE-2026-82164",
-          "title": "Dell Trusted Device Client, versions prior to 8.1.359.0, contain an Incorrect Permission Assignment for Critical Resource vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Information tampering.",
-          "date": "2026-09-24",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82164",
-          "kev": false,
-          "epss": 0.092
         }
       ]
     },
