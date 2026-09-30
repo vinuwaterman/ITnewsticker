@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-30T16:42:24.475Z",
+  "generatedAt": "2026-09-30T21:16:00.114Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69504 Windows NTFS Information Disclosure Vulnerability",
+      "title": "CVE-2026-69451 Windows Management Instrumentation Elevation of Privilege Vulnerability",
       "date": "2026-09-30",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69504",
-      "count7d": 171
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69451",
+      "count7d": 178
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Backup Features Small Business IT Admins Should Demand",
-      "date": "2026-09-29",
-      "summary": "If you run backups at a small company, you're probably the only person who does. No security team to escalate to, no second admin to catch what the console doesn't surface, and no budget for discovering mid-incident that a control you assumed you had sits two tiers up. The post Backup Features Small Business IT Admins Should Demand appeared first on Veeam Software Official Blog .",
-      "category": "patch",
-      "url": "https://www.veeam.com/blog/backup-features-smb-it-teams.html",
-      "count7d": 2
+      "title": "Stop Calling It Cloud Storage: What Actually Makes a Backup Copy Attack-Resistant",
+      "date": "2026-09-30",
+      "summary": "Offsite, air-gapped, immutable, and recoverable are four different properties. Most backup strategies in Asia Pacific deliver one of them but assume they have all four. The post Stop Calling It Cloud Storage: What Actually Makes a Backup Copy Attack-Resistant appeared first on Veeam Software Official Blog .",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/backup-copy-attack-resistant.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -44,7 +44,7 @@
       "summary": "A Production-Ready Blueprint for Enterprise Ecosystem Integration on VMware Cloud Foundation Broadcom VCF Technical Product Solutions ArchitectureSession Resources: VMware Explore Video #APPB1147LV &#124; GitHub vks-consumption-models As enterprise organizations adopt VMware Cloud Foundation (VCF), the VMware vSphere Kubernetes Service (VKS) becomes the bridge to modern scale, enabling platform engineering teams to deliver standardized Kubernetes environments on &#8230; Continued The post Streamlining CI/CD on VMware vSphere Kubernetes Service with Harness, Wiz, Artifactory, Dynatrace and the VCF Secret Store appeared first on VMware…",
       "category": "feature",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/09/30/streamlining-ci-cd-on-vmware-vsphere-kubernetes-service-with-harness-wiz-artifactory-dynatrace-and-the-vcf-secret-store/",
-      "count7d": 8
+      "count7d": 9
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Overclock Your CPU Safely: A Practical Guide",
-      "date": "2026-09-29",
-      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
+      "date": "2026-09-28",
+      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
       "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo’s expanded services portfolio helps organizations realize value from Hybrid AI Factories in as little as 90 days",
+      "title": "Lenovo Technology Powers Aruba.it Racing – Ducati to Historic 2026 WorldSBK Triple Crown",
       "date": "2026-09-30",
-      "summary": "With the launch of Lenovo AI Express, organizations have a faster path to validated, right-sized AI infrastructure.",
+      "summary": "The team’s 2026 season has been defined by precision and dominance with Lenovo, Main Sponsor to Aruba.it Racing – Ducati, playing a central role in its success.",
       "category": "feature",
-      "url": "https://news.lenovo.com/expanded-services-portfolio-value-from-hybrid-ai-factories-90-days/",
-      "count7d": 5
+      "url": "https://news.lenovo.com/pressroom/press-releases/technology-powers-aruba-it-racing-ducati-historic-2026-worldsbk-triple-crown/",
+      "count7d": 6
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -178,7 +178,7 @@
           "date": "2026-09-30",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
-          "kev": false
+          "kev": true
         },
         {
           "id": "CVE-2026-97863",
