@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T21:16:00.114Z",
+  "generatedAt": "2026-10-01T00:43:07.696Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69451",
-      "count7d": 178
+      "count7d": 160
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,16 +17,16 @@
       "summary": "SAP is committed to helping enterprises deliver intelligent, personalized customer experiences.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-a-leader-idc-marketscape-worldwide-agentic-marketing-b2c-enterprises/",
-      "count7d": 9
+      "count7d": 5
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Stop Calling It Cloud Storage: What Actually Makes a Backup Copy Attack-Resistant",
+      "title": "Backup Software Hidden Costs Nobody Mentions",
       "date": "2026-09-30",
-      "summary": "Offsite, air-gapped, immutable, and recoverable are four different properties. Most backup strategies in Asia Pacific deliver one of them but assume they have all four. The post Stop Calling It Cloud Storage: What Actually Makes a Backup Copy Attack-Resistant appeared first on Veeam Software Official Blog .",
+      "summary": "Backup software hidden costs are the licensing, storage, support, and recovery expenses that don’t appear in the initial quote but grow as your hardware, data, and contracts change. For a small business with a lean IT team, or no dedicated IT team at all, hidden costs tend to surface at the worst moment: a renewal invoice that jumped, a storage bill that doubled, or a restore that came with a fee nobody budgeted for. The post Backup Software Hidden Costs…",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/backup-copy-attack-resistant.html",
-      "count7d": 4
+      "url": "https://www.veeam.com/blog/backup-software-hidden-costs.html",
+      "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Application Policy Infrastructure Controller (security hardening release) Finesse License On-Prem, formerly Cisco Smart Software Manager On-Prem (security hardening release) Meraki (security hardening release) NX-OS Software for MDS 9000, Nexus 3000, 7000, and 9000 Series Switches, Nexus 9000 in ACI mode, and UCS Fabric Interconnects (security hardening release) To remediate vulnerabilities…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
-      "count7d": 3
+      "count7d": 2
     },
     "VMware": {
       "vendor": "VMware",
@@ -44,7 +44,7 @@
       "summary": "A Production-Ready Blueprint for Enterprise Ecosystem Integration on VMware Cloud Foundation Broadcom VCF Technical Product Solutions ArchitectureSession Resources: VMware Explore Video #APPB1147LV &#124; GitHub vks-consumption-models As enterprise organizations adopt VMware Cloud Foundation (VCF), the VMware vSphere Kubernetes Service (VKS) becomes the bridge to modern scale, enabling platform engineering teams to deliver standardized Kubernetes environments on &#8230; Continued The post Streamlining CI/CD on VMware vSphere Kubernetes Service with Harness, Wiz, Artifactory, Dynatrace and the VCF Secret Store appeared first on VMware…",
       "category": "feature",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/09/30/streamlining-ci-cd-on-vmware-vsphere-kubernetes-service-with-harness-wiz-artifactory-dynatrace-and-the-vcf-secret-store/",
-      "count7d": 9
+      "count7d": 7
     },
     "AWS": {
       "vendor": "AWS",
@@ -62,7 +62,7 @@
       "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
-      "count7d": 10
+      "count7d": 2
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "patch",
       "url": "https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/",
-      "count7d": 3
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 10,
+      "count": 9,
       "items": [
         {
           "id": "CVE-2023-54400",
@@ -123,15 +123,6 @@
           "epss": 0.348
         },
         {
-          "id": "CVE-2026-70125",
-          "title": "Microsoft Office Outlook Remote Code Execution Vulnerability",
-          "date": "2026-09-23",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70125",
-          "kev": false,
-          "epss": 0.44200000000000006
-        },
-        {
           "id": "CVE-2026-95394",
           "title": "Microsoft Network Monitor file parser large loop in 4.6.0 to 4.6.8 and 4.4.0 to 4.4.18 allows denial of service",
           "date": "2026-09-29",
@@ -148,6 +139,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101042",
           "kev": false,
           "epss": 0.213
+        },
+        {
+          "id": "CVE-2026-100550",
+          "title": "OpenClaw (npm package 'openclaw') before 2026.8.1 contains an access-control bypass in the Microsoft Teams integration. When groupPolicy is set to allowlist, a missing or unsupported configured access group produces a denied group-resolution result that is…",
+          "date": "2026-09-26",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100550",
+          "kev": false,
+          "epss": 0.189
         }
       ]
     },
