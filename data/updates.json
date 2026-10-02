@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T04:26:20.512Z",
+  "generatedAt": "2026-10-02T10:41:07.589Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Overclock Your CPU Safely: A Practical Guide",
-      "date": "2026-09-29",
-      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
-      "count7d": 3
+      "title": "Sovereign AI Is a Control Problem, not a Location Problem",
+      "date": "2026-09-24",
+      "summary": "Data sovereignty is an architectural constraint for 50% of firms, yet only 10% budget for it, a critical gap where enterprise risk quietly accumulates.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/sovereign-ai-is-a-control-problem-not-a-location-problem/",
+      "count7d": 1
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Technology Powers Aruba.it Racing – Ducati to Historic 2026 WorldSBK Triple Crown",
-      "date": "2026-09-30",
-      "summary": "The team’s 2026 season has been defined by precision and dominance with Lenovo, Main Sponsor to Aruba.it Racing – Ducati, playing a central role in its success.",
+      "title": "DKSH Accelerates Landmark Smart Parking Deployment with Lenovo TruScale Infrastructure as a Service",
+      "date": "2026-10-02",
+      "summary": "By bringing together technology, services and ongoing support within a single solution, Lenovo TruScale IaaS helps DKSH focus resources on innovation and customer delivery.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/technology-powers-aruba-it-racing-ducati-historic-2026-worldsbk-triple-crown/",
-      "count7d": 6
+      "url": "https://news.lenovo.com/dksh-accelerates-smart-parking-deployment-with-lenovo-truscale-iaas/",
+      "count7d": 7
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them",
-      "date": "2026-09-29",
+      "title": "CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS",
+      "date": "2026-10-01",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/",
-      "count7d": 2
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/",
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -161,7 +161,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 2,
+      "count": 1,
       "items": [
         {
           "id": "CVE-2026-76504",
@@ -171,15 +171,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
           "kev": true,
           "epss": 1.0959999999999999
-        },
-        {
-          "id": "CVE-2026-97863",
-          "title": "The cisco_firesight_manager_ACL_rule_export module in misp-modules generates a shell script (.sh) that authenticates to and calls the Cisco fireSIGHT Manager API. The module interpolates configuration values (IP address, login, password, domain ID, policy ID) and MISP…",
-          "date": "2026-09-25",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97863",
-          "kev": false,
-          "epss": 0.32
         }
       ]
     },
