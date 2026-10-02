@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-02T16:32:15.773Z",
+  "generatedAt": "2026-10-02T21:12:19.571Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69451 Windows Management Instrumentation Elevation of Privilege Vulnerability",
-      "date": "2026-09-30",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-96940 Microsoft Exchange Server Elevation of Privilege Vulnerability",
+      "date": "2026-10-02",
+      "summary": "Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69451",
-      "count7d": 34
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96940",
+      "count7d": 35
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Advance Notification for Publication of October 7, 2026, Security Advisories",
-      "date": "2026-09-30",
-      "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Application Policy Infrastructure Controller (security hardening release) Finesse License On-Prem, formerly Cisco Smart Software Manager On-Prem (security hardening release) Meraki (security hardening release) NX-OS Software for MDS 9000, Nexus 3000, 7000, and 9000 Series Switches, Nexus 9000 in ACI mode, and UCS Fabric Interconnects (security hardening release) To remediate vulnerabilities…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
-      "count7d": 2
+      "title": "Cisco IOS XE Software Security Hardening Release: August 2026",
+      "date": "2026-10-02",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XE Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities.&nbsp; &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE)…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
+      "count7d": 3
     },
     "VMware": {
       "vendor": "VMware",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Overclock Your CPU Safely: A Practical Guide",
-      "date": "2026-09-29",
-      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
-      "count7d": 3
+      "title": "Sovereign AI Is a Control Problem, not a Location Problem",
+      "date": "2026-09-24",
+      "summary": "Data sovereignty is an architectural constraint for 50% of firms, yet only 10% budget for it, a critical gap where enterprise risk quietly accumulates.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/sovereign-ai-is-a-control-problem-not-a-location-problem/",
+      "count7d": 1
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 9,
+      "count": 7,
       "items": [
         {
           "id": "CVE-2023-54400",
@@ -115,13 +115,12 @@
           "epss": 0.464
         },
         {
-          "id": "CVE-2026-100208",
-          "title": "Integer overflow or wraparound in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-09-25",
+          "id": "CVE-2026-96940",
+          "title": "Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a network.",
+          "date": "2026-10-02",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100208",
-          "kev": false,
-          "epss": 0.348
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96940",
+          "kev": false
         },
         {
           "id": "CVE-2026-95394",
