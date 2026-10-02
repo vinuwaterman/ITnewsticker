@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T23:44:04.805Z",
+  "generatedAt": "2026-10-02T04:26:20.512Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69451",
-      "count7d": 160
+      "count7d": 34
     },
     "SAP": {
       "vendor": "SAP",
@@ -44,7 +44,7 @@
       "summary": "AI-assisted attackers can discover, exploit, and chain infrastructure vulnerabilities faster than ever, and operational security can no longer be treated as an annual or quarterly event. Malicious actors use automated tooling to weaponize zero-days and newly disclosed security flaws within hours of disclosure. To keep a private cloud resilient, infrastructure teams need to move from &#8230; Continued The post Navigating the AI Threat Era: Upgrading to VMware Cloud Foundation 9.1 and Applying Express Patches appeared first on VMware Blogs .",
       "category": "critical",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/10/01/navigating-the-ai-threat-era-upgrading-to-vmware-cloud-foundation-9-1-and-applying-express-patches/",
-      "count7d": 9
+      "count7d": 7
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
-      "count7d": 2
+      "title": "How to Overclock Your CPU Safely: A Practical Guide",
+      "date": "2026-09-29",
+      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+      "count7d": 3
     },
     "Lenovo": {
       "vendor": "Lenovo",
