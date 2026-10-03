@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:55:15.741Z",
+  "generatedAt": "2026-10-03T15:51:04.116Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
+      "title": "Sovereign AI Is a Control Problem, not a Location Problem",
+      "date": "2026-09-24",
+      "summary": "Data sovereignty is an architectural constraint for 50% of firms, yet only 10% budget for it, a critical gap where enterprise risk quietly accumulates.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
-      "count7d": 2
+      "url": "https://www.dell.com/en-us/blog/sovereign-ai-is-a-control-problem-not-a-location-problem/",
+      "count7d": 1
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 6,
+      "count": 5,
       "items": [
         {
           "id": "CVE-2023-54400",
@@ -120,7 +120,8 @@
           "date": "2026-10-02",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96940",
-          "kev": false
+          "kev": false,
+          "epss": 0.496
         },
         {
           "id": "CVE-2026-95394",
@@ -141,13 +142,13 @@
           "epss": 0.213
         },
         {
-          "id": "CVE-2026-100681",
-          "title": "Budibase before 3.45.0 contains an unauthenticated server-side request forgery and credential exfiltration vulnerability in the Microsoft Teams webhook endpoint that accepts forged Bot Framework activities with arbitrary serviceUrl values. Attackers can submit a crafted POST…",
-          "date": "2026-09-26",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100681",
+          "id": "CVE-2026-93853",
+          "title": "Unverified ownership in Barman snapshot backup deletion allows a principal who can write the backup catalog to cause Barman to delete unrelated cloud snapshots. When a snapshot backup is deleted, either explicitly or by retention…",
+          "date": "2026-09-29",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93853",
           "kev": false,
-          "epss": 0.249
+          "epss": 0.207
         }
       ]
     },
@@ -160,7 +161,8 @@
           "date": "2026-10-02",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104026",
-          "kev": false
+          "kev": false,
+          "epss": 0.126
         },
         {
           "id": "CVE-2026-104434",
@@ -168,7 +170,8 @@
           "date": "2026-10-02",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104434",
-          "kev": false
+          "kev": false,
+          "epss": 0.307
         }
       ]
     },
@@ -258,7 +261,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
           "kev": true,
-          "epss": 1.779
+          "epss": 2.2009999999999996
         }
       ]
     },
