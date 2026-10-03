@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T15:51:04.116Z",
+  "generatedAt": "2026-10-03T19:03:29.793Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Sovereign AI Is a Control Problem, not a Location Problem",
-      "date": "2026-09-24",
-      "summary": "Data sovereignty is an architectural constraint for 50% of firms, yet only 10% budget for it, a critical gap where enterprise risk quietly accumulates.",
+      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
+      "date": "2026-09-28",
+      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/sovereign-ai-is-a-control-problem-not-a-location-problem/",
-      "count7d": 1
+      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "count7d": 2
     },
     "Lenovo": {
       "vendor": "Lenovo",
