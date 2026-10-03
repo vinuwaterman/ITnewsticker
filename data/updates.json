@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T00:38:34.916Z",
+  "generatedAt": "2026-10-03T06:06:14.903Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Overclock Your CPU Safely: A Practical Guide",
-      "date": "2026-09-29",
-      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
-      "count7d": 3
+      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
+      "date": "2026-09-28",
+      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "count7d": 2
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 7,
+      "count": 6,
       "items": [
         {
           "id": "CVE-2023-54400",
@@ -141,13 +141,13 @@
           "epss": 0.213
         },
         {
-          "id": "CVE-2026-100550",
-          "title": "OpenClaw (npm package 'openclaw') before 2026.8.1 contains an access-control bypass in the Microsoft Teams integration. When groupPolicy is set to allowlist, a missing or unsupported configured access group produces a denied group-resolution result that is…",
+          "id": "CVE-2026-100681",
+          "title": "Budibase before 3.45.0 contains an unauthenticated server-side request forgery and credential exfiltration vulnerability in the Microsoft Teams webhook endpoint that accepts forged Bot Framework activities with arbitrary serviceUrl values. Attackers can submit a crafted POST…",
           "date": "2026-09-26",
           "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100550",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100681",
           "kev": false,
-          "epss": 0.189
+          "epss": 0.249
         }
       ]
     },
