@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-04T01:51:27.278Z",
+  "generatedAt": "2026-10-04T07:51:30.493Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium: CVE-2025-10502 Heap buffer overflow in ANGLE",
-      "date": "2026-10-03",
+      "title": "Chromium: CVE-2025-1920 Type Confusion in V8",
+      "date": "2026-10-04",
       "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-10502",
-      "count7d": 36
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1920",
+      "count7d": 38
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
-      "count7d": 2
+      "title": "How to Overclock Your CPU Safely: A Practical Guide",
+      "date": "2026-09-29",
+      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+      "count7d": 3
     },
     "Lenovo": {
       "vendor": "Lenovo",
