@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-05T15:08:59.456Z",
+  "generatedAt": "2026-10-05T22:08:42.091Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium: CVE-2025-1920 Type Confusion in V8",
-      "date": "2026-10-04",
-      "summary": "Information published.",
+      "title": "CVE-2026-69267 Windows Connected User Experiences and Telemetry Information Disclosure Vulnerability",
+      "date": "2026-10-05",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1920",
-      "count7d": 37
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69267",
+      "count7d": 38
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Security Starts with Hardware",
-      "date": "2026-10-02",
-      "summary": "(Day 2 of 22 in our Cybersecurity Awareness Month series. See the whole month’s schedule below.) Security is about three things: confidentiality, integrity, and availability. Delivering these ideas to workloads requires building security atop a long string of connected dependencies, starting in hardware. Discrete hardware choices, as well as settings within the BIOS/UEFI help the &#8230; Continued The post Security Starts with Hardware appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/02/security-starts-with-hardware/",
-      "count7d": 6
+      "title": "Optimizing AI Deployments with VMware Cloud Foundation (Part 3)",
+      "date": "2026-10-05",
+      "summary": "Maximizing CPU and Memory Utilization for Best TCO Introduction VMware Cloud Foundation (VCF) can help enterprises maximize utilization and optimize AI infrastructure. To demonstrate VCF’s efficiency and flexibility for running AI workloads in various configurations, the Broadcom Performance team has completed extensive performance tests. We present these results in our white paper and are publishing &#8230; Continued The post Optimizing AI Deployments with VMware Cloud Foundation (Part 3) appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/05/optimizing-ai-deployments-with-vmware-cloud-foundation-part-3/",
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS",
-      "date": "2026-10-01",
+      "title": "New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation",
+      "date": "2026-10-05",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/",
-      "count7d": 2
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/",
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -202,7 +202,7 @@
       "items": []
     },
     "Dell": {
-      "count": 12,
+      "count": 8,
       "items": [
         {
           "id": "CVE-2026-73598",
@@ -212,15 +212,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73598",
           "kev": false,
           "epss": 0.08
-        },
-        {
-          "id": "CVE-2026-80357",
-          "title": "Dell Boot Optimized Server Storage (BOSS), versions prior to 2.2.13.2038, contains an On-Chip Debug and Test Interface With Improper Access Control vulnerability in the SMCU on 17G BOSS-N1 controllers. An unauthenticated attacker with physical access…",
-          "date": "2026-09-28",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80357",
-          "kev": false,
-          "epss": 0.11399999999999999
         },
         {
           "id": "CVE-2026-73594",
@@ -248,6 +239,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73597",
           "kev": false,
           "epss": 0.116
+        },
+        {
+          "id": "CVE-2026-73599",
+          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an URL Redirection to Untrusted Site ('Open Redirect') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Server-side…",
+          "date": "2026-09-29",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73599",
+          "kev": false,
+          "epss": 0.146
         }
       ]
     },
