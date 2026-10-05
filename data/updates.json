@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T21:16:38.214Z",
+  "generatedAt": "2026-10-05T00:05:48.106Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Information published.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1920",
-      "count7d": 38
+      "count7d": 37
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "SAP is committed to helping enterprises deliver intelligent, personalized customer experiences.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-a-leader-idc-marketscape-worldwide-agentic-marketing-b2c-enterprises/",
-      "count7d": 5
+      "count7d": 2
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -44,7 +44,7 @@
       "summary": "(Day 2 of 22 in our Cybersecurity Awareness Month series. See the whole month’s schedule below.) Security is about three things: confidentiality, integrity, and availability. Delivering these ideas to workloads requires building security atop a long string of connected dependencies, starting in hardware. Discrete hardware choices, as well as settings within the BIOS/UEFI help the &#8230; Continued The post Security Starts with Hardware appeared first on VMware Blogs .",
       "category": "patch",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/10/02/security-starts-with-hardware/",
-      "count7d": 8
+      "count7d": 6
     },
     "AWS": {
       "vendor": "AWS",
@@ -62,7 +62,7 @@
       "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
       "category": "patch",
       "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
-      "count7d": 3
+      "count7d": 1
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Built and refined through Lenovo’s own AI deployments, the model combines early manager involvement, role-specific enablement and continued measurement to turn AI access into sustained use and measurable value.",
       "category": "feature",
       "url": "https://news.lenovo.com/ai-adoption-change-management-model-36-higher-daily-copilot-use/",
-      "count7d": 8
+      "count7d": 6
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/",
-      "count7d": 3
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -98,7 +98,7 @@
       "summary": "Introducing Cortex XCOR: AI-Driven Observability that Delivers Autonomous Response with AI SRE I’ve been tackling the observability problem for more than a decade, since before it was coined observability. From building internal &#8230; The post Observability’s AI Moment appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/10/observabilitys-ai-moment-introducing-cortex-xcor-ai-driven-observability-for-autonomous-response-with-ai-sre/",
-      "count7d": 5
+      "count7d": 4
     }
   },
   "nvd": {
