@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T06:04:22.838Z",
+  "generatedAt": "2026-10-05T15:08:59.456Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Start With What You Can Prove: Measuring the National Resilience Strategy",
-      "date": "2026-10-01",
-      "summary": "On June 23, the White House released President Trump's America First Resilience Strategy, built around a goal stated plainly: No adversary or hazard should be able to hold America or our core interests at risk. Along the way, the strategy asks for something more specific. It wants disciplined commitments that produce measurable resilience. The post Start With What You Can Prove: Measuring the National Resilience Strategy appeared first on Veeam Software Official Blog .",
+      "title": "Veeam Data Platform 13.1: Direct Backup to Amazon S3 Glacier for Unstructured Data",
+      "date": "2026-10-05",
+      "summary": "Veeam Backup &#038; Replication 12.2 introduced Direct to Amazon S3 Glacier for VM-based GFS backups, letting Grandfather-Father-Son restore points move straight from a Performance Tier repository to Glacier-class storage without a Capacity Tier in between. The post Veeam Data Platform 13.1: Direct Backup to Amazon S3 Glacier for Unstructured Data appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/national-resilience-strategy-metrics.html",
+      "url": "https://www.veeam.com/blog/file-nas-backup-s3-glacier.html",
       "count7d": 5
     },
     "Cisco": {
@@ -57,27 +57,27 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "title": "How to Overclock Your CPU Safely: A Practical Guide",
+      "date": "2026-09-29",
+      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
       "count7d": 1
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo’s AI adoption and change management model helps drive 36% higher daily Copilot use",
-      "date": "2026-10-02",
-      "summary": "Built and refined through Lenovo’s own AI deployments, the model combines early manager involvement, role-specific enablement and continued measurement to turn AI access into sustained use and measurable value.",
+      "title": "Infrastructure Modernization in Action: How Organizations Are Transforming IT to Meet the Demands of AI, Automation, and Rising Workloads",
+      "date": "2026-10-05",
+      "summary": "As AI, automation, and data-intensive workloads reshape every industry, organizations are confronting a hard truth: legacy infrastructure can’t keep pace. Forward-looking leaders are rethinking their IT foundations, not just to support growth, but to accelerate it.",
       "category": "feature",
-      "url": "https://news.lenovo.com/ai-adoption-change-management-model-36-higher-daily-copilot-use/",
-      "count7d": 6
+      "url": "https://news.lenovo.com/how-organizations-are-transforming-it-to-meet-the-demands-of-ai/",
+      "count7d": 7
     },
     "Fortinet": {
       "vendor": "Fortinet",
       "title": "Improper limitation of a pathname to a restricted directory",
       "date": "2026-10-01",
-      "summary": "CVSSv3 Score: 9.8 An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') [CWE-22] and Improper Neutralization of NULL Byte or NULL Character [CWE-158] vulnerability may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.This has been reported to be exploited in the wild, customers are urged to apply the workaround below. Revised on 2026-10-01 00:00:00",
+      "summary": "CVSSv3 Score: 9.8 An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') [CWE-22] and Improper Neutralization of NULL Byte or NULL Character [CWE-158] vulnerability may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.This has been reported to be exploited in the wild, customers are urged to apply the workaround below. Revised on 2026-10-05 00:00:00",
       "category": "patch",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
       "count7d": 1
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 4,
+      "count": 5,
       "items": [
         {
           "id": "CVE-2023-54400",
@@ -122,6 +122,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96940",
           "kev": false,
           "epss": 0.496
+        },
+        {
+          "id": "CVE-2026-105250",
+          "title": "A security vulnerability has been detected in vgmstream up to r2117. Affected is the function decode_ms_ima of the file src/coding/ima_decoder.c of the component Microsoft IMA Decoder. Such manipulation leads to divide by zero. The attack…",
+          "date": "2026-10-05",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105250",
+          "kev": false,
+          "epss": 0.319
         },
         {
           "id": "CVE-2026-95394",
