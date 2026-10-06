@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T02:25:27.987Z",
+  "generatedAt": "2026-10-06T09:17:06.077Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Optimizing AI Deployments with VMware Cloud Foundation (Part 3)",
-      "date": "2026-10-05",
-      "summary": "Maximizing CPU and Memory Utilization for Best TCO Introduction VMware Cloud Foundation (VCF) can help enterprises maximize utilization and optimize AI infrastructure. To demonstrate VCF’s efficiency and flexibility for running AI workloads in various configurations, the Broadcom Performance team has completed extensive performance tests. We present these results in our white paper and are publishing &#8230; Continued The post Optimizing AI Deployments with VMware Cloud Foundation (Part 3) appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/05/optimizing-ai-deployments-with-vmware-cloud-foundation-part-3/",
-      "count7d": 8
+      "title": "VCF Security Hardening Guidance",
+      "date": "2026-10-06",
+      "summary": "(Day 3 of 22 in our Cybersecurity Awareness Month series) One of the cornerstones of security in VMware Cloud Foundation, and before it with vSphere, has been the Security Configuration Guides we publish. These guides, started almost two decades ago, form the basis of security configuration in and around the products themselves. Nowadays you can &#8230; Continued The post VCF Security Hardening Guidance appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/05/vcf-security-configuration-guide/",
+      "count7d": 9
     },
     "AWS": {
       "vendor": "AWS",
@@ -84,11 +84,11 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation",
+      "title": "Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365",
       "date": "2026-10-05",
       "summary": "",
       "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/",
+      "url": "https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/",
       "count7d": 3
     },
     "Palo Alto Networks": {
