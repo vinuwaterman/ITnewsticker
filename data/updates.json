@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T16:09:17.334Z",
+  "generatedAt": "2026-10-06T21:10:20.887Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Data Platform 13.1: Direct Backup to Amazon S3 Glacier for Unstructured Data",
-      "date": "2026-10-05",
-      "summary": "Veeam Backup &#038; Replication 12.2 introduced Direct to Amazon S3 Glacier for VM-based GFS backups, letting Grandfather-Father-Son restore points move straight from a Performance Tier repository to Glacier-class storage without a Capacity Tier in between. The post Veeam Data Platform 13.1: Direct Backup to Amazon S3 Glacier for Unstructured Data appeared first on Veeam Software Official Blog .",
+      "title": "Provable Compliance, Built in From Day One",
+      "date": "2026-10-06",
+      "summary": "You know your backups are immutable. You know retention is enforced. You know your DR plan works because you’ve tested it. But when an auditor, insurer, or regulator asks you to prove it, “knowing” and “showing” turn out to be very different problems. The post Provable Compliance, Built in From Day One appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/file-nas-backup-s3-glacier.html",
+      "url": "https://www.veeam.com/blog/backup-compliance-evidence.html",
       "count7d": 5
     },
     "Cisco": {
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF Security Hardening Guidance",
+      "title": "Dependencies Are a Boat Anchor",
       "date": "2026-10-06",
-      "summary": "(Day 3 of 22 in our Cybersecurity Awareness Month series) One of the cornerstones of security in VMware Cloud Foundation, and before it with vSphere, has been the Security Configuration Guides we publish. These guides, started almost two decades ago, form the basis of security configuration in and around the products themselves. Nowadays you can &#8230; Continued The post VCF Security Hardening Guidance appeared first on VMware Blogs .",
+      "summary": "There was a time in this industry when having system uptime measured in years was viewed as a weird badge of honor or accomplishment. Unix admins would delight in the uptime command returning years, and brag about how stable something was because it could run that long uninterrupted. The modern security landscape has changed the &#8230; Continued The post Dependencies Are a Boat Anchor appeared first on VMware Blogs .",
       "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/05/vcf-security-configuration-guide/",
-      "count7d": 9
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/06/dependencies-are-a-boat-anchor/",
+      "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Overclock Your CPU Safely: A Practical Guide",
-      "date": "2026-09-29",
-      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
+      "date": "2026-09-28",
+      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
       "count7d": 1
     },
     "Lenovo": {
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365",
-      "date": "2026-10-05",
+      "title": "Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers",
+      "date": "2026-10-06",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/",
-      "count7d": 3
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/",
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 12,
+      "count": 13,
       "items": [
         {
           "id": "CVE-2026-105763",
@@ -123,15 +123,6 @@
           "kev": false
         },
         {
-          "id": "CVE-2023-54400",
-          "title": "Fumasoft Fumeng Cloud contains a SQL injection vulnerability in the AjaxMethod.ashx endpoint that allows unauthenticated remote attackers to inject arbitrary SQL through the Name parameter of the getEmpByname action without any authentication. Attackers can exploit…",
-          "date": "2026-09-29",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54400",
-          "kev": false,
-          "epss": 0.464
-        },
-        {
           "id": "CVE-2026-105788",
           "title": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms. Prior to 3.0.10, the type_text and launch_app tools in ufo/client/mcp/http_servers/mobile_mcp_server.py pass the authenticated caller-controlled text and package_name parameters into adb shell command…",
           "date": "2026-10-06",
@@ -145,6 +136,14 @@
           "date": "2026-10-06",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105791",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-101207",
+          "title": "Dell OpenManage Integration with Microsoft Windows Admin Center, versions prior to 3.7.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with remote access…",
+          "date": "2026-10-06",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101207",
           "kev": false
         }
       ]
@@ -199,7 +198,7 @@
       "items": []
     },
     "Dell": {
-      "count": 6,
+      "count": 23,
       "items": [
         {
           "id": "CVE-2026-54472",
