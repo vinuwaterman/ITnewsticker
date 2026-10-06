@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T22:08:42.091Z",
+  "generatedAt": "2026-10-06T02:25:27.987Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69267",
-      "count7d": 38
+      "count7d": 22
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "SAP is committed to helping enterprises deliver intelligent, personalized customer experiences.",
       "category": "feature",
       "url": "https://news.sap.com/2026/09/sap-a-leader-idc-marketscape-worldwide-agentic-marketing-b2c-enterprises/",
-      "count7d": 2
+      "count7d": 1
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "patch",
       "url": "https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/",
-      "count7d": 4
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -98,13 +98,21 @@
       "summary": "Introducing Cortex XCOR: AI-Driven Observability that Delivers Autonomous Response with AI SRE I’ve been tackling the observability problem for more than a decade, since before it was coined observability. From building internal &#8230; The post Observability’s AI Moment appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/10/observabilitys-ai-moment-introducing-cortex-xcor-ai-driven-observability-for-autonomous-response-with-ai-sre/",
-      "count7d": 4
+      "count7d": 2
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 5,
+      "count": 7,
       "items": [
+        {
+          "id": "CVE-2026-105763",
+          "title": "Twenty is an open-source CRM (customer relationship management) platform. From 1.20.10 until 2.7.0, the /metadata GraphQL connectedAccounts query returned connectionParameters from ConnectedAccountDTO for every connected account in a workspace, including plaintext IMAP, SMTP, and CalDAV…",
+          "date": "2026-10-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105763",
+          "kev": false
+        },
         {
           "id": "CVE-2023-54400",
           "title": "Fumasoft Fumeng Cloud contains a SQL injection vulnerability in the AjaxMethod.ashx endpoint that allows unauthenticated remote attackers to inject arbitrary SQL through the Name parameter of the getEmpByname action without any authentication. Attackers can exploit…",
@@ -124,6 +132,14 @@
           "epss": 0.496
         },
         {
+          "id": "CVE-2026-104040",
+          "title": "A flaw was found in SSSD. When configured with the Entra ID identity provider, input lookup names containing single quotes are not properly escaped before being included in Microsoft Graph Open Data Protocol (OData) queries.…",
+          "date": "2026-10-06",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104040",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-105250",
           "title": "A security vulnerability has been detected in vgmstream up to r2117. Affected is the function decode_ms_ima of the file src/coding/ima_decoder.c of the component Microsoft IMA Decoder. Such manipulation leads to divide by zero. The attack…",
           "date": "2026-10-05",
@@ -131,24 +147,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105250",
           "kev": false,
           "epss": 0.319
-        },
-        {
-          "id": "CVE-2026-95394",
-          "title": "Microsoft Network Monitor file parser large loop in 4.6.0 to 4.6.8 and 4.4.0 to 4.4.18 allows denial of service",
-          "date": "2026-09-29",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95394",
-          "kev": false,
-          "epss": 0.136
-        },
-        {
-          "id": "CVE-2026-93853",
-          "title": "Unverified ownership in Barman snapshot backup deletion allows a principal who can write the backup catalog to cause Barman to delete unrelated cloud snapshots. When a snapshot backup is deleted, either explicitly or by retention…",
-          "date": "2026-09-29",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93853",
-          "kev": false,
-          "epss": 0.207
         }
       ]
     },
