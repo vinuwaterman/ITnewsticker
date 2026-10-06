@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-06T09:17:06.077Z",
+  "generatedAt": "2026-10-06T16:09:17.334Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69267 Windows Connected User Experiences and Telemetry Information Disclosure Vulnerability",
-      "date": "2026-10-05",
+      "title": "CVE-2026-69582 Windows Volume Manager Extension Driver Elevation of Privilege Vulnerability",
+      "date": "2026-10-06",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69267",
-      "count7d": 22
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69582",
+      "count7d": 35
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Named a Leader in the IDC MarketScape: Worldwide Agentic Marketing for B2C Enterprises 2026 Vendor Assessment",
-      "date": "2026-09-30",
-      "summary": "SAP is committed to helping enterprises deliver intelligent, personalized customer experiences.",
+      "title": "SAP to Acquire TechWolf, Giving Enterprises Evidence-Based View of Work in the Age of AI",
+      "date": "2026-10-06",
+      "summary": "WALLDORF and GHENT — TechWolf is expected to become an intelligent core of the SAP SuccessFactors portfolio.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/09/sap-a-leader-idc-marketscape-worldwide-agentic-marketing-b2c-enterprises/",
-      "count7d": 1
+      "url": "https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/",
+      "count7d": 4
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Infrastructure Modernization in Action: How Organizations Are Transforming IT to Meet the Demands of AI, Automation, and Rising Workloads",
-      "date": "2026-10-05",
-      "summary": "As AI, automation, and data-intensive workloads reshape every industry, organizations are confronting a hard truth: legacy infrastructure can’t keep pace. Forward-looking leaders are rethinking their IT foundations, not just to support growth, but to accelerate it.",
+      "title": "From Experiment to Enterprise: Scaling AI for Life Sciences with Lenovo and NVIDIA",
+      "date": "2026-10-06",
+      "summary": "Turning AI from a pilot project into an enterprise capability requires the right foundation - one that balances performance, data privacy and operational simplicity.",
       "category": "feature",
-      "url": "https://news.lenovo.com/how-organizations-are-transforming-it-to-meet-the-demands-of-ai/",
-      "count7d": 7
+      "url": "https://news.lenovo.com/scaling-ai-for-life-sciences-at-biotechx/",
+      "count7d": 8
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 7,
+      "count": 12,
       "items": [
         {
           "id": "CVE-2026-105763",
@@ -111,6 +111,15 @@
           "date": "2026-10-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105763",
+          "kev": false,
+          "epss": 0.27699999999999997
+        },
+        {
+          "id": "CVE-2026-105793",
+          "title": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms. Prior to 3.0.9, the press_key tool in ufo/client/mcp/http_servers/mobile_mcp_server.py accepts a free-form key_code parameter and passes it to `adb shell input keyevent`. The…",
+          "date": "2026-10-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105793",
           "kev": false
         },
         {
@@ -123,30 +132,20 @@
           "epss": 0.464
         },
         {
-          "id": "CVE-2026-96940",
-          "title": "Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a network.",
-          "date": "2026-10-02",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96940",
-          "kev": false,
-          "epss": 0.496
-        },
-        {
-          "id": "CVE-2026-104040",
-          "title": "A flaw was found in SSSD. When configured with the Entra ID identity provider, input lookup names containing single quotes are not properly escaped before being included in Microsoft Graph Open Data Protocol (OData) queries.…",
+          "id": "CVE-2026-105788",
+          "title": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms. Prior to 3.0.10, the type_text and launch_app tools in ufo/client/mcp/http_servers/mobile_mcp_server.py pass the authenticated caller-controlled text and package_name parameters into adb shell command…",
           "date": "2026-10-06",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104040",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105788",
           "kev": false
         },
         {
-          "id": "CVE-2026-105250",
-          "title": "A security vulnerability has been detected in vgmstream up to r2117. Affected is the function decode_ms_ima of the file src/coding/ima_decoder.c of the component Microsoft IMA Decoder. Such manipulation leads to divide by zero. The attack…",
-          "date": "2026-10-05",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105250",
-          "kev": false,
-          "epss": 0.319
+          "id": "CVE-2026-105791",
+          "title": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms. Prior to 3.0.9, the run_shell tool in the CommandLineExecutor component of ufo/client/mcp/local_servers/cli_mcp_server.py validates only the first token of the bash_command parameter and…",
+          "date": "2026-10-06",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105791",
+          "kev": false
         }
       ]
     },
@@ -187,7 +186,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
           "kev": true,
-          "epss": 1.575
+          "epss": 1.8190000000000002
         }
       ]
     },
@@ -200,52 +199,47 @@
       "items": []
     },
     "Dell": {
-      "count": 8,
+      "count": 6,
       "items": [
         {
-          "id": "CVE-2026-73598",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Incorrect Permission Assignment for Critical Resource vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation…",
-          "date": "2026-09-29",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73598",
-          "kev": false,
-          "epss": 0.08
+          "id": "CVE-2026-54472",
+          "title": "Dell Container Storage Modules, versions prior to 1.18.0, contain(s) an Use of Hard-coded Credentials vulnerability in the csm-docs. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure.9.8",
+          "date": "2026-10-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54472",
+          "kev": false
         },
         {
-          "id": "CVE-2026-73594",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, Versions prior to 5.36, contains an Improper Certificate Validation vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to…",
-          "date": "2026-09-29",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73594",
-          "kev": false,
-          "epss": 0.082
+          "id": "CVE-2026-61421",
+          "title": "Dell Container Storage Modules, versions prior to 1.18.0, contain(s) an Use of Hard-coded Credentials vulnerability in the CSM Authorization. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Elevation of privileges.",
+          "date": "2026-10-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61421",
+          "kev": false
         },
         {
-          "id": "CVE-2026-73595",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, Versions prior to 5.36, contains a Download of Code Without Integrity Check vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability,…",
-          "date": "2026-09-29",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73595",
-          "kev": false,
-          "epss": 0.106
+          "id": "CVE-2026-63688",
+          "title": "Dell Container Storage Modules (CSM), versions prior to v1.18.0, contains a Missing Authentication for Critical Function vulnerability in the csm-authorization-storage gRPC server. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to unauthorized access…",
+          "date": "2026-10-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63688",
+          "kev": false
         },
         {
-          "id": "CVE-2026-73597",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains a Cross-Site Request Forgery (CSRF) vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure, Information tampering,…",
-          "date": "2026-09-29",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73597",
-          "kev": false,
-          "epss": 0.116
+          "id": "CVE-2026-63692",
+          "title": "Dell Container Storage Modules, versions prior to 1.18.0, contain(s) a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Elevation of privileges.",
+          "date": "2026-10-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63692",
+          "kev": false
         },
         {
-          "id": "CVE-2026-73599",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an URL Redirection to Untrusted Site ('Open Redirect') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Server-side…",
-          "date": "2026-09-29",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73599",
-          "kev": false,
-          "epss": 0.146
+          "id": "CVE-2026-67269",
+          "title": "Dell Container Storage Modules (CSM) Operator, versions prior to 1.18.0 contains an Improper Privilege Management vulnerability in the ContainerStorageModule Custom Resource reconciler. A low privileged remote attacker could potentially exploit this vulnerability, leading to escalation…",
+          "date": "2026-10-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67269",
+          "kev": false
         }
       ]
     },
