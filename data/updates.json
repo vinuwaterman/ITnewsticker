@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-07T06:54:45.814Z",
+  "generatedAt": "2026-10-07T14:16:20.262Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69582 Windows Volume Manager Extension Driver Elevation of Privilege Vulnerability",
-      "date": "2026-10-06",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "Chromium: CVE-2025-0611 Object corruption in V8",
+      "date": "2026-10-07",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69582",
-      "count7d": 18
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0612",
+      "count7d": 19
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP to Acquire TechWolf, Giving Enterprises Evidence-Based View of Work in the Age of AI",
-      "date": "2026-10-06",
-      "summary": "WALLDORF and GHENT — TechWolf is expected to become an intelligent core of the SAP SuccessFactors portfolio.",
+      "title": "SAP Showcases the Autonomous Enterprise in Action",
+      "date": "2026-10-07",
+      "summary": "SAP executives led by CEO Christian Klein demonstrated the Autonomous Enterprise powered by SAP Business AI Platform.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/",
-      "count7d": 3
+      "url": "https://news.sap.com/2026/10/sap-connect-keynote-autonomous-enterprise-in-action/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -57,27 +57,27 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "title": "How to Overclock Your CPU Safely: A Practical Guide",
+      "date": "2026-09-29",
+      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
       "count7d": 1
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "From Experiment to Enterprise: Scaling AI for Life Sciences with Lenovo and NVIDIA",
-      "date": "2026-10-06",
-      "summary": "Turning AI from a pilot project into an enterprise capability requires the right foundation - one that balances performance, data privacy and operational simplicity.",
+      "title": "Lenovo Announces Tech World @ CES 2027: Defining the Next Era of Hybrid AI",
+      "date": "2026-10-07",
+      "summary": "Lenovo Chairman and CEO Yuanqing Yang to unveil how Hybrid AI turns data into value for every individual and enterprise during CES Keynote at Sphere.",
       "category": "feature",
-      "url": "https://news.lenovo.com/scaling-ai-for-life-sciences-at-biotechx/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-era-of-hybrid-ai/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
       "title": "Improper limitation of a pathname to a restricted directory",
       "date": "2026-10-01",
-      "summary": "CVSSv3 Score: 9.8 An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') [CWE-22] and Improper Neutralization of NULL Byte or NULL Character [CWE-158] vulnerability may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.This has been reported to be exploited in the wild, customers are urged to apply the workaround below. Revised on 2026-10-05 00:00:00",
+      "summary": "CVSSv3 Score: 9.8 An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') [CWE-22] and Improper Neutralization of NULL Byte or NULL Character [CWE-158] vulnerability may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.This has been reported to be exploited in the wild, customers are urged to apply the workaround below. Revised on 2026-10-07 00:00:00",
       "category": "patch",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
       "count7d": 1
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 12,
+      "count": 14,
       "items": [
         {
           "id": "CVE-2026-105763",
@@ -172,22 +172,53 @@
       ]
     },
     "Veeam": {
-      "count": 0,
-      "items": []
-    },
-    "Cisco": {
-      "count": 1,
+      "count": 6,
       "items": [
         {
-          "id": "CVE-2026-76504",
-          "title": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user. This vulnerability is due to…",
-          "date": "2026-09-30",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
-          "kev": true,
-          "epss": 1.8190000000000002
+          "id": "CVE-2025-64391",
+          "title": "This vulnerability in Veeam Agent for Microsoft Windows allows a low-privileged local user to make the agent write files to arbitrary locations when an administrator installs it.",
+          "date": "2026-10-07",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64391",
+          "kev": false
+        },
+        {
+          "id": "CVE-2025-64392",
+          "title": "This vulnerability in Veeam Backup Enterprise Manager allows an attacker to execute script in the browser of a portal user who opens a crafted link.",
+          "date": "2026-10-07",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64392",
+          "kev": false
+        },
+        {
+          "id": "CVE-2025-64393",
+          "title": "This vulnerability in Veeam Backup & Replication allows a Backup Viewer to execute arbitrary code as SYSTEM on the backup server.",
+          "date": "2026-10-07",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64393",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-58068",
+          "title": "This vulnerability in Veeam Agent for Microsoft Windows allows any local user to terminate arbitrary processes on the system.",
+          "date": "2026-10-07",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58068",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-58069",
+          "title": "This vulnerability in Veeam Backup & Replication allows an authenticated Cloud Connect tenant to read arbitrary files on the service provider host.",
+          "date": "2026-10-07",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58069",
+          "kev": false
         }
       ]
+    },
+    "Cisco": {
+      "count": 0,
+      "items": []
     },
     "VMware": {
       "count": 2,
