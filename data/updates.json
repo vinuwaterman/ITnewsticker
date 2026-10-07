@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T21:10:20.887Z",
+  "generatedAt": "2026-10-07T00:58:37.355Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69582",
-      "count7d": 35
+      "count7d": 18
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "WALLDORF and GHENT — TechWolf is expected to become an intelligent core of the SAP SuccessFactors portfolio.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/",
-      "count7d": 4
+      "count7d": 3
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "You know your backups are immutable. You know retention is enforced. You know your DR plan works because you’ve tested it. But when an auditor, insurer, or regulator asks you to prove it, “knowing” and “showing” turn out to be very different problems. The post Provable Compliance, Built in From Day One appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/backup-compliance-evidence.html",
-      "count7d": 5
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user. This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20API%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "count7d": 3
+      "count7d": 2
     },
     "VMware": {
       "vendor": "VMware",
@@ -44,7 +44,7 @@
       "summary": "There was a time in this industry when having system uptime measured in years was viewed as a weird badge of honor or accomplishment. Unix admins would delight in the uptime command returning years, and brag about how stable something was because it could run that long uninterrupted. The modern security landscape has changed the &#8230; Continued The post Dependencies Are a Boat Anchor appeared first on VMware Blogs .",
       "category": "patch",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/10/06/dependencies-are-a-boat-anchor/",
-      "count7d": 10
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "title": "How to Overclock Your CPU Safely: A Practical Guide",
+      "date": "2026-09-29",
+      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
       "count7d": 1
     },
     "Lenovo": {
@@ -71,7 +71,7 @@
       "summary": "Turning AI from a pilot project into an enterprise capability requires the right foundation - one that balances performance, data privacy and operational simplicity.",
       "category": "feature",
       "url": "https://news.lenovo.com/scaling-ai-for-life-sciences-at-biotechx/",
-      "count7d": 8
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -98,12 +98,12 @@
       "summary": "Introducing Cortex XCOR: AI-Driven Observability that Delivers Autonomous Response with AI SRE I’ve been tackling the observability problem for more than a decade, since before it was coined observability. From building internal &#8230; The post Observability’s AI Moment appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/10/observabilitys-ai-moment-introducing-cortex-xcor-ai-driven-observability-for-autonomous-response-with-ai-sre/",
-      "count7d": 2
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 13,
+      "count": 12,
       "items": [
         {
           "id": "CVE-2026-105763",
