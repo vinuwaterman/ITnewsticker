@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-07T14:16:20.262Z",
+  "generatedAt": "2026-10-07T20:05:39.060Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium: CVE-2025-0611 Object corruption in V8",
+      "title": "CVE-2026-69436 Windows State Repository Service Elevation of Privilege Vulnerability",
       "date": "2026-10-07",
-      "summary": "Information published.",
+      "summary": "Updated CVE title. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0612",
-      "count7d": 19
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69436",
+      "count7d": 20
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,21 +30,21 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
-      "date": "2026-10-02",
-      "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user. This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of…",
+      "title": "Cisco Advance Notification for Publication of October 7, 2026, Security Advisories",
+      "date": "2026-10-07",
+      "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the advisories that are listed in the following tables. To remediate the vulnerabilities that were disclosed on October 7, 2026, Cisco strongly recommends that customers upgrade to the fixed software that is indicated in the advisories. For more information about changes in Cisco PSIRT vulnerability disclosure, see Strengthening the Foundation: A Predictable, Customer-Focused Response to AI-Accelerated Vulnerability Discovery . Cisco NX-OS Software Cisco Security Advisory CVE ID…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20API%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "count7d": 2
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
+      "count7d": 17
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Dependencies Are a Boat Anchor",
-      "date": "2026-10-06",
-      "summary": "There was a time in this industry when having system uptime measured in years was viewed as a weird badge of honor or accomplishment. Unix admins would delight in the uptime command returning years, and brag about how stable something was because it could run that long uninterrupted. The modern security landscape has changed the &#8230; Continued The post Dependencies Are a Boat Anchor appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/06/dependencies-are-a-boat-anchor/",
-      "count7d": 8
+      "title": "The Cloud Admin’s Path to Platform Engineering",
+      "date": "2026-10-07",
+      "summary": "A practical guide for virtualization and cloud admins exploring a seat at the platform table Somewhere in your organization, a platform team is deciding how developers will get infrastructure for the next five years. There&#8217;s a decent chance you weren&#8217;t invited to that meeting. There&#8217;s an even better chance they&#8217;re building on top of something &#8230; Continued The post The Cloud Admin’s Path to Platform Engineering appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/07/the-cloud-admins-path-to-platform-engineering/",
+      "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Overclock Your CPU Safely: A Practical Guide",
-      "date": "2026-09-29",
-      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
+      "date": "2026-09-28",
+      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
       "count7d": 1
     },
     "Lenovo": {
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers",
-      "date": "2026-10-06",
+      "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+      "date": "2026-10-07",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/",
-      "count7d": 4
+      "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+      "count7d": 6
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 14,
+      "count": 29,
       "items": [
         {
           "id": "CVE-2026-105763",
@@ -120,30 +120,31 @@
           "date": "2026-10-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105793",
+          "kev": false,
+          "epss": 0.865
+        },
+        {
+          "id": "CVE-2026-107212",
+          "title": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. From 2.1.0 to 2.11.0, Rows.Columns accepts a look-ahead row number above TotalRows without applying the limit enforced by Rows.Next. File.GetRows relies on…",
+          "date": "2026-10-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107212",
           "kev": false
         },
         {
-          "id": "CVE-2026-105788",
-          "title": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms. Prior to 3.0.10, the type_text and launch_app tools in ufo/client/mcp/http_servers/mobile_mcp_server.py pass the authenticated caller-controlled text and package_name parameters into adb shell command…",
-          "date": "2026-10-06",
+          "id": "CVE-2026-107214",
+          "title": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. From 2.3.1 to 2.11.0, the decryption dispatch performs insufficient structural and parameter validation before standard and agile decryptors slice, index, allocate, and…",
+          "date": "2026-10-07",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105788",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107214",
           "kev": false
         },
         {
-          "id": "CVE-2026-105791",
-          "title": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms. Prior to 3.0.9, the run_shell tool in the CommandLineExecutor component of ufo/client/mcp/local_servers/cli_mcp_server.py validates only the first token of the bash_command parameter and…",
-          "date": "2026-10-06",
+          "id": "CVE-2026-107215",
+          "title": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. From 2.3.1 to 2.11.0, extractPart allocates a byte slice directly from an attacker-controlled CFB directory-entry size before validating the sector chain or…",
+          "date": "2026-10-07",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105791",
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-101207",
-          "title": "Dell OpenManage Integration with Microsoft Windows Admin Center, versions prior to 3.7.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with remote access…",
-          "date": "2026-10-06",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101207",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107215",
           "kev": false
         }
       ]
@@ -180,7 +181,8 @@
           "date": "2026-10-07",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64391",
-          "kev": false
+          "kev": false,
+          "epss": 0.116
         },
         {
           "id": "CVE-2025-64392",
@@ -188,7 +190,8 @@
           "date": "2026-10-07",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64392",
-          "kev": false
+          "kev": false,
+          "epss": 0.338
         },
         {
           "id": "CVE-2025-64393",
@@ -196,7 +199,8 @@
           "date": "2026-10-07",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64393",
-          "kev": false
+          "kev": false,
+          "epss": 0.36
         },
         {
           "id": "CVE-2026-58068",
@@ -204,7 +208,8 @@
           "date": "2026-10-07",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58068",
-          "kev": false
+          "kev": false,
+          "epss": 0.101
         },
         {
           "id": "CVE-2026-58069",
@@ -212,13 +217,55 @@
           "date": "2026-10-07",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58069",
-          "kev": false
+          "kev": false,
+          "epss": 0.37
         }
       ]
     },
     "Cisco": {
-      "count": 0,
-      "items": []
+      "count": 36,
+      "items": [
+        {
+          "id": "CVE-2026-20328",
+          "title": "A vulnerability in the web-based management interface of Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Prem), could allow an unauthenticated, remote attacker to gain unauthorized access to an affected application. This vulnerability…",
+          "date": "2026-10-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20328",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-76454",
+          "title": "A vulnerability in the Cisco Smart Licensing Utility API of Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Prem), could allow an unauthenticated, remote attacker to write arbitrary files to the system or…",
+          "date": "2026-10-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76454",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-76455",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco NX-OS engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple…",
+          "date": "2026-10-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76455",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-76464",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco networking engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple…",
+          "date": "2026-10-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76464",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-76465",
+          "title": "A vulnerability in the MPLS Operation, Administration, and Maintenance (OAM) feature of Cisco NX-OS Software for Cisco Nexus 3000 Series Switches and Cisco Nexus 9000 Series Switches could allow an unauthenticated, remote attacker to execute…",
+          "date": "2026-10-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76465",
+          "kev": false
+        }
+      ]
     },
     "VMware": {
       "count": 2,
@@ -229,7 +276,8 @@
           "date": "2026-10-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59346",
-          "kev": false
+          "kev": false,
+          "epss": 0.258
         },
         {
           "id": "CVE-2026-59347",
@@ -237,7 +285,8 @@
           "date": "2026-10-07",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59347",
-          "kev": false
+          "kev": false,
+          "epss": 0.207
         }
       ]
     },
@@ -254,7 +303,8 @@
           "date": "2026-10-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54472",
-          "kev": false
+          "kev": false,
+          "epss": 0.544
         },
         {
           "id": "CVE-2026-61421",
@@ -262,7 +312,8 @@
           "date": "2026-10-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61421",
-          "kev": false
+          "kev": false,
+          "epss": 0.344
         },
         {
           "id": "CVE-2026-63688",
@@ -270,7 +321,8 @@
           "date": "2026-10-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63688",
-          "kev": false
+          "kev": false,
+          "epss": 0.791
         },
         {
           "id": "CVE-2026-63692",
@@ -278,7 +330,8 @@
           "date": "2026-10-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63692",
-          "kev": false
+          "kev": false,
+          "epss": 0.647
         },
         {
           "id": "CVE-2026-67269",
@@ -286,7 +339,8 @@
           "date": "2026-10-06",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67269",
-          "kev": false
+          "kev": false,
+          "epss": 0.534
         }
       ]
     },
