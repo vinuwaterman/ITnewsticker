@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T00:58:37.355Z",
+  "generatedAt": "2026-10-07T06:54:45.814Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Overclock Your CPU Safely: A Practical Guide",
-      "date": "2026-09-29",
-      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
+      "date": "2026-09-28",
+      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
       "count7d": 1
     },
     "Lenovo": {
@@ -190,8 +190,25 @@
       ]
     },
     "VMware": {
-      "count": 0,
-      "items": []
+      "count": 2,
+      "items": [
+        {
+          "id": "CVE-2026-59346",
+          "title": "VMware Workstation and Fusion contain an integer-overflow vulnerability. A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute code on the host. Affected…",
+          "date": "2026-10-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59346",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-59347",
+          "title": "VMware Workstation and Fusion contain a stack-based buffer-overflow vulnerability in HGFS. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process…",
+          "date": "2026-10-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59347",
+          "kev": false
+        }
+      ]
     },
     "AWS": {
       "count": 0,
@@ -265,18 +282,8 @@
       "items": []
     },
     "CrowdStrike": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-103056",
-          "title": "AiSOC versions 7.2.0 before 12.0.0 contain a command injection vulnerability in the actions service that builds CrowdStrike Real Time Response command strings by interpolating unescaped action parameters in crowdstrike_rtr.py and endpoint.py. Authenticated users can inject…",
-          "date": "2026-09-30",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103056",
-          "kev": false,
-          "epss": 1.46
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Palo Alto Networks": {
       "count": 0,
