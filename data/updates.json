@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-10-08T06:29:54.905Z",
+  "generatedAt": "2026-10-08T13:56:34.931Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69436 Windows State Repository Service Elevation of Privilege Vulnerability",
-      "date": "2026-10-07",
-      "summary": "Updated CVE title. This is an informational change only.",
+      "title": "Chromium: CVE-2025-11215 Off by one error in V8",
+      "date": "2026-10-08",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69436",
-      "count7d": 20
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11215",
+      "count7d": 22
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Showcases the Autonomous Enterprise in Action",
-      "date": "2026-10-07",
-      "summary": "SAP executives led by CEO Christian Klein demonstrated the Autonomous Enterprise powered by SAP Business AI Platform.",
+      "title": "How Joule Work and SAP Business AI Platform Are Powering the Next Generation of Business AI",
+      "date": "2026-10-08",
+      "summary": "Joule Work and the SAP Business AI Platform provide an out-of-the-box competitive advantage for the AI era.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-connect-keynote-autonomous-enterprise-in-action/",
-      "count7d": 8
+      "url": "https://news.sap.com/2026/10/joule-work-sap-business-ai-platform-power-next-generation-business-ai/",
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Provable Compliance, Built in From Day One",
-      "date": "2026-10-06",
-      "summary": "You know your backups are immutable. You know retention is enforced. You know your DR plan works because you’ve tested it. But when an auditor, insurer, or regulator asks you to prove it, “knowing” and “showing” turn out to be very different problems. The post Provable Compliance, Built in From Day One appeared first on Veeam Software Official Blog .",
+      "title": "Veeam Recovery Orchestrator v13.1: More Flexibility, Less Manual Work",
+      "date": "2026-10-08",
+      "summary": "Veeam Recovery Orchestrator v13.1, part of Veeam Data Platform Premium Edition, is here with quality-of-life improvements that make data orchestration simpler and more flexible. The post Veeam Recovery Orchestrator v13.1: More Flexibility, Less Manual Work appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/backup-compliance-evidence.html",
-      "count7d": 3
+      "url": "https://www.veeam.com/blog/whats-new-in-veeam-recovery-orchestrator-13-1.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
