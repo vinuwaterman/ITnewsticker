@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-08T13:56:34.931Z",
+  "generatedAt": "2026-10-08T19:42:43.169Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium: CVE-2025-11215 Off by one error in V8",
+      "title": "CVE-2026-50441 Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability",
       "date": "2026-10-08",
-      "summary": "Information published.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11215",
-      "count7d": 22
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50441",
+      "count7d": 27
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,21 +30,21 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Meraki Security Hardening Release: October 2026",
+      "title": "Cisco NX-OS Software NX-API Remote Code Execution Vulnerability",
       "date": "2026-10-08",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. &nbsp; These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE) &mdash; and assigned a single Common…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+      "summary": "A vulnerability in the NX-API feature of Cisco NX-OS Software could allow an unauthenticated, remote attacker to execute arbitrary code with root privileges or cause a denial of service (DoS) condition on an affected device.&nbsp; The vulnerability is due to insufficient input validation of data that is sent to the NX-API. An attacker could exploit this vulnerability by sending a crafted HTTP request to the NX-API of an affected device. A successful exploit could allow the attacker to execute arbitrary…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-napi-rce-r2shwu2j?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20NX-API%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
       "count7d": 17
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Vulnerabilities: Everything You’ve Wanted To Know",
-      "date": "2026-10-07",
-      "summary": "(Day 5 of 22 in our Cybersecurity Awareness Month series. Today: vulnerabilities) AI is a force multiplier. Good folks use it to do their work faster and with more accuracy. Bad actors use it to… do their work faster and with more accuracy, too. One thing that AI definitely does faster is find vulnerabilities in &#8230; Continued The post Vulnerabilities: Everything You’ve Wanted To Know appeared first on VMware Blogs .",
+      "title": "Upgrade to VMware Cloud Foundation 9.1 and Express Patching Webinar Top 10 Questions Answered",
+      "date": "2026-10-08",
+      "summary": "Thank you to everyone who joined our recent technical webinar on upgrading to VMware Cloud Foundation (VCF) 9.1 and applying Express Patches in modern private cloud environments. During the session, attendees submitted questions on security compliance, lifecycle management, upgrade paths, live patching, and automation. To help infrastructure architects, system administrators, and security teams, we have &#8230; Continued The post Upgrade to VMware Cloud Foundation 9.1 and Express Patching Webinar Top 10 Questions Answered appeared first on VMware Blogs .",
       "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/07/vulnerabilities-everything-you-want-know/",
-      "count7d": 9
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/08/upgrade-to-vmware-cloud-foundation-9-1-and-express-patching-webinar-top-10-questions-answered/",
+      "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "title": "How to Overclock Your CPU Safely: A Practical Guide",
+      "date": "2026-09-29",
+      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
       "count7d": 1
     },
     "Lenovo": {
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
-      "date": "2026-10-07",
+      "title": "Solving the Continuous Authorization Conundrum",
+      "date": "2026-10-08",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
-      "count7d": 5
+      "url": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
+      "count7d": 6
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -129,7 +129,8 @@
           "date": "2026-10-07",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107212",
-          "kev": false
+          "kev": false,
+          "epss": 0.33899999999999997
         },
         {
           "id": "CVE-2026-107214",
@@ -137,7 +138,8 @@
           "date": "2026-10-07",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107214",
-          "kev": false
+          "kev": false,
+          "epss": 0.271
         },
         {
           "id": "CVE-2026-107215",
@@ -145,7 +147,8 @@
           "date": "2026-10-07",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107215",
-          "kev": false
+          "kev": false,
+          "epss": 0.22300000000000003
         }
       ]
     },
@@ -231,7 +234,8 @@
           "date": "2026-10-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20328",
-          "kev": false
+          "kev": false,
+          "epss": 0.518
         },
         {
           "id": "CVE-2026-76454",
@@ -239,7 +243,8 @@
           "date": "2026-10-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76454",
-          "kev": false
+          "kev": false,
+          "epss": 0.582
         },
         {
           "id": "CVE-2026-76455",
@@ -247,7 +252,8 @@
           "date": "2026-10-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76455",
-          "kev": false
+          "kev": false,
+          "epss": 0.28400000000000003
         },
         {
           "id": "CVE-2026-76464",
@@ -255,7 +261,8 @@
           "date": "2026-10-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76464",
-          "kev": false
+          "kev": false,
+          "epss": 0.192
         },
         {
           "id": "CVE-2026-76465",
@@ -263,7 +270,8 @@
           "date": "2026-10-07",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76465",
-          "kev": false
+          "kev": false,
+          "epss": 0.44799999999999995
         }
       ]
     },
