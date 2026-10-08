@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:05:39.060Z",
+  "generatedAt": "2026-10-08T00:20:33.282Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -26,7 +26,7 @@
       "summary": "You know your backups are immutable. You know retention is enforced. You know your DR plan works because you’ve tested it. But when an auditor, insurer, or regulator asks you to prove it, “knowing” and “showing” turn out to be very different problems. The post Provable Compliance, Built in From Day One appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/backup-compliance-evidence.html",
-      "count7d": 4
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "The Cloud Admin’s Path to Platform Engineering",
+      "title": "Vulnerabilities: Everything You’ve Wanted To Know",
       "date": "2026-10-07",
-      "summary": "A practical guide for virtualization and cloud admins exploring a seat at the platform table Somewhere in your organization, a platform team is deciding how developers will get infrastructure for the next five years. There&#8217;s a decent chance you weren&#8217;t invited to that meeting. There&#8217;s an even better chance they&#8217;re building on top of something &#8230; Continued The post The Cloud Admin’s Path to Platform Engineering appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/07/the-cloud-admins-path-to-platform-engineering/",
-      "count7d": 10
+      "summary": "(Day 5 of 22 in our Cybersecurity Awareness Month series. Today: vulnerabilities) AI is a force multiplier. Good folks use it to do their work faster and with more accuracy. Bad actors use it to… do their work faster and with more accuracy, too. One thing that AI definitely does faster is find vulnerabilities in &#8230; Continued The post Vulnerabilities: Everything You’ve Wanted To Know appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/07/vulnerabilities-everything-you-want-know/",
+      "count7d": 9
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
-      "date": "2026-09-28",
-      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
-      "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
+      "title": "How to Overclock Your CPU Safely: A Practical Guide",
+      "date": "2026-09-29",
+      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
+      "category": "patch",
+      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
       "count7d": 1
     },
     "Lenovo": {
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
-      "count7d": 6
+      "count7d": 5
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
