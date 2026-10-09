@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-08T19:42:43.169Z",
+  "generatedAt": "2026-10-09T00:10:53.211Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-50441 Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-69435 Azure SRE Agent Elevation of Privilege Vulnerability",
       "date": "2026-10-08",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "summary": "Missing authorization in Azure SRE Agent allows an authorized attacker to elevate privileges over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50441",
-      "count7d": 27
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69435",
+      "count7d": 33
     },
     "SAP": {
       "vendor": "SAP",
@@ -35,7 +35,7 @@
       "summary": "A vulnerability in the NX-API feature of Cisco NX-OS Software could allow an unauthenticated, remote attacker to execute arbitrary code with root privileges or cause a denial of service (DoS) condition on an affected device.&nbsp; The vulnerability is due to insufficient input validation of data that is sent to the NX-API. An attacker could exploit this vulnerability by sending a crafted HTTP request to the NX-API of an affected device. A successful exploit could allow the attacker to execute arbitrary…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-napi-rce-r2shwu2j?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20NX-API%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
-      "count7d": 17
+      "count7d": 15
     },
     "VMware": {
       "vendor": "VMware",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Overclock Your CPU Safely: A Practical Guide",
-      "date": "2026-09-29",
-      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
+      "title": "The Best AI Data Architecture Fits the Estate You Already Have",
+      "date": "2026-09-28",
+      "summary": "Every data platform on your shortlist claims to be modern. The harder question is: How much of your existing environment must change before AI can work? Get the answer wrong, and it’s the platform - not your strategy - dictates how much of your environment you must rebuild.",
+      "category": "feature",
+      "url": "https://www.dell.com/en-us/blog/the-best-ai-data-architecture-fits-the-estate-you-already-have/",
       "count7d": 1
     },
     "Lenovo": {
@@ -71,7 +71,7 @@
       "summary": "Lenovo Chairman and CEO Yuanqing Yang to unveil how Hybrid AI turns data into value for every individual and enterprise during CES Keynote at Sphere.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-era-of-hybrid-ai/",
-      "count7d": 5
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
-      "count7d": 6
+      "count7d": 7
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 29,
+      "count": 33,
       "items": [
         {
           "id": "CVE-2026-105763",
@@ -353,18 +353,8 @@
       ]
     },
     "Fortinet": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-104286",
-          "title": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated…",
-          "date": "2026-10-01",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
-          "kev": true,
-          "epss": 2.2009999999999996
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Lenovo": {
       "count": 0,
