@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-09T13:41:26.136Z",
+  "generatedAt": "2026-10-09T19:18:40.242Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-54986 Windows Win32k Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-62744 Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
       "date": "2026-10-09",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54986",
-      "count7d": 64
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62744",
+      "count7d": 72
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Upgrade to VMware Cloud Foundation 9.1 and Express Patching Webinar Top 10 Questions Answered",
-      "date": "2026-10-08",
-      "summary": "Thank you to everyone who joined our recent technical webinar on upgrading to VMware Cloud Foundation (VCF) 9.1 and applying Express Patches in modern private cloud environments. During the session, attendees submitted questions on security compliance, lifecycle management, upgrade paths, live patching, and automation. To help infrastructure architects, system administrators, and security teams, we have &#8230; Continued The post Upgrade to VMware Cloud Foundation 9.1 and Express Patching Webinar Top 10 Questions Answered appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/08/upgrade-to-vmware-cloud-foundation-9-1-and-express-patching-webinar-top-10-questions-answered/",
+      "title": "Beyond the Kubernetes complexity: Delivering an AI-Ready Platform Developers Love (Over Lunch)",
+      "date": "2026-10-09",
+      "summary": "Developers want to push code and watch the platform take care of the rest—packaging images, configuring variables, and deploying to a secure, highly available environment.This is the core promise of delivering an opinionated Private cloud Platform-as-a-Service (PaaS) with VMware Tanzu Platform on VMware Cloud Foundation (VCF). The post Beyond the Kubernetes complexity: Delivering an AI-Ready &#8230; Continued The post Beyond the Kubernetes complexity: Delivering an AI-Ready Platform Developers Love (Over Lunch) appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/tanzu/beyond-the-kubernetes-complexity-delivering-an-ai-ready-platform-developers-love-over-lunch/",
       "count7d": 10
     },
     "AWS": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 33,
+      "count": 32,
       "items": [
         {
           "id": "CVE-2026-105763",
@@ -153,18 +153,8 @@
       ]
     },
     "SAP": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-104026",
-          "title": "In Sapling SCM prior to v0.2.20260929-102736, control characters were allowed to be embedded in Git subtree URLs. A maliciously constructed repository, if cloned by a target, could trigger code execution on otherwise read-only actions such…",
-          "date": "2026-10-02",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104026",
-          "kev": false,
-          "epss": 0.126
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Veeam": {
       "count": 6,
@@ -247,6 +237,15 @@
           "epss": 0.28400000000000003
         },
         {
+          "id": "CVE-2026-76459",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco NX-OS engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple…",
+          "date": "2026-10-07",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76459",
+          "kev": false,
+          "epss": 0.28200000000000003
+        },
+        {
           "id": "CVE-2026-76464",
           "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco networking engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple…",
           "date": "2026-10-07",
@@ -254,15 +253,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76464",
           "kev": false,
           "epss": 0.192
-        },
-        {
-          "id": "CVE-2026-76465",
-          "title": "A vulnerability in the MPLS Operation, Administration, and Maintenance (OAM) feature of Cisco NX-OS Software for Cisco Nexus 3000 Series Switches and Cisco Nexus 9000 Series Switches could allow an unauthenticated, remote attacker to execute…",
-          "date": "2026-10-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76465",
-          "kev": false,
-          "epss": 0.44799999999999995
         }
       ]
     },
@@ -303,7 +293,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54472",
           "kev": false,
-          "epss": 0.544
+          "epss": 0.509
         },
         {
           "id": "CVE-2026-61421",
