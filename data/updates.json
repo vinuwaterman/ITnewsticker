@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-09T06:31:12.588Z",
+  "generatedAt": "2026-10-09T13:41:26.136Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69435 Azure SRE Agent Elevation of Privilege Vulnerability",
-      "date": "2026-10-08",
-      "summary": "Missing authorization in Azure SRE Agent allows an authorized attacker to elevate privileges over a network.",
+      "title": "CVE-2026-54986 Windows Win32k Elevation of Privilege Vulnerability",
+      "date": "2026-10-09",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69435",
-      "count7d": 33
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54986",
+      "count7d": 64
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Overclock Your CPU Safely: A Practical Guide",
-      "date": "2026-09-29",
-      "summary": "A practical, step-by-step guide to safe CPU overclocking with essential settings, tests, tools, and fixes.",
-      "category": "patch",
-      "url": "https://www.dell.com/en-us/blog/how-to-overclock-your-cpu-safely-a-practical-guide/",
-      "count7d": 1
+      "title": "Making Room for AI: A Playbook for Brownfield Data Centers",
+      "date": "2026-10-08",
+      "summary": "",
+      "category": "feature",
+      "url": "https://www.dell.com/blog/making-room-for-ai-a-playbook-for-brownfield-data-centers",
+      "count7d": 11
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -153,7 +153,7 @@
       ]
     },
     "SAP": {
-      "count": 2,
+      "count": 1,
       "items": [
         {
           "id": "CVE-2026-104026",
@@ -163,15 +163,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104026",
           "kev": false,
           "epss": 0.126
-        },
-        {
-          "id": "CVE-2026-104434",
-          "title": "ZcashFoundation Zebra zebra-rpc before 8.0.0 and zebrad before 4.5.0 contain a reachable assertion in the z_listunifiedreceivers RPC handler, which calls expect() on Sapling receiver parsing that fails for Unified Addresses carrying invalid Jubjub points. Authenticated…",
-          "date": "2026-10-02",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104434",
-          "kev": false,
-          "epss": 0.307
         }
       ]
     },
@@ -303,7 +294,7 @@
       "items": []
     },
     "Dell": {
-      "count": 23,
+      "count": 42,
       "items": [
         {
           "id": "CVE-2026-54472",
