@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T19:18:40.242Z",
+  "generatedAt": "2026-10-09T23:25:39.156Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Recovery Orchestrator v13.1: More Flexibility, Less Manual Work",
-      "date": "2026-10-08",
-      "summary": "Veeam Recovery Orchestrator v13.1, part of Veeam Data Platform Premium Edition, is here with quality-of-life improvements that make data orchestration simpler and more flexible. The post Veeam Recovery Orchestrator v13.1: More Flexibility, Less Manual Work appeared first on Veeam Software Official Blog .",
-      "category": "feature",
-      "url": "https://www.veeam.com/blog/whats-new-in-veeam-recovery-orchestrator-13-1.html",
-      "count7d": 4
+      "title": "Backup for Small IT Teams: How to Choose and Run Backup as a Service",
+      "date": "2026-10-09",
+      "summary": "If you run IT for a small business, backup is one line on a list that also includes password resets, patching, a laptop for the person starting Monday, and whatever the security dashboard flagged overnight. It's easy to postpone, because nothing visibly breaks when you postpone it. Until something does. If that list sounds familiar, I know the feeling. The post Backup for Small IT Teams: How to Choose and Run Backup as a Service appeared first on Veeam Software…",
+      "category": "patch",
+      "url": "https://www.veeam.com/blog/backup-for-small-it-teams.html",
+      "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Beyond the Kubernetes complexity: Delivering an AI-Ready Platform Developers Love (Over Lunch)",
+      "title": "CRITICAL ADVISORY: Pre-Upgrade Verification Required for vSphere Supervisor and VKS Environments Upgrading to vCenter 9.1.0 or 9.1.1",
       "date": "2026-10-09",
-      "summary": "Developers want to push code and watch the platform take care of the rest—packaging images, configuring variables, and deploying to a secure, highly available environment.This is the core promise of delivering an opinionated Private cloud Platform-as-a-Service (PaaS) with VMware Tanzu Platform on VMware Cloud Foundation (VCF). The post Beyond the Kubernetes complexity: Delivering an AI-Ready &#8230; Continued The post Beyond the Kubernetes complexity: Delivering an AI-Ready Platform Developers Love (Over Lunch) appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/tanzu/beyond-the-kubernetes-complexity-delivering-an-ai-ready-platform-developers-love-over-lunch/",
+      "summary": "Overview and Call to Action While critical advisories are not typical blog topics, protecting customer environments and preventing unexpected data loss is our top priority. We are leveraging every communication channel available to ensure platform and infrastructure administrators are aware of a critical upgrade prerequisite. If you run vSphere Supervisor or VMware vSphere Kubernetes Service &#8230; Continued The post CRITICAL ADVISORY: Pre-Upgrade Verification Required for vSphere Supervisor and VKS Environments Upgrading to vCenter 9.1.0 or 9.1.1 appeared first on VMware…",
+      "category": "critical",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/09/critical-advisory-pre-upgrade-verification-required-for-vsphere-supervisor-and-vks-environments-upgrading-to-vcenter-9-1-0-or-9-1-1/",
       "count7d": 10
     },
     "AWS": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 32,
+      "count": 33,
       "items": [
         {
           "id": "CVE-2026-105763",
