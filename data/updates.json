@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T09:31:36.123Z",
+  "generatedAt": "2026-10-10T15:46:26.023Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Observability’s AI Moment",
-      "date": "2026-10-01",
-      "summary": "Introducing Cortex XCOR: AI-Driven Observability that Delivers Autonomous Response with AI SRE I’ve been tackling the observability problem for more than a decade, since before it was coined observability. From building internal &#8230; The post Observability’s AI Moment appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/observabilitys-ai-moment-introducing-cortex-xcor-ai-driven-observability-for-autonomous-response-with-ai-sre/",
-      "count7d": 1
+      "title": "The Mango Strategy: A CEO’s Guide to AI Cybersecurity",
+      "date": "2026-10-08",
+      "summary": "Hope is not a strategy. Neither is nostalgia. Mark Carney, Prime Minister of Canada &#160; Business leaders cannot respond to AI-era cyber risk by longing for a simpler technology stack, slower decision-making &#8230; The post The Mango Strategy: A CEO’s Guide to AI Cybersecurity appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/the-mango-strategy-a-ceos-guide-to-ai-cybersecurity/",
+      "count7d": 2
     }
   },
   "nvd": {
@@ -243,7 +243,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76459",
           "kev": false,
-          "epss": 0.28200000000000003
+          "epss": 0.307
         },
         {
           "id": "CVE-2026-76464",
