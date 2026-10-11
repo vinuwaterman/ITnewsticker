@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:18:53.620Z",
+  "generatedAt": "2026-10-11T02:05:04.219Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62744",
-      "count7d": 71
+      "count7d": 69
     },
     "SAP": {
       "vendor": "SAP",
