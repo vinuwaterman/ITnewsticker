@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-12T04:42:42.875Z",
+  "generatedAt": "2026-10-12T12:49:43.735Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62744 Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
-      "date": "2026-10-09",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "Chromium: CVE-2025-12727 Inappropriate implementation in V8",
+      "date": "2026-10-12",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62744",
-      "count7d": 68
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12727",
+      "count7d": 74
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "How Joule Work and SAP Business AI Platform Are Powering the Next Generation of Business AI",
-      "date": "2026-10-08",
-      "summary": "Joule Work and the SAP Business AI Platform provide an out-of-the-box competitive advantage for the AI era.",
+      "title": "The Next Chapter in Spend Management: AI Innovations Across SAP Ariba, SAP Fieldglass, and SAP Concur",
+      "date": "2026-10-12",
+      "summary": "New capabilities and partner innovations help organizations turn spend insights into faster, better-informed decisions.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/joule-work-sap-business-ai-platform-power-next-generation-business-ai/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/10/next-chapter-spend-management-ai-innovations-sap-ariba-sap-fieldglass-sap-concur/",
+      "count7d": 13
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 35,
+      "count": 34,
       "items": [
         {
           "id": "CVE-2026-105763",
