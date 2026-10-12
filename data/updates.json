@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T23:33:06.820Z",
+  "generatedAt": "2026-10-12T04:42:42.875Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62744",
-      "count7d": 69
+      "count7d": 68
     },
     "SAP": {
       "vendor": "SAP",
@@ -26,7 +26,7 @@
       "summary": "If you run IT for a small business, backup is one line on a list that also includes password resets, patching, a laptop for the person starting Monday, and whatever the security dashboard flagged overnight. It's easy to postpone, because nothing visibly breaks when you postpone it. Until something does. If that list sounds familiar, I know the feeling. The post Backup for Small IT Teams: How to Choose and Run Backup as a Service appeared first on Veeam Software…",
       "category": "patch",
       "url": "https://www.veeam.com/blog/backup-for-small-it-teams.html",
-      "count7d": 5
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/making-room-for-ai-a-playbook-for-brownfield-data-centers",
-      "count7d": 11
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Lenovo Chairman and CEO Yuanqing Yang to unveil how Hybrid AI turns data into value for every individual and enterprise during CES Keynote at Sphere.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-era-of-hybrid-ai/",
-      "count7d": 3
+      "count7d": 2
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
-      "count7d": 7
+      "count7d": 5
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
