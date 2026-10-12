@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T12:49:43.735Z",
+  "generatedAt": "2026-10-12T21:36:10.414Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "CRITICAL ADVISORY: Pre-Upgrade Verification Required for vSphere Supervisor and VKS Environments Upgrading to vCenter 9.1.0 or 9.1.1",
-      "date": "2026-10-09",
-      "summary": "Overview and Call to Action While critical advisories are not typical blog topics, protecting customer environments and preventing unexpected data loss is our top priority. We are leveraging every communication channel available to ensure platform and infrastructure administrators are aware of a critical upgrade prerequisite. If you run vSphere Supervisor or VMware vSphere Kubernetes Service &#8230; Continued The post CRITICAL ADVISORY: Pre-Upgrade Verification Required for vSphere Supervisor and VKS Environments Upgrading to vCenter 9.1.0 or 9.1.1 appeared first on VMware…",
-      "category": "critical",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/09/critical-advisory-pre-upgrade-verification-required-for-vsphere-supervisor-and-vks-environments-upgrading-to-vcenter-9-1-0-or-9-1-1/",
+      "title": "Patch Easier, Then Faster",
+      "date": "2026-10-12",
+      "summary": "(Day 8 of 22 in our Cybersecurity Awareness Month series. Today: patching) There is a saying that “slow is smooth, and smooth is fast.” It’s usually credited to the military. It means that rushing leads to mistakes, and cleaning up after them takes longer than doing the work carefully in the first place. Thinking about &#8230; Continued The post Patch Easier, Then Faster appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/12/patch-easier-then-faster/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Making Room for AI: A Playbook for Brownfield Data Centers",
-      "date": "2026-10-08",
+      "title": "Halliburton's VDA: Bringing Sovereign AI to Drilling Operations",
+      "date": "2026-10-12",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/making-room-for-ai-a-playbook-for-brownfield-data-centers",
-      "count7d": 10
+      "url": "https://www.dell.com/blog/halliburton-s-vda-bringing-sovereign-ai-to-drilling-operations",
+      "count7d": 11
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Observability’s AI Moment",
-      "date": "2026-10-01",
-      "summary": "Introducing Cortex XCOR: AI-Driven Observability that Delivers Autonomous Response with AI SRE I’ve been tackling the observability problem for more than a decade, since before it was coined observability. From building internal &#8230; The post Observability’s AI Moment appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/observabilitys-ai-moment-introducing-cortex-xcor-ai-driven-observability-for-autonomous-response-with-ai-sre/",
-      "count7d": 1
+      "title": "The Mango Strategy: A CEO’s Guide to AI Cybersecurity",
+      "date": "2026-10-08",
+      "summary": "Hope is not a strategy. Neither is nostalgia. Mark Carney, Prime Minister of Canada &#160; Business leaders cannot respond to AI-era cyber risk by longing for a simpler technology stack, slower decision-making &#8230; The post The Mango Strategy: A CEO’s Guide to AI Cybersecurity appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/the-mango-strategy-a-ceos-guide-to-ai-cybersecurity/",
+      "count7d": 2
     }
   },
   "nvd": {
@@ -153,8 +153,17 @@
       ]
     },
     "SAP": {
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "id": "CVE-2026-109365",
+          "title": "Zebra before 6.4.0 contains an uncontrolled resource consumption vulnerability that allows unauthenticated peers to force full proof verification by serving forged block bodies with valid header hashes. Attackers can flip authorizing-only bytes such as a…",
+          "date": "2026-10-12",
+          "severity": "LOW",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109365",
+          "kev": false
+        }
+      ]
     },
     "Veeam": {
       "count": 6,
@@ -207,7 +216,7 @@
       ]
     },
     "Cisco": {
-      "count": 36,
+      "count": 37,
       "items": [
         {
           "id": "CVE-2026-20328",
