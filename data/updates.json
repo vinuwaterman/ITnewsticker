@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T02:52:40.853Z",
+  "generatedAt": "2026-10-13T10:12:11.783Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Patch Easier, Then Faster",
-      "date": "2026-10-12",
-      "summary": "(Day 8 of 22 in our Cybersecurity Awareness Month series. Today: patching) There is a saying that “slow is smooth, and smooth is fast.” It’s usually credited to the military. It means that rushing leads to mistakes, and cleaning up after them takes longer than doing the work carefully in the first place. Thinking about &#8230; Continued The post Patch Easier, Then Faster appeared first on VMware Blogs .",
+      "title": "Proactive Defense: Enhancing Hypervisor Security in the AI Era",
+      "date": "2026-10-13",
+      "summary": "Subscribe to keep reading Become a paid subscriber to get access to the rest of this post and other exclusive content. Subscribe The post Proactive Defense: Enhancing Hypervisor Security in the AI Era appeared first on VMware Cloud Foundation (VCF) Blog. The post Proactive Defense: Enhancing Hypervisor Security in the AI Era appeared first on VMware Blogs .",
       "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/12/patch-easier-then-faster/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/13/proactive-hypervisor-defense-introducing-vmware-hyperarmor/",
       "count7d": 10
     },
     "AWS": {
@@ -325,7 +325,7 @@
       "items": []
     },
     "Dell": {
-      "count": 42,
+      "count": 41,
       "items": [
         {
           "id": "CVE-2026-54472",
