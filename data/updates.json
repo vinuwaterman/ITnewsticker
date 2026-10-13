@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T21:36:10.414Z",
+  "generatedAt": "2026-10-13T02:52:40.853Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Information published.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12727",
-      "count7d": 74
+      "count7d": 61
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "New capabilities and partner innovations help organizations turn spend insights into faster, better-informed decisions.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/next-chapter-spend-management-ai-innovations-sap-ariba-sap-fieldglass-sap-concur/",
-      "count7d": 13
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "If you run IT for a small business, backup is one line on a list that also includes password resets, patching, a laptop for the person starting Monday, and whatever the security dashboard flagged overnight. It's easy to postpone, because nothing visibly breaks when you postpone it. Until something does. If that list sounds familiar, I know the feeling. The post Backup for Small IT Teams: How to Choose and Run Backup as a Service appeared first on Veeam Software…",
       "category": "patch",
       "url": "https://www.veeam.com/blog/backup-for-small-it-teams.html",
-      "count7d": 4
+      "count7d": 2
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/halliburton-s-vda-bringing-sovereign-ai-to-drilling-operations",
-      "count7d": 11
+      "count7d": 8
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Lenovo Chairman and CEO Yuanqing Yang to unveil how Hybrid AI turns data into value for every individual and enterprise during CES Keynote at Sphere.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-era-of-hybrid-ai/",
-      "count7d": 2
+      "count7d": 1
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,31 +89,22 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
-      "count7d": 5
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "The Mango Strategy: A CEO’s Guide to AI Cybersecurity",
-      "date": "2026-10-08",
-      "summary": "Hope is not a strategy. Neither is nostalgia. Mark Carney, Prime Minister of Canada &#160; Business leaders cannot respond to AI-era cyber risk by longing for a simpler technology stack, slower decision-making &#8230; The post The Mango Strategy: A CEO’s Guide to AI Cybersecurity appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/the-mango-strategy-a-ceos-guide-to-ai-cybersecurity/",
-      "count7d": 2
+      "title": "Observability’s AI Moment",
+      "date": "2026-10-01",
+      "summary": "Introducing Cortex XCOR: AI-Driven Observability that Delivers Autonomous Response with AI SRE I’ve been tackling the observability problem for more than a decade, since before it was coined observability. From building internal &#8230; The post Observability’s AI Moment appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/observabilitys-ai-moment-introducing-cortex-xcor-ai-driven-observability-for-autonomous-response-with-ai-sre/",
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 34,
+      "count": 32,
       "items": [
-        {
-          "id": "CVE-2026-105763",
-          "title": "Twenty is an open-source CRM (customer relationship management) platform. From 1.20.10 until 2.7.0, the /metadata GraphQL connectedAccounts query returned connectionParameters from ConnectedAccountDTO for every connected account in a workspace, including plaintext IMAP, SMTP, and CalDAV…",
-          "date": "2026-10-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105763",
-          "kev": false,
-          "epss": 0.27699999999999997
-        },
         {
           "id": "CVE-2026-105793",
           "title": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms. Prior to 3.0.9, the press_key tool in ufo/client/mcp/http_servers/mobile_mcp_server.py accepts a free-form key_code parameter and passes it to `adb shell input keyevent`. The…",
@@ -149,18 +140,59 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107215",
           "kev": false,
           "epss": 0.22300000000000003
+        },
+        {
+          "id": "CVE-2026-107216",
+          "title": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. From 2.8.1 to 2.11.0, ANCHORARRAY recursively calls the exported CalcCellValue function, creating a fresh calculation context at each cycle and bypassing in-flight…",
+          "date": "2026-10-07",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107216",
+          "kev": false,
+          "epss": 0.311
         }
       ]
     },
     "SAP": {
-      "count": 1,
+      "count": 17,
       "items": [
         {
-          "id": "CVE-2026-109365",
-          "title": "Zebra before 6.4.0 contains an uncontrolled resource consumption vulnerability that allows unauthenticated peers to force full proof verification by serving forged block bodies with valid header hashes. Attackers can flip authorizing-only bytes such as a…",
-          "date": "2026-10-12",
-          "severity": "LOW",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109365",
+          "id": "CVE-2026-89107",
+          "title": "SAP S/4HANA (Manage Substitution/Validation Rules) does not sufficiently validate input processed by rule definition functionality that utilizes a domain-specific scripting language. An authenticated attacker with specific business privileges could submit specially crafted input, which is…",
+          "date": "2026-10-13",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89107",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-89108",
+          "title": "SAP Manufacturing Integration and Intelligence does not sufficiently enforce authorization boundaries within certain administrative functionality. An attacker with MII administrator privileges could submit a specially crafted request to provision an account with elevated privileges on…",
+          "date": "2026-10-13",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89108",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-89110",
+          "title": "SAP NetWeaver Visual Composer does not perform sufficient authorization checks in certain portal functionality. An attacker with low privileges could invoke internal operations on a preconfigured remote system. Depending on the remote connection configuration, this…",
+          "date": "2026-10-13",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89110",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-89111",
+          "title": "The SAP Cloud SDK for Python contains an OAuth2 SSRF vulnerability affecting multi-tenant BTP applications. An attacker who controls the tenant_subdomain parameter can redirect OAuth2 token requests to an attacker-controlled server, causing client credentials to…",
+          "date": "2026-10-13",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89111",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-58249",
+          "title": "SAP NetWeaver and SAP Web Dispatcher do not properly validate certain fields in specially crafted requests handled by an internal protocol component. An unauthenticated attacker could send a malicious request that triggers a memory-handling error,…",
+          "date": "2026-10-13",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58249",
           "kev": false
         }
       ]
