@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T10:12:11.783Z",
+  "generatedAt": "2026-10-13T17:44:29.451Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "The Next Chapter in Spend Management: AI Innovations Across SAP Ariba, SAP Fieldglass, and SAP Concur",
-      "date": "2026-10-12",
-      "summary": "New capabilities and partner innovations help organizations turn spend insights into faster, better-informed decisions.",
+      "title": "SAP Strengthens the Foundation for the Autonomous Enterprise with SAP Cloud ERP Private 2025 FPS02",
+      "date": "2026-10-13",
+      "summary": "New capabilities help organizations move from AI experimentation to intelligent, governed business execution.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/next-chapter-spend-management-ai-innovations-sap-ariba-sap-fieldglass-sap-concur/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/10/sap-cloud-erp-private-2025-fps02-foundation-autonomous-enterprise/",
+      "count7d": 12
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Proactive Defense: Enhancing Hypervisor Security in the AI Era",
+      "title": "Customer Favorite Capabilities: Accelerating Your Path to VCF 9.1.1",
       "date": "2026-10-13",
-      "summary": "Subscribe to keep reading Become a paid subscriber to get access to the rest of this post and other exclusive content. Subscribe The post Proactive Defense: Enhancing Hypervisor Security in the AI Era appeared first on VMware Cloud Foundation (VCF) Blog. The post Proactive Defense: Enhancing Hypervisor Security in the AI Era appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/13/proactive-hypervisor-defense-introducing-vmware-hyperarmor/",
+      "summary": "As a TAM, I’ve noticed a recurring theme in almost every customer conversation lately: the critical need to balance rigorous information security with operational simplification. While teams still demand robust, enterprise-grade capabilities (especially to defend their infrastructure), they’re looking for ways to cut through the noise &#8211; removing the friction from how they adopt, manage, &#8230; Continued The post Customer Favorite Capabilities: Accelerating Your Path to VCF 9.1.1 appeared first on VMware Blogs .",
+      "category": "critical",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/13/customer-favorite-capabilities-accelerating-your-path-to-vcf-9-1-1/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Halliburton's VDA: Bringing Sovereign AI to Drilling Operations",
-      "date": "2026-10-12",
+      "title": "Making Room for AI: A Playbook for Brownfield Data Centers",
+      "date": "2026-10-13",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/halliburton-s-vda-bringing-sovereign-ai-to-drilling-operations",
-      "count7d": 8
+      "url": "https://www.dell.com/blog/making-room-for-ai-a-playbook-for-brownfield-data-centers",
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -103,16 +103,16 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 32,
+      "count": 26,
       "items": [
         {
-          "id": "CVE-2026-105793",
-          "title": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms. Prior to 3.0.9, the press_key tool in ufo/client/mcp/http_servers/mobile_mcp_server.py accepts a free-form key_code parameter and passes it to `adb shell input keyevent`. The…",
-          "date": "2026-10-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105793",
+          "id": "CVE-2026-107782",
+          "title": "System Informer before 4.0.26241.138 contains an incorrect authorization vulnerability in the phsvc helper that allows local attackers to reach privileged APIs by connecting from any Authenticode-signed process. Attackers can load code into a Microsoft-signed host…",
+          "date": "2026-10-08",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107782",
           "kev": false,
-          "epss": 0.865
+          "epss": 0.11499999999999999
         },
         {
           "id": "CVE-2026-107212",
@@ -161,7 +161,8 @@
           "date": "2026-10-13",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89107",
-          "kev": false
+          "kev": false,
+          "epss": 0.374
         },
         {
           "id": "CVE-2026-89108",
@@ -169,7 +170,8 @@
           "date": "2026-10-13",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89108",
-          "kev": false
+          "kev": false,
+          "epss": 0.301
         },
         {
           "id": "CVE-2026-89110",
@@ -177,7 +179,8 @@
           "date": "2026-10-13",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89110",
-          "kev": false
+          "kev": false,
+          "epss": 0.312
         },
         {
           "id": "CVE-2026-89111",
@@ -185,7 +188,8 @@
           "date": "2026-10-13",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89111",
-          "kev": false
+          "kev": false,
+          "epss": 0.27399999999999997
         },
         {
           "id": "CVE-2026-58249",
@@ -193,7 +197,8 @@
           "date": "2026-10-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58249",
-          "kev": false
+          "kev": false,
+          "epss": 0.322
         }
       ]
     },
@@ -325,52 +330,52 @@
       "items": []
     },
     "Dell": {
-      "count": 41,
+      "count": 28,
       "items": [
         {
-          "id": "CVE-2026-54472",
-          "title": "Dell Container Storage Modules, versions prior to 1.18.0, contain(s) an Use of Hard-coded Credentials vulnerability in the csm-docs. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure.9.8",
+          "id": "CVE-2026-86360",
+          "title": "Dell System Update, versions prior to 2.3.0.0, contains an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Filesystem…",
           "date": "2026-10-06",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54472",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86360",
           "kev": false,
-          "epss": 0.509
+          "epss": 0.632
         },
         {
-          "id": "CVE-2026-61421",
-          "title": "Dell Container Storage Modules, versions prior to 1.18.0, contain(s) an Use of Hard-coded Credentials vulnerability in the CSM Authorization. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Elevation of privileges.",
-          "date": "2026-10-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61421",
+          "id": "CVE-2026-76779",
+          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Improper Restriction of Excessive Authentication Attempts vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Elevation of…",
+          "date": "2026-10-09",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76779",
           "kev": false,
-          "epss": 0.344
+          "epss": 0.261
         },
         {
-          "id": "CVE-2026-63688",
-          "title": "Dell Container Storage Modules (CSM), versions prior to v1.18.0, contains a Missing Authentication for Critical Function vulnerability in the csm-authorization-storage gRPC server. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to unauthorized access…",
-          "date": "2026-10-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63688",
+          "id": "CVE-2026-78019",
+          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Inclusion of Functionality from Untrusted Control Sphere vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
+          "date": "2026-10-09",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78019",
           "kev": false,
-          "epss": 0.791
+          "epss": 0.329
         },
         {
-          "id": "CVE-2026-63692",
-          "title": "Dell Container Storage Modules, versions prior to 1.18.0, contain(s) a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Elevation of privileges.",
-          "date": "2026-10-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63692",
+          "id": "CVE-2026-78020",
+          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Improper Certificate Validation vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Denial of service, Information disclosure,…",
+          "date": "2026-10-09",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78020",
           "kev": false,
-          "epss": 0.647
+          "epss": 0.179
         },
         {
-          "id": "CVE-2026-67269",
-          "title": "Dell Container Storage Modules (CSM) Operator, versions prior to 1.18.0 contains an Improper Privilege Management vulnerability in the ContainerStorageModule Custom Resource reconciler. A low privileged remote attacker could potentially exploit this vulnerability, leading to escalation…",
+          "id": "CVE-2026-101207",
+          "title": "Dell OpenManage Integration with Microsoft Windows Admin Center, versions prior to 3.7.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with remote access…",
           "date": "2026-10-06",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67269",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101207",
           "kev": false,
-          "epss": 0.534
+          "epss": 1.66
         }
       ]
     },
