@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T06:32:32.672Z",
+  "generatedAt": "2026-10-14T12:41:50.730Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Strengthens the Foundation for the Autonomous Enterprise with SAP Cloud ERP Private 2025 FPS02",
-      "date": "2026-10-13",
-      "summary": "New capabilities help organizations move from AI experimentation to intelligent, governed business execution.",
+      "title": "DACHSER Migrates HCM to SAP S/4HANA Cloud Using RISE with SAP",
+      "date": "2026-10-14",
+      "summary": "The Germany-based logistics company has reached a major milestone in its journey.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-cloud-erp-private-2025-fps02-foundation-autonomous-enterprise/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/10/dachser-migrates-hcm-to-sap-s-4hana-cloud-rise-with-sap/",
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -93,17 +93,17 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "The Mango Strategy: A CEO’s Guide to AI Cybersecurity",
-      "date": "2026-10-08",
-      "summary": "Hope is not a strategy. Neither is nostalgia. Mark Carney, Prime Minister of Canada &#160; Business leaders cannot respond to AI-era cyber risk by longing for a simpler technology stack, slower decision-making &#8230; The post The Mango Strategy: A CEO’s Guide to AI Cybersecurity appeared first on Palo Alto Networks Blog .",
+      "title": "NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM",
+      "date": "2026-10-13",
+      "summary": "The NHS has set an ambitious goal of achieving cyber resilience across healthcare organisations by 2030. Delivering on that vision requires technology, expertise and close collaboration across the public and private sectors. &#8230; The post NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM appeared first on Palo Alto Networks Blog .",
       "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/the-mango-strategy-a-ceos-guide-to-ai-cybersecurity/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/nhs-england-evolves-its-cybersecurity-strategy-with-palo-alto-networks/",
+      "count7d": 3
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 298,
+      "count": 297,
       "items": [
         {
           "id": "CVE-2026-88131",
@@ -124,6 +124,15 @@
           "epss": 0.402
         },
         {
+          "id": "CVE-2026-96207",
+          "title": "Improper certificate validation in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-10-08",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96207",
+          "kev": false,
+          "epss": 0.477
+        },
+        {
           "id": "CVE-2026-107782",
           "title": "System Informer before 4.0.26241.138 contains an incorrect authorization vulnerability in the phsvc helper that allows local attackers to reach privileged APIs by connecting from any Authenticode-signed process. Attackers can load code into a Microsoft-signed host…",
           "date": "2026-10-08",
@@ -140,15 +149,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107212",
           "kev": false,
           "epss": 0.33899999999999997
-        },
-        {
-          "id": "CVE-2026-107214",
-          "title": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. From 2.3.1 to 2.11.0, the decryption dispatch performs insufficient structural and parameter validation before standard and agile decryptors slice, index, allocate, and…",
-          "date": "2026-10-07",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107214",
-          "kev": false,
-          "epss": 0.271
         }
       ]
     },
@@ -203,54 +203,8 @@
       ]
     },
     "Veeam": {
-      "count": 6,
-      "items": [
-        {
-          "id": "CVE-2025-64391",
-          "title": "This vulnerability in Veeam Agent for Microsoft Windows allows a low-privileged local user to make the agent write files to arbitrary locations when an administrator installs it.",
-          "date": "2026-10-07",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64391",
-          "kev": false,
-          "epss": 0.116
-        },
-        {
-          "id": "CVE-2025-64392",
-          "title": "This vulnerability in Veeam Backup Enterprise Manager allows an attacker to execute script in the browser of a portal user who opens a crafted link.",
-          "date": "2026-10-07",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64392",
-          "kev": false,
-          "epss": 0.338
-        },
-        {
-          "id": "CVE-2025-64393",
-          "title": "This vulnerability in Veeam Backup & Replication allows a Backup Viewer to execute arbitrary code as SYSTEM on the backup server.",
-          "date": "2026-10-07",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64393",
-          "kev": false,
-          "epss": 0.36
-        },
-        {
-          "id": "CVE-2026-58068",
-          "title": "This vulnerability in Veeam Agent for Microsoft Windows allows any local user to terminate arbitrary processes on the system.",
-          "date": "2026-10-07",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58068",
-          "kev": false,
-          "epss": 0.101
-        },
-        {
-          "id": "CVE-2026-58069",
-          "title": "This vulnerability in Veeam Backup & Replication allows an authenticated Cloud Connect tenant to read arbitrary files on the service provider host.",
-          "date": "2026-10-07",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58069",
-          "kev": false,
-          "epss": 0.37
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Cisco": {
       "count": 37,
