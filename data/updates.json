@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T22:23:01.201Z",
+  "generatedAt": "2026-10-14T01:21:06.643Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102849",
-      "count7d": 1473
+      "count7d": 1471
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "New capabilities help organizations move from AI experimentation to intelligent, governed business execution.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/sap-cloud-erp-private-2025-fps02-foundation-autonomous-enterprise/",
-      "count7d": 12
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -35,7 +35,7 @@
       "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user or admin &nbsp;or an unauthenticated attacker with physical access to an affected device to bypass UEFI Secure Boot validation checks and execute unauthorized software. This vulnerability is due to the availability of memory write commands in the UEFI Shell while UEFI Secure Boot is enabled…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
-      "count7d": 16
+      "count7d": 3
     },
     "VMware": {
       "vendor": "VMware",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/making-room-for-ai-a-playbook-for-brownfield-data-centers",
-      "count7d": 10
+      "count7d": 6
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Formula E chose Lenovo, its Official AR and Digital Content Provider, for its ability to combine edge AI innovation with deep technical expertise.",
       "category": "feature",
       "url": "https://news.lenovo.com/formula-e-ai-to-the-test-future-of-motorsport/",
-      "count7d": 2
+      "count7d": 1
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -84,21 +84,21 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Solving the Continuous Authorization Conundrum",
-      "date": "2026-10-08",
+      "title": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
+      "date": "2026-10-13",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
-      "count7d": 4
+      "url": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/",
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Observability’s AI Moment",
-      "date": "2026-10-01",
-      "summary": "Introducing Cortex XCOR: AI-Driven Observability that Delivers Autonomous Response with AI SRE I’ve been tackling the observability problem for more than a decade, since before it was coined observability. From building internal &#8230; The post Observability’s AI Moment appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/observabilitys-ai-moment-introducing-cortex-xcor-ai-driven-observability-for-autonomous-response-with-ai-sre/",
-      "count7d": 1
+      "title": "The Mango Strategy: A CEO’s Guide to AI Cybersecurity",
+      "date": "2026-10-08",
+      "summary": "Hope is not a strategy. Neither is nostalgia. Mark Carney, Prime Minister of Canada &#160; Business leaders cannot respond to AI-era cyber risk by longing for a simpler technology stack, slower decision-making &#8230; The post The Mango Strategy: A CEO’s Guide to AI Cybersecurity appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/the-mango-strategy-a-ceos-guide-to-ai-cybersecurity/",
+      "count7d": 2
     }
   },
   "nvd": {
