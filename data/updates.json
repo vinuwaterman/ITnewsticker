@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-14T12:41:50.730Z",
+  "generatedAt": "2026-10-14T17:50:07.689Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-102849 Microsoft Office Access Remote Code Execution Vulnerability",
-      "date": "2026-10-13",
-      "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+      "title": "CVE-2026-105723 Windows Distributed File System (DFS) Elevation of Privilege Vulnerability",
+      "date": "2026-10-14",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102849",
-      "count7d": 1471
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105723",
+      "count7d": 1491
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
-      "date": "2026-10-13",
-      "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user or admin &nbsp;or an unauthenticated attacker with physical access to an affected device to bypass UEFI Secure Boot validation checks and execute unauthorized software. This vulnerability is due to the availability of memory write commands in the UEFI Shell while UEFI Secure Boot is enabled…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
-      "count7d": 3
+      "title": "Cisco Secure Email Gateway and Secure Email and Web Manager Security Hardening Release: September 2026",
+      "date": "2026-10-14",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing. Two of them are known to be actively exploited. For more information, see Cisco Secure Email Gateway SQL Injection Vulnerability and Cisco Secure Email Gateway Arbitrary File…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-esa-dfCrfXkm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20and%20Secure%20Email%20and%20Web%20Manager%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "count7d": 6
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Threat hunting and Cross-Component Forensics with VCF Audit Trail",
+      "title": "Managing Certificates at Scale with VMware Cloud Foundation 9.1.1",
       "date": "2026-10-14",
-      "summary": "Modern enterprise environments demand uncompromising visibility across management boundaries. In VMware Cloud Foundation (VCF) 9.1, audit logging undergoes a major evolution with standardized Audit Records and the Audit Trail framework. Together, these capabilities bring unified logging standards, centralized analysis, and deep cross-component traceability to combat unauthorized changes, lateral movement, and insider threats. The Enterprise Challenge: &#8230; Continued The post Threat hunting and Cross-Component Forensics with VCF Audit Trail appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/13/threat-hunting-and-cross-component-forensics-with-vcf-audit-trail/",
+      "summary": "Introduction The security of every private cloud relies on trust, and that trust is established through digital certificates. When certificates are valid and properly configured, operations run unnoticed. When they expire, integrations break, and administrators are left troubleshooting trust relationships across the environment. As private cloud environments scale across more domains, instances, and appliances, manual &#8230; Continued The post Managing Certificates at Scale with VMware Cloud Foundation 9.1.1 appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/14/managing-certificates-at-scale-with-vmware-cloud-foundation-9-1-1/",
       "count7d": 10
     },
     "AWS": {
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Making Room for AI: A Playbook for Brownfield Data Centers",
-      "date": "2026-10-13",
+      "title": "The best workstations for running agentic AI workflows locally in 2026",
+      "date": "2026-10-14",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/making-room-for-ai-a-playbook-for-brownfield-data-centers",
-      "count7d": 6
+      "url": "https://www.dell.com/blog/the-best-workstations-for-running-agentic-ai-workflows-locally-in-2026",
+      "count7d": 7
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Formula E and Lenovo put AI to the test across the future of motorsport",
-      "date": "2026-10-13",
-      "summary": "Formula E chose Lenovo, its Official AR and Digital Content Provider, for its ability to combine edge AI innovation with deep technical expertise.",
+      "title": "Lenovo Earns Multiple Leader Positions and Rising Star Designation in 2026 Future of Work Evaluations by Information Services Group",
+      "date": "2026-10-14",
+      "summary": "",
       "category": "feature",
-      "url": "https://news.lenovo.com/formula-e-ai-to-the-test-future-of-motorsport/",
-      "count7d": 1
+      "url": "https://news.lenovo.com/pressroom/press-releases/leader-and-rising-star-isg-fow/",
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 297,
+      "count": 298,
       "items": [
         {
           "id": "CVE-2026-88131",
@@ -148,7 +148,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107212",
           "kev": false,
-          "epss": 0.33899999999999997
+          "epss": 0.34299999999999997
         }
       ]
     },
@@ -207,52 +207,24 @@
       "items": []
     },
     "Cisco": {
-      "count": 37,
+      "count": 2,
       "items": [
         {
-          "id": "CVE-2026-20328",
-          "title": "A vulnerability in the web-based management interface of Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Prem), could allow an unauthenticated, remote attacker to gain unauthorized access to an affected application. This vulnerability…",
-          "date": "2026-10-07",
+          "id": "CVE-2026-76519",
+          "title": "A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. This vulnerability is due to improper…",
+          "date": "2026-10-14",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20328",
-          "kev": false,
-          "epss": 0.518
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
+          "kev": false
         },
         {
-          "id": "CVE-2026-76454",
-          "title": "A vulnerability in the Cisco Smart Licensing Utility API of Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Prem), could allow an unauthenticated, remote attacker to write arbitrary files to the system or…",
-          "date": "2026-10-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76454",
+          "id": "CVE-2026-109266",
+          "title": "ImageMagick before 6.9.13-57 and 7.x before 7.1.2-32 contains an XML injection vulnerability in the CIP encoder, which does not properly escape input-derived data when writing Cisco IP Phone XML output. Attackers can supply a crafted…",
+          "date": "2026-10-12",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109266",
           "kev": false,
-          "epss": 0.582
-        },
-        {
-          "id": "CVE-2026-76455",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco NX-OS engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple…",
-          "date": "2026-10-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76455",
-          "kev": false,
-          "epss": 0.28400000000000003
-        },
-        {
-          "id": "CVE-2026-76459",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco NX-OS engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple…",
-          "date": "2026-10-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76459",
-          "kev": false,
-          "epss": 0.307
-        },
-        {
-          "id": "CVE-2026-76464",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco networking engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple…",
-          "date": "2026-10-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76464",
-          "kev": false,
-          "epss": 0.192
+          "epss": 0.302
         }
       ]
     },
@@ -265,7 +237,7 @@
       "items": []
     },
     "Dell": {
-      "count": 19,
+      "count": 28,
       "items": [
         {
           "id": "CVE-2026-76779",
@@ -274,7 +246,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76779",
           "kev": false,
-          "epss": 0.261
+          "epss": 0.269
         },
         {
           "id": "CVE-2026-78019",
@@ -283,7 +255,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78019",
           "kev": false,
-          "epss": 0.329
+          "epss": 0.347
         },
         {
           "id": "CVE-2026-78020",
@@ -310,7 +282,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78024",
           "kev": false,
-          "epss": 0.203
+          "epss": 0.19499999999999998
         }
       ]
     },
@@ -323,7 +295,8 @@
           "date": "2026-10-13",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106173",
-          "kev": false
+          "kev": false,
+          "epss": 0.43299999999999994
         },
         {
           "id": "CVE-2025-46773",
@@ -331,7 +304,8 @@
           "date": "2026-10-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46773",
-          "kev": false
+          "kev": false,
+          "epss": 0.32399999999999995
         },
         {
           "id": "CVE-2025-57739",
@@ -339,7 +313,8 @@
           "date": "2026-10-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57739",
-          "kev": false
+          "kev": false,
+          "epss": 0.305
         },
         {
           "id": "CVE-2026-23705",
@@ -347,7 +322,8 @@
           "date": "2026-10-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23705",
-          "kev": false
+          "kev": false,
+          "epss": 0.309
         },
         {
           "id": "CVE-2026-23707",
@@ -355,7 +331,8 @@
           "date": "2026-10-13",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23707",
-          "kev": false
+          "kev": false,
+          "epss": 0.309
         }
       ]
     },
