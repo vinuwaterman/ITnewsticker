@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T17:50:07.689Z",
+  "generatedAt": "2026-10-14T21:21:27.786Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Managing Certificates at Scale with VMware Cloud Foundation 9.1.1",
+      "title": "AI Security Threats: Real or Movie Plot?",
       "date": "2026-10-14",
-      "summary": "Introduction The security of every private cloud relies on trust, and that trust is established through digital certificates. When certificates are valid and properly configured, operations run unnoticed. When they expire, integrations break, and administrators are left troubleshooting trust relationships across the environment. As private cloud environments scale across more domains, instances, and appliances, manual &#8230; Continued The post Managing Certificates at Scale with VMware Cloud Foundation 9.1.1 appeared first on VMware Blogs .",
+      "summary": "(Day 10 of 22 in our Cybersecurity Awareness Month series. Today: what &#8216;s real about AI threats) Whether it&#8217;s from William Gibson&#8217;s 1984 novel Neuromancer, which defined the idea of cyberspace and put scheming AIs into our collective thoughts; Isaac Asimov&#8217;s I, Robot, which explored the perils of his Three Laws of Robotics; or many &#8230; Continued The post AI Security Threats: Real or Movie Plot? appeared first on VMware Blogs .",
       "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/14/managing-certificates-at-scale-with-vmware-cloud-foundation-9-1-1/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/14/ai-threats-real-or-movie-plot/",
       "count7d": 10
     },
     "AWS": {
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/the-best-workstations-for-running-agentic-ai-workflows-locally-in-2026",
-      "count7d": 7
+      "count7d": 8
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -84,27 +84,36 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
+      "title": "October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities",
       "date": "2026-10-13",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/",
+      "category": "critical",
+      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/",
       "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM",
-      "date": "2026-10-13",
-      "summary": "The NHS has set an ambitious goal of achieving cyber resilience across healthcare organisations by 2030. Delivering on that vision requires technology, expertise and close collaboration across the public and private sectors. &#8230; The post NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM appeared first on Palo Alto Networks Blog .",
+      "title": "The Mango Strategy: A CEO’s Guide to AI Cybersecurity",
+      "date": "2026-10-08",
+      "summary": "Hope is not a strategy. Neither is nostalgia. Mark Carney, Prime Minister of Canada &#160; Business leaders cannot respond to AI-era cyber risk by longing for a simpler technology stack, slower decision-making &#8230; The post The Mango Strategy: A CEO’s Guide to AI Cybersecurity appeared first on Palo Alto Networks Blog .",
       "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/nhs-england-evolves-its-cybersecurity-strategy-with-palo-alto-networks/",
-      "count7d": 3
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/the-mango-strategy-a-ceos-guide-to-ai-cybersecurity/",
+      "count7d": 2
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 298,
+      "count": 284,
       "items": [
+        {
+          "id": "CVE-2026-100219",
+          "title": "Use after free in Microsoft QUIC allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-13",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100219",
+          "kev": false,
+          "epss": 0.997
+        },
         {
           "id": "CVE-2026-88131",
           "title": "Deserialization of untrusted data in Microsoft Dataverse allows an unauthorized attacker to execute code over a network.",
@@ -133,22 +142,13 @@
           "epss": 0.477
         },
         {
-          "id": "CVE-2026-107782",
-          "title": "System Informer before 4.0.26241.138 contains an incorrect authorization vulnerability in the phsvc helper that allows local attackers to reach privileged APIs by connecting from any Authenticode-signed process. Attackers can load code into a Microsoft-signed host…",
-          "date": "2026-10-08",
+          "id": "CVE-2026-100209",
+          "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-13",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107782",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100209",
           "kev": false,
-          "epss": 0.11499999999999999
-        },
-        {
-          "id": "CVE-2026-107212",
-          "title": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. From 2.1.0 to 2.11.0, Rows.Columns accepts a look-ahead row number above TotalRows without applying the limit enforced by Rows.Next. File.GetRows relies on…",
-          "date": "2026-10-07",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107212",
-          "kev": false,
-          "epss": 0.34299999999999997
+          "epss": 0.839
         }
       ]
     },
@@ -215,7 +215,7 @@
           "date": "2026-10-14",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-          "kev": false
+          "kev": true
         },
         {
           "id": "CVE-2026-109266",
@@ -237,7 +237,7 @@
       "items": []
     },
     "Dell": {
-      "count": 28,
+      "count": 29,
       "items": [
         {
           "id": "CVE-2026-76779",
@@ -349,8 +349,25 @@
       "items": []
     },
     "Palo Alto Networks": {
-      "count": 0,
-      "items": []
+      "count": 2,
+      "items": [
+        {
+          "id": "CVE-2026-0322",
+          "title": "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS® software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall. The security…",
+          "date": "2026-10-14",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-0321",
+          "title": "Denial of service vulnerabilities in Palo Alto Networks PAN-OS® software allow an unauthenticated attacker with network access to cause a denial of service (DoS) condition by sending specially crafted network traffic to or through a…",
+          "date": "2026-10-14",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0321",
+          "kev": false
+        }
+      ]
     }
   }
 }
