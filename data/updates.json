@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T01:21:06.643Z",
+  "generatedAt": "2026-10-14T06:32:32.672Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Anatomy of an AI",
-      "date": "2026-10-13",
-      "summary": "(Day 9 of 22 in our Cybersecurity Awareness Month series. Today: what makes up an AI) AI, AI, AI. As I said in the first post in this series, it feels like a decade has passed since October 2025, and that’s because of AI. For all the talk of AI, though, it seems like people &#8230; Continued The post Anatomy of an AI appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/13/ai-security-anatomy/",
+      "title": "Threat hunting and Cross-Component Forensics with VCF Audit Trail",
+      "date": "2026-10-14",
+      "summary": "Modern enterprise environments demand uncompromising visibility across management boundaries. In VMware Cloud Foundation (VCF) 9.1, audit logging undergoes a major evolution with standardized Audit Records and the Audit Trail framework. Together, these capabilities bring unified logging standards, centralized analysis, and deep cross-component traceability to combat unauthorized changes, lateral movement, and insider threats. The Enterprise Challenge: &#8230; Continued The post Threat hunting and Cross-Component Forensics with VCF Audit Trail appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/13/threat-hunting-and-cross-component-forensics-with-vcf-audit-trail/",
       "count7d": 10
     },
     "AWS": {
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/",
-      "count7d": 3
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -303,27 +303,8 @@
       ]
     },
     "VMware": {
-      "count": 2,
-      "items": [
-        {
-          "id": "CVE-2026-59346",
-          "title": "VMware Workstation and Fusion contain an integer-overflow vulnerability. A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute code on the host. Affected…",
-          "date": "2026-10-07",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59346",
-          "kev": false,
-          "epss": 0.258
-        },
-        {
-          "id": "CVE-2026-59347",
-          "title": "VMware Workstation and Fusion contain a stack-based buffer-overflow vulnerability in HGFS. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process…",
-          "date": "2026-10-07",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59347",
-          "kev": false,
-          "epss": 0.207
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "AWS": {
       "count": 0,
