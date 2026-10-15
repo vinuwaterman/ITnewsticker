@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T09:47:53.390Z",
+  "generatedAt": "2026-10-15T14:44:20.738Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,21 +12,21 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "DACHSER Migrates HCM to SAP S/4HANA Cloud Using RISE with SAP",
-      "date": "2026-10-14",
-      "summary": "The Germany-based logistics company has reached a major milestone in its journey.",
-      "category": "feature",
-      "url": "https://news.sap.com/2026/10/dachser-migrates-hcm-to-sap-s-4hana-cloud-rise-with-sap/",
-      "count7d": 7
+      "title": "10 Questions Board Members Should Be Asking About Security and Compliance",
+      "date": "2026-10-15",
+      "summary": "A practical framework for oversight, resilience, accountability, and trust",
+      "category": "patch",
+      "url": "https://news.sap.com/2026/10/10-questions-board-members-should-be-asking-about-security-compliance/",
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Backup for Small IT Teams: How to Choose and Run Backup as a Service",
-      "date": "2026-10-09",
-      "summary": "If you run IT for a small business, backup is one line on a list that also includes password resets, patching, a laptop for the person starting Monday, and whatever the security dashboard flagged overnight. It's easy to postpone, because nothing visibly breaks when you postpone it. Until something does. If that list sounds familiar, I know the feeling. The post Backup for Small IT Teams: How to Choose and Run Backup as a Service appeared first on Veeam Software…",
-      "category": "patch",
-      "url": "https://www.veeam.com/blog/backup-for-small-it-teams.html",
-      "count7d": 1
+      "title": "Precision Resilience for the AI Era with Veeam Intelligent ResOps",
+      "date": "2026-10-15",
+      "summary": "Today, we’re proud to announce Veeam Intelligent ResOps (iResOps), a new family of offerings that brings precision intelligence to resilience. • Veeam iResOps for Microsoft 365 is generally available, as an add-on to Veeam Data Cloud for Microsoft 365. • Veeam iResOps for Veeam Data Platform and Veeam iResOps for Okta are open in Private Preview. The post Precision Resilience for the AI Era with Veeam Intelligent ResOps appeared first on Veeam Software Official Blog .",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/intelligent-resops-minimum-viable-recovery.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The best workstations for running agentic AI workflows locally in 2026",
-      "date": "2026-10-14",
+      "title": "How to Flip Your Computer Screen: Settings, Shortcuts, and Quick Fixes",
+      "date": "2026-10-15",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.dell.com/blog/the-best-workstations-for-running-agentic-ai-workflows-locally-in-2026",
-      "count7d": 6
+      "category": "patch",
+      "url": "https://www.dell.com/blog/how-to-flip-your-computer-screen-settings-shortcuts-and-quick-fixes",
+      "count7d": 8
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -148,7 +148,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100209",
           "kev": false,
-          "epss": 0.839
+          "epss": 0.8210000000000001
         }
       ]
     },
@@ -215,7 +215,8 @@
           "date": "2026-10-14",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-          "kev": true
+          "kev": true,
+          "epss": 1.743
         },
         {
           "id": "CVE-2026-109266",
@@ -264,7 +265,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78020",
           "kev": false,
-          "epss": 0.179
+          "epss": 0.18
         },
         {
           "id": "CVE-2026-78023",
@@ -273,7 +274,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78023",
           "kev": false,
-          "epss": 0.181
+          "epss": 0.186
         },
         {
           "id": "CVE-2026-78024",
@@ -355,9 +356,10 @@
           "id": "CVE-2026-0322",
           "title": "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS® software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall. The security…",
           "date": "2026-10-14",
-          "severity": "UNKNOWN",
+          "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
-          "kev": true
+          "kev": true,
+          "epss": 1.076
         },
         {
           "id": "CVE-2026-0321",
@@ -365,7 +367,8 @@
           "date": "2026-10-14",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0321",
-          "kev": false
+          "kev": false,
+          "epss": 0.326
         },
         {
           "id": "CVE-2026-0311",
@@ -373,7 +376,8 @@
           "date": "2026-10-14",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0311",
-          "kev": false
+          "kev": false,
+          "epss": 0.107
         },
         {
           "id": "CVE-2026-0312",
@@ -381,7 +385,8 @@
           "date": "2026-10-14",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0312",
-          "kev": false
+          "kev": false,
+          "epss": 0.14100000000000001
         },
         {
           "id": "CVE-2026-0313",
@@ -389,7 +394,8 @@
           "date": "2026-10-14",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0313",
-          "kev": false
+          "kev": false,
+          "epss": 0.8330000000000001
         }
       ]
     }
