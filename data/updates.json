@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-15T14:44:20.738Z",
+  "generatedAt": "2026-10-15T18:55:00.864Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69366 Windows Kernel Elevation of Privilege Vulnerability",
-      "date": "2026-10-14",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-32157 Remote Desktop Client Remote Code Execution Vulnerability",
+      "date": "2026-10-15",
+      "summary": "Updated product information in the Software Update table. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69366",
-      "count7d": 1479
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32157",
+      "count7d": 1480
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "How to Flip Your Computer Screen: Settings, Shortcuts, and Quick Fixes",
+      "title": "AI Training Data Poisoning Is the Risk Nobody Sees",
       "date": "2026-10-15",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.dell.com/blog/how-to-flip-your-computer-screen-settings-shortcuts-and-quick-fixes",
-      "count7d": 8
+      "category": "feature",
+      "url": "https://www.dell.com/blog/ai-training-data-poisoning-is-the-risk-nobody-sees",
+      "count7d": 9
     },
     "Lenovo": {
       "vendor": "Lenovo",
