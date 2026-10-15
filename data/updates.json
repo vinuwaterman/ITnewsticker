@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T00:02:45.345Z",
+  "generatedAt": "2026-10-15T05:01:59.760Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 284,
+      "count": 285,
       "items": [
         {
           "id": "CVE-2026-100219",
