@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-14T21:21:27.786Z",
+  "generatedAt": "2026-10-15T00:02:45.345Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-105723 Windows Distributed File System (DFS) Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-69366 Windows Kernel Elevation of Privilege Vulnerability",
       "date": "2026-10-14",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105723",
-      "count7d": 1491
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69366",
+      "count7d": 1479
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "The Germany-based logistics company has reached a major milestone in its journey.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/dachser-migrates-hcm-to-sap-s-4hana-cloud-rise-with-sap/",
-      "count7d": 9
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "If you run IT for a small business, backup is one line on a list that also includes password resets, patching, a laptop for the person starting Monday, and whatever the security dashboard flagged overnight. It's easy to postpone, because nothing visibly breaks when you postpone it. Until something does. If that list sounds familiar, I know the feeling. The post Backup for Small IT Teams: How to Choose and Run Backup as a Service appeared first on Veeam Software…",
       "category": "patch",
       "url": "https://www.veeam.com/blog/backup-for-small-it-teams.html",
-      "count7d": 2
+      "count7d": 1
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,15 +35,15 @@
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing. Two of them are known to be actively exploited. For more information, see Cisco Secure Email Gateway SQL Injection Vulnerability and Cisco Secure Email Gateway Arbitrary File…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-esa-dfCrfXkm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20and%20Secure%20Email%20and%20Web%20Manager%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "count7d": 6
+      "count7d": 4
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "AI Security Threats: Real or Movie Plot?",
+      "title": "Optimizing AI Deployments with VMware Cloud Foundation (Part 4)",
       "date": "2026-10-14",
-      "summary": "(Day 10 of 22 in our Cybersecurity Awareness Month series. Today: what &#8216;s real about AI threats) Whether it&#8217;s from William Gibson&#8217;s 1984 novel Neuromancer, which defined the idea of cyberspace and put scheming AIs into our collective thoughts; Isaac Asimov&#8217;s I, Robot, which explored the perils of his Three Laws of Robotics; or many &#8230; Continued The post AI Security Threats: Real or Movie Plot? appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/14/ai-threats-real-or-movie-plot/",
+      "summary": "Utilizing Time-slicing to Optimize Inference Throughput Introduction The Broadcom Performance team has completed extensive performance tests demonstrating VCF’s efficiency and flexibility for running AI workloads in various configurations. To explain our results, we’ve published a white paper and a series of four blogs: Part 1: Maximizing Performance, Efficiency, and Flexibility in Multi-tenant Environment Part 2: &#8230; Continued The post Optimizing AI Deployments with VMware Cloud Foundation (Part 4) appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/14/optimizing-ai-deployments-with-vmware-cloud-foundation-part-4/",
       "count7d": 10
     },
     "AWS": {
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/the-best-workstations-for-running-agentic-ai-workflows-locally-in-2026",
-      "count7d": 8
+      "count7d": 6
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -89,16 +89,16 @@
       "summary": "",
       "category": "critical",
       "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/",
-      "count7d": 4
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "The Mango Strategy: A CEO’s Guide to AI Cybersecurity",
-      "date": "2026-10-08",
-      "summary": "Hope is not a strategy. Neither is nostalgia. Mark Carney, Prime Minister of Canada &#160; Business leaders cannot respond to AI-era cyber risk by longing for a simpler technology stack, slower decision-making &#8230; The post The Mango Strategy: A CEO’s Guide to AI Cybersecurity appeared first on Palo Alto Networks Blog .",
+      "title": "NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM",
+      "date": "2026-10-13",
+      "summary": "The NHS has set an ambitious goal of achieving cyber resilience across healthcare organisations by 2030. Delivering on that vision requires technology, expertise and close collaboration across the public and private sectors. &#8230; The post NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM appeared first on Palo Alto Networks Blog .",
       "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/the-mango-strategy-a-ceos-guide-to-ai-cybersecurity/",
-      "count7d": 2
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/nhs-england-evolves-its-cybersecurity-strategy-with-palo-alto-networks/",
+      "count7d": 1
     }
   },
   "nvd": {
@@ -349,7 +349,7 @@
       "items": []
     },
     "Palo Alto Networks": {
-      "count": 2,
+      "count": 12,
       "items": [
         {
           "id": "CVE-2026-0322",
@@ -365,6 +365,30 @@
           "date": "2026-10-14",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0321",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0311",
+          "title": "A server-side request forgery vulnerability in Palo Alto Networks Checkov by Prisma® Cloud enables a local unauthenticated user to make unauthorized network requests from host to internal services.",
+          "date": "2026-10-14",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0311",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0312",
+          "title": "Path traversal vulnerabilities in Palo Alto Networks Checkov by Prisma® Cloud enable an unauthenticated local user to write files to arbitrary locations on the scanning filesystem.",
+          "date": "2026-10-14",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0312",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0313",
+          "title": "A command injection vulnerability in Palo Alto Networks Cortex XSOAR and Cortex XSIAM OS Query content pack enables an authenticated administrator to execute arbitrary OS commands on remote endpoints.",
+          "date": "2026-10-14",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0313",
           "kev": false
         }
       ]
