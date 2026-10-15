@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T05:01:59.760Z",
+  "generatedAt": "2026-10-15T09:47:53.390Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -80,7 +80,7 @@
       "summary": "CVSSv3 Score: 9.4 An Improper limitation of a pathname to a restricted directory ('path traversal') [CWE-22] in FortiSIEM may allow an unauthenticated attacker to execute unauthorized code or commands via specially crafted packets. Revised on 2026-10-13 00:00:00",
       "category": "feature",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
-      "count7d": 11
+      "count7d": 10
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
