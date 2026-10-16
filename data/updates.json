@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-16T18:40:12.584Z",
+  "generatedAt": "2026-10-16T21:57:14.087Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-108465 Windows Update Delivery Optimization Elevation of Privilege Vulnerability",
+      "title": "Chromium CVE-2026-106258: Uninitialized resource",
       "date": "2026-10-16",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108465",
-      "count7d": 1834
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106258",
+      "count7d": 1881
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Why vSAN ESA Only Supports NVMe Solid State Storage Devices",
+      "title": "What It Actually Takes to Run AI at Production Scale",
       "date": "2026-10-16",
-      "summary": "Why can’t spinning disks be used with vSAN ESA? The recent hardware shortages with servers and storage have encouraged customers to look at every conceivable way to lower costs, and this question occasionally comes up in that effort. Some customers contend that their application demands simply aren’t very high, so it seems entirely plausible that &#8230; Continued The post Why vSAN ESA Only Supports NVMe Solid State Storage Devices appeared first on VMware Blogs .",
+      "summary": "Every infrastructure team building for AI right now is wrestling with the same tension: move fast enough to keep up with the business, without architecting yourself into a cost and complexity problem you can&#8217;t walk back from. On October 29, Chris Wolf, Global Head of AI &#38; Advanced Services for the VMware Cloud Foundation Division, &#8230; Continued The post What It Actually Takes to Run AI at Production Scale appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/16/why-vsan-esa-only-supports-nvme-solid-state-storage-devices/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/16/what-it-actually-takes-to-run-ai-at-production-scale/",
       "count7d": 10
     },
     "AWS": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 313,
+      "count": 312,
       "items": [
         {
           "id": "CVE-2026-100219",
