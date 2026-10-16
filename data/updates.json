@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-16T14:36:20.372Z",
+  "generatedAt": "2026-10-16T18:40:12.584Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-105008 Windows Schannel Spoofing Vulnerability",
+      "title": "CVE-2026-108465 Windows Update Delivery Optimization Elevation of Privilege Vulnerability",
       "date": "2026-10-16",
-      "summary": "CWE added. Informational change only.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105008",
-      "count7d": 1600
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108465",
+      "count7d": 1834
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF Breakroom Chats Episode 95: Securing VMware vSphere Kubernetes Service with Nirmata and Kyverno",
-      "date": "2026-10-15",
-      "summary": "Welcome to the next episode of the VCF Breakroom Chats. I recently had a great time having a chat with Nirmata Co-founder and VP of Products, Ritesh Patel. We discussed how Nirmata&#8217;s CNCF-graduated Kyverno policy engine brings enterprise-grade governance, continuous compliance, and seamless GitOps integration directly to VMware vSphere Kubernetes Service (VKS) environments. By enforcing &#8230; Continued The post VCF Breakroom Chats Episode 95: Securing VMware vSphere Kubernetes Service with Nirmata and Kyverno appeared first on VMware Blogs .",
+      "title": "Why vSAN ESA Only Supports NVMe Solid State Storage Devices",
+      "date": "2026-10-16",
+      "summary": "Why can’t spinning disks be used with vSAN ESA? The recent hardware shortages with servers and storage have encouraged customers to look at every conceivable way to lower costs, and this question occasionally comes up in that effort. Some customers contend that their application demands simply aren’t very high, so it seems entirely plausible that &#8230; Continued The post Why vSAN ESA Only Supports NVMe Solid State Storage Devices appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/15/vcf-breakroom-chats-episode-95-securing-vmware-vsphere-kubernetes-service-with-nirmata-and-kyverno/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/16/why-vsan-esa-only-supports-nvme-solid-state-storage-devices/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Turning AI Into a Partner for Smarter Software Engineering",
+      "title": "Dell Enterprise Hub: Bringing Open-Weight Models to Production",
       "date": "2026-10-16",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/turning-ai-into-a-partner-for-smarter-software-engineering",
-      "count7d": 12
+      "url": "https://www.dell.com/blog/dell-enterprise-hub-bringing-open-weight-models-to-production",
+      "count7d": 13
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 311,
+      "count": 313,
       "items": [
         {
           "id": "CVE-2026-100219",
@@ -238,7 +238,7 @@
       "items": []
     },
     "Dell": {
-      "count": 10,
+      "count": 11,
       "items": [
         {
           "id": "CVE-2026-91881",
@@ -248,6 +248,14 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91881",
           "kev": false,
           "epss": 0.28300000000000003
+        },
+        {
+          "id": "CVE-2026-81452",
+          "title": "Dell Alienware Command Center (AWCC), versions prior to 6.14.54.0, contain a Least Privilege Violation vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privilege and Denial of…",
+          "date": "2026-10-16",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81452",
+          "kev": false
         },
         {
           "id": "CVE-2026-91882",
@@ -275,15 +283,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101216",
           "kev": false,
           "epss": 1.082
-        },
-        {
-          "id": "CVE-2026-101217",
-          "title": "Dell Unisphere for PowerMax vApp, version(s) 9.2.4.x, contain(s) an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
-          "date": "2026-10-14",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101217",
-          "kev": false,
-          "epss": 0.579
         }
       ]
     },
