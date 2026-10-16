@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-16T09:32:40.165Z",
+  "generatedAt": "2026-10-16T14:36:20.372Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-102858 Microsoft Office OneNote Remote Code Execution Vulnerability",
-      "date": "2026-10-15",
-      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the [Release Notes](https://go.microsoft.com/fwlink/p/?linkid=831049) for more information and download links.",
+      "title": "CVE-2026-105008 Windows Schannel Spoofing Vulnerability",
+      "date": "2026-10-16",
+      "summary": "CWE added. Informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102858",
-      "count7d": 1596
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105008",
+      "count7d": 1600
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "10 Questions Board Members Should Be Asking About Security and Compliance",
-      "date": "2026-10-15",
-      "summary": "A practical framework for oversight, resilience, accountability, and trust",
-      "category": "patch",
-      "url": "https://news.sap.com/2026/10/10-questions-board-members-should-be-asking-about-security-compliance/",
-      "count7d": 9
+      "title": "The Next Leap in Public Services Starts Behind the Scenes",
+      "date": "2026-10-16",
+      "summary": "AI can turn a citizen request into coordinated action across an administration.",
+      "category": "feature",
+      "url": "https://news.sap.com/2026/10/next-leap-public-services-behind-the-scenes-spublic-berlin/",
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "AI Training Data Poisoning Is the Risk Nobody Sees",
-      "date": "2026-10-15",
+      "title": "Turning AI Into a Partner for Smarter Software Engineering",
+      "date": "2026-10-16",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/ai-training-data-poisoning-is-the-risk-nobody-sees",
-      "count7d": 9
+      "url": "https://www.dell.com/blog/turning-ai-into-a-partner-for-smarter-software-engineering",
+      "count7d": 12
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM",
-      "date": "2026-10-13",
-      "summary": "The NHS has set an ambitious goal of achieving cyber resilience across healthcare organisations by 2030. Delivering on that vision requires technology, expertise and close collaboration across the public and private sectors. &#8230; The post NHS England evolves its cybersecurity strategy with Palo Alto Networks and IBM appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/nhs-england-evolves-its-cybersecurity-strategy-with-palo-alto-networks/",
-      "count7d": 1
+      "title": "The Blind Spot in Orbit: Why Space Could Be the Next Infrastructure Crisis",
+      "date": "2026-10-14",
+      "summary": "Are organisations becoming so reliant on third party space assets that they would face severe disruption if the assets were impacted by a cyber attack? When most people think of space technology, &#8230; The post The Blind Spot in Orbit: Why Space Could Be the Next Infrastructure Crisis appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/the-blind-spot-in-orbit-why-space-could-be-the-next-infrastructure-crisis/",
+      "count7d": 2
     }
   },
   "nvd": {
@@ -216,7 +216,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
           "kev": true,
-          "epss": 1.743
+          "epss": 1.5730000000000002
         },
         {
           "id": "CVE-2026-109266",
@@ -238,7 +238,7 @@
       "items": []
     },
     "Dell": {
-      "count": 18,
+      "count": 10,
       "items": [
         {
           "id": "CVE-2026-91881",
@@ -259,31 +259,31 @@
           "epss": 0.424
         },
         {
-          "id": "CVE-2026-78023",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Authorization Bypass Through User-Controlled Key vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Elevation of…",
-          "date": "2026-10-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78023",
+          "id": "CVE-2026-101215",
+          "title": "Dell Unisphere for PowerMax vApp, version(s) 9.2.4.x, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability,…",
+          "date": "2026-10-14",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101215",
           "kev": false,
-          "epss": 0.186
+          "epss": 1.082
         },
         {
-          "id": "CVE-2026-78024",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains a Server-Side Request Forgery (SSRF) vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure, Protection…",
-          "date": "2026-10-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78024",
+          "id": "CVE-2026-101216",
+          "title": "Dell Unisphere for PowerMax vApp, version(s) 9.2.4.x, contain(s) an Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
+          "date": "2026-10-14",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101216",
           "kev": false,
-          "epss": 0.19499999999999998
+          "epss": 1.082
         },
         {
-          "id": "CVE-2026-78025",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure, Protection…",
-          "date": "2026-10-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78025",
+          "id": "CVE-2026-101217",
+          "title": "Dell Unisphere for PowerMax vApp, version(s) 9.2.4.x, contain(s) an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
+          "date": "2026-10-14",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101217",
           "kev": false,
-          "epss": 0.404
+          "epss": 0.579
         }
       ]
     },
@@ -346,7 +346,8 @@
           "date": "2026-10-16",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75941",
-          "kev": false
+          "kev": false,
+          "epss": 0.264
         },
         {
           "id": "CVE-2026-92629",
@@ -354,7 +355,8 @@
           "date": "2026-10-16",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92629",
-          "kev": false
+          "kev": false,
+          "epss": 0.10200000000000001
         },
         {
           "id": "CVE-2026-16754",
@@ -362,7 +364,8 @@
           "date": "2026-10-16",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16754",
-          "kev": false
+          "kev": false,
+          "epss": 0.074
         },
         {
           "id": "CVE-2026-16755",
@@ -370,7 +373,8 @@
           "date": "2026-10-16",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16755",
-          "kev": false
+          "kev": false,
+          "epss": 0.157
         },
         {
           "id": "CVE-2026-89057",
@@ -378,7 +382,8 @@
           "date": "2026-10-16",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89057",
-          "kev": false
+          "kev": false,
+          "epss": 0.294
         }
       ]
     },
@@ -400,7 +405,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
           "kev": true,
-          "epss": 1.076
+          "epss": 1.2149999999999999
         },
         {
           "id": "CVE-2026-0321",
