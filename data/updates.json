@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T04:51:02.567Z",
+  "generatedAt": "2026-10-16T09:32:40.165Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Earns Multiple Leader Positions and Rising Star Designation in 2026 Future of Work Evaluations by Information Services Group",
-      "date": "2026-10-14",
-      "summary": "",
+      "title": "Lenovo Retains Leading Position Among Companies in Hang Seng Corporate Sustainability Index Series",
+      "date": "2026-10-16",
+      "summary": "The continued inclusion follows Lenovo’s achievement of the highest-possible AAA sustainability rating in Hang Seng Indexes’ 2026 Sustainability Ratings and the highest overall sustainability score across all three of the ESG pillars within the technology industry.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/leader-and-rising-star-isg-fow/",
-      "count7d": 3
+      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-retains-leading-position-among-companies-in-hang-seng-corporate-sustainability-index-series/",
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -238,34 +238,25 @@
       "items": []
     },
     "Dell": {
-      "count": 29,
+      "count": 18,
       "items": [
         {
-          "id": "CVE-2026-76779",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Improper Restriction of Excessive Authentication Attempts vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Elevation of…",
-          "date": "2026-10-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76779",
+          "id": "CVE-2026-91881",
+          "title": "Dell Terraform Provider for Redfish, versions prior to 1.6.2, contains an Improper Certificate Validation vulnerability in the HTTP transport component. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to information exposure…",
+          "date": "2026-10-14",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91881",
           "kev": false,
-          "epss": 0.269
+          "epss": 0.28300000000000003
         },
         {
-          "id": "CVE-2026-78019",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Inclusion of Functionality from Untrusted Control Sphere vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
-          "date": "2026-10-09",
+          "id": "CVE-2026-91882",
+          "title": "Dell Terraform Provider for OME, versions 1.0.0 through 1.2.3, contains an Insertion of Sensitive Information into Externally-Accessible File or Directory vulnerability in the API client error handling component. An unauthenticated attacker with remote access could…",
+          "date": "2026-10-14",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78019",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91882",
           "kev": false,
-          "epss": 0.347
-        },
-        {
-          "id": "CVE-2026-78020",
-          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains an Improper Certificate Validation vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Denial of service, Information disclosure,…",
-          "date": "2026-10-09",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78020",
-          "kev": false,
-          "epss": 0.18
+          "epss": 0.424
         },
         {
           "id": "CVE-2026-78023",
@@ -284,6 +275,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78024",
           "kev": false,
           "epss": 0.19499999999999998
+        },
+        {
+          "id": "CVE-2026-78025",
+          "title": "Dell Secure Connect Gateway (SCG) Policy Manager, versions prior to 5.34.00.16, contains a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure, Protection…",
+          "date": "2026-10-09",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78025",
+          "kev": false,
+          "epss": 0.404
         }
       ]
     },
