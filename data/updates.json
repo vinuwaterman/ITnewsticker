@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T21:57:14.087Z",
+  "generatedAt": "2026-10-17T00:13:13.048Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106258",
-      "count7d": 1881
+      "count7d": 1889
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Backup Software Comparison for Hybrid SMB Environments: How to Protect Servers, Cloud, and SaaS Without Tool Sprawl",
-      "date": "2026-10-15",
-      "summary": "Your servers are backed up. Your laptops are backed up. Microsoft 365 is probably covered by that add-on someone bought two years ago but nobody has logged into since. So why does “we’re protected” still feel more like a hunch than a fact? The post Backup Software Comparison for Hybrid SMB Environments: How to Protect Servers, Cloud, and SaaS Without Tool Sprawl appeared first on Veeam Software Official Blog .",
+      "title": "Autonomy Is Only Safe When It Is Reversible",
+      "date": "2026-10-16",
+      "summary": "Somewhere in your organization, an AI agent has permission to do real work. It reads records, updates systems, moves data, and finishes tasks without asking anyone, which is exactly what you hired it for. The same permission that lets it work also lets it do damage. And there’s no version of the agent that gets one without the other. The post Autonomy Is Only Safe When It Is Reversible appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/backup-software-comparison-for-hybrid-smb-environments.html",
-      "count7d": 4
+      "url": "https://www.veeam.com/blog/lenovo-ai-express-reversible-autonomy.html",
+      "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "What It Actually Takes to Run AI at Production Scale",
+      "title": "Snapshots Are Your Best Friend",
       "date": "2026-10-16",
-      "summary": "Every infrastructure team building for AI right now is wrestling with the same tension: move fast enough to keep up with the business, without architecting yourself into a cost and complexity problem you can&#8217;t walk back from. On October 29, Chris Wolf, Global Head of AI &#38; Advanced Services for the VMware Cloud Foundation Division, &#8230; Continued The post What It Actually Takes to Run AI at Production Scale appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/16/what-it-actually-takes-to-run-ai-at-production-scale/",
+      "summary": "(Day 12 of 22 in our Cybersecurity Awareness Month series. Today: VM snapshots) Snapshots might be the most underrated security tool in VMware Cloud Foundation (VCF). They are why you can patch a guest operating system on a weekday afternoon without holding your breath, how you can preserve evidence from a compromised system before anyone &#8230; Continued The post Snapshots Are Your Best Friend appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/16/snapshots-are-your-best-friend/",
       "count7d": 10
     },
     "AWS": {
