@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T09:40:03.911Z",
+  "generatedAt": "2026-10-19T16:50:41.045Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "The Next Leap in Public Services Starts Behind the Scenes",
-      "date": "2026-10-16",
-      "summary": "AI can turn a citizen request into coordinated action across an administration.",
+      "title": "SAP Recognized as a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Cloud ERP for Finance",
+      "date": "2026-10-19",
+      "summary": "As the role of finance continues to evolve, we remain focused on helping customers simplify core processes while creating the foundation for new capabilities in automation and AI.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/next-leap-public-services-behind-the-scenes-spublic-berlin/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/10/sap-recognized-leader-gartner-magic-quadrant-cloud-erp-finance/",
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Snapshots Are Your Best Friend",
-      "date": "2026-10-16",
-      "summary": "(Day 12 of 22 in our Cybersecurity Awareness Month series. Today: VM snapshots) Snapshots might be the most underrated security tool in VMware Cloud Foundation (VCF). They are why you can patch a guest operating system on a weekday afternoon without holding your breath, how you can preserve evidence from a compromised system before anyone &#8230; Continued The post Snapshots Are Your Best Friend appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/16/snapshots-are-your-best-friend/",
+      "title": "AI vs. the Fortress: Can Autonomous Agents Breach VMware Security?",
+      "date": "2026-10-19",
+      "summary": "According to the 2026 &#8220;Zero-Day Clock&#8221;, the time it takes an autonomous AI agent to write an exploit for a brand-new vulnerability has dropped from an entire year to just one day. In recent tests, these AI bots successfully hacked 87% of known flaws completely on their own. But what happens when this unstoppable force &#8230; Continued The post AI vs. the Fortress: Can Autonomous Agents Breach VMware Security? appeared first on VMware Blogs .",
+      "category": "critical",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/19/ai-vs-vmware-security/",
       "count7d": 10
     },
     "AWS": {
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell Enterprise Hub: Bringing Open-Weight Models to Production",
-      "date": "2026-10-16",
+      "title": "The Infrastructure Expert Helping Enterprises Embrace AI",
+      "date": "2026-10-19",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/dell-enterprise-hub-bringing-open-weight-models-to-production",
-      "count7d": 12
+      "url": "https://www.dell.com/blog/the-infrastructure-expert-helping-enterprises-embrace-ai",
+      "count7d": 14
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Retains Leading Position Among Companies in Hang Seng Corporate Sustainability Index Series",
-      "date": "2026-10-16",
-      "summary": "The continued inclusion follows Lenovo’s achievement of the highest-possible AAA sustainability rating in Hang Seng Indexes’ 2026 Sustainability Ratings and the highest overall sustainability score across all three of the ESG pillars within the technology industry.",
+      "title": "Lenovo Foundation Announces Support for UNICEF&#8217;s Global Humanitarian Thematic Fund",
+      "date": "2026-10-19",
+      "summary": "The partnership will provide flexible, predictable funding that allows UNICEF to respond rapidly and strategically when humanitarian crises strike.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-retains-leading-position-among-companies-in-hang-seng-corporate-sustainability-index-series/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/pressroom/press-releases/foundation-support-unicef-global-humanitarian-thematic-fund/",
+      "count7d": 6
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -238,7 +238,7 @@
       "items": []
     },
     "Dell": {
-      "count": 11,
+      "count": 12,
       "items": [
         {
           "id": "CVE-2026-91881",
@@ -268,20 +268,19 @@
           "epss": 0.424
         },
         {
+          "id": "CVE-2026-86375",
+          "title": "Dell Application Installer, versions prior to 26.09.0.1, contain a Missing Encryption of Sensitive Data vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Unauthorized access.",
+          "date": "2026-10-19",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86375",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-101215",
           "title": "Dell Unisphere for PowerMax vApp, version(s) 9.2.4.x, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability,…",
           "date": "2026-10-14",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101215",
-          "kev": false,
-          "epss": 1.082
-        },
-        {
-          "id": "CVE-2026-101216",
-          "title": "Dell Unisphere for PowerMax vApp, version(s) 9.2.4.x, contain(s) an Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
-          "date": "2026-10-14",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101216",
           "kev": false,
           "epss": 1.082
         }
