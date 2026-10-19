@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-19T16:50:41.045Z",
+  "generatedAt": "2026-10-19T21:22:19.518Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium CVE-2026-106258: Uninitialized resource",
-      "date": "2026-10-16",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+      "title": "CVE-2026-80092 Microsoft Identity Web Elevation of Privilege Vulnerability",
+      "date": "2026-10-19",
+      "summary": "Updated the Security Updates table to list Microsoft Identity Web v3 and v4 separately and clarify the affected version ranges. The existing security updates are versions 3.16.0 and 4.16.1, respectively. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106258",
-      "count7d": 1883
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-80092",
+      "count7d": 1884
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Infrastructure Expert Helping Enterprises Embrace AI",
+      "title": "Meet M-Bot: How Maya HTT Is Putting Decades of Engineering Knowledge to Work with Dell",
       "date": "2026-10-19",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/the-infrastructure-expert-helping-enterprises-embrace-ai",
-      "count7d": 14
+      "url": "https://www.dell.com/blog/meet-m-bot-how-maya-htt-is-putting-decades-of-engineering-knowledge-to-work-with-dell",
+      "count7d": 15
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -153,7 +153,7 @@
       ]
     },
     "SAP": {
-      "count": 19,
+      "count": 18,
       "items": [
         {
           "id": "CVE-2026-89107",
@@ -207,7 +207,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 2,
+      "count": 1,
       "items": [
         {
           "id": "CVE-2026-76519",
@@ -217,15 +217,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
           "kev": true,
           "epss": 1.5730000000000002
-        },
-        {
-          "id": "CVE-2026-109266",
-          "title": "ImageMagick before 6.9.13-57 and 7.x before 7.1.2-32 contains an XML injection vulnerability in the CIP encoder, which does not properly escape input-derived data when writing Cisco IP Phone XML output. Attackers can supply a crafted…",
-          "date": "2026-10-12",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109266",
-          "kev": false,
-          "epss": 0.302
         }
       ]
     },
@@ -238,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 12,
+      "count": 15,
       "items": [
         {
           "id": "CVE-2026-91881",
@@ -250,6 +241,30 @@
           "epss": 0.28300000000000003
         },
         {
+          "id": "CVE-2026-71169",
+          "title": "Dell Application Store, versions prior to 26.05.0.7, contain an Incorrect Permission Assignment for Critical Resource vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Disclosure of sensitive information",
+          "date": "2026-10-19",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71169",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-71170",
+          "title": "Dell Application Store, versions prior to 26.05.0.7, contains an Uncontrolled Path Element vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to an Elevation of Privilege and arbitrary code execution.",
+          "date": "2026-10-19",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71170",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-82166",
+          "title": "Dell Application Store, versions prior to 26.05.0.7, contain a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to arbitrary code execution.",
+          "date": "2026-10-19",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82166",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-81452",
           "title": "Dell Alienware Command Center (AWCC), versions prior to 6.14.54.0, contain a Least Privilege Violation vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privilege and Denial of…",
           "date": "2026-10-16",
@@ -257,32 +272,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81452",
           "kev": false,
           "epss": 0.11199999999999999
-        },
-        {
-          "id": "CVE-2026-91882",
-          "title": "Dell Terraform Provider for OME, versions 1.0.0 through 1.2.3, contains an Insertion of Sensitive Information into Externally-Accessible File or Directory vulnerability in the API client error handling component. An unauthenticated attacker with remote access could…",
-          "date": "2026-10-14",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91882",
-          "kev": false,
-          "epss": 0.424
-        },
-        {
-          "id": "CVE-2026-86375",
-          "title": "Dell Application Installer, versions prior to 26.09.0.1, contain a Missing Encryption of Sensitive Data vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Unauthorized access.",
-          "date": "2026-10-19",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86375",
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-101215",
-          "title": "Dell Unisphere for PowerMax vApp, version(s) 9.2.4.x, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability,…",
-          "date": "2026-10-14",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101215",
-          "kev": false,
-          "epss": 1.082
         }
       ]
     },
