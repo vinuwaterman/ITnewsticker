@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T23:32:17.797Z",
+  "generatedAt": "2026-10-19T03:35:44.375Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106258",
-      "count7d": 1889
+      "count7d": 1883
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "AI can turn a citizen request into coordinated action across an administration.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/next-leap-public-services-behind-the-scenes-spublic-berlin/",
-      "count7d": 10
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/dell-enterprise-hub-bringing-open-weight-models-to-production",
-      "count7d": 13
+      "count7d": 12
     },
     "Lenovo": {
       "vendor": "Lenovo",
