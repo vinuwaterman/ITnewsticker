@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-20T11:01:40.255Z",
+  "generatedAt": "2026-10-20T15:45:46.195Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-80092 Microsoft Identity Web Elevation of Privilege Vulnerability",
-      "date": "2026-10-19",
-      "summary": "Updated the Security Updates table to list Microsoft Identity Web v3 and v4 separately and clarify the affected version ranges. The existing security updates are versions 3.16.0 and 4.16.1, respectively. This is an informational change only.",
+      "title": "CVE-2026-70337 Microsoft PowerShell Remote Code Execution Vulnerability",
+      "date": "2026-10-20",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-80092",
-      "count7d": 474
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70337",
+      "count7d": 480
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Back to the Future: 30 Years of SAP TechEd",
+      "title": "SAP Introduces AI-Powered Roleplays to Help Learners Stay Certified",
       "date": "2026-10-20",
-      "summary": "For three decades, the event has continually found new ways to bring the SAP community together.",
+      "summary": "In a technology environment that changes continuously, expertise cannot remain static.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/back-to-the-future-30-years-of-sap-teched/",
-      "count7d": 8
+      "url": "https://news.sap.com/2026/10/sap-introduces-ai-powered-roleplays-learners-stay-certified/",
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Meraki Security Hardening Release: October 2026",
-      "date": "2026-10-15",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE) &mdash; and assigned a single Common Vulnerabilities…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
-      "count7d": 4
+      "title": "Cisco Unified Intelligence Center SQL Injection Vulnerability",
+      "date": "2026-10-20",
+      "summary": "A vulnerability in the web-based management interface of Cisco Unified Intelligence Center could allow an authenticated, local attacker to perform a blind SQL injection attack against an affected device. This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted request to the web-based management interface. A successful exploit could allow the attacker to read the contents of the internal database&nbsp;of an affected device. To exploit this vulnerability, the attacker must…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Intelligence%20Center%20SQL%20Injection%20Vulnerability%26vs_k=1",
+      "count7d": 5
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "AI vs. the Fortress: Can Autonomous Agents Breach VMware Security?",
-      "date": "2026-10-19",
-      "summary": "According to the 2026 &#8220;Zero-Day Clock&#8221;, the time it takes an autonomous AI agent to write an exploit for a brand-new vulnerability has dropped from an entire year to just one day. In recent tests, these AI bots successfully hacked 87% of known flaws completely on their own. But what happens when this unstoppable force &#8230; Continued The post AI vs. the Fortress: Can Autonomous Agents Breach VMware Security? appeared first on VMware Blogs .",
-      "category": "critical",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/19/ai-vs-vmware-security/",
+      "title": "Architecting Data Services for Microsoft SQL Server on VMware Cloud Foundation: A Best Practices Guide",
+      "date": "2026-10-20",
+      "summary": "By Sue Ulintz Every IT manager understands the pattern. You start with a handful of MS SQL Server instances, each one manageable enough. Then applications multiply across departments—finance, HR, analytics—and before long, managing dozens or hundreds of MS SQL Server instances consumes the engineers hired for higher-value innovation. SQL Server isn’t the problem; the operational &#8230; Continued The post Architecting Data Services for Microsoft SQL Server on VMware Cloud Foundation: A Best Practices Guide appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/20/architecting-data-services-for-microsoft-sql-server-on-vmware-cloud-foundation-a-best-practices-guide/",
       "count7d": 10
     },
     "AWS": {
@@ -219,7 +219,8 @@
           "date": "2026-10-19",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71169",
-          "kev": false
+          "kev": false,
+          "epss": 0.11399999999999999
         },
         {
           "id": "CVE-2026-71170",
@@ -227,7 +228,8 @@
           "date": "2026-10-19",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71170",
-          "kev": false
+          "kev": false,
+          "epss": 0.167
         },
         {
           "id": "CVE-2026-82166",
@@ -235,7 +237,8 @@
           "date": "2026-10-19",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82166",
-          "kev": false
+          "kev": false,
+          "epss": 0.413
         },
         {
           "id": "CVE-2026-81452",
