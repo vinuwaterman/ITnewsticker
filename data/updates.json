@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:22:19.518Z",
+  "generatedAt": "2026-10-20T00:32:20.898Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated the Security Updates table to list Microsoft Identity Web v3 and v4 separately and clarify the affected version ranges. The existing security updates are versions 3.16.0 and 4.16.1, respectively. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-80092",
-      "count7d": 1884
+      "count7d": 474
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "As the role of finance continues to evolve, we remain focused on helping customers simplify core processes while creating the foundation for new capabilities in automation and AI.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/sap-recognized-leader-gartner-magic-quadrant-cloud-erp-finance/",
-      "count7d": 9
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -35,7 +35,7 @@
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE) &mdash; and assigned a single Common Vulnerabilities…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
-      "count7d": 5
+      "count7d": 4
     },
     "VMware": {
       "vendor": "VMware",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/meet-m-bot-how-maya-htt-is-putting-decades-of-engineering-knowledge-to-work-with-dell",
-      "count7d": 15
+      "count7d": 12
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "The partnership will provide flexible, predictable funding that allows UNICEF to respond rapidly and strategically when humanitarian crises strike.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/foundation-support-unicef-global-humanitarian-thematic-fund/",
-      "count7d": 6
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -80,7 +80,7 @@
       "summary": "CVSSv3 Score: 9.4 An Improper limitation of a pathname to a restricted directory ('path traversal') [CWE-22] in FortiSIEM may allow an unauthenticated attacker to execute unauthorized code or commands via specially crafted packets. Revised on 2026-10-13 00:00:00",
       "category": "feature",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
-      "count7d": 10
+      "count7d": 1
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "critical",
       "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/",
-      "count7d": 2
+      "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -98,7 +98,7 @@
       "summary": "Are organisations becoming so reliant on third party space assets that they would face severe disruption if the assets were impacted by a cyber attack? When most people think of space technology, &#8230; The post The Blind Spot in Orbit: Why Space Could Be the Next Infrastructure Crisis appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/10/the-blind-spot-in-orbit-why-space-could-be-the-next-infrastructure-crisis/",
-      "count7d": 2
+      "count7d": 1
     }
   },
   "nvd": {
