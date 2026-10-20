@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-20T15:45:46.195Z",
+  "generatedAt": "2026-10-20T19:52:35.183Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-70337 Microsoft PowerShell Remote Code Execution Vulnerability",
+      "title": "CVE-2026-96913 Windows Kernel Elevation of Privilege Vulnerability",
       "date": "2026-10-20",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70337",
-      "count7d": 480
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96913",
+      "count7d": 481
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Architecting Data Services for Microsoft SQL Server on VMware Cloud Foundation: A Best Practices Guide",
+      "title": "Tenant Connectivity on VCF 9.1: Choosing a Design and Running It in Production (Part 6)",
       "date": "2026-10-20",
-      "summary": "By Sue Ulintz Every IT manager understands the pattern. You start with a handful of MS SQL Server instances, each one manageable enough. Then applications multiply across departments—finance, HR, analytics—and before long, managing dozens or hundreds of MS SQL Server instances consumes the engineers hired for higher-value innovation. SQL Server isn’t the problem; the operational &#8230; Continued The post Architecting Data Services for Microsoft SQL Server on VMware Cloud Foundation: A Best Practices Guide appeared first on VMware Blogs .",
+      "summary": "This article is part of a six-part series on tenant external connectivity for cloud providers running VMware Cloud Foundation 9.1: Part 1: A Standard Network Design for Cloud Providers Part 2: What Decides a Packet&#8217;s Source Address Part 3: When Only Provider Addresses Are Allowed Part 4: When the Enterprise Must See Real Workload Addresses &#8230; Continued The post Tenant Connectivity on VCF 9.1: Choosing a Design and Running It in Production (Part 6) appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/20/architecting-data-services-for-microsoft-sql-server-on-vmware-cloud-foundation-a-best-practices-guide/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/20/tenant-connectivity-on-vcf-9-1-choosing-a-design-and-running-it-in-production-part-6/",
       "count7d": 10
     },
     "AWS": {
@@ -84,11 +84,11 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities",
-      "date": "2026-10-13",
+      "title": "CrowdStrike Achieves NCSC CIR Enhanced Level Assurance",
+      "date": "2026-10-20",
       "summary": "",
-      "category": "critical",
-      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/",
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/",
       "count7d": 1
     },
     "Palo Alto Networks": {
@@ -103,52 +103,52 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 311,
+      "count": 38,
       "items": [
         {
-          "id": "CVE-2026-100219",
-          "title": "Use after free in Microsoft QUIC allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-13",
+          "id": "CVE-2026-108065",
+          "title": "SQL Injection (CWE-89) in the SOAP GetUser method of the /preapproval.asmx endpoint in Channel Software WebAlliance eCommerce [VERSION — missing] allows an unauthenticated remote attacker to read, write, and potentially execute commands on the backend…",
+          "date": "2026-10-14",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100219",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108065",
           "kev": false,
-          "epss": 0.997
+          "epss": 0.765
         },
         {
-          "id": "CVE-2026-100209",
-          "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-13",
+          "id": "CVE-2026-108426",
+          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-15",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100209",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108426",
           "kev": false,
-          "epss": 0.8210000000000001
+          "epss": 0.44200000000000006
         },
         {
-          "id": "CVE-2026-100210",
-          "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-13",
+          "id": "CVE-2026-108427",
+          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-15",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100210",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108427",
           "kev": false,
-          "epss": 0.8210000000000001
+          "epss": 0.46299999999999997
         },
         {
-          "id": "CVE-2026-100211",
-          "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-13",
+          "id": "CVE-2026-108428",
+          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-15",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100211",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108428",
           "kev": false,
-          "epss": 0.8210000000000001
+          "epss": 0.451
         },
         {
-          "id": "CVE-2026-100212",
-          "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-13",
+          "id": "CVE-2026-108429",
+          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-15",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100212",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108429",
           "kev": false,
-          "epss": 0.788
+          "epss": 0.451
         }
       ]
     },
@@ -252,54 +252,8 @@
       ]
     },
     "Fortinet": {
-      "count": 11,
-      "items": [
-        {
-          "id": "CVE-2026-106173",
-          "title": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiSIEM 7.5.0 may allow attacker to execute unauthorized code or commands via specially crafted packets.",
-          "date": "2026-10-13",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106173",
-          "kev": false,
-          "epss": 0.43299999999999994
-        },
-        {
-          "id": "CVE-2025-46773",
-          "title": "An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.4, FortiAnalyzer 7.4.0 through 7.4.7, FortiAnalyzer 7.2 all versions, FortiAnalyzer Cloud 7.6.2 through 7.6.4,…",
-          "date": "2026-10-13",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46773",
-          "kev": false,
-          "epss": 0.32399999999999995
-        },
-        {
-          "id": "CVE-2025-57739",
-          "title": "An improper neutralization of special elements used in an SQL Command (\"SQL Injection\") vulnerability [CWE-89] vulnerability in Fortinet FortiMail 7.6.0 through 7.6.3, FortiMail 7.4.0 through 7.4.5, FortiMail 7.2.0 through 7.2.8 allows an authenticated attacker to…",
-          "date": "2026-10-13",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57739",
-          "kev": false,
-          "epss": 0.305
-        },
-        {
-          "id": "CVE-2026-23705",
-          "title": "An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.4, FortiAnalyzer 7.4.0 through 7.4.7, FortiAnalyzer 7.2 all versions, FortiManager 7.6.0 through 7.6.4, FortiManager…",
-          "date": "2026-10-13",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23705",
-          "kev": false,
-          "epss": 0.309
-        },
-        {
-          "id": "CVE-2026-23707",
-          "title": "An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.4, FortiAnalyzer 7.4.0 through 7.4.7, FortiAnalyzer 7.2 all versions, FortiAnalyzer Cloud 7.6.2 through 7.6.4,…",
-          "date": "2026-10-13",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23707",
-          "kev": false,
-          "epss": 0.309
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Lenovo": {
       "count": 7,
