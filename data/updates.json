@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T05:43:19.578Z",
+  "generatedAt": "2026-10-20T11:01:40.255Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Recognized as a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Cloud ERP for Finance",
-      "date": "2026-10-19",
-      "summary": "As the role of finance continues to evolve, we remain focused on helping customers simplify core processes while creating the foundation for new capabilities in automation and AI.",
+      "title": "Back to the Future: 30 Years of SAP TechEd",
+      "date": "2026-10-20",
+      "summary": "For three decades, the event has continually found new ways to bring the SAP community together.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-recognized-leader-gartner-magic-quadrant-cloud-erp-finance/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/10/back-to-the-future-30-years-of-sap-teched/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
