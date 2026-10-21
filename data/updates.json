@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T22:58:41.110Z",
+  "generatedAt": "2026-10-21T01:26:53.289Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96913",
-      "count7d": 481
+      "count7d": 459
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "In a technology environment that changes continuously, expertise cannot remain static.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/sap-introduces-ai-powered-roleplays-learners-stay-certified/",
-      "count7d": 10
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -35,7 +35,7 @@
       "summary": "A vulnerability in the web-based management interface of Cisco Unified Intelligence Center could allow an authenticated, local attacker to perform a blind SQL injection attack against an affected device. This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted request to the web-based management interface. A successful exploit could allow the attacker to read the contents of the internal database&nbsp;of an affected device. To exploit this vulnerability, the attacker must…",
       "category": "patch",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Intelligence%20Center%20SQL%20Injection%20Vulnerability%26vs_k=1",
-      "count7d": 5
+      "count7d": 2
     },
     "VMware": {
       "vendor": "VMware",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/meet-m-bot-how-maya-htt-is-putting-decades-of-engineering-knowledge-to-work-with-dell",
-      "count7d": 12
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "The partnership will provide flexible, predictable funding that allows UNICEF to respond rapidly and strategically when humanitarian crises strike.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/foundation-support-unicef-global-humanitarian-thematic-fund/",
-      "count7d": 5
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 37,
+      "count": 38,
       "items": [
         {
           "id": "CVE-2026-108065",
