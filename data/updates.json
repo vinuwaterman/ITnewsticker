@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-21T12:12:54.173Z",
+  "generatedAt": "2026-10-21T17:33:31.124Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-96913 Windows Kernel Elevation of Privilege Vulnerability",
-      "date": "2026-10-20",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-97783 Microsoft Office SharePoint Spoofing Vulnerability",
+      "date": "2026-10-21",
+      "summary": "The vulnerability associated with this CVE was fixed in July, however was inadvertently not included with that release. Microsoft recommends updating to the most current release of the SharePoint server.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96913",
-      "count7d": 459
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97783",
+      "count7d": 460
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,21 +21,21 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Autonomy Is Only Safe When It Is Reversible",
-      "date": "2026-10-16",
-      "summary": "Somewhere in your organization, an AI agent has permission to do real work. It reads records, updates systems, moves data, and finishes tasks without asking anyone, which is exactly what you hired it for. The same permission that lets it work also lets it do damage. And there’s no version of the agent that gets one without the other. The post Autonomy Is Only Safe When It Is Reversible appeared first on Veeam Software Official Blog .",
+      "title": "Veeam Extends Our #1 Market Share in Data Protection Software",
+      "date": "2026-10-21",
+      "summary": "Market share is a strange thing to celebrate. Customers care whether you can get them back to business when something goes wrong. Partners care whether you make them look credible to their clients. Everything else is just a scoreboard. The post Veeam Extends Our #1 Market Share in Data Protection Software appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/lenovo-ai-express-reversible-autonomy.html",
+      "url": "https://www.veeam.com/blog/idc-data-protection-market-share-tracker.html",
       "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Unified Intelligence Center SQL Injection Vulnerability",
-      "date": "2026-10-20",
-      "summary": "A vulnerability in the web-based management interface of Cisco Unified Intelligence Center could allow an authenticated, local attacker to perform a blind SQL injection attack against an affected device. This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted request to the web-based management interface. A successful exploit could allow the attacker to read the contents of the internal database&nbsp;of an affected device. To exploit this vulnerability, the attacker must…",
+      "title": "Cisco Advance Notification for Publication of October 21, 2026, Security Advisories",
+      "date": "2026-10-21",
+      "summary": "On October 21, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories. To remediate the vulnerabilities that were disclosed on October 21, 2026, Cisco strongly recommends that customers upgrade to the fixed software that is indicated in the advisories.&nbsp; &nbsp;&nbsp; For more information about changes in Cisco PSIRT vulnerability disclosure, see Strengthening the Foundation: A Predictable, Customer-Focused Response to AI-Accelerated Vulnerability Discovery . Snort 3 Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Intelligence%20Center%20SQL%20Injection%20Vulnerability%26vs_k=1",
-      "count7d": 2
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-QGwHnJ6k?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%2021,%202026,%20Security%20Advisories%26vs_k=1",
+      "count7d": 17
     },
     "VMware": {
       "vendor": "VMware",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "From AI Pilot to Production, Right at Your Desk",
+      "title": "Vision for the Future of Digital Employee Experience",
       "date": "2026-10-21",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/from-ai-pilot-to-production-right-at-your-desk",
-      "count7d": 17
+      "url": "https://www.dell.com/blog/vision-for-the-future-of-digital-employee-experience",
+      "count7d": 18
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Achieves NCSC CIR Enhanced Level Assurance",
-      "date": "2026-10-20",
+      "title": "CrowdStrike Uncovers New Agentic AI Campaigns",
+      "date": "2026-10-21",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/",
-      "count7d": 1
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/",
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,17 +103,8 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 37,
+      "count": 36,
       "items": [
-        {
-          "id": "CVE-2026-108065",
-          "title": "SQL Injection (CWE-89) in the SOAP GetUser method of the /preapproval.asmx endpoint in Channel Software WebAlliance eCommerce [VERSION — missing] allows an unauthenticated remote attacker to read, write, and potentially execute commands on the backend…",
-          "date": "2026-10-14",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108065",
-          "kev": false,
-          "epss": 0.765
-        },
         {
           "id": "CVE-2026-108426",
           "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
@@ -121,7 +112,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108426",
           "kev": false,
-          "epss": 0.44200000000000006
+          "epss": 0.432
         },
         {
           "id": "CVE-2026-108427",
@@ -130,7 +121,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108427",
           "kev": false,
-          "epss": 0.46299999999999997
+          "epss": 0.453
         },
         {
           "id": "CVE-2026-108428",
@@ -139,7 +130,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108428",
           "kev": false,
-          "epss": 0.451
+          "epss": 0.441
         },
         {
           "id": "CVE-2026-108429",
@@ -148,7 +139,16 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108429",
           "kev": false,
-          "epss": 0.451
+          "epss": 0.441
+        },
+        {
+          "id": "CVE-2026-108430",
+          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-15",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108430",
+          "kev": false,
+          "epss": 0.441
         }
       ]
     },
@@ -161,7 +161,8 @@
           "date": "2026-10-20",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91492",
-          "kev": false
+          "kev": false,
+          "epss": 0.257
         },
         {
           "id": "CVE-2026-98446",
@@ -188,18 +189,8 @@
       "items": []
     },
     "Cisco": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-76519",
-          "title": "A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. This vulnerability is due to improper…",
-          "date": "2026-10-14",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-          "kev": true,
-          "epss": 1.5730000000000002
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "VMware": {
       "count": 0,
@@ -210,17 +201,8 @@
       "items": []
     },
     "Dell": {
-      "count": 15,
+      "count": 6,
       "items": [
-        {
-          "id": "CVE-2026-91881",
-          "title": "Dell Terraform Provider for Redfish, versions prior to 1.6.2, contains an Improper Certificate Validation vulnerability in the HTTP transport component. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to information exposure…",
-          "date": "2026-10-14",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91881",
-          "kev": false,
-          "epss": 0.28300000000000003
-        },
         {
           "id": "CVE-2026-71169",
           "title": "Dell Application Store, versions prior to 26.05.0.7, contain an Incorrect Permission Assignment for Critical Resource vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Disclosure of sensitive information",
@@ -256,6 +238,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81452",
           "kev": false,
           "epss": 0.11199999999999999
+        },
+        {
+          "id": "CVE-2026-86375",
+          "title": "Dell Application Installer, versions prior to 26.09.0.1, contain a Missing Encryption of Sensitive Data vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Unauthorized access.",
+          "date": "2026-10-19",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86375",
+          "kev": false,
+          "epss": 0.063
         }
       ]
     },
