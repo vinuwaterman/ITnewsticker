@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T06:23:45.148Z",
+  "generatedAt": "2026-10-21T12:12:54.173Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Introduces AI-Powered Roleplays to Help Learners Stay Certified",
-      "date": "2026-10-20",
-      "summary": "In a technology environment that changes continuously, expertise cannot remain static.",
+      "title": "SAP LeanIX a Six-Time Leader in Gartner® Magic Quadrant&#x2122; for Enterprise Architecture tools",
+      "date": "2026-10-21",
+      "summary": "SAP is helping enterprises make rapid transformation a business capability.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-introduces-ai-powered-roleplays-learners-stay-certified/",
-      "count7d": 8
+      "url": "https://news.sap.com/2026/10/sap-leanix-six-time-leader-gartner-magic-quadrant-ea-tools/",
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Meet M-Bot: How Maya HTT Is Putting Decades of Engineering Knowledge to Work with Dell",
-      "date": "2026-10-19",
+      "title": "From AI Pilot to Production, Right at Your Desk",
+      "date": "2026-10-21",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/meet-m-bot-how-maya-htt-is-putting-decades-of-engineering-knowledge-to-work-with-dell",
-      "count7d": 10
+      "url": "https://www.dell.com/blog/from-ai-pilot-to-production-right-at-your-desk",
+      "count7d": 17
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 38,
+      "count": 37,
       "items": [
         {
           "id": "CVE-2026-108065",
