@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T10:29:46.991Z",
+  "generatedAt": "2026-10-22T15:31:31.108Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Tenant Connectivity on VCF 9.1: Choosing a Design and Running It in Production (Part 6)",
-      "date": "2026-10-20",
-      "summary": "This article is part of a six-part series on tenant external connectivity for cloud providers running VMware Cloud Foundation 9.1: Part 1: A Standard Network Design for Cloud Providers Part 2: What Decides a Packet&#8217;s Source Address Part 3: When Only Provider Addresses Are Allowed Part 4: When the Enterprise Must See Real Workload Addresses &#8230; Continued The post Tenant Connectivity on VCF 9.1: Choosing a Design and Running It in Production (Part 6) appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/20/tenant-connectivity-on-vcf-9-1-choosing-a-design-and-running-it-in-production-part-6/",
+      "title": "Neutralizing PHP2Shell: Stopping Critical PHP RCEs with VMware vDefend and Avi WAF",
+      "date": "2026-10-22",
+      "summary": "The global threat landscape shifted dramatically today following the disclosure of PHP2Shell, a pair of critical Remote Code Execution (RCE) vulnerabilities tracked as CVE-2026-109618 (OOM memory corruption) and CVE-2026-109619 (stale global state). Both carry a CVSS score of 9.2 and affect core memory handling across decades of PHP releases. Because PHP powers a vast portion &#8230; Continued The post Neutralizing PHP2Shell: Stopping Critical PHP RCEs with VMware vDefend and Avi WAF appeared first on VMware Blogs .",
+      "category": "critical",
+      "url": "https://blogs.vmware.com/load-balancing/2026/10/22/stop-php-rces-with-vdefend-avi-waf/",
       "count7d": 10
     },
     "AWS": {
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Unlocking Stranded Power for Community AI Compute",
-      "date": "2026-10-21",
+      "title": "The Best Windows PC for Agentic AI or Local AI Workloads",
+      "date": "2026-10-22",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/unlocking-stranded-power-for-community-ai-compute",
-      "count7d": 16
+      "url": "https://www.dell.com/blog/the-best-windows-pc-for-agentic-ai-or-local-ai-workloads",
+      "count7d": 18
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Foundation Announces Support for UNICEF&#8217;s Global Humanitarian Thematic Fund",
-      "date": "2026-10-19",
-      "summary": "The partnership will provide flexible, predictable funding that allows UNICEF to respond rapidly and strategically when humanitarian crises strike.",
+      "title": "Europe’s AI moment: turning investment into impact",
+      "date": "2026-10-22",
+      "summary": "Europe's AI moment is no longer about access to models, instead it’s about deployment choices. Where should AI run? How should it be governed? How quickly can it reach production? And how do organisations ensure every AI interaction creates more value than it consumes?",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/foundation-support-unicef-global-humanitarian-thematic-fund/",
-      "count7d": 3
+      "url": "https://news.lenovo.com/europes-ai-moment-gtc-berlin-26/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "The Blind Spot in Orbit: Why Space Could Be the Next Infrastructure Crisis",
-      "date": "2026-10-14",
-      "summary": "Are organisations becoming so reliant on third party space assets that they would face severe disruption if the assets were impacted by a cyber attack? When most people think of space technology, &#8230; The post The Blind Spot in Orbit: Why Space Could Be the Next Infrastructure Crisis appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/the-blind-spot-in-orbit-why-space-could-be-the-next-infrastructure-crisis/",
-      "count7d": 1
+      "title": "Millions of PHP Instances Exposed - What Organizations Need To Do Right Now",
+      "date": "2026-10-21",
+      "summary": "Two critical vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619) have been published. Both vulnerabilities carry a severe CVSS score of 9.2 (more technical details are in the Unit 42 Threat Brief). This is &#8230; The post Millions of PHP Instances Exposed - What Organizations Need To Do Right Now appeared first on Palo Alto Networks Blog .",
+      "category": "critical",
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/millions-of-php-instances-exposed-what-organizations-need-to-do-right-now/",
+      "count7d": 5
     }
   },
   "nvd": {
@@ -197,7 +197,8 @@
           "date": "2026-10-21",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20043",
-          "kev": false
+          "kev": false,
+          "epss": 0.264
         },
         {
           "id": "CVE-2026-76466",
@@ -205,7 +206,8 @@
           "date": "2026-10-21",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
-          "kev": false
+          "kev": false,
+          "epss": 0.381
         },
         {
           "id": "CVE-2026-76473",
@@ -213,7 +215,8 @@
           "date": "2026-10-21",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76473",
-          "kev": false
+          "kev": false,
+          "epss": 0.356
         },
         {
           "id": "CVE-2026-76474",
@@ -221,7 +224,8 @@
           "date": "2026-10-21",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76474",
-          "kev": false
+          "kev": false,
+          "epss": 0.357
         },
         {
           "id": "CVE-2026-76475",
@@ -229,7 +233,8 @@
           "date": "2026-10-21",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76475",
-          "kev": false
+          "kev": false,
+          "epss": 0.25
         }
       ]
     },
