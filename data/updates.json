@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T15:31:31.108Z",
+  "generatedAt": "2026-10-22T19:47:59.050Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,29 +21,29 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam Extends Our #1 Market Share in Data Protection Software",
-      "date": "2026-10-21",
-      "summary": "Market share is a strange thing to celebrate. Customers care whether you can get them back to business when something goes wrong. Partners care whether you make them look credible to their clients. Everything else is just a scoreboard. The post Veeam Extends Our #1 Market Share in Data Protection Software appeared first on Veeam Software Official Blog .",
+      "title": "What Is ROT Data? A 6 Step Guide to Automating Data Minimization",
+      "date": "2026-10-22",
+      "summary": "Every enterprise knows roughly what its storage costs, but far fewer know how much of that storage is holding data nobody will open again. The post What Is ROT Data? A 6 Step Guide to Automating Data Minimization appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/idc-data-protection-market-share-tracker.html",
-      "count7d": 3
+      "url": "https://www.veeam.com/blog/rot-data-minimization.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+      "title": "Multiple Cisco Products Snort 3 SMTP MIME Denial of Service Vulnerability",
       "date": "2026-10-22",
-      "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:&nbsp; CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the advisories GHSA-w8hw-w9fx-j79w and GHSA-6wmf-4rv5-p3rp . These vulnerabilities are being referenced as PHP2shell. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq &lt;br/&gt;Security Impact Rating: Critical",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "summary": "Multiple Cisco products are affected by a vulnerability in the Snort 3 SMTP MIME Decoder that could allow an unauthenticated, remote attacker to cause the Snort 3 Detection Engine to restart. This vulnerability is due to a lack of error checking when the MIME fields of the SMTP header are parsed. An attacker could exploit this vulnerability by sending crafted SMTP packets through an established connection to be parsed by Snort 3. A successful exploit could allow the attacker to…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-bkXjcKkt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Multiple%20Cisco%20Products%20Snort%203%20SMTP%20MIME%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
       "count7d": 17
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Neutralizing PHP2Shell: Stopping Critical PHP RCEs with VMware vDefend and Avi WAF",
+      "title": "The Modern Compute Primitive: Why Declarative VM Management Matters Now (Introducing KubeVM Service)",
       "date": "2026-10-22",
-      "summary": "The global threat landscape shifted dramatically today following the disclosure of PHP2Shell, a pair of critical Remote Code Execution (RCE) vulnerabilities tracked as CVE-2026-109618 (OOM memory corruption) and CVE-2026-109619 (stale global state). Both carry a CVSS score of 9.2 and affect core memory handling across decades of PHP releases. Because PHP powers a vast portion &#8230; Continued The post Neutralizing PHP2Shell: Stopping Critical PHP RCEs with VMware vDefend and Avi WAF appeared first on VMware Blogs .",
-      "category": "critical",
-      "url": "https://blogs.vmware.com/load-balancing/2026/10/22/stop-php-rces-with-vdefend-avi-waf/",
+      "summary": "If you look at most enterprise production environments, there is still a noticeable gap: platform teams deploy Kubernetes workloads through GitOps pipelines, while VM provisioning still lives in a separate workflow, whether that&#8217;s a Terraform run, a PowerCLI script, or an internal ticketing queue. The answer isn&#8217;t forcing teams to convert stable databases into stateful &#8230; Continued The post The Modern Compute Primitive: Why Declarative VM Management Matters Now (Introducing KubeVM Service) appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/22/introducing-kubevm-service/",
       "count7d": 10
     },
     "AWS": {
