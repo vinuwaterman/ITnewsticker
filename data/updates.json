@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-22T19:47:59.050Z",
+  "generatedAt": "2026-10-22T23:01:14.711Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-61359 Windows Storage Elevation of Privilege Vulnerability",
-      "date": "2026-10-21",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-105014 Azure Pipelines Remote Code Execution Vulnerability",
+      "date": "2026-10-22",
+      "summary": "Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an unauthorized attacker to execute code over a network.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61359",
-      "count7d": 308
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105014",
+      "count7d": 316
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Multiple Cisco Products Snort 3 SMTP MIME Denial of Service Vulnerability",
+      "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
       "date": "2026-10-22",
-      "summary": "Multiple Cisco products are affected by a vulnerability in the Snort 3 SMTP MIME Decoder that could allow an unauthenticated, remote attacker to cause the Snort 3 Detection Engine to restart. This vulnerability is due to a lack of error checking when the MIME fields of the SMTP header are parsed. An attacker could exploit this vulnerability by sending crafted SMTP packets through an established connection to be parsed by Snort 3. A successful exploit could allow the attacker to…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-bkXjcKkt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Multiple%20Cisco%20Products%20Snort%203%20SMTP%20MIME%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:&nbsp; CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the advisories GHSA-w8hw-w9fx-j79w and GHSA-6wmf-4rv5-p3rp . These vulnerabilities are being referenced as PHP2shell. For information about Splunk products and offerings, see Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Splunk Products - October 2026 . &nbsp; This advisory will be updated as additional information…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
       "count7d": 17
     },
     "VMware": {
@@ -103,52 +103,51 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 34,
+      "count": 5,
       "items": [
         {
-          "id": "CVE-2026-108426",
-          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-15",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108426",
+          "id": "CVE-2026-114119",
+          "title": "Best Practice Software Bp Premier before 1.14.1.1128 uses a hardcoded Microsoft SQL Server administrative password that is shared across all installations and cannot be changed without breaking the application. Attackers with network access to the…",
+          "date": "2026-10-21",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114119",
           "kev": false,
-          "epss": 0.432
+          "epss": 0.428
         },
         {
-          "id": "CVE-2026-108427",
-          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-15",
+          "id": "CVE-2026-96185",
+          "title": "Stack-based buffer overflow in Microsoft Exchange Online allows an authorized attacker to execute code over a network.",
+          "date": "2026-10-22",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108427",
-          "kev": false,
-          "epss": 0.453
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96185",
+          "kev": false
         },
         {
-          "id": "CVE-2026-108428",
-          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-15",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108428",
+          "id": "CVE-2026-111895",
+          "title": "phpMyFAQ 3.2.0 before 4.0.0 and 4.0.2 before 4.2.0-beta contains an authentication bypass in its Microsoft Entra ID login flow, which links users by the mutable preferred_username claim and whose AuthEntraId::create() ignores the duplicate-login exception while…",
+          "date": "2026-10-17",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111895",
           "kev": false,
-          "epss": 0.441
+          "epss": 0.294
         },
         {
-          "id": "CVE-2026-108429",
-          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-15",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108429",
+          "id": "CVE-2026-109461",
+          "title": "Origin validation error in Microsoft Authentication Library (MSAL) for Node.js allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-10-16",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109461",
           "kev": false,
-          "epss": 0.441
+          "epss": 0.348
         },
         {
-          "id": "CVE-2026-108430",
-          "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-15",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108430",
+          "id": "CVE-2026-80092",
+          "title": "Authentication bypass by assumed-immutable data in Microsoft Identity Web allows an authorized attacker to elevate privileges over a network.",
+          "date": "2026-10-16",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80092",
           "kev": false,
-          "epss": 0.441
+          "epss": 0.6
         }
       ]
     },
