@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:08:06.077Z",
+  "generatedAt": "2026-10-22T05:13:10.507Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -31,7 +31,7 @@
     "Cisco": {
       "vendor": "Cisco",
       "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:&nbsp; CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the advisories GHSA-w8hw-w9fx-j79w and GHSA-6wmf-4rv5-p3rp . These vulnerabilities are being referenced as PHP2shell. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq &lt;br/&gt;Security Impact Rating: Critical",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
