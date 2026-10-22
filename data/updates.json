@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T21:21:01.385Z",
+  "generatedAt": "2026-10-22T00:08:06.077Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61359",
-      "count7d": 464
+      "count7d": 308
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "WALLDORF — The company's Autonomous Enterprise strategy is not just resonating, it is being adopted.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/sap-announces-q3-2026-results/",
-      "count7d": 11
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Market share is a strange thing to celebrate. Customers care whether you can get them back to business when something goes wrong. Partners care whether you make them look credible to their clients. Everything else is just a scoreboard. The post Veeam Extends Our #1 Market Share in Data Protection Software appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/idc-data-protection-market-share-tracker.html",
-      "count7d": 5
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:&nbsp; CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the advisories GHSA-w8hw-w9fx-j79w and GHSA-6wmf-4rv5-p3rp . These vulnerabilities are being referenced as PHP2shell. This advisory is available at the following link: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq &lt;br/&gt;Security Impact Rating: Critical",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "count7d": 18
+      "count7d": 17
     },
     "VMware": {
       "vendor": "VMware",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/unlocking-stranded-power-for-community-ai-compute",
-      "count7d": 19
+      "count7d": 16
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 35,
+      "count": 34,
       "items": [
         {
           "id": "CVE-2026-108426",
@@ -189,7 +189,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 33,
+      "count": 45,
       "items": [
         {
           "id": "CVE-2026-20043",
