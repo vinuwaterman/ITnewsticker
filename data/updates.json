@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T06:20:43.727Z",
+  "generatedAt": "2026-10-23T11:57:09.915Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Announces Q3 2026 Results",
-      "date": "2026-10-21",
-      "summary": "WALLDORF — The company's Autonomous Enterprise strategy is not just resonating, it is being adopted.",
+      "title": "For the 12th Time, SAP Named a Leader in Gartner® Magic Quadrant&#x2122; for Digital Commerce Platform",
+      "date": "2026-10-23",
+      "summary": "SAP helps customers simplify complex commerce and prepare for what come next.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-announces-q3-2026-results/",
-      "count7d": 8
+      "url": "https://news.sap.com/2026/10/sap-a-leader-in-gartner-magic-quadrant-digital-commerce-platform-12th-time/",
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VMware Tanzu Platform 11.0: The Agent Platform for VMware Private AI Cloud",
+      "title": "PHP2shell 脆弱性に対する Broadcom の対応 （日本語訳）",
       "date": "2026-10-23",
-      "summary": "Announcing general availability of VMware Tanzu Platform 11.0, the agent platform for VMware Private AI Cloud and the native platform as a service for VMware Cloud Foundation 9.1. By bringing the simplicity of our cf push experience directly to Kubernetes, decoupling and modernizing enterprise data fleets, unifying multi-region operations, and delivering an end to end &#8230; Continued The post VMware Tanzu Platform 11.0: The Agent Platform for VMware Private AI Cloud appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/tanzu/vmware-tanzu-platform-11-0-the-agent-platform-for-vmware-private-ai-cloud/",
+      "summary": "PHP2shell 脆弱性に対する Broadcom の対応 最終更新日：2026年10月22日 PHP Foundationが10月21日に公開したコアPHPランタイムエンジンにおける2件の重大なセキュリティ上の欠陥（CVE-2026-109618およびCVE-2026-109619）に対応し、Broadcomのセキュリティおよびエンジニアリングチームは、潜在的な影響を評価するため、サードパーティ依存関係を含む当社の情報技術環境およびソフトウェア製品ポートフォリオの徹底的な確認を行いました。 当社の対応の取り組みおよび確認結果の詳細な内容は以下の通りです。なお、これらは状況の推移に伴い変更される可能性があります。Broadcomは必要に応じて、追加の開示情報やガイドラインを本ページ（または下記リンク先のアドバイザリ）にて更新いたします。 社内インフラおよびサービス： Broadcomのグローバル・テクノロジー・オーガニゼーション（Global Technology Organization）は、影響を受ける可能性のあるシステムを特定するため、詳細なアセット確認を行いました。隔離されたリスクは速やかに軽減され、当社のセキュリティソリューションは攻撃の試みを検知・防御できるように調整された結果、インフラへの侵入や侵害は一切発見されませんでした。 Broadcom製品： 当社の各製品部門において、ソフトウェア内にPHPの依存関係がないか確認を行いました。「PHP2shell」脆弱性の影響を受ける可能性が特定された一部の製品については、担当チームが修正パッチのリリースを進めています。必要なパッチに関する情報を含む追加の詳細は、以下の各アドバイザリにてご確認いただけます。 Agile Operations Division（アジャイル・オペレーションズ部門） — 影響を受ける製品：0件 Application Networking and Security Division（アプリケーション・ネットワーキング＆セキュリティ部門） — 影響を受ける製品：0件（Avi Load BalancerおよびvDefendのナレッジベース記事を参照） Brocade Storage Networking Division（ブロケード・ストレージ・ネットワーキング部門） — 影響を受ける製品：0件 Enterprise Security Group（エンタープライズ・セキュリティ・グループ） — 影響を受ける製品：1件 Identity Management Security Division（アイデンティティ・マネジメント・セキュリティ部門） — 影響を受ける製品：4件 Mainframe Software Division（メインフレーム・ソフトウェア部門） — 影響を受ける製品：0件 Payment Security Division（ペイメント・セキュリティ部門） — 影響を受ける製品：0件 &#8230; Continued The post PHP2shell 脆弱性に対する Broadcom の対応 （日本語訳） appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/10/php2shell-broadcom-jp.html",
       "count7d": 10
     },
     "AWS": {
