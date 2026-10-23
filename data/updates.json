@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T23:01:14.711Z",
+  "generatedAt": "2026-10-23T01:25:27.704Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an unauthorized attacker to execute code over a network.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105014",
-      "count7d": 316
+      "count7d": 22
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "WALLDORF — The company's Autonomous Enterprise strategy is not just resonating, it is being adopted.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/sap-announces-q3-2026-results/",
-      "count7d": 9
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Every enterprise knows roughly what its storage costs, but far fewer know how much of that storage is holding data nobody will open again. The post What Is ROT Data? A 6 Step Guide to Automating Data Minimization appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/rot-data-minimization.html",
-      "count7d": 4
+      "count7d": 2
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "The Modern Compute Primitive: Why Declarative VM Management Matters Now (Introducing KubeVM Service)",
-      "date": "2026-10-22",
-      "summary": "If you look at most enterprise production environments, there is still a noticeable gap: platform teams deploy Kubernetes workloads through GitOps pipelines, while VM provisioning still lives in a separate workflow, whether that&#8217;s a Terraform run, a PowerCLI script, or an internal ticketing queue. The answer isn&#8217;t forcing teams to convert stable databases into stateful &#8230; Continued The post The Modern Compute Primitive: Why Declarative VM Management Matters Now (Introducing KubeVM Service) appeared first on VMware Blogs .",
+      "title": "VMware Tanzu Platform 11.0: The Agent Platform for VMware Private AI Cloud",
+      "date": "2026-10-23",
+      "summary": "Announcing general availability of VMware Tanzu Platform 11.0, the agent platform for VMware Private AI Cloud and the native platform as a service for VMware Cloud Foundation 9.1. By bringing the simplicity of our cf push experience directly to Kubernetes, decoupling and modernizing enterprise data fleets, unifying multi-region operations, and delivering an end to end &#8230; Continued The post VMware Tanzu Platform 11.0: The Agent Platform for VMware Private AI Cloud appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/22/introducing-kubevm-service/",
+      "url": "https://blogs.vmware.com/tanzu/vmware-tanzu-platform-11-0-the-agent-platform-for-vmware-private-ai-cloud/",
       "count7d": 10
     },
     "AWS": {
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/the-best-windows-pc-for-agentic-ai-or-local-ai-workloads",
-      "count7d": 18
+      "count7d": 14
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Europe's AI moment is no longer about access to models, instead it’s about deployment choices. Where should AI run? How should it be governed? How quickly can it reach production? And how do organisations ensure every AI interaction creates more value than it consumes?",
       "category": "feature",
       "url": "https://news.lenovo.com/europes-ai-moment-gtc-berlin-26/",
-      "count7d": 5
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -98,7 +98,7 @@
       "summary": "Two critical vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619) have been published. Both vulnerabilities carry a severe CVSS score of 9.2 (more technical details are in the Unit 42 Threat Brief). This is &#8230; The post Millions of PHP Instances Exposed - What Organizations Need To Do Right Now appeared first on Palo Alto Networks Blog .",
       "category": "critical",
       "url": "https://www.paloaltonetworks.com/blog/2026/10/millions-of-php-instances-exposed-what-organizations-need-to-do-right-now/",
-      "count7d": 5
+      "count7d": 4
     }
   },
   "nvd": {
@@ -300,54 +300,8 @@
       "items": []
     },
     "Lenovo": {
-      "count": 7,
-      "items": [
-        {
-          "id": "CVE-2026-75941",
-          "title": "A potential vulnerability was reported in the Lenovo Legion Zone application, distributed exclusively in the Chinese market, that could allow an attacker on the same logical network to execute arbitrary code.",
-          "date": "2026-10-16",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75941",
-          "kev": false,
-          "epss": 0.264
-        },
-        {
-          "id": "CVE-2026-92629",
-          "title": "A potential improper authorization vulnerability was reported in Lenovo Baiying PC Client, distributed exclusively in the Chinese market, that could allow a local authenticated user to execute arbitrary code with elevated privileges.",
-          "date": "2026-10-16",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92629",
-          "kev": false,
-          "epss": 0.10200000000000001
-        },
-        {
-          "id": "CVE-2026-16754",
-          "title": "A potential improper certificate validation vulnerability was reported in Lenovo Smart Camera C33, distributed exclusively in the Chinese market, that could allow an adjacent user to intercept or manipulate network communications.",
-          "date": "2026-10-16",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16754",
-          "kev": false,
-          "epss": 0.074
-        },
-        {
-          "id": "CVE-2026-16755",
-          "title": "A potential vulnerability was reported in Lenovo Smart Camera C33, distributed exclusively in the Chinese market, that could allow an unauthorized remote user to disclose sensitive information.",
-          "date": "2026-10-16",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16755",
-          "kev": false,
-          "epss": 0.157
-        },
-        {
-          "id": "CVE-2026-89057",
-          "title": "A potential authentication bypass vulnerability was reported in some Lenovo tablets that could allow a user with physical access to gain unauthorized device access.",
-          "date": "2026-10-16",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89057",
-          "kev": false,
-          "epss": 0.294
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Mimecast": {
       "count": 0,
