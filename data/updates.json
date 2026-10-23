@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T11:57:09.915Z",
+  "generatedAt": "2026-10-23T16:42:57.579Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,7 +12,7 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "For the 12th Time, SAP Named a Leader in Gartner® Magic Quadrant&#x2122; for Digital Commerce Platform",
+      "title": "For the 12th Time, SAP Named a Leader in Gartner® Magic Quadrant&#x2122; for Digital Commerce Platforms",
       "date": "2026-10-23",
       "summary": "SAP helps customers simplify complex commerce and prepare for what come next.",
       "category": "feature",
@@ -31,19 +31,19 @@
     "Cisco": {
       "vendor": "Cisco",
       "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
-      "date": "2026-10-22",
-      "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:&nbsp; CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the advisories GHSA-w8hw-w9fx-j79w and GHSA-6wmf-4rv5-p3rp . These vulnerabilities are being referenced as PHP2shell. For information about Splunk products and offerings, see Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Splunk Products - October 2026 . &nbsp; This advisory will be updated as additional information…",
+      "date": "2026-10-23",
+      "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:&nbsp; CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the advisories GHSA-w8hw-w9fx-j79w and GHSA-6wmf-4rv5-p3rp . These vulnerabilities are being referenced as PHP2shell. For information about Splunk products and offerings, see Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Splunk Products - October 2026 . Important: If a product is not listed within this…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
       "count7d": 17
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "PHP2shell 脆弱性に対する Broadcom の対応 （日本語訳）",
+      "title": "VCF Helping You Respond to PHP2Shell",
       "date": "2026-10-23",
-      "summary": "PHP2shell 脆弱性に対する Broadcom の対応 最終更新日：2026年10月22日 PHP Foundationが10月21日に公開したコアPHPランタイムエンジンにおける2件の重大なセキュリティ上の欠陥（CVE-2026-109618およびCVE-2026-109619）に対応し、Broadcomのセキュリティおよびエンジニアリングチームは、潜在的な影響を評価するため、サードパーティ依存関係を含む当社の情報技術環境およびソフトウェア製品ポートフォリオの徹底的な確認を行いました。 当社の対応の取り組みおよび確認結果の詳細な内容は以下の通りです。なお、これらは状況の推移に伴い変更される可能性があります。Broadcomは必要に応じて、追加の開示情報やガイドラインを本ページ（または下記リンク先のアドバイザリ）にて更新いたします。 社内インフラおよびサービス： Broadcomのグローバル・テクノロジー・オーガニゼーション（Global Technology Organization）は、影響を受ける可能性のあるシステムを特定するため、詳細なアセット確認を行いました。隔離されたリスクは速やかに軽減され、当社のセキュリティソリューションは攻撃の試みを検知・防御できるように調整された結果、インフラへの侵入や侵害は一切発見されませんでした。 Broadcom製品： 当社の各製品部門において、ソフトウェア内にPHPの依存関係がないか確認を行いました。「PHP2shell」脆弱性の影響を受ける可能性が特定された一部の製品については、担当チームが修正パッチのリリースを進めています。必要なパッチに関する情報を含む追加の詳細は、以下の各アドバイザリにてご確認いただけます。 Agile Operations Division（アジャイル・オペレーションズ部門） — 影響を受ける製品：0件 Application Networking and Security Division（アプリケーション・ネットワーキング＆セキュリティ部門） — 影響を受ける製品：0件（Avi Load BalancerおよびvDefendのナレッジベース記事を参照） Brocade Storage Networking Division（ブロケード・ストレージ・ネットワーキング部門） — 影響を受ける製品：0件 Enterprise Security Group（エンタープライズ・セキュリティ・グループ） — 影響を受ける製品：1件 Identity Management Security Division（アイデンティティ・マネジメント・セキュリティ部門） — 影響を受ける製品：4件 Mainframe Software Division（メインフレーム・ソフトウェア部門） — 影響を受ける製品：0件 Payment Security Division（ペイメント・セキュリティ部門） — 影響を受ける製品：0件 &#8230; Continued The post PHP2shell 脆弱性に対する Broadcom の対応 （日本語訳） appeared first on VMware Blogs .",
+      "summary": "(Day 17 of 22 in our Cybersecurity Awareness Month series. Today: responding to a busy week of vulnerabilities) For information on Broadcom products and the PHP2Shell vulnerabilities, see https://www.broadcom.com/php2shell. We are deviating from our posted schedule a little bit to talk about the events of this week: a lot of vulnerability news at once, including &#8230; Continued The post VCF Helping You Respond to PHP2Shell appeared first on VMware Blogs .",
       "category": "patch",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/10/php2shell-broadcom-jp.html",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/23/vulnerability-response-vcf-php2shell/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Best Windows PC for Agentic AI or Local AI Workloads",
-      "date": "2026-10-22",
+      "title": "Dell Technologies Powers the Future of Sports with Bevo Lab",
+      "date": "2026-10-23",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/the-best-windows-pc-for-agentic-ai-or-local-ai-workloads",
-      "count7d": 14
+      "url": "https://www.dell.com/blog/dell-technologies-powers-the-future-of-sports-with-bevo-lab",
+      "count7d": 15
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -120,7 +120,8 @@
           "date": "2026-10-22",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96185",
-          "kev": false
+          "kev": false,
+          "epss": 0.54
         },
         {
           "id": "CVE-2026-111895",
