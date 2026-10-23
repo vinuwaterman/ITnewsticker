@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-23T16:42:57.579Z",
+  "generatedAt": "2026-10-23T20:14:25.502Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-105014 Azure Pipelines Remote Code Execution Vulnerability",
-      "date": "2026-10-22",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an unauthorized attacker to execute code over a network.",
+      "title": "CVE-2026-83862 Windows Network Load Balancing Remote Code Execution Vulnerability",
+      "date": "2026-10-23",
+      "summary": "Corrected the CVSS Attack Vector metric from Network (AV:N) to Adjacent (AV:A) to reflect the requirement for Layer 2 network adjacency. The CVSS base score has decreased from 9.8 to 8.8. This is an informational change only. Customers who have successfully installed the update do not need to take any further action.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105014",
-      "count7d": 22
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83862",
+      "count7d": 23
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell Technologies Powers the Future of Sports with Bevo Lab",
+      "title": "Defending and Recovering from Cyber Attacks with Dell",
       "date": "2026-10-23",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/dell-technologies-powers-the-future-of-sports-with-bevo-lab",
-      "count7d": 15
+      "url": "https://www.dell.com/blog/defending-and-recovering-from-cyber-attacks-with-dell",
+      "count7d": 16
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Uncovers New Agentic AI Campaigns",
-      "date": "2026-10-21",
+      "title": "Why Organizations Secure AI Agents with Falcon Guardian",
+      "date": "2026-10-23",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/",
-      "count7d": 3
+      "url": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/",
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 5,
+      "count": 3,
       "items": [
         {
           "id": "CVE-2026-114119",
@@ -131,24 +131,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111895",
           "kev": false,
           "epss": 0.294
-        },
-        {
-          "id": "CVE-2026-109461",
-          "title": "Origin validation error in Microsoft Authentication Library (MSAL) for Node.js allows an unauthorized attacker to disclose information over a network.",
-          "date": "2026-10-16",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109461",
-          "kev": false,
-          "epss": 0.348
-        },
-        {
-          "id": "CVE-2026-80092",
-          "title": "Authentication bypass by assumed-immutable data in Microsoft Identity Web allows an authorized attacker to elevate privileges over a network.",
-          "date": "2026-10-16",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80092",
-          "kev": false,
-          "epss": 0.6
         }
       ]
     },
@@ -247,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 5,
+      "count": 4,
       "items": [
         {
           "id": "CVE-2026-71169",
@@ -275,15 +257,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82166",
           "kev": false,
           "epss": 0.413
-        },
-        {
-          "id": "CVE-2026-81452",
-          "title": "Dell Alienware Command Center (AWCC), versions prior to 6.14.54.0, contain a Least Privilege Violation vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privilege and Denial of…",
-          "date": "2026-10-16",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81452",
-          "kev": false,
-          "epss": 0.11199999999999999
         },
         {
           "id": "CVE-2026-86375",
