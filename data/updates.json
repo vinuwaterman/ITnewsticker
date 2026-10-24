@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T23:20:50.938Z",
+  "generatedAt": "2026-10-24T01:50:22.706Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/",
-      "count7d": 4
+      "count7d": 5
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
