@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T11:53:42.067Z",
+  "generatedAt": "2026-10-24T15:33:30.224Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -144,7 +144,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91492",
           "kev": false,
-          "epss": 0.257
+          "epss": 0.243
         },
         {
           "id": "CVE-2026-98446",
