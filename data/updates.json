@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-25T13:41:00.829Z",
+  "generatedAt": "2026-10-25T17:27:39.094Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-83862 Windows Network Load Balancing Remote Code Execution Vulnerability",
-      "date": "2026-10-23",
-      "summary": "Corrected the CVSS Attack Vector metric from Network (AV:N) to Adjacent (AV:A) to reflect the requirement for Layer 2 network adjacency. The CVSS base score has decreased from 9.8 to 8.8. This is an informational change only. Customers who have successfully installed the update do not need to take any further action.",
+      "title": "CVE-2026-70197 .NET and Visual Studio Remote Code Execution Vulnerability",
+      "date": "2026-10-25",
+      "summary": "Updated product information in the Software Update table. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83862",
-      "count7d": 24
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
+      "count7d": 28
     },
     "SAP": {
       "vendor": "SAP",
@@ -126,7 +126,7 @@
       ]
     },
     "SAP": {
-      "count": 3,
+      "count": 1,
       "items": [
         {
           "id": "CVE-2026-91492",
@@ -136,24 +136,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91492",
           "kev": false,
           "epss": 0.243
-        },
-        {
-          "id": "CVE-2026-98446",
-          "title": "In the Linux kernel, the following vulnerability has been resolved: xfs: don't let hidden_space go negative in xfs_metafile_resv_init LOLLM points out that if the amount of fdblocks that we can reserve for a metadata btree…",
-          "date": "2026-10-18",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98446",
-          "kev": false,
-          "epss": 0.173
-        },
-        {
-          "id": "CVE-2026-98577",
-          "title": "In the Linux kernel, the following vulnerability has been resolved: nfc: llcp: fix WKS SAP hijacking via prefix match in nfc_llcp_wks_sap() nfc_llcp_wks_sap() compares only service_name_len bytes, so a short service_name like \"u\" matches longer WKS…",
-          "date": "2026-10-18",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98577",
-          "kev": false,
-          "epss": 0.21
         }
       ]
     },
@@ -171,7 +153,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20043",
           "kev": false,
-          "epss": 0.264
+          "epss": 0.364
         },
         {
           "id": "CVE-2026-76466",
@@ -180,7 +162,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
           "kev": false,
-          "epss": 0.381
+          "epss": 0.41700000000000004
         },
         {
           "id": "CVE-2026-76473",
@@ -189,7 +171,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76473",
           "kev": false,
-          "epss": 0.356
+          "epss": 0.49
         },
         {
           "id": "CVE-2026-76474",
@@ -198,7 +180,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76474",
           "kev": false,
-          "epss": 0.357
+          "epss": 0.47400000000000003
         },
         {
           "id": "CVE-2026-76475",
@@ -207,7 +189,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76475",
           "kev": false,
-          "epss": 0.25
+          "epss": 0.326
         }
       ]
     },
@@ -229,7 +211,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71169",
           "kev": false,
-          "epss": 0.11399999999999999
+          "epss": 0.109
         },
         {
           "id": "CVE-2026-71170",
@@ -238,7 +220,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71170",
           "kev": false,
-          "epss": 0.167
+          "epss": 0.149
         },
         {
           "id": "CVE-2026-82166",
@@ -247,7 +229,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82166",
           "kev": false,
-          "epss": 0.413
+          "epss": 0.299
         },
         {
           "id": "CVE-2026-86375",
