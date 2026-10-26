@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-26T18:49:58.321Z",
+  "generatedAt": "2026-10-26T23:03:43.809Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-83519 Windows Error Reporting Remote Code Execution Vulnerability",
+      "title": "CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability",
       "date": "2026-10-26",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83519",
-      "count7d": 28
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338",
+      "count7d": 34
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "For the 12th Time, SAP Named a Leader in Gartner® Magic Quadrant&#x2122; for Digital Commerce Platforms",
-      "date": "2026-10-23",
-      "summary": "SAP helps customers simplify complex commerce and prepare for what come next.",
+      "title": "AI Release Highlights Q3 2026",
+      "date": "2026-10-26",
+      "summary": "The quarter marks a major step in delivering on our promise of the Autonomous Enterprise.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-a-leader-in-gartner-magic-quadrant-digital-commerce-platform-12th-time/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/10/ai-release-highlights-q3-2026/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -31,7 +31,7 @@
     "Cisco": {
       "vendor": "Cisco",
       "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-      "date": "2026-10-24",
+      "date": "2026-10-26",
       "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "AI時代のプライベートクラウド多層防御： VMware Cloud Foundation®で実現する仮想基盤の堅牢化とリスク低減策（第1回）",
+      "title": "From Open Source to Enterprise: Understanding the VMware Salt API Evolution",
       "date": "2026-10-26",
-      "summary": "近年、生成AIをはじめとするフロンティアAI技術の進化は、ビジネスの効率化だけでなく、サイバーセキュリティの領域にも劇的な変化をもたらしています。防御側がAIを活用する一方で、攻撃者もAIを用いた高度な脆弱性探索や攻撃コードの自動生成を行うようになっています。本ブログシリーズでは、全2回にわたり「AI時代のセキュリティ対策」をテーマに、インフラのあらゆる階層で脅威を食い止める「多層防御」の実践的なアプローチを解説します。 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー 第1回（本記事）：AI時代のプライベートクラウド多層防御、VMware Cloud Foundation®で実現する仮想基盤の堅牢化とリスク低減策 プライベートクラウド環境における「多層防御」の重要性と、最新のVMware Cloud Foundation® (VCF) を活用したインフラ基盤における「7つの防御層」の実装ポイントを解説します。 第2回：仮想パッチを用いたセキュリティパッチ適用までの「猶予期間」の消滅 vDefendによる「分散IDS/IPS」およびVMware® Avi™ Load Balancer WAFを用いた攻撃遮断の技術解説、およびダウンタイム不要・運用コスト削減のメリットについてお届けします。 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー 1. AI時代のセキュリティ対策の心構え：フロンティアAIから学んだ教訓 AI時代におけるセキュリティの最大の変更点は、これまでの「リスク評価（トリアージ）」や「対策の猶予期間」といった前提条件が通用しなくなっている点にあります。Broadcomが実施したフロンティアAIモデルを用いたコードテストの成果からは、以下の深刻な教訓が明らかになっています。 ■ 攻撃の連鎖による「トリアージ（優先順位付け）」概念の崩壊 従来のセキュリティ運用では、発見された脆弱性をリスクの高さに応じて分類し、低リスクのものは対応を後回しにする優先順位付け（トリアージ）が一般的でした。しかし、高度なAIは「人間が一生かけても気づかないような、コードの遠く離れた場所にある要素同士の相関すらも見抜く」能力を持っています。その結果、2〜3個の「低リスクな問題」を組み合わせ・連鎖させて、1つの「致命的な攻撃パス」を作り出すことができるようになりました。これにより、「リスクの低いものは後回し」というこれまでのトリアージ概念は通用しなくなっています。 ■ 「猶予期間」の消滅 これまでは、脆弱性が公開されてから実際にそれを悪用するコードが作成されるまでに、数週間から数ヶ月の「猶予期間」がありました。しかし、AIの導入によって、このプロセスは「数週間」から「ほぼリアルタイム」に短縮されています。防御側の勝ち筋は、選別の正確さではなく、「パッチ適用の速度」や「即座に通信を遮断・制御できる能力」にかかっています。 このような状況下では、アプリケーションやミドルウェアを意識したうえで、それらが稼働するインフラ（仮想基盤）そのものの重要性を再認識し、ハードニング（要塞化）を徹底する「内部防御」および「多層防御」が極めて重要になります。 ■ 拡大する「保護すべき対象」 フロンティアAIの進化によって「攻撃の連鎖」や「全自動攻撃」が現実のものとなる中、企業がセキュリティ面で考慮すべき領域は劇的に拡大しています。サイバーセキュリティを取り巻く環境の変化に伴い、保護すべき対象はこれまでの「オンプレミス単一環境」から、「マルチクラウド」、そして「エッジ・プライベートAI基盤」へと広がっています。 このような保護対象の拡大は、攻撃者の手法が日々巧妙化していることに起因しています。攻撃側の変化・進化に合わせて、企業に求められるサイバーセキュリティ対策にも必然的に高度化が求められており、その変遷は大きく以下の3つのフェーズに分けることができます。 ・一般的に従来求められてきたサイバーセキュリティ：オンプレミス単一環境（境界型防御） 保護対象がオンプレミスの単一境界に限られ、境界に対する直接攻撃を防ぐ対策が主流でした。防御までの猶予期間も3ヶ月以上あり、境界型の防御手法で一定の対応が可能でした。 ・フロンティアAI登場前のサイバーセキュリティ：マルチクラウドへの拡張と横移動への対策 保護対象がマルチクラウドへ拡張し、境界突破後に内部で潜伏・感染を広げる攻撃が急増しました。対応猶予が3ヶ月以内に縮小する中、分散F/WやNDR等を活用した内部監視・防御策が必要となりました。 ・フロンティアAI登場後のサイバーセキュリティ：エッジ・プライベートAI基盤を含む全方位の保護 重要なデータを扱うエッジ・プライベートAI基盤へと対象が広がり、猶予なしの全自動攻撃が発生しています。高度な多層防御に加え、EDRやクリーンルーム等を連携させた迅速な復旧体制が不可欠です。 &#160; 2. プライベートクラウドにおける堅牢化のポイント：多層防御によるダメージコントロール 仮想基盤におけるセキュリティ対策は、単一の壁を作るのではなく、複数の防御層を重ねることで、侵入防止と万が一侵入された際のダメージコントロールを両立させる「多層防御」が基本となります。VMware vSphere® 環境において実装すべき7つの防御層の具体策を以下にご紹介します。 ■ 多層防御によるダメージコントロール（7階層） 第1層 経路の適正運用 【概要】 North-South の経路制限・侵入防止・侵入検知 プライベートクラウドにおける「第1層」は、外部ネットワークと内部仮想基盤を結ぶ境界線、すなわち North-South（南北）トラフィック の防御を担います。ここでの目的は、基盤を管理する「心臓部」をインターネットの脅威から物理的・論理的に隔離し、許可された管理者のみが安全にアクセスできる経路を確立することです。 1. 管理インターフェースの完全隔離 VMware vCenter® &#8230; Continued The post AI時代のプライベートクラウド多層防御： VMware Cloud Foundation®で実現する仮想基盤の堅牢化とリスク低減策（第1回） appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/10/ai-private-cloud-defense-in-depth1.html",
+      "summary": "In this blog, we explore a powerful new capability introduced in VMware Cloud Foundation (VCF) 9.1.1 which further enhances compliance and configuration management. Previously, VCF Operations offered Security Posture Management and Configuration Management only from the user interface.&#160;&#160; Now, admins have an option to manage compliance and configuration management with programmatic access via the API.&#160;&#160; &#8230; Continued The post From Open Source to Enterprise: Understanding the VMware Salt API Evolution appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/26/from-open-source-to-enterprise-understanding-the-vmware-salt-api-evolution/",
       "count7d": 10
     },
     "AWS": {
@@ -211,36 +211,8 @@
       "items": []
     },
     "Dell": {
-      "count": 3,
-      "items": [
-        {
-          "id": "CVE-2026-71169",
-          "title": "Dell Application Store, versions prior to 26.05.0.7, contain an Incorrect Permission Assignment for Critical Resource vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Disclosure of sensitive information",
-          "date": "2026-10-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71169",
-          "kev": false,
-          "epss": 0.109
-        },
-        {
-          "id": "CVE-2026-71170",
-          "title": "Dell Application Store, versions prior to 26.05.0.7, contains an Uncontrolled Path Element vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to an Elevation of Privilege and arbitrary code execution.",
-          "date": "2026-10-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71170",
-          "kev": false,
-          "epss": 0.149
-        },
-        {
-          "id": "CVE-2026-82166",
-          "title": "Dell Application Store, versions prior to 26.05.0.7, contain a Missing Authentication for Critical Function vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to arbitrary code execution.",
-          "date": "2026-10-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82166",
-          "kev": false,
-          "epss": 0.299
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Fortinet": {
       "count": 1,
