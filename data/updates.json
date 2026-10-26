@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:21:10.287Z",
+  "generatedAt": "2026-10-26T00:35:18.446Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated product information in the Software Update table. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
-      "count7d": 28
+      "count7d": 26
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "SAP helps customers simplify complex commerce and prepare for what come next.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/sap-a-leader-in-gartner-magic-quadrant-digital-commerce-platform-12th-time/",
-      "count7d": 9
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/defending-and-recovering-from-cyber-attacks-with-dell",
-      "count7d": 16
+      "count7d": 13
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Europe's AI moment is no longer about access to models, instead it’s about deployment choices. Where should AI run? How should it be governed? How quickly can it reach production? And how do organisations ensure every AI interaction creates more value than it consumes?",
       "category": "feature",
       "url": "https://news.lenovo.com/europes-ai-moment-gtc-berlin-26/",
-      "count7d": 4
+      "count7d": 2
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -98,7 +98,7 @@
       "summary": "Two critical vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619) have been published. Both vulnerabilities carry a severe CVSS score of 9.2 (more technical details are in the Unit 42 Threat Brief). This is &#8230; The post Millions of PHP Instances Exposed - What Organizations Need To Do Right Now appeared first on Palo Alto Networks Blog .",
       "category": "critical",
       "url": "https://www.paloaltonetworks.com/blog/2026/10/millions-of-php-instances-exposed-what-organizations-need-to-do-right-now/",
-      "count7d": 4
+      "count7d": 2
     }
   },
   "nvd": {
