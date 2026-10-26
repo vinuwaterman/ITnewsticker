@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T05:49:36.918Z",
+  "generatedAt": "2026-10-26T12:24:12.373Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF Helping You Respond to PHP2Shell",
-      "date": "2026-10-23",
-      "summary": "(Day 17 of 22 in our Cybersecurity Awareness Month series. Today: responding to a busy week of vulnerabilities) For information on Broadcom products and the PHP2Shell vulnerabilities, see https://www.broadcom.com/php2shell. We are deviating from our posted schedule a little bit to talk about the events of this week: a lot of vulnerability news at once, including &#8230; Continued The post VCF Helping You Respond to PHP2Shell appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/23/vulnerability-response-vcf-php2shell/",
+      "title": "AI時代のプライベートクラウド多層防御： VMware Cloud Foundation®で実現する仮想基盤の堅牢化とリスク低減策（第1回）",
+      "date": "2026-10-26",
+      "summary": "近年、生成AIをはじめとするフロンティアAI技術の進化は、ビジネスの効率化だけでなく、サイバーセキュリティの領域にも劇的な変化をもたらしています。防御側がAIを活用する一方で、攻撃者もAIを用いた高度な脆弱性探索や攻撃コードの自動生成を行うようになっています。本ブログシリーズでは、全2回にわたり「AI時代のセキュリティ対策」をテーマに、インフラのあらゆる階層で脅威を食い止める「多層防御」の実践的なアプローチを解説します。 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー 第1回（本記事）：AI時代のプライベートクラウド多層防御、VMware Cloud Foundation®で実現する仮想基盤の堅牢化とリスク低減策 プライベートクラウド環境における「多層防御」の重要性と、最新のVMware Cloud Foundation® (VCF) を活用したインフラ基盤における「7つの防御層」の実装ポイントを解説します。 第2回：仮想パッチを用いたセキュリティパッチ適用までの「猶予期間」の消滅 vDefendによる「分散IDS/IPS」およびVMware® Avi™ Load Balancer WAFを用いた攻撃遮断の技術解説、およびダウンタイム不要・運用コスト削減のメリットについてお届けします。 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー 1. AI時代のセキュリティ対策の心構え：フロンティアAIから学んだ教訓 AI時代におけるセキュリティの最大の変更点は、これまでの「リスク評価（トリアージ）」や「対策の猶予期間」といった前提条件が通用しなくなっている点にあります。Broadcomが実施したフロンティアAIモデルを用いたコードテストの成果からは、以下の深刻な教訓が明らかになっています。 ■ 攻撃の連鎖による「トリアージ（優先順位付け）」概念の崩壊 従来のセキュリティ運用では、発見された脆弱性をリスクの高さに応じて分類し、低リスクのものは対応を後回しにする優先順位付け（トリアージ）が一般的でした。しかし、高度なAIは「人間が一生かけても気づかないような、コードの遠く離れた場所にある要素同士の相関すらも見抜く」能力を持っています。その結果、2〜3個の「低リスクな問題」を組み合わせ・連鎖させて、1つの「致命的な攻撃パス」を作り出すことができるようになりました。これにより、「リスクの低いものは後回し」というこれまでのトリアージ概念は通用しなくなっています。 ■ 「猶予期間」の消滅 これまでは、脆弱性が公開されてから実際にそれを悪用するコードが作成されるまでに、数週間から数ヶ月の「猶予期間」がありました。しかし、AIの導入によって、このプロセスは「数週間」から「ほぼリアルタイム」に短縮されています。防御側の勝ち筋は、選別の正確さではなく、「パッチ適用の速度」や「即座に通信を遮断・制御できる能力」にかかっています。 このような状況下では、アプリケーションやミドルウェアを意識したうえで、それらが稼働するインフラ（仮想基盤）そのものの重要性を再認識し、ハードニング（要塞化）を徹底する「内部防御」および「多層防御」が極めて重要になります。 ■ 拡大する「保護すべき対象」 フロンティアAIの進化によって「攻撃の連鎖」や「全自動攻撃」が現実のものとなる中、企業がセキュリティ面で考慮すべき領域は劇的に拡大しています。サイバーセキュリティを取り巻く環境の変化に伴い、保護すべき対象はこれまでの「オンプレミス単一環境」から、「マルチクラウド」、そして「エッジ・プライベートAI基盤」へと広がっています。 このような保護対象の拡大は、攻撃者の手法が日々巧妙化していることに起因しています。攻撃側の変化・進化に合わせて、企業に求められるサイバーセキュリティ対策にも必然的に高度化が求められており、その変遷は大きく以下の3つのフェーズに分けることができます。 ・一般的に従来求められてきたサイバーセキュリティ：オンプレミス単一環境（境界型防御） 保護対象がオンプレミスの単一境界に限られ、境界に対する直接攻撃を防ぐ対策が主流でした。防御までの猶予期間も3ヶ月以上あり、境界型の防御手法で一定の対応が可能でした。 ・フロンティアAI登場前のサイバーセキュリティ：マルチクラウドへの拡張と横移動への対策 保護対象がマルチクラウドへ拡張し、境界突破後に内部で潜伏・感染を広げる攻撃が急増しました。対応猶予が3ヶ月以内に縮小する中、分散F/WやNDR等を活用した内部監視・防御策が必要となりました。 ・フロンティアAI登場後のサイバーセキュリティ：エッジ・プライベートAI基盤を含む全方位の保護 重要なデータを扱うエッジ・プライベートAI基盤へと対象が広がり、猶予なしの全自動攻撃が発生しています。高度な多層防御に加え、EDRやクリーンルーム等を連携させた迅速な復旧体制が不可欠です。 &#160; 2. プライベートクラウドにおける堅牢化のポイント：多層防御によるダメージコントロール 仮想基盤におけるセキュリティ対策は、単一の壁を作るのではなく、複数の防御層を重ねることで、侵入防止と万が一侵入された際のダメージコントロールを両立させる「多層防御」が基本となります。VMware vSphere® 環境において実装すべき7つの防御層の具体策を以下にご紹介します。 ■ 多層防御によるダメージコントロール（7階層） 第1層 経路の適正運用 【概要】 North-South の経路制限・侵入防止・侵入検知 プライベートクラウドにおける「第1層」は、外部ネットワークと内部仮想基盤を結ぶ境界線、すなわち North-South（南北）トラフィック の防御を担います。ここでの目的は、基盤を管理する「心臓部」をインターネットの脅威から物理的・論理的に隔離し、許可された管理者のみが安全にアクセスできる経路を確立することです。 1. 管理インターフェースの完全隔離 VMware vCenter® &#8230; Continued The post AI時代のプライベートクラウド多層防御： VMware Cloud Foundation®で実現する仮想基盤の堅牢化とリスク低減策（第1回） appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/10/ai-private-cloud-defense-in-depth1.html",
       "count7d": 10
     },
     "AWS": {
@@ -84,11 +84,11 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Why Organizations Secure AI Agents with Falcon Guardian",
+      "title": "Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation",
       "date": "2026-10-23",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/",
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/",
       "count7d": 5
     },
     "Palo Alto Networks": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 2,
+      "count": 3,
       "items": [
         {
           "id": "CVE-2026-114119",
@@ -122,6 +122,14 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96185",
           "kev": false,
           "epss": 0.54
+        },
+        {
+          "id": "CVE-2026-112250",
+          "title": "A vulnerability has been identified in BRAIN2 versions up to and including version 3.09. Under specific installation conditions, the password of a Windows service account may be written in cleartext to a setup log file.…",
+          "date": "2026-10-26",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112250",
+          "kev": false
         }
       ]
     },
