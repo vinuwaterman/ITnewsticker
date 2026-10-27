@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-27T14:49:58.738Z",
+  "generatedAt": "2026-10-27T19:52:43.197Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability",
-      "date": "2026-10-26",
+      "title": "CVE-2026-70277 Windows Fast FAT File System Driver Information Disclosure Vulnerability",
+      "date": "2026-10-27",
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338",
-      "count7d": 27
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70277",
+      "count7d": 33
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Unified Communications Products Security Hardening Release: October 2026",
+      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
       "date": "2026-10-27",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp;P), Cisco Unified Communications Manager Session Management Edition (Unified CM SME), and Cisco Unity Connection have conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Products%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+      "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
       "count7d": 17
     },
     "VMware": {
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Will Your Recovery Plan Survive a Ransomware Attack?",
+      "title": "Identity Resilience: Protect and Recover Access",
       "date": "2026-10-27",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/will-your-recovery-plan-survive-a-ransomware-attack",
-      "count7d": 19
+      "url": "https://www.dell.com/blog/identity-resilience-protect-and-recover-access",
+      "count7d": 20
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Europe’s AI moment: turning investment into impact",
-      "date": "2026-10-22",
-      "summary": "Europe's AI moment is no longer about access to models, instead it’s about deployment choices. Where should AI run? How should it be governed? How quickly can it reach production? And how do organisations ensure every AI interaction creates more value than it consumes?",
+      "title": "More capability, less complexity: how the managed service provider business model is evolving",
+      "date": "2026-10-27",
+      "summary": "",
       "category": "feature",
-      "url": "https://news.lenovo.com/europes-ai-moment-gtc-berlin-26/",
-      "count7d": 2
+      "url": "https://news.lenovo.com/more-capability-less-complexity-how-the-managed-service-provider-evolving/",
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 3,
+      "count": 7,
       "items": [
         {
           "id": "CVE-2026-114119",
@@ -131,6 +131,22 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112250",
           "kev": false,
           "epss": 0.173
+        },
+        {
+          "id": "CVE-2025-64394",
+          "title": "A vulnerability allowing a low-privileged local user to write arbitrary files with SYSTEM privileges during the installation of Veeam Backup for Microsoft 365, which can lead to privilege escalation or denial of service.",
+          "date": "2026-10-27",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64394",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-106076",
+          "title": "A vulnerability allowing an authenticated organization-transfer peer to inject SQL into the configuration database of the source Veeam Backup for Microsoft 365 server, leading to cross-tenant read and write of configuration data and remote code…",
+          "date": "2026-10-27",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106076",
+          "kev": false
         }
       ]
     },
@@ -149,8 +165,49 @@
       ]
     },
     "Veeam": {
-      "count": 0,
-      "items": []
+      "count": 5,
+      "items": [
+        {
+          "id": "CVE-2025-64394",
+          "title": "A vulnerability allowing a low-privileged local user to write arbitrary files with SYSTEM privileges during the installation of Veeam Backup for Microsoft 365, which can lead to privilege escalation or denial of service.",
+          "date": "2026-10-27",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64394",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-105477",
+          "title": "A vulnerability in Veeam Agent for Linux allows for local privilege escalation. Only installations that are managed by a Veeam Backup & Replication instance are affected.",
+          "date": "2026-10-27",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105477",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-106076",
+          "title": "A vulnerability allowing an authenticated organization-transfer peer to inject SQL into the configuration database of the source Veeam Backup for Microsoft 365 server, leading to cross-tenant read and write of configuration data and remote code…",
+          "date": "2026-10-27",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106076",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-106077",
+          "title": "A vulnerability allowing a user with the Veeam Backup for Microsoft 365 Administrator role to read arbitrary files on the backup server with LocalSystem privileges.",
+          "date": "2026-10-27",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106077",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-106078",
+          "title": "A vulnerability allowing an unauthenticated attacker to bypass REST API authentication with a forged federation token and receive responses from REST API endpoints that do not call the Veeam Backup for Microsoft 365 backup service.",
+          "date": "2026-10-27",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106078",
+          "kev": false
+        }
+      ]
     },
     "Cisco": {
       "count": 45,
