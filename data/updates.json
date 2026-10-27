@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T19:52:43.197Z",
+  "generatedAt": "2026-10-27T23:34:12.537Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70277",
-      "count7d": 33
+      "count7d": 37
     },
     "SAP": {
       "vendor": "SAP",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 7,
+      "count": 10,
       "items": [
         {
           "id": "CVE-2026-114119",
@@ -115,6 +115,30 @@
           "epss": 0.428
         },
         {
+          "id": "CVE-2026-83831",
+          "title": "Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-27",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83831",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-85898",
+          "title": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-27",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85898",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-62765",
+          "title": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-27",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62765",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-96185",
           "title": "Stack-based buffer overflow in Microsoft Exchange Online allows an authorized attacker to execute code over a network.",
           "date": "2026-10-22",
@@ -122,47 +146,12 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96185",
           "kev": false,
           "epss": 0.54
-        },
-        {
-          "id": "CVE-2026-112250",
-          "title": "A vulnerability has been identified in BRAIN2 versions up to and including version 3.09. Under specific installation conditions, the password of a Windows service account may be written in cleartext to a setup log file.…",
-          "date": "2026-10-26",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112250",
-          "kev": false,
-          "epss": 0.173
-        },
-        {
-          "id": "CVE-2025-64394",
-          "title": "A vulnerability allowing a low-privileged local user to write arbitrary files with SYSTEM privileges during the installation of Veeam Backup for Microsoft 365, which can lead to privilege escalation or denial of service.",
-          "date": "2026-10-27",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64394",
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-106076",
-          "title": "A vulnerability allowing an authenticated organization-transfer peer to inject SQL into the configuration database of the source Veeam Backup for Microsoft 365 server, leading to cross-tenant read and write of configuration data and remote code…",
-          "date": "2026-10-27",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106076",
-          "kev": false
         }
       ]
     },
     "SAP": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-91492",
-          "title": "Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware (component: SAP ERP+). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via…",
-          "date": "2026-10-20",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91492",
-          "kev": false,
-          "epss": 0.243
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Veeam": {
       "count": 5,
