@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T08:14:40.450Z",
+  "generatedAt": "2026-10-27T14:49:58.738Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,11 +12,11 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Unveils Physical AI and Extends the Autonomous Enterprise into the Real World",
+      "title": "SAP Empowers AI Developers to Build What Matters and Turn Intent into Autonomous Execution",
       "date": "2026-10-27",
-      "summary": "AI has gone from insight to action. With physical AI, it comes into the physical world.",
+      "summary": "BERLIN — SAP SE (NYSE: SAP) today announced a series of AI innovations at its annual SAP TechEd conference that expands its portfolio for developers.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-unveils-physical-ai-extends-autonomous-enterprise-real-world-sap-teched/",
+      "url": "https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/",
       "count7d": 9
     },
     "Veeam": {
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-      "date": "2026-10-26",
-      "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+      "title": "Cisco Unified Communications Products Security Hardening Release: October 2026",
+      "date": "2026-10-27",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp;P), Cisco Unified Communications Manager Session Management Edition (Unified CM SME), and Cisco Unity Connection have conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Products%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
       "count7d": 17
     },
     "VMware": {
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/will-your-recovery-plan-survive-a-ransomware-attack",
-      "count7d": 16
+      "count7d": 19
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -93,12 +93,12 @@
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Millions of PHP Instances Exposed - What Organizations Need To Do Right Now",
-      "date": "2026-10-21",
-      "summary": "Two critical vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619) have been published. Both vulnerabilities carry a severe CVSS score of 9.2 (more technical details are in the Unit 42 Threat Brief). This is &#8230; The post Millions of PHP Instances Exposed - What Organizations Need To Do Right Now appeared first on Palo Alto Networks Blog .",
-      "category": "critical",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/millions-of-php-instances-exposed-what-organizations-need-to-do-right-now/",
-      "count7d": 2
+      "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Privileged Access Management",
+      "date": "2026-10-26",
+      "summary": "For the eighth consecutive time, Palo Alto Networks is recognized as a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Privileged Access Management. Once again, it is positioned furthest along in Completeness &#8230; The post Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Privileged Access Management appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-privileged-access-management/",
+      "count7d": 4
     }
   },
   "nvd": {
@@ -130,7 +130,7 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112250",
           "kev": false,
-          "epss": 0.179
+          "epss": 0.173
         }
       ]
     },
@@ -211,8 +211,49 @@
       "items": []
     },
     "Dell": {
-      "count": 0,
-      "items": []
+      "count": 9,
+      "items": [
+        {
+          "id": "CVE-2026-56084",
+          "title": "Dell PowerProtect Data Domain, Feature Release versions 7.7.1.0 through 8.7, LTS2024 release versions 7.13.1.0 through 7.13.1.80, LTS2025 release versions 8.3.1.0 through 8.3.1.40, LTS2026 release versions 8.6.1.0 through 8.6.1.20, contain a Server-Side Request Forgery (SSRF) vulnerability.…",
+          "date": "2026-10-27",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56084",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-90728",
+          "title": "Dell PowerProtect Data Domain, Feature Release versions 7.7.1.0 through 8.7, LTS2024 release versions 7.13.1.0 through 7.13.1.80, LTS2025 release versions 8.3.1.0 through 8.3.1.40, LTS2026 release versions 8.6.1.0 through 8.6.1.20, contain an Improper Privilege Management vulnerability. A…",
+          "date": "2026-10-27",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90728",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-90729",
+          "title": "Dell PowerProtect Data Domain, Feature Release versions 7.7.1.0 through 8.7, LTS2024 release versions 7.13.1.0 through 7.13.1.80, LTS2025 release versions 8.3.1.0 through 8.3.1.40, LTS2026 release versions 8.6.1.0 through 8.6.1.20, contain an Improper Privilege Management vulnerability. A…",
+          "date": "2026-10-27",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90729",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-90730",
+          "title": "Dell PowerProtect Data Domain, Feature Release versions 7.7.1.0 through 8.7, LTS2024 release versions 7.13.1.0 through 7.13.1.80, LTS2025 release versions 8.3.1.0 through 8.3.1.40, LTS2026 release versions 8.6.1.0 through 8.6.1.20, contain an Improper Access Control vulnerability. An…",
+          "date": "2026-10-27",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90730",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-90731",
+          "title": "Dell PowerProtect Data Domain, Feature Release versions 7.7.1.0 through 8.7, LTS2024 release versions 7.13.1.0 through 7.13.1.80, LTS2025 release versions 8.3.1.0 through 8.3.1.40, LTS2026 release versions 8.6.1.0 through 8.6.1.20, contain a Stack-based Buffer Overflow vulnerability. A…",
+          "date": "2026-10-27",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90731",
+          "kev": false
+        }
+      ]
     },
     "Fortinet": {
       "count": 2,
@@ -223,7 +264,8 @@
           "date": "2026-10-26",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107656",
-          "kev": false
+          "kev": false,
+          "epss": 0.851
         },
         {
           "id": "CVE-2026-106174",
@@ -231,7 +273,8 @@
           "date": "2026-10-27",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106174",
-          "kev": false
+          "kev": false,
+          "epss": 0.28200000000000003
         }
       ]
     },
