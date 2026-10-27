@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T02:19:51.704Z",
+  "generatedAt": "2026-10-27T08:14:40.450Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,21 +12,21 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "AI Release Highlights Q3 2026",
-      "date": "2026-10-26",
-      "summary": "The quarter marks a major step in delivering on our promise of the Autonomous Enterprise.",
+      "title": "SAP Unveils Physical AI and Extends the Autonomous Enterprise into the Real World",
+      "date": "2026-10-27",
+      "summary": "AI has gone from insight to action. With physical AI, it comes into the physical world.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/ai-release-highlights-q3-2026/",
-      "count7d": 5
+      "url": "https://news.sap.com/2026/10/sap-unveils-physical-ai-extends-autonomous-enterprise-real-world-sap-teched/",
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "What Is ROT Data? A 6 Step Guide to Automating Data Minimization",
-      "date": "2026-10-22",
-      "summary": "Every enterprise knows roughly what its storage costs, but far fewer know how much of that storage is holding data nobody will open again. The post What Is ROT Data? A 6 Step Guide to Automating Data Minimization appeared first on Veeam Software Official Blog .",
+      "title": "AI Agent Safety Needs Boundaries and Trusted, Recoverable Data",
+      "date": "2026-10-27",
+      "summary": "For 20 years, the resilience question Veeam answered was simple: Can I recover? In the agentic AI era, the question now is whether you can tell precisely what was affected, who or what touched it, and how to get back to a trusted state. Agents run for hours or days at a time, with the autonomy to reason through logical steps and make decisions without human oversight. They're also adept at finding novel paths to their goals — paths that…",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/rot-data-minimization.html",
-      "count7d": 2
+      "url": "https://www.veeam.com/blog/ai-agent-safety-trusted-recoverable-data.html",
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -215,7 +215,7 @@
       "items": []
     },
     "Fortinet": {
-      "count": 1,
+      "count": 2,
       "items": [
         {
           "id": "CVE-2026-107656",
@@ -223,6 +223,14 @@
           "date": "2026-10-26",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107656",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-106174",
+          "title": "A improper locking vulnerability in Fortinet FortiOS 8.0.0, FortiOS 7.6.4 through 7.6.6 may allow an unauthenticated attacker with network access to the device to cause a denial of service of the HTTPS management interface via…",
+          "date": "2026-10-27",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106174",
           "kev": false
         }
       ]
