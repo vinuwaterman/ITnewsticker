@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-28T17:01:38.528Z",
+  "generatedAt": "2026-10-28T21:50:24.358Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-70277 Windows Fast FAT File System Driver Information Disclosure Vulnerability",
-      "date": "2026-10-27",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-62740 Windows Imaging Component Information Disclosure Vulnerability",
+      "date": "2026-10-28",
+      "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this vulnerability.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70277",
-      "count7d": 32
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62740",
+      "count7d": 331
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,21 +21,21 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Data backup and recovery: backup vs. replication and when to use both",
+      "title": "The Silent Ransom Group Leak Shows Why Paying for Silence Fails",
       "date": "2026-10-28",
-      "summary": "Your jobs completed last night. Retention is enforced, repositories are provisioned, and the dashboard has been green all week. None of that answers the two questions you'll get in the first 10 minutes of an incident: How fast can we be back? And back to what? The post Data backup and recovery: backup vs. replication and when to use both appeared first on Veeam Software Official Blog .",
+      "summary": "The third quarter of 2026 reinforced a decisive shift in the threat environment: ransomware is increasingly shedding the “ware” in favor of pure, low-friction data extortion. Nowhere was this clearer than in the recent high-profile leak of internal chat logs belonging to the Silent Ransom Group. The leaked communications revealed threat actors who have largely abandoned network-wide encryption binaries in favor of direct cloud and SaaS exfiltration, aggressive social engineering, and targeted physical insider attacks. By removing the costly, labor-intensive…",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/data-backup-and-recovery.html",
-      "count7d": 4
+      "url": "https://www.veeam.com/blog/cyber-extortion-payment-trends-q3-2026.html",
+      "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+      "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
       "date": "2026-10-28",
-      "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:&nbsp; CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the advisories GHSA-w8hw-w9fx-j79w and GHSA-6wmf-4rv5-p3rp . These vulnerabilities are being referenced as PHP2shell. For information about Splunk products and offerings, see Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Splunk Products - October 2026 . Important: If a product is not listed within this…",
+      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory:&nbsp; CVE-2026-111497 - Brotli decoder out-of-bounds…",
       "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "count7d": 12
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "count7d": 13
     },
     "VMware": {
       "vendor": "VMware",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-legal-threat-landscape-report/",
-      "count7d": 3
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,8 +103,16 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 9,
+      "count": 10,
       "items": [
+        {
+          "id": "CVE-2026-118641",
+          "title": "n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 contains an OData $filter injection vulnerability in the Microsoft Outlook contact lookup and Microsoft SharePoint v1 item update nodes, which build $filter string literals from…",
+          "date": "2026-10-28",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118641",
+          "kev": false
+        },
         {
           "id": "CVE-2026-83831",
           "title": "Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
@@ -140,15 +148,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96185",
           "kev": false,
           "epss": 0.54
-        },
-        {
-          "id": "CVE-2026-112250",
-          "title": "A vulnerability has been identified in BRAIN2 versions up to and including version 3.09. Under specific installation conditions, the password of a Windows service account may be written in cleartext to a setup log file.…",
-          "date": "2026-10-26",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112250",
-          "kev": false,
-          "epss": 0.173
         }
       ]
     },
@@ -207,52 +206,51 @@
       ]
     },
     "Cisco": {
-      "count": 45,
+      "count": 13,
       "items": [
         {
-          "id": "CVE-2026-20043",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening…",
+          "id": "CVE-2026-76299",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, Cisco has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities. The…",
           "date": "2026-10-21",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20043",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76299",
           "kev": false,
-          "epss": 0.364
+          "epss": 0.329
         },
         {
-          "id": "CVE-2026-76466",
-          "title": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as&nbsp;root. This vulnerability is…",
+          "id": "CVE-2026-76301",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, Cisco has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities. The…",
           "date": "2026-10-21",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76301",
           "kev": false,
-          "epss": 0.41700000000000004
+          "epss": 0.382
         },
         {
-          "id": "CVE-2026-76473",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence…",
+          "id": "CVE-2026-76302",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, Cisco has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities. The…",
           "date": "2026-10-21",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76473",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76302",
           "kev": false,
-          "epss": 0.49
+          "epss": 0.4
         },
         {
-          "id": "CVE-2026-76474",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence…",
+          "id": "CVE-2026-76531",
+          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, Cisco has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities. The…",
           "date": "2026-10-21",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76474",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76531",
           "kev": false,
-          "epss": 0.47400000000000003
+          "epss": 0.407
         },
         {
-          "id": "CVE-2026-76475",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM &amp; Presence…",
-          "date": "2026-10-21",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76475",
-          "kev": false,
-          "epss": 0.326
+          "id": "CVE-2026-76418",
+          "title": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the…",
+          "date": "2026-10-28",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+          "kev": false
         }
       ]
     },
