@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T10:45:43.197Z",
+  "generatedAt": "2026-10-28T17:01:38.528Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,38 +12,38 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP and NTT to Cooperate on Delivering Trusted Sovereign Cloud and SAP Business AI Capabilities",
+      "title": "SAP TechEd in 2026: SAP Tells Developers “You Can Build the Autonomous Enterprise”",
       "date": "2026-10-28",
-      "summary": "TOKYO — The companies share the ambition to advance secure, resilient and sovereign digital transformation for regulated industries.",
+      "summary": "With comprehensive AI tools and the SAP Business AI Platform, developers, customers, and partners can build the Autonomous Enterprise.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-ntt-to-cooperate-deliver-trusted-sovereign-cloud-sap-business-ai-capabilities/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/10/sap-teched-developers-you-can-build-autonomous-enterprise/",
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Multicloud Backup Without the Silos",
+      "title": "Data backup and recovery: backup vs. replication and when to use both",
       "date": "2026-10-28",
-      "summary": "Most multicloud environments weren't planned. They grew with one smart decision at a time: AWS here, Azure there, and on-premises where it made the most sense. The post Multicloud Backup Without the Silos appeared first on Veeam Software Official Blog .",
+      "summary": "Your jobs completed last night. Retention is enforced, repositories are provisioned, and the dashboard has been green all week. None of that answers the two questions you'll get in the first 10 minutes of an incident: How fast can we be back? And back to what? The post Data backup and recovery: backup vs. replication and when to use both appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/unified-multicloud-protection.html",
-      "count7d": 3
+      "url": "https://www.veeam.com/blog/data-backup-and-recovery.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Vulnerabilities in node.js Affecting Cisco Products: October 2026",
-      "date": "2026-10-27",
-      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds…",
+      "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+      "date": "2026-10-28",
+      "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:&nbsp; CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the advisories GHSA-w8hw-w9fx-j79w and GHSA-6wmf-4rv5-p3rp . These vulnerabilities are being referenced as PHP2shell. For information about Splunk products and offerings, see Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Splunk Products - October 2026 . Important: If a product is not listed within this…",
       "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "count7d": 11
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "count7d": 12
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "導入事例：アイテック阪急阪神様",
+      "title": "New Whitepaper: Architecting a Governed, Multi-Tenant Private AI Cloud with VCF 9",
       "date": "2026-10-28",
-      "summary": "阪急阪神東宝グループにおけるIT分野を担うシステムインテグレーターとして、鉄道の運行管理や医療システムなど社会基盤を支えるソリューションを提供するアイテック阪急阪神株式会社様。本日はVMware®の伴走支援サービス（TAM/CES）を活用した事例をご紹介いたします。 同社では10年以上にわたりVMware vSphere®で仮想基盤を運用し、事業拡大とともに規模を拡張されてきました。しかし、ハードウェア更改を契機とした基盤統合にあたり、年間約1,400件にも及ぶ膨大な脆弱性情報の精査が追いつかず、客観的なベストプラクティスが不明なまま運用が属人化してしまうという課題に直面していました。この「情報過多による負担」と「少人数運用の限界」を打破したのが、弊社VMwareのTAM（Technical Adoption Manager）およびCES（Consulting Expert Service）による伴走支援です。 脆弱性情報の精査工数を「87%削減」 年間1,400件におよぶ技術情報から、同社の環境に影響があるものだけをVMware側で事前に絞り込んで提示。起因するポイントや回避策がセットで提供されるため、調査工数が大幅に圧縮され、確実に対応すべき重要タスクに集中できる体制を確立しました。 定期ヘルスチェックによる健全性の維持と工数削減 TAMが提供する専用ツールを活用し、クラスタの一貫性など180項目に及ぶ環境チェックを定期実施。通常であれば1基盤あたり10日以上を要していた点検作業を大幅に削減しながら、最適な基盤状態の維持を実現しています。 ナレッジ共有による運用の平準化と次世代基盤への展望 TAMから提供されたフォーマットをベースに課内共有ツールへ手順や知見を蓄積し、属人化しがちだった障害アラート対応を平準化。今後はVMware Cloud Foundation（VCF）への刷新も見据え、運用の自動化やさらなるセキュリティ強化を推進しています。 さらなる詳細については、以下のPDFをダウンロードの上、ご参照ください。 アイテック阪急阪神様導入事例をダウンロード The post 導入事例：アイテック阪急阪神様 appeared first on VMware Japan Blog. The post 導入事例：アイテック阪急阪神様 appeared first on VMware Blogs .",
+      "summary": "Multi-Tenancy Is the Engine of the Modern Private AI Cloud The private cloud is undergoing a profound transformation. Today&#8217;s enterprise IT organizations are tasked with supporting diverse, resource-intensive workloads, spanning AI, Kubernetes / containers, and virtual machines, on shared infrastructure. Simultaneously, they must enforce strict isolation between business divisions, developers, or external clients. When isolation &#8230; Continued The post New Whitepaper: Architecting a Governed, Multi-Tenant Private AI Cloud with VCF 9 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/10/customer-case-studies_itec.html",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/28/new-whitepaper-architecting-a-governed-multi-tenant-private-ai-cloud-with-vcf-9/",
       "count7d": 10
     },
     "AWS": {
@@ -57,39 +57,39 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Identity Resilience: Protect and Recover Access",
-      "date": "2026-10-27",
+      "title": "The Hidden ROI in Your PC Lifecycle",
+      "date": "2026-10-28",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/identity-resilience-protect-and-recover-access",
-      "count7d": 11
+      "url": "https://www.dell.com/blog/the-hidden-roi-in-your-pc-lifecycle",
+      "count7d": 15
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "More capability, less complexity: how the managed service provider business model is evolving",
-      "date": "2026-10-27",
-      "summary": "",
+      "title": "Lenovo Named a Top Company for Women in 2026",
+      "date": "2026-10-28",
+      "summary": "Ranked #18 globally by Forbes, reinforcing the company’s commitment to building a workplace where women can grow, lead, and succeed.",
       "category": "feature",
-      "url": "https://news.lenovo.com/more-capability-less-complexity-how-the-managed-service-provider-evolving/",
-      "count7d": 3
+      "url": "https://news.lenovo.com/pressroom/press-releases/named-a-top-company-for-women-in-2026/",
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "PHP2Shell core RCE vulnerability patches (CVE-2026-109618 and CVE-2026-109619)",
-      "date": "2026-10-21",
-      "summary": "CVSSv3 Score: 9.8 CVE-2026-109618PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).CVE-2026-109619PHP has various global state that temporarily points into request memory. In…",
+      "title": "Node2Shell CVEs",
+      "date": "2026-10-26",
+      "summary": "CVSSv3 Score: 9.8 CVE-2026-105482 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105483 - (high)This vulnerability affects Node.js 26.x and 24.x.CVE-2026-106069 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-111497 - (high)A flaw in Node.js can cause Node.js Brotli decoder out-of-bounds write permits remote code execution.This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105481 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106072 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106074 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106070…",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-186",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-187",
       "count7d": 1
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Why Organizations Secure AI Agents with Falcon Guardian",
-      "date": "2026-10-23",
+      "title": "CrowdStrike 2026 Legal Threat Landscape Report: eCrime Leads Attacks, China Activity Intensifies",
+      "date": "2026-10-28",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/",
-      "count7d": 2
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-legal-threat-landscape-report/",
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -111,7 +111,8 @@
           "date": "2026-10-27",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83831",
-          "kev": false
+          "kev": false,
+          "epss": 0.767
         },
         {
           "id": "CVE-2026-85898",
@@ -119,7 +120,8 @@
           "date": "2026-10-27",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85898",
-          "kev": false
+          "kev": false,
+          "epss": 0.767
         },
         {
           "id": "CVE-2026-62765",
@@ -127,7 +129,8 @@
           "date": "2026-10-27",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62765",
-          "kev": false
+          "kev": false,
+          "epss": 0.438
         },
         {
           "id": "CVE-2026-96185",
@@ -162,7 +165,8 @@
           "date": "2026-10-27",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64394",
-          "kev": false
+          "kev": false,
+          "epss": 0.107
         },
         {
           "id": "CVE-2026-105477",
@@ -170,7 +174,8 @@
           "date": "2026-10-27",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105477",
-          "kev": false
+          "kev": false,
+          "epss": 0.131
         },
         {
           "id": "CVE-2026-106076",
@@ -178,7 +183,8 @@
           "date": "2026-10-27",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106076",
-          "kev": false
+          "kev": false,
+          "epss": 0.367
         },
         {
           "id": "CVE-2026-106077",
@@ -186,7 +192,8 @@
           "date": "2026-10-27",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106077",
-          "kev": false
+          "kev": false,
+          "epss": 0.22899999999999998
         },
         {
           "id": "CVE-2026-106078",
@@ -194,7 +201,8 @@
           "date": "2026-10-27",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106078",
-          "kev": false
+          "kev": false,
+          "epss": 0.261
         }
       ]
     },
@@ -257,7 +265,7 @@
       "items": []
     },
     "Dell": {
-      "count": 36,
+      "count": 45,
       "items": [
         {
           "id": "CVE-2026-86397",
@@ -265,7 +273,8 @@
           "date": "2026-10-28",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86397",
-          "kev": false
+          "kev": false,
+          "epss": 0.336
         },
         {
           "id": "CVE-2026-86400",
@@ -273,7 +282,8 @@
           "date": "2026-10-28",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86400",
-          "kev": false
+          "kev": false,
+          "epss": 0.8959999999999999
         },
         {
           "id": "CVE-2026-90717",
@@ -281,7 +291,8 @@
           "date": "2026-10-28",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90717",
-          "kev": false
+          "kev": false,
+          "epss": 0.233
         },
         {
           "id": "CVE-2026-86395",
@@ -289,7 +300,8 @@
           "date": "2026-10-28",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86395",
-          "kev": false
+          "kev": false,
+          "epss": 2.186
         },
         {
           "id": "CVE-2026-86396",
@@ -297,7 +309,8 @@
           "date": "2026-10-28",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86396",
-          "kev": false
+          "kev": false,
+          "epss": 2.168
         }
       ]
     },
