@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:36:45.886Z",
+  "generatedAt": "2026-10-29T08:08:11.875Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,12 +21,12 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "The Silent Ransom Group Leak Shows Why Paying for Silence Fails",
-      "date": "2026-10-28",
-      "summary": "The third quarter of 2026 reinforced a decisive shift in the threat environment: ransomware is increasingly shedding the “ware” in favor of pure, low-friction data extortion. Nowhere was this clearer than in the recent high-profile leak of internal chat logs belonging to the Silent Ransom Group. The leaked communications revealed threat actors who have largely abandoned network-wide encryption binaries in favor of direct cloud and SaaS exfiltration, aggressive social engineering, and targeted physical insider attacks. By removing the costly, labor-intensive…",
+      "title": "Meet Veeam Kasten at KubeCon + CloudNativeCon North America 2026",
+      "date": "2026-10-29",
+      "summary": "Kubernetes runs production AI now, along with nearly everything else. This November, the cloud native community will meet in Salt Lake City to discuss what it takes to run that infrastructure well, and Veeam Kasten will be there. Join us at Booth 187, Hall 1, in the Salt Palace Convention Center, Nov. 10–12. The post Meet Veeam Kasten at KubeCon + CloudNativeCon North America 2026 appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/cyber-extortion-payment-trends-q3-2026.html",
-      "count7d": 4
+      "url": "https://www.veeam.com/blog/veeam-kasten-kubecon-north-america-2026.html",
+      "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "The 13-Hour Collapse: Why Frontier AI Demands the End of Periodic Patching",
-      "date": "2026-10-28",
-      "summary": "To survive the era of Frontier AI, patching can no longer be an ad-hoc calendar event. It must become a continuous, automated platform response. Organizations must shift to a continuous platform control loop. By adopting a pre-engineered architecture, the undifferentiated heavy lifting of staying secure is built-in natively, rather than built by you. The post &#8230; Continued The post The 13-Hour Collapse: Why Frontier AI Demands the End of Periodic Patching appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/tanzu/the-13-hour-collapse-why-frontier-ai-demands-the-end-of-periodic-patching/",
+      "title": "Not About Backups, It’s About Restores",
+      "date": "2026-10-29",
+      "summary": "Years ago, a new backup product came to market. The product name featured the words “Backup and Restore.” I remember asking one of their salespeople, “Isn’t that kind of wordy?” He turned and asked me, “Yes, but have you used backup products that ONLY have backup in the name…and did the restores always work?” He &#8230; Continued The post Not About Backups, It’s About Restores appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/28/not-about-backups-its-about-restores/",
       "count7d": 10
     },
     "AWS": {
