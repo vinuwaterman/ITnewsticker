@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T21:50:24.358Z",
+  "generatedAt": "2026-10-29T01:36:45.886Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this vulnerability.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62740",
-      "count7d": 331
+      "count7d": 323
     },
     "SAP": {
       "vendor": "SAP",
@@ -26,24 +26,24 @@
       "summary": "The third quarter of 2026 reinforced a decisive shift in the threat environment: ransomware is increasingly shedding the “ware” in favor of pure, low-friction data extortion. Nowhere was this clearer than in the recent high-profile leak of internal chat logs belonging to the Silent Ransom Group. The leaked communications revealed threat actors who have largely abandoned network-wide encryption binaries in favor of direct cloud and SaaS exfiltration, aggressive social engineering, and targeted physical insider attacks. By removing the costly, labor-intensive…",
       "category": "feature",
       "url": "https://www.veeam.com/blog/cyber-extortion-payment-trends-q3-2026.html",
-      "count7d": 5
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
       "date": "2026-10-28",
-      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory:&nbsp; CVE-2026-111497 - Brotli decoder out-of-bounds…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "count7d": 13
+      "summary": "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system. This vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to an affected system. A successful exploit could…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+      "count7d": 8
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "New Whitepaper: Architecting a Governed, Multi-Tenant Private AI Cloud with VCF 9",
+      "title": "The 13-Hour Collapse: Why Frontier AI Demands the End of Periodic Patching",
       "date": "2026-10-28",
-      "summary": "Multi-Tenancy Is the Engine of the Modern Private AI Cloud The private cloud is undergoing a profound transformation. Today&#8217;s enterprise IT organizations are tasked with supporting diverse, resource-intensive workloads, spanning AI, Kubernetes / containers, and virtual machines, on shared infrastructure. Simultaneously, they must enforce strict isolation between business divisions, developers, or external clients. When isolation &#8230; Continued The post New Whitepaper: Architecting a Governed, Multi-Tenant Private AI Cloud with VCF 9 appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/28/new-whitepaper-architecting-a-governed-multi-tenant-private-ai-cloud-with-vcf-9/",
+      "summary": "To survive the era of Frontier AI, patching can no longer be an ad-hoc calendar event. It must become a continuous, automated platform response. Organizations must shift to a continuous platform control loop. By adopting a pre-engineered architecture, the undifferentiated heavy lifting of staying secure is built-in natively, rather than built by you. The post &#8230; Continued The post The 13-Hour Collapse: Why Frontier AI Demands the End of Periodic Patching appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/tanzu/the-13-hour-collapse-why-frontier-ai-demands-the-end-of-periodic-patching/",
       "count7d": 10
     },
     "AWS": {
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/the-hidden-roi-in-your-pc-lifecycle",
-      "count7d": 15
+      "count7d": 13
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Ranked #18 globally by Forbes, reinforcing the company’s commitment to building a workplace where women can grow, lead, and succeed.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/named-a-top-company-for-women-in-2026/",
-      "count7d": 4
+      "count7d": 2
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -206,44 +206,8 @@
       ]
     },
     "Cisco": {
-      "count": 13,
+      "count": 1,
       "items": [
-        {
-          "id": "CVE-2026-76299",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, Cisco has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities. The…",
-          "date": "2026-10-21",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76299",
-          "kev": false,
-          "epss": 0.329
-        },
-        {
-          "id": "CVE-2026-76301",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, Cisco has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities. The…",
-          "date": "2026-10-21",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76301",
-          "kev": false,
-          "epss": 0.382
-        },
-        {
-          "id": "CVE-2026-76302",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, Cisco has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities. The…",
-          "date": "2026-10-21",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76302",
-          "kev": false,
-          "epss": 0.4
-        },
-        {
-          "id": "CVE-2026-76531",
-          "title": "As part of Cisco's ongoing commitment to proactive security and product quality, Cisco has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities. The…",
-          "date": "2026-10-21",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76531",
-          "kev": false,
-          "epss": 0.407
-        },
         {
           "id": "CVE-2026-76418",
           "title": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the…",
