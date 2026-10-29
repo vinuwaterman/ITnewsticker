@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T15:26:27.888Z",
+  "generatedAt": "2026-10-29T20:28:15.259Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Recover From the Attacks You Don’t Detect",
+      "title": "5 levels of resilience maturity in education",
       "date": "2026-10-29",
-      "summary": "Imagine you’ve bought the best home security system money can buy. Cameras on every entrance. Motion sensors in every room. Alarms on every door and window. You open the app and everything is green. The post Recover From the Attacks You Don’t Detect appeared first on Veeam Software Official Blog .",
-      "category": "patch",
-      "url": "https://www.veeam.com/blog/recover-from-undetected-attacks.html",
+      "summary": "Every education institution that has experienced a ransomware attack can point to the moment its systems came back online. Far fewer can demonstrate, with evidence, that the recovered data was accurate, uncompromised, and safe to put back in front of students, faculty, and regulators. The post 5 levels of resilience maturity in education appeared first on Veeam Software Official Blog .",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/education-resilience-maturity-confidence-gap.html",
       "count7d": 5
     },
     "Cisco": {
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Not About Backups, It’s About Restores",
+      "title": "Security Features Inside the Virtual Machine",
       "date": "2026-10-29",
-      "summary": "Years ago, a new backup product came to market. The product name featured the words “Backup and Restore.” I remember asking one of their salespeople, “Isn’t that kind of wordy?” He turned and asked me, “Yes, but have you used backup products that ONLY have backup in the name…and did the restores always work?” He &#8230; Continued The post Not About Backups, It’s About Restores appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/28/not-about-backups-its-about-restores/",
+      "summary": "(Day 18 of 22 in our Cybersecurity Awareness Month series. Today: VM security features) Most of this series so far has focused on the infrastructure itself: hardware, hosts, management, and the networks in between. The virtual machines running on that infrastructure have security features of their own, though. Many of them sit unused simply because &#8230; Continued The post Security Features Inside the Virtual Machine appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/29/vm-security-features/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "From Solution Prototype to Real-World Deployment: Flora Phyo's Impact on Smart City Solutions",
-      "date": "2026-10-29",
+      "title": "Who Owns AI Resilience? AI Recovery, Identity and Accountability",
+      "date": "2026-10-30",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/from-solution-prototype-to-real-world-deployment-flora-phyo-s-impact-on-smart-city-solutions",
-      "count7d": 15
+      "url": "https://www.dell.com/blog/who-owns-ai-resilience-ai-recovery-identity-and-accountability",
+      "count7d": 17
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike 2026 Legal Threat Landscape Report: eCrime Leads Attacks, China Activity Intensifies",
-      "date": "2026-10-28",
+      "title": "New Prompt Injection Techniques Cover Agent-Planning Attacks",
+      "date": "2026-10-29",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-legal-threat-landscape-report/",
-      "count7d": 4
+      "url": "https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/",
+      "count7d": 5
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,52 +103,47 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 10,
+      "count": 24,
       "items": [
         {
-          "id": "CVE-2026-118641",
-          "title": "n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 contains an OData $filter injection vulnerability in the Microsoft Outlook contact lookup and Microsoft SharePoint v1 item update nodes, which build $filter string literals from…",
-          "date": "2026-10-28",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118641",
-          "kev": false,
-          "epss": 0.296
-        },
-        {
-          "id": "CVE-2026-83831",
+          "id": "CVE-2026-85890",
           "title": "Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-27",
+          "date": "2026-10-29",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83831",
-          "kev": false,
-          "epss": 0.767
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85890",
+          "kev": false
         },
         {
-          "id": "CVE-2026-85898",
-          "title": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-27",
+          "id": "CVE-2026-85897",
+          "title": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-10-29",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85898",
-          "kev": false,
-          "epss": 0.767
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85897",
+          "kev": false
         },
         {
-          "id": "CVE-2026-62765",
-          "title": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-27",
+          "id": "CVE-2026-85899",
+          "title": "Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges over a network.",
+          "date": "2026-10-29",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62765",
-          "kev": false,
-          "epss": 0.438
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85899",
+          "kev": false
         },
         {
-          "id": "CVE-2026-96185",
-          "title": "Stack-based buffer overflow in Microsoft Exchange Online allows an authorized attacker to execute code over a network.",
-          "date": "2026-10-22",
+          "id": "CVE-2026-88077",
+          "title": "Integer overflow or wraparound in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-10-29",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96185",
-          "kev": false,
-          "epss": 0.54
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88077",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-96187",
+          "title": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network.",
+          "date": "2026-10-29",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96187",
+          "kev": false
         }
       ]
     },
@@ -215,7 +210,7 @@
           "date": "2026-10-28",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
-          "kev": false,
+          "kev": true,
           "epss": 0.5740000000000001
         }
       ]
