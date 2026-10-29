@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-10-29T08:08:11.875Z",
+  "generatedAt": "2026-10-29T15:26:27.888Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-62740 Windows Imaging Component Information Disclosure Vulnerability",
-      "date": "2026-10-28",
-      "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this vulnerability.",
+      "title": "CVE-2026-88078 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "date": "2026-10-29",
+      "summary": "CWE added. Informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62740",
-      "count7d": 323
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88078",
+      "count7d": 324
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP TechEd in 2026: SAP Tells Developers “You Can Build the Autonomous Enterprise”",
-      "date": "2026-10-28",
-      "summary": "With comprehensive AI tools and the SAP Business AI Platform, developers, customers, and partners can build the Autonomous Enterprise.",
+      "title": "Advancing SAP Lakehouse and New Data Fabric Innovations in SAP Business Data Cloud for the Autonomous Enterprise",
+      "date": "2026-10-29",
+      "summary": "Enterprises can build AI agents act with greater autonomy and confidence.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-teched-developers-you-can-build-autonomous-enterprise/",
-      "count7d": 9
+      "url": "https://news.sap.com/2026/10/sap-lakehouse-new-data-fabric-innovations-sap-bdc-autonomous-enterprise/",
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Meet Veeam Kasten at KubeCon + CloudNativeCon North America 2026",
+      "title": "Recover From the Attacks You Don’t Detect",
       "date": "2026-10-29",
-      "summary": "Kubernetes runs production AI now, along with nearly everything else. This November, the cloud native community will meet in Salt Lake City to discuss what it takes to run that infrastructure well, and Veeam Kasten will be there. Join us at Booth 187, Hall 1, in the Salt Palace Convention Center, Nov. 10–12. The post Meet Veeam Kasten at KubeCon + CloudNativeCon North America 2026 appeared first on Veeam Software Official Blog .",
-      "category": "feature",
-      "url": "https://www.veeam.com/blog/veeam-kasten-kubecon-north-america-2026.html",
+      "summary": "Imagine you’ve bought the best home security system money can buy. Cameras on every entrance. Motion sensors in every room. Alarms on every door and window. You open the app and everything is green. The post Recover From the Attacks You Don’t Detect appeared first on Veeam Software Official Blog .",
+      "category": "patch",
+      "url": "https://www.veeam.com/blog/recover-from-undetected-attacks.html",
       "count7d": 5
     },
     "Cisco": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Hidden ROI in Your PC Lifecycle",
-      "date": "2026-10-28",
+      "title": "From Solution Prototype to Real-World Deployment: Flora Phyo's Impact on Smart City Solutions",
+      "date": "2026-10-29",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/the-hidden-roi-in-your-pc-lifecycle",
-      "count7d": 13
+      "url": "https://www.dell.com/blog/from-solution-prototype-to-real-world-deployment-flora-phyo-s-impact-on-smart-city-solutions",
+      "count7d": 15
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -111,7 +111,8 @@
           "date": "2026-10-28",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118641",
-          "kev": false
+          "kev": false,
+          "epss": 0.296
         },
         {
           "id": "CVE-2026-83831",
@@ -214,7 +215,8 @@
           "date": "2026-10-28",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
-          "kev": false
+          "kev": false,
+          "epss": 0.5740000000000001
         }
       ]
     },
