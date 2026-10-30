@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T06:15:19.221Z",
+  "generatedAt": "2026-10-30T13:21:45.045Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,20 +12,20 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Advancing SAP Lakehouse and New Data Fabric Innovations in SAP Business Data Cloud for the Autonomous Enterprise",
-      "date": "2026-10-29",
-      "summary": "Enterprises can build AI agents act with greater autonomy and confidence.",
+      "title": "SAP Shows How to Lead with AI Governance at SAP TechEd",
+      "date": "2026-10-30",
+      "summary": "SAP provides the solutions necessary to govern, control, and innovate now and into the future.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-lakehouse-new-data-fabric-innovations-sap-bdc-autonomous-enterprise/",
-      "count7d": 9
+      "url": "https://news.sap.com/2026/10/sap-teched-shows-how-to-lead-with-ai-governance/",
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "5 levels of resilience maturity in education",
-      "date": "2026-10-29",
-      "summary": "Every education institution that has experienced a ransomware attack can point to the moment its systems came back online. Far fewer can demonstrate, with evidence, that the recovered data was accurate, uncompromised, and safe to put back in front of students, faculty, and regulators. The post 5 levels of resilience maturity in education appeared first on Veeam Software Official Blog .",
+      "title": "RESILIENCE AS A BOARDROOM STRATEGY",
+      "date": "2026-10-30",
+      "summary": "In an AI-driven enterprise, resilience is no longer an insurance policy. It is the operating model for trust, continuity, and scale. The post RESILIENCE AS A BOARDROOM STRATEGY appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/education-resilience-maturity-confidence-gap.html",
+      "url": "https://www.veeam.com/blog/everpure-enterprise-data-cloud-veeam.html",
       "count7d": 5
     },
     "Cisco": {
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Eliminating Manual DDLs: Automated Foreign Schema Import in Tanzu Greenplum &#038; PXF",
+      "title": "プライベートクラウドで実現する次世代 DBaaS の全貌 〜VMware® Data Services Manager (DSM) 9.1 徹底解剖 〜",
       "date": "2026-10-30",
-      "summary": "Enterprises now manage vast amounts of data across relational databases, data warehouses, and cloud object stores with open table formats like Apache Iceberg. To query these disparate systems without costly data migration, modern platforms rely on federated query execution. VMware Tanzu Greenplum addresses this challenge through its Platform Extension Framework (PXF), which allows high-performance parallel &#8230; Continued The post Eliminating Manual DDLs: Automated Foreign Schema Import in Tanzu Greenplum &#038; PXF appeared first on VMware Blogs .",
+      "summary": "皆様、こんにちは。 前編となる前回（第 1 回）の記事では、現代のデータベース（DB）運用が抱えるジレンマと、その解決策となる「Database as a Service (DBaaS)」の必要性、そしてプライベートクラウドで DBaaS を運用する価値についてお伝えしました。 後編となる今回は、その「答え」となるソリューション「VMware Data Services Manager (DSM) 9.1」の全体像を詳しく紐解いていきます。製品の概要から動作環境、サポートされる DB エンジンの詳細、そしてインフラ管理者と開発者の双方にもたらす具体的なメリットまで徹底解説します！ &#160; 1. VMware Data Services Manager (DSM) 9.1 とは？ VMware Data Services Manager (DSM) は、VMware のプライベートクラウド環境上で動作する、エンタープライズ向けの統合 DBaaS 管理プラットフォームです。 従来、オンプレミス環境でデータベースを構築・運用するには、VM の作成、OS の標準化、DB ソフトウェアのインストール、HA（高可用性）構成、バックアップ設定など、膨大な手作業と専門知識が必要でした。 DSM 9.1 は、こうした複雑なライフサイクル管理（Day 0 から Day 2 オペレーションまで）をソフトウェアによって高度に自動化します。パブリッククラウドのマネージドDBと同じ「セルフサービスでの即時払い出し」と「自動化された運用・保守」を、自社管理下のセキュアなプライベートクラウド環境で実現するソリューションです。 &#160; 2. 柔軟な動作環境：VCF から vSphere 単体環境まで DSM &#8230; Continued The post プライベートクラウドで実現する次世代 DBaaS の全貌 〜VMware® Data Services Manager (DSM) 9.1 徹底解剖 〜 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/tanzu/eliminating-manual-ddls-automated-foreign-schema-import-in-tanzu-greenplum-pxf/",
-      "count7d": 9
+      "url": "https://blogs.vmware.com/vmware-japan/2026/10/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%99%E3%83%BC%E3%83%88%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%A7%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E6%AC%A1%E4%B8%96%E4%BB%A3-dbaas-%E3%81%AE%E5%85%A8%E8%B2%8C.html",
+      "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo Named a Top Company for Women in 2026",
-      "date": "2026-10-28",
-      "summary": "Ranked #18 globally by Forbes, reinforcing the company’s commitment to building a workplace where women can grow, lead, and succeed.",
+      "title": "Lenovo Appoints Diego Majdalani to lead Latin America business",
+      "date": "2026-10-30",
+      "summary": "Lenovo has appointed Diego Majdalani as Senior Vice President Lenovo, and President, Latin America. Diego formally assumes responsibility for leading the Latin America organization on October 12.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/named-a-top-company-for-women-in-2026/",
-      "count7d": 2
+      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-appoints-diego-majdalani-to-lead-latin-america-business/",
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -221,7 +221,7 @@
       "items": []
     },
     "Dell": {
-      "count": 45,
+      "count": 51,
       "items": [
         {
           "id": "CVE-2026-86397",
