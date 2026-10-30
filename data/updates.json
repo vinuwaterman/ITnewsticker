@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-30T18:45:45.837Z",
+  "generatedAt": "2026-10-30T22:49:49.293Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69446 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
+      "title": "CVE-2026-70125 Microsoft Office Outlook Remote Code Execution Vulnerability",
       "date": "2026-10-30",
-      "summary": "Corrected CVE by adding the assigning CNA. This is an informational change only.",
+      "summary": "Updated one or more CVSS scores for the affected products. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69446",
-      "count7d": 323
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70125",
+      "count7d": 325
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
-      "date": "2026-10-29",
-      "summary": "A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device. This vulnerability is due to improper input validation for specific HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to obtain limited sensitive information for services that are associated with the affected device. Cisco plans to release…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-mmSuyugS?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
+      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+      "date": "2026-10-30",
+      "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
       "count7d": 9
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Workloads Keeping Secrets: Confidential Computing",
+      "title": "Good Fences, Good Neighbors: Isolating Infrastructure Management",
       "date": "2026-10-30",
-      "summary": "(Day 19 of 22 in our Cybersecurity Awareness Month series. Today: confidential computing) Data has three states. It&#8217;s at rest when it&#8217;s stored, in transit when it&#8217;s moving across a network, and in use when it&#8217;s being processed. Other posts in this series cover the first two, with storage encryption and network encryption. The third &#8230; Continued The post Workloads Keeping Secrets: Confidential Computing appeared first on VMware Blogs .",
+      "summary": "(Day 20 of 22 in our Cybersecurity Awareness Month series. Today: isolating the management network) Robert Frost&#8217;s poem &#8220;Mending Wall&#8221; gave us the line &#8220;good fences make good neighbors,&#8221; though the poem itself is actually skeptical of the idea. Infrastructure security needs no such skepticism. The management network, where vCenter, ESX, NSX, and the rest &#8230; Continued The post Good Fences, Good Neighbors: Isolating Infrastructure Management appeared first on VMware Blogs .",
       "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/30/confidential-computing/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/30/isolating-management-network/",
       "count7d": 10
     },
     "AWS": {
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "New Prompt Injection Techniques Cover Agent-Planning Attacks",
-      "date": "2026-10-29",
+      "title": "CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud",
+      "date": "2026-10-30",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/",
-      "count7d": 4
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/",
+      "count7d": 7
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
