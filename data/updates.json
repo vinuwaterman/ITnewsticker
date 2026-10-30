@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-30T13:21:45.045Z",
+  "generatedAt": "2026-10-30T18:45:45.837Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-88078 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-      "date": "2026-10-29",
-      "summary": "CWE added. Informational change only.",
+      "title": "CVE-2026-69446 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
+      "date": "2026-10-30",
+      "summary": "Corrected CVE by adding the assigning CNA. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88078",
-      "count7d": 322
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69446",
+      "count7d": 323
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "RESILIENCE AS A BOARDROOM STRATEGY",
+      "title": "Replication for Disaster Recovery: How to Hit Tight RTOs and RPOs",
       "date": "2026-10-30",
-      "summary": "In an AI-driven enterprise, resilience is no longer an insurance policy. It is the operating model for trust, continuity, and scale. The post RESILIENCE AS A BOARDROOM STRATEGY appeared first on Veeam Software Official Blog .",
+      "summary": "Here is a question worth sitting with: when did you last prove your recovery time objective, rather than assert it? The post Replication for Disaster Recovery: How to Hit Tight RTOs and RPOs appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/everpure-enterprise-data-cloud-veeam.html",
+      "url": "https://www.veeam.com/blog/replication-for-disaster-recovery.html",
       "count7d": 5
     },
     "Cisco": {
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "プライベートクラウドで実現する次世代 DBaaS の全貌 〜VMware® Data Services Manager (DSM) 9.1 徹底解剖 〜",
+      "title": "Workloads Keeping Secrets: Confidential Computing",
       "date": "2026-10-30",
-      "summary": "皆様、こんにちは。 前編となる前回（第 1 回）の記事では、現代のデータベース（DB）運用が抱えるジレンマと、その解決策となる「Database as a Service (DBaaS)」の必要性、そしてプライベートクラウドで DBaaS を運用する価値についてお伝えしました。 後編となる今回は、その「答え」となるソリューション「VMware Data Services Manager (DSM) 9.1」の全体像を詳しく紐解いていきます。製品の概要から動作環境、サポートされる DB エンジンの詳細、そしてインフラ管理者と開発者の双方にもたらす具体的なメリットまで徹底解説します！ &#160; 1. VMware Data Services Manager (DSM) 9.1 とは？ VMware Data Services Manager (DSM) は、VMware のプライベートクラウド環境上で動作する、エンタープライズ向けの統合 DBaaS 管理プラットフォームです。 従来、オンプレミス環境でデータベースを構築・運用するには、VM の作成、OS の標準化、DB ソフトウェアのインストール、HA（高可用性）構成、バックアップ設定など、膨大な手作業と専門知識が必要でした。 DSM 9.1 は、こうした複雑なライフサイクル管理（Day 0 から Day 2 オペレーションまで）をソフトウェアによって高度に自動化します。パブリッククラウドのマネージドDBと同じ「セルフサービスでの即時払い出し」と「自動化された運用・保守」を、自社管理下のセキュアなプライベートクラウド環境で実現するソリューションです。 &#160; 2. 柔軟な動作環境：VCF から vSphere 単体環境まで DSM &#8230; Continued The post プライベートクラウドで実現する次世代 DBaaS の全貌 〜VMware® Data Services Manager (DSM) 9.1 徹底解剖 〜 appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/10/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%99%E3%83%BC%E3%83%88%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%A7%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E6%AC%A1%E4%B8%96%E4%BB%A3-dbaas-%E3%81%AE%E5%85%A8%E8%B2%8C.html",
+      "summary": "(Day 19 of 22 in our Cybersecurity Awareness Month series. Today: confidential computing) Data has three states. It&#8217;s at rest when it&#8217;s stored, in transit when it&#8217;s moving across a network, and in use when it&#8217;s being processed. Other posts in this series cover the first two, with storage encryption and network encryption. The third &#8230; Continued The post Workloads Keeping Secrets: Confidential Computing appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/30/confidential-computing/",
       "count7d": 10
     },
     "AWS": {
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/who-owns-ai-resilience-ai-recovery-identity-and-accountability",
-      "count7d": 15
+      "count7d": 17
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 26,
+      "count": 27,
       "items": [
         {
           "id": "CVE-2026-85890",
@@ -111,7 +111,8 @@
           "date": "2026-10-29",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85890",
-          "kev": false
+          "kev": false,
+          "epss": 0.586
         },
         {
           "id": "CVE-2026-85897",
@@ -119,7 +120,8 @@
           "date": "2026-10-29",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85897",
-          "kev": false
+          "kev": false,
+          "epss": 0.586
         },
         {
           "id": "CVE-2026-85899",
@@ -127,7 +129,8 @@
           "date": "2026-10-29",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85899",
-          "kev": false
+          "kev": false,
+          "epss": 0.641
         },
         {
           "id": "CVE-2026-88077",
@@ -135,7 +138,8 @@
           "date": "2026-10-29",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88077",
-          "kev": false
+          "kev": false,
+          "epss": 0.638
         },
         {
           "id": "CVE-2026-96187",
@@ -143,7 +147,8 @@
           "date": "2026-10-29",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96187",
-          "kev": false
+          "kev": false,
+          "epss": 0.514
         }
       ]
     },
@@ -160,7 +165,8 @@
           "date": "2026-10-29",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22793",
-          "kev": false
+          "kev": false,
+          "epss": 0.526
         },
         {
           "id": "CVE-2026-107238",
@@ -168,7 +174,8 @@
           "date": "2026-10-29",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107238",
-          "kev": false
+          "kev": false,
+          "epss": 0.449
         },
         {
           "id": "CVE-2026-107239",
@@ -176,7 +183,8 @@
           "date": "2026-10-29",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107239",
-          "kev": false
+          "kev": false,
+          "epss": 0.6479999999999999
         },
         {
           "id": "CVE-2025-64394",
@@ -208,7 +216,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
           "kev": true,
-          "epss": 0.5740000000000001
+          "epss": 0.91
         }
       ]
     },
@@ -221,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 51,
+      "count": 61,
       "items": [
         {
           "id": "CVE-2026-86397",
