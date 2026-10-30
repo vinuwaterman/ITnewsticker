@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T20:28:15.259Z",
+  "generatedAt": "2026-10-30T00:10:36.539Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "CWE added. Informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88078",
-      "count7d": 324
+      "count7d": 322
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Enterprises can build AI agents act with greater autonomy and confidence.",
       "category": "feature",
       "url": "https://news.sap.com/2026/10/sap-lakehouse-new-data-fabric-innovations-sap-bdc-autonomous-enterprise/",
-      "count7d": 10
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-      "date": "2026-10-28",
-      "summary": "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system. This vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to an affected system. A successful exploit could…",
+      "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
+      "date": "2026-10-29",
+      "summary": "A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device. This vulnerability is due to improper input validation for specific HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to obtain limited sensitive information for services that are associated with the affected device. Cisco plans to release…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "count7d": 8
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-mmSuyugS?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
+      "count7d": 9
     },
     "VMware": {
       "vendor": "VMware",
@@ -44,7 +44,7 @@
       "summary": "(Day 18 of 22 in our Cybersecurity Awareness Month series. Today: VM security features) Most of this series so far has focused on the infrastructure itself: hardware, hosts, management, and the networks in between. The virtual machines running on that infrastructure have security features of their own, though. Many of them sit unused simply because &#8230; Continued The post Security Features Inside the Virtual Machine appeared first on VMware Blogs .",
       "category": "patch",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/10/29/vm-security-features/",
-      "count7d": 10
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/who-owns-ai-resilience-ai-recovery-identity-and-accountability",
-      "count7d": 17
+      "count7d": 15
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/",
-      "count7d": 5
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -98,12 +98,12 @@
       "summary": "For the eighth consecutive time, Palo Alto Networks is recognized as a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Privileged Access Management. Once again, it is positioned furthest along in Completeness &#8230; The post Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Privileged Access Management appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-privileged-access-management/",
-      "count7d": 2
+      "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 24,
+      "count": 26,
       "items": [
         {
           "id": "CVE-2026-85890",
@@ -152,8 +152,32 @@
       "items": []
     },
     "Veeam": {
-      "count": 5,
+      "count": 8,
       "items": [
+        {
+          "id": "CVE-2023-22793",
+          "title": "A vulnerability allowing an unauthenticated attacker to perform remote code execution (RCE) on servers running the Veeam Virtualization Extensions service of Veeam Management Pack for Microsoft System Center.",
+          "date": "2026-10-29",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22793",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-107238",
+          "title": "A vulnerability allowing an authenticated domain user to perform remote code execution (RCE) as the LocalSystem account on servers running the Veeam Management Pack for Microsoft System Center Collector service.",
+          "date": "2026-10-29",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107238",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-107239",
+          "title": "A vulnerability allowing a member of the Veeam Virtualization Extensions Users group to perform remote code execution (RCE) on servers running the Veeam Management Pack for Microsoft System Center Collector service.",
+          "date": "2026-10-29",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107239",
+          "kev": false
+        },
         {
           "id": "CVE-2025-64394",
           "title": "A vulnerability allowing a low-privileged local user to write arbitrary files with SYSTEM privileges during the installation of Veeam Backup for Microsoft 365, which can lead to privilege escalation or denial of service.",
@@ -171,33 +195,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105477",
           "kev": false,
           "epss": 0.131
-        },
-        {
-          "id": "CVE-2026-106076",
-          "title": "A vulnerability allowing an authenticated organization-transfer peer to inject SQL into the configuration database of the source Veeam Backup for Microsoft 365 server, leading to cross-tenant read and write of configuration data and remote code…",
-          "date": "2026-10-27",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106076",
-          "kev": false,
-          "epss": 0.367
-        },
-        {
-          "id": "CVE-2026-106077",
-          "title": "A vulnerability allowing a user with the Veeam Backup for Microsoft 365 Administrator role to read arbitrary files on the backup server with LocalSystem privileges.",
-          "date": "2026-10-27",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106077",
-          "kev": false,
-          "epss": 0.22899999999999998
-        },
-        {
-          "id": "CVE-2026-106078",
-          "title": "A vulnerability allowing an unauthenticated attacker to bypass REST API authentication with a forged federation token and receive responses from REST API endpoints that do not call the Veeam Backup for Microsoft 365 backup service.",
-          "date": "2026-10-27",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106078",
-          "kev": false,
-          "epss": 0.261
         }
       ]
     },
