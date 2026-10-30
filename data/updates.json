@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T00:10:36.539Z",
+  "generatedAt": "2026-10-30T06:15:19.221Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Security Features Inside the Virtual Machine",
-      "date": "2026-10-29",
-      "summary": "(Day 18 of 22 in our Cybersecurity Awareness Month series. Today: VM security features) Most of this series so far has focused on the infrastructure itself: hardware, hosts, management, and the networks in between. The virtual machines running on that infrastructure have security features of their own, though. Many of them sit unused simply because &#8230; Continued The post Security Features Inside the Virtual Machine appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/10/29/vm-security-features/",
-      "count7d": 8
+      "title": "Eliminating Manual DDLs: Automated Foreign Schema Import in Tanzu Greenplum &#038; PXF",
+      "date": "2026-10-30",
+      "summary": "Enterprises now manage vast amounts of data across relational databases, data warehouses, and cloud object stores with open table formats like Apache Iceberg. To query these disparate systems without costly data migration, modern platforms rely on federated query execution. VMware Tanzu Greenplum addresses this challenge through its Platform Extension Framework (PXF), which allows high-performance parallel &#8230; Continued The post Eliminating Manual DDLs: Automated Foreign Schema Import in Tanzu Greenplum &#038; PXF appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/tanzu/eliminating-manual-ddls-automated-foreign-schema-import-in-tanzu-greenplum-pxf/",
+      "count7d": 9
     },
     "AWS": {
       "vendor": "AWS",
