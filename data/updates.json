@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-31T15:07:59.604Z",
+  "generatedAt": "2026-10-31T19:28:34.122Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-70125 Microsoft Office Outlook Remote Code Execution Vulnerability",
-      "date": "2026-10-30",
-      "summary": "Updated one or more CVSS scores for the affected products. This is an informational change only.",
+      "title": "CVE-2026-111497 Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder",
+      "date": "2026-10-31",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70125",
-      "count7d": 325
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
+      "count7d": 376
     },
     "SAP": {
       "vendor": "SAP",
