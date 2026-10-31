@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T02:04:43.152Z",
+  "generatedAt": "2026-10-31T08:42:14.732Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 27,
+      "count": 28,
       "items": [
         {
           "id": "CVE-2026-85890",
