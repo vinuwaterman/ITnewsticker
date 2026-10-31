@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T08:42:14.732Z",
+  "generatedAt": "2026-10-31T15:07:59.604Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -216,7 +216,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
           "kev": true,
-          "epss": 0.91
+          "epss": 0.8210000000000001
         }
       ]
     },
