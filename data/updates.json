@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T22:45:02.068Z",
+  "generatedAt": "2026-11-01T01:55:40.923Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Information published.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
-      "count7d": 376
+      "count7d": 372
     },
     "SAP": {
       "vendor": "SAP",
