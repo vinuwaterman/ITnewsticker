@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T04:48:11.599Z",
+  "generatedAt": "2026-11-02T13:11:03.485Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Shows How to Lead with AI Governance at SAP TechEd",
-      "date": "2026-10-30",
-      "summary": "SAP provides the solutions necessary to govern, control, and innovate now and into the future.",
+      "title": "AI and Transformation Guidance for Every Customer",
+      "date": "2026-11-02",
+      "summary": "Max Success Plan is now available to every customer, whether they choose to work with SAP directly or through a trusted partner.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/10/sap-teched-shows-how-to-lead-with-ai-governance/",
-      "count7d": 9
+      "url": "https://news.sap.com/2026/11/ai-transformation-guidance-for-every-customer/",
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "第2回：仮想パッチを用いたセキュリティパッチ適用までの「猶予期間」の消滅",
+      "title": "Improving Partition Pruning for Cross-Type Joins in Tanzu Greenplum",
       "date": "2026-11-02",
-      "summary": "前回の「第1回：AI時代のプライベートクラウド多層防御、VMware Cloud Foundation®で実現する仮想基盤の堅牢化とリスク低減策」では、VMware Cloud Foundation (VCF) 環境におけるセキュリティの全体像と、ワークロードを保護するための多層防御アーキテクチャの重要性について解説しました。第1回公開後、多くのお客様から反響をいただき、特に内部トラフィックの可視化と制御に関する関心の高さを実感しております。 第2回となる今回は、企業のセキュリティ運用およびITインフラ管理者にとって恒常的な課題となっている「脆弱性公開からパッチ適用までの猶予期間（Vulnerability Window）」に焦点を当てます。この無防備となり得る期間の脅威をどのように無効化するかについて、VMware® vDefend™ (vDefend) の「分散IDS/IPS」と「VMware® Avi™ Load Balancer WAF (Web Application Firewall) 」を用いた「仮想パッチ」の技術を解説します。また、それらがもたらすダウンタイムの削減および運用コスト削減の具体的なメリットについて、技術的な観点から深掘りしてお届けします。 &#160; 1. セキュリティパッチ適用の課題：「猶予期間」に潜むリスク 新しい脆弱性（CVE）が公開され、ベンダーからセキュリティパッチがリリースされた際、セキュリティのベストプラクティスとしては即座にパッチを適用することが推奨されます。しかし、エンタープライズの運用環境、特にミッションクリティカルなプライベートクラウド環境においては、以下のような理由から即時適用は非常に困難です。 ・アプリケーションへの影響検証：OSやミドルウェアへのパッチ適用が、稼働中の業務アプリケーションやAIモデルの推論プロセスに予期せぬ不具合（互換性の問題、パフォーマンス低下など）を引き起こさないか、事前環境でのテストが必要です。 ・ダウンタイムの調整：システムの再起動を伴うパッチ適用の場合、事業部門との調整を行い、影響を最小限に抑えるメンテナンスウィンドウ（計画停止枠）を確保する必要があります。 ・運用リソースの逼迫：緊急度の高い脆弱性が連続して公開された場合、IT部門の運用担当者への負荷が高まり、通常の運用業務に支障をきたす恐れがあります。 この「脆弱性が公開されてから、実際にシステムにパッチが適用されるまでの期間（猶予期間）」は、攻撃者にとってシステムへ侵入するための格好の標的となります。この期間をいかに安全に保護し、リスクを低減するかが、インフラ運用における重要な鍵となります。 &#160; 2. 仮想パッチ（Virtual Patching）という解決策 この「猶予期間」の課題に対する有効な技術的アプローチが「仮想パッチ（Virtual Patching）」です。 仮想パッチとは、サーバーのOSやアプリケーションのコードに直接パッチを適用（修正）する代わりに、ネットワークの中間層で該当の脆弱性を突く攻撃トラフィックを検知し、遮断する手法です。これにより、システム本体には脆弱性が残った状態であっても、外部からのエクスプロイト（攻撃コード）が到達しないため、実質的にパッチが適用されたのと同じ防御効果を即座に得ることができます。 VCF環境においては、ネットワークの内部（East-West）と境界（North-South）のそれぞれで、最適な仮想パッチの仕組みを提供しています。 &#160; 3. vDefend 分散IDS/IPSによるEast-Westトラフィックの保護 データセンター内部の通信（East-Westトラフィック）に対する仮想パッチとして機能するのが、「vDefend」の分散IDS/IPSです。 従来の境界型（アプライアンス型）IPSでは、一度データセンター内部に侵入した脅威が、仮想マシン間で横展開（ラテラルムーブメント）する動きを検知・遮断することが困難でした。すべての内部通信を境界アプライアンスにヘアピンさせるアーキテクチャは、ネットワーク帯域の浪費と遅延を引き起こすため現実的ではありません。 vDefendの分散IDS/IPSは、各ESXホストのハイパーバイザー（vNIC）レベルで直接動作します。これにより、ネットワークのトポロジ変更を一切伴わず、すべての仮想マシン間通信に対して死角なく仮想パッチ（シグネチャによる検知・防御）を適用することが可能です。 &#160; 4. VMware Avi Load Balancer WAFによるアプリケーション層の保護 インフラストラクチャ層の保護に加えて、公開されているWebアプリケーション層（L7）の保護には「Avi Load Balancer WAF」が仮想パッチとして機能します。 Webアプリケーションの脆弱性（例：SQLインジェクション、クロスサイトスクリプティングなど）が発見された場合、アプリケーションのソースコードを修正してデプロイし直すには多大な時間とコストがかかります。Avi &#8230; Continued The post 第2回：仮想パッチを用いたセキュリティパッチ適用までの「猶予期間」の消滅 appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/11/vdefend-virtual-patching-avi-waf.html",
+      "summary": "This technical post on VMware Tanzu Greenplum walks through the changes to GPORCA’s constraint derivation framework that make partition pruning and predicate inference work for cross-type joins. The post Improving Partition Pruning for Cross-Type Joins in Tanzu Greenplum appeared first on Tanzu. The post Improving Partition Pruning for Cross-Type Joins in Tanzu Greenplum appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/tanzu/improving-partition-pruning-for-cross-type-joins-in-tanzu-greenplum/",
       "count7d": 10
     },
     "AWS": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 28,
+      "count": 27,
       "items": [
         {
           "id": "CVE-2026-85890",
