@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T13:11:03.485Z",
+  "generatedAt": "2026-11-02T22:26:19.450Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-      "date": "2026-10-30",
-      "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates…",
+      "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+      "date": "2026-11-02",
+      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory:&nbsp; CVE-2026-111497 - Brotli decoder out-of-bounds…",
       "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
       "count7d": 9
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Improving Partition Pruning for Cross-Type Joins in Tanzu Greenplum",
+      "title": "Introducing VMware Cloud Foundation Telco: Unified Platform for Telco-Grade Infrastructure",
       "date": "2026-11-02",
-      "summary": "This technical post on VMware Tanzu Greenplum walks through the changes to GPORCA’s constraint derivation framework that make partition pruning and predicate inference work for cross-type joins. The post Improving Partition Pruning for Cross-Type Joins in Tanzu Greenplum appeared first on Tanzu. The post Improving Partition Pruning for Cross-Type Joins in Tanzu Greenplum appeared first on VMware Blogs .",
+      "summary": "The VMware portfolio is evolving to support telcos in operating the infrastructure that runs some of the most demanding, mission-critical workloads. At Broadcom, our commitment to telcos remains, and we are now better positioned to apply the scale and breadth of our enterprise expertise to the telecommunications industry while meeting carrier-grade requirements. The telecommunications industry &#8230; Continued The post Introducing VMware Cloud Foundation Telco: Unified Platform for Telco-Grade Infrastructure appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/tanzu/improving-partition-pruning-for-cross-type-joins-in-tanzu-greenplum/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/02/introducing-vmware-cloud-foundation-telco/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Who Owns AI Resilience? AI Recovery, Identity and Accountability",
-      "date": "2026-10-30",
+      "title": "Why CSPs Need More Than GPUs to Win AI",
+      "date": "2026-11-02",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/who-owns-ai-resilience-ai-recovery-identity-and-accountability",
-      "count7d": 15
+      "url": "https://www.dell.com/blog/why-csps-need-more-than-gpus-to-win-ai",
+      "count7d": 17
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -75,21 +75,21 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Node2Shell CVEs",
-      "date": "2026-10-26",
-      "summary": "CVSSv3 Score: 9.8 CVE-2026-105482 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105483 - (high)This vulnerability affects Node.js 26.x and 24.x.CVE-2026-106069 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-111497 - (high)A flaw in Node.js can cause Node.js Brotli decoder out-of-bounds write permits remote code execution.This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105481 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106072 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106074 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106070…",
+      "title": "Linux kernel RCE CVE-2026-98432",
+      "date": "2026-11-02",
+      "summary": "CVSSv3 Score: 9.8 CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process a retransmitted SYN for the same request socket, and send a SYNACK from tcp_check_req(). tcp_v4_send_synack() and inet_csk_route_req() read ireq->ireq_opt under rcu_read_lock() only, and ip_build_and_send_pkt() and ip_options_build() then read opt->optlen twice. Note that the SYNACK timer itself is not an issue: it holds a reference on its request socket, and…",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-187",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
       "count7d": 1
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud",
-      "date": "2026-10-30",
+      "title": "What Makes a Good Security Agent? 5 Lessons from the AgentWorks Hackathon",
+      "date": "2026-11-02",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/",
-      "count7d": 7
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/five-lessons-from-agentworks-hackathon/",
+      "count7d": 8
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 27,
+      "count": 28,
       "items": [
         {
           "id": "CVE-2026-85890",
@@ -229,7 +229,7 @@
       "items": []
     },
     "Dell": {
-      "count": 61,
+      "count": 81,
       "items": [
         {
           "id": "CVE-2026-86397",
@@ -279,17 +279,8 @@
       ]
     },
     "Fortinet": {
-      "count": 2,
+      "count": 1,
       "items": [
-        {
-          "id": "CVE-2026-107656",
-          "title": "An authentication bypass using an alternate path or channel vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.6, FortiSandbox 4.4.0 through 4.4.9, FortiSandbox 4.2 all versions, FortiSandbox PaaS 5.0.0 through 5.0.6, FortiSandbox PaaS 4.4 all versions, FortiSandbox…",
-          "date": "2026-10-26",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107656",
-          "kev": false,
-          "epss": 0.851
-        },
         {
           "id": "CVE-2026-106174",
           "title": "A improper locking vulnerability in Fortinet FortiOS 8.0.0, FortiOS 7.6.4 through 7.6.6 may allow an unauthenticated attacker with network access to the device to cause a denial of service of the HTTPS management interface via…",
