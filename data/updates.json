@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T03:38:31.073Z",
+  "generatedAt": "2026-11-03T11:41:02.172Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "AI and Transformation Guidance for Every Customer",
-      "date": "2026-11-02",
-      "summary": "Max Success Plan is now available to every customer, whether they choose to work with SAP directly or through a trusted partner.",
+      "title": "SAP and Cohere Empower Regulated Industries to Innovate and Deploy AI Faster",
+      "date": "2026-11-03",
+      "summary": "The combination of SAP Business AI Platform and North can deliver exponential value.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/ai-transformation-guidance-for-every-customer/",
-      "count7d": 7
+      "url": "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Lakehouse Analytics: Querying &#038; Ingesting Apache Iceberg Data with Tanzu Greenplum",
+      "title": "Optimizing Columnar Storage in Tanzu Greenplum, Part 2: Accelerating Hash Joins with Early Join Filtering",
       "date": "2026-11-03",
-      "summary": "Technial post shows users how PXF 8 allows Tanzu Greenplum to directly access Iceberg tables stored in cloud object stores to facilitate reading Apache Iceberg metadata and manifests, querying Iceberg tables in place, pushing down filters efficiently, and writing data into Apache Iceberg-managed storage. Tanzu Greenplum empowers organizations to run its massively parallel SQL engine &#8230; Continued The post Lakehouse Analytics: Querying &#038; Ingesting Apache Iceberg Data with Tanzu Greenplum appeared first on VMware Blogs .",
+      "summary": "This post walks through Early Join Filtering (EJF) in Tanzu Greenplum 7.9. This extends the &#8220;read less, decide early&#8221; architecture to hash joins as EJF filters out non-matching rows before payload columns are ever materialized, delivering the query speed of an indexed table without the maintenance overhead. The post Optimizing Columnar Storage in Tanzu Greenplum, &#8230; Continued The post Optimizing Columnar Storage in Tanzu Greenplum, Part 2: Accelerating Hash Joins with Early Join Filtering appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/tanzu/lakehouse-analytics-querying-ingesting-apache-iceberg-data-with-tanzu-greenplum/",
+      "url": "https://blogs.vmware.com/tanzu/optimizing-columnar-storage-in-tanzu-greenplum-part-2-accelerating-hash-joins-with-early-join-filtering/",
       "count7d": 10
     },
     "AWS": {
@@ -75,21 +75,21 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Linux kernel RCE CVE-2026-98432",
-      "date": "2026-11-02",
-      "summary": "CVSSv3 Score: 9.8 CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process a retransmitted SYN for the same request socket, and send a SYNACK from tcp_check_req(). tcp_v4_send_synack() and inet_csk_route_req() read ireq->ireq_opt under rcu_read_lock() only, and ip_build_and_send_pkt() and ip_options_build() then read opt->optlen twice. Note that the SYNACK timer itself is not an issue: it holds a reference on its request socket, and…",
+      "title": "Node2Shell CVEs",
+      "date": "2026-10-26",
+      "summary": "CVSSv3 Score: 9.8 CVE-2026-105482 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105483 - (high)This vulnerability affects Node.js 26.x and 24.x.CVE-2026-106069 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-111497 - (high)A flaw in Node.js can cause Node.js Brotli decoder out-of-bounds write permits remote code execution.This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105481 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106072 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106074 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106070…",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-187",
       "count7d": 1
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "What Makes a Good Security Agent? 5 Lessons from the AgentWorks Hackathon",
-      "date": "2026-11-02",
+      "title": "CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability",
+      "date": "2026-11-03",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/five-lessons-from-agentworks-hackathon/",
-      "count7d": 8
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/",
+      "count7d": 10
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 28,
+      "count": 29,
       "items": [
         {
           "id": "CVE-2026-85890",
@@ -279,18 +279,8 @@
       ]
     },
     "Fortinet": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-106174",
-          "title": "A improper locking vulnerability in Fortinet FortiOS 8.0.0, FortiOS 7.6.4 through 7.6.6 may allow an unauthenticated attacker with network access to the device to cause a denial of service of the HTTPS management interface via…",
-          "date": "2026-10-27",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106174",
-          "kev": false,
-          "epss": 0.28200000000000003
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Lenovo": {
       "count": 0,
