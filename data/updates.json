@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T22:26:19.450Z",
+  "generatedAt": "2026-11-03T03:38:31.073Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Information published.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
-      "count7d": 364
+      "count7d": 354
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Max Success Plan is now available to every customer, whether they choose to work with SAP directly or through a trusted partner.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/ai-transformation-guidance-for-every-customer/",
-      "count7d": 11
+      "count7d": 7
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -35,15 +35,15 @@
       "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory:&nbsp; CVE-2026-111497 - Brotli decoder out-of-bounds…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "count7d": 9
+      "count7d": 7
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Introducing VMware Cloud Foundation Telco: Unified Platform for Telco-Grade Infrastructure",
-      "date": "2026-11-02",
-      "summary": "The VMware portfolio is evolving to support telcos in operating the infrastructure that runs some of the most demanding, mission-critical workloads. At Broadcom, our commitment to telcos remains, and we are now better positioned to apply the scale and breadth of our enterprise expertise to the telecommunications industry while meeting carrier-grade requirements. The telecommunications industry &#8230; Continued The post Introducing VMware Cloud Foundation Telco: Unified Platform for Telco-Grade Infrastructure appeared first on VMware Blogs .",
+      "title": "Lakehouse Analytics: Querying &#038; Ingesting Apache Iceberg Data with Tanzu Greenplum",
+      "date": "2026-11-03",
+      "summary": "Technial post shows users how PXF 8 allows Tanzu Greenplum to directly access Iceberg tables stored in cloud object stores to facilitate reading Apache Iceberg metadata and manifests, querying Iceberg tables in place, pushing down filters efficiently, and writing data into Apache Iceberg-managed storage. Tanzu Greenplum empowers organizations to run its massively parallel SQL engine &#8230; Continued The post Lakehouse Analytics: Querying &#038; Ingesting Apache Iceberg Data with Tanzu Greenplum appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/02/introducing-vmware-cloud-foundation-telco/",
+      "url": "https://blogs.vmware.com/tanzu/lakehouse-analytics-querying-ingesting-apache-iceberg-data-with-tanzu-greenplum/",
       "count7d": 10
     },
     "AWS": {
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/why-csps-need-more-than-gpus-to-win-ai",
-      "count7d": 17
+      "count7d": 12
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Lenovo has appointed Diego Majdalani as Senior Vice President Lenovo, and President, Latin America. Diego formally assumes responsibility for leading the Latin America organization on October 12.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-appoints-diego-majdalani-to-lead-latin-america-business/",
-      "count7d": 3
+      "count7d": 2
     },
     "Fortinet": {
       "vendor": "Fortinet",
