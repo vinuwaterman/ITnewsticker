@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-04T15:10:55.703Z",
+  "generatedAt": "2026-11-04T21:26:25.295Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-111497 Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder",
-      "date": "2026-10-31",
-      "summary": "Information published.",
+      "title": "Chromium CVE-2026-119260: Use after free",
+      "date": "2026-11-04",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
-      "count7d": 56
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119260",
+      "count7d": 80
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,29 +21,29 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "One year as the only Platinum Microsoft 365 Backup provider",
-      "date": "2026-11-03",
-      "summary": "Around a year ago, Veeam became a Platinum Microsoft 365 Backup Storage partner. Nobody else has joined us since. This status was something earned, not given. In this blog post, we’ll discuss how Veeam was able to achieve this recognition and how it relates to the speed and scale of your data recovery times in Microsoft 365. The post One year as the only Platinum Microsoft 365 Backup provider appeared first on Veeam Software Official Blog .",
+      "title": "Resilience as a boardroom strategy",
+      "date": "2026-11-04",
+      "summary": "In an AI-driven enterprise, resilience is no longer an insurance policy. It is the operating model for trust, continuity, and scale. The post Resilience as a boardroom strategy appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/platinum-microsoft-365-backup-partner.html",
+      "url": "https://www.veeam.com/blog/everpure-enterprise-data-cloud-veeam.html",
       "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-      "date": "2026-11-03",
-      "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system. This vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to…",
+      "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
+      "date": "2026-11-04",
+      "summary": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate. This vulnerability is due to improper authorization checks. An attacker could exploit this vulnerability by sending a crafted request to an affected device. A successful exploit could allow the attacker to bypass authorization to obtain an endpoint certificate. Cisco has released software updates that address this vulnerability. There are…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20SQL%20Injection%20Vulnerability%26vs_k=1",
-      "count7d": 5
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cert-mE9BD5GO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
+      "count7d": 9
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "導入事例：福岡ひびき信用金庫様",
+      "title": "Broadcom Updates VMware Portfolio to Protect and Accelerate Private AI Cloud Deployments",
       "date": "2026-11-04",
-      "summary": "福岡県一円と山口県下関市、大分県中津市を事業区域とし、地域密着型金融の深化に取り組む福岡ひびき信用金庫様。本日は、VMware Cloud Foundation 9.1®（VCF 9.1）および VMware vDefend™ を活用した事例をご紹介いたします。 同金庫では、以前から外部ベンダーに頼ることなくシステムの内製化を進め、IT主権の確立と迅速なインフラ展開を両立されてきました。しかし、ハードウェア更改を迎える中、フロンティアAIによって高度化・高速化する脅威への対策や、少数精鋭チームにおける継続的なパッチ適用の運用負担増が懸念となっていました。この「少人数での内製運用の維持」と「強固なセキュリティの確立」を両立させたのが、VCF 9.1とVMware vDefendによる基盤刷新です。 単一基盤によるコスト最適化と内製での迅速な移行 仮想化、ネットワーク、セキュリティ、運用管理を統合したVCF 9を選定することで、個別ソリューションを組み合わせる場合と比較して高いコストパフォーマンスを実現。既存環境から約2か月でVCF 9への移行を完了し、その後のVCF 9.1へのバージョンアップも自社主導により約1か月で完遂しました。 VMware vDefend による内部対策と仮想パッチの実現 分散ファイアウォールに加え、VMware vDefend の分散IDS/IPSを導入。修正パッチの検証期間中であっても脆弱性を悪用する通信を防ぐ「仮想パッチ機能」を確保し、ラテラルムーブメントを抑止するゼロトラストな多層防御環境を整備しました。 ライフサイクル管理機能による運用の省力化 最新バージョンでの運用方針を維持しながら、Fleet Managementのライフサイクル管理機能を活用することで、これまで手作業で行っていたパッチ適用作業の効率化と工数削減を推進しています。 さらなる詳細については、以下のPDFをダウンロードの上、ご参照ください。 福岡ひびき信用金庫様導入事例をダウンロード The post 導入事例：福岡ひびき信用金庫様 appeared first on VMware Japan Blog. The post 導入事例：福岡ひびき信用金庫様 appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/11/custome-case-studies-fukuoka.html",
+      "summary": "IT infrastructure and operations leaders are at a tipping point that is driven by AI considerations, such as rising AI infrastructure costs, the new AI-accelerated security landscape, and the rapid advance of agentic AI workloads. This is forcing a fundamental rethink of the infrastructure where AI workloads should run, how to secure all workloads in &#8230; Continued The post Broadcom Updates VMware Portfolio to Protect and Accelerate Private AI Cloud Deployments appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/04/broadcom-vcf-portfolio-updates/",
       "count7d": 10
     },
     "AWS": {
@@ -84,27 +84,36 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries",
+      "title": "CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats",
       "date": "2026-11-04",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/",
       "count7d": 10
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Privileged Access Management",
-      "date": "2026-10-26",
-      "summary": "For the eighth consecutive time, Palo Alto Networks is recognized as a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Privileged Access Management. Once again, it is positioned furthest along in Completeness &#8230; The post Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant&#x2122; for Privileged Access Management appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/10/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-privileged-access-management/",
-      "count7d": 1
+      "title": "New Cortex XDR Integration with Claude Cowork Secures Desktop AI Agents",
+      "date": "2026-11-02",
+      "summary": "AI agents working directly on the desktop offer new ways to automate complex tasks, yet they operate outside traditional endpoint controls and pose unacceptable risks to many security leaders. Today, we're announcing &#8230; The post New Cortex XDR Integration with Claude Cowork Secures Desktop AI Agents appeared first on Palo Alto Networks Blog .",
+      "category": "patch",
+      "url": "https://www.paloaltonetworks.com/blog/2026/11/new-cortex-xdr-integration-with-claude-cowork-secures-desktop-ai-agents/",
+      "count7d": 2
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 24,
+      "count": 23,
       "items": [
+        {
+          "id": "CVE-2026-105769",
+          "title": "kaniko before 1.25.20 can send a Microsoft Entra ID (Azure AD) access token for Azure Resource Manager to an attacker-controlled registry host. kaniko uses the Azure Container Registry credential helper github.com/chrismellard/docker-credential-acr-env, which decides whether a…",
+          "date": "2026-11-02",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105769",
+          "kev": false,
+          "epss": 0.196
+        },
         {
           "id": "CVE-2026-107759",
           "title": "The WPO365 | MICROSOFT 365 GRAPH MAILER plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Subject (via wp_mail/PHPMailer, e.g. CF7 your-subject)' parameter in all versions up to, and including, 6.2 due to…",
@@ -140,15 +149,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85899",
           "kev": false,
           "epss": 0.642
-        },
-        {
-          "id": "CVE-2026-88077",
-          "title": "Integer overflow or wraparound in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network.",
-          "date": "2026-10-29",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88077",
-          "kev": false,
-          "epss": 0.625
         }
       ]
     },
@@ -189,16 +189,31 @@
       ]
     },
     "Cisco": {
-      "count": 1,
+      "count": 3,
       "items": [
         {
-          "id": "CVE-2026-76418",
-          "title": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the…",
-          "date": "2026-10-28",
+          "id": "CVE-2026-76506",
+          "title": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is…",
+          "date": "2026-11-04",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
-          "kev": true,
-          "epss": 0.8210000000000001
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76506",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-20241",
+          "title": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate. This vulnerability is due…",
+          "date": "2026-11-04",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20241",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-76419",
+          "title": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site…",
+          "date": "2026-11-04",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76419",
+          "kev": false
         }
       ]
     },
