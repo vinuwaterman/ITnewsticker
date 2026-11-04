@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:07:38.366Z",
+  "generatedAt": "2026-11-04T06:53:12.632Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Announcing AI-Ready Data Foundations in Tanzu Platform: Trusted Data for Reliable Agentic AI",
-      "date": "2026-11-03",
-      "summary": "To help organizations address the challenges of safe enterprise data access posed by autonomous AI agents, we are thrilled to announce general availability of AI-ready data foundations in VMware Tanzu Platform, first introduced at VMware Explore earlier this year. This release delivers the enterprise-grade data solution designed to help data engineering teams turn fragmented, multi-modal &#8230; Continued The post Announcing AI-Ready Data Foundations in Tanzu Platform: Trusted Data for Reliable Agentic AI appeared first on VMware Blogs .",
+      "title": "導入事例：福岡ひびき信用金庫様",
+      "date": "2026-11-04",
+      "summary": "福岡県一円と山口県下関市、大分県中津市を事業区域とし、地域密着型金融の深化に取り組む福岡ひびき信用金庫様。本日は、VMware Cloud Foundation 9.1®（VCF 9.1）および VMware vDefend™ を活用した事例をご紹介いたします。 同金庫では、以前から外部ベンダーに頼ることなくシステムの内製化を進め、IT主権の確立と迅速なインフラ展開を両立されてきました。しかし、ハードウェア更改を迎える中、フロンティアAIによって高度化・高速化する脅威への対策や、少数精鋭チームにおける継続的なパッチ適用の運用負担増が懸念となっていました。この「少人数での内製運用の維持」と「強固なセキュリティの確立」を両立させたのが、VCF 9.1とVMware vDefendによる基盤刷新です。 単一基盤によるコスト最適化と内製での迅速な移行 仮想化、ネットワーク、セキュリティ、運用管理を統合したVCF 9を選定することで、個別ソリューションを組み合わせる場合と比較して高いコストパフォーマンスを実現。既存環境から約2か月でVCF 9への移行を完了し、その後のVCF 9.1へのバージョンアップも自社主導により約1か月で完遂しました。 VMware vDefend による内部対策と仮想パッチの実現 分散ファイアウォールに加え、VMware vDefend の分散IDS/IPSを導入。修正パッチの検証期間中であっても脆弱性を悪用する通信を防ぐ「仮想パッチ機能」を確保し、ラテラルムーブメントを抑止するゼロトラストな多層防御環境を整備しました。 ライフサイクル管理機能による運用の省力化 最新バージョンでの運用方針を維持しながら、Fleet Managementのライフサイクル管理機能を活用することで、これまで手作業で行っていたパッチ適用作業の効率化と工数削減を推進しています。 さらなる詳細については、以下のPDFをダウンロードの上、ご参照ください。 福岡ひびき信用金庫様導入事例をダウンロード The post 導入事例：福岡ひびき信用金庫様 appeared first on VMware Japan Blog. The post 導入事例：福岡ひびき信用金庫様 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/tanzu/announcing-ai-ready-data-foundations-in-tanzu-platform-trusted-data-for-reliable-agentic-ai/",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/11/custome-case-studies-fukuoka.html",
       "count7d": 10
     },
     "AWS": {
