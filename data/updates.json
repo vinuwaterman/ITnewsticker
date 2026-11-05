@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T01:41:24.864Z",
+  "generatedAt": "2026-11-05T09:03:32.800Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Resilience as a boardroom strategy",
-      "date": "2026-11-04",
-      "summary": "In an AI-driven enterprise, resilience is no longer an insurance policy. It is the operating model for trust, continuity, and scale. The post Resilience as a boardroom strategy appeared first on Veeam Software Official Blog .",
+      "title": "Resilience by Design: Protecting Enterprise RAG on Red Hat OpenShift AI",
+      "date": "2026-11-05",
+      "summary": "Generative AI is moving from experimentation to production as organizations build AI assistants, knowledge discovery tools, agentic workflows, and retrieval-augmented generation (RAG) applications that connect large language models to enterprise data. As these systems become business-critical, protecting the data, application state, and dependencies that make them useful has become a fundamental consideration. The post Resilience by Design: Protecting Enterprise RAG on Red Hat OpenShift AI appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/everpure-enterprise-data-cloud-veeam.html",
+      "url": "https://www.veeam.com/blog/rag-backup-openshift-ai.html",
       "count7d": 5
     },
     "Cisco": {
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Broadcom Updates VMware Portfolio to Protect and Accelerate Private AI Cloud Deployments",
-      "date": "2026-11-04",
-      "summary": "IT infrastructure and operations leaders are at a tipping point that is driven by AI considerations, such as rising AI infrastructure costs, the new AI-accelerated security landscape, and the rapid advance of agentic AI workloads. This is forcing a fundamental rethink of the infrastructure where AI workloads should run, how to secure all workloads in &#8230; Continued The post Broadcom Updates VMware Portfolio to Protect and Accelerate Private AI Cloud Deployments appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/04/broadcom-vcf-portfolio-updates/",
+      "title": "VCF 9 で完遂するメインフレーム・モダナイゼーション#2",
+      "date": "2026-11-05",
+      "summary": "第二回：メインフレームのアーキテクチャ特性と VCF 9 による実装アプローチ 第一回では、ハードウェアベンダー各社の撤退方針や保守技術者の減少を背景に、メインフレームからの脱却が喫緊の課題であることを整理しました。また、リスクを抑えて移行を進めるためには、パブリッククラウドのマルチテナント環境へ一括移行するのではなく、自社統制を保てる基盤上で段階的なリファクター（自動コード変換と次世代インフラの組み合わせ）を選択することが現実的な解であると述べました。 一方で、業務の中核を担ってきたメインフレームからオープンなインフラへ移行するにあたり、最も懸念されるのは、業務に求められる処理性能や耐障害性を維持できるのかという点です。 連載第二回となる本稿では、メインフレームが長年担保してきた非機能要件の背景を整理したうえで、次世代基盤『VMware Cloud Foundation®（VCF 9 ）』が汎用サーバー上でそれらをいかに実装し、運用性を高めているのかを解説します。 &#160; 1. メインフレームの堅牢性を支えるアーキテクチャの特性 メインフレームが長年にわたり基幹システムで重用されてきた理由は、ミッションクリティカルな業務を停止させず、大量のトランザクションを確実に処理し続ける高い信頼性にあります。この優れた非機能要件は、単なる計算能力の高さではなく、以下のようなハードウェアレベルのアーキテクチャ特性によって支えられていました。 ハードウェアレベルでのリソース分離 CPU、メモリ、I/O チャネルが厳格に区画化されており、特定業務の負荷スパイクが他の基幹処理に波及しない構造になっています。 低遅延で確定的な I/O 処理 メインプロセッサーとは独立した専用の I/O プロセッサーとチャネル機構により、CPU に負荷をかけずに大量のディスクアクセスを並行処理します。 障害の事前検知と縮退・交代機能 部品レベルのエラーを検知して予備パーツへ自動で切り替えるなど、ハードウェアの冗長構成を前提とした可用性を備えています。 オープン環境への移行プロジェクトにおいて性能や安定性のトラブルが発生する場合、言語変換などのアプリケーション改修や後方互換性の維持に注力するあまり、インフラ層が担っていたこれらのアーキテクチャ特性への配慮が不足しているケースが少なくありません。 &#160; 2. メインフレーム特性に対する VCF 9 による対応策 メインフレームが持つ堅牢性のうち、インフラ層が担ってきた非機能要件（可用性や負荷分離、I/O 制御など）については、VCF 9のソフトウェア定義（SDDC：Software-Defined Data Center）技術を用いることで論理的に置き換えることが可能です。システム全体の適切なアーキテクチャ設計と組み合わせることで、以下の機能や構成により安定した稼働環境を提供します。 &#160; ① 負荷分離：NSX Enhanced Data Path（EDP）による処理効率化とリソース予約 メインフレームのチャネル構造のように、インフラ処理による CPU 圧迫を防ぎ業務処理の性能を確保する手段として、VCF 9 では『Enhanced Data Path（EDP）』を活用します。EDP は、ESX のカーネルレベルでパケット処理を最適化するソフトウェア定義の高速ネットワークデータパス技術です。標準的なパフォーマンス NIC &#8230; Continued The post VCF 9 で完遂するメインフレーム・モダナイゼーション#2 appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/11/vcf9_mainframe_2.html",
       "count7d": 10
     },
     "AWS": {
