@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T09:03:32.800Z",
+  "generatedAt": "2026-11-05T17:33:51.149Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,27 +12,27 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "From AI to Analytics: Where SAP Fieldglass Stands Out in the 2026 SIA VMS Landscape",
-      "date": "2026-11-04",
-      "summary": "The report points to a future where connected data and intelligent technology drive better external workforce decisions.",
+      "title": "SAP Business One: 30 Years of Growing Together",
+      "date": "2026-11-05",
+      "summary": "Thirty years later, the solution continues to evolve alongside its customers and the 1.2 million users working with it every day.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/sap-fieldglass-stands-out-2026-sia-vms-landscape/",
-      "count7d": 9
+      "url": "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/",
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Resilience by Design: Protecting Enterprise RAG on Red Hat OpenShift AI",
+      "title": "When Everything Else Fails: Why Your Backup Platform Is Your Last Line of Defense",
       "date": "2026-11-05",
-      "summary": "Generative AI is moving from experimentation to production as organizations build AI assistants, knowledge discovery tools, agentic workflows, and retrieval-augmented generation (RAG) applications that connect large language models to enterprise data. As these systems become business-critical, protecting the data, application state, and dependencies that make them useful has become a fundamental consideration. The post Resilience by Design: Protecting Enterprise RAG on Red Hat OpenShift AI appeared first on Veeam Software Official Blog .",
-      "category": "feature",
-      "url": "https://www.veeam.com/blog/rag-backup-openshift-ai.html",
+      "summary": "Whether you are sitting in a boardroom making strategic decisions, managing a security operations center, or working a weekend shift keeping systems alive in a data center, this conversation belongs to every one of us equally. The post When Everything Else Fails: Why Your Backup Platform Is Your Last Line of Defense appeared first on Veeam Software Official Blog .",
+      "category": "patch",
+      "url": "https://www.veeam.com/blog/backup-last-line-of-defense.html",
       "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
       "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
       "date": "2026-11-05",
-      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory:&nbsp; CVE-2026-111497 - Brotli decoder out-of-bounds…",
+      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
       "count7d": 8
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell and NPS Explore Emerging Technologies During Campus Hackathon",
-      "date": "2026-11-04",
+      "title": "Navigating Rising Hardware Costs: A Small Business Guide to PC Value",
+      "date": "2026-11-05",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/dell-and-nps-explore-emerging-technologies-during-campus-hackathon",
-      "count7d": 10
+      "url": "https://www.dell.com/blog/navigating-rising-hardware-costs-a-small-business-guide-to-pc-value",
+      "count7d": 11
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -84,11 +84,11 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries",
-      "date": "2026-11-04",
+      "title": "How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders",
+      "date": "2026-11-05",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/",
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
       "count7d": 10
     },
     "Palo Alto Networks": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 23,
+      "count": 9,
       "items": [
         {
           "id": "CVE-2026-105769",
@@ -115,6 +115,24 @@
           "epss": 0.196
         },
         {
+          "id": "CVE-2026-59268",
+          "title": "An out-of-bounds Write vulnerability in Apache OpenOffice versions through 4.1.16 could allow an attacker to craft a Microsoft Word document that would crash the program, or otherwise corrupt other memory areas. Users are recommended to…",
+          "date": "2026-11-04",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59268",
+          "kev": false,
+          "epss": 0.166
+        },
+        {
+          "id": "CVE-2026-77691",
+          "title": "ZohoCorp ManageEngine Key Manager Plus versions before 7151 allow authenticated users to enter malicious input when configuring a Microsoft CA",
+          "date": "2026-11-03",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77691",
+          "kev": false,
+          "epss": 1.392
+        },
+        {
           "id": "CVE-2026-107759",
           "title": "The WPO365 | MICROSOFT 365 GRAPH MAILER plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Subject (via wp_mail/PHPMailer, e.g. CF7 your-subject)' parameter in all versions up to, and including, 6.2 due to…",
           "date": "2026-10-31",
@@ -124,31 +142,13 @@
           "epss": 0.272
         },
         {
-          "id": "CVE-2026-85890",
-          "title": "Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-29",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85890",
+          "id": "CVE-2026-69446",
+          "title": "Incorrect authorization in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.",
+          "date": "2026-10-30",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69446",
           "kev": false,
-          "epss": 0.573
-        },
-        {
-          "id": "CVE-2026-85897",
-          "title": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-          "date": "2026-10-29",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85897",
-          "kev": false,
-          "epss": 0.573
-        },
-        {
-          "id": "CVE-2026-85899",
-          "title": "Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges over a network.",
-          "date": "2026-10-29",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85899",
-          "kev": false,
-          "epss": 0.642
+          "epss": 0.248
         }
       ]
     },
@@ -197,7 +197,8 @@
           "date": "2026-11-04",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76506",
-          "kev": false
+          "kev": false,
+          "epss": 1.363
         },
         {
           "id": "CVE-2026-20241",
@@ -205,7 +206,8 @@
           "date": "2026-11-04",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20241",
-          "kev": false
+          "kev": false,
+          "epss": 0.249
         },
         {
           "id": "CVE-2026-76419",
@@ -213,7 +215,8 @@
           "date": "2026-11-04",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76419",
-          "kev": false
+          "kev": false,
+          "epss": 0.27799999999999997
         }
       ]
     },
