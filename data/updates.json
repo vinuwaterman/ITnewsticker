@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T11:52:31.938Z",
+  "generatedAt": "2026-11-06T18:58:58.606Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,30 +12,30 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Business One: 30 Years of Growing Together",
-      "date": "2026-11-05",
-      "summary": "Thirty years later, the solution continues to evolve alongside its customers and the 1.2 million users working with it every day.",
+      "title": "New Research Finds AI Is Moving Faster Than Organizations Can Adapt",
+      "date": "2026-11-06",
+      "summary": "A new Economist Enterprise global survey of finance, HR, and supply chain leaders reveals a shared reality.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/",
+      "count7d": 12
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Retire the Landing Zone: Instant Recoveries Now Run Straight From Dell Data Domain",
+      "title": "Data doesn’t retire, it just gets cheaper to keep",
       "date": "2026-11-06",
-      "summary": "For years, Data Domain users running Veeam Backup &#038; Replication often paid for two backup tiers: a fast disk-based landing zone for quick restores, and Data Domain behind it for efficient long-term retention. The good news is that landing zone is no longer needed. The post Retire the Landing Zone: Instant Recoveries Now Run Straight From Dell Data Domain appeared first on Veeam Software Official Blog .",
+      "summary": "Retention horizons across Asia Pacific now outlast the storage hardware, the vendor contract, and the career of the administrator who configured them. That makes long-term retention a lifecycle problem, not a storage problem. The post Data doesn’t retire, it just gets cheaper to keep appeared first on Veeam Software Official Blog .",
       "category": "eol",
-      "url": "https://www.veeam.com/blog/dell-data-domain-primary-target.html",
+      "url": "https://www.veeam.com/blog/data-backup-last-line-of-defense.html",
       "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-      "date": "2026-11-05",
-      "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates…",
+      "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+      "date": "2026-11-06",
+      "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:&nbsp; CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the advisories GHSA-w8hw-w9fx-j79w and GHSA-6wmf-4rv5-p3rp . These vulnerabilities are being referenced as PHP2shell. For information about Splunk products and offerings, see Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Splunk Products - October 2026 . Important: If a product is not listed within this…",
       "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-      "count7d": 7
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "count7d": 8
     },
     "VMware": {
       "vendor": "VMware",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Navigating Rising Hardware Costs: A Small Business Guide to PC Value",
-      "date": "2026-11-05",
+      "title": "Cyber Resilience, Explained: What My First Year Taught Me",
+      "date": "2026-11-06",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/navigating-rising-hardware-costs-a-small-business-guide-to-pc-value",
-      "count7d": 8
+      "url": "https://www.dell.com/blog/cyber-resilience-explained-what-my-first-year-taught-me",
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -103,8 +103,16 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 6,
+      "count": 7,
       "items": [
+        {
+          "id": "CVE-2026-59105",
+          "title": "Jumis (formerly Tildes Jumis) creates and uses a Microsoft SQL Server login named ##Tilde_JumisAdmin## whose password is derived deterministically from a single non-secret input - the SQL Server name (@@servername). The derivation algorithm is hard-coded…",
+          "date": "2026-11-06",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59105",
+          "kev": false
+        },
         {
           "id": "CVE-2026-105769",
           "title": "kaniko before 1.25.20 can send a Microsoft Entra ID (Azure AD) access token for Azure Resource Manager to an attacker-controlled registry host. kaniko uses the Azure Container Registry credential helper github.com/chrismellard/docker-credential-acr-env, which decides whether a…",
@@ -121,7 +129,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59268",
           "kev": false,
-          "epss": 0.166
+          "epss": 0.21
         },
         {
           "id": "CVE-2026-77691",
@@ -140,15 +148,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107759",
           "kev": false,
           "epss": 0.272
-        },
-        {
-          "id": "CVE-2026-69446",
-          "title": "Incorrect authorization in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.",
-          "date": "2026-10-30",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69446",
-          "kev": false,
-          "epss": 0.248
         }
       ]
     },
@@ -201,52 +200,52 @@
       "items": []
     },
     "Dell": {
-      "count": 42,
+      "count": 26,
       "items": [
         {
-          "id": "CVE-2026-101210",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.8.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability,…",
-          "date": "2026-10-30",
+          "id": "CVE-2026-94349",
+          "title": "Dell OpenManage Enterprise, versions prior to 4.8.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with adjacent network access could potentially exploit this…",
+          "date": "2026-11-02",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101210",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94349",
           "kev": false,
-          "epss": 2.835
+          "epss": 2.164
         },
         {
-          "id": "CVE-2026-101213",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.8.0, contains an Improper Privilege Management vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges.",
-          "date": "2026-10-30",
+          "id": "CVE-2026-91893",
+          "title": "Dell Alienware Command Center (AWCC), versions prior to 6.14.54.0, contain an Improper Privilege Management vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privilege.",
+          "date": "2026-11-02",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101213",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91893",
           "kev": false,
-          "epss": 0.132
+          "epss": 0.126
         },
         {
-          "id": "CVE-2026-101214",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.8.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability,…",
-          "date": "2026-10-30",
+          "id": "CVE-2026-91895",
+          "title": "Dell Alienware Command Center (AWCC), versions prior to 6.14.54.0, contain an Incorrect Default Permissions vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Information Tampering.",
+          "date": "2026-11-02",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101214",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91895",
           "kev": false,
-          "epss": 2.835
+          "epss": 0.116
         },
         {
-          "id": "CVE-2026-111504",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.8.0, contains an Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Elevation…",
-          "date": "2026-10-30",
+          "id": "CVE-2026-91898",
+          "title": "Dell Alienware Command Center (AWCC), versions prior to 6.14.54.0, contain an Improper Verification of Cryptographic Signature vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Arbitrary Code Execution and…",
+          "date": "2026-11-02",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111504",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91898",
           "kev": false,
-          "epss": 0.47000000000000003
+          "epss": 0.293
         },
         {
-          "id": "CVE-2026-111505",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.8.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability,…",
-          "date": "2026-10-30",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111505",
+          "id": "CVE-2026-91903",
+          "title": "Dell OpenManage Enterprise, versions prior to 4.8.0, contains an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability. A high privileged attacker with adjacent network access could potentially exploit this vulnerability, leading…",
+          "date": "2026-11-02",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91903",
           "kev": false,
-          "epss": 1.4460000000000002
+          "epss": 0.201
         }
       ]
     },
