@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T03:33:56.052Z",
+  "generatedAt": "2026-11-06T11:52:31.938Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -21,11 +21,11 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "When Everything Else Fails: Why Your Backup Platform Is Your Last Line of Defense",
-      "date": "2026-11-05",
-      "summary": "Whether you are sitting in a boardroom making strategic decisions, managing a security operations center, or working a weekend shift keeping systems alive in a data center, this conversation belongs to every one of us equally. The post When Everything Else Fails: Why Your Backup Platform Is Your Last Line of Defense appeared first on Veeam Software Official Blog .",
-      "category": "patch",
-      "url": "https://www.veeam.com/blog/backup-last-line-of-defense.html",
+      "title": "Retire the Landing Zone: Instant Recoveries Now Run Straight From Dell Data Domain",
+      "date": "2026-11-06",
+      "summary": "For years, Data Domain users running Veeam Backup &#038; Replication often paid for two backup tiers: a fast disk-based landing zone for quick restores, and Data Domain behind it for efficient long-term retention. The good news is that landing zone is no longer needed. The post Retire the Landing Zone: Instant Recoveries Now Run Straight From Dell Data Domain appeared first on Veeam Software Official Blog .",
+      "category": "eol",
+      "url": "https://www.veeam.com/blog/dell-data-domain-primary-target.html",
       "count7d": 5
     },
     "Cisco": {
