@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T17:33:51.149Z",
+  "generatedAt": "2026-11-06T03:33:56.052Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119260",
-      "count7d": 78
+      "count7d": 75
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Thirty years later, the solution continues to evolve alongside its customers and the 1.2 million users working with it every day.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/",
-      "count7d": 11
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
       "date": "2026-11-05",
-      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds…",
+      "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates…",
       "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "count7d": 8
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+      "count7d": 7
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF 9 で完遂するメインフレーム・モダナイゼーション#2",
-      "date": "2026-11-05",
-      "summary": "第二回：メインフレームのアーキテクチャ特性と VCF 9 による実装アプローチ 第一回では、ハードウェアベンダー各社の撤退方針や保守技術者の減少を背景に、メインフレームからの脱却が喫緊の課題であることを整理しました。また、リスクを抑えて移行を進めるためには、パブリッククラウドのマルチテナント環境へ一括移行するのではなく、自社統制を保てる基盤上で段階的なリファクター（自動コード変換と次世代インフラの組み合わせ）を選択することが現実的な解であると述べました。 一方で、業務の中核を担ってきたメインフレームからオープンなインフラへ移行するにあたり、最も懸念されるのは、業務に求められる処理性能や耐障害性を維持できるのかという点です。 連載第二回となる本稿では、メインフレームが長年担保してきた非機能要件の背景を整理したうえで、次世代基盤『VMware Cloud Foundation®（VCF 9 ）』が汎用サーバー上でそれらをいかに実装し、運用性を高めているのかを解説します。 &#160; 1. メインフレームの堅牢性を支えるアーキテクチャの特性 メインフレームが長年にわたり基幹システムで重用されてきた理由は、ミッションクリティカルな業務を停止させず、大量のトランザクションを確実に処理し続ける高い信頼性にあります。この優れた非機能要件は、単なる計算能力の高さではなく、以下のようなハードウェアレベルのアーキテクチャ特性によって支えられていました。 ハードウェアレベルでのリソース分離 CPU、メモリ、I/O チャネルが厳格に区画化されており、特定業務の負荷スパイクが他の基幹処理に波及しない構造になっています。 低遅延で確定的な I/O 処理 メインプロセッサーとは独立した専用の I/O プロセッサーとチャネル機構により、CPU に負荷をかけずに大量のディスクアクセスを並行処理します。 障害の事前検知と縮退・交代機能 部品レベルのエラーを検知して予備パーツへ自動で切り替えるなど、ハードウェアの冗長構成を前提とした可用性を備えています。 オープン環境への移行プロジェクトにおいて性能や安定性のトラブルが発生する場合、言語変換などのアプリケーション改修や後方互換性の維持に注力するあまり、インフラ層が担っていたこれらのアーキテクチャ特性への配慮が不足しているケースが少なくありません。 &#160; 2. メインフレーム特性に対する VCF 9 による対応策 メインフレームが持つ堅牢性のうち、インフラ層が担ってきた非機能要件（可用性や負荷分離、I/O 制御など）については、VCF 9のソフトウェア定義（SDDC：Software-Defined Data Center）技術を用いることで論理的に置き換えることが可能です。システム全体の適切なアーキテクチャ設計と組み合わせることで、以下の機能や構成により安定した稼働環境を提供します。 &#160; ① 負荷分離：NSX Enhanced Data Path（EDP）による処理効率化とリソース予約 メインフレームのチャネル構造のように、インフラ処理による CPU 圧迫を防ぎ業務処理の性能を確保する手段として、VCF 9 では『Enhanced Data Path（EDP）』を活用します。EDP は、ESX のカーネルレベルでパケット処理を最適化するソフトウェア定義の高速ネットワークデータパス技術です。標準的なパフォーマンス NIC &#8230; Continued The post VCF 9 で完遂するメインフレーム・モダナイゼーション#2 appeared first on VMware Blogs .",
+      "title": "導入事例：マツダ株式会社様",
+      "date": "2026-11-06",
+      "summary": "「『走る歓び』で移動体験の感動を量産するクルマ好きの会社になる。」を2030 VISIONに掲げ、グローバルに事業を展開するマツダ株式会社様。本日は、VMware Cloud Foundation の導入と弊社の１プロフェッショナルサービスによる伴走支援を活用した事例をご紹介いたします。 同社では、グループ全体5万人の業務を支えるプライベートクラウド基盤をVMwareソリューションで運用してきました。しかし、システムの高度化に伴う運用のブラックボックス化や、外部依存からの脱却、自律した「内製化組織づくり」が大きな課題となっていました。この課題を打破し、自走する組織づくりと次世代基盤への統合を実現したのが、プロフェッショナルサービスによる実践的な教育支援とVCF 9.0の採用です。 伴走支援による内製化組織の醸成 専用Lab環境を構築し、1年間にわたり毎週ハンズオントレーニングを実施することで組織全体のスキルを底上げ。ベンダー提案を鵜呑みにせず対等に議論できる体制を築き、中長期的なインフラポリシーを自社主導でコントロールできる自律型組織への転換を果たしました。 バージョンアップ作業のリードタイムを3か月から1か月に短縮 バージョンアップ検証・手順策定・本番作業を内製主導で実施。従来の外注プロセスであれば発注から作業完了まで3〜4か月を要していたリードタイムを、わずか約1か月に短縮することに成功しました。 リソース可視化と高密度集約によるコスト抑制 VCF Operationsの活用によりリソース使用状況を可視化し、ハードウェア高騰に対応する効率的なリソース配分を実現。第4世代基盤ではvSAN ESAの採用や高密度集約を進め、約300台あったホストを約150台へ集約統合する計画を推進しています。 詳細については、以下のPDFをダウンロードの上、ご参照ください。 マツダ様導入事例をダウンロード The post 導入事例：マツダ株式会社様 appeared first on VMware Japan Blog. The post 導入事例：マツダ株式会社様 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/11/vcf9_mainframe_2.html",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/11/customer-case-studies-mazda.html",
       "count7d": 10
     },
     "AWS": {
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/navigating-rising-hardware-costs-a-small-business-guide-to-pc-value",
-      "count7d": 11
+      "count7d": 8
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Amar will build on the strong brand legacy of innovation, accelerate premium growth, further expand the company ecosystem of intelligent devices, and strengthen market share across key markets including the US, India, and Japan",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-names-amar-babu-new-motorola-mobility-president/",
-      "count7d": 4
+      "count7d": 3
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 9,
+      "count": 6,
       "items": [
         {
           "id": "CVE-2026-105769",
@@ -157,36 +157,8 @@
       "items": []
     },
     "Veeam": {
-      "count": 3,
-      "items": [
-        {
-          "id": "CVE-2023-22793",
-          "title": "A vulnerability allowing an unauthenticated attacker to perform remote code execution (RCE) on servers running the Veeam Virtualization Extensions service of Veeam Management Pack for Microsoft System Center.",
-          "date": "2026-10-29",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22793",
-          "kev": false,
-          "epss": 0.526
-        },
-        {
-          "id": "CVE-2026-107238",
-          "title": "A vulnerability allowing an authenticated domain user to perform remote code execution (RCE) as the LocalSystem account on servers running the Veeam Management Pack for Microsoft System Center Collector service.",
-          "date": "2026-10-29",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107238",
-          "kev": false,
-          "epss": 0.449
-        },
-        {
-          "id": "CVE-2026-107239",
-          "title": "A vulnerability allowing a member of the Veeam Virtualization Extensions Users group to perform remote code execution (RCE) on servers running the Veeam Management Pack for Microsoft System Center Collector service.",
-          "date": "2026-10-29",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107239",
-          "kev": false,
-          "epss": 0.6479999999999999
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Cisco": {
       "count": 3,
