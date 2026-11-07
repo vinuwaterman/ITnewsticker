@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T04:57:06.006Z",
+  "generatedAt": "2026-11-07T11:35:15.862Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 7,
+      "count": 6,
       "items": [
         {
           "id": "CVE-2026-59105",
@@ -141,13 +141,12 @@
           "epss": 1.392
         },
         {
-          "id": "CVE-2026-107759",
-          "title": "The WPO365 | MICROSOFT 365 GRAPH MAILER plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Subject (via wp_mail/PHPMailer, e.g. CF7 your-subject)' parameter in all versions up to, and including, 6.2 due to…",
-          "date": "2026-10-31",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107759",
-          "kev": false,
-          "epss": 0.272
+          "id": "CVE-2026-112337",
+          "title": "Wazuh from 3.7.0 before 4.14.9 contains a server-side request forgery vulnerability in the Azure wodle get_graph_events() function that follows @odata.nextLink without host or HTTPS validation. Attackers who influence the nextLink value can redirect manager requests…",
+          "date": "2026-11-06",
+          "severity": "LOW",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112337",
+          "kev": false
         }
       ]
     },
