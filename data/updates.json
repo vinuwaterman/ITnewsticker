@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T00:51:52.666Z",
+  "generatedAt": "2026-11-08T06:58:18.610Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 6,
+      "count": 8,
       "items": [
         {
           "id": "CVE-2026-59105",
@@ -142,13 +142,12 @@
           "epss": 1.392
         },
         {
-          "id": "CVE-2026-112337",
-          "title": "Wazuh from 3.7.0 before 4.14.9 contains a server-side request forgery vulnerability in the Azure wodle get_graph_events() function that follows @odata.nextLink without host or HTTPS validation. Attackers who influence the nextLink value can redirect manager requests…",
-          "date": "2026-11-06",
-          "severity": "LOW",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112337",
-          "kev": false,
-          "epss": 0.211
+          "id": "CVE-2026-123525",
+          "title": "Vikunja before 2.7.1 allocates memory without limits in its Trello, Todoist and Microsoft To Do migration importers, which buffer remote attachment downloads and API responses in memory without size caps. Authenticated users can start a…",
+          "date": "2026-11-08",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123525",
+          "kev": false
         }
       ]
     },
