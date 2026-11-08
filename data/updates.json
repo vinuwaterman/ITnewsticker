@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-07T21:04:52.196Z",
+  "generatedAt": "2026-11-08T00:51:52.666Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
       "title": "CVE-2026-83844 Windows Paint Remote Code Execution Vulnerability",
-      "date": "2026-11-06",
-      "summary": "To comprehensively address the vulnerability identified by this CVE, Microsoft has released a new version of Paint with build version number 11.2609.401.0. Microsoft recommends installing this new version or ensuring that it was automatically updated.",
+      "date": "2026-11-07",
+      "summary": "Added an FAQ and updated the CVSS score. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
-      "count7d": 25
+      "count7d": 26
     },
     "SAP": {
       "vendor": "SAP",
