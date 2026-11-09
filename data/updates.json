@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T02:26:30.430Z",
+  "generatedAt": "2026-11-09T10:07:45.318Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "New Research Finds AI Is Moving Faster Than Organizations Can Adapt",
-      "date": "2026-11-06",
-      "summary": "A new Economist Enterprise global survey of finance, HR, and supply chain leaders reveals a shared reality.",
+      "title": "Interview with Manish Prasad: “Touch Any Growth Lever in India and You&#8217;ll Find SAP There”",
+      "date": "2026-11-09",
+      "summary": "SAP India President and MD Manish Prasad makes the case for why India is becoming a strategically important market in SAP's global story.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/11/interview-with-manish-prasad-sap-india/",
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
