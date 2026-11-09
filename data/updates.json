@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T10:07:45.318Z",
+  "generatedAt": "2026-11-09T20:58:43.238Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Interview with Manish Prasad: “Touch Any Growth Lever in India and You&#8217;ll Find SAP There”",
+      "title": "Oliva Cigar: Crafting a Digital Legacy for the Next Century",
       "date": "2026-11-09",
-      "summary": "SAP India President and MD Manish Prasad makes the case for why India is becoming a strategically important market in SAP's global story.",
+      "summary": "In a world of rapid change, even a legacy built on tradition must look to the future.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/interview-with-manish-prasad-sap-india/",
-      "count7d": 11
+      "url": "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
+      "count7d": 14
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-      "date": "2026-11-06",
-      "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates…",
+      "title": "Cisco Meraki Security Hardening Release: October 2026",
+      "date": "2026-11-09",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE) &mdash; and assigned a single Common Vulnerabilities…",
       "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-      "count7d": 8
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+      "count7d": 9
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "導入事例：マツダ株式会社様",
-      "date": "2026-11-06",
-      "summary": "「『走る歓び』で移動体験の感動を量産するクルマ好きの会社になる。」を2030 VISIONに掲げ、グローバルに事業を展開するマツダ株式会社様。本日は、VMware Cloud Foundation の導入と弊社の１プロフェッショナルサービスによる伴走支援を活用した事例をご紹介いたします。 同社では、グループ全体5万人の業務を支えるプライベートクラウド基盤をVMwareソリューションで運用してきました。しかし、システムの高度化に伴う運用のブラックボックス化や、外部依存からの脱却、自律した「内製化組織づくり」が大きな課題となっていました。この課題を打破し、自走する組織づくりと次世代基盤への統合を実現したのが、プロフェッショナルサービスによる実践的な教育支援とVCF 9.0の採用です。 伴走支援による内製化組織の醸成 専用Lab環境を構築し、1年間にわたり毎週ハンズオントレーニングを実施することで組織全体のスキルを底上げ。ベンダー提案を鵜呑みにせず対等に議論できる体制を築き、中長期的なインフラポリシーを自社主導でコントロールできる自律型組織への転換を果たしました。 バージョンアップ作業のリードタイムを3か月から1か月に短縮 バージョンアップ検証・手順策定・本番作業を内製主導で実施。従来の外注プロセスであれば発注から作業完了まで3〜4か月を要していたリードタイムを、わずか約1か月に短縮することに成功しました。 リソース可視化と高密度集約によるコスト抑制 VCF Operationsの活用によりリソース使用状況を可視化し、ハードウェア高騰に対応する効率的なリソース配分を実現。第4世代基盤ではvSAN ESAの採用や高密度集約を進め、約300台あったホストを約150台へ集約統合する計画を推進しています。 詳細については、以下のPDFをダウンロードの上、ご参照ください。 マツダ様導入事例をダウンロード The post 導入事例：マツダ株式会社様 appeared first on VMware Japan Blog. The post 導入事例：マツダ株式会社様 appeared first on VMware Blogs .",
+      "title": "VMware Cloud Foundation Named a G2 Leader in IaaS for Fall 2026!",
+      "date": "2026-11-09",
+      "summary": "VMware Cloud Foundation (VCF) has once again earned recognition as a G2 Leader in the Infrastructure as a Service (IaaS) category for Fall 2026. This achievement reflects the continued trust of enterprise customers worldwide and affirms our commitment to advancing the VMware portfolio as a secure, high-performance, and cost-effective private cloud platform for the enterprise. &#8230; Continued The post VMware Cloud Foundation Named a G2 Leader in IaaS for Fall 2026! appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/11/customer-case-studies-mazda.html",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/09/vmware-cloud-foundation-named-a-g2-leader-in-iaas-for-fall-2026/",
       "count7d": 10
     },
     "AWS": {
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Cyber Resilience, Explained: What My First Year Taught Me",
-      "date": "2026-11-06",
+      "title": "Beyond Vectors: Hybrid Search for Enterprise AI",
+      "date": "2026-11-09",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/cyber-resilience-explained-what-my-first-year-taught-me",
-      "count7d": 7
+      "url": "https://www.dell.com/blog/beyond-vectors-hybrid-search-for-enterprise-ai",
+      "count7d": 11
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo names Amar Babu new Motorola Mobility President",
-      "date": "2026-11-04",
-      "summary": "Amar will build on the strong brand legacy of innovation, accelerate premium growth, further expand the company ecosystem of intelligent devices, and strengthen market share across key markets including the US, India, and Japan",
+      "title": "Accelerating scientific discovery worldwide with Lenovo HPC and AI infrastructure",
+      "date": "2026-11-09",
+      "summary": "From climate modeling and fusion research to drug discovery and MRI innovation, Lenovo supercomputing helps organizations move from complex questions to actionable answers faster.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-names-amar-babu-new-motorola-mobility-president/",
-      "count7d": 3
+      "url": "https://news.lenovo.com/accelerating-scientific-discovery-worldwide-hpc-ai-infrastructure/",
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 8,
+      "count": 7,
       "items": [
         {
           "id": "CVE-2026-59105",
@@ -113,15 +113,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59105",
           "kev": false,
           "epss": 1.438
-        },
-        {
-          "id": "CVE-2026-105769",
-          "title": "kaniko before 1.25.20 can send a Microsoft Entra ID (Azure AD) access token for Azure Resource Manager to an attacker-controlled registry host. kaniko uses the Azure Container Registry credential helper github.com/chrismellard/docker-credential-acr-env, which decides whether a…",
-          "date": "2026-11-02",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105769",
-          "kev": false,
-          "epss": 0.196
         },
         {
           "id": "CVE-2026-59268",
@@ -149,6 +140,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123525",
           "kev": false,
           "epss": 0.307
+        },
+        {
+          "id": "CVE-2026-123494",
+          "title": "Vikunja before 2.7.1 contains a cross-site request forgery vulnerability that allows attackers to import their data into a victim's account because the Todoist, Microsoft To Do, and Trello migration OAuth callbacks lack a bound state…",
+          "date": "2026-11-08",
+          "severity": "LOW",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123494",
+          "kev": false,
+          "epss": 0.10300000000000001
         }
       ]
     },
@@ -201,52 +201,52 @@
       "items": []
     },
     "Dell": {
-      "count": 26,
+      "count": 6,
       "items": [
         {
-          "id": "CVE-2026-94349",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.8.0, contains an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A low privileged attacker with adjacent network access could potentially exploit this…",
-          "date": "2026-11-02",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94349",
+          "id": "CVE-2026-82158",
+          "title": "Dell Wyse Management Suite, versions prior to 2609.0.0.155, contain an Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
+          "date": "2026-11-03",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82158",
           "kev": false,
-          "epss": 2.164
+          "epss": 0.349
         },
         {
-          "id": "CVE-2026-91893",
-          "title": "Dell Alienware Command Center (AWCC), versions prior to 6.14.54.0, contain an Improper Privilege Management vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of Privilege.",
-          "date": "2026-11-02",
+          "id": "CVE-2026-82155",
+          "title": "Dell OS Recovery tool versions, prior to 2.4.4, contain a use of Untrusted Search Path vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Command execution.",
+          "date": "2026-11-03",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91893",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82155",
           "kev": false,
-          "epss": 0.126
+          "epss": 0.378
         },
         {
-          "id": "CVE-2026-91895",
-          "title": "Dell Alienware Command Center (AWCC), versions prior to 6.14.54.0, contain an Incorrect Default Permissions vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Information Tampering.",
-          "date": "2026-11-02",
+          "id": "CVE-2026-82159",
+          "title": "Dell Wyse Management Suite, versions prior to 2609.0.0.155, contain an Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
+          "date": "2026-11-03",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91895",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82159",
           "kev": false,
-          "epss": 0.116
+          "epss": 0.445
         },
         {
-          "id": "CVE-2026-91898",
-          "title": "Dell Alienware Command Center (AWCC), versions prior to 6.14.54.0, contain an Improper Verification of Cryptographic Signature vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Arbitrary Code Execution and…",
-          "date": "2026-11-02",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91898",
-          "kev": false,
-          "epss": 0.293
-        },
-        {
-          "id": "CVE-2026-91903",
-          "title": "Dell OpenManage Enterprise, versions prior to 4.8.0, contains an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability. A high privileged attacker with adjacent network access could potentially exploit this vulnerability, leading…",
-          "date": "2026-11-02",
+          "id": "CVE-2026-82161",
+          "title": "Dell Wyse Management Suite, versions prior to 2609.0.0.155, contain an Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
+          "date": "2026-11-03",
           "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91903",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82161",
           "kev": false,
-          "epss": 0.201
+          "epss": 0.183
+        },
+        {
+          "id": "CVE-2026-82154",
+          "title": "Dell OS Recovery tool versions, prior to 2.4.4, contain a use of Hard-coded Cryptographic Key vulnerability. An unauthenticated attacker with physical access could potentially exploit this vulnerability, leading to Information Disclosure.",
+          "date": "2026-11-03",
+          "severity": "LOW",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82154",
+          "kev": false,
+          "epss": 0.172
         }
       ]
     },
