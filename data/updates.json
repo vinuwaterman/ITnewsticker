@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:45:58.694Z",
+  "generatedAt": "2026-11-09T02:26:30.430Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -17,7 +17,7 @@
       "summary": "A new Economist Enterprise global survey of finance, HR, and supply chain leaders reveals a shared reality.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/",
-      "count7d": 12
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/cyber-resilience-explained-what-my-first-year-taught-me",
-      "count7d": 10
+      "count7d": 7
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -98,7 +98,7 @@
       "summary": "AI agents working directly on the desktop offer new ways to automate complex tasks, yet they operate outside traditional endpoint controls and pose unacceptable risks to many security leaders. Today, we're announcing &#8230; The post New Cortex XDR Integration with Claude Cowork Secures Desktop AI Agents appeared first on Palo Alto Networks Blog .",
       "category": "patch",
       "url": "https://www.paloaltonetworks.com/blog/2026/11/new-cortex-xdr-integration-with-claude-cowork-secures-desktop-ai-agents/",
-      "count7d": 2
+      "count7d": 1
     }
   },
   "nvd": {
