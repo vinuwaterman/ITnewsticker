@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-11-10T11:34:23.444Z",
+  "generatedAt": "2026-11-10T19:25:40.473Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-83844 Windows Paint Remote Code Execution Vulnerability",
-      "date": "2026-11-07",
-      "summary": "Added an FAQ and updated the CVSS score. This is an informational change only.",
+      "title": "CVE-2026-102868 Windows Shell Information Disclosure Vulnerability",
+      "date": "2026-11-10",
+      "summary": "Exposure of sensitive system information to an unauthorized control sphere in Windows Shell allows an authorized attacker to disclose information locally.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
-      "count7d": 26
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102868",
+      "count7d": 1120
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Expands Collaboration with AstraZeneca to Adopt RISE with SAP and Business AI",
+      "title": "Supply Chain AI Must Do More Than Inform; It Must Help Businesses Act",
       "date": "2026-11-10",
-      "summary": "WALLDORF — Cloud, data and AI create a stronger foundation for innovation at scale.",
+      "summary": "Companies with the deepest understanding of their own operations are the ones best positioned to put AI to work.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
-      "count7d": 12
+      "url": "https://news.sap.com/2026/11/supply-chain-ai-must-do-more-than-inform-it-must-help-businesses-act/",
+      "count7d": 13
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Data doesn’t retire, it just gets cheaper to keep",
-      "date": "2026-11-06",
-      "summary": "Retention horizons across Asia Pacific now outlast the storage hardware, the vendor contract, and the career of the administrator who configured them. That makes long-term retention a lifecycle problem, not a storage problem. The post Data doesn’t retire, it just gets cheaper to keep appeared first on Veeam Software Official Blog .",
-      "category": "eol",
-      "url": "https://www.veeam.com/blog/data-backup-last-line-of-defense.html",
+      "title": "Egress fees explained: Costs and how to reduce them",
+      "date": "2026-11-10",
+      "summary": "Every major provider charges egress fees, and rates vary by provider, region, and destination. For Backup Admins and Cloud Architects, that unpredictability shapes real decisions: where backup repositories live, how often you test DR, and how far you take a multicloud strategy. The post Egress fees explained: Costs and how to reduce them appeared first on Veeam Software Official Blog .",
+      "category": "feature",
+      "url": "https://www.veeam.com/blog/egress-fees.html",
       "count7d": 5
     },
     "Cisco": {
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF Firewall Planner Tool: A Step-by-Step Walkthrough from 1,063 Candidate Rules to 224",
+      "title": "How VM API and KubeVM Service Deliver Open Standards and Enterprise Execution",
       "date": "2026-11-10",
-      "summary": "Most published VMware Cloud Foundation (VCF) flows never need a firewall rule. The VCF Firewall Planner takes the full Broadcom port catalogue for VCF 9.1 and, in 12 guided steps, cuts it down to the consolidated rule set your design needs. Every exclusion keeps its reason, so the firewall team can see why a flow &#8230; Continued The post VCF Firewall Planner Tool: A Step-by-Step Walkthrough from 1,063 Candidate Rules to 224 appeared first on VMware Blogs .",
+      "summary": "VMs are the foundation of enterprise computing. They run the majority of mission-critical production workloads today, and they will continue to do so for years to come. What is changing is how platform engineering teams want to operate them. As organizations build internal developer platforms around Kubernetes, teams want a single, declarative operating model across &#8230; Continued The post How VM API and KubeVM Service Deliver Open Standards and Enterprise Execution appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/09/vcf-firewall-planner-tool-a-step-by-step-walkthrough-from-1063-candidate-rules-to-224/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/10/vm-api-and-kubevm-service/",
       "count7d": 10
     },
     "AWS": {
@@ -57,21 +57,21 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Beyond Vectors: Hybrid Search for Enterprise AI",
-      "date": "2026-11-09",
+      "title": "Dell Raises the Bar for Business Headsets with Smarter Audio and Lasting Comfort",
+      "date": "2026-11-10",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/beyond-vectors-hybrid-search-for-enterprise-ai",
-      "count7d": 8
+      "url": "https://www.dell.com/blog/dell-raises-the-bar-for-business-headsets-with-smarter-audio-and-lasting-comfort",
+      "count7d": 11
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Accelerating scientific discovery worldwide with Lenovo HPC and AI infrastructure",
-      "date": "2026-11-09",
-      "summary": "From climate modeling and fusion research to drug discovery and MRI innovation, Lenovo supercomputing helps organizations move from complex questions to actionable answers faster.",
+      "title": "A Problem Shared is a Problem Halved: What Call Eva Reveals About the Questions Entrepreneurs Are Asking",
+      "date": "2026-11-10",
+      "summary": "Lenovo’s Call Eva initiative with entrepreneur Eva Longoria brings real business questions to life, alongside wider research on the value of technology, mentorship and community.",
       "category": "feature",
-      "url": "https://news.lenovo.com/accelerating-scientific-discovery-worldwide-hpc-ai-infrastructure/",
-      "count7d": 2
+      "url": "https://news.lenovo.com/pressroom/press-releases/a-problem-shared-is-a-problem-halved-what-call-eva-reveals/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -161,7 +161,8 @@
           "date": "2026-11-10",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109795",
-          "kev": false
+          "kev": false,
+          "epss": 0.409
         },
         {
           "id": "CVE-2026-109798",
@@ -169,7 +170,8 @@
           "date": "2026-11-10",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109798",
-          "kev": false
+          "kev": false,
+          "epss": 0.28300000000000003
         },
         {
           "id": "CVE-2026-109803",
@@ -177,7 +179,8 @@
           "date": "2026-11-10",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109803",
-          "kev": false
+          "kev": false,
+          "epss": 0.409
         },
         {
           "id": "CVE-2026-109793",
@@ -185,7 +188,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109793",
-          "kev": false
+          "kev": false,
+          "epss": 0.359
         },
         {
           "id": "CVE-2026-109794",
@@ -193,7 +197,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109794",
-          "kev": false
+          "kev": false,
+          "epss": 0.359
         }
       ]
     },
@@ -202,7 +207,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 4,
+      "count": 5,
       "items": [
         {
           "id": "CVE-2026-95646",
@@ -210,6 +215,14 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95646",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-12573",
+          "title": "Zoho Corporation ManageEngine DDI Central versions 6200 and below are vulnerable to Cisco IOS command injection via DHCP pool name leading to arbitrary commands on managed Cisco routers.",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12573",
           "kev": false
         },
         {
@@ -250,7 +263,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91754",
-          "kev": false
+          "kev": false,
+          "epss": 0.312
         },
         {
           "id": "CVE-2026-91755",
@@ -258,7 +272,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91755",
-          "kev": false
+          "kev": false,
+          "epss": 0.31
         },
         {
           "id": "CVE-2026-91756",
@@ -266,7 +281,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91756",
-          "kev": false
+          "kev": false,
+          "epss": 0.851
         },
         {
           "id": "CVE-2026-91757",
@@ -274,7 +290,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91757",
-          "kev": false
+          "kev": false,
+          "epss": 0.6819999999999999
         }
       ]
     },
