@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T20:58:43.238Z",
+  "generatedAt": "2026-11-10T03:23:16.936Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -17,7 +17,7 @@
       "summary": "In a world of rapid change, even a legacy built on tradition must look to the future.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
-      "count7d": 14
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Meraki Security Hardening Release: October 2026",
+      "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
       "date": "2026-11-09",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE) &mdash; and assigned a single Common Vulnerabilities…",
+      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds…",
       "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
-      "count7d": 9
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "count7d": 8
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VMware Cloud Foundation Named a G2 Leader in IaaS for Fall 2026!",
+      "title": "VMware Cloud Foundation Delivers a Secure Path to Production for Every Workload",
       "date": "2026-11-09",
-      "summary": "VMware Cloud Foundation (VCF) has once again earned recognition as a G2 Leader in the Infrastructure as a Service (IaaS) category for Fall 2026. This achievement reflects the continued trust of enterprise customers worldwide and affirms our commitment to advancing the VMware portfolio as a secure, high-performance, and cost-effective private cloud platform for the enterprise. &#8230; Continued The post VMware Cloud Foundation Named a G2 Leader in IaaS for Fall 2026! appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/09/vmware-cloud-foundation-named-a-g2-leader-in-iaas-for-fall-2026/",
+      "summary": "Enterprises are facing challenges when it comes to modernizing applications. How do we modernize applications without losing the control, security, and performance of private cloud? Teams need to ship features faster, adopt microservices and AI workloads, and retire technical debt, all on infrastructure they trust. The market rewards speed, and organizations that modernize well gain &#8230; Continued The post VMware Cloud Foundation Delivers a Secure Path to Production for Every Workload appeared first on VMware Blogs .",
+      "category": "eol",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/09/vmware-cloud-foundation-delivers-a-secure-path-to-production-for-every-workload/",
       "count7d": 10
     },
     "AWS": {
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/beyond-vectors-hybrid-search-for-enterprise-ai",
-      "count7d": 11
+      "count7d": 8
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "From climate modeling and fusion research to drug discovery and MRI innovation, Lenovo supercomputing helps organizations move from complex questions to actionable answers faster.",
       "category": "feature",
       "url": "https://news.lenovo.com/accelerating-scientific-discovery-worldwide-hpc-ai-infrastructure/",
-      "count7d": 4
+      "count7d": 2
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "patch",
       "url": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
-      "count7d": 10
+      "count7d": 5
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -153,8 +153,49 @@
       ]
     },
     "SAP": {
-      "count": 0,
-      "items": []
+      "count": 40,
+      "items": [
+        {
+          "id": "CVE-2026-109795",
+          "title": "SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in certain remote-enabled functionality. An attacker with low privileges could send specially crafted input through a remote interface to inject and execute…",
+          "date": "2026-11-10",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109795",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-109798",
+          "title": "SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly restrict external entity resolution when processing OLAP connection requests. An authenticated attacker could exploit this vulnerability to access restricted resources, enabling them to read sensitive…",
+          "date": "2026-11-10",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109798",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-109803",
+          "title": "SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selection of XSL transformations processed by the affected functionality. Under certain conditions, an authenticated user with access to the affected functionality could cause an…",
+          "date": "2026-11-10",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109803",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-109793",
+          "title": "SAP NetWeaver Application Server ABAP and SAP Web Dispatcher do not sufficiently validate certain header values processed during inbound request handling. An unauthenticated attacker could send a specially crafted request to cause the affected process…",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109793",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-109794",
+          "title": "SAP NetWeaver Application Server ABAP, ABAP Platform, and SAP Web Dispatcher do not sufficiently handle resource consumption when processing certain requests. An unauthenticated attacker could send specially crafted requests to the affected component, causing excessive…",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109794",
+          "kev": false
+        }
+      ]
     },
     "Veeam": {
       "count": 0,
