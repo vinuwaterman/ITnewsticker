@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T03:23:16.936Z",
+  "generatedAt": "2026-11-10T11:34:23.444Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Oliva Cigar: Crafting a Digital Legacy for the Next Century",
-      "date": "2026-11-09",
-      "summary": "In a world of rapid change, even a legacy built on tradition must look to the future.",
+      "title": "SAP Expands Collaboration with AstraZeneca to Adopt RISE with SAP and Business AI",
+      "date": "2026-11-10",
+      "summary": "WALLDORF — Cloud, data and AI create a stronger foundation for innovation at scale.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
-      "count7d": 11
+      "url": "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
+      "count7d": 12
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VMware Cloud Foundation Delivers a Secure Path to Production for Every Workload",
-      "date": "2026-11-09",
-      "summary": "Enterprises are facing challenges when it comes to modernizing applications. How do we modernize applications without losing the control, security, and performance of private cloud? Teams need to ship features faster, adopt microservices and AI workloads, and retire technical debt, all on infrastructure they trust. The market rewards speed, and organizations that modernize well gain &#8230; Continued The post VMware Cloud Foundation Delivers a Secure Path to Production for Every Workload appeared first on VMware Blogs .",
-      "category": "eol",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/09/vmware-cloud-foundation-delivers-a-secure-path-to-production-for-every-workload/",
+      "title": "VCF Firewall Planner Tool: A Step-by-Step Walkthrough from 1,063 Candidate Rules to 224",
+      "date": "2026-11-10",
+      "summary": "Most published VMware Cloud Foundation (VCF) flows never need a firewall rule. The VCF Firewall Planner takes the full Broadcom port catalogue for VCF 9.1 and, in 12 guided steps, cuts it down to the consolidated rule set your design needs. Every exclusion keeps its reason, so the firewall team can see why a flow &#8230; Continued The post VCF Firewall Planner Tool: A Step-by-Step Walkthrough from 1,063 Candidate Rules to 224 appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/09/vcf-firewall-planner-tool-a-step-by-step-walkthrough-from-1063-candidate-rules-to-224/",
       "count7d": 10
     },
     "AWS": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 7,
+      "count": 6,
       "items": [
         {
           "id": "CVE-2026-59105",
@@ -124,15 +124,6 @@
           "epss": 0.21
         },
         {
-          "id": "CVE-2026-77691",
-          "title": "ZohoCorp ManageEngine Key Manager Plus versions before 7151 allow authenticated users to enter malicious input when configuring a Microsoft CA",
-          "date": "2026-11-03",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77691",
-          "kev": false,
-          "epss": 1.392
-        },
-        {
           "id": "CVE-2026-123525",
           "title": "Vikunja before 2.7.1 allocates memory without limits in its Trello, Todoist and Microsoft To Do migration importers, which buffer remote attachment downloads and API responses in memory without size caps. Authenticated users can start a…",
           "date": "2026-11-08",
@@ -149,11 +140,20 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123494",
           "kev": false,
           "epss": 0.10300000000000001
+        },
+        {
+          "id": "CVE-2026-112337",
+          "title": "Wazuh from 3.7.0 before 4.14.9 contains a server-side request forgery vulnerability in the Azure wodle get_graph_events() function that follows @odata.nextLink without host or HTTPS validation. Attackers who influence the nextLink value can redirect manager requests…",
+          "date": "2026-11-06",
+          "severity": "LOW",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112337",
+          "kev": false,
+          "epss": 0.211
         }
       ]
     },
     "SAP": {
-      "count": 40,
+      "count": 41,
       "items": [
         {
           "id": "CVE-2026-109795",
@@ -202,8 +202,16 @@
       "items": []
     },
     "Cisco": {
-      "count": 3,
+      "count": 4,
       "items": [
+        {
+          "id": "CVE-2026-95646",
+          "title": "Zoho Corporation ManageEngine DDI Central versions 6500 and below are vulnerable to a Unicode-based command injection vulnerability in the Cisco IOS DHCP configuration functionality. This vulnerability could allow cluster-scoped operators to inject specially crafted Unicode…",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95646",
+          "kev": false
+        },
         {
           "id": "CVE-2026-76506",
           "title": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is…",
@@ -234,8 +242,41 @@
       ]
     },
     "VMware": {
-      "count": 0,
-      "items": []
+      "count": 4,
+      "items": [
+        {
+          "id": "CVE-2026-91754",
+          "title": "Stack-based Buffer Overflow Vulnerability in Hitachi Dynamic Link Manager for VMware. This issue affects Hitachi Dynamic Link Manager for VMware: from 8.7.3-00 before 9.0.4-01.",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91754",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-91755",
+          "title": "Integer Overflow Vulnerability in Hitachi Dynamic Link Manager for VMware. This issue affects Hitachi Dynamic Link Manager for VMware: from 8.7.3-00 before 9.0.4-01.",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91755",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-91756",
+          "title": "OS Command Injection Vulnerability in Hitachi Dynamic Link Manager for VMware. This issue affects Hitachi Dynamic Link Manager for VMware: from 8.7.3-00 before 9.0.4-01.",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91756",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-91757",
+          "title": "OS Command Injection Vulnerability in Hitachi Dynamic Link Manager for VMware. This issue affects Hitachi Dynamic Link Manager for VMware: from 7.3.0-00 before 9.0.4-01.",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91757",
+          "kev": false
+        }
+      ]
     },
     "AWS": {
       "count": 0,
