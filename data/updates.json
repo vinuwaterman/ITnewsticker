@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T06:57:33.878Z",
+  "generatedAt": "2026-11-11T15:02:19.191Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "Supply Chain AI Must Do More Than Inform; It Must Help Businesses Act",
-      "date": "2026-11-10",
-      "summary": "Companies with the deepest understanding of their own operations are the ones best positioned to put AI to work.",
+      "title": "SAP and VFC Open Intelligent Fashion Store",
+      "date": "2026-11-11",
+      "summary": "Industry AI connects the shopper journey with end-to-end retail operations, enhancing the consumer experience WALLDORF — SAP SE (NYSE: SAP) and VF Corporation (NYSE: VFC)...",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/supply-chain-ai-must-do-more-than-inform-it-must-help-businesses-act/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/11/sap-and-vf-corporation-open-intelligent-fashion-store/",
+      "count7d": 12
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell Raises the Bar for Business Headsets with Smarter Audio and Lasting Comfort",
-      "date": "2026-11-10",
+      "title": "EJ Hassenfratz Teaches Artists Their Skills Still Matter",
+      "date": "2026-11-11",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/dell-raises-the-bar-for-business-headsets-with-smarter-audio-and-lasting-comfort",
-      "count7d": 10
+      "url": "https://www.dell.com/blog/ej-hassenfratz-teaches-artists-their-skills-still-matter",
+      "count7d": 11
     },
     "Lenovo": {
       "vendor": "Lenovo",
