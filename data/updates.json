@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-11T15:02:19.191Z",
+  "generatedAt": "2026-11-11T21:51:22.104Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-102868 Windows Shell Information Disclosure Vulnerability",
-      "date": "2026-11-10",
-      "summary": "Exposure of sensitive system information to an unauthorized control sphere in Windows Shell allows an authorized attacker to disclose information locally.",
+      "title": "CVE-2026-105544 .NET Elevation of Privilege Vulnerability",
+      "date": "2026-11-11",
+      "summary": "Changes made to the security updates links and information. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102868",
-      "count7d": 1189
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105544",
+      "count7d": 1218
     },
     "SAP": {
       "vendor": "SAP",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "How VM API and KubeVM Service Deliver Open Standards and Enterprise Execution",
-      "date": "2026-11-10",
-      "summary": "VMs are the foundation of enterprise computing. They run the majority of mission-critical production workloads today, and they will continue to do so for years to come. What is changing is how platform engineering teams want to operate them. As organizations build internal developer platforms around Kubernetes, teams want a single, declarative operating model across &#8230; Continued The post How VM API and KubeVM Service Deliver Open Standards and Enterprise Execution appeared first on VMware Blogs .",
-      "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/10/vm-api-and-kubevm-service/",
+      "title": "Beat the Ticking Clock: Continuous Security in the Era of AI Exploits",
+      "date": "2026-11-11",
+      "summary": "Every time a new vulnerability is discovered, a silent clock starts ticking. It signals the start of a race between your infrastructure team and global threat actors. Does your organization have the technology and processes in place to resolve or mitigate a vulnerability in your environment before an attacker can compromise? And not just once. &#8230; Continued The post Beat the Ticking Clock: Continuous Security in the Era of AI Exploits appeared first on VMware Blogs .",
+      "category": "patch",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/11/beat-the-ticking-clock-continuous-security-in-the-era-of-ai-exploits/",
       "count7d": 10
     },
     "AWS": {
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "A Problem Shared is a Problem Halved: What Call Eva Reveals About the Questions Entrepreneurs Are Asking",
-      "date": "2026-11-10",
-      "summary": "Lenovo’s Call Eva initiative with entrepreneur Eva Longoria brings real business questions to life, alongside wider research on the value of technology, mentorship and community.",
+      "title": "The next chapter of Lenovo 360: a smarter experience for the AI era",
+      "date": "2026-11-11",
+      "summary": "Lenovo 360 is bringing onboarding, marketing, communications, and technical resources closer together, laying the foundations for a connected partner experience with AI-powered guidance at its heart.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/a-problem-shared-is-a-problem-halved-what-call-eva-reveals/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/next-chapter-lenovo-360-smarter-experience-ai-era/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 281,
+      "count": 280,
       "items": [
         {
           "id": "CVE-2026-109454",
@@ -203,7 +203,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 6,
+      "count": 3,
       "items": [
         {
           "id": "CVE-2026-95646",
@@ -222,30 +222,12 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-76506",
-          "title": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is…",
-          "date": "2026-11-04",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76506",
-          "kev": false,
-          "epss": 1.363
-        },
-        {
           "id": "CVE-2026-20183",
           "title": "A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to modify parts of the configuration on an affected device. This vulnerability is due to the…",
           "date": "2026-11-10",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20183",
           "kev": false
-        },
-        {
-          "id": "CVE-2026-20241",
-          "title": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate. This vulnerability is due…",
-          "date": "2026-11-04",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20241",
-          "kev": false,
-          "epss": 0.249
         }
       ]
     },
@@ -295,8 +277,49 @@
       "items": []
     },
     "Dell": {
-      "count": 0,
-      "items": []
+      "count": 17,
+      "items": [
+        {
+          "id": "CVE-2026-91870",
+          "title": "Dell Ansible Storage for PowerFlex, versions prior to 3.2.0, contains an Improper Certificate Validation vulnerability in the API client component. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to information exposure…",
+          "date": "2026-11-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91870",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-91871",
+          "title": "Dell Ansible Storage for PowerStore, versions prior to 3.9.0, contains an Improper Certificate Validation vulnerability in the API client component. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to information exposure…",
+          "date": "2026-11-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91871",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-91879",
+          "title": "Dell Terraform for ObjectScale and Powerstore, versions prior to 1.1.1 (ObjectScale) and versions 1.2.1 through 1.3.0 (PowerStore) contains an insertion of sensitive information into Log File vulnerability in the client initialization component. A low privileged…",
+          "date": "2026-11-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91879",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-91890",
+          "title": "Dell Ansible Storage for Unity , versions prior to 1.2.13 contains an Improper Certificate Validation vulnerability in the UnityRESTConnector component. An unauthenticated attacker with remote access could potentially exploit this vulnerability,leading to information exposure and…",
+          "date": "2026-11-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91890",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-91873",
+          "title": "Dell OpenManage Ansible Modules, versions 2.1.2 through 10.0.3, contains an Improper Certificate Validation vulnerability in the iDRACRedfishAPI component. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to information exposure and unauthorized…",
+          "date": "2026-11-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91873",
+          "kev": false
+        }
+      ]
     },
     "Fortinet": {
       "count": 5,
@@ -344,8 +367,49 @@
       ]
     },
     "Lenovo": {
-      "count": 0,
-      "items": []
+      "count": 5,
+      "items": [
+        {
+          "id": "CVE-2026-116633",
+          "title": "A potential vulnerability was reported in some Lenovo Tablets that could allow a third-party application to perform an arbitrary file write with elevated privileges.",
+          "date": "2026-11-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116633",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-77873",
+          "title": "An improper permissions vulnerability was reported in Lenovo System Update that could allow a local authenticated user to execute code with elevated privileges.",
+          "date": "2026-11-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77873",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-77882",
+          "title": "A deserialization of untrusted data vulnerability was discovered in Lenovo System Update that could allow a local authenticated user to execute code with elevated privileges.",
+          "date": "2026-11-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77882",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-89061",
+          "title": "During an internal security assessment, a potential vulnerability was discovered in Lenovo PC Manager, distributed exclusively in the Chinese market, that could allow a local user to escalate privileges.",
+          "date": "2026-11-11",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89061",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-119238",
+          "title": "A potential improper permissions vulnerability was reported in Lenovo XiangBangbang that could allow a local application to perform unauthorized touch gestures.",
+          "date": "2026-11-11",
+          "severity": "LOW",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119238",
+          "kev": false
+        }
+      ]
     },
     "Mimecast": {
       "count": 0,
@@ -356,8 +420,49 @@
       "items": []
     },
     "Palo Alto Networks": {
-      "count": 0,
-      "items": []
+      "count": 9,
+      "items": [
+        {
+          "id": "CVE-2026-0323",
+          "title": "A server-side request forgery vulnerability in Palo Alto Networks Checkov by Prisma® Cloud enables a local unauthenticated user to make unauthorized network requests from host to internal services.",
+          "date": "2026-11-11",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0323",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0324",
+          "title": "An incorrect privilege management vulnerability in the OPSWAT MetaDefender Endpoint Security SDK used by the Palo Alto Networks GlobalProtect™ app on Windows devices allows a locally authenticated non-administrative Windows user to escalate their privileges to…",
+          "date": "2026-11-11",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0324",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0325",
+          "title": "An authorization bypass vulnerability in the GlobalProtect gateway of Palo Alto Networks PAN-OS® software enables an authenticated attacker with valid GlobalProtect credentials to bypass IP address restrictions and circumvent network access controls that rely on…",
+          "date": "2026-11-11",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0325",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0326",
+          "title": "A buffer overflow vulnerability in Palo Alto Networks PAN-OS software enables an unauthenticated attacker to disrupt service processing by causing a service process crash or memory corruption. Panorama and Prisma® Access are not affected by…",
+          "date": "2026-11-11",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0326",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-0327",
+          "title": "A privilege escalation vulnerability in the GlobalProtect gateway of Palo Alto Networks PAN-OS® software enables an authenticated, lower-privileged user to obtain the privileges and configuration of a higher-privileged user. Cloud NGFW and Panorama are not…",
+          "date": "2026-11-11",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0327",
+          "kev": false
+        }
+      ]
     }
   }
 }
