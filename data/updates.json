@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T19:25:40.473Z",
+  "generatedAt": "2026-11-11T00:12:22.876Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Exposure of sensitive system information to an unauthorized control sphere in Windows Shell allows an authorized attacker to disclose information locally.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102868",
-      "count7d": 1120
+      "count7d": 1189
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Companies with the deepest understanding of their own operations are the ones best positioned to put AI to work.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/supply-chain-ai-must-do-more-than-inform-it-must-help-businesses-act/",
-      "count7d": 13
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,12 +30,12 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-      "date": "2026-11-09",
-      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "count7d": 8
+      "title": "Cisco Identity Services Engine Authorization Bypass Vulnerabilities",
+      "date": "2026-11-10",
+      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an authenticated, remote attacker to modify parts of the configuration on an affected device. These vulnerabilities are due to the lack of server-side validation of Administrator&nbsp; permissions. An attacker could exploit these vulnerabilities by submitting a crafted HTTP request to an affected system. A successful exploit could allow the attacker to modify descriptions of files on specific pages.…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-1-MxcTNgwx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerabilities%26vs_k=1",
+      "count7d": 5
     },
     "VMware": {
       "vendor": "VMware",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/dell-raises-the-bar-for-business-headsets-with-smarter-audio-and-lasting-comfort",
-      "count7d": 11
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,25 +71,25 @@
       "summary": "Lenovo’s Call Eva initiative with entrepreneur Eva Longoria brings real business questions to life, alongside wider research on the value of technology, mentorship and community.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/a-problem-shared-is-a-problem-halved-what-call-eva-reveals/",
-      "count7d": 5
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Linux kernel RCE CVE-2026-98432",
-      "date": "2026-11-02",
-      "summary": "CVSSv3 Score: 9.8 CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process a retransmitted SYN for the same request socket, and send a SYNACK from tcp_check_req(). tcp_v4_send_synack() and inet_csk_route_req() read ireq->ireq_opt under rcu_read_lock() only, and ip_build_and_send_pkt() and ip_options_build() then read opt->optlen twice. Note that the SYNACK timer itself is not an issue: it holds a reference on its request socket, and…",
+      "title": "Allocation of resources without limits or throttling in fastapi",
+      "date": "2026-11-10",
+      "summary": "CVSSv3 Score: 7.5 An Allocation of Resources Without Limits or Throttling vulnerability [CWE-770] in FortiAuthenticator may allow an unauthenticated attacker to exhaust system resources, potentially resulting in a denial of service (DoS). Revised on 2026-11-10 00:00:00",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
-      "count7d": 1
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-258",
+      "count7d": 50
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders",
-      "date": "2026-11-05",
+      "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
+      "date": "2026-11-10",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
-      "count7d": 5
+      "category": "critical",
+      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,8 +103,16 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 6,
+      "count": 281,
       "items": [
+        {
+          "id": "CVE-2026-109454",
+          "title": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.",
+          "date": "2026-11-10",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109454",
+          "kev": false
+        },
         {
           "id": "CVE-2026-59105",
           "title": "Jumis (formerly Tildes Jumis) creates and uses a Microsoft SQL Server login named ##Tilde_JumisAdmin## whose password is derived deterministically from a single non-secret input - the SQL Server name (@@servername). The derivation algorithm is hard-coded…",
@@ -115,40 +123,28 @@
           "epss": 1.438
         },
         {
-          "id": "CVE-2026-59268",
-          "title": "An out-of-bounds Write vulnerability in Apache OpenOffice versions through 4.1.16 could allow an attacker to craft a Microsoft Word document that would crash the program, or otherwise corrupt other memory areas. Users are recommended to…",
-          "date": "2026-11-04",
+          "id": "CVE-2026-105505",
+          "title": "Relative path traversal in Microsoft Input Method Editor (IME) allows an authorized attacker to elevate privileges locally.",
+          "date": "2026-11-10",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59268",
-          "kev": false,
-          "epss": 0.21
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105505",
+          "kev": false
         },
         {
-          "id": "CVE-2026-123525",
-          "title": "Vikunja before 2.7.1 allocates memory without limits in its Trello, Todoist and Microsoft To Do migration importers, which buffer remote attachment downloads and API responses in memory without size caps. Authenticated users can start a…",
-          "date": "2026-11-08",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123525",
-          "kev": false,
-          "epss": 0.307
+          "id": "CVE-2026-105512",
+          "title": "Integer underflow (wrap or wraparound) in Microsoft QUIC allows an unauthorized attacker to deny service over a network.",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105512",
+          "kev": false
         },
         {
-          "id": "CVE-2026-123494",
-          "title": "Vikunja before 2.7.1 contains a cross-site request forgery vulnerability that allows attackers to import their data into a victim's account because the Todoist, Microsoft To Do, and Trello migration OAuth callbacks lack a bound state…",
-          "date": "2026-11-08",
-          "severity": "LOW",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123494",
-          "kev": false,
-          "epss": 0.10300000000000001
-        },
-        {
-          "id": "CVE-2026-112337",
-          "title": "Wazuh from 3.7.0 before 4.14.9 contains a server-side request forgery vulnerability in the Azure wodle get_graph_events() function that follows @odata.nextLink without host or HTTPS validation. Attackers who influence the nextLink value can redirect manager requests…",
-          "date": "2026-11-06",
-          "severity": "LOW",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112337",
-          "kev": false,
-          "epss": 0.211
+          "id": "CVE-2026-105578",
+          "title": "Integer overflow or wraparound in Microsoft JScript allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105578",
+          "kev": false
         }
       ]
     },
@@ -207,7 +203,7 @@
       "items": []
     },
     "Cisco": {
-      "count": 5,
+      "count": 6,
       "items": [
         {
           "id": "CVE-2026-95646",
@@ -235,6 +231,14 @@
           "epss": 1.363
         },
         {
+          "id": "CVE-2026-20183",
+          "title": "A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to modify parts of the configuration on an affected device. This vulnerability is due to the…",
+          "date": "2026-11-10",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20183",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-20241",
           "title": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate. This vulnerability is due…",
           "date": "2026-11-04",
@@ -242,15 +246,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20241",
           "kev": false,
           "epss": 0.249
-        },
-        {
-          "id": "CVE-2026-76419",
-          "title": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site…",
-          "date": "2026-11-04",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76419",
-          "kev": false,
-          "epss": 0.27799999999999997
         }
       ]
     },
@@ -300,58 +295,53 @@
       "items": []
     },
     "Dell": {
-      "count": 6,
-      "items": [
-        {
-          "id": "CVE-2026-82158",
-          "title": "Dell Wyse Management Suite, versions prior to 2609.0.0.155, contain an Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
-          "date": "2026-11-03",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82158",
-          "kev": false,
-          "epss": 0.349
-        },
-        {
-          "id": "CVE-2026-82155",
-          "title": "Dell OS Recovery tool versions, prior to 2.4.4, contain a use of Untrusted Search Path vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Command execution.",
-          "date": "2026-11-03",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82155",
-          "kev": false,
-          "epss": 0.378
-        },
-        {
-          "id": "CVE-2026-82159",
-          "title": "Dell Wyse Management Suite, versions prior to 2609.0.0.155, contain an Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
-          "date": "2026-11-03",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82159",
-          "kev": false,
-          "epss": 0.445
-        },
-        {
-          "id": "CVE-2026-82161",
-          "title": "Dell Wyse Management Suite, versions prior to 2609.0.0.155, contain an Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to…",
-          "date": "2026-11-03",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82161",
-          "kev": false,
-          "epss": 0.183
-        },
-        {
-          "id": "CVE-2026-82154",
-          "title": "Dell OS Recovery tool versions, prior to 2.4.4, contain a use of Hard-coded Cryptographic Key vulnerability. An unauthenticated attacker with physical access could potentially exploit this vulnerability, leading to Information Disclosure.",
-          "date": "2026-11-03",
-          "severity": "LOW",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82154",
-          "kev": false,
-          "epss": 0.172
-        }
-      ]
-    },
-    "Fortinet": {
       "count": 0,
       "items": []
+    },
+    "Fortinet": {
+      "count": 5,
+      "items": [
+        {
+          "id": "CVE-2026-121529",
+          "title": "A origin validation error vulnerability in Fortinet FortiClientMac 7.4.0 through 7.4.7, FortiClientWindows 7.4.0 through 7.4.7, FortiClientWindows 7.2.0 through 7.2.14, FortiClientWindowsPAM 7.4.7, FortiClientWindowsPAM 7.2.14 may allow an unauthorized remote attacker to execute unauthorized code or commands.…",
+          "date": "2026-11-10",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121529",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-126261",
+          "title": "A improper authorization vulnerability in Fortinet FortiManager 8.0.0, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.5, FortiManager 7.2.0 through 7.2.8 may allow an unauthenticated attacker that can reach the FGFM port to execute code or…",
+          "date": "2026-11-10",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126261",
+          "kev": false
+        },
+        {
+          "id": "CVE-2025-61625",
+          "title": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.4, FortiAnalyzer 7.4.0 through 7.4.7, FortiAnalyzer 7.2.0 through 7.2.11, FortiManager 7.6.0 through 7.6.4, FortiManager 7.4.0 through 7.4.7,…",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61625",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-26248",
+          "title": "A improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox Cloud 5.0.4 through 5.0.5, FortiSandbox PaaS 5.0.4 through 5.0.5 may allow an…",
+          "date": "2026-11-10",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26248",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-121530",
+          "title": "A improper authentication vulnerability in Fortinet FortiOS 7.6.0 through 7.6.6 may allow a remote authenticated attacker to gain improper access control via an invalid token after entering a valid username and password",
+          "date": "2026-11-10",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121530",
+          "kev": false
+        }
+      ]
     },
     "Lenovo": {
       "count": 0,
