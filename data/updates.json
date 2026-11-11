@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T00:12:22.876Z",
+  "generatedAt": "2026-11-11T06:57:33.878Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -327,7 +327,7 @@
         },
         {
           "id": "CVE-2026-26248",
-          "title": "A improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox Cloud 5.0.4 through 5.0.5, FortiSandbox PaaS 5.0.4 through 5.0.5 may allow an…",
+          "title": "A improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox 4.2 all versions, FortiSandbox Cloud 5.0.4 through 5.0.5, FortiSandbox PaaS 5.0.4 through…",
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26248",
