@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T21:51:22.104Z",
+  "generatedAt": "2026-11-12T02:44:29.062Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -17,7 +17,7 @@
       "summary": "Industry AI connects the shopper journey with end-to-end retail operations, enhancing the consumer experience WALLDORF — SAP SE (NYSE: SAP) and VF Corporation (NYSE: VFC)...",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/sap-and-vf-corporation-open-intelligent-fashion-store/",
-      "count7d": 12
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Every major provider charges egress fees, and rates vary by provider, region, and destination. For Backup Admins and Cloud Architects, that unpredictability shapes real decisions: where backup repositories live, how often you test DR, and how far you take a multicloud strategy. The post Egress fees explained: Costs and how to reduce them appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/egress-fees.html",
-      "count7d": 5
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/blog/ej-hassenfratz-teaches-artists-their-skills-still-matter",
-      "count7d": 11
+      "count7d": 10
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "critical",
       "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
-      "count7d": 2
+      "count7d": 1
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 280,
+      "count": 281,
       "items": [
         {
           "id": "CVE-2026-109454",
@@ -277,7 +277,7 @@
       "items": []
     },
     "Dell": {
-      "count": 17,
+      "count": 18,
       "items": [
         {
           "id": "CVE-2026-91870",
@@ -322,8 +322,40 @@
       ]
     },
     "Fortinet": {
-      "count": 5,
+      "count": 98,
       "items": [
+        {
+          "id": "CVE-2026-126147",
+          "title": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated…",
+          "date": "2026-11-11",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126147",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-126148",
+          "title": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6 may allow an unauthenticated attacker to execute unauthorized code or…",
+          "date": "2026-11-11",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126148",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-126150",
+          "title": "A weak password recovery mechanism for forgotten password vulnerability in Fortinet FortiMail 8.0.0, FortiMail 7.6.0 through 7.6.5, FortiMail 7.4.0 through 7.4.7, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to reset the password of…",
+          "date": "2026-11-11",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126150",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-126155",
+          "title": "A incorrect authorization vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated remote attacker to obtain an authenticated IBE webmail session…",
+          "date": "2026-11-11",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126155",
+          "kev": false
+        },
         {
           "id": "CVE-2026-121529",
           "title": "A origin validation error vulnerability in Fortinet FortiClientMac 7.4.0 through 7.4.7, FortiClientWindows 7.4.0 through 7.4.7, FortiClientWindows 7.2.0 through 7.2.14, FortiClientWindowsPAM 7.4.7, FortiClientWindowsPAM 7.2.14 may allow an unauthorized remote attacker to execute unauthorized code or commands.…",
@@ -331,43 +363,11 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121529",
           "kev": false
-        },
-        {
-          "id": "CVE-2026-126261",
-          "title": "A improper authorization vulnerability in Fortinet FortiManager 8.0.0, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.5, FortiManager 7.2.0 through 7.2.8 may allow an unauthenticated attacker that can reach the FGFM port to execute code or…",
-          "date": "2026-11-10",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126261",
-          "kev": false
-        },
-        {
-          "id": "CVE-2025-61625",
-          "title": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.4, FortiAnalyzer 7.4.0 through 7.4.7, FortiAnalyzer 7.2.0 through 7.2.11, FortiManager 7.6.0 through 7.6.4, FortiManager 7.4.0 through 7.4.7,…",
-          "date": "2026-11-10",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61625",
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-26248",
-          "title": "A improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox 4.2 all versions, FortiSandbox Cloud 5.0.4 through 5.0.5, FortiSandbox PaaS 5.0.4 through…",
-          "date": "2026-11-10",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26248",
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-121530",
-          "title": "A improper authentication vulnerability in Fortinet FortiOS 7.6.0 through 7.6.6 may allow a remote authenticated attacker to gain improper access control via an invalid token after entering a valid username and password",
-          "date": "2026-11-10",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121530",
-          "kev": false
         }
       ]
     },
     "Lenovo": {
-      "count": 5,
+      "count": 9,
       "items": [
         {
           "id": "CVE-2026-116633",
@@ -402,11 +402,11 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-119238",
-          "title": "A potential improper permissions vulnerability was reported in Lenovo XiangBangbang that could allow a local application to perform unauthorized touch gestures.",
+          "id": "CVE-2026-65949",
+          "title": "Improper neutralization of special elements used in an OS command in Lenovo XClarity Integrator for Microsoft Windows Admin Center 5.1.1 and 5.2.0 allows an authenticated remote attacker to execute arbitrary PowerShell commands by submitting a…",
           "date": "2026-11-11",
-          "severity": "LOW",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119238",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65949",
           "kev": false
         }
       ]
