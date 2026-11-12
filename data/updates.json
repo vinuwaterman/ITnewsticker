@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-12T10:43:45.386Z",
+  "generatedAt": "2026-11-12T18:44:03.775Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-105544 .NET Elevation of Privilege Vulnerability",
-      "date": "2026-11-11",
-      "summary": "Changes made to the security updates links and information. This is an informational change only.",
+      "title": "CVE-2026-111497 Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder",
+      "date": "2026-11-12",
+      "summary": "Updated the Security Updates table to include affected Windows versions and the applicable November 2026 security updates. Microsoft recommends that customers install the applicable updates to be protected from this vulnerability.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105544",
-      "count7d": 1218
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
+      "count7d": 1219
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP and VFC Open Intelligent Fashion Store",
-      "date": "2026-11-11",
-      "summary": "Industry AI connects the shopper journey with end-to-end retail operations, enhancing the consumer experience WALLDORF — SAP SE (NYSE: SAP) and VF Corporation (NYSE: VFC)...",
+      "title": "SAP Puts Product-Level Cloud Emissions and Energy Data in Customers’ Hands",
+      "date": "2026-11-12",
+      "summary": "SAP is making the carbon footprint of cloud software visible product by product, customer by customer.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/sap-and-vf-corporation-open-intelligent-fashion-store/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+      "count7d": 13
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Identity Services Engine Authorization Bypass Vulnerabilities",
-      "date": "2026-11-10",
-      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an authenticated, remote attacker to modify parts of the configuration on an affected device. These vulnerabilities are due to the lack of server-side validation of Administrator&nbsp; permissions. An attacker could exploit these vulnerabilities by submitting a crafted HTTP request to an affected system. A successful exploit could allow the attacker to modify descriptions of files on specific pages.…",
+      "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
+      "date": "2026-11-12",
+      "summary": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.&nbsp; This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface &ndash; Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the…",
       "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-1-MxcTNgwx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerabilities%26vs_k=1",
-      "count7d": 5
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20BroadWorks%20Out-of-Band%20Blind%20XML%20External%20Entity%20Injection%20Vulnerability%26vs_k=1",
+      "count7d": 6
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Beat the Ticking Clock: Continuous Security in the Era of AI Exploits",
-      "date": "2026-11-11",
-      "summary": "Every time a new vulnerability is discovered, a silent clock starts ticking. It signals the start of a race between your infrastructure team and global threat actors. Does your organization have the technology and processes in place to resolve or mitigate a vulnerability in your environment before an attacker can compromise? And not just once. &#8230; Continued The post Beat the Ticking Clock: Continuous Security in the Era of AI Exploits appeared first on VMware Blogs .",
+      "title": "Strengthening Cloud-Native Security Through Upstream Collaboration",
+      "date": "2026-11-12",
+      "summary": "Open source has always been foundational to cloud-native computing. Kubernetes itself is the product of thousands of contributors, but the platforms we build around it depend on an even broader ecosystem of projects spanning networking, storage, identity, backup and recovery, cluster lifecycle management, and more. At Broadcom, contributing to that ecosystem has long meant more &#8230; Continued The post Strengthening Cloud-Native Security Through Upstream Collaboration appeared first on VMware Blogs .",
       "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/11/beat-the-ticking-clock-continuous-security-in-the-era-of-ai-exploits/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/12/strengthening-cloud-native-security-through-upstream-collaboration/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "EJ Hassenfratz Teaches Artists Their Skills Still Matter",
-      "date": "2026-11-11",
+      "title": "How Nonprofits Get Ready to Use AI Responsibly",
+      "date": "2026-11-12",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/blog/ej-hassenfratz-teaches-artists-their-skills-still-matter",
-      "count7d": 10
+      "url": "https://www.dell.com/en-us/blog/how-nonprofits-get-ready-to-use-ai-responsibly",
+      "count7d": 13
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -84,21 +84,21 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
-      "date": "2026-11-10",
+      "title": "CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions",
+      "date": "2026-11-12",
       "summary": "",
-      "category": "critical",
-      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
-      "count7d": 1
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/",
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "New Cortex XDR Integration with Claude Cowork Secures Desktop AI Agents",
-      "date": "2026-11-02",
-      "summary": "AI agents working directly on the desktop offer new ways to automate complex tasks, yet they operate outside traditional endpoint controls and pose unacceptable risks to many security leaders. Today, we're announcing &#8230; The post New Cortex XDR Integration with Claude Cowork Secures Desktop AI Agents appeared first on Palo Alto Networks Blog .",
-      "category": "patch",
-      "url": "https://www.paloaltonetworks.com/blog/2026/11/new-cortex-xdr-integration-with-claude-cowork-secures-desktop-ai-agents/",
-      "count7d": 1
+      "title": "Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand.",
+      "date": "2026-11-12",
+      "summary": "It has been a few months since I last wrote about sovereignty. In that time, the conversations I have had with organizations across Europe have become more specific and more urgent. A &#8230; The post Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand. appeared first on Palo Alto Networks Blog .",
+      "category": "feature",
+      "url": "https://www.paloaltonetworks.com/blog/2026/11/europe-is-setting-the-global-standard-for-sovereignty-here-is-where-we-stand/",
+      "count7d": 4
     }
   },
   "nvd": {
@@ -111,7 +111,8 @@
           "date": "2026-11-10",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109454",
-          "kev": false
+          "kev": false,
+          "epss": 0.84
         },
         {
           "id": "CVE-2026-59105",
@@ -128,7 +129,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105505",
-          "kev": false
+          "kev": false,
+          "epss": 0.379
         },
         {
           "id": "CVE-2026-105512",
@@ -136,7 +138,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105512",
-          "kev": false
+          "kev": false,
+          "epss": 1.359
         },
         {
           "id": "CVE-2026-105578",
@@ -144,7 +147,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105578",
-          "kev": false
+          "kev": false,
+          "epss": 0.621
         }
       ]
     },
@@ -211,7 +215,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95646",
-          "kev": false
+          "kev": false,
+          "epss": 3.88
         },
         {
           "id": "CVE-2026-12573",
@@ -219,7 +224,8 @@
           "date": "2026-11-10",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12573",
-          "kev": false
+          "kev": false,
+          "epss": 3.1530000000000005
         },
         {
           "id": "CVE-2026-20183",
@@ -227,7 +233,8 @@
           "date": "2026-11-10",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20183",
-          "kev": false
+          "kev": false,
+          "epss": 0.47000000000000003
         }
       ]
     },
@@ -285,7 +292,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91870",
-          "kev": false
+          "kev": false,
+          "epss": 0.194
         },
         {
           "id": "CVE-2026-91871",
@@ -293,7 +301,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91871",
-          "kev": false
+          "kev": false,
+          "epss": 0.22300000000000003
         },
         {
           "id": "CVE-2026-91879",
@@ -301,7 +310,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91879",
-          "kev": false
+          "kev": false,
+          "epss": 0.447
         },
         {
           "id": "CVE-2026-91890",
@@ -309,7 +319,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91890",
-          "kev": false
+          "kev": false,
+          "epss": 0.198
         },
         {
           "id": "CVE-2026-91873",
@@ -317,7 +328,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91873",
-          "kev": false
+          "kev": false,
+          "epss": 0.22699999999999998
         }
       ]
     },
@@ -330,7 +342,8 @@
           "date": "2026-11-11",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126147",
-          "kev": false
+          "kev": false,
+          "epss": 0.632
         },
         {
           "id": "CVE-2026-126148",
@@ -338,7 +351,8 @@
           "date": "2026-11-11",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126148",
-          "kev": false
+          "kev": false,
+          "epss": 2.445
         },
         {
           "id": "CVE-2026-126150",
@@ -346,7 +360,8 @@
           "date": "2026-11-11",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126150",
-          "kev": false
+          "kev": false,
+          "epss": 0.506
         },
         {
           "id": "CVE-2026-126155",
@@ -354,7 +369,8 @@
           "date": "2026-11-11",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126155",
-          "kev": false
+          "kev": false,
+          "epss": 0.662
         },
         {
           "id": "CVE-2026-121529",
@@ -362,7 +378,8 @@
           "date": "2026-11-10",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121529",
-          "kev": false
+          "kev": false,
+          "epss": 0.218
         }
       ]
     },
@@ -375,7 +392,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116633",
-          "kev": false
+          "kev": false,
+          "epss": 0.129
         },
         {
           "id": "CVE-2026-77873",
@@ -383,7 +401,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77873",
-          "kev": false
+          "kev": false,
+          "epss": 0.129
         },
         {
           "id": "CVE-2026-77882",
@@ -391,7 +410,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77882",
-          "kev": false
+          "kev": false,
+          "epss": 0.23900000000000002
         },
         {
           "id": "CVE-2026-89061",
@@ -399,7 +419,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89061",
-          "kev": false
+          "kev": false,
+          "epss": 0.128
         },
         {
           "id": "CVE-2026-65949",
@@ -407,7 +428,8 @@
           "date": "2026-11-11",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65949",
-          "kev": false
+          "kev": false,
+          "epss": 0.6
         }
       ]
     },
@@ -428,7 +450,8 @@
           "date": "2026-11-11",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0323",
-          "kev": false
+          "kev": false,
+          "epss": 0.148
         },
         {
           "id": "CVE-2026-0324",
@@ -436,7 +459,8 @@
           "date": "2026-11-11",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0324",
-          "kev": false
+          "kev": false,
+          "epss": 0.132
         },
         {
           "id": "CVE-2026-0325",
@@ -444,7 +468,8 @@
           "date": "2026-11-11",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0325",
-          "kev": false
+          "kev": false,
+          "epss": 0.356
         },
         {
           "id": "CVE-2026-0326",
@@ -452,7 +477,8 @@
           "date": "2026-11-11",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0326",
-          "kev": false
+          "kev": false,
+          "epss": 0.426
         },
         {
           "id": "CVE-2026-0327",
@@ -460,7 +486,8 @@
           "date": "2026-11-11",
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0327",
-          "kev": false
+          "kev": false,
+          "epss": 0.366
         }
       ]
     }
