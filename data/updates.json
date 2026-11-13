@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T23:59:59.272Z",
+  "generatedAt": "2026-11-13T06:28:56.943Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated the Security Updates table to include affected Windows versions and the applicable November 2026 security updates. Microsoft recommends that customers install the applicable updates to be protected from this vulnerability.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
-      "count7d": 1219
+      "count7d": 1218
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "SAP is making the carbon footprint of cloud software visible product by product, customer by customer.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
-      "count7d": 13
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "Every major provider charges egress fees, and rates vary by provider, region, and destination. For Backup Admins and Cloud Architects, that unpredictability shapes real decisions: where backup repositories live, how often you test DR, and how far you take a multicloud strategy. The post Egress fees explained: Costs and how to reduce them appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/egress-fees.html",
-      "count7d": 3
+      "count7d": 1
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,7 +35,7 @@
       "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-      "count7d": 6
+      "count7d": 5
     },
     "VMware": {
       "vendor": "VMware",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/how-nonprofits-get-ready-to-use-ai-responsibly",
-      "count7d": 13
+      "count7d": 11
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -98,7 +98,7 @@
       "summary": "It has been a few months since I last wrote about sovereignty. In that time, the conversations I have had with organizations across Europe have become more specific and more urgent. A &#8230; The post Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand. appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/11/europe-is-setting-the-global-standard-for-sovereignty-here-is-where-we-stand/",
-      "count7d": 4
+      "count7d": 3
     }
   },
   "nvd": {
