@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T06:28:56.943Z",
+  "generatedAt": "2026-11-13T14:52:45.354Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,21 +12,21 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP Puts Product-Level Cloud Emissions and Energy Data in Customers’ Hands",
-      "date": "2026-11-12",
-      "summary": "SAP is making the carbon footprint of cloud software visible product by product, customer by customer.",
+      "title": "SAP Named a Leader in Two 2026 IDC MarketScapes: Worldwide Warehouse Management for Manufacturing and for Retail",
+      "date": "2026-11-13",
+      "summary": "We continue to work with our customers to turn innovation into better warehouse operations and business outcomes.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
-      "count7d": 11
+      "url": "https://news.sap.com/2026/11/sap-leader-idc-marketscapes-warehouse-management-manufacturing-retail/",
+      "count7d": 13
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Egress fees explained: Costs and how to reduce them",
-      "date": "2026-11-10",
-      "summary": "Every major provider charges egress fees, and rates vary by provider, region, and destination. For Backup Admins and Cloud Architects, that unpredictability shapes real decisions: where backup repositories live, how often you test DR, and how far you take a multicloud strategy. The post Egress fees explained: Costs and how to reduce them appeared first on Veeam Software Official Blog .",
+      "title": "Veeam at Microsoft Ignite 2026: Sessions, the Leaders’ Lounge, and how to meet our team",
+      "date": "2026-11-13",
+      "summary": "Microsoft Ignite 2026 happens Nov. 17–20 at the Moscone Center in San Francisco, and Veeam is a proud sponsor. Our team will be onsite and online to help IT leaders answer one of the biggest questions of the moment: how do you roll out AI with confidence? The post Veeam at Microsoft Ignite 2026: Sessions, the Leaders’ Lounge, and how to meet our team appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/egress-fees.html",
-      "count7d": 1
+      "url": "https://www.veeam.com/blog/veeam-at-microsoft-ignite-2026.html",
+      "count7d": 2
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -75,12 +75,12 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Numeric truncation error",
-      "date": "2026-11-10",
-      "summary": "CVSSv3 Score: 9.6 A Numeric Truncation Error vulnerability [cwe-197] in FortiOS and FortiSASE bgp daemon may allow a configured ibgp neighbor to send malicious/malformed attributes to all connected routers via a specially crafted request Revised on 2026-11-13 00:00:00",
+      "title": "Node2Shell CVEs",
+      "date": "2026-10-26",
+      "summary": "CVSSv3 Score: 9.8 CVE-2026-105482 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105483 - (high)This vulnerability affects Node.js 26.x and 24.x.CVE-2026-106069 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-111497 - (high)A flaw in Node.js can cause Node.js Brotli decoder out-of-bounds write permits remote code execution.This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105481 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106072 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106074 - (medium)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-106070…",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-268",
-      "count7d": 50
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-187",
+      "count7d": 49
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
@@ -284,8 +284,17 @@
       "items": []
     },
     "Dell": {
-      "count": 18,
+      "count": 48,
       "items": [
+        {
+          "id": "CVE-2026-116417",
+          "title": "Dell PowerScale InsightIQ, versions 6.3.0 through 6.4.0, contains a Weak Password Requirements vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Information disclosure and Unauthorized access.",
+          "date": "2026-11-13",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116417",
+          "kev": false,
+          "epss": 0.186
+        },
         {
           "id": "CVE-2026-91870",
           "title": "Dell Ansible Storage for PowerFlex, versions prior to 3.2.0, contains an Improper Certificate Validation vulnerability in the API client component. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to information exposure…",
@@ -321,15 +330,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91890",
           "kev": false,
           "epss": 0.198
-        },
-        {
-          "id": "CVE-2026-91873",
-          "title": "Dell OpenManage Ansible Modules, versions 2.1.2 through 10.0.3, contains an Improper Certificate Validation vulnerability in the iDRACRedfishAPI component. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to information exposure and unauthorized…",
-          "date": "2026-11-11",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91873",
-          "kev": false,
-          "epss": 0.22699999999999998
         }
       ]
     },
