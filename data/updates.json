@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T01:38:39.515Z",
+  "generatedAt": "2026-11-14T08:42:54.563Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions",
-      "date": "2026-11-12",
+      "title": "Inside Falcon AI Gateway: One Control Point for AI Traffic",
+      "date": "2026-11-13",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/",
-      "count7d": 2
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/",
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
