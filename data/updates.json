@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T21:15:48.400Z",
+  "generatedAt": "2026-11-14T01:38:39.515Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-94522",
-      "count7d": 1226
+      "count7d": 1308
     },
     "SAP": {
       "vendor": "SAP",
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell PowerMax Gets More Performant, Secure and AI-Driven",
-      "date": "2026-11-18",
+      "title": "How to Restart a Computer with the Keyboard",
+      "date": "2026-11-13",
       "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/dell-powermax-gets-more-performant-secure-and-ai-driven",
-      "count7d": 13
+      "url": "https://www.dell.com/en-us/blog/how-to-restart-a-computer-with-the-keyboard",
+      "count7d": 12
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -284,7 +284,7 @@
       "items": []
     },
     "Dell": {
-      "count": 48,
+      "count": 56,
       "items": [
         {
           "id": "CVE-2026-116417",
