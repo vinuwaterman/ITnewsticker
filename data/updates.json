@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T07:07:00.065Z",
+  "generatedAt": "2026-11-16T17:24:48.400Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "India’s Rise: From Promise to Platform for Global Growth",
+      "title": "SAP Completes Acquisition of TechWolf",
       "date": "2026-11-16",
-      "summary": "For much of the past three decades, India's global economic story was defined by potential. That narrative has changed dramatically.",
+      "summary": "WALLDORF — SAP has completed the acquisition of the AI work intelligence platform provider.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/india-promise-to-platform-global-growth/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+      "count7d": 12
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Strengthening Cloud-Native Security Through Upstream Collaboration",
-      "date": "2026-11-12",
-      "summary": "Open source has always been foundational to cloud-native computing. Kubernetes itself is the product of thousands of contributors, but the platforms we build around it depend on an even broader ecosystem of projects spanning networking, storage, identity, backup and recovery, cluster lifecycle management, and more. At Broadcom, contributing to that ecosystem has long meant more &#8230; Continued The post Strengthening Cloud-Native Security Through Upstream Collaboration appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/12/strengthening-cloud-native-security-through-upstream-collaboration/",
-      "count7d": 6
+      "title": "Know the Moment Your VCF Platform Changes: Alerting on New Services Runtime Nodes",
+      "date": "2026-11-16",
+      "summary": "A VCF Operations alert that detects new Services Runtime node VMs by name and IP address. VMware Cloud Foundation (VCF) management services in VCF 9.1.x run on VCF services runtime, a Kubernetes-based layer whose worker nodes are ordinary virtual machines in your management domain. When you scale out, perform upgrade operations, or when a node &#8230; Continued The post Know the Moment Your VCF Platform Changes: Alerting on New Services Runtime Nodes appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/16/know-the-moment-your-vcf-platform-changes-alerting-on-new-services-runtime-nodes/",
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
@@ -62,16 +62,16 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/move-enterprise-ai-from-pilots-to-production-with-confidence",
-      "count7d": 8
+      "count7d": 15
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "The next chapter of Lenovo 360: a smarter experience for the AI era",
-      "date": "2026-11-11",
-      "summary": "Lenovo 360 is bringing onboarding, marketing, communications, and technical resources closer together, laying the foundations for a connected partner experience with AI-powered guidance at its heart.",
+      "title": "Harnessing AI and HPC to Push the Frontiers of Human Knowledge",
+      "date": "2026-11-16",
+      "summary": "AI is reshaping high-performance computing, opening new possibilities for researchers while creating unprecedented demands for compute performance, scalability, and efficiency. Lenovo and AMD are helping research organizations build the infrastructure to meet these demands.",
       "category": "feature",
-      "url": "https://news.lenovo.com/next-chapter-lenovo-360-smarter-experience-ai-era/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/harnessing-ai-and-hpc-to-push-the-frontiers-of-human-knowledge/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Inside Falcon AI Gateway: One Control Point for AI Traffic",
-      "date": "2026-11-13",
+      "title": "Hidden in the Weights: Supply Chain Risk from Backdoored LoRA Models",
+      "date": "2026-11-16",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/",
-      "count7d": 3
+      "url": "https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/",
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 277,
+      "count": 283,
       "items": [
         {
           "id": "CVE-2026-109454",
@@ -284,7 +284,7 @@
       "items": []
     },
     "Dell": {
-      "count": 56,
+      "count": 58,
       "items": [
         {
           "id": "CVE-2026-116417",
