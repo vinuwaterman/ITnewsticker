@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T20:13:41.924Z",
+  "generatedAt": "2026-11-16T00:13:37.410Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -17,7 +17,7 @@
       "summary": "We continue to work with our customers to turn innovation into better warehouse operations and business outcomes.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/sap-leader-idc-marketscapes-warehouse-management-manufacturing-retail/",
-      "count7d": 13
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -35,7 +35,7 @@
       "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-      "count7d": 5
+      "count7d": 4
     },
     "VMware": {
       "vendor": "VMware",
@@ -44,7 +44,7 @@
       "summary": "Open source has always been foundational to cloud-native computing. Kubernetes itself is the product of thousands of contributors, but the platforms we build around it depend on an even broader ecosystem of projects spanning networking, storage, identity, backup and recovery, cluster lifecycle management, and more. At Broadcom, contributing to that ecosystem has long meant more &#8230; Continued The post Strengthening Cloud-Native Security Through Upstream Collaboration appeared first on VMware Blogs .",
       "category": "patch",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/11/12/strengthening-cloud-native-security-through-upstream-collaboration/",
-      "count7d": 10
+      "count7d": 6
     },
     "AWS": {
       "vendor": "AWS",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/how-to-restart-a-computer-with-the-keyboard",
-      "count7d": 12
+      "count7d": 7
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Lenovo 360 is bringing onboarding, marketing, communications, and technical resources closer together, laying the foundations for a connected partner experience with AI-powered guidance at its heart.",
       "category": "feature",
       "url": "https://news.lenovo.com/next-chapter-lenovo-360-smarter-experience-ai-era/",
-      "count7d": 5
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -98,7 +98,7 @@
       "summary": "It has been a few months since I last wrote about sovereignty. In that time, the conversations I have had with organizations across Europe have become more specific and more urgent. A &#8230; The post Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand. appeared first on Palo Alto Networks Blog .",
       "category": "feature",
       "url": "https://www.paloaltonetworks.com/blog/2026/11/europe-is-setting-the-global-standard-for-sovereignty-here-is-where-we-stand/",
-      "count7d": 3
+      "count7d": 2
     }
   },
   "nvd": {
