@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-18T17:50:56.006Z",
+  "generatedAt": "2026-11-18T23:58:09.716Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-121680 Windows NTLM Spoofing Vulnerability",
-      "date": "2026-11-17",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-118148 Active Directory Domain Services Elevation of Privilege Vulnerability",
+      "date": "2026-11-18",
+      "summary": "Updated the CVSS score and corrected FAQs. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-121680",
-      "count7d": 104
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118148",
+      "count7d": 105
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,21 +30,21 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
+      "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
       "date": "2026-11-18",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the&nbsp; Details &nbsp;section of this advisory. For additional information on these vulnerabilities in ClamAV, see the&nbsp; ClamAV blog . Cisco has released software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+      "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content.&nbsp; For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advisory CVE-2026-114938: Critical vulnerability in OpenJDK JAVA This…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
       "count7d": 5
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "導入事例：Qsol株式会社様",
+      "title": "VCF 9.1 and 6th Gen AMD EPYC CPUs Achieve VMmark Leadership Scores",
       "date": "2026-11-18",
-      "summary": "九州電力株式会社の電力安定供給に不可欠な基幹系システムをはじめ、九電グループ全体の多様な業務システムの開発・運用を担うQsol株式会社様。本日は、VMware ソリューションを活用したプライベートクラウド基盤の高度化と、プロフェッショナルサービス（VMware Cloud Foundation Professional Service / TAM）による伴走支援の事例をご紹介いたします。 社会インフラを支える同社の業務基盤では、厳格なセキュリティと高可用性の維持、さらには拠点移設に伴う大規模なアプリ改修コストの抑制やグループ全体のITガバナンス強化が求められていました。この課題を解決し、変化に追従できる柔軟かつ堅牢な基盤整備を実現したのが、VMware NSX や VMware vDefend、VCF Operations を中核としたプライベートクラウド環境です。 L2ネットワーク延伸によるアプリ改修コストの低減 VMware NSX のL2ネットワーク延伸技術を採用することで、IPアドレス体系を変更せずに複数拠点へネットワークを延伸。拠点移設に伴う大規模なアプリケーション改修コストや移行期間を大幅に削減しました。 サーバー集約率400%向上と徹底したセキュリティ対策 汎用インフラである第4世代（G4）基盤において、56台のホスト上に約1,900台の仮想マシンを集約し、サーバー集約率400%向上によるインフラコスト最適化を達成。また、VMware vDefend の分散ファイアウォールにより、社会インフラ基盤に求められる高度な脅威対策を実装しています。 VCF Operations と伴走支援による運用の高度化と内製化 VCF Operations のダッシュボードで性能やキャパシティを可視化し、障害の未然防止と少数精鋭での効率的な運用を実現。さらに、TAMをはじめとするVCF PSOの伴走支援により社内への知見蓄積と内製化を推進し、次期基盤に向けたさらなる自動化にも取り組んでいます。 詳細については、以下のPDFをダウンロードの上、ご参照ください。 Qsol様導入事例をダウンロード The post 導入事例：Qsol株式会社様 appeared first on VMware Japan Blog. The post 導入事例：Qsol株式会社様 appeared first on VMware Blogs .",
+      "summary": "We’re excited to announce the first VMmark benchmark results using new AMD EPYC 9006 Series Server CPUs. Submitted by Dell Technologies across 1-socket PowerEdge R9815 and 2-socket PowerEdge R9825 configurations, these two server platforms set a number of records in both performance and power-performance: see the VMmark Results page for more information. Here are some &#8230; Continued The post VCF 9.1 and 6th Gen AMD EPYC CPUs Achieve VMmark Leadership Scores appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/vmware-japan/2026/11/customer-case-studies-qsol.html",
-      "count7d": 8
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/18/vcf-9-1-and-6th-gen-amd-epyc-cpus-achieve-vmmark-leadership-scores/",
+      "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Brings the Human Advantage to AI Detection and Response",
+      "title": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
       "date": "2026-11-18",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/",
-      "count7d": 4
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/",
+      "count7d": 5
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 15,
+      "count": 14,
       "items": [
         {
           "id": "CVE-2026-76414",
@@ -189,7 +189,7 @@
       "items": []
     },
     "Dell": {
-      "count": 84,
+      "count": 74,
       "items": [
         {
           "id": "CVE-2026-116417",
@@ -201,133 +201,50 @@
           "epss": 0.186
         },
         {
-          "id": "CVE-2026-91870",
-          "title": "Dell Ansible Storage for PowerFlex, versions prior to 3.2.0, contains an Improper Certificate Validation vulnerability in the API client component. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to information exposure…",
-          "date": "2026-11-11",
+          "id": "CVE-2026-116418",
+          "title": "Dell PowerScale InsightIQ, versions 6.3.0 through 6.4.0, contains an Incorrect Authorization vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Elevation of privileges.",
+          "date": "2026-11-13",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91870",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116418",
           "kev": false,
-          "epss": 0.194
+          "epss": 0.301
         },
         {
-          "id": "CVE-2026-91871",
-          "title": "Dell Ansible Storage for PowerStore, versions prior to 3.9.0, contains an Improper Certificate Validation vulnerability in the API client component. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to information exposure…",
-          "date": "2026-11-11",
+          "id": "CVE-2026-61418",
+          "title": "Dell SmartFabric OS10 Software, versions prior to 10.6.0.10, contains an Incorrect Authorization vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Command execution.",
+          "date": "2026-11-13",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91871",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61418",
           "kev": false,
-          "epss": 0.22300000000000003
+          "epss": 0.503
         },
         {
-          "id": "CVE-2026-91879",
-          "title": "Dell Terraform for ObjectScale and Powerstore, versions prior to 1.1.1 (ObjectScale) and versions 1.2.1 through 1.3.0 (PowerStore) contains an insertion of sensitive information into Log File vulnerability in the client initialization component. A low privileged…",
-          "date": "2026-11-11",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91879",
+          "id": "CVE-2026-116432",
+          "title": "Dell PowerScale InsightIQ, versions 6.3.0 through 6.4.0, contains an Insertion of Sensitive Information into Log File vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure.",
+          "date": "2026-11-13",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116432",
           "kev": false,
-          "epss": 0.447
+          "epss": 0.215
         },
         {
-          "id": "CVE-2026-91890",
-          "title": "Dell Ansible Storage for Unity , versions prior to 1.2.13 contains an Improper Certificate Validation vulnerability in the UnityRESTConnector component. An unauthenticated attacker with remote access could potentially exploit this vulnerability,leading to information exposure and…",
-          "date": "2026-11-11",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91890",
+          "id": "CVE-2026-116419",
+          "title": "Dell PowerScale InsightIQ, versions 6.3.0 through 6.4.0, containsan Insertion of Sensitive Information into Log File vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure.",
+          "date": "2026-11-13",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116419",
           "kev": false,
-          "epss": 0.198
+          "epss": 0.183
         }
       ]
     },
     "Fortinet": {
-      "count": 93,
-      "items": [
-        {
-          "id": "CVE-2026-126147",
-          "title": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated…",
-          "date": "2026-11-11",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126147",
-          "kev": false,
-          "epss": 0.632
-        },
-        {
-          "id": "CVE-2026-126148",
-          "title": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6 may allow an unauthenticated attacker to execute unauthorized code or…",
-          "date": "2026-11-11",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126148",
-          "kev": false,
-          "epss": 2.445
-        },
-        {
-          "id": "CVE-2026-126150",
-          "title": "A weak password recovery mechanism for forgotten password vulnerability in Fortinet FortiMail 8.0.0, FortiMail 7.6.0 through 7.6.5, FortiMail 7.4.0 through 7.4.7, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to reset the password of…",
-          "date": "2026-11-11",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126150",
-          "kev": false,
-          "epss": 0.506
-        },
-        {
-          "id": "CVE-2026-126155",
-          "title": "A incorrect authorization vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated remote attacker to obtain an authenticated IBE webmail session…",
-          "date": "2026-11-11",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126155",
-          "kev": false,
-          "epss": 0.662
-        },
-        {
-          "id": "CVE-2026-126156",
-          "title": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated remote attacker to take over an…",
-          "date": "2026-11-11",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126156",
-          "kev": false,
-          "epss": 0.6459999999999999
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Lenovo": {
-      "count": 4,
-      "items": [
-        {
-          "id": "CVE-2026-65949",
-          "title": "Improper neutralization of special elements used in an OS command in Lenovo XClarity Integrator for Microsoft Windows Admin Center 5.1.1 and 5.2.0 allows an authenticated remote attacker to execute arbitrary PowerShell commands by submitting a…",
-          "date": "2026-11-11",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65949",
-          "kev": false,
-          "epss": 0.6
-        },
-        {
-          "id": "CVE-2026-65952",
-          "title": "Improper neutralization of special elements used in an OS command in the remote SSH operation functionality of Lenovo XClarity Essentials OneCLI 5.5.0 for Linux could allow an attacker to execute arbitrary OS commands with the…",
-          "date": "2026-11-11",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65952",
-          "kev": false,
-          "epss": 0.292
-        },
-        {
-          "id": "CVE-2026-65950",
-          "title": "A path traversal vulnerability in the ZIP extraction logic of Lenovo XClarity Essentials OneCLI 5.5.0 for Linux could allow an attacker to write arbitrary files with the privileges of the OneCLI process by convincing a…",
-          "date": "2026-11-11",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65950",
-          "kev": false,
-          "epss": 0.156
-        },
-        {
-          "id": "CVE-2026-65951",
-          "title": "A path traversal vulnerability in the TAR.GZ extraction logic of Lenovo XClarity Essentials OneCLI 5.5.0 for Linux could allow an attacker to write arbitrary files with the privileges of the OneCLI process by convincing a…",
-          "date": "2026-11-11",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65951",
-          "kev": false,
-          "epss": 0.156
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "Mimecast": {
       "count": 0,
@@ -338,54 +255,8 @@
       "items": []
     },
     "Palo Alto Networks": {
-      "count": 9,
-      "items": [
-        {
-          "id": "CVE-2026-0323",
-          "title": "A server-side request forgery vulnerability in Palo Alto Networks Checkov by Prisma® Cloud enables a local unauthenticated user to make unauthorized network requests from host to internal services.",
-          "date": "2026-11-11",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0323",
-          "kev": false,
-          "epss": 0.148
-        },
-        {
-          "id": "CVE-2026-0324",
-          "title": "An incorrect privilege management vulnerability in the OPSWAT MetaDefender Endpoint Security SDK used by the Palo Alto Networks GlobalProtect™ app on Windows devices allows a locally authenticated non-administrative Windows user to escalate their privileges to…",
-          "date": "2026-11-11",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0324",
-          "kev": false,
-          "epss": 0.132
-        },
-        {
-          "id": "CVE-2026-0325",
-          "title": "An authorization bypass vulnerability in the GlobalProtect gateway of Palo Alto Networks PAN-OS® software enables an authenticated attacker with valid GlobalProtect credentials to bypass IP address restrictions and circumvent network access controls that rely on…",
-          "date": "2026-11-11",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0325",
-          "kev": false,
-          "epss": 0.356
-        },
-        {
-          "id": "CVE-2026-0326",
-          "title": "A buffer overflow vulnerability in Palo Alto Networks PAN-OS software enables an unauthenticated attacker to disrupt service processing by causing a service process crash or memory corruption. Panorama and Prisma® Access are not affected by…",
-          "date": "2026-11-11",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0326",
-          "kev": false,
-          "epss": 0.426
-        },
-        {
-          "id": "CVE-2026-0327",
-          "title": "A privilege escalation vulnerability in the GlobalProtect gateway of Palo Alto Networks PAN-OS® software enables an authenticated, lower-privileged user to obtain the privileges and configuration of a higher-privileged user. Cloud NGFW and Panorama are not…",
-          "date": "2026-11-11",
-          "severity": "UNKNOWN",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0327",
-          "kev": false,
-          "epss": 0.366
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   }
 }
