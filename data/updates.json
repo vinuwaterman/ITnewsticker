@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T01:10:56.835Z",
+  "generatedAt": "2026-11-18T08:56:05.880Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "The GitOps Advantage: How VCF Automation Reduces Ephemeral Environment Toil by Up to 80%",
-      "date": "2026-11-17",
-      "summary": "For modern enterprise development teams, release velocity relies heavily on instant access to realistic, production-mirrored environments. Every new feature, platform upgrade, or bug fix requires a secure, isolated space for testing. However, when platform engineers must manually provision, populate, and tear down these ephemeral environments using separate command-line tools, the result is an operational bottleneck. &#8230; Continued The post The GitOps Advantage: How VCF Automation Reduces Ephemeral Environment Toil by Up to 80% appeared first on VMware Blogs .",
-      "category": "patch",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/17/the-gitops-advantage-how-vcf-automation-reduces-ephemeral-environment-toil-by-up-to-80/",
-      "count7d": 7
+      "title": "導入事例：Qsol株式会社様",
+      "date": "2026-11-18",
+      "summary": "九州電力株式会社の電力安定供給に不可欠な基幹系システムをはじめ、九電グループ全体の多様な業務システムの開発・運用を担うQsol株式会社様。本日は、VMware ソリューションを活用したプライベートクラウド基盤の高度化と、プロフェッショナルサービス（VMware Cloud Foundation Professional Service / TAM）による伴走支援の事例をご紹介いたします。 社会インフラを支える同社の業務基盤では、厳格なセキュリティと高可用性の維持、さらには拠点移設に伴う大規模なアプリ改修コストの抑制やグループ全体のITガバナンス強化が求められていました。この課題を解決し、変化に追従できる柔軟かつ堅牢な基盤整備を実現したのが、VMware NSX や VMware vDefend、VCF Operations を中核としたプライベートクラウド環境です。 L2ネットワーク延伸によるアプリ改修コストの低減 VMware NSX のL2ネットワーク延伸技術を採用することで、IPアドレス体系を変更せずに複数拠点へネットワークを延伸。拠点移設に伴う大規模なアプリケーション改修コストや移行期間を大幅に削減しました。 サーバー集約率400%向上と徹底したセキュリティ対策 汎用インフラである第4世代（G4）基盤において、56台のホスト上に約1,900台の仮想マシンを集約し、サーバー集約率400%向上によるインフラコスト最適化を達成。また、VMware vDefend の分散ファイアウォールにより、社会インフラ基盤に求められる高度な脅威対策を実装しています。 VCF Operations と伴走支援による運用の高度化と内製化 VCF Operations のダッシュボードで性能やキャパシティを可視化し、障害の未然防止と少数精鋭での効率的な運用を実現。さらに、TAMをはじめとするVCF PSOの伴走支援により社内への知見蓄積と内製化を推進し、次期基盤に向けたさらなる自動化にも取り組んでいます。 詳細については、以下のPDFをダウンロードの上、ご参照ください。 Qsol様導入事例をダウンロード The post 導入事例：Qsol株式会社様 appeared first on VMware Japan Blog. The post 導入事例：Qsol株式会社様 appeared first on VMware Blogs .",
+      "category": "feature",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/11/customer-case-studies-qsol.html",
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
