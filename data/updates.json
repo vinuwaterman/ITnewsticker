@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T06:52:41.558Z",
+  "generatedAt": "2026-11-19T16:23:06.764Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "How Bestseller Turned Fragmented Workforce Data into Trusted People Intelligence",
-      "date": "2026-11-18",
-      "summary": "Now, leaders across all brands and countries at the fashion group can work from the same numbers and focus on decisions.",
+      "title": "Who Wins the Next Disruption: Five Rules for Creating Supply Chains that Can Take a Hit",
+      "date": "2026-11-19",
+      "summary": "The goal is to build a supply chain that can adapt and keep moving.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/bestseller-turned-fragmented-workforce-data-into-trusted-people-intelligence/",
-      "count7d": 10
+      "url": "https://news.sap.com/2026/11/five-rules-creating-supply-chains-that-can-take-a-hit/",
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF 9.1 and 6th Gen AMD EPYC CPUs Achieve VMmark Leadership Scores",
-      "date": "2026-11-18",
-      "summary": "We’re excited to announce the first VMmark benchmark results using new AMD EPYC 9006 Series Server CPUs. Submitted by Dell Technologies across 1-socket PowerEdge R9815 and 2-socket PowerEdge R9825 configurations, these two server platforms set a number of records in both performance and power-performance: see the VMmark Results page for more information. Here are some &#8230; Continued The post VCF 9.1 and 6th Gen AMD EPYC CPUs Achieve VMmark Leadership Scores appeared first on VMware Blogs .",
+      "title": "VCF 9.1 VPC Networking, Part 1: From External Connection to Virtual Private Cloud",
+      "date": "2026-11-19",
+      "summary": "Series · Part 1 of 6 The VCF 9.1 VPC Networking Mental Model 1VCF 9.1 VPC Networking, Part 1: From External Connection to VPCYou are here 2VCF 9.1 VPC Networking, Part 2: IP Blocks, External Connections, Transit Gateways, Subnets and NATComing soon 3VCF 9.1 VPC Networking, Part 3: The Distributed Transit GatewayComing soon 4VCF 9.1 &#8230; Continued The post VCF 9.1 VPC Networking, Part 1: From External Connection to Virtual Private Cloud appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/18/vcf-9-1-and-6th-gen-amd-epyc-cpus-achieve-vmmark-leadership-scores/",
-      "count7d": 8
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/18/vcf-9-1-vpc-networking-part-1-from-external-connection-to-virtual-private-cloud/",
+      "count7d": 9
     },
     "AWS": {
       "vendor": "AWS",
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Dell Technologies delivers the industry's first fully integrated, liquid-cooled Networking for NVIDIA Vera Rubin NVL72 to Nscale",
-      "date": "2026-11-18",
-      "summary": "Dell PowerRack for networking joins switches, direct liquid cooling and power in one validated rack for AI factories, now in production at Nscale.",
+      "title": "The Public University Mission, Amplified: What AI Makes Possible for Students and Communities",
+      "date": "2026-11-19",
+      "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/dell-technologies-delivers-the-industry-s-first-fully-integrated-liquid-cooled-networking-for-nvidia-vera-rubin-nvl72-to-nscale",
+      "url": "https://www.dell.com/en-us/blog/the-public-university-mission-amplified-what-ai-makes-possible-for-students-and-communities",
       "count7d": 20
     },
     "Lenovo": {
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 15,
+      "count": 17,
       "items": [
         {
           "id": "CVE-2026-76414",
@@ -111,7 +111,8 @@
           "date": "2026-11-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76414",
-          "kev": false
+          "kev": false,
+          "epss": 0.586
         },
         {
           "id": "CVE-2026-76417",
@@ -119,7 +120,8 @@
           "date": "2026-11-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76417",
-          "kev": false
+          "kev": false,
+          "epss": 0.534
         },
         {
           "id": "CVE-2026-76421",
@@ -127,7 +129,8 @@
           "date": "2026-11-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76421",
-          "kev": false
+          "kev": false,
+          "epss": 0.5309999999999999
         },
         {
           "id": "CVE-2026-76515",
@@ -135,7 +138,8 @@
           "date": "2026-11-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76515",
-          "kev": false
+          "kev": false,
+          "epss": 0.534
         },
         {
           "id": "CVE-2026-129857",
@@ -149,8 +153,17 @@
       ]
     },
     "SAP": {
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "id": "CVE-2026-128999",
+          "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Saphali Saphali Woocommerce Lite saphali-woocommerce-lite allows Stored XSS.This issue affects Saphali Woocommerce Lite: from n/a through 2.0.2.",
+          "date": "2026-11-19",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128999",
+          "kev": false,
+          "epss": 0.19
+        },
         {
           "id": "CVE-2026-91572",
           "title": "Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware (component: SAP ERP+). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Difficult to exploit vulnerability allows unauthenticated attacker with access to the…",
@@ -158,7 +171,7 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91572",
           "kev": false,
-          "epss": 0.207
+          "epss": 0.148
         }
       ]
     },
@@ -176,20 +189,45 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91575",
           "kev": false,
-          "epss": 0.332
+          "epss": 0.268
         }
       ]
     },
     "VMware": {
-      "count": 0,
-      "items": []
+      "count": 3,
+      "items": [
+        {
+          "id": "CVE-2026-123890",
+          "title": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. Affected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5). Telco Cloud Platform 3.0,…",
+          "date": "2026-11-19",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-133045",
+          "title": "In JetBrains TeamCity before 2026.2.1 stored XSS in VMware vSphere cloud profile settings was possible",
+          "date": "2026-11-19",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133045",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-123894",
+          "title": "VMware Tools for Windows contains a SAML token signature bypass vulnerability. Affected versions: 13.x.x.x (fixed in 13.1.5.0); 12.3.x (fixed in 12.5.5).",
+          "date": "2026-11-19",
+          "severity": "MEDIUM",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123894",
+          "kev": false
+        }
+      ]
     },
     "AWS": {
       "count": 0,
       "items": []
     },
     "Dell": {
-      "count": 74,
+      "count": 79,
       "items": [
         {
           "id": "CVE-2026-116417",
