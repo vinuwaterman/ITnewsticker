@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T23:58:09.716Z",
+  "generatedAt": "2026-11-19T06:52:41.558Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated the CVSS score and corrected FAQs. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118148",
-      "count7d": 105
+      "count7d": 104
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Now, leaders across all brands and countries at the fashion group can work from the same numbers and focus on decisions.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/bestseller-turned-fragmented-workforce-data-into-trusted-people-intelligence/",
-      "count7d": 13
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -44,7 +44,7 @@
       "summary": "We’re excited to announce the first VMmark benchmark results using new AMD EPYC 9006 Series Server CPUs. Submitted by Dell Technologies across 1-socket PowerEdge R9815 and 2-socket PowerEdge R9825 configurations, these two server platforms set a number of records in both performance and power-performance: see the VMmark Results page for more information. Here are some &#8230; Continued The post VCF 9.1 and 6th Gen AMD EPYC CPUs Achieve VMmark Leadership Scores appeared first on VMware Blogs .",
       "category": "feature",
       "url": "https://blogs.vmware.com/cloud-foundation/2026/11/18/vcf-9-1-and-6th-gen-amd-epyc-cpus-achieve-vmmark-leadership-scores/",
-      "count7d": 10
+      "count7d": 8
     },
     "AWS": {
       "vendor": "AWS",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Bring sovereign, secure AI to where your business runs",
-      "date": "2026-11-18",
-      "summary": "New Lenovo Hybrid AI Factory solutions with Microsoft enable enterprises to design, deploy, and sustain sovereign AI environments",
+      "title": "Q2 2026/27 Key Achievements and Milestones (Infographic)",
+      "date": "2026-11-19",
+      "summary": "Lenovo reported second quarter results for fiscal year 2026/27, demonstrating strong growth, a leap forward in profitability, and structural enhancements to the Group’s business fundamentals.",
       "category": "feature",
-      "url": "https://news.lenovo.com/bring-sovereign-secure-ai-to-where-your-business-runs/",
-      "count7d": 2
+      "url": "https://news.lenovo.com/q2-2026-27-key-achievements-and-milestones-infographic/",
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,21 +89,21 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/",
-      "count7d": 5
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand.",
-      "date": "2026-11-12",
-      "summary": "It has been a few months since I last wrote about sovereignty. In that time, the conversations I have had with organizations across Europe have become more specific and more urgent. A &#8230; The post Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand. appeared first on Palo Alto Networks Blog .",
+      "title": "Secure SI by Design Consortium Officially Approved by U.S. Government",
+      "date": "2026-11-17",
+      "summary": "The United States government has officially approved the Secure SI by Design Consortium, an industry coalition led by Palo Alto Networks alongside NVIDIA, IBM, OpenAI, Snowflake, Cognizant, Reflection, Factory, and ServiceNow. Established &#8230; The post Secure SI by Design Consortium Officially Approved by U.S. Government appeared first on Palo Alto Networks Blog .",
       "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/11/europe-is-setting-the-global-standard-for-sovereignty-here-is-where-we-stand/",
+      "url": "https://www.paloaltonetworks.com/blog/2026/11/secure-si-by-design-consortium-officially-approved-by-u-s-government/",
       "count7d": 1
     }
   },
   "nvd": {
     "Microsoft": {
-      "count": 14,
+      "count": 15,
       "items": [
         {
           "id": "CVE-2026-76414",
