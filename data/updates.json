@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-19T16:23:06.764Z",
+  "generatedAt": "2026-11-19T23:10:36.910Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-118148 Active Directory Domain Services Elevation of Privilege Vulnerability",
-      "date": "2026-11-18",
-      "summary": "Updated the CVSS score and corrected FAQs. This is an informational change only.",
+      "title": "CVE-2026-105584 Windows Inventory Backup Information Disclosure Vulnerability",
+      "date": "2026-11-19",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118148",
-      "count7d": 104
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105584",
+      "count7d": 162
     },
     "SAP": {
       "vendor": "SAP",
@@ -21,17 +21,17 @@
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Veeam at Microsoft Ignite 2026: Sessions, the Leaders’ Lounge, and how to meet our team",
-      "date": "2026-11-13",
-      "summary": "Microsoft Ignite 2026 happens Nov. 17–20 at the Moscone Center in San Francisco, and Veeam is a proud sponsor. Our team will be onsite and online to help IT leaders answer one of the biggest questions of the moment: how do you roll out AI with confidence? The post Veeam at Microsoft Ignite 2026: Sessions, the Leaders’ Lounge, and how to meet our team appeared first on Veeam Software Official Blog .",
+      "title": "Outage, Attack, or AI Agent Drift: Lessons from the Microsoft 365",
+      "date": "2026-11-19",
+      "summary": "On Thursday, Nov. 12, Microsoft 365 went dark for much of the world. Problems started with Exchange Online around 11:17 a.m. ET, then spread to Teams, SharePoint, Copilot, and even Defender XDR. Outage reports came in from 74 countries and territories, and, by Microsoft's own incident record, the disruption ran just shy of 24 hours. The post Outage, Attack, or AI Agent Drift: Lessons from the Microsoft 365 appeared first on Veeam Software Official Blog .",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/veeam-at-microsoft-ignite-2026.html",
-      "count7d": 1
+      "url": "https://www.veeam.com/blog/microsoft-365-outage-2026-lessons.html",
+      "count7d": 4
     },
     "Cisco": {
       "vendor": "Cisco",
       "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content.&nbsp; For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advisory CVE-2026-114938: Critical vulnerability in OpenJDK JAVA This…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
@@ -39,12 +39,12 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF 9.1 VPC Networking, Part 1: From External Connection to Virtual Private Cloud",
+      "title": "Securing 5G with VMware HyperArmor on VCF Telco: Hypervisor-Layer Defense across Control and User Planes",
       "date": "2026-11-19",
-      "summary": "Series · Part 1 of 6 The VCF 9.1 VPC Networking Mental Model 1VCF 9.1 VPC Networking, Part 1: From External Connection to VPCYou are here 2VCF 9.1 VPC Networking, Part 2: IP Blocks, External Connections, Transit Gateways, Subnets and NATComing soon 3VCF 9.1 VPC Networking, Part 3: The Distributed Transit GatewayComing soon 4VCF 9.1 &#8230; Continued The post VCF 9.1 VPC Networking, Part 1: From External Connection to Virtual Private Cloud appeared first on VMware Blogs .",
+      "summary": "The layer every other control trusts 5G&#8217;s cloud-native decomposition placed the mobile core — control plane (AMF, SMF, NRF, AUSF, UDM, PCF, NEF, NSSF, SEPP) and user plane (UPF, GTP-U on N3/N9, N6, PFCP on N4) — onto virtualized infrastructure, most commonly VMware Cloud Foundation (VCF) with ESX hypervisors.&#160; Every layer of defense for VCF &#8230; Continued The post Securing 5G with VMware HyperArmor on VCF Telco: Hypervisor-Layer Defense across Control and User Planes appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/18/vcf-9-1-vpc-networking-part-1-from-external-connection-to-virtual-private-cloud/",
-      "count7d": 9
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/19/securing-5g-with-vmware-hyperarmor-on-vcf-telco-hypervisor-layer-defense-across-control-and-user-planes/",
+      "count7d": 10
     },
     "AWS": {
       "vendor": "AWS",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Q2 2026/27 Key Achievements and Milestones (Infographic)",
+      "title": "The right AI infrastructure at the right time with Lenovo AI Express",
       "date": "2026-11-19",
-      "summary": "Lenovo reported second quarter results for fiscal year 2026/27, demonstrating strong growth, a leap forward in profitability, and structural enhancements to the Group’s business fundamentals.",
+      "summary": "Lenovo offers pre-validated configurations for different requirements, from getting started with inference and assistant applications to more demanding generative and agent-based AI scenarios.",
       "category": "feature",
-      "url": "https://news.lenovo.com/q2-2026-27-key-achievements-and-milestones-infographic/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/right-ai-infrastructure-time-with-lenovo-ai-express/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
-      "date": "2026-11-18",
+      "title": "Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity",
+      "date": "2026-11-19",
       "summary": "",
-      "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/",
-      "count7d": 4
+      "category": "patch",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/",
+      "count7d": 6
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -105,6 +105,15 @@
     "Microsoft": {
       "count": 17,
       "items": [
+        {
+          "id": "CVE-2026-129509",
+          "title": "In the Apache Airflow Microsoft Azure provider 10.2.0 through 15.3.0, `S3ToAzureBlobStorageOperator` turned off TLS certificate verification for its connection to Amazon S3 by default (`s3_verify=False`), whatever the AWS connection's own verification settings were. An attacker…",
+          "date": "2026-11-18",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129509",
+          "kev": false,
+          "epss": 0.131
+        },
         {
           "id": "CVE-2026-76414",
           "title": "A vulnerability in Microsoft Compiled HTML Help (CHM) file scanning of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition on an affected device. This vulnerability is due to a logic error…",
@@ -140,15 +149,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76515",
           "kev": false,
           "epss": 0.534
-        },
-        {
-          "id": "CVE-2026-129857",
-          "title": "Microsoft jxrlib through 1.1 and the mircomir jxrlib fork before 1.3.1 contain a heap buffer overflow in ReadBinaryData() in jxrgluelib/JXRMeta.c caused by integer overflow of the metadata count. Attackers can supply a JPEG XR file…",
-          "date": "2026-11-16",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129857",
-          "kev": false,
-          "epss": 0.8710000000000001
         }
       ]
     },
