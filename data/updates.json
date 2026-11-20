@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T13:27:27.713Z",
+  "generatedAt": "2026-11-20T21:27:19.811Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "From Melbourne to Mexico: How SAP Concur and AI Help the San Francisco 49ers Take Their Game Global",
+      "title": "How SAP and Microsoft Innovate Together to Deliver AI Value for the Enterprise",
       "date": "2026-11-20",
-      "summary": "Traveling across continents during the 2026 NFL International Series, SAP software keeps the team moving seamlessly.",
+      "summary": "Together, SAP and Microsoft solve challenges and unlock exponential AI value.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/how-sap-concur-helps-san-francisco-49ers-take-game-global/",
-      "count7d": 12
+      "url": "https://news.sap.com/2026/11/how-sap-microsoft-innovate-deliver-ai-value-enterprise/",
+      "count7d": 13
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -31,19 +31,19 @@
     "Cisco": {
       "vendor": "Cisco",
       "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content.&nbsp; For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advisory CVE-2026-114938: Critical vulnerability in OpenJDK JAVA This…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-      "count7d": 4
+      "count7d": 5
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "VCF 9.1 VPC Networking, Part 2: IP Blocks, External Connections, Transit Gateways, Subnets, and NAT",
+      "title": "From AI Experimentation to Production: Key Takeaways from KubeCon North America 2026",
       "date": "2026-11-20",
-      "summary": "Series · Part 2 of 6 The VCF 9.1 VPC Networking Mental Model 1VCF 9.1 VPC Networking, Part 1: From External Connection to VPC 2VCF 9.1 VPC Networking, Part 2: IP Blocks, External Connections, Transit Gateways, Subnets, and NATYou are here 3VCF 9.1 VPC Networking, Part 3: The Distributed Transit GatewayComing soon 4VCF 9.1 VPC &#8230; Continued The post VCF 9.1 VPC Networking, Part 2: IP Blocks, External Connections, Transit Gateways, Subnets, and NAT appeared first on VMware Blogs .",
+      "summary": "Walk the halls of KubeCon + CloudNativeCon North America 2026 in Salt Lake City, and you’ll notice a subtle but unmistakable shift in how engineers talk about AI. A year ago, the dominant question was whether Kubernetes could handle AI workloads at all. This year, nobody is debating capability anymore. Instead they’re wrestling with the &#8230; Continued The post From AI Experimentation to Production: Key Takeaways from KubeCon North America 2026 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/19/vcf-9-1-vpc-networking-part-2-ip-blocks-external-connections-transit-gateways-subnets-and-nat/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/20/from-ai-experimentation-to-production-key-takeaways-from-kubecon-north-america-2026/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "The Public University Mission, Amplified: What AI Makes Possible for Students and Communities",
-      "date": "2026-11-19",
-      "summary": "",
+      "title": "Neural Networks to AI Factories: Roland Kunz on AI That Delivers",
+      "date": "2026-11-30",
+      "summary": "Roland Kunz, an AI expert at Dell Technologies, shares his insights on how organizations can turn AI concepts into impactful, measurable business outcomes.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/the-public-university-mission-amplified-what-ai-makes-possible-for-students-and-communities",
+      "url": "https://www.dell.com/en-us/blog/neural-networks-to-ai-factories-roland-kunz-on-ai-that-delivers",
       "count7d": 20
     },
     "Lenovo": {
@@ -75,12 +75,12 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Java4Shell Vulnerability - CVE-2026-114938",
-      "date": "2026-11-18",
-      "summary": "CVSSv3 Score: 8.1 CVE-2026-114938Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler). Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Successful attacks of this…",
+      "title": "NGINX vulnerabilities",
+      "date": "2026-11-20",
+      "summary": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6. NGINX Plus 37.1.0 - 37.2.0.1, 37.0.0 - 37.0.7.1.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6. NGINX Plus 37.1.0 - 37.1.1, 37.0.0 - 37.0.6.1.CVE-2026-121810 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.0 - 1.30.6. NGINX Plus 37.1.0 - 37.2.0.1, 37.0.0 - 37.0.7.1.CVE-2026-123634 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.0.0 - 1.30.6. NGINX Plus 37.1.0 -…",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-278",
-      "count7d": 1
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
+      "count7d": 2
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
@@ -106,13 +106,22 @@
       "count": 17,
       "items": [
         {
+          "id": "CVE-2026-129446",
+          "title": "The WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) WordPress plugin before 45.4 does not ensure the signature validated on a SAML response covers the element the user identity is read from, allowing…",
+          "date": "2026-11-19",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129446",
+          "kev": false,
+          "epss": 0.13699999999999998
+        },
+        {
           "id": "CVE-2026-129509",
           "title": "In the Apache Airflow Microsoft Azure provider 10.2.0 through 15.3.0, `S3ToAzureBlobStorageOperator` turned off TLS certificate verification for its connection to Amazon S3 by default (`s3_verify=False`), whatever the AWS connection's own verification settings were. An attacker…",
           "date": "2026-11-18",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129509",
           "kev": false,
-          "epss": 0.131
+          "epss": 0.24
         },
         {
           "id": "CVE-2026-76414",
@@ -140,15 +149,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76421",
           "kev": false,
           "epss": 0.5309999999999999
-        },
-        {
-          "id": "CVE-2026-76515",
-          "title": "A vulnerability in the Object Linking and Embedding, 2nd Generation (OLE2) file parser for ClamAV could allow an unauthenticated, remote attacker to exceed the configured MaxScanTime and cause a DoS condition on an affected device.…",
-          "date": "2026-11-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76515",
-          "kev": false,
-          "epss": 0.534
         }
       ]
     },
@@ -202,7 +202,8 @@
           "date": "2026-11-19",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
-          "kev": false
+          "kev": true,
+          "epss": 0.843
         },
         {
           "id": "CVE-2026-133045",
@@ -210,7 +211,8 @@
           "date": "2026-11-19",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133045",
-          "kev": false
+          "kev": false,
+          "epss": 0.257
         },
         {
           "id": "CVE-2026-123894",
@@ -218,7 +220,8 @@
           "date": "2026-11-19",
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123894",
-          "kev": false
+          "kev": false,
+          "epss": 0.147
         }
       ]
     },
@@ -227,52 +230,52 @@
       "items": []
     },
     "Dell": {
-      "count": 55,
+      "count": 41,
       "items": [
         {
-          "id": "CVE-2026-103813",
-          "title": "Dell PowerStore contains an OS Command Injection vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability, potentially leading to privilege escalation to root on the appliance.",
-          "date": "2026-11-13",
+          "id": "CVE-2026-111508",
+          "title": "Dell PowerStore contains an OS Command Injection vulnerability. Exploitation could lead to arbitrary command execution with root privileges on the appliance.",
+          "date": "2026-11-18",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103813",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111508",
           "kev": false,
-          "epss": 1.411
+          "epss": 2.003
         },
         {
-          "id": "CVE-2026-82138",
-          "title": "Dell SupportAssist OS Recovery, versions prior to 5.5.16.3 contain a Download of Code Without Integrity Check vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Code execution.",
-          "date": "2026-11-17",
+          "id": "CVE-2026-107518",
+          "title": "Dell PowerStore contains a Server-Side Request Forgery (SSRF) vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability to make the appliance connect to attacker-chosen internal systems.",
+          "date": "2026-11-18",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82138",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107518",
           "kev": false,
-          "epss": 0.096
+          "epss": 0.387
         },
         {
-          "id": "CVE-2026-82139",
-          "title": "Dell SupportAssist OS Recovery, versions prior to 5.5.16.3, contain an Improper Certificate Validation vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Protection mechanism bypass.",
-          "date": "2026-11-17",
+          "id": "CVE-2026-107519",
+          "title": "Dell PowerStore contains an integer underflow vulnerability. An attacker could exploit this vulnerability, potentially leading to denial of service of a cryptographic service.",
+          "date": "2026-11-18",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82139",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107519",
           "kev": false,
-          "epss": 0.08499999999999999
+          "epss": 0.45399999999999996
         },
         {
-          "id": "CVE-2026-82156",
-          "title": "Dell PowerStore contains an authorization-bypass vulnerability. A low-privileged attacker could exploit it, potentially leading to elevation of privilege to administrator.",
-          "date": "2026-11-16",
+          "id": "CVE-2026-107515",
+          "title": "Dell PowerStore contains an Improper Privilege Management vulnerability. An authenticated attacker could exploit this vulnerability, potentially leading to privilege escalation to administrator.",
+          "date": "2026-11-18",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82156",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107515",
           "kev": false,
-          "epss": 0.443
+          "epss": 0.41700000000000004
         },
         {
-          "id": "CVE-2026-116411",
-          "title": "Dell PowerStore contains a Server-Side Request Forgery (SSRF) vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability, potentially leading to information disclosure via requests to internal services.",
-          "date": "2026-11-13",
+          "id": "CVE-2026-107516",
+          "title": "Dell PowerStore contains an OS command injection vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability, potentially leading to arbitrary command execution with root privileges.",
+          "date": "2026-11-18",
           "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116411",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107516",
           "kev": false,
-          "epss": 0.424
+          "epss": 2.003
         }
       ]
     },
