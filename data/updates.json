@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T23:10:36.910Z",
+  "generatedAt": "2026-11-20T04:11:07.112Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105584",
-      "count7d": 162
+      "count7d": 71
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "The goal is to build a supply chain that can adapt and keep moving.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/five-rules-creating-supply-chains-that-can-take-a-hit/",
-      "count7d": 11
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -26,7 +26,7 @@
       "summary": "On Thursday, Nov. 12, Microsoft 365 went dark for much of the world. Problems started with Exchange Online around 11:17 a.m. ET, then spread to Teams, SharePoint, Copilot, and even Defender XDR. Outage reports came in from 74 countries and territories, and, by Microsoft's own incident record, the disruption ran just shy of 24 hours. The post Outage, Attack, or AI Agent Drift: Lessons from the Microsoft 365 appeared first on Veeam Software Official Blog .",
       "category": "feature",
       "url": "https://www.veeam.com/blog/microsoft-365-outage-2026-lessons.html",
-      "count7d": 4
+      "count7d": 3
     },
     "Cisco": {
       "vendor": "Cisco",
@@ -35,15 +35,15 @@
       "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content.&nbsp; For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advisory CVE-2026-114938: Critical vulnerability in OpenJDK JAVA This…",
       "category": "critical",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-      "count7d": 5
+      "count7d": 4
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Securing 5G with VMware HyperArmor on VCF Telco: Hypervisor-Layer Defense across Control and User Planes",
-      "date": "2026-11-19",
-      "summary": "The layer every other control trusts 5G&#8217;s cloud-native decomposition placed the mobile core — control plane (AMF, SMF, NRF, AUSF, UDM, PCF, NEF, NSSF, SEPP) and user plane (UPF, GTP-U on N3/N9, N6, PFCP on N4) — onto virtualized infrastructure, most commonly VMware Cloud Foundation (VCF) with ESX hypervisors.&#160; Every layer of defense for VCF &#8230; Continued The post Securing 5G with VMware HyperArmor on VCF Telco: Hypervisor-Layer Defense across Control and User Planes appeared first on VMware Blogs .",
+      "title": "導入事例：株式会社ラウンドワンジャパン様",
+      "date": "2026-11-20",
+      "summary": "ボウリングやアミューズメント、カラオケ、スポッチャなど、屋内型複合レジャー施設を国内外に162店舗展開する株式会社ラウンドワンジャパン様。本日は、VMware Cloud Foundation® Edge（VCF Edge）および VMware Cloud Foundation Operations（VCF Operations）を活用した店舗サーバー基盤の刷新事例をご紹介いたします。 同社では、店舗ごとの個別POS運用や紙・FAXによるアナログな集計業務から脱却し、店舗同士をつなぐオンライン対戦コンテンツの提供や店舗運営の省力化を実現する新たな環境整備が求められていました。この課題を解決し、IT専任者が不在の各店舗でも保守性の高い共通基盤を少数精鋭で運用できる体制を確立したのが、VCF Edge を採用した店舗サーバーの仮想化です。 全国98店舗に同一の仮想環境を展開し保守性と拡張性を向上 データセンターと店舗を低遅延な専用閉域網で接続したうえで、国内98店舗すべてにハードウェアを含めた同一の VCF Edge 環境を設置。1ノード上でPOS集計、受付システム、映像配信など9台の仮想マシンを集約稼働させることで、将来的な新規サービス追加にもハードウェアを増設せず柔軟に対応できる拡張性と調達コストの最適化を実現しました。 VCF Operations による集中監視と迅速な障害復旧 本部から全店舗のサーバー稼働状況を的確に把握できる運用体制を整備。クリティカルなアラート発生時には根拠データとともに具体的な対処ガイドが提示されるため、以前はメーカーへのログ送付・分析を待っていた原因特定が大幅にスピードアップし、店舗現場の負担を最小限に抑える迅速な復旧を可能にしています。 店舗オペレーションの自動化と今後のグローバル展開 各業態のPOSデータを店舗サーバーへ集約して本部DBと自動連携することで、閉店時の売上締め作業や集計業務を大幅に効率化。今後は蓄積した知見と標準化された仕組みを活かし、米国市場での店舗サーバー展開やAIを活用した障害の予知保全にも取り組んでいく計画です。 さらなる詳細については、以下のPDFをダウンロードの上、ご参照ください。 ラウンドワンジャパン様導入事例をダウンロード The post 導入事例：株式会社ラウンドワンジャパン様 appeared first on VMware Japan Blog. The post 導入事例：株式会社ラウンドワンジャパン様 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/19/securing-5g-with-vmware-hyperarmor-on-vcf-telco-hypervisor-layer-defense-across-control-and-user-planes/",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/11/customer-case-studies-roundone.html",
       "count7d": 10
     },
     "AWS": {
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "patch",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/",
-      "count7d": 6
+      "count7d": 5
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
