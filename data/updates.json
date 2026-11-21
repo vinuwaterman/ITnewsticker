@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:27:19.811Z",
+  "generatedAt": "2026-11-21T02:42:56.892Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -77,7 +77,7 @@
       "vendor": "Fortinet",
       "title": "NGINX vulnerabilities",
       "date": "2026-11-20",
-      "summary": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6. NGINX Plus 37.1.0 - 37.2.0.1, 37.0.0 - 37.0.7.1.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6. NGINX Plus 37.1.0 - 37.1.1, 37.0.0 - 37.0.6.1.CVE-2026-121810 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.0 - 1.30.6. NGINX Plus 37.1.0 - 37.2.0.1, 37.0.0 - 37.0.7.1.CVE-2026-123634 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.0.0 - 1.30.6. NGINX Plus 37.1.0 -…",
+      "summary": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6.CVE-2026-121810 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.0 - 1.30.6.CVE-2026-123634 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.0.0 - 1.30.6.CVE-2026-113425 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 0.5.33 - 1.30.6.CVE-2026-118899 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.13.0 - 1.30.6.CVE-2026-120967 (medium)This vulnerability affects NGINX…",
       "category": "patch",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
       "count7d": 2
