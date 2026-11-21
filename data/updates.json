@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:43:02.681Z",
+  "generatedAt": "2026-11-21T17:54:10.176Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -112,7 +112,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129446",
           "kev": false,
-          "epss": 0.13699999999999998
+          "epss": 0.294
         },
         {
           "id": "CVE-2026-129509",
@@ -121,7 +121,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129509",
           "kev": false,
-          "epss": 0.24
+          "epss": 0.27699999999999997
         },
         {
           "id": "CVE-2026-76414",
@@ -203,7 +203,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
           "kev": true,
-          "epss": 0.843
+          "epss": 2.9850000000000003
         },
         {
           "id": "CVE-2026-133045",
@@ -239,7 +239,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111508",
           "kev": false,
-          "epss": 2.003
+          "epss": 1.516
         },
         {
           "id": "CVE-2026-107518",
@@ -248,7 +248,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107518",
           "kev": false,
-          "epss": 0.387
+          "epss": 0.28900000000000003
         },
         {
           "id": "CVE-2026-107519",
@@ -257,7 +257,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107519",
           "kev": false,
-          "epss": 0.45399999999999996
+          "epss": 0.319
         },
         {
           "id": "CVE-2026-107515",
@@ -266,7 +266,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107515",
           "kev": false,
-          "epss": 0.41700000000000004
+          "epss": 0.326
         },
         {
           "id": "CVE-2026-107516",
@@ -275,7 +275,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107516",
           "kev": false,
-          "epss": 2.003
+          "epss": 2.86
         }
       ]
     },
