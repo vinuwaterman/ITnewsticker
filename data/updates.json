@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T18:16:26.240Z",
+  "generatedAt": "2026-11-22T23:44:51.199Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "From AI Experimentation to Production: Key Takeaways from KubeCon North America 2026",
-      "date": "2026-11-20",
-      "summary": "Walk the halls of KubeCon + CloudNativeCon North America 2026 in Salt Lake City, and you’ll notice a subtle but unmistakable shift in how engineers talk about AI. A year ago, the dominant question was whether Kubernetes could handle AI workloads at all. This year, nobody is debating capability anymore. Instead they’re wrestling with the &#8230; Continued The post From AI Experimentation to Production: Key Takeaways from KubeCon North America 2026 appeared first on VMware Blogs .",
+      "title": "Microsoft SQL Server Failover Clustering on VCF 9.1 VM Service: Requirements, Topology and Methods (Part 1)",
+      "date": "2026-11-22",
+      "summary": "Introduction The transition to VMware Cloud Foundation (VCF) will typically involve questions about not only new functionalities, but also functionalities and capabilities that are already in use. One of the most common use cases for vSphere is virtualizing business-critical applications (BCA). Running these applications on vSphere is a well-established, industry-validated practice with widespread adoption. With &#8230; Continued The post Microsoft SQL Server Failover Clustering on VCF 9.1 VM Service: Requirements, Topology and Methods (Part 1) appeared first on VMware Blogs…",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/20/from-ai-experimentation-to-production-key-takeaways-from-kubecon-north-america-2026/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/22/microsoft-sql-server-failover-clustering-on-vcf-9-1-vm-service-requirements-topology-and-methods-part-1/",
       "count7d": 10
     },
     "AWS": {
