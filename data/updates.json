@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T23:44:51.199Z",
+  "generatedAt": "2026-11-23T06:07:11.133Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,16 +8,16 @@
       "summary": "Information published.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-7532",
-      "count7d": 73
+      "count7d": 70
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "How SAP and Microsoft Innovate Together to Deliver AI Value for the Enterprise",
-      "date": "2026-11-20",
-      "summary": "Together, SAP and Microsoft solve challenges and unlock exponential AI value.",
+      "title": "Interview with Sindhu Gangadharan: &#8220;I Want People to Say &#8216;That Idea Started in India'&#8221;",
+      "date": "2026-11-23",
+      "summary": "As SAP's biggest R&#38;D base outside Walldorf, SAP Labs India sits at the center of the company's AI ambitions. Managing Director Sindhu Gangadharan explains why the location matters.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/how-sap-microsoft-innovate-deliver-ai-value-enterprise/",
-      "count7d": 13
+      "url": "https://news.sap.com/2026/11/interview-sindhu-gangadharan-sap-labs-india/",
+      "count7d": 11
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Microsoft SQL Server Failover Clustering on VCF 9.1 VM Service: Requirements, Topology and Methods (Part 1)",
-      "date": "2026-11-22",
-      "summary": "Introduction The transition to VMware Cloud Foundation (VCF) will typically involve questions about not only new functionalities, but also functionalities and capabilities that are already in use. One of the most common use cases for vSphere is virtualizing business-critical applications (BCA). Running these applications on vSphere is a well-established, industry-validated practice with widespread adoption. With &#8230; Continued The post Microsoft SQL Server Failover Clustering on VCF 9.1 VM Service: Requirements, Topology and Methods (Part 1) appeared first on VMware Blogs…",
+      "title": "Microsoft SQL Server Failover Clustering on VCF 9.1 VM Service: Supervisor Direct Implementation (Part 2)",
+      "date": "2026-11-23",
+      "summary": "Introduction In this part of the series, we will build the two nodes MSSQL FCI Cluster via the vSphere Supervisor and the Local Consumption Interface service. Part 1 focuses on Requirements, Topology, and Methods. Part 2 (this article) focuses on the Supervisor Direct Implementation. Part 3 focuses on the VMware Cloud Foundation (VCF) Automation manual &#8230; Continued The post Microsoft SQL Server Failover Clustering on VCF 9.1 VM Service: Supervisor Direct Implementation (Part 2) appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/22/microsoft-sql-server-failover-clustering-on-vcf-9-1-vm-service-requirements-topology-and-methods-part-1/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/22/microsoft-sql-server-failover-clustering-on-vcf-9-1-vm-service-supervisor-direct-implementation-part-2/",
       "count7d": 10
     },
     "AWS": {
@@ -71,7 +71,7 @@
       "summary": "Lenovo offers pre-validated configurations for different requirements, from getting started with inference and assistant applications to more demanding generative and agent-based AI scenarios.",
       "category": "feature",
       "url": "https://news.lenovo.com/right-ai-infrastructure-time-with-lenovo-ai-express/",
-      "count7d": 5
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "patch",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/",
-      "count7d": 5
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -230,7 +230,7 @@
       "items": []
     },
     "Dell": {
-      "count": 41,
+      "count": 39,
       "items": [
         {
           "id": "CVE-2026-111508",
@@ -240,6 +240,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111508",
           "kev": false,
           "epss": 1.516
+        },
+        {
+          "id": "CVE-2026-116446",
+          "title": "Dell PowerStore SDNAS contains an out-of-bounds memory vulnerability in the NAS NFS service that an unauthenticated remote attacker could exploit to cause a denial of service.",
+          "date": "2026-11-18",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116446",
+          "kev": false,
+          "epss": 0.47000000000000003
         },
         {
           "id": "CVE-2026-107518",
@@ -267,15 +276,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107515",
           "kev": false,
           "epss": 0.326
-        },
-        {
-          "id": "CVE-2026-107516",
-          "title": "Dell PowerStore contains an OS command injection vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability, potentially leading to arbitrary command execution with root privileges.",
-          "date": "2026-11-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107516",
-          "kev": false,
-          "epss": 2.86
         }
       ]
     },
