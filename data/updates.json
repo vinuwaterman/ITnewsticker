@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-23T18:38:33.900Z",
+  "generatedAt": "2026-11-24T04:13:01.251Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "Chromium: CVE-2024-7533 Use after free in Sharing",
-      "date": "2026-11-20",
-      "summary": "Information published.",
+      "title": "CVE-2026-69291 Windows Volume Manager Extension Driver Remote Code Execution Vulnerability",
+      "date": "2026-11-23",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-7532",
-      "count7d": 70
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69291",
+      "count7d": 71
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "For partners weighing whether SAP Store certification effort is worth it, Vertex's experience makes the case.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/how-sap-store-certification-turns-into-customer-trust-for-vertex/",
-      "count7d": 12
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,11 +30,11 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco Expressway Series Remote Code Execution Vulnerability",
+      "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
       "date": "2026-11-23",
-      "summary": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as&nbsp; root . This vulnerability is due to the use of persistent cookies. Additionally, there is insufficient validation of client certificates when the TLS Verify Mode is set to Enabled for clustering, which means that client certificates are not validated. An attacker with possession of the cookies could exploit…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Expressway%20Series%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+      "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content.&nbsp; For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advisory CVE-2026-114938: Critical vulnerability in OpenJDK JAVA This…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
       "count7d": 6
     },
     "VMware": {
@@ -62,7 +62,7 @@
       "summary": "Roland Kunz, an AI expert at Dell Technologies, shares his insights on how organizations can turn AI concepts into impactful, measurable business outcomes.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/neural-networks-to-ai-factories-roland-kunz-on-ai-that-delivers",
-      "count7d": 20
+      "count7d": 19
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -106,11 +106,35 @@
       "count": 13,
       "items": [
         {
+          "id": "CVE-2026-113824",
+          "title": "Authorization bypass through user-controlled key in Microsoft Clarity allows an unauthorized attacker to elevate privileges over a network.",
+          "date": "2026-11-23",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113824",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-70193",
+          "title": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+          "date": "2026-11-23",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-135163",
           "title": "Okou API before 1.762.0 contains a missing authentication vulnerability in its Microsoft Teams, legacy Slack, and GitHub App integration OAuth flows that trusts caller-supplied userId and orgId values. Unauthenticated attackers who know a member's identifiers…",
           "date": "2026-11-23",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135163",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-120787",
+          "title": "Improper certificate validation in Microsoft Office PowerPoint allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-11-23",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120787",
           "kev": false
         },
         {
@@ -121,33 +145,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129446",
           "kev": false,
           "epss": 0.294
-        },
-        {
-          "id": "CVE-2026-129509",
-          "title": "In the Apache Airflow Microsoft Azure provider 10.2.0 through 15.3.0, `S3ToAzureBlobStorageOperator` turned off TLS certificate verification for its connection to Amazon S3 by default (`s3_verify=False`), whatever the AWS connection's own verification settings were. An attacker…",
-          "date": "2026-11-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129509",
-          "kev": false,
-          "epss": 0.27699999999999997
-        },
-        {
-          "id": "CVE-2026-76414",
-          "title": "A vulnerability in Microsoft Compiled HTML Help (CHM) file scanning of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition on an affected device. This vulnerability is due to a logic error…",
-          "date": "2026-11-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76414",
-          "kev": false,
-          "epss": 0.603
-        },
-        {
-          "id": "CVE-2026-76417",
-          "title": "A vulnerability in Object Linking and Embedding, 2nd Generation (OLE2) file parser for ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition on an affected device. This vulnerability is due to logic…",
-          "date": "2026-11-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76417",
-          "kev": false,
-          "epss": 0.549
         }
       ]
     },
