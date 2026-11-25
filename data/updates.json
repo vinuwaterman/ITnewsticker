@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T00:02:00.526Z",
+  "generatedAt": "2026-11-25T08:16:11.939Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
-      "count7d": 72
+      "count7d": 71
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "Becoming a skills-enabled organization starts with the way you think about talent.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/how-atlas-copco-group-makes-skills-visible-throughout-organization/",
-      "count7d": 11
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -62,7 +62,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/building-ai-that-scales-infrastructure-operations-expertise",
-      "count7d": 20
+      "count7d": 15
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,7 +71,7 @@
       "summary": "Márquez’s resilience and determination, the expertise and teamwork of Ducati Corse engineers, and Lenovo devices and infrastructure combined to make victory possible.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/data-marc-marquez-history-motogp-championship-ducati/",
-      "count7d": 8
+      "count7d": 7
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -80,7 +80,7 @@
       "summary": "CVSSv3 Score: 7.5 An Improper Certificate Validation vulnerability [CWE-295] in FortiSASE Sovereign, FortiManager, Fortianalyzer, FortiManager Cloud and FortiAnalyzer Cloud RADIUS protocol may allow a MITM attacker to impersonate the radius server via a rogue RADIUS server. Revised on 2026-11-24 00:00:00",
       "category": "patch",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-247",
-      "count7d": 2
+      "count7d": 1
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/reprioritizing-automated-leads-crowdstrike-signal/",
-      "count7d": 5
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -170,18 +170,8 @@
       "items": []
     },
     "Cisco": {
-      "count": 1,
-      "items": [
-        {
-          "id": "CVE-2026-91575",
-          "title": "Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware (component: Cisco WebX Connector). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access…",
-          "date": "2026-11-17",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91575",
-          "kev": false,
-          "epss": 0.268
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     "VMware": {
       "count": 6,
