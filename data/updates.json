@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-24T15:08:47.896Z",
+  "generatedAt": "2026-11-25T00:02:00.526Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-69291 Windows Volume Manager Extension Driver Remote Code Execution Vulnerability",
-      "date": "2026-11-23",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "CVE-2026-112732 Microsoft Office Visio Remote Code Execution Vulnerability",
+      "date": "2026-11-24",
+      "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69291",
-      "count7d": 71
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
+      "count7d": 72
     },
     "SAP": {
       "vendor": "SAP",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
+      "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
       "date": "2026-11-24",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the&nbsp; Details &nbsp;section of this advisory. For additional information on these vulnerabilities in ClamAV, see the&nbsp; ClamAV blog . Cisco has released software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-      "count7d": 6
+      "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolver vulnerability For more information, see the nginx Security Advisories . This…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+      "count7d": 7
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Agentic AI for Enhanced Network Operations in VMware Cloud Foundation",
-      "date": "2026-11-23",
-      "summary": "For networking and operations teams, a single incident can require evidence from several parts of the private cloud. Gathering that evidence often means moving between management consoles, running diagnostic commands, and checking the results against known issues. Recent advancements in agentic AI technologies can help evolve network operations by chaining diagnostic reasoning, live telemetry verification, &#8230; Continued The post Agentic AI for Enhanced Network Operations in VMware Cloud Foundation appeared first on VMware Blogs .",
+      "title": "What’s New in VMware Cloud Foundation Edge 9.1.2",
+      "date": "2026-11-24",
+      "summary": "Thousands of remote sites keep business moving, often without a single systems administrator on site. That gap creates the defining challenge of the distributed edge: heavy hardware sprawl run by a lean team. VMware Cloud Foundation Edge (VCF Edge) is an optimized configuration of VMware Cloud Foundation (VCF) built for edge use cases. It runs &#8230; Continued The post What’s New in VMware Cloud Foundation Edge 9.1.2 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/23/agentic-ai-for-enhanced-network-operations-in-vmware-cloud-foundation/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/24/whats-new-in-vmware-cloud-foundation-edge-9-1-2/",
       "count7d": 10
     },
     "AWS": {
@@ -57,11 +57,11 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Neural Networks to AI Factories: Roland Kunz on AI That Delivers",
-      "date": "2026-11-30",
-      "summary": "Roland Kunz, an AI expert at Dell Technologies, shares his insights on how organizations can turn AI concepts into impactful, measurable business outcomes.",
+      "title": "Building AI that Scales: Infrastructure, Operations, Expertise",
+      "date": "2026-11-24",
+      "summary": "",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/neural-networks-to-ai-factories-roland-kunz-on-ai-that-delivers",
+      "url": "https://www.dell.com/en-us/blog/building-ai-that-scales-infrastructure-operations-expertise",
       "count7d": 20
     },
     "Lenovo": {
@@ -75,21 +75,21 @@
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Linux kernel RCE CVE-2026-98432",
-      "date": "2026-11-02",
-      "summary": "CVSSv3 Score: 9.8 CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process a retransmitted SYN for the same request socket, and send a SYNACK from tcp_check_req(). tcp_v4_send_synack() and inet_csk_route_req() read ireq->ireq_opt under rcu_read_lock() only, and ip_build_and_send_pkt() and ip_options_build() then read opt->optlen twice. Note that the SYNACK timer itself is not an issue: it holds a reference on its request socket, and…",
+      "title": "Improper certificate validation in RADIUS protocol",
+      "date": "2026-11-10",
+      "summary": "CVSSv3 Score: 7.5 An Improper Certificate Validation vulnerability [CWE-295] in FortiSASE Sovereign, FortiManager, Fortianalyzer, FortiManager Cloud and FortiAnalyzer Cloud RADIUS protocol may allow a MITM attacker to impersonate the radius server via a rogue RADIUS server. Revised on 2026-11-24 00:00:00",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-247",
       "count7d": 2
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity",
-      "date": "2026-11-19",
+      "title": "Reprioritizing Automated Leads with CrowdStrike Signal",
+      "date": "2026-11-24",
       "summary": "",
-      "category": "patch",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/",
-      "count7d": 4
+      "category": "feature",
+      "url": "https://www.crowdstrike.com/en-us/blog/reprioritizing-automated-leads-crowdstrike-signal/",
+      "count7d": 5
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,8 +103,16 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 13,
+      "count": 15,
       "items": [
+        {
+          "id": "CVE-2026-112732",
+          "title": "Double free in Microsoft Office Visio allows an unauthorized attacker to execute code over a network.",
+          "date": "2026-11-24",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112732",
+          "kev": false
+        },
         {
           "id": "CVE-2026-113824",
           "title": "Authorization bypass through user-controlled key in Microsoft Clarity allows an unauthorized attacker to elevate privileges over a network.",
@@ -140,20 +148,11 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120787",
           "kev": false,
           "epss": 0.575
-        },
-        {
-          "id": "CVE-2026-129446",
-          "title": "The WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) WordPress plugin before 45.4 does not ensure the signature validated on a SAML response covers the element the user identity is read from, allowing…",
-          "date": "2026-11-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129446",
-          "kev": false,
-          "epss": 0.294
         }
       ]
     },
     "SAP": {
-      "count": 2,
+      "count": 1,
       "items": [
         {
           "id": "CVE-2026-128999",
@@ -163,15 +162,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128999",
           "kev": false,
           "epss": 0.19
-        },
-        {
-          "id": "CVE-2026-91572",
-          "title": "Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware (component: SAP ERP+). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Difficult to exploit vulnerability allows unauthenticated attacker with access to the…",
-          "date": "2026-11-17",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91572",
-          "kev": false,
-          "epss": 0.148
         }
       ]
     },
@@ -194,7 +184,7 @@
       ]
     },
     "VMware": {
-      "count": 3,
+      "count": 6,
       "items": [
         {
           "id": "CVE-2026-123890",
@@ -206,6 +196,30 @@
           "epss": 3.526
         },
         {
+          "id": "CVE-2026-82168",
+          "title": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Use of Hard-coded Credentials vulnerability in ssl_config.properties. An unauthenticated local attacker could potentially exploit this vulnerability, leading to credential exposure.",
+          "date": "2026-11-24",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82168",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-82169",
+          "title": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains an OS Command Injection – confirm single CWE vulnerability in Upgrade Service. A low privileged remote attacker could potentially exploit this…",
+          "date": "2026-11-24",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82169",
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-82170",
+          "title": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Server-Side Request Forgery SSRF vulnerability in httpRest.js. A low privileged remote attacker could potentially exploit this vulnerability, leading to unauthorized…",
+          "date": "2026-11-24",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82170",
+          "kev": false
+        },
+        {
           "id": "CVE-2026-133045",
           "title": "In JetBrains TeamCity before 2026.2.1 stored XSS in VMware vSphere cloud profile settings was possible",
           "date": "2026-11-19",
@@ -213,15 +227,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133045",
           "kev": false,
           "epss": 0.257
-        },
-        {
-          "id": "CVE-2026-123894",
-          "title": "VMware Tools for Windows contains a SAML token signature bypass vulnerability. Affected versions: 13.x.x.x (fixed in 13.1.5.0); 12.3.x (fixed in 12.5.5).",
-          "date": "2026-11-19",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123894",
-          "kev": false,
-          "epss": 0.147
         }
       ]
     },
@@ -230,7 +235,7 @@
       "items": []
     },
     "Dell": {
-      "count": 53,
+      "count": 49,
       "items": [
         {
           "id": "CVE-2026-111508",
@@ -251,31 +256,31 @@
           "epss": 0.47000000000000003
         },
         {
-          "id": "CVE-2026-107518",
-          "title": "Dell PowerStore contains a Server-Side Request Forgery (SSRF) vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability to make the appliance connect to attacker-chosen internal systems.",
+          "id": "CVE-2026-116448",
+          "title": "Dell PowerStore SDNAS contains an OS Command Injection vulnerability that could allow an attacker with internal network access to execute arbitrary commands as root on the NAS node.",
           "date": "2026-11-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107518",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116448",
           "kev": false,
-          "epss": 0.28900000000000003
+          "epss": 2.869
         },
         {
-          "id": "CVE-2026-107519",
-          "title": "Dell PowerStore contains an integer underflow vulnerability. An attacker could exploit this vulnerability, potentially leading to denial of service of a cryptographic service.",
+          "id": "CVE-2026-116443",
+          "title": "Dell PowerStore SDNAS contains a stack-based buffer overflow in the NAS TFTP service that could allow an unauthenticated remote attacker to cause a denial of service or potential code execution.",
           "date": "2026-11-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107519",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116443",
           "kev": false,
-          "epss": 0.319
+          "epss": 0.717
         },
         {
-          "id": "CVE-2026-107515",
-          "title": "Dell PowerStore contains an Improper Privilege Management vulnerability. An authenticated attacker could exploit this vulnerability, potentially leading to privilege escalation to administrator.",
+          "id": "CVE-2026-116449",
+          "title": "Dell PowerStore SDNAS contains an OS Command Injection vulnerability that could allow an attacker with internal network access to execute arbitrary commands as root on the NAS node.",
           "date": "2026-11-18",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107515",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116449",
           "kev": false,
-          "epss": 0.326
+          "epss": 1.324
         }
       ]
     },
