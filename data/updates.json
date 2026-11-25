@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T08:16:11.939Z",
+  "generatedAt": "2026-11-25T18:47:13.579Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,38 +12,38 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "How the Atlas Copco Group Makes Skills Visible Throughout the Organization",
-      "date": "2026-11-24",
-      "summary": "Becoming a skills-enabled organization starts with the way you think about talent.",
+      "title": "AI Is Changing the First Job: Why Youth Employment Belongs on Every Business Agenda",
+      "date": "2026-11-25",
+      "summary": "The future of work cannot be built without young people.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/how-atlas-copco-group-makes-skills-visible-throughout-organization/",
-      "count7d": 9
+      "url": "https://news.sap.com/2026/11/ai-changing-first-job-youth-employment-business-agenda/",
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
-      "title": "Cut Microsoft 365 Audit Prep with Veeam Intelligent ResOps",
-      "date": "2026-11-23",
-      "summary": "Consider a hypothetical company that is preparing for its annual external audit. The company’s HR and Finance teams keep employee tax forms in Microsoft 365. Three weeks before the audit, the auditor sends the company’s Microsoft 365 administrator a request with four questions. Where do the employee tax forms live? Who can access them? Are any of them older than the company’s seven-year retention period? Are they backed up? The post Cut Microsoft 365 Audit Prep with Veeam Intelligent ResOps…",
+      "title": "On-premises AI vs. cloud AI: The data protection trade-offs nobody budgets in",
+      "date": "2026-11-25",
+      "summary": "Every comparison of on-premises AI and cloud AI evaluates the same four things: Cost, latency, scalability, and control. Almost no one evaluates who restores the data when something breaks. That gap matters more than the comparison does, because on-premises AI (e.g., the full model lifecycle on infrastructure you own) and cloud AI (e.g., that same capability consumed as a service) both change where your data sits without changing who carries the recovery obligation. The post On-premises AI vs. cloud AI:…",
       "category": "feature",
-      "url": "https://www.veeam.com/blog/veeam-intelligent-resops-microsoft-365-compliance.html",
+      "url": "https://www.veeam.com/blog/on-prem-ai-vs-cloud-ai.html",
       "count7d": 5
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
-      "date": "2026-11-24",
-      "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolver vulnerability For more information, see the nginx Security Advisories . This…",
-      "category": "critical",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-      "count7d": 7
+      "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
+      "date": "2026-11-25",
+      "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user or admin &nbsp;or an unauthenticated attacker with physical access to an affected device to bypass UEFI Secure Boot validation checks and execute unauthorized software. This vulnerability is due to the availability of memory write commands in the UEFI Shell while UEFI Secure Boot is enabled…",
+      "category": "patch",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
+      "count7d": 8
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "What’s New in VMware Cloud Foundation Edge 9.1.2",
-      "date": "2026-11-24",
-      "summary": "Thousands of remote sites keep business moving, often without a single systems administrator on site. That gap creates the defining challenge of the distributed edge: heavy hardware sprawl run by a lean team. VMware Cloud Foundation Edge (VCF Edge) is an optimized configuration of VMware Cloud Foundation (VCF) built for edge use cases. It runs &#8230; Continued The post What’s New in VMware Cloud Foundation Edge 9.1.2 appeared first on VMware Blogs .",
+      "title": "Building Enterprise AI Agents on VMware vSphere Kubernetes Service Part 2: Declarative Orchestration with kagent",
+      "date": "2026-11-25",
+      "summary": "Author: Jessiely Consolacion In Part 1 of this series, Running Agent Substrate on VMware vSphere Kubernetes Service, we demonstrated how to package and deploy Agent Substrate as a VMware vSphere Kubernetes Service (VKS) add-on. Agent Substrate solves the low-level runtime problem: it schedules sandboxed Actors onto warm worker pools, isolates untrusted execution with gVisor, and &#8230; Continued The post Building Enterprise AI Agents on VMware vSphere Kubernetes Service Part 2: Declarative Orchestration with kagent appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/24/whats-new-in-vmware-cloud-foundation-edge-9-1-2/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/25/running-kagent-on-vmware-vsphere-kubernetes-service/",
       "count7d": 10
     },
     "AWS": {
@@ -57,12 +57,12 @@
     },
     "Dell": {
       "vendor": "Dell",
-      "title": "Building AI that Scales: Infrastructure, Operations, Expertise",
-      "date": "2026-11-24",
-      "summary": "",
+      "title": "AI Turns Childhood Cancer Analysis From Days to Hours",
+      "date": "2026-12-01",
+      "summary": "The Hopp Children's Cancer Center Heidelberg (KiTZ) uses AI to process complex tumor data in hours instead of days and share insights with hospitals globally.",
       "category": "feature",
-      "url": "https://www.dell.com/en-us/blog/building-ai-that-scales-infrastructure-operations-expertise",
-      "count7d": 15
+      "url": "https://www.dell.com/en-us/blog/ai-turns-childhood-cancer-analysis-from-days-to-hours",
+      "count7d": 16
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -84,12 +84,12 @@
     },
     "CrowdStrike": {
       "vendor": "CrowdStrike",
-      "title": "Reprioritizing Automated Leads with CrowdStrike Signal",
-      "date": "2026-11-24",
+      "title": "CrowdStrike Accelerates the Shift to the Agentic SOC",
+      "date": "2026-11-25",
       "summary": "",
       "category": "feature",
-      "url": "https://www.crowdstrike.com/en-us/blog/reprioritizing-automated-leads-crowdstrike-signal/",
-      "count7d": 3
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-isoc/",
+      "count7d": 4
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 15,
+      "count": 10,
       "items": [
         {
           "id": "CVE-2026-112732",
@@ -111,7 +111,8 @@
           "date": "2026-11-24",
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112732",
-          "kev": false
+          "kev": false,
+          "epss": 1.3419999999999999
         },
         {
           "id": "CVE-2026-113824",
@@ -120,7 +121,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113824",
           "kev": false,
-          "epss": 0.815
+          "epss": 1.216
         },
         {
           "id": "CVE-2026-70193",
@@ -129,7 +130,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193",
           "kev": false,
-          "epss": 1.023
+          "epss": 1.5699999999999998
         },
         {
           "id": "CVE-2026-135163",
@@ -147,12 +148,12 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120787",
           "kev": false,
-          "epss": 0.575
+          "epss": 1.019
         }
       ]
     },
     "SAP": {
-      "count": 1,
+      "count": 3,
       "items": [
         {
           "id": "CVE-2026-128999",
@@ -161,7 +162,25 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128999",
           "kev": false,
-          "epss": 0.19
+          "epss": 0.251
+        },
+        {
+          "id": "CVE-2026-133762",
+          "title": "Since Symfony 7.4.0, FrameworkBundle chooses the error renderer from the runtime mode of the application, which comes from the APP_RUNTIME_MODE env var. When this variable isn't set, the cli, phpdbg and embed SAPIs default to…",
+          "date": "2026-11-25",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133762",
+          "kev": false,
+          "epss": 0.7929999999999999
+        },
+        {
+          "id": "CVE-2026-134792",
+          "title": "When the proxy option isn't set, HttpClient takes the proxy from environment variables like http_proxy or HTTP_PROXY. On web servers, it ignores HTTP_PROXY, because PHP puts the Proxy request header there (the httpoxy issue). On…",
+          "date": "2026-11-25",
+          "severity": "UNKNOWN",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134792",
+          "kev": false,
+          "epss": 0.8909999999999999
         }
       ]
     },
@@ -183,7 +202,7 @@
           "severity": "CRITICAL",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
           "kev": true,
-          "epss": 3.526
+          "epss": 5.009
         },
         {
           "id": "CVE-2026-82168",
@@ -191,7 +210,8 @@
           "date": "2026-11-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82168",
-          "kev": false
+          "kev": false,
+          "epss": 0.219
         },
         {
           "id": "CVE-2026-82169",
@@ -199,7 +219,8 @@
           "date": "2026-11-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82169",
-          "kev": false
+          "kev": false,
+          "epss": 1.5959999999999999
         },
         {
           "id": "CVE-2026-82170",
@@ -207,7 +228,8 @@
           "date": "2026-11-24",
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82170",
-          "kev": false
+          "kev": false,
+          "epss": 0.561
         },
         {
           "id": "CVE-2026-133045",
@@ -216,7 +238,7 @@
           "severity": "MEDIUM",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133045",
           "kev": false,
-          "epss": 0.257
+          "epss": 0.43099999999999994
         }
       ]
     },
@@ -225,52 +247,52 @@
       "items": []
     },
     "Dell": {
-      "count": 49,
+      "count": 76,
       "items": [
         {
-          "id": "CVE-2026-111508",
-          "title": "Dell PowerStore contains an OS Command Injection vulnerability. Exploitation could lead to arbitrary command execution with root privileges on the appliance.",
-          "date": "2026-11-18",
+          "id": "CVE-2026-103782",
+          "title": "Dell Enterprise Sonic Distribution, versions prior to 4.6.1, contains an Argument Injection vulnerability. A low privileged remote attacker could potentially exploit this vulnerability, leading to arbitrary command execution and unauthorized access to filesystem resources.",
+          "date": "2026-11-23",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111508",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103782",
           "kev": false,
-          "epss": 1.516
+          "epss": 0.9769999999999999
         },
         {
-          "id": "CVE-2026-116446",
-          "title": "Dell PowerStore SDNAS contains an out-of-bounds memory vulnerability in the NAS NFS service that an unauthenticated remote attacker could exploit to cause a denial of service.",
-          "date": "2026-11-18",
+          "id": "CVE-2026-111509",
+          "title": "Dell PowerStore SDNAS contains a cryptographically weak PRNG vulnerability that could allow a network attacker to decrypt or tamper with NAS SSH/SFTP sessions.",
+          "date": "2026-11-19",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116446",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111509",
           "kev": false,
-          "epss": 0.47000000000000003
+          "epss": 0.42700000000000005
         },
         {
-          "id": "CVE-2026-116448",
-          "title": "Dell PowerStore SDNAS contains an OS Command Injection vulnerability that could allow an attacker with internal network access to execute arbitrary commands as root on the NAS node.",
-          "date": "2026-11-18",
+          "id": "CVE-2026-116439",
+          "title": "Dell PowerStore SDNAS contains a path traversal vulnerability that could allow an unauthenticated attacker to read, modify, or delete arbitrary files on the NAS node.",
+          "date": "2026-11-19",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116448",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116439",
           "kev": false,
-          "epss": 2.869
+          "epss": 0.632
         },
         {
-          "id": "CVE-2026-116443",
-          "title": "Dell PowerStore SDNAS contains a stack-based buffer overflow in the NAS TFTP service that could allow an unauthenticated remote attacker to cause a denial of service or potential code execution.",
-          "date": "2026-11-18",
+          "id": "CVE-2026-116440",
+          "title": "Dell PowerStore SDNAS contains a buffer overflow vulnerability that could allow an unauthenticated remote attacker to cause a denial of service or potential code execution on the NAS node.",
+          "date": "2026-11-19",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116443",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116440",
           "kev": false,
-          "epss": 0.717
+          "epss": 0.8380000000000001
         },
         {
-          "id": "CVE-2026-116449",
-          "title": "Dell PowerStore SDNAS contains an OS Command Injection vulnerability that could allow an attacker with internal network access to execute arbitrary commands as root on the NAS node.",
-          "date": "2026-11-18",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116449",
+          "id": "CVE-2026-134935",
+          "title": "The dell-xps-touchpad-haptics package before 1.0.0-4 for Omarchy allows local users to change ownership of a root-owned file by making their own .config/omarchy/dell-haptic.conf file a symlink to that target file.",
+          "date": "2026-11-23",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134935",
           "kev": false,
-          "epss": 1.324
+          "epss": 0.148
         }
       ]
     },
