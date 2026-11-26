@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T11:20:01.647Z",
+  "generatedAt": "2026-11-26T20:24:59.366Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -12,12 +12,12 @@
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "AI Is Changing the First Job: Why Youth Employment Belongs on Every Business Agenda",
-      "date": "2026-11-25",
-      "summary": "The future of work cannot be built without young people.",
+      "title": "SAP and planqc Bring Quantum Computing into Business Processes",
+      "date": "2026-11-26",
+      "summary": "MUNICH — With planqc, SAP can develop directly on real quantum hardware and shorten the path to real-world business applications.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/ai-changing-first-job-youth-employment-business-agenda/",
-      "count7d": 9
+      "url": "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/",
+      "count7d": 10
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 8,
+      "count": 7,
       "items": [
         {
           "id": "CVE-2026-112732",
@@ -139,7 +139,7 @@
           "severity": "HIGH",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135163",
           "kev": false,
-          "epss": 0.571
+          "epss": 0.901
         },
         {
           "id": "CVE-2026-120787",
@@ -162,7 +162,7 @@
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133762",
           "kev": false,
-          "epss": 0.7929999999999999
+          "epss": 0.7100000000000001
         },
         {
           "id": "CVE-2026-134792",
@@ -171,7 +171,7 @@
           "severity": "UNKNOWN",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134792",
           "kev": false,
-          "epss": 0.8909999999999999
+          "epss": 0.642
         }
       ]
     },
@@ -184,16 +184,88 @@
       "items": []
     },
     "VMware": {
-      "count": 6,
+      "count": 26,
       "items": [
         {
-          "id": "CVE-2026-123890",
-          "title": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. Affected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5). Telco Cloud Platform 3.0,…",
-          "date": "2026-11-19",
+          "id": "CVE-2026-123903",
+          "title": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8.…",
+          "date": "2026-11-26",
           "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
-          "kev": true,
-          "epss": 5.009
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123903",
+          "kev": false,
+          "epss": 0.614
+        },
+        {
+          "id": "CVE-2026-123910",
+          "title": "ESX contains a heap out-of-bounds write vulnerability in the I/O filter service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8.…",
+          "date": "2026-11-26",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123910",
+          "kev": false,
+          "epss": 0.391
+        },
+        {
+          "id": "CVE-2026-123911",
+          "title": "ESX contains a use-after-free vulnerability in the I/O filter service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8. Affected versions:…",
+          "date": "2026-11-26",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123911",
+          "kev": false,
+          "epss": 0.365
+        },
+        {
+          "id": "CVE-2026-123912",
+          "title": "VMware ESXi, Workstation, and Fusion contain an out-of-bounds write vulnerability in the XHCI USB controller. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base…",
+          "date": "2026-11-26",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123912",
+          "kev": false,
+          "epss": 0.365
+        },
+        {
+          "id": "CVE-2026-123904",
+          "title": "VMware vCenter contains an arbitrary file write vulnerability while processing certain archives. Broadcom has evaluated the severity of this issue to be in the Important severity range with a maximum CVSSv3 base score of 7.5.…",
+          "date": "2026-11-26",
+          "severity": "HIGH",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123904",
+          "kev": false,
+          "epss": 0.307
+        }
+      ]
+    },
+    "AWS": {
+      "count": 0,
+      "items": []
+    },
+    "Dell": {
+      "count": 63,
+      "items": [
+        {
+          "id": "CVE-2026-111546",
+          "title": "Dell PowerStore contains an OS Command Injection vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability, potentially leading to privilege escalation to root on the appliance.",
+          "date": "2026-11-24",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111546",
+          "kev": false,
+          "epss": 1.6199999999999999
+        },
+        {
+          "id": "CVE-2026-103782",
+          "title": "Dell Enterprise Sonic Distribution, versions prior to 4.6.1, contains an Argument Injection vulnerability. A low privileged remote attacker could potentially exploit this vulnerability, leading to arbitrary command execution and unauthorized access to filesystem resources.",
+          "date": "2026-11-23",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103782",
+          "kev": false,
+          "epss": 2.786
+        },
+        {
+          "id": "CVE-2026-103788",
+          "title": "Dell Enterprise Sonic Distribution, versions prior to 4.6.1, contains an OS Command Injection vulnerability. An unauthenticated adjacent network attacker could potentially exploit this vulnerability, leading to arbitrary command execution. This vulnerability is considered critical as…",
+          "date": "2026-11-23",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103788",
+          "kev": false,
+          "epss": 3.3480000000000003
         },
         {
           "id": "CVE-2026-82168",
@@ -212,78 +284,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82169",
           "kev": false,
           "epss": 1.5959999999999999
-        },
-        {
-          "id": "CVE-2026-82170",
-          "title": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Server-Side Request Forgery SSRF vulnerability in httpRest.js. A low privileged remote attacker could potentially exploit this vulnerability, leading to unauthorized…",
-          "date": "2026-11-24",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82170",
-          "kev": false,
-          "epss": 0.561
-        },
-        {
-          "id": "CVE-2026-133045",
-          "title": "In JetBrains TeamCity before 2026.2.1 stored XSS in VMware vSphere cloud profile settings was possible",
-          "date": "2026-11-19",
-          "severity": "MEDIUM",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133045",
-          "kev": false,
-          "epss": 0.43099999999999994
-        }
-      ]
-    },
-    "AWS": {
-      "count": 0,
-      "items": []
-    },
-    "Dell": {
-      "count": 68,
-      "items": [
-        {
-          "id": "CVE-2026-103782",
-          "title": "Dell Enterprise Sonic Distribution, versions prior to 4.6.1, contains an Argument Injection vulnerability. A low privileged remote attacker could potentially exploit this vulnerability, leading to arbitrary command execution and unauthorized access to filesystem resources.",
-          "date": "2026-11-23",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103782",
-          "kev": false,
-          "epss": 0.9769999999999999
-        },
-        {
-          "id": "CVE-2026-103788",
-          "title": "Dell Enterprise Sonic Distribution, versions prior to 4.6.1, contains an OS Command Injection vulnerability. An unauthenticated adjacent network attacker could potentially exploit this vulnerability, leading to arbitrary command execution. This vulnerability is considered critical as…",
-          "date": "2026-11-23",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103788",
-          "kev": false,
-          "epss": 3.3480000000000003
-        },
-        {
-          "id": "CVE-2026-111509",
-          "title": "Dell PowerStore SDNAS contains a cryptographically weak PRNG vulnerability that could allow a network attacker to decrypt or tamper with NAS SSH/SFTP sessions.",
-          "date": "2026-11-19",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111509",
-          "kev": false,
-          "epss": 0.42700000000000005
-        },
-        {
-          "id": "CVE-2026-116439",
-          "title": "Dell PowerStore SDNAS contains a path traversal vulnerability that could allow an unauthenticated attacker to read, modify, or delete arbitrary files on the NAS node.",
-          "date": "2026-11-19",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116439",
-          "kev": false,
-          "epss": 0.632
-        },
-        {
-          "id": "CVE-2026-116440",
-          "title": "Dell PowerStore SDNAS contains a buffer overflow vulnerability that could allow an unauthenticated remote attacker to cause a denial of service or potential code execution on the NAS node.",
-          "date": "2026-11-19",
-          "severity": "CRITICAL",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116440",
-          "kev": false,
-          "epss": 0.8380000000000001
         }
       ]
     },
