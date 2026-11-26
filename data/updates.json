@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T02:04:22.832Z",
+  "generatedAt": "2026-11-26T11:20:01.647Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -66,12 +66,12 @@
     },
     "Lenovo": {
       "vendor": "Lenovo",
-      "title": "Lenovo reveals data behind Marc Márquez’s history-making MotoGP championship win with the Ducati Lenovo Team",
-      "date": "2026-11-24",
-      "summary": "Márquez’s resilience and determination, the expertise and teamwork of Ducati Corse engineers, and Lenovo devices and infrastructure combined to make victory possible.",
+      "title": "Built for the frontline, but failing the field? Britain&#8217;s frontline could be losing around two working weeks every year to…",
+      "date": "2026-11-26",
+      "summary": "Lenovo research reveals how unreliable frontline technology in the UK can disrupt productivity and why devices need to perform in demanding real-world conditions.",
       "category": "feature",
-      "url": "https://news.lenovo.com/pressroom/press-releases/data-marc-marquez-history-motogp-championship-ducati/",
-      "count7d": 4
+      "url": "https://news.lenovo.com/uk-frontline-technology-research/",
+      "count7d": 5
     },
     "Fortinet": {
       "vendor": "Fortinet",
@@ -89,7 +89,7 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-isoc/",
-      "count7d": 2
+      "count7d": 3
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
@@ -103,7 +103,7 @@
   },
   "nvd": {
     "Microsoft": {
-      "count": 10,
+      "count": 8,
       "items": [
         {
           "id": "CVE-2026-112732",
@@ -153,17 +153,8 @@
       ]
     },
     "SAP": {
-      "count": 3,
+      "count": 2,
       "items": [
-        {
-          "id": "CVE-2026-128999",
-          "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Saphali Saphali Woocommerce Lite saphali-woocommerce-lite allows Stored XSS.This issue affects Saphali Woocommerce Lite: from n/a through 2.0.2.",
-          "date": "2026-11-19",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128999",
-          "kev": false,
-          "epss": 0.251
-        },
         {
           "id": "CVE-2026-133762",
           "title": "Since Symfony 7.4.0, FrameworkBundle chooses the error renderer from the runtime mode of the application, which comes from the APP_RUNTIME_MODE env var. When this variable isn't set, the cli, phpdbg and embed SAPIs default to…",
