@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T18:47:13.579Z",
+  "generatedAt": "2026-11-26T02:04:22.832Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
-      "count7d": 71
+      "count7d": 13
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "The future of work cannot be built without young people.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/ai-changing-first-job-youth-employment-business-agenda/",
-      "count7d": 10
+      "count7d": 9
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -30,20 +30,20 @@
     },
     "Cisco": {
       "vendor": "Cisco",
-      "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
-      "date": "2026-11-25",
-      "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user or admin &nbsp;or an unauthenticated attacker with physical access to an affected device to bypass UEFI Secure Boot validation checks and execute unauthorized software. This vulnerability is due to the availability of memory write commands in the UEFI Shell while UEFI Secure Boot is enabled…",
-      "category": "patch",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
+      "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+      "date": "2026-11-26",
+      "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module vulnerability CVE-2026-123633: NGINX ngx_http_v2_module vulnerability CVE-2026-123634: NGINX resolver vulnerability For more information, see the nginx Security Advisories . This…",
+      "category": "critical",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
       "count7d": 8
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Building Enterprise AI Agents on VMware vSphere Kubernetes Service Part 2: Declarative Orchestration with kagent",
+      "title": "Diagnostics for VMware Cloud Foundation Operations – Newest Findings",
       "date": "2026-11-25",
-      "summary": "Author: Jessiely Consolacion In Part 1 of this series, Running Agent Substrate on VMware vSphere Kubernetes Service, we demonstrated how to package and deploy Agent Substrate as a VMware vSphere Kubernetes Service (VKS) add-on. Agent Substrate solves the low-level runtime problem: it schedules sandboxed Actors onto warm worker pools, isolates untrusted execution with gVisor, and &#8230; Continued The post Building Enterprise AI Agents on VMware vSphere Kubernetes Service Part 2: Declarative Orchestration with kagent appeared first on VMware Blogs .",
+      "summary": "Diagnostics for VMware Cloud Foundation is a centralized platform that monitors the overall operational status of the VMware Cloud Foundation (VCF) software stack. It is a self-service platform that helps you analyze and troubleshoot the components of VMware Cloud Foundation, including vCenter, ESXi, vSAN, capabilities such as vSphere vMotion, snapshots, VM provisioning, and other issues &#8230; Continued The post Diagnostics for VMware Cloud Foundation Operations – Newest Findings appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/25/running-kagent-on-vmware-vsphere-kubernetes-service/",
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/25/diagnostics-for-vmware-cloud-foundation-operations-newest-findings-3/",
       "count7d": 10
     },
     "AWS": {
@@ -62,7 +62,7 @@
       "summary": "The Hopp Children's Cancer Center Heidelberg (KiTZ) uses AI to process complex tumor data in hours instead of days and share insights with hospitals globally.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/ai-turns-childhood-cancer-analysis-from-days-to-hours",
-      "count7d": 16
+      "count7d": 14
     },
     "Lenovo": {
       "vendor": "Lenovo",
@@ -71,15 +71,15 @@
       "summary": "Márquez’s resilience and determination, the expertise and teamwork of Ducati Corse engineers, and Lenovo devices and infrastructure combined to make victory possible.",
       "category": "feature",
       "url": "https://news.lenovo.com/pressroom/press-releases/data-marc-marquez-history-motogp-championship-ducati/",
-      "count7d": 7
+      "count7d": 4
     },
     "Fortinet": {
       "vendor": "Fortinet",
-      "title": "Improper certificate validation in RADIUS protocol",
-      "date": "2026-11-10",
-      "summary": "CVSSv3 Score: 7.5 An Improper Certificate Validation vulnerability [CWE-295] in FortiSASE Sovereign, FortiManager, Fortianalyzer, FortiManager Cloud and FortiAnalyzer Cloud RADIUS protocol may allow a MITM attacker to impersonate the radius server via a rogue RADIUS server. Revised on 2026-11-24 00:00:00",
+      "title": "NGINX vulnerabilities",
+      "date": "2026-11-20",
+      "summary": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6.CVE-2026-121810 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.0 - 1.30.6.CVE-2026-123634 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.0.0 - 1.30.6.CVE-2026-113425 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 0.5.33 - 1.30.6.CVE-2026-118899 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.13.0 - 1.30.6.CVE-2026-120967 (medium)This vulnerability affects NGINX…",
       "category": "patch",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-247",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
       "count7d": 1
     },
     "CrowdStrike": {
@@ -89,15 +89,15 @@
       "summary": "",
       "category": "feature",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-isoc/",
-      "count7d": 4
+      "count7d": 2
     },
     "Palo Alto Networks": {
       "vendor": "Palo Alto Networks",
-      "title": "Secure SI by Design Consortium Officially Approved by U.S. Government",
-      "date": "2026-11-17",
-      "summary": "The United States government has officially approved the Secure SI by Design Consortium, an industry coalition led by Palo Alto Networks alongside NVIDIA, IBM, OpenAI, Snowflake, Cognizant, Reflection, Factory, and ServiceNow. Established &#8230; The post Secure SI by Design Consortium Officially Approved by U.S. Government appeared first on Palo Alto Networks Blog .",
-      "category": "feature",
-      "url": "https://www.paloaltonetworks.com/blog/2026/11/secure-si-by-design-consortium-officially-approved-by-u-s-government/",
+      "title": "Why AI Makes Identity Security Urgent",
+      "date": "2026-11-23",
+      "summary": "With contributions from Scott Whitehouse and Maor Franco. Helping Customers Move from Urgency to Action As organizations put AI agents to work, they’re giving more identities access to sensitive information, critical systems &#8230; The post Why AI Makes Identity Security Urgent appeared first on Palo Alto Networks Blog .",
+      "category": "critical",
+      "url": "https://www.paloaltonetworks.com/blog/2026/11/why-ai-makes-identity-security-urgent/",
       "count7d": 1
     }
   },
@@ -247,7 +247,7 @@
       "items": []
     },
     "Dell": {
-      "count": 76,
+      "count": 68,
       "items": [
         {
           "id": "CVE-2026-103782",
@@ -257,6 +257,15 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103782",
           "kev": false,
           "epss": 0.9769999999999999
+        },
+        {
+          "id": "CVE-2026-103788",
+          "title": "Dell Enterprise Sonic Distribution, versions prior to 4.6.1, contains an OS Command Injection vulnerability. An unauthenticated adjacent network attacker could potentially exploit this vulnerability, leading to arbitrary command execution. This vulnerability is considered critical as…",
+          "date": "2026-11-23",
+          "severity": "CRITICAL",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103788",
+          "kev": false,
+          "epss": 3.3480000000000003
         },
         {
           "id": "CVE-2026-111509",
@@ -284,15 +293,6 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116440",
           "kev": false,
           "epss": 0.8380000000000001
-        },
-        {
-          "id": "CVE-2026-134935",
-          "title": "The dell-xps-touchpad-haptics package before 1.0.0-4 for Omarchy allows local users to change ownership of a root-owned file by making their own .config/omarchy/dell-haptic.conf file a symlink to that target file.",
-          "date": "2026-11-23",
-          "severity": "HIGH",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134935",
-          "kev": false,
-          "epss": 0.148
         }
       ]
     },
