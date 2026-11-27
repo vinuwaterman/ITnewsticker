@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-27T03:06:22.790Z",
+  "generatedAt": "2026-11-27T12:58:06.607Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
-      "title": "CVE-2026-112732 Microsoft Office Visio Remote Code Execution Vulnerability",
-      "date": "2026-11-24",
-      "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
+      "title": "CVE-2026-62840 Linux Kernel Elevation of Privilege Vulnerability",
+      "date": "2026-11-27",
+      "summary": "Information published.",
       "category": "patch",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
-      "count7d": 11
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62840",
+      "count7d": 12
     },
     "SAP": {
       "vendor": "SAP",
-      "title": "SAP and planqc Bring Quantum Computing into Business Processes",
-      "date": "2026-11-26",
-      "summary": "MUNICH — With planqc, SAP can develop directly on real quantum hardware and shorten the path to real-world business applications.",
+      "title": "Mastering CBAM Compliance: What SAP&#8217;s Latest Release Means for Declarants",
+      "date": "2026-11-27",
+      "summary": "Businesses have less than a year to ensure their often manual and fragmented compliance processes are ready.",
       "category": "feature",
-      "url": "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/",
-      "count7d": 6
+      "url": "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+      "count7d": 8
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -39,11 +39,11 @@
     },
     "VMware": {
       "vendor": "VMware",
-      "title": "Diagnostics for VMware Cloud Foundation Operations – Newest Findings",
-      "date": "2026-11-25",
-      "summary": "Diagnostics for VMware Cloud Foundation is a centralized platform that monitors the overall operational status of the VMware Cloud Foundation (VCF) software stack. It is a self-service platform that helps you analyze and troubleshoot the components of VMware Cloud Foundation, including vCenter, ESXi, vSAN, capabilities such as vSphere vMotion, snapshots, VM provisioning, and other issues &#8230; Continued The post Diagnostics for VMware Cloud Foundation Operations – Newest Findings appeared first on VMware Blogs .",
+      "title": "VMware Cloud Foundation 9.1.2 の一般提供（GA）を開始",
+      "date": "2026-11-27",
+      "summary": "多くの企業がスピードの向上、コストの削減、セキュリティの強化を目指す一方で、新たな収益源を生み出すためにアプリケーションやワークロードの幅を広げ続けるプレッシャーにも直面しています。VMware Cloud Foundation（VCF）9.1.2 の一般提供（GA）は、こうした課題に直接応えるものであり、新たな AI 自動化機能に加え、VMware vSphere Kubernetes Service（VKS）の機能強化やセキュリティアップデートを提供します。これらのアップデートにより、プラットフォームチームは手動での構成作業にかける時間を減らし、ビジネス価値の創出により多くの時間を割けるようになります。 本記事では、VCF 9.1.2 で追加された主な新機能について詳しくご紹介します。 AI インフラストラクチャのデプロイを自動化 これまで AI ワークロード用のインフラストラクチャを構築するには、複数の手動ステップをつなぎ合わせる必要がありました。VCF 9.1.2 では、単一の VMware vCenter プラグインを通じて Day 0 のデプロイを自動化する「AI インフラストラクチャ・クイックスタート」を導入し、クラスター構成、VMware vSphere Supervisor の有効化、VKS クラスターのセットアップを 1 つの合理化されたワークフローに統合しました。 これにより、チームは基盤となるインフラストラクチャとソフトウェアを 1 つの連携したステップでプロビジョニングできるようになります。長期にわたる手動設定に悩まされることなく、デプロイまでの時間を短縮し、セットアップから AI ワークロードの稼働までを迅速に進めることが可能です。 VKS ワークロードの迅速なオンボーディングとスマートなアップグレード VCF 9.1.2 では、VMware vSphere Kubernetes Service（VKS）向けのクイックスタートも新たに導入されました。本番環境に対応した Supervisor と VKS クラスターをデプロイして Day 1 から開発者がすぐに利用できるようにするとともに、ネットワーキングやロードバランシングのワークフローを合理化して価値創出までの時間（Time to Value）を短縮します。また、必須のアドオンと、クラスターやリソースを視覚化する GUI &#8230; Continued The post VMware Cloud Foundation 9.1.2 の一般提供（GA）を開始 appeared first on VMware Blogs .",
       "category": "feature",
-      "url": "https://blogs.vmware.com/cloud-foundation/2026/11/25/diagnostics-for-vmware-cloud-foundation-operations-newest-findings-3/",
+      "url": "https://blogs.vmware.com/vmware-japan/2026/11/9-1-2-ga-release.html",
       "count7d": 10
     },
     "AWS": {
@@ -184,7 +184,7 @@
       "items": []
     },
     "VMware": {
-      "count": 26,
+      "count": 27,
       "items": [
         {
           "id": "CVE-2026-123903",
@@ -238,7 +238,7 @@
       "items": []
     },
     "Dell": {
-      "count": 63,
+      "count": 93,
       "items": [
         {
           "id": "CVE-2026-111546",
