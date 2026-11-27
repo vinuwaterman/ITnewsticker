@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T20:24:59.366Z",
+  "generatedAt": "2026-11-27T03:06:22.790Z",
   "vendors": {
     "Microsoft": {
       "vendor": "Microsoft",
@@ -8,7 +8,7 @@
       "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
       "category": "patch",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
-      "count7d": 13
+      "count7d": 11
     },
     "SAP": {
       "vendor": "SAP",
@@ -17,7 +17,7 @@
       "summary": "MUNICH — With planqc, SAP can develop directly on real quantum hardware and shorten the path to real-world business applications.",
       "category": "feature",
       "url": "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/",
-      "count7d": 10
+      "count7d": 6
     },
     "Veeam": {
       "vendor": "Veeam",
@@ -62,7 +62,7 @@
       "summary": "The Hopp Children's Cancer Center Heidelberg (KiTZ) uses AI to process complex tumor data in hours instead of days and share insights with hospitals globally.",
       "category": "feature",
       "url": "https://www.dell.com/en-us/blog/ai-turns-childhood-cancer-analysis-from-days-to-hours",
-      "count7d": 14
+      "count7d": 9
     },
     "Lenovo": {
       "vendor": "Lenovo",
